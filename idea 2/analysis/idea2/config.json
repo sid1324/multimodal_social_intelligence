@@ -1,0 +1,34 @@
+{
+  "seed": 42,
+  "dataset": {
+    "name": "VideoNorms",
+    "path": null,
+    "version": null,
+    "provenance_url": null,
+    "records_key": null,
+    "schema_reviewed": false,
+    "columns": {
+      "sample_id": null,
+      "source_video_id": null,
+      "norm_text": null,
+      "gold_norm_judgment": null,
+      "reference_verbal_evidence": null,
+      "reference_nonverbal_evidence": null,
+      "reference_evidence": null,
+      "video_path": null,
+      "transcript": null,
+      "category": null,
+      "language": null,
+      "split": null
+    },
+    "label_values": [],
+    "source_id_level": null,
+    "media_root": "data/raw/videos"
+  },
+  "sampling": {"size": 48, "human_size": 24, "filters": {}, "one_per_source": true},
+  "annotation": {"input_mode": "video_transcript", "annotator_languages": ["English"], "annotators": ["annotator1", "annotator2"], "frame_count": 8, "max_media_gb": 2},
+  "embedding": {"model": "sentence-transformers/all-MiniLM-L6-v2", "revision": null, "language_reviewed": false, "device": "cpu", "batch_size": 32},
+  "bootstrap_replicates": 2000,
+  "data_dir": "data/analysis2",
+  "output_dir": "outputs/analysis2"
+}

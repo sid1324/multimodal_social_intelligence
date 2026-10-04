@@ -1,0 +1,29 @@
+{
+  "seed": 42,
+  "revision": "7646cde5c23e9acf7c2665d19f2f57bcbec0554c",
+  "raw_dir": "data/raw/social_genome",
+  "data_dir": "data/social_genome",
+  "output_dir": "outputs/social_genome",
+  "sample_size": 24,
+  "selection_lock": "analysis/social_genome/study_ids.csv",
+  "max_download_attempts": 45,
+  "max_disk_gb": 2,
+  "input_mode": "video_transcript",
+  "annotator_languages": [
+    "English"
+  ],
+  "annotators": [
+    "annotator1",
+    "annotator2"
+  ],
+  "ta_discussion_confirmed": true,
+  "ta_confirmation_date": "2026-10-04",
+  "bootstrap_replicates": 2000,
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "language_reviewed": true,
+    "device": "cpu",
+    "batch_size": 32
+  }
+}

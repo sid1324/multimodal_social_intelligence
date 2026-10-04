@@ -1,0 +1,42 @@
+<!doctype html><meta charset="utf-8"><title>Social Genome — independent human annotation</title>
+<style>body{font:17px system-ui;max-width:1050px;margin:30px auto;padding:20px;line-height:1.5}video{width:100%;max-height:440px;background:#111}pre{white-space:pre-wrap;max-height:250px;overflow:auto;background:#f2f2f2;padding:16px}label{display:block;margin-top:18px}textarea{width:100%;min-height:90px}button,select,input{font:inherit;padding:8px}button{margin:20px 8px 0 0}.choices{padding:15px;background:#f4f7fa}</style>
+<h1>Social Genome — __NAME__</h1>
+<p>Work independently. __MEDIA_INSTRUCTION__ Select an answer and describe the observations you used in one or two sentences. There are no gold answers or explanations in this packet. Do not consult another annotator or AI.</p>
+<p><b>Save an export periodically.</b> Responses stay in this browser tab until exported. Use the resume control to reload your previous CSV. __AUDIO_NOTE__</p>
+<p id="input-description"></p>
+<p id="position"></p><h2 id="question"></h2><video id="video" controls preload="metadata" __VIDEO_MUTED__></video>
+<div id="sound-controls"><button id="play-sound" type="button">Play with sound</button> <a id="direct-video" target="_blank" rel="noopener">Open this clip directly</a></div>
+<p id="audio-status" role="status"></p>
+<details><summary>Playback details (for troubleshooting)</summary><pre id="playback-details"></pre></details>
+<pre id="transcript"></pre><div class="choices" id="choices"></div>
+<label>Status <select id="response_status"><option value=""></option><option>completed</option><option>unavailable_media</option><option>language_difficulty</option><option>cannot_judge</option></select></label>
+<label>Your answer <select id="selected_answer"><option value=""></option><option>A</option><option>B</option><option>C</option><option>D</option></select></label>
+<label>Observations used (one or two sentences; no long reasoning trace) <textarea id="human_evidence"></textarea></label>
+<label>Confidence (1 low–5 high) <select id="confidence"><option value=""></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+<label>Where was the evidence? <select id="evidence_modality"><option value=""></option>__MODALITY_OPTIONS__</select></label>
+<label>Was your supporting evidence clearly observable? <select id="clearly_observable" class="yn"></select></label>
+<label>Did the evidence require changes over time rather than one frame? <select id="requires_temporal_reasoning" class="yn"></select></label>
+<label>__AUDIO_QUESTION__ <select id="__AUDIO_FIELD__" class="yn"></select></label>
+<label>Did you understand the language in this item? <select id="language_understood" class="yn"></select></label>
+<label>Cues used (separate with semicolons; multiple allowed)<input style="width:95%" id="cue_types" placeholder="gaze;gesture;facial_expression;dialogue_content"></label>
+<p>Other possible cues: posture, proxemics, body_movement, object_interaction, turn_taking, interruption, other. Only use observed cues; __CUE_NOTE__</p>
+<label>Notes: ambiguity, caption errors, missing context, alternative valid evidence <textarea id="notes"></textarea></label>
+<button id="previous">Previous</button><button id="next">Next</button><button id="export">Export responses CSV</button>
+<p>Resume from your previously exported CSV:</p><input id="resume" type="file" accept=".csv"><p id="message"></p>
+<script>
+const rows=__ROWS__, name=__NAME_JSON__;
+const fields=__RESPONSE_FIELDS__;
+rows.forEach(r=>fields.forEach(f=>r[f]=''));let index=0;const el=id=>document.getElementById(id);
+document.querySelectorAll('.yn').forEach(s=>['','yes','no','uncertain'].forEach(v=>{let o=document.createElement('option');o.value=v;o.textContent=v;s.append(o)}));
+function save(){fields.forEach(f=>rows[index][f]=el(f).value)}
+function show(){let r=rows[index];el('position').textContent=`Item ${index+1}/${rows.length}`;el('question').textContent=r.question;el('video').src=r.media_file;el('direct-video').href=r.media_file;el('input-description').textContent=r.input_mode==='video_audio_transcript'?'Current packet: video + audio + transcript.':'Silent packet: these files have no audio track. Use the social_genome_audio packet for the current study.';el('play-sound').disabled=r.input_mode!=='video_audio_transcript';el('transcript').textContent=r.transcript;el('choices').replaceChildren();['A','B','C','D'].forEach((letter,i)=>{let p=document.createElement('p');p.textContent=letter+': '+r['a'+i];el('choices').append(p)});fields.forEach(f=>el(f).value=r[f]);playbackStatus();}
+function playbackStatus(message){const v=el('video'),enabled=rows[index].input_mode==='video_audio_transcript';let status=message;if(!status){if(!enabled)status='This is the old silent packet; its speaker control cannot enable missing audio.';else if(v.error)status='The browser could not play this file. Try Open this clip directly in Chrome.';else if(!v.canPlayType('audio/mp4; codecs="mp4a.40.2"'))status='This browser reports no AAC audio support. Open the page in Chrome or Edge outside an editor preview.';else if(v.muted||v.volume===0)status='Player is muted. Use Play with sound below the video.';else if(v.webkitAudioDecodedByteCount>0)status='Audio is decoding and the player is unmuted. If still silent, check browser-tab and system sound.';else status='Use Play with sound to start audio. If the native speaker is disabled, try Open this clip directly.';}el('audio-status').textContent=status;el('playback-details').textContent=JSON.stringify({page:location.href,media:v.currentSrc||v.src,input:rows[index].input_mode,muted:v.muted,volume:v.volume,readyState:v.readyState,aacSupport:v.canPlayType('audio/mp4; codecs="mp4a.40.2"'),audioBytes:v.webkitAudioDecodedByteCount??null,audioTracks:v.audioTracks?.length??null,error:v.error?{code:v.error.code,message:v.error.message}:null,browser:navigator.userAgent},null,2);}
+el('play-sound').onclick=async()=>{const v=el('video');v.defaultMuted=false;v.muted=false;v.volume=1;try{await v.play();playbackStatus()}catch(error){playbackStatus('Playback could not start: '+error.message+' Try opening the clip directly in Chrome.')}};
+['loadedmetadata','volumechange','playing','pause','error','timeupdate'].forEach(event=>el('video').addEventListener(event,()=>playbackStatus()));
+el('previous').onclick=()=>{save();index=Math.max(0,index-1);show()};el('next').onclick=()=>{save();index=Math.min(rows.length-1,index+1);show()};
+const quote=s=>'"'+String(s).replaceAll('"','""')+'"';
+el('export').onclick=()=>{save();let cols=Object.keys(rows[0]);let csv=[cols.map(quote).join(','),...rows.map(r=>cols.map(c=>quote(r[c])).join(','))].join('\r\n');let u=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));let a=document.createElement('a');a.href=u;a.download=`human_annotations_${name}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);el('message').textContent='Export downloaded. Replace your response CSV with this file.'};
+function parseCSV(s){let all=[],row=[],cell='',q=false;for(let i=0;i<s.length;i++){let c=s[i];if(c==='"'){if(q&&s[i+1]==='"'){cell+='"';i++}else q=!q}else if(c===','&&!q){row.push(cell);cell=''}else if(c==='\n'&&!q){row.push(cell.replace(/\r$/,''));all.push(row);row=[];cell=''}else cell+=c}if(cell||row.length){row.push(cell.replace(/\r$/,''));all.push(row)}if(q)throw Error('Unclosed CSV quote');return all}
+el('resume').onchange=async e=>{try{let [cols,...values]=parseCSV(await e.target.files[0].text());let loaded=values.map(v=>Object.fromEntries(cols.map((c,i)=>[c,v[i]??''])));if(loaded.length!==rows.length||new Set(loaded.map(r=>r.sample_id)).size!==rows.length)throw Error('Wrong rows');for(let r of loaded){let current=rows.find(x=>x.sample_id===r.sample_id);if(!current||Object.keys(current).filter(k=>!fields.includes(k)).some(k=>current[k]!==r[k]))throw Error('Different packet or edited inputs');}loaded.forEach(r=>fields.forEach(f=>rows.find(x=>x.sample_id===r.sample_id)[f]=r[f]??''));show();el('message').textContent='Responses loaded.'}catch(e){el('message').textContent='Import failed: '+e.message}};
+show();
+</script>

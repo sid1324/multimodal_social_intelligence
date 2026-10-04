@@ -1,0 +1,10 @@
+[
+  {
+    "annotator": "annotator1",
+    "sample_id": "sg-92ccd7e4c02e217d",
+    "field": "evidence_modality",
+    "old": "visual_audio",
+    "new": "visual_transcript",
+    "reason": "User confirmation on 2026-10-04: Visual + transcript; audio_used stays no. Original exported CSV remains unchanged."
+  }
+]

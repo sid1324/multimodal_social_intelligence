@@ -1,0 +1,18 @@
+{
+  "recorded_date": "2026-10-04",
+  "python": "3.11.5",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.8.4",
+    "sentence-transformers": "5.2.2",
+    "transformers": "5.1.0",
+    "huggingface-hub": "1.4.1",
+    "torch": "2.10.0",
+    "pytest": "9.0.2"
+  },
+  "local_downloader": "yt-dlp 2026.8.19",
+  "note": "Observed environment for the reported exploratory results; this is not a cross-platform lockfile."
+}

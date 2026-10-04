@@ -1,0 +1,41 @@
+# Local documents and assignment instructions (not part of this publication)
+/docs/
+/SecondAssignment-Instructions.pdf
+*Assignment*Instructions*.pdf
+*Assignment-Instructions*.pdf
+
+# Source data, media, annotation exports, model and feature caches
+/data/
+/raw/
+**/raw_data/
+.cache/
+cache/
+**/__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+*.mp4
+*.m4a
+*.mp3
+*.wav
+*.mkv
+*.webm
+*.mov
+*.vtt
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+**/embeddings/
+**/logs/
+.env
+*.env
+.DS_Store
+
+# Regenerated tables containing source text or individual raw responses
+/outputs/**/tables/human_responses_merged.csv
+/outputs/**/tables/question_clusters.csv
+/outputs/**/tables/transcript_clusters.csv
+/outputs/**/tables/human_evidence_structure_*.csv
+/outputs/**/tables/completed_run_manifest.json

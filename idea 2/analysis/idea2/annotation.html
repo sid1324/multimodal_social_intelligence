@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="utf-8"><title>VideoNorms human annotation</title>
+<style>body{font:18px system-ui;max-width:950px;margin:40px auto;padding:20px;line-height:1.5}img{width:46%;margin:1%}video{max-width:100%}textarea{width:100%;min-height:100px}label{display:block;margin-top:20px}button,select,input{font:inherit;padding:8px}#notice{font-weight:bold}button{margin:20px 8px 0 0}</style>
+<h1>Human annotation — __NAME__</h1>
+<p>Work independently before viewing the audit or references. Describe only the observations you used in one or two short sentences. Do not supply a long reasoning trace. Record unavailable media or language difficulty honestly. Use the same browser tab throughout and export before closing it.</p>
+<p id="position"></p><h2 id="norm"></h2><p id="mode"></p><div id="media"></div><p id="transcript"></p>
+<p id="notice"></p>
+<label>Status <select id="response_status"><option value=""></option><option>completed</option><option>unavailable_media</option><option>language_difficulty</option><option>cannot_judge</option></select></label>
+<label>Judgment <select id="predicted_judgment"><option value=""></option></select></label>
+<label>Observations used <textarea id="human_evidence"></textarea></label>
+<label>Confidence (optional, 1 low–5 high) <select id="confidence"><option value=""></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+<label>Evidence modality (optional) <select id="evidence_modality"><option value=""></option><option>visual_only</option><option>verbal_only</option><option>both</option><option>ambiguous_unavailable</option></select></label>
+<button id="previous">Previous</button><button id="next">Next</button><button id="export">Export responses CSV</button>
+<p>Your answers remain in this tab's memory until exported. Save the CSV in your annotator folder, replacing its blank template. You can resume from that CSV:</p><input id="resume" type="file" accept=".csv">
+<script>
+const rows=__ROWS__, labels=__LABELS__, name=__NAME_JSON__;
+const fields=['predicted_judgment','human_evidence','confidence','evidence_modality','response_status'];
+rows.forEach(r=>fields.forEach(f=>r[f]=''));
+let index=0;
+const el=id=>document.getElementById(id);
+labels.forEach(x=>{let o=document.createElement('option');o.value=x;o.textContent=x;el('predicted_judgment').append(o)});
+function save(){fields.forEach(f=>rows[index][f]=el(f).value)}
+function show(){let r=rows[index];el('position').textContent=`Item ${index+1} of ${rows.length}`;el('norm').textContent=r.norm_text;el('mode').textContent=`Input: ${r.input_mode}`;el('transcript').textContent=r.transcript;el('media').replaceChildren();el('notice').textContent=r.media_files?'':'Media unavailable — do not infer a response from the norm alone.';r.media_files.split('|').filter(Boolean).forEach(p=>{let m=document.createElement(r.input_mode==='silent_frames'?'img':'video');m.src=p;if(m.tagName==='VIDEO'){m.controls=true;m.muted=r.input_mode==='video_transcript'}else{m.alt='Sampled video frame'};el('media').append(m)});fields.forEach(f=>el(f).value=r[f]);}
+el('previous').onclick=()=>{save();index=Math.max(0,index-1);show()};
+el('next').onclick=()=>{save();index=Math.min(rows.length-1,index+1);show()};
+const quote=s=>'"'+String(s).replaceAll('"','""')+'"';
+el('export').onclick=()=>{save();let cols=Object.keys(rows[0]);let csv=[cols.map(quote).join(','),...rows.map(r=>cols.map(c=>quote(r[c])).join(','))].join('\r\n');let url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));let a=document.createElement('a');a.href=url;a.download=`human_annotations_${name}.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+// RFC 4180 quoted fields, including embedded newlines.
+function parseCSV(s){let all=[],row=[],cell='',q=false;for(let i=0;i<s.length;i++){let c=s[i];if(c==='"'){if(q&&s[i+1]==='"'){cell+='"';i++}else q=!q}else if(c===','&&!q){row.push(cell);cell=''}else if(c==='\n'&&!q){row.push(cell.replace(/\r$/,''));all.push(row);row=[];cell=''}else cell+=c}if(cell||row.length){row.push(cell.replace(/\r$/,''));all.push(row)}if(q)throw Error('Unclosed CSV quote');return all}
+el('resume').onchange=async e=>{try{let [cols,...values]=parseCSV(await e.target.files[0].text());let loaded=values.map(v=>Object.fromEntries(cols.map((c,i)=>[c,v[i]??''])));if(loaded.length!==rows.length||new Set(loaded.map(r=>r.sample_id)).size!==rows.length)throw Error('Wrong or duplicate rows');for(let r of loaded){let current=rows.find(x=>x.sample_id===r.sample_id);if(!current||current.norm_text!==r.norm_text)throw Error('Different annotation packet');}loaded.forEach(r=>fields.forEach(f=>rows.find(x=>x.sample_id===r.sample_id)[f]=r[f]??''));show()}catch(e){alert('Cannot import: '+e.message)}};
+show();
+</script>
