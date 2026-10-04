@@ -41,10 +41,10 @@ single-annotator audiovisual study. The final results are in
 
 ## Run from this directory
 
-All relative paths are relative to `idea 2/`, so quote its name:
+All relative paths are relative to `idea2/`:
 
 ```bash
-cd 'idea 2'
+cd idea2
 python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements-analysis2.txt

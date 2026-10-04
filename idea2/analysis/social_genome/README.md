@@ -1,7 +1,7 @@
 # Active Social Genome analysis
 
 See the [package README](../../README.md) for setup, completed results, excluded
-data and reproduction instructions. Run commands from the `idea 2/` directory.
+data and reproduction instructions. Run commands from the `idea2/` directory.
 
 ```bash
 python -m analysis.social_genome --help

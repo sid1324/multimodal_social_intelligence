@@ -23,7 +23,7 @@ For Milestone 2, each idea's premises were tested directly on the data, using re
 Each analysis lives in its own top-level folder with its own README describing its code, results and how to obtain the data.
 
 - [Idea 1: Progressive perceptual grounding](idea1/) — rechecked analyses, report sections, and the 20-item human exercise.
-- [Idea 2: Evidence-grounded reward feasibility](idea%202/) — Social Genome single-annotator audit, language diagnostics, scripts, tests, and figures.
+- [Idea 2: Evidence-grounded reward feasibility](idea2/) — Social Genome single-annotator audit, language diagnostics, scripts, tests, and figures.
 - [Idea 3: Face-bias premise tests](idea3_face_bias/) — existing Analysis 2 contribution.
 
 ## Notes
