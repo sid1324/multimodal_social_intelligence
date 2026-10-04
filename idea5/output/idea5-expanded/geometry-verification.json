@@ -1,0 +1,7 @@
+{
+  "frames": 200,
+  "finite_depth_arrays": 200,
+  "decoded_geometry_images": 400,
+  "aligned_four_grid_sets": 40,
+  "agent_rows": 30
+}

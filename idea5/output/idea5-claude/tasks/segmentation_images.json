@@ -1,0 +1,366 @@
+{
+ "condition": "segmentation_images",
+ "indexing": "1-based option positions",
+ "items": [
+  {
+   "case_number": 1,
+   "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Shape the material into intricate patterns on a surface using a tool.",
+    "Apply the material evenly onto the surface using a tool.",
+    "Point at the wall and describe the surface texture.",
+    "Follow the instructions to apply the material to a small area using a tool for practice.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Intricate patterns demonstrate skill and are often desired.",
+    "Even application is standard practice for most material applications.",
+    "[None of these justifications is appropriate]",
+    "Describing texture is a standard way to assess surface properties.",
+    "Practice is essential for mastering any skill."
+   ]
+  },
+  {
+   "case_number": 2,
+   "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Provide guests with the necessary utensils and ingredients for a collaborative dish.",
+    "Hand the person food without commenting on their attire or seating.",
+    "Encourage friends to join you in diverse dishes while filming.",
+    "Ask the person to put on a shirt before you serve them food."
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "It's polite to not assume or comment on someone's state of being, especially in a social setting.",
+    "Ensuring guests are appropriately dressed is a standard practice in dining etiquette.",
+    "Filming with friends during a cooking session promotes engagement and creativity.",
+    "In a dinner party scenario, it's normative to involve guests in the cooking process."
+   ]
+  },
+  {
+   "case_number": 3,
+   "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Inspect the chip under magnification, and replace if necessary.",
+    "Solder the clasp with precision tools.",
+    "Tighten the bolt using a wrench.",
+    "Smooth the clay using a sculpting tool."
+   ],
+   "justification_options": [
+    "Creating a refined sculpture demands careful shaping; using appropriate tools ensures a professional result.",
+    "The delicate nature of the clasp necessitates precision; soldering with specialized tools minimizes damage and ensures a strong join.",
+    "Proper assembly requires secure fastening; using a wrench is the standard and safest method.",
+    "[None of these justifications is appropriate]",
+    "Quality control requires thorough inspection; replacing defective components is standard practice to maintain functionality and prevent failures."
+   ]
+  },
+  {
+   "case_number": 4,
+   "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Place the assembled furniture carefully away from the cat.",
+    "Incorporate the wooden box into the toy box's construction.",
+    "[None of these actions is appropriate]",
+    "Securely fasten the birdhouse to the post, away from any hazard.",
+    "Place the donated items neatly into a separate box."
+   ],
+   "justification_options": [
+    "Securing the birdhouse prevents damage and potential harm to the bird, demonstrating responsible construction and care for wildlife.",
+    "Integrating the wooden box into the toy box construction avoids waste and promotes efficient use of resources, reflecting resourcefulness and responsible crafting.",
+    "Careful placement prevents damage to the furniture and ensures the safety of the cat, reflecting responsible handling of objects and concern for animal welfare.",
+    "Neatly organizing donated items shows respect for the donation and ensures efficient handling of the items, reflecting responsible donation practices and consideration for recipients.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 5,
+   "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Stir the pot of soup and check its consistency.",
+    "Show the person how to toss the salad evenly using large utensils.",
+    "[None of these actions is appropriate]",
+    "Place food from serving platters into storage containers and label them.",
+    "Direct the person to chop vegetables while you monitor several pots on the stove."
+   ],
+   "justification_options": [
+    "Using large utensils is efficient and ensures even salad tossing; it's a standard technique.",
+    "Proper food storage is crucial for food safety and hygiene; labeling is essential.",
+    "Checking consistency ensures the soup is properly cooked, a standard cooking practice.",
+    "Directing others efficiently utilizes time and resources in a busy kitchen.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 6,
+   "id": "8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Tighten the derailleur cable using an adjustment barrel.",
+    "Replace the worn-out tires with recycled ones.",
+    "[None of these actions is appropriate]",
+    "Explain how to adjust the brakes to the customer.",
+    "Demonstrate proper chain lubrication to the students."
+   ],
+   "justification_options": [
+    "This action demonstrates a practical skill relevant to bicycle maintenance, a common task requiring proficiency.",
+    "This action promotes the sharing of knowledge and best practices, benefiting the students and the community.",
+    "[None of these justifications is appropriate]",
+    "This action fulfills a customer service role by providing needed information and assistance.",
+    "This action promotes sustainability and responsible resource management, reflecting environmentally conscious practices."
+   ]
+  },
+  {
+   "case_number": 7,
+   "id": "ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Select clothing items the stylist recommends based on their expertise.",
+    "Grab the desired item and proceed directly to the checkout.",
+    "Ask the companion for their opinion on a few outfits.",
+    "Negotiate the price of several items with the store employee.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Directness can save time and effort when one is certain of their choices.",
+    "Relying on an expert's judgment is efficient and can result in a better-fitting selection.",
+    "Seeking a second opinion before making a decision is a common courtesy and can lead to a more satisfying outcome.",
+    "[None of these justifications is appropriate]",
+    "Negotiating can lead to a better price and demonstrates resourcefulness."
+   ]
+  },
+  {
+   "case_number": 8,
+   "id": "19493340-9a5c-406c-9943-712a4a4a073c_634-74",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/19493340-9a5c-406c-9943-712a4a4a073c_634-74_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/19493340-9a5c-406c-9943-712a4a4a073c_634-74_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Align the edges of the sod and press it firmly into the soil.",
+    "[None of these actions is appropriate]",
+    "Roll the paint evenly onto the wall surface.",
+    "Peel off sections of wallpaper starting from the corners.",
+    "Flatten the dough into a uniform thickness using a rolling pin."
+   ],
+   "justification_options": [
+    "Careful peeling prevents wallpaper damage.",
+    "Even paint application ensures a professional finish.",
+    "Proper sod alignment ensures a healthy, even lawn.",
+    "[None of these justifications is appropriate]",
+    "Uniform dough thickness is crucial for consistent baking."
+   ]
+  },
+  {
+   "case_number": 9,
+   "id": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Offer assistance with selecting an appropriate outfit to the boss.",
+    "Check each item carefully, looking for any damage or flaws.",
+    "Suggest complementary items to create the best wedding look for the customer.",
+    "Ask your friend for their opinion on a potential purchase."
+   ],
+   "justification_options": [
+    "Suggesting complementary items demonstrates professionalism and customer service, aiming to enhance the customer's experience and satisfaction.",
+    "Offering assistance shows respect for the boss's time and position, and promotes a positive work environment.",
+    "Checking for damage is a standard procedure to ensure quality control and avoid potential issues or returns, aligning with responsible business practices.",
+    "[None of these justifications is appropriate]",
+    "Seeking a friend's opinion before a purchase is a common and polite way to leverage social support and avoid regrettable decisions."
+   ]
+  },
+  {
+   "case_number": 10,
+   "id": "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/750c5383-58f6-4063-8cc8-50691a68994d_870-14_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/750c5383-58f6-4063-8cc8-50691a68994d_870-14_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Place the clothes back on the appropriate rack and inform the person where they can be found again if needed.",
+    "Help the person find an item that matches their preferences by showing them options from the inventory system.",
+    "Hold up one of the outfits and ask the person which one they prefer for the event.",
+    "Ask the person if they think the clothes you are holding would suit you.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Returning items keeps the store organized and shows courtesy.",
+    "Offering options is efficient and helps the person find what they need.",
+    "[None of these justifications is appropriate]",
+    "Presenting choices facilitates decision-making for the person.",
+    "Seeking input ensures the person feels involved and respected."
+   ]
+  },
+  {
+   "case_number": 11,
+   "id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Show the clothes to one of the people and ask for their opinion.",
+    "Hold up the clothes and discuss whether they would suit the intended recipient.",
+    "Fold the clothes neatly and place them on a display table.",
+    "[None of these actions is appropriate]",
+    "Sort the clothes into appropriate piles based on condition or type."
+   ],
+   "justification_options": [
+    "Holding up clothes and discussing suitability shows consideration for the recipient.",
+    "Seeking opinions is a polite way to involve others in decision-making regarding clothing.",
+    "Neatly displayed clothes enhance the shopping experience and increase sales potential.",
+    "Sorting clothes efficiently makes the process of managing them easier and more organized.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 12,
+   "id": "b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Ask the person about their weekend plans.",
+    "[None of these actions is appropriate]",
+    "Confirm vacation dates with the person.",
+    "Review the contract's key terms with the person.",
+    "Inquire about the next steps in treatment with the person."
+   ],
+   "justification_options": [
+    "Reviewing key terms ensures mutual understanding and prevents future disagreements, a standard practice in professional settings.",
+    "It's a common social courtesy to inquire about someone's weekend plans, fostering connection and demonstrating interest.",
+    "Confirming dates is crucial for effective planning and coordination, avoiding potential conflicts and misunderstandings.",
+    "Inquiring about the next steps demonstrates care and proactive engagement with the person's well-being, a hallmark of good caregiving.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 13,
+   "id": "699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Hang up your hard hat and go home.",
+    "[None of these actions is appropriate]",
+    "Assist workers by checking their tools and compliance with safety standards.",
+    "Share the phone with a colleague to discreetly record what's happening.",
+    "Display the phone to show project details during the meeting."
+   ],
+   "justification_options": [
+    "As a supervisor, it is expected to verify that all tasks are completed correctly and safely.",
+    "[None of these justifications is appropriate]",
+    "It's best to not waste time when your work day is over.",
+    "In a meeting with coworkers, sharing project details is standard practice to foster transparency.",
+    "In an environment where one wants to avoid being monitored, using the phone in this way represents a deviation from expected transparency practices."
+   ]
+  },
+  {
+   "case_number": 14,
+   "id": "5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Ask questions about the store\u2019s policies or products to gauge the person's knowledge.",
+    "Pick up the dropped item and hand it back to the person.",
+    "[None of these actions is appropriate]",
+    "Assist the person by directing them to the correct aisle or section.",
+    "Continue browsing items on display while speaking to the person."
+   ],
+   "justification_options": [
+    "Helping someone retrieve a dropped item is courteous and kind.",
+    "[None of these justifications is appropriate]",
+    "Maintaining a conversation while browsing is polite and efficient.",
+    "Asking questions is a way to better understand customers and their needs.",
+    "Assisting customers is a standard practice for helpful service."
+   ]
+  },
+  {
+   "case_number": 15,
+   "id": "695cefe9-04c0-42fb-80fc-d308b314b788_443-90",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/695cefe9-04c0-42fb-80fc-d308b314b788_443-90_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/695cefe9-04c0-42fb-80fc-d308b314b788_443-90_segmentation.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\n\nImage 2: segmentation.",
+   "action_options": [
+    "Light the candle in celebration with Person X",
+    "Place it on an altar for prayer with Person X.",
+    "Present the candle to the person, describe its scent and color.",
+    "Offer the customer options or sizes of similar candles.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Offering choices is a common courtesy in customer service, ensuring satisfaction.",
+    "[None of these justifications is appropriate]",
+    "Presenting a gift often involves highlighting its features to enhance appreciation.",
+    "Sharing celebratory actions strengthens social bonds and creates positive memories.",
+    "Using objects in a ritualistic setting is a culturally recognized way to express devotion or commemorate an event."
+   ]
+  }
+ ]
+}

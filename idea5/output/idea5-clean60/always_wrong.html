@@ -1,0 +1,106 @@
+<!doctype html><meta charset="utf-8"><title>Items every model misses</title>
+<style>body{font:15px/1.45 -apple-system,Helvetica,sans-serif;margin:24px;color:#111;background:#fafaf8;max-width:1500px}img{width:100%;display:block;margin:4px 0 10px}h2{margin-top:44px;border-top:1px solid #ccc;padding-top:18px}.gold{background:#d9f2dc;font-weight:600}td,th{padding:3px 8px;text-align:left;vertical-align:top}table{border-collapse:collapse;margin:8px 0}small{color:#555}.lab{font-size:12px;color:#555;margin-top:8px}</style>
+<h1>The 6 items every model gets wrong with frames</h1>
+<p>For each item: the five frames, the depth and segmentation maps the models saw, the options (labelled answer in green), and the action each model chose with frames and with frames plus maps.</p>
+<h2>1. a5e74924-6083-4618-b830-f528c5199ed9_5985-35 <small>Communication/Legibility, Cooperation</small></h2>
+<div class="lab">RGB frames (left to right in time)</div><img src="grids/a5e74924-6083-4618-b830-f528c5199ed9_5985-35_rgb.jpg">
+<div class="lab">Estimated depth (brighter = nearer)</div><img src="grids/a5e74924-6083-4618-b830-f528c5199ed9_5985-35_depth.jpg">
+<div class="lab">Segmentation (labels can be wrong)</div><img src="grids/a5e74924-6083-4618-b830-f528c5199ed9_5985-35_segmentation.jpg">
+<table><tr><th>#</th><th>Action</th><th>Justification</th></tr>
+<tr><td>0</td><td>Adjust the lighting equipment for optimal photo composition.</td><td>Adjusting lighting is a helpful and considerate action that improves the quality of the photo for everyone involved.</td></tr>
+<tr><td>1</td><td>Smile for the selfie, standing near the person.</td><td>Smiling and standing near someone during a photo is a common and polite way to participate.</td></tr>
+<tr class="gold"><td>2</td><td>Wave and smile at the camera during video recording.</td><td>Waving and smiling is an enthusiastic and positive way to engage with a video recording, making it more enjoyable for viewers.</td></tr>
+<tr><td>3</td><td>Offer to take a photo of the couple, using their camera.</td><td>Offering to take a photo is a courteous and helpful gesture that assists others and shows willingness to help.</td></tr>
+</table><table><tr><th>Model</th><th>Action chosen with frames</th><th>Action chosen with frames + maps</th></tr>
+<tr><td>Qwen3-VL-32B</td><td>3: Offer to take a photo of the couple, using their camera.</td><td>3: Offer to take a photo of the couple, using their camera.</td></tr>
+<tr><td>GPT-5.5</td><td>3: Offer to take a photo of the couple, using their camera.</td><td>3: Offer to take a photo of the couple, using their camera.</td></tr>
+<tr><td>GPT-5.6</td><td>1: Smile for the selfie, standing near the person.</td><td>1: Smile for the selfie, standing near the person.</td></tr>
+<tr><td>GPT-6</td><td>3: Offer to take a photo of the couple, using their camera.</td><td>3: Offer to take a photo of the couple, using their camera.</td></tr>
+<tr><td>Sonnet 5.5</td><td>3: Offer to take a photo of the couple, using their camera.</td><td>3: Offer to take a photo of the couple, using their camera.</td></tr>
+<tr><td>Opus 5.5</td><td>1: Smile for the selfie, standing near the person.</td><td>1: Smile for the selfie, standing near the person.</td></tr>
+</table>
+<h2>2. 182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54 <small>Politeness, Cooperation, Coordination/Proactivity</small></h2>
+<div class="lab">RGB frames (left to right in time)</div><img src="grids/182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54_rgb.jpg">
+<div class="lab">Estimated depth (brighter = nearer)</div><img src="grids/182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54_depth.jpg">
+<div class="lab">Segmentation (labels can be wrong)</div><img src="grids/182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54_segmentation.jpg">
+<table><tr><th>#</th><th>Action</th><th>Justification</th></tr>
+<tr class="gold"><td>0</td><td>Plate the meals individually for service.</td><td>Respectful presentation enhances the dining experience.</td></tr>
+<tr><td>1</td><td>Chop vegetables for the stew.</td><td>Efficient preparation is key to timely meal completion.</td></tr>
+<tr><td>2</td><td>Organize volunteers to assist with food preparation.</td><td>Effective teamwork optimizes resource utilization and ensures smooth operation.</td></tr>
+<tr><td>3</td><td>Puree the vegetables to make them easier to eat.</td><td>Adapting to dietary needs shows consideration and care.</td></tr>
+</table><table><tr><th>Model</th><th>Action chosen with frames</th><th>Action chosen with frames + maps</th></tr>
+<tr><td>Qwen3-VL-32B</td><td>2: Organize volunteers to assist with food preparation.</td><td>2: Organize volunteers to assist with food preparation.</td></tr>
+<tr><td>GPT-5.5</td><td>2: Organize volunteers to assist with food preparation.</td><td>2: Organize volunteers to assist with food preparation.</td></tr>
+<tr><td>GPT-5.6</td><td>2: Organize volunteers to assist with food preparation.</td><td>2: Organize volunteers to assist with food preparation.</td></tr>
+<tr><td>GPT-6</td><td>2: Organize volunteers to assist with food preparation.</td><td>2: Organize volunteers to assist with food preparation.</td></tr>
+<tr><td>Sonnet 5.5</td><td>1: Chop vegetables for the stew.</td><td>1: Chop vegetables for the stew.</td></tr>
+<tr><td>Opus 5.5</td><td>2: Organize volunteers to assist with food preparation.</td><td>2: Organize volunteers to assist with food preparation.</td></tr>
+</table>
+<h2>3. d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05 <small>Proxemics</small></h2>
+<div class="lab">RGB frames (left to right in time)</div><img src="grids/d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05_rgb.jpg">
+<div class="lab">Estimated depth (brighter = nearer)</div><img src="grids/d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05_depth.jpg">
+<div class="lab">Segmentation (labels can be wrong)</div><img src="grids/d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05_segmentation.jpg">
+<table><tr><th>#</th><th>Action</th><th>Justification</th></tr>
+<tr><td>0</td><td>Cut the leaves and place them into a basket.</td><td>Harvesting crops requires careful handling and collection.</td></tr>
+<tr><td>1</td><td>Chop the vegetables into smaller pieces and arrange them on a cutting board.</td><td>Food preparation necessitates chopping vegetables for cooking.</td></tr>
+<tr class="gold"><td>2</td><td>Pull out unwanted plants and pile them to the side.</td><td>Maintaining a tidy garden involves removing unwanted growth.</td></tr>
+<tr><td>3</td><td>Weigh the items and hand them over in exchange for payment.</td><td>Commercial transactions demand accurate weighing and exchange.</td></tr>
+</table><table><tr><th>Model</th><th>Action chosen with frames</th><th>Action chosen with frames + maps</th></tr>
+<tr><td>Qwen3-VL-32B</td><td>0: Cut the leaves and place them into a basket.</td><td>0: Cut the leaves and place them into a basket.</td></tr>
+<tr><td>GPT-5.5</td><td>0: Cut the leaves and place them into a basket.</td><td>0: Cut the leaves and place them into a basket.</td></tr>
+<tr><td>GPT-5.6</td><td>0: Cut the leaves and place them into a basket.</td><td>0: Cut the leaves and place them into a basket.</td></tr>
+<tr><td>GPT-6</td><td>0: Cut the leaves and place them into a basket.</td><td>0: Cut the leaves and place them into a basket.</td></tr>
+<tr><td>Sonnet 5.5</td><td>0: Cut the leaves and place them into a basket.</td><td>0: Cut the leaves and place them into a basket.</td></tr>
+<tr><td>Opus 5.5</td><td>0: Cut the leaves and place them into a basket.</td><td>0: Cut the leaves and place them into a basket.</td></tr>
+</table>
+<h2>4. 146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80 <small>Cooperation</small></h2>
+<div class="lab">RGB frames (left to right in time)</div><img src="grids/146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80_rgb.jpg">
+<div class="lab">Estimated depth (brighter = nearer)</div><img src="grids/146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80_depth.jpg">
+<div class="lab">Segmentation (labels can be wrong)</div><img src="grids/146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80_segmentation.jpg">
+<table><tr><th>#</th><th>Action</th><th>Justification</th></tr>
+<tr class="gold"><td>0</td><td>Help one of the children choose an item from the display shelf.</td><td>Assisting children promotes kindness and good customer service.</td></tr>
+<tr><td>1</td><td>Wave goodbye to the group as you exit the building.</td><td>A polite farewell is standard social etiquette.</td></tr>
+<tr><td>2</td><td>Confirm the names on the packages before handing them over.</td><td>Verifying order accuracy ensures correct delivery.</td></tr>
+<tr><td>3</td><td>Ask if anyone wants to share a pastry before placing an order.</td><td>Sharing is courteous before making personal choices.</td></tr>
+</table><table><tr><th>Model</th><th>Action chosen with frames</th><th>Action chosen with frames + maps</th></tr>
+<tr><td>Qwen3-VL-32B</td><td>1: Wave goodbye to the group as you exit the building.</td><td>1: Wave goodbye to the group as you exit the building.</td></tr>
+<tr><td>GPT-5.5</td><td>1: Wave goodbye to the group as you exit the building.</td><td>1: Wave goodbye to the group as you exit the building.</td></tr>
+<tr><td>GPT-5.6</td><td>1: Wave goodbye to the group as you exit the building.</td><td>1: Wave goodbye to the group as you exit the building.</td></tr>
+<tr><td>GPT-6</td><td>1: Wave goodbye to the group as you exit the building.</td><td>1: Wave goodbye to the group as you exit the building.</td></tr>
+<tr><td>Sonnet 5.5</td><td>3: Ask if anyone wants to share a pastry before placing an order.</td><td>3: Ask if anyone wants to share a pastry before placing an order.</td></tr>
+<tr><td>Opus 5.5</td><td>3: Ask if anyone wants to share a pastry before placing an order.</td><td>3: Ask if anyone wants to share a pastry before placing an order.</td></tr>
+</table>
+<h2>5. 069c1058-881d-49da-b45d-b9f7e08fe932_475-96 <small>Proxemics, Coordination/Proactivity</small></h2>
+<div class="lab">RGB frames (left to right in time)</div><img src="grids/069c1058-881d-49da-b45d-b9f7e08fe932_475-96_rgb.jpg">
+<div class="lab">Estimated depth (brighter = nearer)</div><img src="grids/069c1058-881d-49da-b45d-b9f7e08fe932_475-96_depth.jpg">
+<div class="lab">Segmentation (labels can be wrong)</div><img src="grids/069c1058-881d-49da-b45d-b9f7e08fe932_475-96_segmentation.jpg">
+<table><tr><th>#</th><th>Action</th><th>Justification</th></tr>
+<tr><td>0</td><td>Offer the person a modified piece of wood, suitable for their needs.</td><td>Offering a solution demonstrates helpfulness and problem-solving skills.</td></tr>
+<tr class="gold"><td>1</td><td>Hand the person the next piece of wood.</td><td>Providing assistance directly and efficiently is generally preferred.</td></tr>
+<tr><td>2</td><td>Pass the person the necessary wood element to continue the sculpture.</td><td>Facilitating the continuation of a task is a supportive and efficient approach.</td></tr>
+<tr><td>3</td><td>Place each piece of wood carefully on the student&#x27;s workbench.</td><td>Careful handling demonstrates respect for materials and the recipient&#x27;s work.</td></tr>
+</table><table><tr><th>Model</th><th>Action chosen with frames</th><th>Action chosen with frames + maps</th></tr>
+<tr><td>Qwen3-VL-32B</td><td>1: Hand the person the next piece of wood.</td><td>1: Hand the person the next piece of wood.</td></tr>
+<tr><td>GPT-5.5</td><td>2: Pass the person the necessary wood element to continue the sculpture.</td><td>2: Pass the person the necessary wood element to continue the sculpture.</td></tr>
+<tr><td>GPT-5.6</td><td>2: Pass the person the necessary wood element to continue the sculpture.</td><td>2: Pass the person the necessary wood element to continue the sculpture.</td></tr>
+<tr><td>GPT-6</td><td>2: Pass the person the necessary wood element to continue the sculpture.</td><td>2: Pass the person the necessary wood element to continue the sculpture.</td></tr>
+<tr><td>Sonnet 5.5</td><td>1: Hand the person the next piece of wood.</td><td>1: Hand the person the next piece of wood.</td></tr>
+<tr><td>Opus 5.5</td><td>2: Pass the person the necessary wood element to continue the sculpture.</td><td>2: Pass the person the necessary wood element to continue the sculpture.</td></tr>
+</table>
+<h2>6. db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83 <small>Politeness, Proxemics, Communication/Legibility</small></h2>
+<div class="lab">RGB frames (left to right in time)</div><img src="grids/db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83_rgb.jpg">
+<div class="lab">Estimated depth (brighter = nearer)</div><img src="grids/db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83_depth.jpg">
+<div class="lab">Segmentation (labels can be wrong)</div><img src="grids/db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83_segmentation.jpg">
+<table><tr><th>#</th><th>Action</th><th>Justification</th></tr>
+<tr class="gold"><td>0</td><td>Engage in friendly conversation with each person at market stall.</td><td>Friendly engagement fosters positive relationships and contributes to a pleasant and productive market environment.</td></tr>
+<tr><td>1</td><td>Present your business proposal to the client and colleagues.</td><td>Presenting a proposal is a conventional and expected way to formally communicate business ideas and seek approval.</td></tr>
+<tr><td>2</td><td>Ask the factory workers about the egg production process.</td><td>Gathering firsthand information directly from those involved is a standard practice for understanding a process.</td></tr>
+<tr><td>3</td><td>Assess each candidate&#x27;s baking skills and experience level.</td><td>Thorough assessment is a crucial step in selecting qualified personnel for a job, aligning with fair and effective hiring practices.</td></tr>
+</table><table><tr><th>Model</th><th>Action chosen with frames</th><th>Action chosen with frames + maps</th></tr>
+<tr><td>Qwen3-VL-32B</td><td>2: Ask the factory workers about the egg production process.</td><td>2: Ask the factory workers about the egg production process.</td></tr>
+<tr><td>GPT-5.5</td><td>2: Ask the factory workers about the egg production process.</td><td>2: Ask the factory workers about the egg production process.</td></tr>
+<tr><td>GPT-5.6</td><td>2: Ask the factory workers about the egg production process.</td><td>2: Ask the factory workers about the egg production process.</td></tr>
+<tr><td>GPT-6</td><td>2: Ask the factory workers about the egg production process.</td><td>2: Ask the factory workers about the egg production process.</td></tr>
+<tr><td>Sonnet 5.5</td><td>2: Ask the factory workers about the egg production process.</td><td>2: Ask the factory workers about the egg production process.</td></tr>
+<tr><td>Opus 5.5</td><td>2: Ask the factory workers about the egg production process.</td><td>2: Ask the factory workers about the egg production process.</td></tr>
+</table>

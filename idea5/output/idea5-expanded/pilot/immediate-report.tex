@@ -1,0 +1,44 @@
+\documentclass[10pt]{article}
+\usepackage[letterpaper,margin=0.6in]{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\begin{document}
+\fontsize{9.5}{11}\selectfont
+\begin{center}{\Large\bfseries EgoNormia: Immediate Three-Example Pilot}\\[5pt]October 4, 2026\end{center}
+\noindent\textbf{Status.} This is an immediate snapshot of the first three fixed-order clips whose 16 conditions are complete. The extensive 40-clip run continues separately. These three examples were not chosen by performance. No training was performed.
+\paragraph{Setup.} Qwen3-VL-32B-Instruct, community 8-bit MLX checkpoint, runs locally on an M5 Max with 128 GiB RAM. Each clip has five pre-action frames. Inputs are RGB alone, RGB plus pose, RGB plus COCO instance segmentation, RGB plus relative depth, or RGB plus all three. Each is tested with images alone and with attached text. RGB captions are generated from RGB without questions, answer options, or labels; processed descriptions summarize extractor outputs. Repeated-RGB and shuffled-map controls are also tested. Actions are selected first; justifications are conditioned on the selected action. Options are permuted identically across conditions.
+\begin{center}\small
+\begin{tabular}{lccc}
+ & Action correct & Justification correct & Both correct\\\hline
+RGB (images) & 1/3 & 1/3 & 1/3\\
+RGB (images + text) & 1/3 & 1/3 & 1/3\\
+RGB + pose (images) & 1/3 & 1/3 & 1/3\\
+RGB + pose (images + text) & 1/3 & 1/3 & 1/3\\
+RGB + segmentation (images) & 1/3 & 1/3 & 1/3\\
+RGB + segmentation (images + text) & 1/3 & 1/3 & 1/3\\
+RGB + depth (images) & 1/3 & 1/3 & 1/3\\
+RGB + depth (images + text) & 1/3 & 1/3 & 1/3\\
+RGB + all three (images) & 1/3 & 1/3 & 1/3\\
+RGB + all three (images + text) & 1/3 & 1/3 & 1/3\\
+RGB + repeated RGB (images) & 1/3 & 1/3 & 1/3\\
+RGB + repeated RGB (images + text) & 1/3 & 1/3 & 1/3\\
+RGB $\times$ 4 (images) & 1/3 & 1/3 & 1/3\\
+RGB $\times$ 4 (images + text) & 1/3 & 1/3 & 1/3\\
+RGB + all three shuffled (images) & 1/3 & 1/3 & 1/3\\
+RGB + all three shuffled (images + text) & 1/3 & 1/3 & 1/3\\
+\end{tabular}\end{center}
+\paragraph{Observed result.} Qwen gets the kitchen/tray case correct and selects the none option for both action and justification in the construction and automotive/cloth cases, where that option is incorrect. Its selected action and justification are unchanged across all 16 conditions in all three examples. Thus every condition has 1/3 joint correctness; there are zero gains, zero declines, and zero answer changes in this snapshot. This does not establish that geometry or descriptions have no effect on the larger dataset or after training.
+\paragraph{Requested GPT agent pilot.} A spawned agent configured with the requested \texttt{gpt-5.6-sol} override viewed the actual image grids without gold labels. On the same three cases, joint correctness is:
+\begin{center}\small\begin{tabular}{lr}
+Condition & Agent both correct\\\hline
+all descriptions & 3/3 \\
+depth descriptions & 3/3 \\
+pose descriptions & 3/3 \\
+rgb descriptions & 3/3 \\
+rgb images & 3/3 \\
+segmentation descriptions & 3/3 \\
+\end{tabular}\end{center}
+\noindent The agent's answers also do not change across its conditions. Its context accumulates and it uses image-viewing tools, unlike Qwen's stateless local calls. The requested override was accepted by orchestration but not independently inspected inside the agent. These are workflow observations, not a controlled model ranking. The full agent pilot has five cases; this report shows the matched three.
+\paragraph{Representation limits and review.} Body/hand pose comes from frozen MediaPipe models, segmentation from YOLOv8n-seg, and depth from Depth Anything V2 Small. All are derived from RGB. Depth has no measured distance scale; segmentation misses non-COCO objects and can make class errors (including horse/bird predictions in the construction sequence). Captions can be wrong. Review the attached RGB, pose, segmentation, and depth images and descriptions in the companion gallery; it also shows every selected action and justification. With only three cases, no population effect or statistical significance is claimed.
+\paragraph{AI disclosure.} Codex designed and implemented the computation, generated summary statistics and figures, and drafted this report. Qwen generated RGB captions and predictions; pretrained extractors generated maps; a GPT-configured agent generated blinded pilot predictions. Student interpretation, personal review, and TA approval remain pending. This is a draft for review, not the complete team assignment.
+\end{document}

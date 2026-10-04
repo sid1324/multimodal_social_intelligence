@@ -1,0 +1,17 @@
+condition,matched_clips,action_correct,justification_correct,both_correct
+rgb_images,35,3,3,3
+pose_images,35,4,3,3
+segmentation_images,35,5,4,4
+depth_images,35,5,4,4
+all_images,35,5,4,4
+repeat1_images,35,4,3,3
+repeat3_images,35,4,3,3
+shuffled_all_images,35,6,5,5
+rgb_descriptions,35,3,2,2
+pose_descriptions,35,2,2,2
+segmentation_descriptions,35,3,2,2
+depth_descriptions,35,3,2,2
+all_descriptions,35,4,3,3
+repeat1_descriptions,35,3,2,2
+repeat3_descriptions,35,3,2,2
+shuffled_all_descriptions,35,3,2,2

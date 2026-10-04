@@ -1,0 +1,16 @@
+{
+  "depth_model": "depth-anything/Depth-Anything-V2-Small-hf",
+  "depth_revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+  "depth_type": "Estimated relative inverse depth from RGB; not sensor depth or meters. Larger output is rendered brighter (closer). Network scales can vary between frames. Common 2nd/98th percentile normalization across five frames per clip; clipping outside that range.",
+  "segmentation_model": "Ultralytics YOLOv8n-seg, COCO-pretrained",
+  "segmentation_sha256": "a7cd8f929e1903d78a12a48efecab430209f18dc46cb96c3599a5980c63c423c",
+  "segmentation_confidence": 0.25,
+  "segmentation_iou": 0.7,
+  "segmentation_input_size": 640,
+  "segmentation_max_detections": 40,
+  "segmentation_retina_masks": true,
+  "device": "mps",
+  "sample": "Same 40 source-disjoint items and five timestamps as original pose audit; no outcome-based filtering",
+  "segmentation_render": "Mask-only RGB image on black background, class labels on predicted instance masks; colors identify per-frame instances, not tracked identities",
+  "text_descriptions": "RGB captions generated independently without answer options. Processed-image descriptions summarize extractor outputs and their limits; no correct labels or norm categories used."
+}

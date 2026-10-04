@@ -1,0 +1,1 @@
+{"id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62", "condition": "geo_nn", "model": "gpt-5.5", "action_position": 4, "justification_position": 1, "raw": "{\"action\": 4, \"justification\": 1}", "events": {"thread.started": 1, "turn.started": 1, "item.completed:agent_message": 1, "turn.completed": 1}}

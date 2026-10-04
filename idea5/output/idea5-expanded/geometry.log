@@ -1,0 +1,46 @@
+Creating new Ultralytics Settings v0.0.8 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/Users/patrickjain/Library/Application Support/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings.
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files:  20%|██        | 1/5 [00:00<00:01,  3.66it/s]Fetching 5 files: 100%|██████████| 5/5 [00:02<00:00,  2.37it/s]Fetching 5 files: 100%|██████████| 5/5 [00:02<00:00,  2.42it/s]
+Loading weights:   0%|          | 0/287 [00:00<?, ?it/s]Loading weights: 100%|██████████| 287/287 [00:00<00:00, 13446.89it/s]
+[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-seg.pt to '/Users/patrickjain/Desktop/CMU/sem3/multimodal/models/yolov8n-seg.pt': 21% ━━╸───────── 1.5/6.7MB 13.8MB/s 0.1s<0.4s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolov8n-seg.pt to '/Users/patrickjain/Desktop/CMU/sem3/multimodal/models/yolov8n-seg.pt': 100% ━━━━━━━━━━━━ 6.7MB 40.5MB/s 0.2s
+Geometry 1/40 clips, 5 frames
+Geometry 2/40 clips, 10 frames
+Geometry 3/40 clips, 15 frames
+Geometry 4/40 clips, 20 frames
+Geometry 5/40 clips, 25 frames
+Geometry 6/40 clips, 30 frames
+Geometry 7/40 clips, 35 frames
+Geometry 8/40 clips, 40 frames
+Geometry 9/40 clips, 45 frames
+Geometry 10/40 clips, 50 frames
+Geometry 11/40 clips, 55 frames
+Geometry 12/40 clips, 60 frames
+Geometry 13/40 clips, 65 frames
+Geometry 14/40 clips, 70 frames
+Geometry 15/40 clips, 75 frames
+Geometry 16/40 clips, 80 frames
+Geometry 17/40 clips, 85 frames
+Geometry 18/40 clips, 90 frames
+Geometry 19/40 clips, 95 frames
+Geometry 20/40 clips, 100 frames
+Geometry 21/40 clips, 105 frames
+Geometry 22/40 clips, 110 frames
+Geometry 23/40 clips, 115 frames
+Geometry 24/40 clips, 120 frames
+Geometry 25/40 clips, 125 frames
+Geometry 26/40 clips, 130 frames
+Geometry 27/40 clips, 135 frames
+Geometry 28/40 clips, 140 frames
+Geometry 29/40 clips, 145 frames
+Geometry 30/40 clips, 150 frames
+Geometry 31/40 clips, 155 frames
+Geometry 32/40 clips, 160 frames
+Geometry 33/40 clips, 165 frames
+Geometry 34/40 clips, 170 frames
+Geometry 35/40 clips, 175 frames
+Geometry 36/40 clips, 180 frames
+Geometry 37/40 clips, 185 frames
+Geometry 38/40 clips, 190 frames
+Geometry 39/40 clips, 195 frames
+Geometry 40/40 clips, 200 frames

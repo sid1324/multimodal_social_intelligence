@@ -1,0 +1,10 @@
+{
+  "rows": 160,
+  "unique_keys": 160,
+  "items": 40,
+  "choice_mapping": "passed",
+  "scoring": "passed",
+  "equal_grid_dimensions": "passed",
+  "extra_image_prompt_token_match": "passed",
+  "output_format": "all 320 sequential responses valid 1-5 integers"
+}

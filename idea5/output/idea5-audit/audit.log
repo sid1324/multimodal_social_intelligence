@@ -1,0 +1,51 @@
+Sample fixed before detector inference; obtaining pre-action clips
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1791133149.752169 8667387 gl_context.cc:369] GL version: 2.1 (2.1 Metal - 91.7), renderer: Apple M5 Max
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1791133149.785454 8667676 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791133149.792781 8667686 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1791133149.794412 8667387 gl_context.cc:369] GL version: 2.1 (2.1 Metal - 91.7), renderer: Apple M5 Max
+W0000 00:00:1791133149.799014 8667695 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791133149.802325 8667707 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1791133149.844852 8667702 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+1/40 clips; 5 frames
+2/40 clips; 10 frames
+3/40 clips; 15 frames
+4/40 clips; 20 frames
+5/40 clips; 25 frames
+6/40 clips; 30 frames
+7/40 clips; 35 frames
+8/40 clips; 40 frames
+9/40 clips; 45 frames
+10/40 clips; 50 frames
+11/40 clips; 55 frames
+12/40 clips; 60 frames
+13/40 clips; 65 frames
+14/40 clips; 70 frames
+15/40 clips; 75 frames
+16/40 clips; 80 frames
+17/40 clips; 85 frames
+18/40 clips; 90 frames
+19/40 clips; 95 frames
+20/40 clips; 100 frames
+21/40 clips; 105 frames
+22/40 clips; 110 frames
+23/40 clips; 115 frames
+24/40 clips; 120 frames
+25/40 clips; 125 frames
+26/40 clips; 130 frames
+27/40 clips; 135 frames
+28/40 clips; 140 frames
+29/40 clips; 145 frames
+30/40 clips; 150 frames
+31/40 clips; 155 frames
+32/40 clips; 160 frames
+33/40 clips; 165 frames
+34/40 clips; 170 frames
+35/40 clips; 175 frames
+36/40 clips; 180 frames
+37/40 clips; 185 frames
+38/40 clips; 190 frames
+39/40 clips; 195 frames
+40/40 clips; 200 frames
+{"elapsed_inference_and_export_seconds": 11.365709781646729, "python": "3.11.15", "platform": "macOS-27.0-arm64-arm-64bit", "mediapipe": "0.10.21", "opencv": "4.11.0", "numpy": "1.26.4", "model_sha256": {"hand_landmarker.task": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1", "pose_landmarker_full.task": "4eaa5eb7a98365221087693fcc286334cf0858e2eb6e15b506aa4a7ecdcec4ad"}}

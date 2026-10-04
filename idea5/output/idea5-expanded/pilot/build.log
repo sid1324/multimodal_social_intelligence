@@ -1,0 +1,82 @@
+{
+  "qwen": {
+    "action_correct": {
+      "correct": 1,
+      "n": 3,
+      "ci": [
+        0.3333333333333333,
+        0.0,
+        1.0
+      ]
+    },
+    "justification_correct": {
+      "correct": 1,
+      "n": 3,
+      "ci": [
+        0.3333333333333333,
+        0.0,
+        1.0
+      ]
+    },
+    "both_correct": {
+      "correct": 1,
+      "n": 3,
+      "ci": [
+        0.3333333333333333,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "agent": {
+    "all_descriptions": {
+      "n": 3,
+      "action_correct": 3,
+      "justification_correct": 3,
+      "both_correct": 3,
+      "qwen_matched_both": 1,
+      "qwen_matched_n": 3
+    },
+    "depth_descriptions": {
+      "n": 3,
+      "action_correct": 3,
+      "justification_correct": 3,
+      "both_correct": 3,
+      "qwen_matched_both": 1,
+      "qwen_matched_n": 3
+    },
+    "pose_descriptions": {
+      "n": 3,
+      "action_correct": 3,
+      "justification_correct": 3,
+      "both_correct": 3,
+      "qwen_matched_both": 1,
+      "qwen_matched_n": 3
+    },
+    "rgb_descriptions": {
+      "n": 3,
+      "action_correct": 3,
+      "justification_correct": 3,
+      "both_correct": 3,
+      "qwen_matched_both": 1,
+      "qwen_matched_n": 3
+    },
+    "rgb_images": {
+      "n": 3,
+      "action_correct": 3,
+      "justification_correct": 3,
+      "both_correct": 3,
+      "qwen_matched_both": 1,
+      "qwen_matched_n": 3
+    },
+    "segmentation_descriptions": {
+      "n": 3,
+      "action_correct": 3,
+      "justification_correct": 3,
+      "both_correct": 3,
+      "qwen_matched_both": 1,
+      "qwen_matched_n": 3
+    }
+  },
+  "snapshot_rows": 48
+}

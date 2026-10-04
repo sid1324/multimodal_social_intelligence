@@ -1,0 +1,100 @@
+{
+  "n": 10,
+  "scores": {
+    "action_correct": 6,
+    "justification_correct": 6,
+    "both_correct": 6
+  },
+  "items": [
+    {
+      "id": "8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22",
+      "action_original_idx": 0,
+      "justification_original_idx": 0,
+      "gold_original_idx": 0,
+      "action_correct": true,
+      "justification_correct": true,
+      "both_correct": true
+    },
+    {
+      "id": "ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73",
+      "action_original_idx": 1,
+      "justification_original_idx": 1,
+      "gold_original_idx": 0,
+      "action_correct": false,
+      "justification_correct": false,
+      "both_correct": false
+    },
+    {
+      "id": "19493340-9a5c-406c-9943-712a4a4a073c_634-74",
+      "action_original_idx": 4,
+      "justification_original_idx": 4,
+      "gold_original_idx": 1,
+      "action_correct": false,
+      "justification_correct": false,
+      "both_correct": false
+    },
+    {
+      "id": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+      "action_original_idx": 0,
+      "justification_original_idx": 0,
+      "gold_original_idx": 0,
+      "action_correct": true,
+      "justification_correct": true,
+      "both_correct": true
+    },
+    {
+      "id": "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+      "action_original_idx": 3,
+      "justification_original_idx": 3,
+      "gold_original_idx": 1,
+      "action_correct": false,
+      "justification_correct": false,
+      "both_correct": false
+    },
+    {
+      "id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08",
+      "action_original_idx": 3,
+      "justification_original_idx": 3,
+      "gold_original_idx": 3,
+      "action_correct": true,
+      "justification_correct": true,
+      "both_correct": true
+    },
+    {
+      "id": "b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16",
+      "action_original_idx": 1,
+      "justification_original_idx": 1,
+      "gold_original_idx": 1,
+      "action_correct": true,
+      "justification_correct": true,
+      "both_correct": true
+    },
+    {
+      "id": "699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50",
+      "action_original_idx": 0,
+      "justification_original_idx": 0,
+      "gold_original_idx": 3,
+      "action_correct": false,
+      "justification_correct": false,
+      "both_correct": false
+    },
+    {
+      "id": "5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76",
+      "action_original_idx": 2,
+      "justification_original_idx": 2,
+      "gold_original_idx": 2,
+      "action_correct": true,
+      "justification_correct": true,
+      "both_correct": true
+    },
+    {
+      "id": "695cefe9-04c0-42fb-80fc-d308b314b788_443-90",
+      "action_original_idx": 2,
+      "justification_original_idx": 2,
+      "gold_original_idx": 2,
+      "action_correct": true,
+      "justification_correct": true,
+      "both_correct": true
+    }
+  ]
+}

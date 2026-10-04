@@ -1,0 +1,314 @@
+{
+ "models": [
+  "Qwen3-VL-32B",
+  "GPT-5.5",
+  "GPT-5.6",
+  "GPT-6",
+  "Sonnet 5.5",
+  "Opus 5.5"
+ ],
+ "by_category": {
+  "Proxemics": {
+   "items": 22,
+   "pairs": 132,
+   "options": 74,
+   "frames": 91,
+   "maps": 91,
+   "maps_fixed": 5,
+   "maps_broke": 5
+  },
+  "Safety": {
+   "items": 17,
+   "pairs": 102,
+   "options": 47,
+   "frames": 78,
+   "maps": 79,
+   "maps_fixed": 5,
+   "maps_broke": 4
+  },
+  "Politeness": {
+   "items": 17,
+   "pairs": 102,
+   "options": 43,
+   "frames": 70,
+   "maps": 67,
+   "maps_fixed": 2,
+   "maps_broke": 5
+  },
+  "Cooperation": {
+   "items": 29,
+   "pairs": 174,
+   "options": 64,
+   "frames": 115,
+   "maps": 119,
+   "maps_fixed": 8,
+   "maps_broke": 4
+  },
+  "Communication/Legibility": {
+   "items": 15,
+   "pairs": 90,
+   "options": 35,
+   "frames": 57,
+   "maps": 59,
+   "maps_fixed": 5,
+   "maps_broke": 3
+  },
+  "Coordination/Proactivity": {
+   "items": 11,
+   "pairs": 66,
+   "options": 24,
+   "frames": 39,
+   "maps": 44,
+   "maps_fixed": 6,
+   "maps_broke": 1
+  },
+  "Privacy": {
+   "items": 3,
+   "pairs": 18,
+   "options": 0,
+   "frames": 7,
+   "maps": 6,
+   "maps_fixed": 1,
+   "maps_broke": 2
+  },
+  "(no label)": {
+   "items": 2,
+   "pairs": 12,
+   "options": 2,
+   "frames": 10,
+   "maps": 10,
+   "maps_fixed": 1,
+   "maps_broke": 1
+  }
+ },
+ "flips": {
+  "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77": {
+   "fixed_in": [
+    "Qwen3-VL-32B"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Proxemics"
+   ]
+  },
+  "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64": {
+   "fixed_in": [
+    "Qwen3-VL-32B"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Cooperation",
+    "Coordination/Proactivity",
+    "Safety"
+   ]
+  },
+  "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69": {
+   "fixed_in": [
+    "Opus 5.5"
+   ],
+   "broken_in": [
+    "Qwen3-VL-32B"
+   ],
+   "labels": [
+    "Proxemics"
+   ]
+  },
+  "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41": {
+   "fixed_in": [
+    "GPT-5.5"
+   ],
+   "broken_in": [
+    "Qwen3-VL-32B"
+   ],
+   "labels": [
+    "Safety",
+    "Cooperation"
+   ]
+  },
+  "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50": {
+   "fixed_in": [
+    "Qwen3-VL-32B"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Politeness",
+    "Communication/Legibility"
+   ]
+  },
+  "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27": {
+   "fixed_in": [],
+   "broken_in": [
+    "Qwen3-VL-32B"
+   ],
+   "labels": [
+    "Proxemics",
+    "Safety",
+    "Coordination/Proactivity"
+   ]
+  },
+  "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04": {
+   "fixed_in": [],
+   "broken_in": [
+    "GPT-5.5"
+   ],
+   "labels": [
+    "Politeness",
+    "Cooperation"
+   ]
+  },
+  "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56": {
+   "fixed_in": [
+    "GPT-5.5",
+    "Opus 5.5"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Safety",
+    "Coordination/Proactivity"
+   ]
+  },
+  "1bfac46e-f957-4495-9583-dbd7fa683225_823-65": {
+   "fixed_in": [
+    "GPT-5.5",
+    "Sonnet 5.5"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Proxemics",
+    "Communication/Legibility"
+   ]
+  },
+  "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98": {
+   "fixed_in": [
+    "GPT-6"
+   ],
+   "broken_in": [
+    "GPT-5.5"
+   ],
+   "labels": []
+  },
+  "f576f1bf-5433-488b-8833-8320f087e72b_48-29": {
+   "fixed_in": [
+    "GPT-5.6"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Safety",
+    "Cooperation"
+   ]
+  },
+  "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62": {
+   "fixed_in": [
+    "GPT-5.6"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Communication/Legibility",
+    "Cooperation"
+   ]
+  },
+  "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48": {
+   "fixed_in": [
+    "GPT-5.6",
+    "Sonnet 5.5"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Cooperation",
+    "Coordination/Proactivity"
+   ]
+  },
+  "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35": {
+   "fixed_in": [
+    "GPT-5.6"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Politeness"
+   ]
+  },
+  "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40": {
+   "fixed_in": [
+    "GPT-6"
+   ],
+   "broken_in": [
+    "Sonnet 5.5"
+   ],
+   "labels": [
+    "Proxemics",
+    "Communication/Legibility",
+    "Cooperation",
+    "Privacy"
+   ]
+  },
+  "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13": {
+   "fixed_in": [],
+   "broken_in": [
+    "GPT-6",
+    "Opus 5.5"
+   ],
+   "labels": [
+    "Safety",
+    "Politeness"
+   ]
+  },
+  "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56": {
+   "fixed_in": [],
+   "broken_in": [
+    "GPT-6"
+   ],
+   "labels": [
+    "Cooperation"
+   ]
+  },
+  "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46": {
+   "fixed_in": [],
+   "broken_in": [
+    "GPT-6"
+   ],
+   "labels": [
+    "Privacy"
+   ]
+  },
+  "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87": {
+   "fixed_in": [
+    "GPT-6"
+   ],
+   "broken_in": [],
+   "labels": [
+    "Cooperation",
+    "Coordination/Proactivity"
+   ]
+  },
+  "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11": {
+   "fixed_in": [],
+   "broken_in": [
+    "Sonnet 5.5"
+   ],
+   "labels": [
+    "Politeness",
+    "Communication/Legibility"
+   ]
+  },
+  "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48": {
+   "fixed_in": [],
+   "broken_in": [
+    "Sonnet 5.5"
+   ],
+   "labels": [
+    "Proxemics"
+   ]
+  },
+  "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03": {
+   "fixed_in": [],
+   "broken_in": [
+    "Opus 5.5"
+   ],
+   "labels": [
+    "Politeness",
+    "Communication/Legibility",
+    "Proxemics"
+   ]
+  }
+ }
+}

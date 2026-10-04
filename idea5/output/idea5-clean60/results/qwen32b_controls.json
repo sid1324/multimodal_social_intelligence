@@ -1,0 +1,1082 @@
+[
+ {
+  "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 1,
+  "raw": "{\"action\": 5, \"justification\": 1}",
+  "seconds": 3.6829209327697754
+ },
+ {
+  "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+  "condition": "mis_nn",
+  "maps_from": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+  "action_position": 5,
+  "justification_position": 1,
+  "raw": "{\"action\": 5, \"justification\": 1}",
+  "seconds": 4.601037979125977
+ },
+ {
+  "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 3,
+  "raw": "{\"action\": 4, \"justification\": 3}",
+  "seconds": 4.612210035324097
+ },
+ {
+  "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+  "condition": "mis_nn",
+  "maps_from": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+  "action_position": 4,
+  "justification_position": 3,
+  "raw": "{\"action\": 4, \"justification\": 3}",
+  "seconds": 4.488008975982666
+ },
+ {
+  "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 4,
+  "raw": "{\"action\": 5, \"justification\": 4}",
+  "seconds": 4.20402979850769
+ },
+ {
+  "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+  "condition": "mis_nn",
+  "maps_from": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+  "action_position": 5,
+  "justification_position": 4,
+  "raw": "{\"action\": 5, \"justification\": 4}",
+  "seconds": 4.375700235366821
+ },
+ {
+  "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 4,
+  "raw": "{\"action\": 5, \"justification\": 4}",
+  "seconds": 4.26075291633606
+ },
+ {
+  "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+  "condition": "mis_nn",
+  "maps_from": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+  "action_position": 5,
+  "justification_position": 4,
+  "raw": "{\"action\": 5, \"justification\": 4}",
+  "seconds": 4.994261026382446
+ },
+ {
+  "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 4,
+  "raw": "{\"action\": 2, \"justification\": 4}",
+  "seconds": 5.016113042831421
+ },
+ {
+  "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+  "condition": "mis_nn",
+  "maps_from": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+  "action_position": 2,
+  "justification_position": 4,
+  "raw": "{\"action\": 2, \"justification\": 4}",
+  "seconds": 5.167311668395996
+ },
+ {
+  "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.075541973114014
+ },
+ {
+  "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+  "condition": "mis_nn",
+  "maps_from": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 4.753360986709595
+ },
+ {
+  "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 4,
+  "raw": "{\"action\": 5, \"justification\": 4}",
+  "seconds": 4.386620283126831
+ },
+ {
+  "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+  "condition": "mis_nn",
+  "maps_from": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+  "action_position": 5,
+  "justification_position": 4,
+  "raw": "{\"action\": 5, \"justification\": 4}",
+  "seconds": 4.575157403945923
+ },
+ {
+  "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 4,
+  "raw": "{\"action\": 1, \"justification\": 4}",
+  "seconds": 4.41053581237793
+ },
+ {
+  "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+  "condition": "mis_nn",
+  "maps_from": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+  "action_position": 1,
+  "justification_position": 4,
+  "raw": "{\"action\": 1, \"justification\": 4}",
+  "seconds": 4.588874816894531
+ },
+ {
+  "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 3,
+  "raw": "{\"action\": 1, \"justification\": 3}",
+  "seconds": 4.395491123199463
+ },
+ {
+  "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+  "condition": "mis_nn",
+  "maps_from": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+  "action_position": 1,
+  "justification_position": 3,
+  "raw": "{\"action\": 1, \"justification\": 3}",
+  "seconds": 4.5660412311553955
+ },
+ {
+  "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 3,
+  "raw": "{\"action\": 3, \"justification\": 3}",
+  "seconds": 4.514676094055176
+ },
+ {
+  "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+  "condition": "mis_nn",
+  "maps_from": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+  "action_position": 4,
+  "justification_position": 1,
+  "raw": "{\"action\": 4, \"justification\": 1}",
+  "seconds": 4.661363124847412
+ },
+ {
+  "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 5,
+  "raw": "{\"action\": 3, \"justification\": 5}",
+  "seconds": 4.704653024673462
+ },
+ {
+  "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+  "condition": "mis_nn",
+  "maps_from": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+  "action_position": 3,
+  "justification_position": 5,
+  "raw": "{\"action\": 3, \"justification\": 5}",
+  "seconds": 5.4376373291015625
+ },
+ {
+  "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 3,
+  "raw": "{\"action\": 4, \"justification\": 3}",
+  "seconds": 5.692016124725342
+ },
+ {
+  "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+  "condition": "mis_nn",
+  "maps_from": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+  "action_position": 4,
+  "justification_position": 3,
+  "raw": "{\"action\": 4, \"justification\": 3}",
+  "seconds": 5.894598960876465
+ },
+ {
+  "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 2,
+  "raw": "{\"action\": 1, \"justification\": 2}",
+  "seconds": 5.801351070404053
+ },
+ {
+  "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+  "condition": "mis_nn",
+  "maps_from": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+  "action_position": 1,
+  "justification_position": 2,
+  "raw": "{\"action\": 1, \"justification\": 2}",
+  "seconds": 6.033167839050293
+ },
+ {
+  "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.989163160324097
+ },
+ {
+  "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+  "condition": "mis_nn",
+  "maps_from": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 6.205851078033447
+ },
+ {
+  "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 5,
+  "raw": "{\"action\": 5, \"justification\": 5}",
+  "seconds": 6.031219959259033
+ },
+ {
+  "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+  "condition": "mis_nn",
+  "maps_from": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+  "action_position": 5,
+  "justification_position": 5,
+  "raw": "{\"action\": 5, \"justification\": 5}",
+  "seconds": 6.32879376411438
+ },
+ {
+  "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 3,
+  "raw": "{\"action\": 1, \"justification\": 3}",
+  "seconds": 6.160856008529663
+ },
+ {
+  "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+  "condition": "mis_nn",
+  "maps_from": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+  "action_position": 1,
+  "justification_position": 3,
+  "raw": "{\"action\": 1, \"justification\": 3}",
+  "seconds": 5.635774850845337
+ },
+ {
+  "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 3,
+  "raw": "{\"action\": 4, \"justification\": 3}",
+  "seconds": 5.2885119915008545
+ },
+ {
+  "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+  "condition": "mis_nn",
+  "maps_from": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+  "action_position": 4,
+  "justification_position": 3,
+  "raw": "{\"action\": 4, \"justification\": 3}",
+  "seconds": 6.030038118362427
+ },
+ {
+  "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 1,
+  "raw": "{\"action\": 4, \"justification\": 1}",
+  "seconds": 6.083940744400024
+ },
+ {
+  "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+  "condition": "mis_nn",
+  "maps_from": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+  "action_position": 4,
+  "justification_position": 1,
+  "raw": "{\"action\": 4, \"justification\": 1}",
+  "seconds": 5.550271034240723
+ },
+ {
+  "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 3,
+  "raw": "{\"action\": 2, \"justification\": 3}",
+  "seconds": 5.124493837356567
+ },
+ {
+  "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+  "condition": "mis_nn",
+  "maps_from": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+  "action_position": 2,
+  "justification_position": 3,
+  "raw": "{\"action\": 2, \"justification\": 3}",
+  "seconds": 5.929853916168213
+ },
+ {
+  "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 4,
+  "raw": "{\"action\": 3, \"justification\": 4}",
+  "seconds": 6.142522811889648
+ },
+ {
+  "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+  "condition": "mis_nn",
+  "maps_from": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+  "action_position": 3,
+  "justification_position": 4,
+  "raw": "{\"action\": 3, \"justification\": 4}",
+  "seconds": 5.633037805557251
+ },
+ {
+  "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 5,
+  "raw": "{\"action\": 4, \"justification\": 5}",
+  "seconds": 5.166395902633667
+ },
+ {
+  "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+  "condition": "mis_nn",
+  "maps_from": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+  "action_position": 4,
+  "justification_position": 5,
+  "raw": "{\"action\": 4, \"justification\": 5}",
+  "seconds": 5.962713003158569
+ },
+ {
+  "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 1,
+  "raw": "{\"action\": 1, \"justification\": 1}",
+  "seconds": 6.192962169647217
+ },
+ {
+  "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+  "condition": "mis_nn",
+  "maps_from": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+  "action_position": 1,
+  "justification_position": 1,
+  "raw": "{\"action\": 1, \"justification\": 1}",
+  "seconds": 6.350215196609497
+ },
+ {
+  "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 2,
+  "raw": "{\"action\": 2, \"justification\": 2}",
+  "seconds": 6.169845819473267
+ },
+ {
+  "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+  "condition": "mis_nn",
+  "maps_from": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+  "action_position": 2,
+  "justification_position": 2,
+  "raw": "{\"action\": 2, \"justification\": 2}",
+  "seconds": 5.768419027328491
+ },
+ {
+  "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 3,
+  "raw": "{\"action\": 4, \"justification\": 3}",
+  "seconds": 5.175545930862427
+ },
+ {
+  "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+  "condition": "mis_nn",
+  "maps_from": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+  "action_position": 4,
+  "justification_position": 3,
+  "raw": "{\"action\": 4, \"justification\": 3}",
+  "seconds": 6.070143222808838
+ },
+ {
+  "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 1,
+  "raw": "{\"action\": 3, \"justification\": 1}",
+  "seconds": 6.342284917831421
+ },
+ {
+  "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+  "condition": "mis_nn",
+  "maps_from": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+  "action_position": 3,
+  "justification_position": 1,
+  "raw": "{\"action\": 3, \"justification\": 1}",
+  "seconds": 5.945448875427246
+ },
+ {
+  "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 5,
+  "raw": "{\"action\": 2, \"justification\": 5}",
+  "seconds": 5.364818334579468
+ },
+ {
+  "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+  "condition": "mis_nn",
+  "maps_from": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+  "action_position": 2,
+  "justification_position": 5,
+  "raw": "{\"action\": 2, \"justification\": 5}",
+  "seconds": 6.302858114242554
+ },
+ {
+  "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 4,
+  "raw": "{\"action\": 2, \"justification\": 4}",
+  "seconds": 6.347222089767456
+ },
+ {
+  "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+  "condition": "mis_nn",
+  "maps_from": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+  "action_position": 2,
+  "justification_position": 4,
+  "raw": "{\"action\": 2, \"justification\": 4}",
+  "seconds": 6.4642932415008545
+ },
+ {
+  "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 2,
+  "raw": "{\"action\": 5, \"justification\": 2}",
+  "seconds": 6.235676050186157
+ },
+ {
+  "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+  "condition": "mis_nn",
+  "maps_from": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+  "action_position": 5,
+  "justification_position": 2,
+  "raw": "{\"action\": 5, \"justification\": 2}",
+  "seconds": 6.373239994049072
+ },
+ {
+  "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 2,
+  "raw": "{\"action\": 3, \"justification\": 2}",
+  "seconds": 6.184278964996338
+ },
+ {
+  "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+  "condition": "mis_nn",
+  "maps_from": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+  "action_position": 3,
+  "justification_position": 2,
+  "raw": "{\"action\": 3, \"justification\": 2}",
+  "seconds": 5.681477785110474
+ },
+ {
+  "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.1838698387146
+ },
+ {
+  "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+  "condition": "mis_nn",
+  "maps_from": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.320170879364014
+ },
+ {
+  "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 2,
+  "raw": "{\"action\": 3, \"justification\": 2}",
+  "seconds": 5.217577219009399
+ },
+ {
+  "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+  "condition": "mis_nn",
+  "maps_from": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+  "action_position": 3,
+  "justification_position": 2,
+  "raw": "{\"action\": 3, \"justification\": 2}",
+  "seconds": 6.010618209838867
+ },
+ {
+  "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 3,
+  "raw": "{\"action\": 5, \"justification\": 3}",
+  "seconds": 6.206039190292358
+ },
+ {
+  "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+  "condition": "mis_nn",
+  "maps_from": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+  "action_position": 5,
+  "justification_position": 3,
+  "raw": "{\"action\": 5, \"justification\": 3}",
+  "seconds": 6.376481056213379
+ },
+ {
+  "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 5,
+  "raw": "{\"action\": 3, \"justification\": 5}",
+  "seconds": 6.254343032836914
+ },
+ {
+  "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+  "condition": "mis_nn",
+  "maps_from": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+  "action_position": 3,
+  "justification_position": 5,
+  "raw": "{\"action\": 3, \"justification\": 5}",
+  "seconds": 5.739220142364502
+ },
+ {
+  "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 2,
+  "raw": "{\"action\": 1, \"justification\": 2}",
+  "seconds": 5.227431058883667
+ },
+ {
+  "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+  "condition": "mis_nn",
+  "maps_from": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+  "action_position": 1,
+  "justification_position": 2,
+  "raw": "{\"action\": 1, \"justification\": 2}",
+  "seconds": 6.034523963928223
+ },
+ {
+  "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 2,
+  "raw": "{\"action\": 3, \"justification\": 2}",
+  "seconds": 6.25580096244812
+ },
+ {
+  "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+  "condition": "mis_nn",
+  "maps_from": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+  "action_position": 3,
+  "justification_position": 1,
+  "raw": "{\"action\": 3, \"justification\": 1}",
+  "seconds": 5.711664199829102
+ },
+ {
+  "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 5,
+  "raw": "{\"action\": 4, \"justification\": 5}",
+  "seconds": 5.421469211578369
+ },
+ {
+  "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+  "condition": "mis_nn",
+  "maps_from": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+  "action_position": 3,
+  "justification_position": 2,
+  "raw": "{\"action\": 3, \"justification\": 2}",
+  "seconds": 6.271494150161743
+ },
+ {
+  "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 5,
+  "raw": "{\"action\": 5, \"justification\": 5}",
+  "seconds": 6.3287270069122314
+ },
+ {
+  "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+  "condition": "mis_nn",
+  "maps_from": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+  "action_position": 5,
+  "justification_position": 5,
+  "raw": "{\"action\": 5, \"justification\": 5}",
+  "seconds": 5.825420141220093
+ },
+ {
+  "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 5,
+  "raw": "{\"action\": 2, \"justification\": 5}",
+  "seconds": 5.401023864746094
+ },
+ {
+  "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+  "condition": "mis_nn",
+  "maps_from": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+  "action_position": 2,
+  "justification_position": 5,
+  "raw": "{\"action\": 2, \"justification\": 5}",
+  "seconds": 6.170884847640991
+ },
+ {
+  "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 6.336326837539673
+ },
+ {
+  "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+  "condition": "mis_nn",
+  "maps_from": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.875791788101196
+ },
+ {
+  "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 3,
+  "raw": "{\"action\": 5, \"justification\": 3}",
+  "seconds": 5.317564964294434
+ },
+ {
+  "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+  "condition": "mis_nn",
+  "maps_from": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+  "action_position": 5,
+  "justification_position": 3,
+  "raw": "{\"action\": 5, \"justification\": 3}",
+  "seconds": 5.366669178009033
+ },
+ {
+  "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 1,
+  "raw": "{\"action\": 1, \"justification\": 1}",
+  "seconds": 5.26790189743042
+ },
+ {
+  "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+  "condition": "mis_nn",
+  "maps_from": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+  "action_position": 4,
+  "justification_position": 2,
+  "raw": "{\"action\": 4, \"justification\": 2}",
+  "seconds": 6.179047107696533
+ },
+ {
+  "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 3,
+  "raw": "{\"action\": 5, \"justification\": 3}",
+  "seconds": 6.314258098602295
+ },
+ {
+  "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+  "condition": "mis_nn",
+  "maps_from": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+  "action_position": 5,
+  "justification_position": 3,
+  "raw": "{\"action\": 5, \"justification\": 3}",
+  "seconds": 5.6853251457214355
+ },
+ {
+  "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 4,
+  "raw": "{\"action\": 3, \"justification\": 4}",
+  "seconds": 5.243603944778442
+ },
+ {
+  "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+  "condition": "mis_nn",
+  "maps_from": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+  "action_position": 3,
+  "justification_position": 4,
+  "raw": "{\"action\": 3, \"justification\": 4}",
+  "seconds": 5.480264902114868
+ },
+ {
+  "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 4,
+  "raw": "{\"action\": 3, \"justification\": 4}",
+  "seconds": 5.283645868301392
+ },
+ {
+  "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+  "condition": "mis_nn",
+  "maps_from": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+  "action_position": 3,
+  "justification_position": 4,
+  "raw": "{\"action\": 3, \"justification\": 4}",
+  "seconds": 5.42217493057251
+ },
+ {
+  "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.356339931488037
+ },
+ {
+  "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+  "condition": "mis_nn",
+  "maps_from": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+  "action_position": 1,
+  "justification_position": 3,
+  "raw": "{\"action\": 1, \"justification\": 3}",
+  "seconds": 6.0261008739471436
+ },
+ {
+  "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 6.260956764221191
+ },
+ {
+  "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+  "condition": "mis_nn",
+  "maps_from": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.8214099407196045
+ },
+ {
+  "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 3,
+  "raw": "{\"action\": 1, \"justification\": 3}",
+  "seconds": 5.198498010635376
+ },
+ {
+  "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+  "condition": "mis_nn",
+  "maps_from": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+  "action_position": 1,
+  "justification_position": 3,
+  "raw": "{\"action\": 1, \"justification\": 3}",
+  "seconds": 5.346410274505615
+ },
+ {
+  "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.214170932769775
+ },
+ {
+  "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+  "condition": "mis_nn",
+  "maps_from": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.356890916824341
+ },
+ {
+  "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 5,
+  "raw": "{\"action\": 5, \"justification\": 5}",
+  "seconds": 5.326027154922485
+ },
+ {
+  "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+  "condition": "mis_nn",
+  "maps_from": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+  "action_position": 5,
+  "justification_position": 5,
+  "raw": "{\"action\": 5, \"justification\": 5}",
+  "seconds": 5.447613000869751
+ },
+ {
+  "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 1,
+  "raw": "{\"action\": 2, \"justification\": 1}",
+  "seconds": 5.198868989944458
+ },
+ {
+  "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+  "condition": "mis_nn",
+  "maps_from": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+  "action_position": 2,
+  "justification_position": 1,
+  "raw": "{\"action\": 2, \"justification\": 1}",
+  "seconds": 5.324373245239258
+ },
+ {
+  "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 5.2985999584198
+ },
+ {
+  "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+  "condition": "mis_nn",
+  "maps_from": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+  "action_position": 4,
+  "justification_position": 4,
+  "raw": "{\"action\": 4, \"justification\": 4}",
+  "seconds": 6.050012111663818
+ },
+ {
+  "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 3,
+  "raw": "{\"action\": 3, \"justification\": 3}",
+  "seconds": 6.214572906494141
+ },
+ {
+  "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+  "condition": "mis_nn",
+  "maps_from": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+  "action_position": 3,
+  "justification_position": 3,
+  "raw": "{\"action\": 3, \"justification\": 3}",
+  "seconds": 5.675962686538696
+ },
+ {
+  "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 1,
+  "raw": "{\"action\": 4, \"justification\": 1}",
+  "seconds": 5.334059715270996
+ },
+ {
+  "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+  "condition": "mis_nn",
+  "maps_from": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+  "action_position": 4,
+  "justification_position": 1,
+  "raw": "{\"action\": 4, \"justification\": 1}",
+  "seconds": 6.150168180465698
+ },
+ {
+  "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 3,
+  "justification_position": 2,
+  "raw": "{\"action\": 3, \"justification\": 2}",
+  "seconds": 6.22680401802063
+ },
+ {
+  "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+  "condition": "mis_nn",
+  "maps_from": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+  "action_position": 3,
+  "justification_position": 2,
+  "raw": "{\"action\": 3, \"justification\": 2}",
+  "seconds": 5.698010206222534
+ },
+ {
+  "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 4,
+  "raw": "{\"action\": 2, \"justification\": 4}",
+  "seconds": 5.347123861312866
+ },
+ {
+  "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+  "condition": "mis_nn",
+  "maps_from": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+  "action_position": 2,
+  "justification_position": 4,
+  "raw": "{\"action\": 2, \"justification\": 4}",
+  "seconds": 5.44537091255188
+ },
+ {
+  "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 2,
+  "raw": "{\"action\": 1, \"justification\": 2}",
+  "seconds": 5.17451286315918
+ },
+ {
+  "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+  "condition": "mis_nn",
+  "maps_from": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+  "action_position": 1,
+  "justification_position": 2,
+  "raw": "{\"action\": 1, \"justification\": 2}",
+  "seconds": 5.283000946044922
+ },
+ {
+  "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 1,
+  "justification_position": 5,
+  "raw": "{\"action\": 1, \"justification\": 5}",
+  "seconds": 5.3032708168029785
+ },
+ {
+  "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+  "condition": "mis_nn",
+  "maps_from": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+  "action_position": 1,
+  "justification_position": 4,
+  "raw": "{\"action\": 1, \"justification\": 4}",
+  "seconds": 5.44576096534729
+ },
+ {
+  "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 5,
+  "justification_position": 1,
+  "raw": "{\"action\": 5, \"justification\": 1}",
+  "seconds": 5.281588077545166
+ },
+ {
+  "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+  "condition": "mis_nn",
+  "maps_from": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+  "action_position": 5,
+  "justification_position": 1,
+  "raw": "{\"action\": 5, \"justification\": 1}",
+  "seconds": 5.439067840576172
+ },
+ {
+  "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 4,
+  "justification_position": 1,
+  "raw": "{\"action\": 4, \"justification\": 1}",
+  "seconds": 5.169588804244995
+ },
+ {
+  "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+  "condition": "mis_nn",
+  "maps_from": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+  "action_position": 4,
+  "justification_position": 1,
+  "raw": "{\"action\": 4, \"justification\": 1}",
+  "seconds": 5.966398239135742
+ },
+ {
+  "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+  "condition": "rep_nn",
+  "maps_from": null,
+  "action_position": 2,
+  "justification_position": 3,
+  "raw": "{\"action\": 2, \"justification\": 3}",
+  "seconds": 6.1917948722839355
+ },
+ {
+  "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+  "condition": "mis_nn",
+  "maps_from": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+  "action_position": 2,
+  "justification_position": 3,
+  "raw": "{\"action\": 2, \"justification\": 3}",
+  "seconds": 5.643442869186401
+ }
+]

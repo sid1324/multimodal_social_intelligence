@@ -1,0 +1,7 @@
+{
+  "id": "mlx-community/Qwen3-VL-32B-Instruct-8bit",
+  "revision": "14fd4c76af6bd02d1f3dbe5ea7b03da5a1ae25cf",
+  "local_path": "models/Qwen3-VL-32B-Instruct-8bit",
+  "quantization": "8-bit community MLX checkpoint",
+  "expected_repo_bytes": 36017170173
+}

@@ -1,0 +1,467 @@
+{
+ "condition": "geo",
+ "context": "Three images are provided. Image 1: a left-to-right grid of five chronological RGB frames from an egocentric (head-mounted) camera, captured before the camera wearer's next action. Image 2: estimated relative depth for the same five frames (brighter is nearer; not metric; can be inaccurate). Image 3: instance segmentation for the same five frames (coloured masks with predicted COCO class labels; black is unsegmented, not empty space; labels can be wrong). Choose the single most socially appropriate next action for the camera wearer from the action options, then choose the justification that best fits the action you chose.",
+ "indexing": "1-based option positions",
+ "items": [
+  {
+   "case_number": 21,
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33_segmentation.jpg"
+   ],
+   "action_options": [
+    "Give the returned item to the person and explain why it cannot be kept.",
+    "Place the sorted items into labeled bins for storage or display.",
+    "[None of these actions is appropriate]",
+    "Hand over the payment to the person and take the purchased item.",
+    "Demonstrate how to enter a transaction into the cash register."
+   ],
+   "justification_options": [
+    "Returning faulty items is a common business practice, requiring explanation.",
+    "[None of these justifications is appropriate]",
+    "Proper cash register use is essential for accurate financial record-keeping.",
+    "Efficient organization is key to maintaining a well-run establishment.",
+    "This is the standard procedure for completing a purchase."
+   ]
+  },
+  {
+   "case_number": 22,
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11_segmentation.jpg"
+   ],
+   "action_options": [
+    "Point out any damage or wear to the equipment.",
+    "[None of these actions is appropriate]",
+    "Carefully lift and show them how each tool operates.",
+    "Explain different maintenance features of each tool piece. ",
+    "Offer assistance in repairing the damaged table leg."
+   ],
+   "justification_options": [
+    "Highlighting damage ensures responsible equipment handling and prevents further issues, aligning with norms of care and safety.",
+    "Offering assistance is a common courtesy and demonstrates helpfulness, reflecting social norms of cooperation and support.",
+    "Explaining features promotes understanding and responsible use, adhering to norms of knowledge sharing and proactive maintenance.",
+    "Demonstrating operation ensures safe and effective use, prioritizing user understanding and minimizing risk of accidents.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 23,
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Tighten the turnbuckle until it is secure and check for further adjustments needed.",
+    "Disassemble the equipment carefully and place its parts into a designated storage container.",
+    "Inspect the suspension component visually and point out areas that may need repair.",
+    "Tie the rope securely to the cleat and ensure it will hold under tension."
+   ],
+   "justification_options": [
+    "Organized disassembly ensures efficient maintenance.",
+    "Safety requires securing the turnbuckle properly.",
+    "Secure knots are essential for load-bearing situations.",
+    "Thorough inspection is crucial for safe operation.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 24,
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Pull out invasive plants using appropriate tools.",
+    "Follow the guide\u2019s instructions to take photos only in designated areas.",
+    "Take a photograph of a plant along the trail.",
+    "Record detailed notes about the plant's characteristics and location."
+   ],
+   "justification_options": [
+    "Detailed notes aid in plant identification and conservation efforts.",
+    "Removing invasive plants preserves biodiversity and ecosystem health.",
+    "Photographing plants helps with botanical studies and appreciation.",
+    "Respecting designated areas protects the environment and trail integrity.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 25,
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18_segmentation.jpg"
+   ],
+   "action_options": [
+    "Mix the compost gently into the soil around each sapling.",
+    "Apply medium meticulously to each orchid's root ball.",
+    "Spread the manure evenly around the base of each plant.",
+    "[None of these actions is appropriate]",
+    "Carefully apply fertilizer, avoiding contact with rose leaves."
+   ],
+   "justification_options": [
+    "Even distribution ensures optimal plant growth and prevents nutrient imbalances, reflecting responsible gardening practices.",
+    "Gentle mixing prevents damage to delicate roots and promotes healthy sapling establishment, demonstrating horticultural expertise.",
+    "Avoiding leaf burn is crucial for plant health, showcasing careful and knowledgeable plant care.",
+    "Meticulous application protects the orchid's sensitive root system and promotes thriving growth, aligning with best practices for delicate plants.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 26,
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91_segmentation.jpg"
+   ],
+   "action_options": [
+    "Excuse yourself and politely ask if they are about to exit the bus.",
+    "Continue walking past the persons, maintaining a safe distance.",
+    "[None of these actions is appropriate]",
+    "Inquire about the exhibit, using a phrase like 'Is this piece...' to engage.",
+    "Hand the persons their mail and greet them politely."
+   ],
+   "justification_options": [
+    "Engaging in a polite and inquisitive manner is a common and acceptable way to initiate conversation in a museum-like setting.",
+    "Offering assistance and showing politeness are generally considered positive social interactions.",
+    "Politely inquiring about someone's intentions avoids potential conflict and promotes respectful communication.",
+    "[None of these justifications is appropriate]",
+    "Maintaining a safe distance is generally a socially acceptable and safe practice when encountering strangers in public spaces."
+   ]
+  },
+  {
+   "case_number": 27,
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/edaf03e3-3021-4140-8434-dc9e744ae492_178-18_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/edaf03e3-3021-4140-8434-dc9e744ae492_178-18_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/edaf03e3-3021-4140-8434-dc9e744ae492_178-18_segmentation.jpg"
+   ],
+   "action_options": [
+    "Pick out a few pieces of charcoal and hand them to your fellow artist.",
+    "Grab a few screws and take them back to the workbench.",
+    "[None of these actions is appropriate]",
+    "Sketch the ceiling's pattern onto a notebook, focusing on its design features.",
+    "Note the condition of a visible crack in the ceiling and document it in a report."
+   ],
+   "justification_options": [
+    "Sharing materials is a common practice among artists.",
+    "Sketching aids in design planning and communication.",
+    "[None of these justifications is appropriate]",
+    "Do not monopolize shared resources.",
+    "Documenting damage is standard procedure for reporting."
+   ]
+  },
+  {
+   "case_number": 28,
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/22653c79-369f-4a0d-a663-33a1da378fe0_245-16_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/22653c79-369f-4a0d-a663-33a1da378fe0_245-16_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/22653c79-369f-4a0d-a663-33a1da378fe0_245-16_segmentation.jpg"
+   ],
+   "action_options": [
+    "Drape the tarp over branches to create a fort.",
+    "Hold one side of the tarp taut while the person secures the opposite side.",
+    "Spread the tarp evenly on the picnic blanket.",
+    "[None of these actions is appropriate]",
+    "Help the person secure the tarp over their supplies."
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "Protecting belongings demonstrates responsibility and consideration.",
+    "Cooperative teamwork is essential for efficient task completion.",
+    "Creative problem-solving and resourcefulness are valued.",
+    "Even distribution promotes fairness and prevents damage."
+   ]
+  },
+  {
+   "case_number": 29,
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46_segmentation.jpg"
+   ],
+   "action_options": [
+    "Pause the work to discuss design ideas and incorporate suggestions into the piece.",
+    "[None of these actions is appropriate]",
+    "Continue painting carefully on the object while occasionally glancing at the person.",
+    "Listen attentively to feedback and adjust the brushstrokes based on guidance.",
+    "Explain the techniques being used while demonstrating specific restoration methods."
+   ],
+   "justification_options": [
+    "Collaboration improves the final product and strengthens the relationship.",
+    "Focused work shows respect for the object and the observer.",
+    "Transparency and education enhance the learning experience for the observer.",
+    "Responsiveness to feedback ensures a successful restoration.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 30,
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Confirm the names on the packages before handing them over.",
+    "Help one of the children choose an item from the display shelf.",
+    "Wave goodbye to the group as you exit the building.",
+    "Ask if anyone wants to share a pastry before placing an order."
+   ],
+   "justification_options": [
+    "A polite farewell is standard social etiquette.",
+    "Assisting children promotes kindness and good customer service.",
+    "[None of these justifications is appropriate]",
+    "Sharing is courteous before making personal choices.",
+    "Verifying order accuracy ensures correct delivery."
+   ]
+  },
+  {
+   "case_number": 31,
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23_segmentation.jpg"
+   ],
+   "action_options": [
+    "Hold onto garments as they sway in the wind and ask for help from the other person to secure them.",
+    "Arrange the clothing neatly on racks and coordinate with the other person about placement.",
+    "Take photos of specific items and discuss them with the other person.",
+    "Inspect the texture of the material and sketch possible design ideas together.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "Collaboration enhances the photo-taking experience.",
+    "Efficient organization streamlines the workflow.",
+    "Teamwork ensures garment safety and security.",
+    "Shared design exploration fosters creativity."
+   ]
+  },
+  {
+   "case_number": 32,
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41_segmentation.jpg"
+   ],
+   "action_options": [
+    "Point out a piece of trash for the person to collect.",
+    "Carefully pass the specimen to the person using two hands.",
+    "Gently lift one end of the chair for transport.",
+    "[None of these actions is appropriate]",
+    "Hand the person the next brick."
+   ],
+   "justification_options": [
+    "This demonstrates respect for delicate items and prevents damage.",
+    "This promotes a clean and tidy environment.",
+    "This ensures safe and efficient transfer of materials.",
+    "This demonstrates consideration and assists with a potentially strenuous task.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 33,
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Detach the wooden components by easing screws out with tools for reuse.",
+    "Align the pieces of wood and secure them to the metal frame with screws using a drill.",
+    "Measure the wood pieces and fasten them precisely to form the cabinet structure.",
+    "Reinforce the wooden booth by carefully securing loose joints with fasteners."
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "Reinforcing loose joints ensures the booth's stability and longevity.",
+    "Detaching components carefully preserves them for future use.",
+    "Precise measurement and fastening are crucial for proper cabinet construction.",
+    "Securely fastening wood to metal is standard carpentry practice."
+   ]
+  },
+  {
+   "case_number": 34,
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87_segmentation.jpg"
+   ],
+   "action_options": [
+    "Continue to look at videos on the phone.",
+    "[None of these actions is appropriate]",
+    "Dust the antiques gently with a microfiber cloth.",
+    "Adjust the lighting equipment to the correct settings.",
+    "Handle the painting carefully using cotton gloves."
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "This will allow the subject to remember milestones, enjoy their free time, and share a positive uplifting moment with others.",
+    "Protecting valuable and delicate items demonstrates care and responsibility.",
+    "Preventing damage to valuable artifacts shows respect for cultural heritage and property.",
+    "Ensuring optimal functionality and safety is a standard professional practice."
+   ]
+  },
+  {
+   "case_number": 35,
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64_segmentation.jpg"
+   ],
+   "action_options": [
+    "Adjust your grip on the table and coordinate movement through the doorway.",
+    "Place the boxes down carefully in the dry section of the storage area.",
+    "Lift the timber together and carry it to the designated location.",
+    "Lift the wood by themselves steadily.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Teamwork ensures efficient and safe timber handling.",
+    "This ensures the wood is moved to its proper place in a steady and efficient manner.",
+    "Protecting goods from damage is standard warehouse practice.",
+    "Synchronized movement prevents damage and injury.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 36,
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48_segmentation.jpg"
+   ],
+   "action_options": [
+    "Use hand signals to communicate with crane operator.",
+    "Offer to help the person carry the cake.",
+    "Return the binoculars to that person.",
+    "Approach the climbing wall and begin your climb.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Using hand signals in situations requiring precise, quick, and clear communication, especially when verbal communication is difficult or impossible, is a standard safety practice.",
+    "Returning borrowed items promptly is a fundamental aspect of responsible borrowing and maintaining trust.",
+    "[None of these justifications is appropriate]",
+    "Offering assistance with carrying heavy items is a common act of politeness and helpfulness.",
+    "Climbing is a common recreational activity, and initiating it independently is generally acceptable unless there are clear reasons not to."
+   ]
+  },
+  {
+   "case_number": 37,
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/069c1058-881d-49da-b45d-b9f7e08fe932_475-96_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/069c1058-881d-49da-b45d-b9f7e08fe932_475-96_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/069c1058-881d-49da-b45d-b9f7e08fe932_475-96_segmentation.jpg"
+   ],
+   "action_options": [
+    "Offer the person a modified piece of wood, suitable for their needs.",
+    "[None of these actions is appropriate]",
+    "Pass the person the necessary wood element to continue the sculpture.",
+    "Place each piece of wood carefully on the student's workbench.",
+    "Hand the person the next piece of wood."
+   ],
+   "justification_options": [
+    "Providing assistance directly and efficiently is generally preferred.",
+    "Careful handling demonstrates respect for materials and the recipient's work.",
+    "Offering a solution demonstrates helpfulness and problem-solving skills.",
+    "[None of these justifications is appropriate]",
+    "Facilitating the continuation of a task is a supportive and efficient approach."
+   ]
+  },
+  {
+   "case_number": 38,
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69_segmentation.jpg"
+   ],
+   "action_options": [
+    "Examine the dog for injuries and offer first aid.",
+    "Greet the woman and continue walking.",
+    "Accompany them on their patrol route.",
+    "[None of these actions is appropriate]",
+    "Secure the dog safely to avoid an incident."
+   ],
+   "justification_options": [
+    "Examining for injuries and providing first aid are acts of compassion and potentially life-saving interventions.",
+    "Securing a dog prevents potential harm to others and demonstrates responsible pet ownership.",
+    "[None of these justifications is appropriate]",
+    "Accompanying someone on patrol suggests cooperation and mutual support, which are socially valued.",
+    "Greeting is a common social courtesy and continuing one's walk is generally unobtrusive."
+   ]
+  },
+  {
+   "case_number": 39,
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/62abef54-29ef-43ec-ba1d-43496d986e89_2257-41_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/62abef54-29ef-43ec-ba1d-43496d986e89_2257-41_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/62abef54-29ef-43ec-ba1d-43496d986e89_2257-41_segmentation.jpg"
+   ],
+   "action_options": [
+    "Balance the object on the stack yourself while the person watches before stepping aside.",
+    "Demonstrate how to place the object on the stack and hand it to the person carefully.",
+    "[None of these actions is appropriate]",
+    "Pass the block firmly from your hand to the person\u2019s hand.",
+    "Receive the object and gently place it on the stack."
+   ],
+   "justification_options": [
+    "Gentle placement prioritizes object care and stack integrity.",
+    "Balancing shows confidence and mastery of the task.",
+    "Demonstrating proper technique promotes shared understanding and skill.",
+    "Firm handoffs show respect and ensure safe transfer.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 40,
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/1bfac46e-f957-4495-9583-dbd7fa683225_823-65_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/1bfac46e-f957-4495-9583-dbd7fa683225_823-65_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/1bfac46e-f957-4495-9583-dbd7fa683225_823-65_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Count the cash received from the person and provide any required change.",
+    "Take the item being handed to you by the person and confirm its condition.",
+    "Present your documents to the person for inspection and wait for them to verify.",
+    "Hand the card to the person behind the counter to complete the transaction."
+   ],
+   "justification_options": [
+    "Counting cash accurately is crucial for financial accuracy.",
+    "Verifying item condition is a standard practice to avoid disputes.",
+    "Following standard procedure ensures a smooth transaction.",
+    "Presenting documents is essential for verification and compliance.",
+    "[None of these justifications is appropriate]"
+   ]
+  }
+ ]
+}

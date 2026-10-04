@@ -1,0 +1,92 @@
+{
+ "Qwen3-VL-32B": {
+  "frames": 38,
+  "rgb_x3": 38,
+  "maps": 38,
+  "rgbx3_vs_frames": [
+   1,
+   1,
+   1.0
+  ],
+  "maps_vs_rgbx3": [
+   4,
+   4,
+   1.0
+  ]
+ },
+ "GPT-5.5": {
+  "frames": 41,
+  "rgb_x3": 40,
+  "maps": 42,
+  "rgbx3_vs_frames": [
+   3,
+   4,
+   1.0
+  ],
+  "maps_vs_rgbx3": [
+   5,
+   3,
+   0.7265625
+  ]
+ },
+ "GPT-5.6": {
+  "frames": 37,
+  "rgb_x3": 39,
+  "maps": 41,
+  "rgbx3_vs_frames": [
+   2,
+   0,
+   0.5
+  ],
+  "maps_vs_rgbx3": [
+   2,
+   0,
+   0.5
+  ]
+ },
+ "GPT-6": {
+  "frames": 42,
+  "rgb_x3": 46,
+  "maps": 42,
+  "rgbx3_vs_frames": [
+   5,
+   1,
+   0.21875
+  ],
+  "maps_vs_rgbx3": [
+   3,
+   7,
+   0.34375
+  ]
+ },
+ "Sonnet 5.5": {
+  "frames": 46,
+  "rgb_x3": 48,
+  "maps": 45,
+  "rgbx3_vs_frames": [
+   3,
+   1,
+   0.625
+  ],
+  "maps_vs_rgbx3": [
+   1,
+   4,
+   0.375
+  ]
+ },
+ "Opus 5.5": {
+  "frames": 45,
+  "rgb_x3": 45,
+  "maps": 45,
+  "rgbx3_vs_frames": [
+   1,
+   1,
+   1.0
+  ],
+  "maps_vs_rgbx3": [
+   1,
+   1,
+   1.0
+  ]
+ }
+}

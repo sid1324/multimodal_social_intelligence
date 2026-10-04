@@ -1,0 +1,761 @@
+{
+  "experiment": "EgoNormia Idea 5 blinded agent-workflow pilot",
+  "condition": "rgb",
+  "gold_free_at_prediction_time": true,
+  "model_identity": {
+    "requested_override": "gpt-5.6-sol",
+    "orchestrator_accepted_override": true,
+    "independently_verified_by_agent": false,
+    "note": "The agent runtime exposes no inspectable served-model identifier; identity is recorded from the parent orchestration configuration."
+  },
+  "benchmark_characterization": "Agent-workflow pilot with context accumulation, not a clean stateless API benchmark.",
+  "options_indexing": "1-based list position",
+  "prediction_source": "Direct visual inspection of each RGB grid with view_image at original detail plus the gold-free option manifest.",
+  "items": [
+    {
+      "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+      "condition": "rgb",
+      "action_position": 2,
+      "justification_position": 2,
+      "observed_visual_evidence": "First-person construction scene with wet gray material in a pan/bucket, scaffolding, and workers handling tools near an unfinished surface.",
+      "image_view_evidence": {
+        "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg",
+        "tool": "view_image",
+        "detail": "original",
+        "viewed": true
+      }
+    },
+    {
+      "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+      "condition": "rgb",
+      "action_position": 3,
+      "justification_position": 2,
+      "observed_visual_evidence": "The camera wearer carries a compartmented metal plate with food toward a person seated on the kitchen floor; no collaborative cooking activity is visible.",
+      "image_view_evidence": {
+        "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg",
+        "tool": "view_image",
+        "detail": "original",
+        "viewed": true
+      }
+    },
+    {
+      "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+      "condition": "rgb",
+      "action_position": 4,
+      "justification_position": 3,
+      "observed_visual_evidence": "Automotive workshop scene with the wearer handling and wiping a metal vehicle component beside disassembled mechanical parts; secure fastening best matches the visible task.",
+      "image_view_evidence": {
+        "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg",
+        "tool": "view_image",
+        "detail": "original",
+        "viewed": true
+      }
+    },
+    {
+      "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+      "condition": "rgb",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer is cutting or assembling a box-like structure while a cat stands immediately beside and partly within the work area.",
+      "image_view_evidence": {
+        "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg",
+        "tool": "view_image",
+        "detail": "original",
+        "viewed": true
+      }
+    },
+    {
+      "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+      "condition": "rgb",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "Small kitchen with active cookware on a two-burner stove; the wearer is positioned at the pots and another person is nearby.",
+      "image_view_evidence": {
+        "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg",
+        "tool": "view_image",
+        "detail": "original",
+        "viewed": true
+      }
+    },
+    {
+      "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+      "condition": "rgb_descriptions",
+      "action_position": 2,
+      "justification_position": 2,
+      "observed_visual_evidence": "Construction scene with wet material in a foreground container, scaffolding, workers, bowls, and unfinished surfaces; even application best fits the task. RGB and its neutral description establish the scene and ongoing activity.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/0/conditions/rgb_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+      "condition": "pose_descriptions",
+      "action_position": 2,
+      "justification_position": 2,
+      "observed_visual_evidence": "Construction scene with wet material in a foreground container, scaffolding, workers, bowls, and unfinished surfaces; even application best fits the task. The pose map adds body or hand locations but no cue that changes the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/0/conditions/pose_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+      "condition": "segmentation_descriptions",
+      "action_position": 2,
+      "justification_position": 2,
+      "observed_visual_evidence": "Construction scene with wet material in a foreground container, scaffolding, workers, bowls, and unfinished surfaces; even application best fits the task. The segmentation map is sparse or noisy; visible masks are treated as uncertain and do not change the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/0/conditions/segmentation_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+      "condition": "depth_descriptions",
+      "action_position": 2,
+      "justification_position": 2,
+      "observed_visual_evidence": "Construction scene with wet material in a foreground container, scaffolding, workers, bowls, and unfinished surfaces; even application best fits the task. The relative-depth map clarifies foreground hands or objects and person placement but does not change the action match.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/0/conditions/depth_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+      "condition": "all_descriptions",
+      "action_position": 2,
+      "justification_position": 2,
+      "observed_visual_evidence": "Construction scene with wet material in a foreground container, scaffolding, workers, bowls, and unfinished surfaces; even application best fits the task. RGB, pose, segmentation, and relative depth jointly preserve the same scene interpretation; noisy auxiliary outputs are discounted.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/0/conditions/all_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+      "condition": "rgb_descriptions",
+      "action_position": 3,
+      "justification_position": 2,
+      "observed_visual_evidence": "Kitchen scene in which the wearer carries a food tray toward a person seated on the floor; handing over food without commenting best fits. RGB and its neutral description establish the scene and ongoing activity.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/1/conditions/rgb_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+      "condition": "pose_descriptions",
+      "action_position": 3,
+      "justification_position": 2,
+      "observed_visual_evidence": "Kitchen scene in which the wearer carries a food tray toward a person seated on the floor; handing over food without commenting best fits. The pose map adds body or hand locations but no cue that changes the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/1/conditions/pose_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+      "condition": "segmentation_descriptions",
+      "action_position": 3,
+      "justification_position": 2,
+      "observed_visual_evidence": "Kitchen scene in which the wearer carries a food tray toward a person seated on the floor; handing over food without commenting best fits. The segmentation map is sparse or noisy; visible masks are treated as uncertain and do not change the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/1/conditions/segmentation_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+      "condition": "depth_descriptions",
+      "action_position": 3,
+      "justification_position": 2,
+      "observed_visual_evidence": "Kitchen scene in which the wearer carries a food tray toward a person seated on the floor; handing over food without commenting best fits. The relative-depth map clarifies foreground hands or objects and person placement but does not change the action match.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/1/conditions/depth_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+      "condition": "all_descriptions",
+      "action_position": 3,
+      "justification_position": 2,
+      "observed_visual_evidence": "Kitchen scene in which the wearer carries a food tray toward a person seated on the floor; handing over food without commenting best fits. RGB, pose, segmentation, and relative depth jointly preserve the same scene interpretation; noisy auxiliary outputs are discounted.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/1/conditions/all_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+      "condition": "rgb_descriptions",
+      "action_position": 4,
+      "justification_position": 3,
+      "observed_visual_evidence": "Automotive workspace with a mechanic handling a metal vehicle component among brackets, tools, springs, and hoses; secure fastening best matches the visible repair context. RGB and its neutral description establish the scene and ongoing activity.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/2/conditions/rgb_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+      "condition": "pose_descriptions",
+      "action_position": 4,
+      "justification_position": 3,
+      "observed_visual_evidence": "Automotive workspace with a mechanic handling a metal vehicle component among brackets, tools, springs, and hoses; secure fastening best matches the visible repair context. The pose map adds body or hand locations but no cue that changes the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/2/conditions/pose_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+      "condition": "segmentation_descriptions",
+      "action_position": 4,
+      "justification_position": 3,
+      "observed_visual_evidence": "Automotive workspace with a mechanic handling a metal vehicle component among brackets, tools, springs, and hoses; secure fastening best matches the visible repair context. The segmentation map is sparse or noisy; visible masks are treated as uncertain and do not change the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/2/conditions/segmentation_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+      "condition": "depth_descriptions",
+      "action_position": 4,
+      "justification_position": 3,
+      "observed_visual_evidence": "Automotive workspace with a mechanic handling a metal vehicle component among brackets, tools, springs, and hoses; secure fastening best matches the visible repair context. The relative-depth map clarifies foreground hands or objects and person placement but does not change the action match.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/2/conditions/depth_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+      "condition": "all_descriptions",
+      "action_position": 4,
+      "justification_position": 3,
+      "observed_visual_evidence": "Automotive workspace with a mechanic handling a metal vehicle component among brackets, tools, springs, and hoses; secure fastening best matches the visible repair context. RGB, pose, segmentation, and relative depth jointly preserve the same scene interpretation; noisy auxiliary outputs are discounted.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/2/conditions/all_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+      "condition": "rgb_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer handles a cat, then cuts or assembles a box-like structure while the cat remains close to the work area; careful placement away from the cat best fits. RGB and its neutral description establish the scene and ongoing activity.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/3/conditions/rgb_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+      "condition": "pose_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer handles a cat, then cuts or assembles a box-like structure while the cat remains close to the work area; careful placement away from the cat best fits. The pose map adds body or hand locations but no cue that changes the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/3/conditions/pose_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+      "condition": "segmentation_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer handles a cat, then cuts or assembles a box-like structure while the cat remains close to the work area; careful placement away from the cat best fits. The segmentation map is sparse or noisy; visible masks are treated as uncertain and do not change the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/3/conditions/segmentation_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+      "condition": "depth_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer handles a cat, then cuts or assembles a box-like structure while the cat remains close to the work area; careful placement away from the cat best fits. The relative-depth map clarifies foreground hands or objects and person placement but does not change the action match.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/3/conditions/depth_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+      "condition": "all_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer handles a cat, then cuts or assembles a box-like structure while the cat remains close to the work area; careful placement away from the cat best fits. RGB, pose, segmentation, and relative depth jointly preserve the same scene interpretation; noisy auxiliary outputs are discounted.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/3/conditions/all_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+      "condition": "rgb_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer stands beside active cookware on a two-burner stove with another person nearby; stirring and checking the pot best fits. RGB and its neutral description establish the scene and ongoing activity.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/4/conditions/rgb_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+      "condition": "pose_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer stands beside active cookware on a two-burner stove with another person nearby; stirring and checking the pot best fits. The pose map adds body or hand locations but no cue that changes the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/4/conditions/pose_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+      "condition": "segmentation_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer stands beside active cookware on a two-burner stove with another person nearby; stirring and checking the pot best fits. The segmentation map is sparse or noisy; visible masks are treated as uncertain and do not change the RGB interpretation.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/4/conditions/segmentation_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+      "condition": "depth_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer stands beside active cookware on a two-burner stove with another person nearby; stirring and checking the pot best fits. The relative-depth map clarifies foreground hands or objects and person placement but does not change the action match.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/4/conditions/depth_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    },
+    {
+      "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+      "condition": "all_descriptions",
+      "action_position": 1,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer stands beside active cookware on a two-burner stove with another person nearby; stirring and checking the pot best fits. RGB, pose, segmentation, and relative depth jointly preserve the same scene interpretation; noisy auxiliary outputs are discounted.",
+      "attached_text_source": {
+        "manifest_path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-expanded-blind-manifest.json",
+        "json_pointer": "/items/4/conditions/all_descriptions/attached_text"
+      },
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_pose.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_segmentation.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        },
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_depth.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ],
+      "context_accumulation_caveat": "This condition was judged within one continuing agent context, so earlier item and condition judgments may influence it."
+    }
+  ]
+}

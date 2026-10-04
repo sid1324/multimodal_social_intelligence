@@ -1,0 +1,102 @@
+{
+ "Qwen3-VL-32B": {
+  "options": 17,
+  "depth_only": 22,
+  "frames": 38,
+  "depth_vs_options": [
+   12,
+   7,
+   0.359283447265625
+  ],
+  "frames_vs_depth": [
+   20,
+   4,
+   0.001543879508972168
+  ]
+ },
+ "GPT-5.5": {
+  "options": 25,
+  "depth_only": 27,
+  "frames": 41,
+  "depth_vs_options": [
+   8,
+   6,
+   0.79052734375
+  ],
+  "frames_vs_depth": [
+   18,
+   4,
+   0.004343509674072266
+  ]
+ },
+ "GPT-5.6": {
+  "options": 21,
+  "depth_only": 29,
+  "frames": 37,
+  "depth_vs_options": [
+   11,
+   3,
+   0.057373046875
+  ],
+  "frames_vs_depth": [
+   13,
+   5,
+   0.09625244140625
+  ]
+ },
+ "GPT-6": {
+  "options": 23,
+  "depth_only": 28,
+  "frames": 42,
+  "depth_vs_options": [
+   12,
+   7,
+   0.359283447265625
+  ],
+  "frames_vs_depth": [
+   17,
+   3,
+   0.0025768280029296875
+  ]
+ },
+ "Sonnet 5.5": {
+  "options": 33,
+  "depth_only": 31,
+  "frames": 46,
+  "depth_vs_options": [
+   8,
+   10,
+   0.8145294189453125
+  ],
+  "frames_vs_depth": [
+   19,
+   4,
+   0.002599477767944336
+  ]
+ },
+ "Opus 5.5": {
+  "options": 32,
+  "depth_only": 42,
+  "frames": 45,
+  "depth_vs_options": [
+   16,
+   6,
+   0.052478790283203125
+  ],
+  "frames_vs_depth": [
+   9,
+   6,
+   0.60723876953125
+  ]
+ },
+ "depth minus options": [
+  7.777777777777778,
+  -0.2777777777777778,
+  16.11111111111111
+ ],
+ "frames minus depth": [
+  19.444444444444446,
+  10.833333333333334,
+  28.333333333333332
+ ]
+}

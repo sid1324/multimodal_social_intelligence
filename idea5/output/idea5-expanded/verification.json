@@ -1,0 +1,21 @@
+{
+  "status": "Stopped partial run; all saved rows checked",
+  "matched_complete_clips": 35,
+  "excluded_incomplete_rows": 2,
+  "qwen_results": 562,
+  "conditions": 16,
+  "distinct_source_clips": 40,
+  "finite_depth_arrays": 200,
+  "geometry_images_decoded": 400,
+  "aligned_four_grid_sets": 40,
+  "agent_rows": 30,
+  "agent_image_views": 60,
+  "html_local_links_checked": 323,
+  "scores_recalculated": true,
+  "mapped_choice_and_gold_consistency": true,
+  "attached_description_manifest_consistency": true,
+  "segmentation_weight_sha256_verified": true,
+  "qwen_config_layers": 64,
+  "qwen_config_quantization_bits": 8,
+  "limits": "Asset, scoring and provenance checks do not validate detector accuracy, caption truth, student interpretation or TA approval."
+}

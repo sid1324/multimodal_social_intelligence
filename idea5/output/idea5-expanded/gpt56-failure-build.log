@@ -1,0 +1,166 @@
+{
+  "rgb_baseline": {
+    "n": 15,
+    "action_correct": 11,
+    "justification_correct": 11,
+    "both_correct": 11
+  },
+  "new10_baseline": {
+    "n": 10,
+    "both_correct": 6
+  },
+  "diagnostic_n": 4,
+  "conditions": {
+    "pose_images": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "segmentation_images": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "depth_images": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "all_images": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "repeat1_images": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "repeat3_images": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "shuffled_all_images": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "rgb_descriptions": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "pose_descriptions": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "segmentation_descriptions": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "depth_descriptions": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "all_descriptions": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "repeat1_descriptions": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "repeat3_descriptions": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    },
+    "shuffled_all_descriptions": {
+      "n": 4,
+      "action_correct": 1,
+      "justification_correct": 1,
+      "both_correct": 1,
+      "action_changed": 1,
+      "justification_changed": 1
+    }
+  },
+  "limits": "Selected RGB failures, tool-using agent and accumulating context; not unbiased population accuracy, a stateless API benchmark or causal geometry evidence.",
+  "matched_controls": [
+    {
+      "condition": "all_images",
+      "reference": "repeat3_images",
+      "improved": 0,
+      "worsened": 0,
+      "unchanged": 4
+    },
+    {
+      "condition": "all_images",
+      "reference": "shuffled_all_images",
+      "improved": 0,
+      "worsened": 0,
+      "unchanged": 4
+    },
+    {
+      "condition": "all_descriptions",
+      "reference": "repeat3_descriptions",
+      "improved": 0,
+      "worsened": 0,
+      "unchanged": 4
+    },
+    {
+      "condition": "all_descriptions",
+      "reference": "shuffled_all_descriptions",
+      "improved": 0,
+      "worsened": 0,
+      "unchanged": 4
+    }
+  ]
+}

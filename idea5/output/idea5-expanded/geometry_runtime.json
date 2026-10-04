@@ -1,0 +1,7 @@
+{
+  "seconds": 28.161691904067993,
+  "python": "3.11.15",
+  "torch": "2.14.1",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "device": "mps"
+}

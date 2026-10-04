@@ -1,0 +1,12 @@
+{
+  "elapsed_inference_and_export_seconds": 11.365709781646729,
+  "python": "3.11.15",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "mediapipe": "0.10.21",
+  "opencv": "4.11.0",
+  "numpy": "1.26.4",
+  "model_sha256": {
+    "hand_landmarker.task": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+    "pose_landmarker_full.task": "4eaa5eb7a98365221087693fcc286334cf0858e2eb6e15b506aa4a7ecdcec4ad"
+  }
+}

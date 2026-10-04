@@ -1,0 +1,1 @@
+{"id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80", "condition": "geo_nn", "model": "claude-opus-5-5", "action_position": 5, "justification_position": 4, "raw": "{\"action\": 5, \"justification\": 4}", "num_turns": 1, "tools_available": 0, "mcp_servers": 0, "web_search_requests": 0, "web_fetch_requests": 0, "images_sent": 3, "context_tokens": 2586}

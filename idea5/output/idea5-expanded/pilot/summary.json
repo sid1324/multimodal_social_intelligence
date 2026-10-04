@@ -1,0 +1,638 @@
+{
+  "snapshot": "First three fixed-order source clips with all 16 conditions complete; no outcome-based filtering",
+  "n": 3,
+  "frames": 15,
+  "model": {
+    "id": "mlx-community/Qwen3-VL-32B-Instruct-8bit",
+    "revision": "14fd4c76af6bd02d1f3dbe5ea7b03da5a1ae25cf",
+    "local_path": "models/Qwen3-VL-32B-Instruct-8bit",
+    "quantization": "8-bit community MLX checkpoint",
+    "expected_repo_bytes": 36017170173
+  },
+  "scores": {
+    "rgb_images": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "pose_images": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "segmentation_images": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "depth_images": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "all_images": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "repeat1_images": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "repeat3_images": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "shuffled_all_images": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "rgb_descriptions": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "pose_descriptions": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "segmentation_descriptions": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "depth_descriptions": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "all_descriptions": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "repeat1_descriptions": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "repeat3_descriptions": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "shuffled_all_descriptions": {
+      "action_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "justification_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      },
+      "both_correct": {
+        "correct": 1,
+        "n": 3,
+        "ci": [
+          0.3333333333333333,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "paired_joint_differences": [
+    {
+      "condition": "pose_images",
+      "reference": "rgb_images",
+      "joint_difference_ci": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved": 0,
+      "worsened": 0,
+      "bootstrap_degenerate": true,
+      "either_prediction_changed": 0
+    },
+    {
+      "condition": "segmentation_images",
+      "reference": "rgb_images",
+      "joint_difference_ci": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved": 0,
+      "worsened": 0,
+      "bootstrap_degenerate": true,
+      "either_prediction_changed": 0
+    },
+    {
+      "condition": "depth_images",
+      "reference": "rgb_images",
+      "joint_difference_ci": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved": 0,
+      "worsened": 0,
+      "bootstrap_degenerate": true,
+      "either_prediction_changed": 0
+    },
+    {
+      "condition": "all_images",
+      "reference": "rgb_images",
+      "joint_difference_ci": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved": 0,
+      "worsened": 0,
+      "bootstrap_degenerate": true,
+      "either_prediction_changed": 0
+    },
+    {
+      "condition": "pose_descriptions",
+      "reference": "rgb_descriptions",
+      "joint_difference_ci": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved": 0,
+      "worsened": 0,
+      "bootstrap_degenerate": true,
+      "either_prediction_changed": 0
+    },
+    {
+      "condition": "segmentation_descriptions",
+      "reference": "rgb_descriptions",
+      "joint_difference_ci": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved": 0,
+      "worsened": 0,
+      "bootstrap_degenerate": true,
+      "either_prediction_changed": 0
+    },
+    {
+      "condition": "depth_descriptions",
+      "reference": "rgb_descriptions",
+      "joint_difference_ci": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved": 0,
+      "worsened": 0,
+      "bootstrap_degenerate": true,
+      "either_prediction_changed": 0
+    },
+    {
+      "condition": "all_descriptions",
+      "reference": "rgb_descriptions",
+      "joint_difference_ci": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved": 0,
+      "worsened": 0,
+      "bootstrap_degenerate": true,
+      "either_prediction_changed": 0
+    }
+  ],
+  "gpt56_agent_pilot": {
+    "scores": {
+      "all_descriptions": {
+        "n": 3,
+        "action_correct": 3,
+        "justification_correct": 3,
+        "both_correct": 3,
+        "qwen_matched_both": 1,
+        "qwen_matched_n": 3
+      },
+      "depth_descriptions": {
+        "n": 3,
+        "action_correct": 3,
+        "justification_correct": 3,
+        "both_correct": 3,
+        "qwen_matched_both": 1,
+        "qwen_matched_n": 3
+      },
+      "pose_descriptions": {
+        "n": 3,
+        "action_correct": 3,
+        "justification_correct": 3,
+        "both_correct": 3,
+        "qwen_matched_both": 1,
+        "qwen_matched_n": 3
+      },
+      "rgb_descriptions": {
+        "n": 3,
+        "action_correct": 3,
+        "justification_correct": 3,
+        "both_correct": 3,
+        "qwen_matched_both": 1,
+        "qwen_matched_n": 3
+      },
+      "rgb_images": {
+        "n": 3,
+        "action_correct": 3,
+        "justification_correct": 3,
+        "both_correct": 3,
+        "qwen_matched_both": 1,
+        "qwen_matched_n": 3
+      },
+      "segmentation_descriptions": {
+        "n": 3,
+        "action_correct": 3,
+        "justification_correct": 3,
+        "both_correct": 3,
+        "qwen_matched_both": 1,
+        "qwen_matched_n": 3
+      }
+    },
+    "identity": "Agent configured with requested gpt-5.6-sol override; accepted by orchestration but not independently inspected inside agent runtime.",
+    "protocol_limit": "These three cases are matched with Qwen. Agent uses tools and accumulated context, so this is not a clean model ranking. The full agent pilot has five cases; this immediate report subsets it to the same three."
+  }
+}

@@ -1,0 +1,30 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.25in}
+\title{Explicit Body and Hand Pose for Social-Norm Reasoning}
+\author{Idea 5: exploratory analysis draft for author review}
+\date{October 4, 2026}
+\begin{document}
+\maketitle
+\noindent\textbf{Review status.} The computational work below is complete. Human assessment of the detections and the final interpretation are pending. This standalone preview is not the team's complete ICML submission; the section source is designed to be inserted into the existing report.
+\input{idea5-section.tex}
+\bibliographystyle{plainnat}
+\bibliography{idea5-references}
+\clearpage
+\onecolumn
+\section*{AI usage and contribution record (draft)}
+An OpenAI Codex agent inspected the assignment and proposal, suggested analysis approaches, selected the fixed sampling and control protocol, wrote and debugged the download/extraction/inference/reporting code, created isolated Python environments, downloaded the public dataset and pretrained models, executed the computations, calculated the summary statistics and intervals, and generated plots, an interactive review gallery, and this provisional report text. AI assistance therefore includes experimental design, code, execution support, analysis summaries, and writing; it must not be described as wording assistance alone.
+
+Frozen MediaPipe Pose Landmarker Full and Hand Landmarker models generated body and hand landmark predictions. A locally executed community 4-bit Qwen3-VL-8B-Instruct checkpoint generated experimental action and justification choices. No model was fine-tuned. The agent did not supply human benchmark answers or human annotations.
+
+The student selected research idea 5 and requested this exploratory work. No personal review of the generated overlays, final author interpretation, TA approval, or teammate contributions has yet been recorded. Add these details truthfully once completed. The assignment requires students to take a leading role in the project and disclose all AI use.
+
+\section*{Files and reproducibility}
+The source-video sampling rule, frame timestamps, raw landmarks, frozen-model prompts and responses, option permutations, model revisions and hashes, dependency versions, download verification, and per-item results are saved in the accompanying project. The review gallery allows original frames, overlays, and skeleton maps to be inspected, with locally stored review notes exportable as JSON. All blank detections and invalid model responses remain in the denominator.
+
+\section*{Checks before submission}
+Inspect the examples and identify mistaken or task-irrelevant detections. Replace the provisional discussion with your own conclusions. Confirm the analysis scope with the primary TA and incorporate the section and figures into the team's ICML report within its shared page limit. Complete the team-level disclosure and contribution statement.
+\end{document}

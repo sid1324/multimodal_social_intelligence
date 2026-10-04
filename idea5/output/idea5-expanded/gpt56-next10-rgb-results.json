@@ -1,0 +1,165 @@
+{
+  "experiment": "EgoNormia RGB-only next-ten agent-workflow extension",
+  "source_manifest": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/gpt56-next10-rgb-blind-manifest.json",
+  "gold_free_at_prediction_time": true,
+  "model_identity": {
+    "requested_override": "gpt-5.6-sol",
+    "orchestrator_accepted_override": true,
+    "independently_verified_by_agent": false
+  },
+  "workflow_limit": "Predictions were made in one accumulated-context agent workflow, not independent stateless calls.",
+  "condition": "rgb",
+  "options_indexing": "1-based list position",
+  "items": [
+    {
+      "case_number": 6,
+      "id": "8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22",
+      "action_position": 1,
+      "justification_position": 1,
+      "observed_visual_evidence": "First-person bicycle workshop view with a mounted bike and the wearer's gloved hands working at the rear drivetrain or derailleur area.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 7,
+      "id": "ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73",
+      "action_position": 3,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer browses a densely stocked clothing rack and then turns toward or follows a nearby companion in the store; no employee consultation or selected item is visible.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 8,
+      "id": "19493340-9a5c-406c-9943-712a4a4a073c_634-74",
+      "action_position": 2,
+      "justification_position": 4,
+      "observed_visual_evidence": "Indoor construction scene with two people handling or positioning an aluminum ladder or structural frame; no sod, paint roller, wallpaper, or dough is visible.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/19493340-9a5c-406c-9943-712a4a4a073c_634-74_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 9,
+      "id": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+      "action_position": 5,
+      "justification_position": 5,
+      "observed_visual_evidence": "The wearer is near clothing racks with two casually interacting people and turns toward a nearby woman; no boss, wedding styling, or item-inspection activity is evident.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 10,
+      "id": "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+      "action_position": 3,
+      "justification_position": 4,
+      "observed_visual_evidence": "In a clothing store, the wearer holds several garments or hangers while a woman approaches and extends a hand, supporting presentation of outfit choices to her.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/750c5383-58f6-4063-8cc8-50691a68994d_870-14_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 11,
+      "id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08",
+      "action_position": 1,
+      "justification_position": 2,
+      "observed_visual_evidence": "A nearby woman with a staff-style lanyard holds multiple garments on hangers and faces the wearer as if discussing them; involving her opinion best matches the visible interaction.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 12,
+      "id": "b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16",
+      "action_position": 1,
+      "justification_position": 2,
+      "observed_visual_evidence": "A casual one-on-one conversation at a fast-food restaurant table is visible; there are no documents, clinical cues, or planning materials suggesting a contract, treatment, or date confirmation.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 13,
+      "id": "699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50",
+      "action_position": 3,
+      "justification_position": 1,
+      "observed_visual_evidence": "Active construction area with unfinished masonry, exposed rods, wet material, and a nearby worker; checking tools and safety compliance fits the worksite context better than leaving or covert recording.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 14,
+      "id": "5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76",
+      "action_position": 5,
+      "justification_position": 3,
+      "observed_visual_evidence": "The wearer scans product displays in a store as another person comes into view; no dropped object or clear request for directions is visible, so continuing to browse while conversing best matches.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    },
+    {
+      "case_number": 15,
+      "id": "695cefe9-04c0-42fb-80fc-d308b314b788_443-90",
+      "action_position": 3,
+      "justification_position": 3,
+      "observed_visual_evidence": "At a retail-style display, a smiling woman with a lanyard holds a small red candle-like item while the wearer raises another colored item, supporting presentation and discussion of its features.",
+      "image_view_evidence": [
+        {
+          "path": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/695cefe9-04c0-42fb-80fc-d308b314b788_443-90_rgb.jpg",
+          "tool": "view_image",
+          "detail": "original",
+          "viewed": true
+        }
+      ]
+    }
+  ]
+}

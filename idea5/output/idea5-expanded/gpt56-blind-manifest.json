@@ -1,0 +1,117 @@
+{
+  "gold_free": true,
+  "items": [
+    {
+      "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+      "source": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a",
+      "action_options": [
+        "Shape the material into intricate patterns on a surface using a tool.",
+        "Apply the material evenly onto the surface using a tool.",
+        "Point at the wall and describe the surface texture.",
+        "Follow the instructions to apply the material to a small area using a tool for practice.",
+        "[None of these actions is appropriate]"
+      ],
+      "justification_options": [
+        "Intricate patterns demonstrate skill and are often desired.",
+        "Even application is standard practice for most material applications.",
+        "[None of these justifications is appropriate]",
+        "Describing texture is a standard way to assess surface properties.",
+        "Practice is essential for mastering any skill."
+      ],
+      "images": {
+        "rgb": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg",
+        "pose": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_skeleton.jpg"
+      }
+    },
+    {
+      "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+      "source": "408acdc8-c286-482b-91ba-3fcda24fedc3",
+      "action_options": [
+        "[None of these actions is appropriate]",
+        "Provide guests with the necessary utensils and ingredients for a collaborative dish.",
+        "Hand the person food without commenting on their attire or seating.",
+        "Encourage friends to join you in diverse dishes while filming.",
+        "Ask the person to put on a shirt before you serve them food."
+      ],
+      "justification_options": [
+        "[None of these justifications is appropriate]",
+        "It's polite to not assume or comment on someone's state of being, especially in a social setting.",
+        "Ensuring guests are appropriately dressed is a standard practice in dining etiquette.",
+        "Filming with friends during a cooking session promotes engagement and creativity.",
+        "In a dinner party scenario, it's normative to involve guests in the cooking process."
+      ],
+      "images": {
+        "rgb": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg",
+        "pose": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_skeleton.jpg"
+      }
+    },
+    {
+      "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+      "source": "a4375d98-e295-4e7d-a718-d8af066e3d57",
+      "action_options": [
+        "[None of these actions is appropriate]",
+        "Inspect the chip under magnification, and replace if necessary.",
+        "Solder the clasp with precision tools.",
+        "Tighten the bolt using a wrench.",
+        "Smooth the clay using a sculpting tool."
+      ],
+      "justification_options": [
+        "Creating a refined sculpture demands careful shaping; using appropriate tools ensures a professional result.",
+        "The delicate nature of the clasp necessitates precision; soldering with specialized tools minimizes damage and ensures a strong join.",
+        "Proper assembly requires secure fastening; using a wrench is the standard and safest method.",
+        "[None of these justifications is appropriate]",
+        "Quality control requires thorough inspection; replacing defective components is standard practice to maintain functionality and prevent failures."
+      ],
+      "images": {
+        "rgb": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg",
+        "pose": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_skeleton.jpg"
+      }
+    },
+    {
+      "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+      "source": "839c2689-76f1-4e8c-893d-93675663dd93",
+      "action_options": [
+        "Place the assembled furniture carefully away from the cat.",
+        "Incorporate the wooden box into the toy box's construction.",
+        "[None of these actions is appropriate]",
+        "Securely fasten the birdhouse to the post, away from any hazard.",
+        "Place the donated items neatly into a separate box."
+      ],
+      "justification_options": [
+        "Securing the birdhouse prevents damage and potential harm to the bird, demonstrating responsible construction and care for wildlife.",
+        "Integrating the wooden box into the toy box construction avoids waste and promotes efficient use of resources, reflecting resourcefulness and responsible crafting.",
+        "Careful placement prevents damage to the furniture and ensures the safety of the cat, reflecting responsible handling of objects and concern for animal welfare.",
+        "Neatly organizing donated items shows respect for the donation and ensures efficient handling of the items, reflecting responsible donation practices and consideration for recipients.",
+        "[None of these justifications is appropriate]"
+      ],
+      "images": {
+        "rgb": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg",
+        "pose": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_skeleton.jpg"
+      }
+    },
+    {
+      "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+      "source": "c79e05d5-eaf6-4323-a707-744020743037",
+      "action_options": [
+        "Stir the pot of soup and check its consistency.",
+        "Show the person how to toss the salad evenly using large utensils.",
+        "[None of these actions is appropriate]",
+        "Place food from serving platters into storage containers and label them.",
+        "Direct the person to chop vegetables while you monitor several pots on the stove."
+      ],
+      "justification_options": [
+        "Using large utensils is efficient and ensures even salad tossing; it's a standard technique.",
+        "Proper food storage is crucial for food safety and hygiene; labeling is essential.",
+        "Checking consistency ensures the soup is properly cooked, a standard cooking practice.",
+        "Directing others efficiently utilizes time and resources in a busy kitchen.",
+        "[None of these justifications is appropriate]"
+      ],
+      "images": {
+        "rgb": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg",
+        "pose": "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-audit/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_skeleton.jpg"
+      }
+    }
+  ],
+  "options_indexing": "1-based list position; return index 1-5, not original dataset index",
+  "instruction": "Choose most socially appropriate next action for camera wearer, then choose justification for selected action; no gold or generated dataset descriptions are supplied."
+}

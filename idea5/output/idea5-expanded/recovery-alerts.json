@@ -1,0 +1,78 @@
+{
+  "baseline": "Plain RGB images only; require both action and justification correct after intervention",
+  "qwen_rows_checked": 562,
+  "alerts": [
+    {
+      "workflow": "Qwen32B",
+      "id": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+      "combined_condition": "all_descriptions",
+      "baseline_condition": "rgb_images",
+      "baseline_action_idx": 4,
+      "baseline_justification_idx": 4,
+      "combined_action_idx": 0,
+      "combined_justification_idx": 0,
+      "controls_joint_correct": {
+        "repeat3_images": false,
+        "shuffled_all_images": false,
+        "repeat3_descriptions": false,
+        "shuffled_all_descriptions": false
+      },
+      "caveat": "This condition also adds text; controls and the full sample must be inspected before making a geometry claim.",
+      "first_detected_at": "2026-10-04T19:36:42.720982+00:00"
+    },
+    {
+      "workflow": "Qwen32B",
+      "id": "54adfe07-dcc1-4c3f-90a2-ac93ea7ff6df_76-91",
+      "combined_condition": "all_images",
+      "baseline_condition": "rgb_images",
+      "baseline_action_idx": 4,
+      "baseline_justification_idx": 4,
+      "combined_action_idx": 2,
+      "combined_justification_idx": 2,
+      "controls_joint_correct": {
+        "repeat3_images": false,
+        "shuffled_all_images": true,
+        "repeat3_descriptions": false,
+        "shuffled_all_descriptions": false
+      },
+      "caveat": "Images-only recovery; inspect repeated-image and shuffled-map controls and the completed sample before attributing the change to aligned geometry.",
+      "first_detected_at": "2026-10-04T20:01:36.609708+00:00"
+    },
+    {
+      "workflow": "GPT56_agent",
+      "id": "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+      "combined_condition": "all_images",
+      "baseline_condition": "rgb_images",
+      "baseline_action_idx": 3,
+      "baseline_justification_idx": 3,
+      "combined_action_idx": 1,
+      "combined_justification_idx": 1,
+      "controls_joint_correct": {
+        "repeat3_images": true,
+        "shuffled_all_images": true,
+        "repeat3_descriptions": true,
+        "shuffled_all_descriptions": true
+      },
+      "caveat": "Outcome-selected failure diagnostic in a tool-using, accumulating agent context; not an independent causal or stateless model comparison.",
+      "first_detected_at": "2026-10-04T19:41:15.653823+00:00"
+    },
+    {
+      "workflow": "GPT56_agent",
+      "id": "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+      "combined_condition": "all_descriptions",
+      "baseline_condition": "rgb_images",
+      "baseline_action_idx": 3,
+      "baseline_justification_idx": 3,
+      "combined_action_idx": 1,
+      "combined_justification_idx": 1,
+      "controls_joint_correct": {
+        "repeat3_images": true,
+        "shuffled_all_images": true,
+        "repeat3_descriptions": true,
+        "shuffled_all_descriptions": true
+      },
+      "caveat": "Outcome-selected failure diagnostic in a tool-using, accumulating agent context; not an independent causal or stateless model comparison.",
+      "first_detected_at": "2026-10-04T19:41:15.654303+00:00"
+    }
+  ]
+}

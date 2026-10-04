@@ -1,0 +1,5525 @@
+{
+ "summary": {
+  "sonnet": {
+   "n_complete": 60,
+   "text": {
+    "n": 60,
+    "action": 22,
+    "both": 21
+   },
+   "rgb": {
+    "n": 60,
+    "action": 35,
+    "both": 32
+   },
+   "geo": {
+    "n": 60,
+    "action": 32,
+    "both": 29
+   },
+   "text->rgb": {
+    "fixed": 19,
+    "broken": 8,
+    "answer_changed": 41
+   },
+   "rgb->geo": {
+    "fixed": 3,
+    "broken": 6,
+    "answer_changed": 12
+   },
+   "proxemics": {
+    "n": 22,
+    "text": 12,
+    "rgb": 14,
+    "geo": 12
+   },
+   "rgb_fail_geo_ok_ids": [
+    "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+    "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+    "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27"
+   ]
+  },
+  "opus": {
+   "n_complete": 60,
+   "text": {
+    "n": 60,
+    "action": 45,
+    "both": 44
+   },
+   "rgb": {
+    "n": 60,
+    "action": 47,
+    "both": 47
+   },
+   "geo": {
+    "n": 60,
+    "action": 48,
+    "both": 48
+   },
+   "text->rgb": {
+    "fixed": 12,
+    "broken": 9,
+    "answer_changed": 22
+   },
+   "rgb->geo": {
+    "fixed": 3,
+    "broken": 2,
+    "answer_changed": 5
+   },
+   "proxemics": {
+    "n": 22,
+    "text": 18,
+    "rgb": 16,
+    "geo": 17
+   },
+   "rgb_fail_geo_ok_ids": [
+    "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+    "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+    "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50"
+   ]
+  },
+  "gpt": {
+   "n_complete": 60,
+   "text": {
+    "n": 60,
+    "action": 5,
+    "both": 5
+   },
+   "rgb": {
+    "n": 60,
+    "action": 39,
+    "both": 39
+   },
+   "geo": {
+    "n": 60,
+    "action": 42,
+    "both": 41
+   },
+   "text->rgb": {
+    "fixed": 34,
+    "broken": 0,
+    "answer_changed": 48
+   },
+   "rgb->geo": {
+    "fixed": 5,
+    "broken": 3,
+    "answer_changed": 12
+   },
+   "proxemics": {
+    "n": 22,
+    "text": 2,
+    "rgb": 17,
+    "geo": 16
+   },
+   "rgb_fail_geo_ok_ids": [
+    "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+    "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+    "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+    "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+    "470499d1-e015-4d45-a858-ca3e9566085e_2490-62"
+   ]
+  }
+ },
+ "rows": [
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 0,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 1,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 3,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 1,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "geo",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 0,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 3,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 1,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 1,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "rgb",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 2,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 0,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 3,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 2,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 1,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "sonnet",
+   "condition": "text",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "geo",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "rgb",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 1,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "opus",
+   "condition": "text",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 2,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 4,
+   "justification": 4,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "action": 1,
+   "justification": 1,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 3,
+   "justification": 3,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "action": 3,
+   "justification": 3,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 1,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 1,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "action": 0,
+   "justification": 0,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 2,
+   "justification": 2,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+   "action": 4,
+   "justification": 4,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "text",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+   "action": 2,
+   "justification": 2,
+   "action_correct": false,
+   "both_correct": false
+  },
+  {
+   "model": "gpt",
+   "condition": "textforced",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "rgb",
+   "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+   "action": 1,
+   "justification": 1,
+   "action_correct": true,
+   "both_correct": true
+  },
+  {
+   "model": "gpt",
+   "condition": "geo",
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "action": 0,
+   "justification": 0,
+   "action_correct": true,
+   "both_correct": true
+  }
+ ]
+}

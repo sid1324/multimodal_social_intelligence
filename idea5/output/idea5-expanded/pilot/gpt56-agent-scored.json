@@ -1,0 +1,128 @@
+[
+  {
+    "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+    "condition": "rgb_images",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+    "condition": "rgb_images",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+    "condition": "rgb_images",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+    "condition": "rgb_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+    "condition": "pose_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+    "condition": "segmentation_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+    "condition": "depth_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+    "condition": "all_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+    "condition": "rgb_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+    "condition": "pose_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+    "condition": "segmentation_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+    "condition": "depth_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+    "condition": "all_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+    "condition": "rgb_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+    "condition": "pose_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+    "condition": "segmentation_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+    "condition": "depth_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  },
+  {
+    "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+    "condition": "all_descriptions",
+    "action_correct": true,
+    "justification_correct": true,
+    "both_correct": true
+  }
+]

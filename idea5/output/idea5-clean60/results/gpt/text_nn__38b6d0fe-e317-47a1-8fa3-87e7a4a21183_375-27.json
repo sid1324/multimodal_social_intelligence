@@ -1,0 +1,1 @@
+{"id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27", "condition": "text_nn", "model": "gpt-5.6-sol", "action_position": 1, "justification_position": 5, "raw": "{\"action\":1,\"justification\":5}", "events": {"thread.started": 1, "turn.started": 1, "item.completed:agent_message": 1, "turn.completed": 1}}

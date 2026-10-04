@@ -1,0 +1,461 @@
+{
+ "calls": [
+  {
+   "model": "gpt-5.5",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.5",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-5.6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "textforced",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "rgb",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  },
+  {
+   "model": "gpt-6-sol",
+   "condition": "geo",
+   "events": {
+    "thread.started": 1,
+    "turn.started": 1,
+    "item.completed:agent_message": 1,
+    "turn.completed": 1
+   }
+  }
+ ],
+ "totals": {
+  "thread.started": 45,
+  "turn.started": 45,
+  "item.completed:agent_message": 45,
+  "turn.completed": 45
+ },
+ "tool_like": {}
+}

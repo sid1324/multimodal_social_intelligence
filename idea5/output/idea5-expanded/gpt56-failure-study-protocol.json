@@ -1,0 +1,15 @@
+{
+  "baseline_selection": "Next ten fixed-order cases (6-15) from the existing source-disjoint 40-clip sample, regardless of outcomes.",
+  "diagnostic_selection": "All new RGB baselines with either action or justification incorrect, externally identified only after baseline predictions were saved.",
+  "failure_ids": [
+    "19493340-9a5c-406c-9943-712a4a4a073c_634-74",
+    "699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50",
+    "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+    "ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73"
+  ],
+  "baseline_n": 10,
+  "failure_n": 4,
+  "conditions_per_failure": 15,
+  "labels_not_provided_to_agent": true,
+  "limit": "Outcome-conditioned failure cohort is diagnostic, not an unbiased score for new inputs. Agent accumulates context; same-example retesting can be influenced by earlier decisions. Results cannot be treated as clean stateless causal estimates."
+}

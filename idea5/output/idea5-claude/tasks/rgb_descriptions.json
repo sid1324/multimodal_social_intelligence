@@ -1,0 +1,351 @@
+{
+ "condition": "rgb_descriptions",
+ "indexing": "1-based option positions",
+ "items": [
+  {
+   "case_number": 1,
+   "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The five frames show a construction site from a high, egocentric viewpoint, likely from a camera mounted on a worker\u2019s head. In the foreground, a large dark bowl or container is visible, partially obscuring the view. A woman wearing a pink headscarf and dark clothing stands near scaffolding, holding a metal bowl. She remains relatively stationary across frames, occasionally shifting position. Another person in light clothing is visible in the background, moving slightly. The site includes wooden and metal scaffolding, bricks, cement bags, and tools. The ground is uneven, covered in dirt and debris. Sunlight casts strong shadows. The camera angle shifts slightly, revealing more of the surrounding structure and materials in later frames.",
+   "action_options": [
+    "Shape the material into intricate patterns on a surface using a tool.",
+    "Apply the material evenly onto the surface using a tool.",
+    "Point at the wall and describe the surface texture.",
+    "Follow the instructions to apply the material to a small area using a tool for practice.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Intricate patterns demonstrate skill and are often desired.",
+    "Even application is standard practice for most material applications.",
+    "[None of these justifications is appropriate]",
+    "Describing texture is a standard way to assess surface properties.",
+    "Practice is essential for mastering any skill."
+   ]
+  },
+  {
+   "case_number": 2,
+   "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The sequence shows a kitchen with white tiled walls and a window with metal bars. A stove holds a pan with toast and a metal tray. A silver thermos and a red container are visible on the counter. In later frames, a person wearing glasses and patterned shorts sits cross-legged on a mat on the floor, facing the camera. The camera holder\u2019s legs and hands are visible, holding a metal tray with a piece of toast. The tray is moved slightly between frames. The lighting is dim, and shadows are prominent. No clear interaction occurs between the person and the camera holder.",
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Provide guests with the necessary utensils and ingredients for a collaborative dish.",
+    "Hand the person food without commenting on their attire or seating.",
+    "Encourage friends to join you in diverse dishes while filming.",
+    "Ask the person to put on a shirt before you serve them food."
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "It's polite to not assume or comment on someone's state of being, especially in a social setting.",
+    "Ensuring guests are appropriately dressed is a standard practice in dining etiquette.",
+    "Filming with friends during a cooking session promotes engagement and creativity.",
+    "In a dinner party scenario, it's normative to involve guests in the cooking process."
+   ]
+  },
+  {
+   "case_number": 3,
+   "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The sequence shows a person wearing a blue button-up shirt with a name tag, viewed from above. In front of them is a green metal surface, likely a workbench or vehicle part, with various mechanical components, including a metal bracket, a red-handled tool, and a white box with small parts. A blue tarp covers objects to the left. The person\u2019s hands are initially raised, then pick up a pink cloth, manipulating it across frames. Another person in khaki shorts and dark shoes is visible in the background, standing near coiled springs and hoses. The pink cloth is held and adjusted in the final frames. The setting appears to be an outdoor or garage workspace.",
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Inspect the chip under magnification, and replace if necessary.",
+    "Solder the clasp with precision tools.",
+    "Tighten the bolt using a wrench.",
+    "Smooth the clay using a sculpting tool."
+   ],
+   "justification_options": [
+    "Creating a refined sculpture demands careful shaping; using appropriate tools ensures a professional result.",
+    "The delicate nature of the clasp necessitates precision; soldering with specialized tools minimizes damage and ensures a strong join.",
+    "Proper assembly requires secure fastening; using a wrench is the standard and safest method.",
+    "[None of these justifications is appropriate]",
+    "Quality control requires thorough inspection; replacing defective components is standard practice to maintain functionality and prevent failures."
+   ]
+  },
+  {
+   "case_number": 4,
+   "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/839c2689-76f1-4e8c-893d-93675663dd93_582-68_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The image displays five sequential frames from a top-down egocentric perspective. A person wearing a long-sleeved shirt with white cuffs and dark sleeves, black shoes, and multiple bracelets on both wrists is visible. In the first two frames, they interact with a light-colored cat on a wooden surface beneath a white curved shelf. The cat is held or petted. In the next three frames, the person uses a small knife to cut a piece of wood or cardboard. The cat moves away and is partially visible under the shelf in the later frames. Cardboard tubes are stacked near the shelf. The floor is tiled, and a power cord is visible in the second frame.",
+   "action_options": [
+    "Place the assembled furniture carefully away from the cat.",
+    "Incorporate the wooden box into the toy box's construction.",
+    "[None of these actions is appropriate]",
+    "Securely fasten the birdhouse to the post, away from any hazard.",
+    "Place the donated items neatly into a separate box."
+   ],
+   "justification_options": [
+    "Securing the birdhouse prevents damage and potential harm to the bird, demonstrating responsible construction and care for wildlife.",
+    "Integrating the wooden box into the toy box construction avoids waste and promotes efficient use of resources, reflecting resourcefulness and responsible crafting.",
+    "Careful placement prevents damage to the furniture and ensures the safety of the cat, reflecting responsible handling of objects and concern for animal welfare.",
+    "Neatly organizing donated items shows respect for the donation and ensures efficient handling of the items, reflecting responsible donation practices and consideration for recipients.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 5,
+   "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/c79e05d5-eaf6-4323-a707-744020743037_763-82_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The sequence shows a kitchen countertop with a stainless steel gas stove. On the stove, a covered pot sits on the left burner and a small open pot on the right. A plate of yellow round items, possibly fruits or snacks, is visible on the black countertop to the right. A person\u2019s right arm and hand, adorned with a bangle, are seen near the stove, resting or moving slightly. In the background, a newspaper or printed material is propped up against a wall or surface. The fourth frame shows motion blur, suggesting movement, and a person in a blue garment appears briefly on the right. The fifth frame returns to a clearer view, with the hand repositioned. The spatial layout remains consistent, with minor hand and background shifts.",
+   "action_options": [
+    "Stir the pot of soup and check its consistency.",
+    "Show the person how to toss the salad evenly using large utensils.",
+    "[None of these actions is appropriate]",
+    "Place food from serving platters into storage containers and label them.",
+    "Direct the person to chop vegetables while you monitor several pots on the stove."
+   ],
+   "justification_options": [
+    "Using large utensils is efficient and ensures even salad tossing; it's a standard technique.",
+    "Proper food storage is crucial for food safety and hygiene; labeling is essential.",
+    "Checking consistency ensures the soup is properly cooked, a standard cooking practice.",
+    "Directing others efficiently utilizes time and resources in a busy kitchen.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 6,
+   "id": "8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The image displays five sequential frames from a first-person perspective, showing a person wearing black gloves and a dark long-sleeve shirt working on a bicycle mounted upside-down on a repair stand. The bicycle has black and green components, with visible branding on the frame. The person holds a crumpled white cloth in one hand and uses tools with the other, manipulating parts near the rear wheel and drivetrain. The background includes a tiled floor, a black wall, and various tools and equipment, including a red toolbox and a gray machine with red coils. The person\u2019s legs, clad in gray pants, are visible below. The camera angle remains consistent, focused on the hands and bicycle, with slight shifts in hand position and tool use across frames.",
+   "action_options": [
+    "Tighten the derailleur cable using an adjustment barrel.",
+    "Replace the worn-out tires with recycled ones.",
+    "[None of these actions is appropriate]",
+    "Explain how to adjust the brakes to the customer.",
+    "Demonstrate proper chain lubrication to the students."
+   ],
+   "justification_options": [
+    "This action demonstrates a practical skill relevant to bicycle maintenance, a common task requiring proficiency.",
+    "This action promotes the sharing of knowledge and best practices, benefiting the students and the community.",
+    "[None of these justifications is appropriate]",
+    "This action fulfills a customer service role by providing needed information and assistance.",
+    "This action promotes sustainability and responsible resource management, reflecting environmentally conscious practices."
+   ]
+  },
+  {
+   "case_number": 7,
+   "id": "ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The image displays five consecutive frames from left to right, showing a retail clothing environment. Rows of garments on black hangers are visible, including shirts and pants in various colors such as black, white, blue, pink, and gray, with patterns like polka dots and checks. The clothing is arranged on racks extending into the background. In the rightmost frame, a person wearing a maroon long-sleeve top is seen from behind, moving toward the right, with blurred motion suggesting walking. The background includes a glass partition or window with reflections and indistinct shapes. The floor appears to be light-colored tile. No other people are clearly visible. The camera perspective remains relatively stable, with slight shifts in framing across frames.",
+   "action_options": [
+    "Select clothing items the stylist recommends based on their expertise.",
+    "Grab the desired item and proceed directly to the checkout.",
+    "Ask the companion for their opinion on a few outfits.",
+    "Negotiate the price of several items with the store employee.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Directness can save time and effort when one is certain of their choices.",
+    "Relying on an expert's judgment is efficient and can result in a better-fitting selection.",
+    "Seeking a second opinion before making a decision is a common courtesy and can lead to a more satisfying outcome.",
+    "[None of these justifications is appropriate]",
+    "Negotiating can lead to a better price and demonstrates resourcefulness."
+   ]
+  },
+  {
+   "case_number": 8,
+   "id": "19493340-9a5c-406c-9943-712a4a4a073c_634-74",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/19493340-9a5c-406c-9943-712a4a4a073c_634-74_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The image displays five sequential egocentric frames from a high-angle perspective, likely from a head-mounted camera. The viewer\u2019s hands are visible, gripping a silver metal ladder or scaffold structure. In the background, a workshop or construction space is visible with tools, equipment, and a black trash bin. A spiral staircase is seen through a window or opening. In the rightmost frames, another person wearing a white long-sleeve shirt with a red logo, dark pants, and a blue face mask appears, standing on the floor below. This person gestures with their hands while facing the camera. The camera\u2019s position shifts slightly across frames, suggesting movement along the ladder. The environment is well-lit with natural light from windows.",
+   "action_options": [
+    "Align the edges of the sod and press it firmly into the soil.",
+    "[None of these actions is appropriate]",
+    "Roll the paint evenly onto the wall surface.",
+    "Peel off sections of wallpaper starting from the corners.",
+    "Flatten the dough into a uniform thickness using a rolling pin."
+   ],
+   "justification_options": [
+    "Careful peeling prevents wallpaper damage.",
+    "Even paint application ensures a professional finish.",
+    "Proper sod alignment ensures a healthy, even lawn.",
+    "[None of these justifications is appropriate]",
+    "Uniform dough thickness is crucial for consistent baking."
+   ]
+  },
+  {
+   "case_number": 9,
+   "id": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The five frames show an indoor setting with large windows revealing a forested, overcast outdoor scene. The ceiling has fluorescent lights and exposed ductwork. In the first frame, a man in a dark jacket is visible on the left. In the second, a woman with dark hair appears near the center, partially obscured. The third frame shows only the top of a person\u2019s head. The fourth frame is blurred, with a woman\u2019s face partially visible on the left. The fifth frame shows two women: one with glasses near the center, and another with reddish hair on the right, smiling. A rack with items is visible on the far right. The camera moves slightly rightward across frames, causing motion blur in later frames.",
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Offer assistance with selecting an appropriate outfit to the boss.",
+    "Check each item carefully, looking for any damage or flaws.",
+    "Suggest complementary items to create the best wedding look for the customer.",
+    "Ask your friend for their opinion on a potential purchase."
+   ],
+   "justification_options": [
+    "Suggesting complementary items demonstrates professionalism and customer service, aiming to enhance the customer's experience and satisfaction.",
+    "Offering assistance shows respect for the boss's time and position, and promotes a positive work environment.",
+    "Checking for damage is a standard procedure to ensure quality control and avoid potential issues or returns, aligning with responsible business practices.",
+    "[None of these justifications is appropriate]",
+    "Seeking a friend's opinion before a purchase is a common and polite way to leverage social support and avoid regrettable decisions."
+   ]
+  },
+  {
+   "case_number": 10,
+   "id": "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/750c5383-58f6-4063-8cc8-50691a68994d_870-14_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The sequence shows a retail clothing environment with gray flooring and white display units. A person in a light gray sweater and dark patterned pants is visible in all frames, moving slightly forward and gesturing with their right hand. To the right, a clothing rack holds garments in pink, gray, and dark blue. In the background, another person in light-colored pants and a dark top stands near a white display box, holding a small object. A third person, partially visible on the far left, wears a fluffy gray garment. The camera appears to move slightly forward and to the right across frames, causing motion blur in some areas. Lighting is bright and even. No clear facial expressions or interactions are discernible.",
+   "action_options": [
+    "Place the clothes back on the appropriate rack and inform the person where they can be found again if needed.",
+    "Help the person find an item that matches their preferences by showing them options from the inventory system.",
+    "Hold up one of the outfits and ask the person which one they prefer for the event.",
+    "Ask the person if they think the clothes you are holding would suit you.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Returning items keeps the store organized and shows courtesy.",
+    "Offering options is efficient and helps the person find what they need.",
+    "[None of these justifications is appropriate]",
+    "Presenting choices facilitates decision-making for the person.",
+    "Seeking input ensures the person feels involved and respected."
+   ]
+  },
+  {
+   "case_number": 11,
+   "id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The sequence shows a woman with shoulder-length dark hair and a green lanyard, wearing a white striped shirt, standing near a large glass display case with a white frame. She is positioned on the left side of the frame, facing right. In the first three frames, she looks down and slightly to her right, holding a dark garment with a plaid pattern. Her hand moves slightly across the frames, suggesting minor adjustments. In the fourth frame, she turns her head toward the camera, mouth slightly open. The fifth frame is blurred, showing motion, with indistinct shapes and colors, possibly indicating rapid movement or a shift in camera focus. The background behind the glass case appears to contain greenery or plants.",
+   "action_options": [
+    "Show the clothes to one of the people and ask for their opinion.",
+    "Hold up the clothes and discuss whether they would suit the intended recipient.",
+    "Fold the clothes neatly and place them on a display table.",
+    "[None of these actions is appropriate]",
+    "Sort the clothes into appropriate piles based on condition or type."
+   ],
+   "justification_options": [
+    "Holding up clothes and discussing suitability shows consideration for the recipient.",
+    "Seeking opinions is a polite way to involve others in decision-making regarding clothing.",
+    "Neatly displayed clothes enhance the shopping experience and increase sales potential.",
+    "Sorting clothes efficiently makes the process of managing them easier and more organized.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 12,
+   "id": "b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The image displays five consecutive frames from a left-to-right sequence, showing an indoor dining area with large windows overlooking a green outdoor space. A person wearing a dark blue shirt with \"GAC\" visible sits at a green table, their face blurred. They are seated on a dark booth with a small table nearby. Outside, white bags are piled behind yellow barriers, with trees and buildings visible. The person\u2019s posture shifts slightly across frames\u2014hand near face, then resting\u2014while the camera angle remains consistent. The lighting is natural and even. No other people are clearly visible. The spatial layout includes green chairs, tables, and posters on windows. No significant changes occur in objects or environment.",
+   "action_options": [
+    "Ask the person about their weekend plans.",
+    "[None of these actions is appropriate]",
+    "Confirm vacation dates with the person.",
+    "Review the contract's key terms with the person.",
+    "Inquire about the next steps in treatment with the person."
+   ],
+   "justification_options": [
+    "Reviewing key terms ensures mutual understanding and prevents future disagreements, a standard practice in professional settings.",
+    "It's a common social courtesy to inquire about someone's weekend plans, fostering connection and demonstrating interest.",
+    "Confirming dates is crucial for effective planning and coordination, avoiding potential conflicts and misunderstandings.",
+    "Inquiring about the next steps demonstrates care and proactive engagement with the person's well-being, a hallmark of good caregiving.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 13,
+   "id": "699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The five frames show a first-person view of a construction site with reddish soil, scattered bricks, rocks, and metal rods. A person wearing a blue shirt, patterned skirt, and orange gloves holds a metal bowl in the lower right, visible in frames 1, 2, and 5. In frames 3 and 4, the person is out of view. The camera holder\u2019s hand holds a black smartphone in all frames, positioned in the lower left. A white building with a red railing is visible in the background. The ground includes a concrete patch and a small yellow label. The camera angle shifts slightly, showing more of the site\u2019s layout, including a vertical wall and a distant structure in frame 3. No clear motion or interaction is observed beyond the person\u2019s static presence in some frames.",
+   "action_options": [
+    "Hang up your hard hat and go home.",
+    "[None of these actions is appropriate]",
+    "Assist workers by checking their tools and compliance with safety standards.",
+    "Share the phone with a colleague to discreetly record what's happening.",
+    "Display the phone to show project details during the meeting."
+   ],
+   "justification_options": [
+    "As a supervisor, it is expected to verify that all tasks are completed correctly and safely.",
+    "[None of these justifications is appropriate]",
+    "It's best to not waste time when your work day is over.",
+    "In a meeting with coworkers, sharing project details is standard practice to foster transparency.",
+    "In an environment where one wants to avoid being monitored, using the phone in this way represents a deviation from expected transparency practices."
+   ]
+  },
+  {
+   "case_number": 14,
+   "id": "5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The five frames show a left-to-right progression through a brightly lit retail store aisle. Fluorescent ceiling lights and large windows with visible greenery outside are consistent. A tall potted plant appears in the second frame. Refrigerated glass doors with blue promotional stickers are visible in frames two to five. Shelves stocked with packaged goods (yellow, red, blue containers) line the right side. In the fifth frame, a person wearing dark clothing and glasses appears on the right, partially blurred, standing near a counter with large white containers labeled \"Soy.\" The camera moves forward, revealing more of the aisle and shelving. No clear interaction or motion of objects is observed.",
+   "action_options": [
+    "Ask questions about the store\u2019s policies or products to gauge the person's knowledge.",
+    "Pick up the dropped item and hand it back to the person.",
+    "[None of these actions is appropriate]",
+    "Assist the person by directing them to the correct aisle or section.",
+    "Continue browsing items on display while speaking to the person."
+   ],
+   "justification_options": [
+    "Helping someone retrieve a dropped item is courteous and kind.",
+    "[None of these justifications is appropriate]",
+    "Maintaining a conversation while browsing is polite and efficient.",
+    "Asking questions is a way to better understand customers and their needs.",
+    "Assisting customers is a standard practice for helpful service."
+   ]
+  },
+  {
+   "case_number": 15,
+   "id": "695cefe9-04c0-42fb-80fc-d308b314b788_443-90",
+   "context": "You observe a situation from an egocentric camera. Every image is a chronological grid of five context frames, read left to right, sampled before a next action. RGB shows the observed scene. Pose maps show estimated body landmarks in yellow and hand landmarks in magenta. Segmentation maps show predicted COCO-class instance masks and labels; black is unsegmented, not empty space. Depth maps show estimated relative inverse depth: brighter suggests nearer, darker farther; they do not give metric distances. Maps and any attached generated descriptions can be incomplete, inaccurate, or inconsistent. Judge the observed context rather than assuming an auxiliary representation is correct.\n",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-expanded/grids/695cefe9-04c0-42fb-80fc-d308b314b788_443-90_rgb.jpg"
+   ],
+   "attached_text": "Image 1: rgb.\nAttached description: The five frames show a person wearing a gray tank top, black sunglasses, and a green lanyard with a white ID tag. They are indoors, in a space with mirrored walls, a patterned rug, and a white couch visible in the background. In the first three frames, the person stands facing the camera, smiling, with a small dark object (possibly a phone or remote) in their right hand. In the fourth frame, the view shifts to a close-up of a hand holding a transparent cup with a blue-green liquid. The fifth frame returns to the person, now slightly turned, still holding the object. The lighting is consistent, and reflections in the mirrors show parts of the room and possibly another person in the background.",
+   "action_options": [
+    "Light the candle in celebration with Person X",
+    "Place it on an altar for prayer with Person X.",
+    "Present the candle to the person, describe its scent and color.",
+    "Offer the customer options or sizes of similar candles.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Offering choices is a common courtesy in customer service, ensuring satisfaction.",
+    "[None of these justifications is appropriate]",
+    "Presenting a gift often involves highlighting its features to enhance appreciation.",
+    "Sharing celebratory actions strengthens social bonds and creates positive memories.",
+    "Using objects in a ritualistic setting is a culturally recognized way to express devotion or commemorate an event."
+   ]
+  }
+ ]
+}

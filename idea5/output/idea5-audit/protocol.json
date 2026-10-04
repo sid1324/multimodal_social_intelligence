@@ -1,0 +1,1993 @@
+{
+  "version": "v1",
+  "selection": "First 40 source-video IDs by SHA256(egonormia-pose-audit-v1: + ID); one item per source by the same hash rule. No visual or detector-output selection.",
+  "annotation_count": 1853,
+  "source_count": 1075,
+  "sample": [
+    {
+      "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+      "source": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a",
+      "categories": [
+        "Safety",
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15",
+        "behaviors": [
+          "Apply the material evenly onto the surface using a tool.",
+          "Follow the instructions to apply the material to a small area using a tool for practice.",
+          "Shape the material into intricate patterns on a surface using a tool.",
+          "Point at the wall and describe the surface texture.",
+          ""
+        ],
+        "justifications": [
+          "Even application is standard practice for most material applications.",
+          "Practice is essential for mastering any skill.",
+          "Intricate patterns demonstrate skill and are often desired.",
+          "Describing texture is a standard way to assess surface properties.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Cooperation"
+          ],
+          "2": [
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a construction site, likely in a developing country, judging by the building materials and clothing. It's daytime, sunny, and the site appears to be outdoors. The overall activity is the construction of a building, specifically the application of a cement-based plaster to the underside of a ceiling or roof element. The subject is a construction worker, likely a plasterer, who is applying the plaster using a long, flat trowel. The subject's hands are clearly shown expertly applying and smoothing the wet plaster.  Other individuals present are also construction workers; several women are mixing the plaster in large bowls. They appear to be adults, casually dressed in clothing suitable for working in hot weather; their demeanor is focused and hardworking. The relationship between the workers seems to be that of colleagues working together.  The site is casual, with scaffolding and construction materials scattered around, indicating ongoing construction; the construction appears to be nearing completion, based on the extent of the plastering already done.  The cultural context suggests a collaborative and likely familial work dynamic, common in some developing regions where construction may involve family members or community participation.\n\n\nFrame 3: The plasterer is skillfully smoothing the wet cement with a long, flat trowel, working on a section of ceiling.\n\nFrame 6:  The plasterer continues to smooth and level the cement plaster on the ceiling's underside.\n\nFrame 9: The subject uses a trowel to apply more of the wet cement to the ceiling.\n\nFrame 12: The subject is working in the same manner, leveling and smoothing the cement plaster with the trowel.\n"
+      }
+    },
+    {
+      "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+      "source": "408acdc8-c286-482b-91ba-3fcda24fedc3",
+      "categories": [
+        "Proxemics",
+        "Politeness",
+        "Privacy"
+      ],
+      "annotation": {
+        "id": "408acdc8-c286-482b-91ba-3fcda24fedc3_1554-86",
+        "behaviors": [
+          "Encourage friends to join you in diverse dishes while filming.",
+          "Hand the person food without commenting on their attire or seating.",
+          "Ask the person to put on a shirt before you serve them food.",
+          "Provide guests with the necessary utensils and ingredients for a collaborative dish.",
+          ""
+        ],
+        "justifications": [
+          "Filming with friends during a cooking session promotes engagement and creativity.",
+          "It's polite to not assume or comment on someone's state of being, especially in a social setting.",
+          "Ensuring guests are appropriately dressed is a standard practice in dining etiquette.",
+          "In a dinner party scenario, it's normative to involve guests in the cooking process.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "2": [
+            "Proxemics",
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "0": [
+            "Privacy",
+            "Politeness"
+          ],
+          "1": [
+            "Proxemics",
+            "Politeness",
+            "Privacy"
+          ],
+          "3": [
+            "Cooperation",
+            "Coordination/Proactivity",
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a person, likely a young adult woman, in a casual home kitchen setting at night. The kitchen is relatively small and modestly furnished with tiled floors and simple cabinetry.  The subject is actively involved in a food preparation and serving activity, likely dinner. She is moving around the kitchen, picking up plates and utensils, and passing food items to others. Two other adults are visible; one is a man who is sitting on the floor and appears to be eating; the other is a woman also seemingly consuming a meal. The woman seems to be related to the subject, possibly a family member given their interaction in the kitchen. The man's relationship is less clear, but he might be a family member or a guest.  The food appears to be simple, home-cooked Indian cuisine, served on individual plates. The overall activity appears to be in the process of serving the meal, neither just starting nor nearing completion. The casual nature of the interactions, the home setting, and the family-style meal suggest a relaxed and informal family dinner setting, reflective of South Asian cultural norms where family meals are common.\n\n\nFrame 1: The subject is holding a metal tray with food on it, possibly serving it.\nFrame 4: The subject is using a spatula, possibly mixing or serving something from a bowl.\nFrame 7: The subject is holding a metal plate and appears to be taking food from a stove.\nFrame 10: The subject is holding a serving spoon and some food in a bowl.\nFrame 13: The subject is using a spatula, possibly preparing or flipping something in a pan.\nFrame 16: The subject is placing food onto a metal plate."
+      }
+    },
+    {
+      "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+      "source": "a4375d98-e295-4e7d-a718-d8af066e3d57",
+      "categories": [
+        "Safety"
+      ],
+      "annotation": {
+        "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+        "behaviors": [
+          "Tighten the bolt using a wrench.",
+          "Inspect the chip under magnification, and replace if necessary.",
+          "Smooth the clay using a sculpting tool.",
+          "Solder the clasp with precision tools.",
+          ""
+        ],
+        "justifications": [
+          "Proper assembly requires secure fastening; using a wrench is the standard and safest method.",
+          "Quality control requires thorough inspection; replacing defective components is standard practice to maintain functionality and prevent failures.",
+          "Creating a refined sculpture demands careful shaping; using appropriate tools ensures a professional result.",
+          "The delicate nature of the clasp necessitates precision; soldering with specialized tools minimizes damage and ensures a strong join.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0,
+          1,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety"
+          ],
+          "1": [
+            "Safety"
+          ],
+          "2": [],
+          "3": [
+            "Safety",
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a mechanic, wearing a blue shirt with a \"Knight Automotive\" logo, cleaning his hands with a reddish-brown rag. He's in a casual outdoor workshop setting with a green bin containing various car parts, including shocks and suspension components. The ground is asphalt.  There's scattered debris and used parts around the work area.  The time of day appears to be daytime. Two other adults are partially visible in the background; one seems to be another mechanic, and the other possibly a customer or coworker, judging by their involvement with the car parts. They are both wearing casual clothing. The mechanic in the video is carefully wiping his hands and it appears that he is in the process of a car repair. The overall atmosphere is casual and professional. The activity appears to be in progress, not just beginning or nearing completion. The cultural context suggests a typical automotive repair setting in a Western country.\n\n\nFrame 1: The mechanic is wiping his hands with a rag.\nFrame 4: The mechanic is wiping his hands with a rag.\nFrame 7: The mechanic is wiping his hands with a rag."
+      }
+    },
+    {
+      "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+      "source": "839c2689-76f1-4e8c-893d-93675663dd93",
+      "categories": [
+        "Politeness",
+        "Privacy"
+      ],
+      "annotation": {
+        "id": "839c2689-76f1-4e8c-893d-93675663dd93_582-68",
+        "behaviors": [
+          "Place the donated items neatly into a separate box.",
+          "Incorporate the wooden box into the toy box's construction.",
+          "Securely fasten the birdhouse to the post, away from any hazard.",
+          "Place the assembled furniture carefully away from the cat.",
+          ""
+        ],
+        "justifications": [
+          "Neatly organizing donated items shows respect for the donation and ensures efficient handling of the items, reflecting responsible donation practices and consideration for recipients.",
+          "Integrating the wooden box into the toy box construction avoids waste and promotes efficient use of resources, reflecting resourcefulness and responsible crafting.",
+          "Securing the birdhouse prevents damage and potential harm to the bird, demonstrating responsible construction and care for wildlife.",
+          "Careful placement prevents damage to the furniture and ensures the safety of the cat, reflecting responsible handling of objects and concern for animal welfare.",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Cooperation"
+          ],
+          "2": [
+            "Safety"
+          ],
+          "3": [
+            "Politeness",
+            "Privacy"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a person, presumably an adult, assembling a white shelf unit in what appears to be their home.  The person is using a file to adjust a piece of wood, likely to ensure a proper fit with the shelf's components.  A Siamese cat is present throughout the video, wandering around the area where the person is working. The cat seems unconcerned with the assembly process and simply moves around the room.  The home's decor is casual and suggests a relaxed setting. The floor is tiled, and the walls are light-colored.  The overall activity is the assembly of the shelf, and the video shows a series of steps in the process. The person is performing the task alone.  The setting is informal, and there is no indication of any urgency or special occasion. The activity appears to be nearing completion, as the sequence of frames implies a progression of the assembly. The cultural context is not explicitly shown but is consistent with common DIY practices found in many Western cultures.\n\nFrame 1: The subject is filing a piece of wood.\nFrame 4: The subject is holding a piece of wood while filing.\nFrame 7: The subject is filing a piece of wood.\nFrame 10: The subject is holding a piece of wood and filing.\nFrame 13: The subject is filing a piece of wood.\nFrame 16: The subject is filing a piece of wood, the cat is on the shelf.\nFrame 19: The subject is filing a piece of wood."
+      }
+    },
+    {
+      "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+      "source": "c79e05d5-eaf6-4323-a707-744020743037",
+      "categories": [
+        "Safety",
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+        "behaviors": [
+          "Stir the pot of soup and check its consistency.",
+          "Direct the person to chop vegetables while you monitor several pots on the stove.",
+          "Show the person how to toss the salad evenly using large utensils.",
+          "Place food from serving platters into storage containers and label them.",
+          ""
+        ],
+        "justifications": [
+          "Checking consistency ensures the soup is properly cooked, a standard cooking practice.",
+          "Directing others efficiently utilizes time and resources in a busy kitchen.",
+          "Using large utensils is efficient and ensures even salad tossing; it's a standard technique.",
+          "Proper food storage is crucial for food safety and hygiene; labeling is essential.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0,
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Cooperation",
+            "Coordination/Proactivity",
+            "Communication/Legibility"
+          ],
+          "2": [
+            "Proxemics",
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "3": [
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a woman, likely an adult, in what appears to be a home kitchen in a casual setting. The room is modestly furnished, with a dark-colored table where a small gas stove is placed.  A newspaper is visible on the wall, suggesting a simple, perhaps rural, setting. The woman is preparing something on the gas stove; she uses a small metal pan and a slightly larger lidded pan. Another smaller pot is also present.  There are other people in the background, including at least one young child, though their movements are blurred.  Their relationship to the woman is unclear, but it could be a mother and child, or a family member assisting with household chores.  The time of day is likely evening or early morning due to the lighting.  The woman meticulously manages the pans on the stove, suggesting routine or regularly performed activity. The overall activity is cooking a simple meal.  The cultural context seems to be a South Asian region, judging by the attire of the woman and the overall domestic setup. The activity appears to be nearing completion, though the precise stage cannot be determined.\n\n\nFrame 1: The subject is placing a small, round pan on the stove.\nFrame 4: The subject is holding a small metal pot near the stove.\nFrame 7: The subject is adjusting the lid of the larger pan.\nFrame 10: The subject is slightly adjusting a pan on the stove.\nFrame 13: The subject is apparently monitoring the cooking process in one of the pans.\nFrame 16: The subject is holding one of the cooking utensils."
+      }
+    },
+    {
+      "id": "8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22",
+      "source": "8b89d35d-5e19-4240-b45e-7a692cf962e3",
+      "categories": [
+        "Safety"
+      ],
+      "annotation": {
+        "id": "8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22",
+        "behaviors": [
+          "Tighten the derailleur cable using an adjustment barrel.",
+          "Demonstrate proper chain lubrication to the students.",
+          "Explain how to adjust the brakes to the customer.",
+          "Replace the worn-out tires with recycled ones.",
+          ""
+        ],
+        "justifications": [
+          "This action demonstrates a practical skill relevant to bicycle maintenance, a common task requiring proficiency.",
+          "This action promotes the sharing of knowledge and best practices, benefiting the students and the community.",
+          "This action fulfills a customer service role by providing needed information and assistance.",
+          "This action promotes sustainability and responsible resource management, reflecting environmentally conscious practices.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety"
+          ],
+          "1": [
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "2": [
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "3": [
+            "Safety",
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a person, presumably a bicycle mechanic, working on the brake system of a green and black mountain bike in a bicycle repair shop. The mechanic is wearing a Lonsdale London hoodie and black gloves. They are carefully cleaning and maintaining the bike's brake components, using a rag and what appears to be a degreaser spray. The shop is tidy but clearly a workspace, with various tools, spare parts, and other bicycles visible. The overall activity is bicycle maintenance; the mechanic's role is to repair and service the bike. There are no other people visible in the video. The setting is casual yet specialized, typical of a bike repair shop. The activity appears to be nearing completion; the mechanic is focused on a detail-oriented task of cleaning and lubricating the brake system.  The cultural context is likely that of a Western country where bicycle maintenance is a common service.\n\n\nFrame 1: The mechanic is removing a component from the bike's brake system with their left hand while holding a rag in their right hand.\nFrame 3: The mechanic is cleaning a brake cable with a rag.\nFrame 6: The mechanic is spraying degreaser onto a brake component, using their right hand.\nFrame 9: The mechanic is again cleaning a brake component with a rag.\nFrame 12: The mechanic is cleaning another brake component.\nFrame 15: The mechanic is using a degreaser spray on a brake component.\nFrame 18: The mechanic is inspecting a cleaned brake part.\n\n"
+      }
+    },
+    {
+      "id": "ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73",
+      "source": "ed027cb2-5b92-4de2-ab58-69d42325ef15",
+      "categories": [
+        "Safety"
+      ],
+      "annotation": {
+        "id": "ed027cb2-5b92-4de2-ab58-69d42325ef15_890-73",
+        "behaviors": [
+          "Grab the desired item and proceed directly to the checkout.",
+          "Ask the companion for their opinion on a few outfits.",
+          "Negotiate the price of several items with the store employee.",
+          "Select clothing items the stylist recommends based on their expertise.",
+          ""
+        ],
+        "justifications": [
+          "Directness can save time and effort when one is certain of their choices.",
+          "Seeking a second opinion before making a decision is a common courtesy and can lead to a more satisfying outcome.",
+          "Negotiating can lead to a better price and demonstrates resourcefulness.",
+          "Relying on an expert's judgment is efficient and can result in a better-fitting selection.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0,
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety"
+          ],
+          "1": [
+            "Proxemics",
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "2": [
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a young adult woman, the subject, repeatedly demonstrating how to use a snowboard binding system in what appears to be a retail store.  The store has clothing racks filled with jackets, sweaters, and jeans in the background.  The floor is clean and polished. The overall lighting is bright. A large window displays a graphic of a mountain landscape.  The woman is wearing a maroon long-sleeved shirt and a lanyard around her neck.  She carefully places a snowboard boot onto a snowboard, securing the binding.  She repeats this action multiple times, adjusting the straps and buckles. There are other adults in the background, likely store employees or customers who are observing her demonstration or browsing clothing.  They are largely unengaged.  The interaction seems casual but professional; the subject is showing off a product to viewers. The activity is ongoing and repetitive, suggesting a training session or product demonstration. The environment is casual, typical of a retail store, and the demonstration implies a Western culture context where snowboarding is a common recreational activity.\n\nFrame 1: The subject places a snowboard boot onto a snowboard and begins to adjust the straps.\nFrame 4: The subject fastens a buckle on the snowboard binding.\nFrame 7: The subject secures another strap on the snowboard binding.\nFrame 10: The subject is completing the securing of the snowboard binding.\nFrame 13: The subject checks the overall secured state of the binding."
+      }
+    },
+    {
+      "id": "19493340-9a5c-406c-9943-712a4a4a073c_634-74",
+      "source": "19493340-9a5c-406c-9943-712a4a4a073c",
+      "categories": [
+        "Cooperation",
+        "Coordination/Proactivity"
+      ],
+      "annotation": {
+        "id": "19493340-9a5c-406c-9943-712a4a4a073c_634-74",
+        "behaviors": [
+          "Flatten the dough into a uniform thickness using a rolling pin.",
+          "Roll the paint evenly onto the wall surface.",
+          "Align the edges of the sod and press it firmly into the soil.",
+          "Peel off sections of wallpaper starting from the corners.",
+          ""
+        ],
+        "justifications": [
+          "Uniform dough thickness is crucial for consistent baking.",
+          "Even paint application ensures a professional finish.",
+          "Proper sod alignment ensures a healthy, even lawn.",
+          "Careful peeling prevents wallpaper damage.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "1": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "2": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "3": [],
+          "4": []
+        },
+        "desc": "The video shows a group of three adult men installing or replacing large windows in a room undergoing renovation. The subject is one of the three men, and they all appear to be working together as a team. The relationship between the men seems to be that of coworkers or contractors, based on their attire and collaborative work style. The other two men are wearing similar white shirts and jeans, one is wearing a mask, while the other is not; all appear focused and engaged in their task.  The setting is indoors, in a room with white walls, new flooring, and large windows offering a view of autumnal foliage outside. The decor is casual.  The environment includes numerous tools: power saws, ladders, paint rollers, buckets, and various building materials. There are also cardboard boxes indicative of ongoing construction or renovation.  The overall activity is the installation of new windows. The state of the activity appears to be mid-progress, with several components of the windows already in place and other components being installed.  The cultural context suggests a common construction scene in a Western society, with a team of workers efficiently collaborating on a shared task.\n\n\nFrame 1: The subject is holding a piece of window frame, apparently preparing to attach it.\nFrame 4: The subject is holding a paint roller, applying paint to a section of the window frame.\nFrame 7: The subject is measuring a piece of window trim with a tool.\nFrame 10: The subject is holding a section of window trim and examining it.\nFrame 13: The subject is applying caulking around a window frame.\nFrame 16: The subject is using a power tool to cut a piece of molding.\nFrame 19: The subject is adjusting a piece of window trim with their hands."
+      }
+    },
+    {
+      "id": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+      "source": "e93fdf27-c14c-4794-b4b7-20685b40156f",
+      "categories": [
+        "Politeness",
+        "Communication/Legibility"
+      ],
+      "annotation": {
+        "id": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+        "behaviors": [
+          "Ask your friend for their opinion on a potential purchase.",
+          "Check each item carefully, looking for any damage or flaws.",
+          "Offer assistance with selecting an appropriate outfit to the boss.",
+          "Suggest complementary items to create the best wedding look for the customer.",
+          ""
+        ],
+        "justifications": [
+          "Seeking a friend's opinion before a purchase is a common and polite way to leverage social support and avoid regrettable decisions.",
+          "Checking for damage is a standard procedure to ensure quality control and avoid potential issues or returns, aligning with responsible business practices.",
+          "Offering assistance shows respect for the boss's time and position, and promotes a positive work environment.",
+          "Suggesting complementary items demonstrates professionalism and customer service, aiming to enhance the customer's experience and satisfaction.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0,
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "1": [
+            "Safety"
+          ],
+          "2": [
+            "Politeness",
+            "Proxemics"
+          ],
+          "3": [
+            "Politeness",
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a montage of scenes within a brightly lit, modern clothing store, likely in a casual setting.  The subject, an adult woman, appears to be a store employee assisting customers in choosing clothing items.  The store has large windows overlooking a wooded area, suggesting a daytime setting. The overall activity is customer service, specifically assisting customers with browsing and selecting clothing.  The subject is interacting with various customers; most are adult women. One customer is wearing glasses and seems excited or amused. Another is in conversation with the subject, appearing calm and relaxed.  A third customer is looking at clothing and seems to be making a selection.  The employees seem friendly and are engaging customers in conversation while assisting with selections. There is a mix of casual and business attire among the customers and the store employees;  the atmosphere is generally relaxed and informal.  The subject is actively involved in showing items to the customers, suggesting they are likely familiar with the clothing stock. The activity seems to be ongoing, neither just beginning nor nearing completion. The cultural context seems Western and fairly typical of a retail interaction.\n\nFrame 3: The subject is holding a garment up for a customer to inspect.\nFrame 6: The subject is helping a customer browse the clothing racks.\nFrame 9: The subject looks at a customer trying on clothing.\nFrame 12: The subject is showing a customer a phone to display product information (likely an app or website)."
+      }
+    },
+    {
+      "id": "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+      "source": "750c5383-58f6-4063-8cc8-50691a68994d",
+      "categories": [
+        "Proxemics",
+        "Politeness"
+      ],
+      "annotation": {
+        "id": "750c5383-58f6-4063-8cc8-50691a68994d_870-14",
+        "behaviors": [
+          "Help the person find an item that matches their preferences by showing them options from the inventory system.",
+          "Ask the person if they think the clothes you are holding would suit you.",
+          "Place the clothes back on the appropriate rack and inform the person where they can be found again if needed.",
+          "Hold up one of the outfits and ask the person which one they prefer for the event.",
+          ""
+        ],
+        "justifications": [
+          "Offering options is efficient and helps the person find what they need.",
+          "Seeking input ensures the person feels involved and respected.",
+          "Returning items keeps the store organized and shows courtesy.",
+          "Presenting choices facilitates decision-making for the person.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "1": [
+            "Proxemics",
+            "Politeness"
+          ],
+          "2": [
+            "Cooperation",
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a young adult woman navigating a clothing store. She is walking through the store, occasionally stopping to look at clothing items on display. Several other young adults are also in the store, some browsing clothing racks and others looking at items on tables or using tablets.  The overall activity is casual shopping. The subject appears to be a shopper, and her relationship to the other people is unclear but likely they are strangers in the same retail space. The other people appear to be fellow shoppers; some seem engaged and interested in the clothes, while others seem less focused, perhaps just waiting or accompanying someone. The store's interior is bright, modern, and minimalist, with clean lines and neutral colors. Clothing racks are neatly arranged, and there's minimal decor. The activity is ongoing, not at a beginning or end point. The decorum is casual; people are dressed casually and moving around freely. The cultural context appears to be that of a Western consumerist society, with a focus on individual shopping experiences.\n\n\nFrame 1: The subject is walking past a clothing rack, looking at the clothes hanging on it.\nFrame 3: The subject is looking at a rack of clothes, scanning them quickly, then moves on.\nFrame 6: The subject passes by another shopper, seemingly ignoring them.\nFrame 9: The subject is walking while looking at the items displayed on shelves.\nFrame 12: The subject is walking down a walkway.\nFrame 15: The subject approaches a rack of clothes, then walks past.\nFrame 18: The subject is looking at some clothing on a display table."
+      }
+    },
+    {
+      "id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08",
+      "source": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb",
+      "categories": [
+        "Politeness",
+        "Communication/Legibility"
+      ],
+      "annotation": {
+        "id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_950-08",
+        "behaviors": [
+          "Fold the clothes neatly and place them on a display table.",
+          "Hold up the clothes and discuss whether they would suit the intended recipient.",
+          "Sort the clothes into appropriate piles based on condition or type.",
+          "Show the clothes to one of the people and ask for their opinion.",
+          ""
+        ],
+        "justifications": [
+          "Neatly displayed clothes enhance the shopping experience and increase sales potential.",
+          "Holding up clothes and discussing suitability shows consideration for the recipient.",
+          "Sorting clothes efficiently makes the process of managing them easier and more organized.",
+          "Seeking opinions is a polite way to involve others in decision-making regarding clothing.",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          0,
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "1": [
+            "Proxemics",
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "2": [
+            "Cooperation"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a woman, likely a staff member or volunteer, navigating a brightly lit, modern building, possibly a school or office, that includes a small convenience store or snack area. The overall activity is a seemingly casual walk through the building, possibly during a break or between tasks.  The subject is mostly walking but also briefly interacts with a few items and people.  She appears to be collecting a jacket from a coat rack, placing it over her arm.  Other individuals in the video appear to be students, staff, or other occupants of the building; their interactions with the subject and each other are brief and non-confrontational. Some individuals are carrying bags or other items. The setting is informal and casual, with a mix of people moving about freely. Most individuals appear relaxed and unconcerned. The time of day appears to be daytime, the weather is not visible, and the building's decor is modern and functional. The activity in the video seems to be ongoing, rather than the start or end of a specific task. The cultural context appears to be Western, with everyday interactions between people within a common workspace or institution.\n\nFrame 1: The subject is picking up a jacket from a coat rack.\nFrame 3: The subject is walking down a hallway, passing by a first aid station.\nFrame 6: The subject is walking past a group of people near some shelves.\nFrame 9: The subject is walking past another hallway, people in the background are blurry, indicating motion.\nFrame 12: The subject is walking past a group of people at shelves."
+      }
+    },
+    {
+      "id": "b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16",
+      "source": "b2f487cb-83b2-4e60-855d-1750938d0f1a",
+      "categories": [
+        "Politeness",
+        "Proxemics"
+      ],
+      "annotation": {
+        "id": "b2f487cb-83b2-4e60-855d-1750938d0f1a_4050-16",
+        "behaviors": [
+          "Inquire about the next steps in treatment with the person.",
+          "Ask the person about their weekend plans.",
+          "Confirm vacation dates with the person.",
+          "Review the contract's key terms with the person.",
+          ""
+        ],
+        "justifications": [
+          "Inquiring about the next steps demonstrates care and proactive engagement with the person's well-being, a hallmark of good caregiving.",
+          "It's a common social courtesy to inquire about someone's weekend plans, fostering connection and demonstrating interest.",
+          "Confirming dates is crucial for effective planning and coordination, avoiding potential conflicts and misunderstandings.",
+          "Reviewing key terms ensures mutual understanding and prevents future disagreements, a standard practice in professional settings.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1,
+          2
+        ],
+        "taxonomy": {
+          "0": [
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "1": [
+            "Politeness",
+            "Proxemics"
+          ],
+          "2": [
+            "Proxemics",
+            "Politeness"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a young adult with curly hair, wearing a dark-colored shirt with a logo, sitting at a table in a McDonald's restaurant. They are touching their face, specifically their nose and mouth area, repeatedly.  The overall activity is the subject sitting and seemingly waiting,  possibly for someone or something.  The subject's role is that of a customer waiting in a fast-food establishment. There are no other people directly interacting with the subject within the view of the camera. The relationship between the subject and any unseen people is indeterminate, though it's likely the subject is either alone or waiting for someone they know. The environment is a McDonald's restaurant, daytime, during somewhat overcast weather, overlooking a street with construction or road work visible through the window.  Sandbags and caution tape are present outside. The decorum of the setting is casual, fast-food style. The activity appears to be simply waiting; the state of waiting is ongoing.\n\n\nFrame 1: The subject sits at the table and touches their nose.\nFrame 3: The subject is touching their face near their mouth.\nFrame 5: The subject is touching their nose again."
+      }
+    },
+    {
+      "id": "699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50",
+      "source": "699b47de-9fc5-4b98-ba35-ecf79886a8db",
+      "categories": [
+        "Privacy",
+        "Politeness"
+      ],
+      "annotation": {
+        "id": "699b47de-9fc5-4b98-ba35-ecf79886a8db_1850-50",
+        "behaviors": [
+          "Assist workers by checking their tools and compliance with safety standards.",
+          "Hang up your hard hat and go home.",
+          "Share the phone with a colleague to discreetly record what's happening.",
+          "Display the phone to show project details during the meeting.",
+          ""
+        ],
+        "justifications": [
+          "As a supervisor, it is expected to verify that all tasks are completed correctly and safely.",
+          "It's best to not waste time when your work day is over.",
+          "In an environment where one wants to avoid being monitored, using the phone in this way represents a deviation from expected transparency practices.",
+          "In a meeting with coworkers, sharing project details is standard practice to foster transparency.",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          3
+        ],
+        "taxonomy": {
+          "1": [
+            "Safety",
+            "Cooperation"
+          ],
+          "2": [
+            "Proxemics"
+          ],
+          "3": [
+            "Privacy",
+            "Politeness"
+          ],
+          "0": [
+            "Privacy",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a person filming the construction of a brick wall.  The subject is holding a smartphone, recording the progress of the work.  The overall activity is bricklaying; the subject is likely overseeing or documenting the process, not actively participating in the construction itself. The relationship between the subject and the other workers is unclear, but it is most likely that of an employer/supervisor and employees, or a client and contractors. There are several adult women laborers working on the wall. They appear focused and diligently mixing and placing the mortar and bricks. The weather is sunny, and the time of day appears to be midday. The location seems to be a construction site in a residential area, as evidenced by nearby buildings and what appears to be a partially built house. The setting is casual; typical construction attire is worn. The construction is ongoing, not near completion.  The cultural context suggests a common work practice in some parts of the world, where mobile phone recording of progress is used for documentation and potentially for social media sharing.\n\nFrame 1: The subject holds the phone recording a view of the construction site.  \nFrame 3: The subject is recording a pile of bricks next to the wall under construction.\nFrame 6: The subject records women working with mortar and bricks.\nFrame 9: The subject is recording bricks stacked next to the area where the wall is being built.\nFrame 12: The subject captures a wider view of the building site.\nFrame 15: The subject is recording more bricks being placed onto the wall."
+      }
+    },
+    {
+      "id": "5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76",
+      "source": "5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b",
+      "categories": [
+        "Proxemics"
+      ],
+      "annotation": {
+        "id": "5dac9d4b-1ac8-468b-a51b-8b7e0dbe554b_1086-76",
+        "behaviors": [
+          "Assist the person by directing them to the correct aisle or section.",
+          "Ask questions about the store\u2019s policies or products to gauge the person's knowledge.",
+          "Continue browsing items on display while speaking to the person.",
+          "Pick up the dropped item and hand it back to the person.",
+          ""
+        ],
+        "justifications": [
+          "Assisting customers is a standard practice for helpful service.",
+          "Asking questions is a way to better understand customers and their needs.",
+          "Maintaining a conversation while browsing is polite and efficient.",
+          "Helping someone retrieve a dropped item is courteous and kind.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "1": [
+            "Communication/Legibility",
+            "Politeness"
+          ],
+          "2": [
+            "Proxemics"
+          ],
+          "3": [
+            "Politeness",
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a person navigating a brightly lit office breakroom and hallway.  The breakroom contains various vending machines stocked with snacks and drinks, shelves with packaged goods, and a small refrigerator.  There's also a small counter space. The person, an adult, appears to be casually walking through the area, possibly getting a snack or drink. They briefly interact with a shelf of snacks and beverages, examining the options. Another adult woman, seemingly a coworker, is seen briefly near the drinks area. Both individuals appear to be employees, exhibiting neutral expressions. The overall decorum is informal and casual, typical of an office breakroom. The time of day seems to be daytime, based on the lighting. The environment is clean and modern, characteristic of a contemporary office space. The subject appears to be simply getting something to eat or drink; no other people are explicitly interacting with them. The activity is brief and simple, not requiring any collaboration. This context suggests a typical workday scene in an office environment.  The cultural context is typical of a North American office setting, with common snacks and drinks available.\n\n\nFrame 1: The subject is walking down a hallway, passing by a door.\nFrame 3: The subject is standing in front of a refrigerator, observing the contents.\nFrame 6: The subject walks towards a wall of packaged snacks.\nFrame 9: The subject appears to be walking towards the office entrance/exit.\nFrame 12: The subject is in a hallway again, walking towards another door."
+      }
+    },
+    {
+      "id": "695cefe9-04c0-42fb-80fc-d308b314b788_443-90",
+      "source": "695cefe9-04c0-42fb-80fc-d308b314b788",
+      "categories": [
+        "Communication/Legibility",
+        "Politeness"
+      ],
+      "annotation": {
+        "id": "695cefe9-04c0-42fb-80fc-d308b314b788_443-90",
+        "behaviors": [
+          "Light the candle in celebration with Person X",
+          "Offer the customer options or sizes of similar candles.",
+          "Present the candle to the person, describe its scent and color.",
+          "Place it on an altar for prayer with Person X.",
+          ""
+        ],
+        "justifications": [
+          "Sharing celebratory actions strengthens social bonds and creates positive memories.",
+          "Offering choices is a common courtesy in customer service, ensuring satisfaction.",
+          "Presenting a gift often involves highlighting its features to enhance appreciation.",
+          "Using objects in a ritualistic setting is a culturally recognized way to express devotion or commemorate an event.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          0,
+          2
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation",
+            "Politeness"
+          ],
+          "1": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "2": [
+            "Communication/Legibility",
+            "Politeness"
+          ],
+          "3": [
+            "Cooperation",
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a woman wearing a gray tank top and glasses, carrying a green lanyard around her neck, navigating an office space.  She appears to be giving a first-person tour of the office, occasionally stopping to point out features. The office is modern and clean, with a gray patterned rug, white circular glass-top tables with succulents as decorations, and a clothing rack with a variety of professional attire. The overall setting is casual, and the woman seems relaxed and comfortable. There are no other people visibly interacting with her, although the video is from her perspective and others may be present but out of frame. The woman's movements suggest she is the tour guide or a staff member showing a visitor around.  The time of day appears to be daytime; the lighting suggests an indoor setting. The decorum is professional yet informal.  The tour seems to be in progress; the video cuts off before the tour is complete. The cultural context is likely western, given the office's styling and the clothing. The woman appears to be an adult.\n\n\nFrame 1: The woman is walking toward the camera, approaching a glass-topped table.\nFrame 3: The woman stops and seems to gesture at a plant or other item on the table.\nFrame 6: The woman is walking, the camera slightly wobbles from her movements.\nFrame 9: The woman is walking through an open doorway.\nFrame 12: The woman pauses to comment on some clothing hanging on a rack.\nFrame 15: The woman continues walking, possibly concluding the tour or heading to a different area.\n\n"
+      }
+    },
+    {
+      "id": "4335b0cc-e10c-45df-aad3-a1fa66b7a7a8_2029-73",
+      "source": "4335b0cc-e10c-45df-aad3-a1fa66b7a7a8",
+      "categories": [
+        "Safety",
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "4335b0cc-e10c-45df-aad3-a1fa66b7a7a8_2029-73",
+        "behaviors": [
+          "Prepare for your next stage entrance; hold the pose for a brief moment.",
+          "Engage in pleasant conversation while enjoying the ocean view.",
+          "Offer the person your hand to steady them.",
+          "Hold the child's hand firmly and guide them away from edge.",
+          ""
+        ],
+        "justifications": [
+          "Holding a pose is a standard practice in performance to maintain professionalism and stage presence.",
+          "Engaging in pleasant conversation is a polite and socially acceptable way to interact during leisure time.",
+          "Offering a hand provides support and demonstrates care in a situation requiring assistance.",
+          "Holding a child's hand ensures their safety and prevents potential harm in a risky environment.",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Coordination/Proactivity",
+            "Communication/Legibility"
+          ],
+          "1": [
+            "Proxemics"
+          ],
+          "2": [
+            "Cooperation",
+            "Politeness"
+          ],
+          "3": [
+            "Safety",
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a young child, appearing to be around 3-5 years old, walking along a circular pathway at night. The pathway is elevated and has a railing, illuminated by yellow lights embedded into the surface.  The child is wearing light-colored clothing. The background shows a large, circular plaza with additional lights visible in the distance, suggesting a public space, perhaps a park or a plaza in a city. The time is nighttime. The overall activity is the child walking along the illuminated pathway. The child seems to be independently exploring the space; the child's role is that of an explorer. No other people are visible in the video. The environment is outdoors, at night, in a well-lit public area with modern architecture and design. The decorum is casual, indicative of a recreational space. The activity appears to be ongoing, with no clear beginning or end in sight. Given the age of the child and the setting, it is likely that the child is accompanied by a parent or guardian off-camera, watching from a safe distance. The cultural context is difficult to determine from the video alone, but the scene suggests a modern, urban, and potentially international setting based on the design of the plaza.\n\n\nFrame 1: The child is walking along the path, slightly leaning into the railing, looking down.\nFrame 3: The child is walking with a more neutral posture, looking forward.\nFrame 6: The child is walking, looking to the side of the path.\nFrame 9: The child walks with a slight lean towards the railing, appearing to look down again.\nFrame 12: The child appears to be walking while gazing ahead.\nFrame 15: The child is walking, turning their head to look behind.\nFrame 18: The child is moving and looking mostly ahead."
+      }
+    },
+    {
+      "id": "e58207f1-84ec-424b-a997-ff64a57eb13b_3524-37",
+      "source": "e58207f1-84ec-424b-a997-ff64a57eb13b",
+      "categories": [
+        "Proxemics",
+        "Politeness"
+      ],
+      "annotation": {
+        "id": "e58207f1-84ec-424b-a997-ff64a57eb13b_3524-37",
+        "behaviors": [
+          "Help the person carry the portable screen and assist them into the other room.",
+          "Place the phone on a table before leaving the room with them.",
+          "Retrieve the device for the person and offer assistance as they walk to the meeting.",
+          "Hand the tablet to the person and guide them to the classroom.",
+          ""
+        ],
+        "justifications": [
+          "Providing support and facilitating a smooth transition.",
+          "Ensuring the phone's safety and respecting the person's privacy.",
+          "Showing care and preventing the person from struggling.",
+          "Assisting the person and showing consideration for their needs.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "1": [
+            "Proxemics",
+            "Politeness"
+          ],
+          "2": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "3": [
+            "Politeness",
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a young adult woman with dark hair and sunglasses sitting in a modern, casually decorated waiting room. She is scrolling through a social media application on her smartphone, occasionally pausing to look up. The room features large windows with a string of lights across them, suggesting a daytime setting.  Grey armchairs, a glass coffee table, potted plants, and a flat-screen television are visible.  A weight machine is also present in a corner of the room, suggesting a space possibly associated with a gym or fitness center. There are no other individuals present in the room.  The woman appears relaxed and is likely waiting for an appointment or simply taking a break.  She is alone, and no other people are involved. The setting is casual; the overall mood is relaxed and calm. There is no information suggesting a specific cultural context beyond the modern style of the waiting area. The woman seems to be simply using her phone during a waiting period; the activity is ongoing, not near beginning or completion.\n\n\nFrame 3: The woman is holding the phone in both hands and looking at the screen.\nFrame 6: She is looking up and away from the phone for a short moment.\nFrame 9: She is scrolling through her phone and looking at the screen.\nFrame 12: The woman is looking at her phone, her body is positioned more upright, and her legs are not as spread out compared to the earlier frames.\nFrame 15: She is holding the phone in her hands and looking at the screen.\nFrame 18: The woman is looking up and away from the phone again.\nFrame 21: Similar to frame 9, she is looking at her phone.\nFrame 24: The woman's body posture and leg position is the same as frame 12.\n"
+      }
+    },
+    {
+      "id": "516ba1f4-5cfd-4dd7-b4b6-a4c0605d1281_1838-55",
+      "source": "516ba1f4-5cfd-4dd7-b4b6-a4c0605d1281",
+      "categories": [
+        "Safety",
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "516ba1f4-5cfd-4dd7-b4b6-a4c0605d1281_1838-55",
+        "behaviors": [
+          "Add water to the pot while stirring the flour.",
+          "Measure and add a precise amount of liquid, noting the adjustment verbally.",
+          "Encourage the person to add ingredients to the pot while stirring and explaining the steps.",
+          "Pause stirring and observe as the person adds liquid to the pot.",
+          ""
+        ],
+        "justifications": [
+          "Direct instruction is most effective for teaching cooking.",
+          "Precise measurements are crucial for successful baking.",
+          "Encouragement fosters learning and participation in cooking.",
+          "Observation allows for correction and personalized guidance.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "2": [
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a middle-aged woman, dressed in a white and peach-colored sari, in what appears to be her home kitchen.  She is preparing food, specifically, it seems like she is mixing a dry ingredient (likely flour or rice flour) in a shallow, wide metal pan placed on a gas stove. The woman uses a large spoon to carefully mix the ingredient, ensuring even distribution. There are no other people present in the video. The kitchen is simple and functional, with a dark countertop and some kitchen utensils visible. The lighting suggests it is daytime.  The overall atmosphere is casual and domestic. The woman appears focused on her task, methodically working to prepare the ingredients.  The action suggests she is preparing some kind of traditional South Asian dish, given her attire and the cooking method. The activity appears to be in progress, not at the beginning or the end. The cultural context suggests a home cooking scene common in many South Asian households where food preparation is often a meticulous and deliberate process.\n\nFrame 1: The woman is scooping the dry ingredient from one side of the pan to the other.\nFrame 3:  She is using the spoon to level and mix the dry ingredient.\nFrame 6: The woman is using the spoon to redistribute the dry ingredient in the pan.\nFrame 9:  She is leveling the ingredient with a sweeping motion.\nFrame 12: The woman is again mixing the ingredient, aiming for uniform texture.\nFrame 15: She is using the spoon to thoroughly combine and redistribute the dry ingredient in the pan.\nFrame 18: The woman is mixing with consistent strokes, aiming for an even consistency."
+      }
+    },
+    {
+      "id": "54adfe07-dcc1-4c3f-90a2-ac93ea7ff6df_76-91",
+      "source": "54adfe07-dcc1-4c3f-90a2-ac93ea7ff6df",
+      "categories": [
+        "Safety",
+        "Coordination/Proactivity"
+      ],
+      "annotation": {
+        "id": "54adfe07-dcc1-4c3f-90a2-ac93ea7ff6df_76-91",
+        "behaviors": [
+          "Document the condition and location of the gear, then safely dispose of unusable items.",
+          "Collect and catalog the gear for potential reuse, logging the details and their condition.",
+          "Check the equipment for any damage, organizing and repacking it appropriately for the climb.",
+          "Stow climbing gear in the vehicle, ensuring all items are secured.",
+          ""
+        ],
+        "justifications": [
+          "Responsible disposal of unusable items prevents environmental harm and avoids potential hazards.  Proper documentation fulfills legal and ethical obligations.",
+          "Cataloging and storing gear for reuse promotes sustainability and resourcefulness, reflecting efficient management practices.",
+          "Pre-climb equipment checks are crucial for safety and success, minimizing risks and maximizing efficiency.  Appropriate organization facilitates smooth operation.",
+          "Ensuring the safe transport and security of equipment is a standard safety procedure and demonstrates responsibility.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          2
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety"
+          ],
+          "1": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "2": [
+            "Safety",
+            "Coordination/Proactivity"
+          ],
+          "3": [],
+          "4": []
+        },
+        "desc": "The video shows a group of young adults, likely friends or climbing partners, organizing climbing gear at a campsite. It appears to be daytime in a desert or arid mountainous region, evidenced by the red rock formations in the background and sparse, dry vegetation.  The campsite is rustic, with tents pitched near a rocky outcrop. Two vehicles, likely trucks, are parked nearby.  The weather is sunny and clear. The overall decorum is casual and outdoorsy, fitting for a climbing trip. The subject, a young woman with braided brown hair, wearing sunglasses, and a grey t-shirt is meticulously arranging ropes, carabiners, and other climbing equipment on a large rock.  She is actively sorting and organizing the equipment. Other individuals in the video are similarly dressed and engaged in organizing climbing gear; one woman and one man are sorting gear in some frames. They appear to be sharing the responsibility of organizing the equipment. The activity appears to be nearing completion; most of the equipment has been laid out, and the individuals seem focused on final organization. The cultural context suggests an activity common among outdoor enthusiasts who value teamwork and meticulous preparation before engaging in a potentially risky activity like climbing.\n\n\nFrame 1: A young woman with braided hair is starting to arrange the climbing ropes on the rock.\nFrame 4: A young woman with braided hair organizes the carabiners and other small pieces of equipment.\nFrame 7: A young woman with braided hair puts some items in a cardboard box.\nFrame 10: A young woman with braided hair continues to arrange the remaining climbing equipment.\nFrame 13: A young woman with braided hair looks over the organized gear.\nFrame 16: A young woman with braided hair appears to be finishing the task."
+      }
+    },
+    {
+      "id": "615edb9e-bfc7-4080-afb3-d29e98ce2216_816-65",
+      "source": "615edb9e-bfc7-4080-afb3-d29e98ce2216",
+      "categories": [
+        "Proxemics",
+        "Politeness",
+        "Communication/Legibility"
+      ],
+      "annotation": {
+        "id": "615edb9e-bfc7-4080-afb3-d29e98ce2216_816-65",
+        "behaviors": [
+          "Continue cycling, maintaining a safe distance from the person.",
+          "Slow down and yield to the person, passing at a safe distance.",
+          "Give a verbal greeting and pass them slowly, maintaining space.",
+          "Ring the bicycle bell to alert the person of your presence.",
+          ""
+        ],
+        "justifications": [
+          "Maintaining a safe distance is a fundamental principle of courteous and safe cycling, ensuring the well-being of all path users.",
+          "Yielding and passing safely demonstrates respect for others' right-of-way and prioritizes conflict avoidance, which are socially accepted cycling norms.",
+          "A verbal greeting fosters positive social interaction and contributes to a more welcoming and inclusive cycling environment, embodying considerate behavior.",
+          "Alerting others to your presence is a proactive measure promoting safety and preventing potential collisions, reflecting considerate cycling practices.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          0,
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Proxemics"
+          ],
+          "1": [
+            "Safety",
+            "Proxemics",
+            "Politeness",
+            "Cooperation"
+          ],
+          "2": [
+            "Proxemics",
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Safety",
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a person cycling down a wide, relatively empty residential street. The street is lined with palm trees, neatly trimmed landscaping, and modern, light-colored buildings. The weather is sunny with a few scattered clouds, suggesting daytime. The overall activity is a leisurely bicycle ride through a seemingly affluent, planned community. The cyclist is the only person visible in the video.  Their role is that of a recreational cyclist enjoying the environment. There is no indication of any interaction with others. The environment is clean, well-maintained, and suggests a higher socioeconomic status. The decorum is casual, indicating a relaxed atmosphere. The activity is ongoing, without a clear beginning or end shown in the provided video frames. The cultural context is unclear, though the architectural style and landscaping suggest a location that prioritizes aesthetic upkeep.\n\nFrame 3: The cyclist continues straight ahead on the asphalt road, passing a row of palm trees and well-kept lawns.\n\nFrame 6: The cyclist pedals smoothly, passing another section of houses and landscaping, with street lights visible on either side of the road.\n\nFrame 9: The cyclist continues along the street, passing a pair of green recycling bins set near the curb.\n\nFrame 12: The cyclist continues their ride, approaching another group of houses with similar architecture.\n\nFrame 15: The cyclist maintains a straight path, passing more palm trees and landscaping elements.\n\nFrame 18: The cyclist continues cycling along the road, with the environment remaining consistent.\n"
+      }
+    },
+    {
+      "id": "720da14e-0ef5-4968-87e9-270fce0a9a18_73-28",
+      "source": "720da14e-0ef5-4968-87e9-270fce0a9a18",
+      "categories": [
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "720da14e-0ef5-4968-87e9-270fce0a9a18_73-28",
+        "behaviors": [
+          "Take notes on baby's eating behavior and meal duration.",
+          "Offer the baby more food if needed.",
+          "Ensure the elderly person has assistance as needed.",
+          "Discreetly signal to the other caregiver for assistance.",
+          ""
+        ],
+        "justifications": [
+          "Recording observations aids in understanding patterns and informing future care decisions, a standard practice in many care settings.",
+          "Providing additional food addresses a potential unmet need, aligning with caregiving norms.",
+          "Assisting the elderly prioritizes their well-being and safety, reflecting societal expectations of care and support.",
+          "Seeking assistance ensures appropriate support and prevents caregiver burnout, reflecting collaborative care principles.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Cooperation"
+          ],
+          "2": [
+            "Cooperation"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of an adult cleaning up a baby's high chair after a meal. The setting is a casual home dining area, with hardwood floors and a wooden table partially visible.  Plants in pots are on a side table near the high chair. The time of day is evening, indicated by the low lighting.  The adult is likely a parent or caregiver; their role is to clean the baby's high chair. The baby is an infant, and appears calm during the cleaning process.  There is no other person visible in the video. The cleaning process appears to be nearing completion, as the adult is systematically wiping the tray of the high chair.  The decorum is informal; this is a typical family dinner scene. The cultural context is that of a standard Western family mealtime routine, showing the cleaning up after a baby's meal.\n\n\nFrame 3: The adult is wiping the tray of the high chair, moving their hand in a circular motion from the left side of the tray to the center.\n\nFrame 6: The adult is continuing to wipe down the high chair tray, focusing on the right side of the tray near the baby's seat.\n\nFrame 9: The adult finishes cleaning the tray of the high chair with one last wipe of the center area.\n\nFrame 12: The adult is wiping a smaller section of the high chair tray that has a thicker layer of leftover food.\n\nFrame 15: The adult is doing a final wipe of the high chair tray.\n\nFrame 18: The adult is wiping a small area of the tray where sauce is more concentrated.\n\n"
+      }
+    },
+    {
+      "id": "7ddc2c83-3cb0-4bb1-8e91-3ef60f88864d_1433-25",
+      "source": "7ddc2c83-3cb0-4bb1-8e91-3ef60f88864d",
+      "categories": [
+        "Cooperation",
+        "Coordination/Proactivity"
+      ],
+      "annotation": {
+        "id": "7ddc2c83-3cb0-4bb1-8e91-3ef60f88864d_1433-25",
+        "behaviors": [
+          "Adjust the pace of your walk to accommodate the behavior of each dog.",
+          "Walk both dogs along the sidewalk, keeping them close together on their leashes.",
+          "Carefully guide the dogs toward the clinic, ensuring they avoid further strain or injury.",
+          "Secure the dogs in separate carriers and prepare them for transport.",
+          ""
+        ],
+        "justifications": [
+          "Adapting to individual dog needs ensures a safe and comfortable walk for all.",
+          "Maintaining control and safety of multiple dogs on a public path is crucial.",
+          "Prioritizing the well-being of injured animals is a responsible action.",
+          "Securing animals for transport protects them and prevents potential escape.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "1": [
+            "Proxemics",
+            "Safety",
+            "Coordination/Proactivity"
+          ],
+          "2": [
+            "Safety",
+            "Cooperation"
+          ],
+          "3": [
+            "Safety",
+            "Coordination/Proactivity"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a young adult woman walking two small dogs, a cream-colored one and a black and white one, on a paved path.  The setting appears to be a residential area, judging by the quiet street visible in some frames. It is daytime, and the weather is clear. The woman is wearing a grey long-sleeved shirt, black leggings, and sandals. She appears relaxed and is casually interacting with her dogs. There are no other people visible in the scene, suggesting she is alone with her pets. The dogs are playful and seem to be enjoying the walk, occasionally interacting with each other. The environment is casual; it is an everyday walk, not a formal event.  The activity appears to be midway through, not just beginning or nearing completion. The scene depicts a common activity \u2013 a person taking their dogs for a walk \u2013 implying a typical, everyday cultural context in a western setting with pet ownership as a common practice. The relationship between the woman and her dogs is clearly that of owner and pets.\n\nFrame 1: The woman is walking with the dogs, the cream-colored dog is leading the way.\nFrame 3: The woman is walking with the dogs; both dogs are close to her and interacting with each other.\nFrame 6: The woman is walking with the dogs, the black and white dog is leading the way.\nFrame 9:  The woman is walking with the dogs; both dogs are slightly further away from her, possibly sniffing something.\nFrame 12: The woman is walking with the dogs; the cream-colored dog is playfully tugging on its leash.\nFrame 15: The woman is walking with the dogs; the dogs are engaging with each other, close to the woman.\nFrame 18: The woman is walking with the dogs, the black and white dog is close to her, the cream-colored one is slightly further away.\nFrame 21: The woman is walking with the dogs; the dogs are interacting with each other, close to the woman.\nFrame 24: The woman is walking with the dogs; one dog is looking up at her, the other is walking forward."
+      }
+    },
+    {
+      "id": "f488287d-ea74-4836-9ea4-e137ac6c8233_333-32",
+      "source": "f488287d-ea74-4836-9ea4-e137ac6c8233",
+      "categories": [
+        "Proxemics"
+      ],
+      "annotation": {
+        "id": "f488287d-ea74-4836-9ea4-e137ac6c8233_333-32",
+        "behaviors": [
+          "Securely wrap the box in plastic sheeting and carry it to the truck.",
+          "Break apart the block into smaller pieces and place them into a disposal container.",
+          "Spread mortar evenly onto the surface of the block before placing it.",
+          "Position the block carefully on the structure to align it with the design plan.",
+          ""
+        ],
+        "justifications": [
+          "Protecting materials during transport prevents damage.",
+          "Safe disposal of broken materials is essential for safety and cleanliness.",
+          "Proper mortar application ensures structural integrity.",
+          "Precise block placement is crucial for structural soundness.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Safety",
+            "Cooperation"
+          ],
+          "2": [
+            "Proxemics"
+          ],
+          "3": [
+            "Coordination/Proactivity",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a group of adult men constructing a wall outdoors, likely in a developing country based on the environment. The setting is casual, taking place in what appears to be a construction site, possibly a residential area.  The sun is shining, and the ground is dirt with some scattered bricks.  A wire mesh fence is partially visible and incorporated into the wall's construction. The men are shirtless or wearing simple loose clothing. The subjects are collaboratively building a wall using cement blocks and mortar. One man mixes the mortar in a metal tray, while the others use trowels to apply mortar to the blocks and place them into the wall. The subject is one of the builders, working with the others as part of a team, implying a coworker relationship. Their actions are coordinated but informal, suggesting a shared understanding of the task. This appears to be a day-to-day construction scene, showing that the building of the wall is well underway but not nearing completion. The environment indicates a warm climate, and the casual clothing and teamwork suggest a relatively relaxed, informal work environment. The cultural context likely reflects common practices of manual labor in many parts of the world.\n\nFrame 1:  A man applies mortar to a cement block.\nFrame 3: A man positions a mortar-covered block into the wall structure.\nFrame 6: A man applies mortar to a cement block.\nFrame 9: A man positions a mortar-covered block into the wall structure.\nFrame 12: A man applies mortar to a cement block.\nFrame 15: A man positions a mortar-covered block into the wall structure.\nFrame 18: A man applies mortar to a cement block.\nFrame 21: A man positions a mortar-covered block into the wall structure.\nFrame 24: A man applies mortar to a cement block."
+      }
+    },
+    {
+      "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_70-12",
+      "source": "5ab334f2-ecc8-4a05-96f8-4320225379b2",
+      "categories": [
+        "Proxemics",
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_70-12",
+        "behaviors": [
+          "Follow the instructor's commands to train the puppy.",
+          "Help the woman hold the dog's leash while it plays.",
+          "Comfort the dog while the veterinarian examines it.",
+          "Present the dog for judging according to instructions.",
+          ""
+        ],
+        "justifications": [
+          "Obedience to instructors is important for learning and safety.",
+          "Assisting someone in need is a common social courtesy.",
+          "Providing comfort during stressful situations demonstrates empathy and care.",
+          "Following instructions is crucial for maintaining order and achieving a goal.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "1": [
+            "Proxemics",
+            "Cooperation"
+          ],
+          "2": [
+            "Proxemics",
+            "Politeness"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "A young adult woman is training her Australian Shepherd dog in a park. The park is sparsely vegetated with brown, dry grass and a few bare trees, suggesting it's likely late autumn or early spring.  A picnic table is visible in the background. The weather appears sunny and mild. The woman is wearing athletic wear: a gray tank top and black leggings. The dog is wearing a blue harness. The woman is using a long line to guide the dog's movements, practicing various commands; she pulls the line, throws a yellow object (possibly a toy), and runs with the dog. The overall activity is dog training, specifically agility or obedience training, and the woman's role is trainer. The relationship between the woman and the dog is that of owner and pet. The setting is casual and outdoors. The activity appears to be ongoing; no specific beginning or end is visible. The cultural context is consistent with modern dog training practices common in Western societies, emphasizing positive reinforcement and engagement.\n\n\nFrame 1: The woman is holding the line, the dog is stationary.\nFrame 3: The woman is running, slightly ahead of the dog, holding the line.\nFrame 6: The woman is standing, dog is near her.\nFrame 9: The woman is running again, the dog is following.\nFrame 12: The woman is standing.  Dog is sitting next to her.\nFrame 15: The woman is running, the dog is behind her, pulling at the line.\nFrame 18: The woman is standing, holding the line.  Dog sits patiently."
+      }
+    },
+    {
+      "id": "d1952343-6eaf-4317-ae19-6b48b292ad24_877-17",
+      "source": "d1952343-6eaf-4317-ae19-6b48b292ad24",
+      "categories": [
+        "Politeness",
+        "Cooperation",
+        "Communication/Legibility"
+      ],
+      "annotation": {
+        "id": "d1952343-6eaf-4317-ae19-6b48b292ad24_877-17",
+        "behaviors": [
+          "Take the prepared coffee to the counter and call out the customer's name.",
+          "Ask the person how they like their tea and prepare it accordingly.",
+          "Pour coffee into two mugs and hand one to the person.",
+          "Add instant coffee powder to the boiling water and pour it into a shared camping mug.",
+          ""
+        ],
+        "justifications": [
+          "Professional service expects clear customer communication.",
+          "Good service prioritizes customer preferences.",
+          "Politeness dictates sharing coffee equally.",
+          "Camping norms prioritize convenience and sharing.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Communication/Legibility",
+            "Politeness",
+            "Cooperation"
+          ],
+          "1": [
+            "Politeness",
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "2": [
+            "Proxemics",
+            "Politeness"
+          ],
+          "3": [
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a young adult male, likely in his twenties, navigating a modern, casually decorated living room.  The room is brightly lit by natural sunlight streaming through large windows, and features light gray furniture, including a sofa and armchairs.  Various magazines, including a National Geographic issue on Vikings, are on a side table, along with a candle and a small plant.  Several cans of soda and a pink pom-pom are on a coffee table. Other young adults are present in the room.  One is sitting on the sofa, calmly looking down; another is interacting with an Xbox controller. The individuals appear relaxed and casually dressed. The subject is moving around the room, picking up objects and seemingly interacting with the other individuals, though the precise nature of their interactions is not clear beyond the casual interactions.  The overall activity seems to be a casual hangout amongst friends; the subject might be filming this social interaction.  The setting is a residential space, perhaps an apartment or house. The atmosphere is casual and relaxed, indicative of a friendly gathering. The video shows snippets of activity, not a complete continuous scene; it's hard to determine if any activity is nearing completion. The cultural context suggests a Western setting, indicated by the casual nature of interactions and the types of objects present in the room.\n\nFrame 1: The subject is holding an Xbox controller, appearing to pass it to another person.\nFrame 3: The subject is walking through the living room, briefly captured in motion blur, seemingly interacting with another individual.\nFrame 6: The subject is holding a magazine, looking through it.\nFrame 9: The subject is walking through the living room, briefly captured in motion blur.\nFrame 12: The subject is holding an Xbox controller, appearing to pick it up from a side table."
+      }
+    },
+    {
+      "id": "d8915c4c-6534-4b0a-b46a-02a03d8031da_0-20",
+      "source": "d8915c4c-6534-4b0a-b46a-02a03d8031da",
+      "categories": [
+        "Cooperation",
+        "Politeness"
+      ],
+      "annotation": {
+        "id": "d8915c4c-6534-4b0a-b46a-02a03d8031da_0-20",
+        "behaviors": [
+          "Administer first aid and then contact emergency services.",
+          "Approach the person and politely explain park regulations regarding safe climbing practices.",
+          "Find a better vantage point to capture the person in action with the proper lighting.",
+          "Offer assistance with securing the ropes and equipment.",
+          ""
+        ],
+        "justifications": [
+          "Administering first aid is a socially responsible action prioritizing well-being and potentially life-saving intervention.",
+          "Approaching politely and explaining regulations demonstrates respect for authority and promotes safety through education.",
+          "Finding a better vantage point is inappropriate unless the primary goal is photography and explicit consent is obtained.  This behavior prioritizes personal gain over potentially intrusive observation.",
+          "Offering assistance reflects a community-minded approach and prioritizes safety.",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Proxemics",
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "2": [
+            "Proxemics"
+          ],
+          "3": [
+            "Cooperation",
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a rappelling activity in a canyon. The subject, an adult, is rappelling down a sandstone cliff face.  Other adults are visible in some frames; one is rappelling above the subject, while another waits at the bottom of the rappel, possibly securing the rope. The others appear to be fellow climbers or canyoners, collaborating on this activity.  Their relationships seem to be that of peers or friends engaging in a shared outdoor recreational activity. The environment is a desert canyon with sandstone cliffs, sparse desert vegetation, and a sandy bottom. The weather is sunny and clear, indicating daytime. The setting is casual and specialized\u2014specialized due to the rappelling equipment, and casual in terms of the clothing worn.  The activity appears to be in progress, neither at the start nor near completion. The overall activity is a recreational canyoning or climbing trip.  The cultural context likely involves an interest in adventure sports, indicating a culture that supports and allows for these activities.\n\n\nFrame 1: The subject is walking toward the rappel point.\nFrame 3: The subject is setting up the rappel.\nFrame 6: The subject is beginning to descend the cliff face by rappelling.\nFrame 9: The subject is rappelling down a sandstone cliff.\nFrame 12: The subject is near the bottom of the rappel.\n\n"
+      }
+    },
+    {
+      "id": "ec3556de-be79-4ad4-aa0f-eaca48abb5d5_547-69",
+      "source": "ec3556de-be79-4ad4-aa0f-eaca48abb5d5",
+      "categories": [
+        "Cooperation",
+        "Coordination/Proactivity"
+      ],
+      "annotation": {
+        "id": "ec3556de-be79-4ad4-aa0f-eaca48abb5d5_547-69",
+        "behaviors": [
+          "Offer to help prepare the meal.",
+          "Offer water and a towel to the shirtless person.",
+          "Assess injuries and provide immediate medical assistance.",
+          "Maintain order and ensure the proceedings are conducted civilly.",
+          ""
+        ],
+        "justifications": [
+          "Offering to help demonstrates consideration and teamwork, promoting a positive social interaction.",
+          "Offering water and a towel shows empathy and concern for the person's comfort and well-being, addressing an immediate need.",
+          "Assessing injuries and providing medical assistance is a crucial act of care and potentially life-saving intervention based on a moral obligation to help those in need.",
+          "Maintaining order and civility ensures respect for all participants and facilitates a productive and harmonious environment.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "1": [
+            "Proxemics",
+            "Politeness"
+          ],
+          "2": [
+            "Safety"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a person in a domestic kitchen setting. The kitchen is modestly decorated with off-white cabinets and dark countertops. The time of day is daytime, as indicated by the natural light visible in one frame. The subject, an adult, is engaged in organizing and rearranging items on a shelf within a kitchen cabinet.  Specifically, they are moving microwaves and other kitchen appliances around. There is a variety of food items visible, such as fruit in plastic bags, indicating meal preparation is a potential goal. The overall activity is tidying or reorganizing the kitchen.  Another adult is visible in a distant frame, seemingly unaffected by the subject\u2019s activities, suggesting a roommate or family member who shares the living space. The subject's actions are casual and purposeful; they are not in a hurry. The cultural context suggests a common household chore.  The state of the activity is ongoing, with the subject continuing to shift and arrange items on the shelf.\n\n\nFrame 1: The subject is reaching for a red microwave.\nFrame 3: The subject is adjusting the position of a red microwave on the shelf.\nFrame 5: The subject is looking at the arrangement of the items on the shelf.\nFrame 7: The subject is picking up a small container.\nFrame 9: The subject is holding a red container."
+      }
+    },
+    {
+      "id": "5dde766e-e93a-4d48-b3c7-96774f24d39d_560-47",
+      "source": "5dde766e-e93a-4d48-b3c7-96774f24d39d",
+      "categories": [
+        "Communication/Legibility",
+        "Cooperation",
+        "Privacy"
+      ],
+      "annotation": {
+        "id": "5dde766e-e93a-4d48-b3c7-96774f24d39d_560-47",
+        "behaviors": [
+          "Ask others to help with cleaning up the leftover dishes.",
+          "Demonstrate the cooking technique to the students using ingredients.",
+          "Lock the kitchen door to ensure privacy while preparing the meal.",
+          "Explain the recipe to the guest while preparing their meal.",
+          ""
+        ],
+        "justifications": [
+          "In a group setting, sharing the responsibility of cleaning up is expected.",
+          "Teachers often guide students through cooking processes in a classroom.",
+          "Maintaining privacy while cooking alone is a common practice.",
+          "As a host, it's normal to engage with guests regarding their meal choices.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          2
+        ],
+        "taxonomy": {
+          "3": [
+            "Cooperation",
+            "Politeness"
+          ],
+          "2": [
+            "Communication/Legibility",
+            "Cooperation",
+            "Privacy"
+          ],
+          "0": [
+            "Privacy"
+          ],
+          "1": [
+            "Communication/Legibility",
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a person, likely an adult, interacting with their Australian Shepherd dog in their apartment. The subject is playing with the dog, tossing it a toy or treat and then picking it up. The dog is playful and eager, chasing and retrieving the object multiple times. The apartment is modestly furnished; the scene primarily focuses on the carpeted living area near the kitchen. Visible elements include a wooden chair, a simple kitchen table with a red and white striped tablecloth, and a kitchen counter with various kitchen items, including spices and a toaster oven. The overall atmosphere is casual and informal, indicative of a typical home environment. The activity appears to be a lighthearted playtime session between the owner and pet. The time of day is unclear, but the lighting suggests it could be daytime.  There are no other people present, and based on the interaction, it's inferred that the subject is the dog's owner.\n\n\nFrame 1: The subject is holding what appears to be a small object, possibly a toy or treat, near the dog.\nFrame 3: The subject appears to be picking up an item on the floor.\nFrame 6: The subject is standing near the kitchen counter with the dog running in towards them.\nFrame 9: The subject is standing in the middle of the kitchen near the table and chairs, and the dog is sitting.\nFrame 12: The subject appears to be getting ready to throw the item to the dog.\nFrame 15: The dog is running towards the subject.\nFrame 18: The subject is in the kitchen standing by the counter."
+      }
+    },
+    {
+      "id": "5315437a-2530-47e5-a0e4-4ac656c7cfa4_570-57",
+      "source": "5315437a-2530-47e5-a0e4-4ac656c7cfa4",
+      "categories": [
+        "Safety",
+        "Communication/Legibility",
+        "Coordination/Proactivity"
+      ],
+      "annotation": {
+        "id": "5315437a-2530-47e5-a0e4-4ac656c7cfa4_570-57",
+        "behaviors": [
+          "Ask person J for assistance moving the tractor.",
+          "Signal to person J for safe passage through the road work zone.",
+          "Direct person J to the park information center.",
+          "Show person J the prize-winning vegetables.",
+          ""
+        ],
+        "justifications": [
+          "Seeking assistance when needing help with a strenuous task is a common and accepted social practice.",
+          "Using signals to ensure safety and avoid potential hazards is a common practice that prioritizes the well-being of others.",
+          "Providing directions or guidance is a helpful and socially acceptable behavior that assists others in navigating unfamiliar areas.",
+          "Sharing achievements and positive experiences is a socially acceptable way to build relationships and create positive interactions.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Cooperation"
+          ],
+          "1": [
+            "Safety",
+            "Communication/Legibility",
+            "Coordination/Proactivity"
+          ],
+          "2": [
+            "Communication/Legibility",
+            "Politeness"
+          ],
+          "3": [
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of an adult male, likely a farmer or farmhand, guiding a small blue and off-white Swaraj 735 tractor.  The tractor is pulling a large, shallow, woven basket-like container. The man is walking alongside the tractor, partially guiding its movement, possibly adjusting the basket's position. The scene takes place on a residential street in a rural or semi-rural area during daylight. The street is paved, but the surrounding area includes unpaved patches and some vegetation.  There is some debris and trash scattered on the sides of the road. There's a yellow-painted building visible in several frames.  Other people are seen briefly in some shots, likely other farm workers who appear to be assisting with something near the tractor.  They are also dressed casually. The overall activity is moving the basket, likely containing farm produce or other materials, using the tractor. The relationship between the subject and others is that of coworkers, collaborating in a farming or transportation task. The decorum is casual and reflects everyday activities in a rural setting. The activity is ongoing. The video's cultural context suggests rural South Asia, judging by the type of tractor, clothing and the overall setting.\n\n\nFrame 1: The subject is walking beside the tractor, guiding its direction.\nFrame 4: The subject is adjusting the large basket attached to the back of the tractor.\nFrame 7: The subject appears to be briefly walking away from the tractor.\nFrame 10: The subject is seen again walking beside the tractor.\nFrame 13:  The subject is walking behind the tractor while holding the basket.\nFrame 16: The subject is walking towards the camera."
+      }
+    },
+    {
+      "id": "17cd1d99-044c-4b1b-97b4-f3de34f8e55b_251-62",
+      "source": "17cd1d99-044c-4b1b-97b4-f3de34f8e55b",
+      "categories": [
+        "Safety",
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "17cd1d99-044c-4b1b-97b4-f3de34f8e55b_251-62",
+        "behaviors": [
+          "Place the camping stove into a backpack and zip it closed.",
+          "Secure the climbing rope inside the trunk and close it.",
+          "Sort the supplies into separate containers based on their purpose.",
+          "Lift the suitcase out of the trunk and hand it to the other person.",
+          ""
+        ],
+        "justifications": [
+          "Keeping stove contained prevents accidental spills or fires.",
+          "Securing equipment prevents damage and loss during transport.",
+          "Organizing supplies improves efficiency and ease of access.",
+          "Sharing the load is courteous and efficient for travel.",
+          ""
+        ],
+        "correct": 1,
+        "sensibles": [
+          1
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Safety",
+            "Cooperation"
+          ],
+          "2": [
+            "Cooperation"
+          ],
+          "3": [
+            "Politeness",
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a person riding a motorcycle at dusk or dawn on a dirt road or trail. The road appears to be winding and somewhat uneven, suggesting an off-road environment.  The time of day is evident from the lighting, showing a clear sky with the sun either setting or rising. The landscape is arid and rocky, with sparse vegetation.  Other people are visible in several frames, appearing to be walking or standing on the road ahead of the motorcyclist, suggesting they are either part of a group ride or the motorcyclist is following them. These individuals appear to be adults, dressed in casual attire suitable for outdoor activities. Their roles are unclear, but their presence suggests they may be friends, fellow riders, or part of an organized group activity. The subject's actions consist of gripping the handlebars, operating the motorcycle's controls, and navigating the terrain. The overall activity is a motorcycle ride in a rugged, scenic area. The setting is informal and casual. The activity appears to be underway rather than beginning or nearing completion. There are no obvious cultural markers to suggest a specific regional or societal context beyond the general prevalence of recreational motorcycling.\n\n\nFrame 1: The subject is holding the handlebars and operating the throttle and brakes of the motorcycle, navigating a slight curve in the road.\nFrame 3: The subject is maneuvering the motorcycle as it travels along a bumpy, slightly ascending section of the trail. Other people are visible ahead.\nFrame 6: The subject is still maneuvering the motorcycle along the trail, the surrounding landscape visible ahead.\nFrame 9: The subject is riding down a slight slope.\nFrame 12: The subject is riding the motorcycle along a mostly straight section of the trail."
+      }
+    },
+    {
+      "id": "df0b81a6-826c-4e9b-8921-392304716c0e_554-75",
+      "source": "df0b81a6-826c-4e9b-8921-392304716c0e",
+      "categories": [
+        "Communication/Legibility"
+      ],
+      "annotation": {
+        "id": "df0b81a6-826c-4e9b-8921-392304716c0e_554-75",
+        "behaviors": [
+          "Carefully remove the spark plugs using the appropriate socket.",
+          "Display their meticulously restored engine, highlighting key features.",
+          "Explain the function of the spark plugs to the students.",
+          "Replace the faulty spark plugs with new ones from the client\u2019s parts.",
+          ""
+        ],
+        "justifications": [
+          "This action prioritizes safety and proper procedure, crucial for any hands-on task.",
+          "This action showcases skill and craftsmanship, inviting appreciation and fostering pride in achievement.",
+          "This action fulfills an educational role, making complex information accessible and understandable.",
+          "This action addresses the identified problem effectively and efficiently, prioritizing client satisfaction.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          0,
+          1,
+          2
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Proxemics",
+            "Communication/Legibility"
+          ],
+          "2": [
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a man, appearing to be an adult male in his 20s or 30s, working in a cluttered repair shop. He is wearing a light-colored short-sleeved shirt and a baseball cap. The shop is filled with various pieces of lawn equipment, spare parts, tools, and storage containers. The overall activity is the repair or maintenance of small engines, specifically lawnmowers. The man's role is a technician or mechanic. Other people appear briefly in the background, seeming to be either other mechanics or customers, but their interactions with the subject are minimal.  Their relationship is likely colleagues or client-technician.  The setting is informal, a casual work environment. The time of day appears to be daytime. The scene suggests a small-to-medium sized business specializing in small engine repair.  The man is in the process of cleaning or lubricating a small engine part, using a spray can. The cultural context is likely that of a typical small business in a Western country.\n\nFrame 1: The man is working on a lawnmower, possibly removing or replacing a component.\nFrame 3: The man is holding a spray can and appears to be applying lubricant or cleaner to a small part.\nFrame 6: The man is holding a small engine part, possibly a carburetor, and is preparing to clean or lubricate it.\nFrame 9: The man is holding a spray can and appears to be applying lubricant or cleaner to a small part.\nFrame 12: The man is holding a small engine part and is preparing to clean or lubricate it.\nFrame 15: The man is holding a spray can and appears to be applying lubricant or cleaner to a small part.\nFrame 18: The man is holding a small engine part and is preparing to clean or lubricate it.\nFrame 21: The man is holding a spray can and appears to be applying lubricant or cleaner to a small part.\nFrame 24: The man is holding a small engine part and is preparing to clean or lubricate it."
+      }
+    },
+    {
+      "id": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+      "source": "d74c95ba-e072-44f8-bb2f-2631379af06d",
+      "categories": [
+        "Proxemics",
+        "Communication/Legibility"
+      ],
+      "annotation": {
+        "id": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+        "behaviors": [
+          "Sweep the surface clean of any remaining debris using a brush.",
+          "Knead the mixture thoroughly to prepare it for baking.",
+          "Pipe the material onto the surface to create decorative patterns.",
+          "Use a tool to spread fine particles evenly across the surface to form a design.",
+          ""
+        ],
+        "justifications": [
+          "Cleanliness is essential for a professional finish.",
+          "Thorough kneading ensures optimal baking results.",
+          "Decorative patterns enhance the surface's aesthetic appeal.",
+          "Even particle distribution creates a visually pleasing design.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety",
+            "Cooperation"
+          ],
+          "1": [
+            "Cooperation"
+          ],
+          "2": [
+            "Proxemics",
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "The subject, positioned outdoors, is actively extruding a white paste from a plastic bag onto small, intricate shapes arranged on mats covered with grains. Utilizing a thin stick, the subject guides and applies the paste to form decorative patterns on pre-existing shapes. The overall activity is the manual creation and preparation of these small, food-like items for sun-drying. The subject's role is that of a craftsperson or producer involved in the manufacturing process. Another adult is present off-camera, engaging in conversation with the subject, likely acting as a collaborator or family member assisting with the task. The setting is a casual outdoor space, such as a courtyard, characterized by the mats laid directly on the ground under sunlight. Numerous completed shapes on the mats indicate the activity is currently in progress, with a substantial portion of the work already finished. The atmosphere is informal and domestic.\n\nFrame 1: The subject is seated, looking down at mats covered in white shapes.\nFrame 4: The subject is seated, looking down at mats covered in white shapes.\nFrame 7: The subject is seated, looking down at mats covered in white shapes.\nFrame 10: The subject's arm and hand are shown holding a plastic bag and stick above the mat.\nFrame 13: The subject's hand is extruding white paste onto a shape on the mat.\nFrame 16: The subject's arm is visible, moving away from the mat, feet are visible below.\nFrame 19: The subject's arm is visible, moving away from the mat, feet are visible below."
+      }
+    },
+    {
+      "id": "1ce16a97-f614-4660-b21c-4205b33c8bab_1988-77",
+      "source": "1ce16a97-f614-4660-b21c-4205b33c8bab",
+      "categories": [
+        "Safety"
+      ],
+      "annotation": {
+        "id": "1ce16a97-f614-4660-b21c-4205b33c8bab_1988-77",
+        "behaviors": [
+          "Wipe down the surface of the kitchen counter to remove any debris.",
+          "Sort and arrange tools or supplies into designated storage areas.",
+          "Cover the floor near the base of the wall with a protective sheet.",
+          "Clear off leftover items from the table and place them into a basket for later use.",
+          ""
+        ],
+        "justifications": [
+          "Cleanliness is a social norm in kitchens.",
+          "Organization improves efficiency and safety.",
+          "Protecting floors prevents damage and accidents.",
+          "Tidying up shows respect for shared spaces.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety"
+          ],
+          "1": [
+            "Cooperation",
+            "Coordination/Proactivity"
+          ],
+          "2": [
+            "Safety",
+            "Proxemics"
+          ],
+          "3": [
+            "Politeness",
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a young adult male cooking in a modern apartment kitchen. He is the sole person actively cooking, preparing a meal that appears to be pancakes or a similar flatbread. The kitchen is relatively small but well-equipped, with stainless steel appliances and teal-colored tile backsplash.  The overall state of the kitchen is slightly messy, with various food items and utensils scattered on the counter. The subject appears to be cooking for himself, with the food preparation appearing to be in the middle of the process, suggesting it is not the beginning nor completion of the meal preparation. The setting is informal and casual, indicative of a home environment.  The subject is dressed in a casual light-colored shirt. There is no indication of other individuals present in the apartment besides the cook, though the presence of a dining table and chairs suggests others could be in the apartment but not in the kitchen area. The cultural context is not specifically identifiable from the video, but it is consistent with a style and lifestyle found in many modern homes worldwide.\n\n\nFrame 1: The subject is stirring something in a pan on the stove.\nFrame 3: The subject is pouring batter onto a hot griddle.\nFrame 6: The subject is flipping pancakes using a spatula.\nFrame 9: The subject is reaching for a container on the counter.\nFrame 12: The subject is pouring batter onto a hot griddle."
+      }
+    },
+    {
+      "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+      "source": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e",
+      "categories": [
+        "Privacy",
+        "Safety",
+        "Politeness"
+      ],
+      "annotation": {
+        "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+        "behaviors": [
+          "Ask the person about their allergies and give them a snack to eat.",
+          "Hand the collected material to a person who will explain its significance to the group.",
+          "Discuss findings and share opinions with your teammates during the research.",
+          "Take notes about the animals observed and share insights with other participants.",
+          ""
+        ],
+        "justifications": [
+          "Dietary restrictions are personal information that is important for others to know.",
+          "Partnering with another person to explain materials fosters collaborative learning and understanding.",
+          "Engaging in discussion is a crucial part of teamwork during research activities.",
+          "Recording observations is expected in group activities focused on wildlife documentation.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0
+        ],
+        "taxonomy": {
+          "0": [
+            "Privacy",
+            "Safety",
+            "Politeness"
+          ],
+          "2": [
+            "Proxemics",
+            "Communication/Legibility"
+          ],
+          "1": [
+            "Proxemics",
+            "Coordination/Proactivity",
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a person wearing a blue jacket, black gloves, and a grey jacket underneath, handing out small, individually-wrapped snacks to two other people on a wooden boardwalk. The overall activity appears to be sharing snacks during a hike or outdoor excursion. The subject's role is to distribute the snacks. The two other individuals are likely fellow hikers or members of the same group, based on their similar attire. They appear to be adults. One is wearing a yellow-green jacket, and the other a yellow poncho. The environment is a grassy outdoor area with a wooden boardwalk path. The weather is likely overcast but not raining.  The time of day is unclear. The decorum is informal and casual. The state of the activity is in progress, likely mid-way through the distribution of the snacks. The subject is actively transferring the snack from their hand into the recipient's open palm.\n\n\nFrame 1: The subject is holding out a snack.\nFrame 3: The subject is transferring the snack.\nFrame 6: The subject is transferring another snack to another person."
+      }
+    },
+    {
+      "id": "a12f0a2e-e066-4b65-8603-6754bb73e196_30-04",
+      "source": "a12f0a2e-e066-4b65-8603-6754bb73e196",
+      "categories": [
+        "Politeness",
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "a12f0a2e-e066-4b65-8603-6754bb73e196_30-04",
+        "behaviors": [
+          "Remove all personal belongings from the apartment.",
+          "Inspect the room for damages and report them to reception.",
+          "Check on other residents and their well-being.",
+          "Clean and tidy the apartment.",
+          ""
+        ],
+        "justifications": [
+          "Respecting the property and its future occupants necessitates the removal of personal belongings.",
+          "Reporting damages ensures responsible upkeep of the property and prevents further issues.",
+          "Showing concern for others fosters a positive and supportive community environment.",
+          "Maintaining cleanliness and order is a common courtesy in shared living spaces.",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Privacy",
+            "Cooperation"
+          ],
+          "1": [
+            "Safety",
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "2": [
+            "Politeness",
+            "Cooperation"
+          ],
+          "3": [
+            "Politeness",
+            "Cooperation"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a person seated behind a drum kit in a home setting, playing the drums. The drummer is an adult, and appears to be practicing or performing for themselves, as no other people are visible. The room is dimly lit, with a yellow lamp visible in several frames, and the overall decor is casual. The room includes a couch and some other furniture, suggesting a living room or similar space. The drum kit is standard, with a bass drum, snare drum, hi-hat, and cymbals. The drummer is using drumsticks to hit the drums and cymbals, and the tempo and style of playing are not easily identifiable from the short clips. The environment suggests a personal practice session, rather than a formal performance. The cultural context is not specifically evident, but the setting and activity suggest a common leisure activity in many cultures. The activity appears to be ongoing, not nearing completion or just starting.\n\n\nFrame 3: The drummer is hitting the snare drum and hi-hat with both sticks.\nFrame 6: The drummer is hitting the bass drum and snare drum with their left stick and striking the cymbal with the right stick\nFrame 9:  The drummer is striking the hi-hat and the snare drum.\nFrame 12: The drummer is hitting the snare drum with the right stick and the bass drum with the left stick.\nFrame 15: The drummer is hitting the hi-hat and the cymbal.\nFrame 18: The drummer is hitting the snare drum and bass drum."
+      }
+    },
+    {
+      "id": "28ff9118-e876-497c-9901-cb89a62509fc_432-66",
+      "source": "28ff9118-e876-497c-9901-cb89a62509fc",
+      "categories": [
+        "Politeness",
+        "Cooperation",
+        "Privacy"
+      ],
+      "annotation": {
+        "id": "28ff9118-e876-497c-9901-cb89a62509fc_432-66",
+        "behaviors": [
+          "Organize the space by putting away the items left by guests.",
+          "Engage with the child by playing and discussing their toys.",
+          "Discuss the project details with the other person while sharing the device.",
+          "Take a seat across from the other person without looking at their screen.",
+          ""
+        ],
+        "justifications": [
+          "Cleaning up after a social event is a customary practice to maintain order.",
+          "As a caregiver, interacting with the child in play is essential for development.",
+          "In a collaborative setting, discussing and sharing responsibilities is expected.",
+          "It's best to not watch other people's screens unless explicitly invited to do so.",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          3
+        ],
+        "taxonomy": {
+          "3": [
+            "Politeness",
+            "Cooperation",
+            "Privacy"
+          ],
+          "1": [
+            "Proxemics",
+            "Coordination/Proactivity",
+            "Cooperation"
+          ],
+          "2": [
+            "Proxemics",
+            "Privacy"
+          ],
+          "0": [
+            "Privacy",
+            "Proxemics",
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a woman, seemingly in her late twenties or early thirties, navigating her home, primarily interacting with electronic devices.  The overall activity is a series of short actions interspersed with moments of relaxation. She is seated on a couch, using her phone or tablet. At other times, she is working on laptops at a table in her living room. The environment is a casually decorated apartment or house; the decor suggests a modern, comfortable setting with a noticeable collection of board games. It's likely evening, based on the indoor lighting. Other people are not visible in the video; thus, it is assumed that she is alone. The woman\u2019s role is that of an occupant of the residence, using the space both for relaxation and work. The activity seems to be in progress, neither just begun nor nearing completion.  The cultural context is not explicitly indicated but suggests a modern, likely Westernized, lifestyle based on the apartment\u2019s furnishings and the woman's actions.  The video is composed of multiple perspectives, suggesting the use of multiple cameras or a 360\u00b0 camera. The style of the space is casual and uncluttered but well-organized.\n\nFrame 1: The woman is sitting on a couch, using a phone or tablet.\nFrame 3: The woman is sitting at a table, working on a laptop.\nFrame 6: The woman is sitting on the couch, using a phone or tablet again.\nFrame 9: The woman is seated at the table, working on a laptop.\nFrame 12: The woman is sitting on a couch, using a phone or tablet.\nFrame 15: The woman is seated at the table, working on a laptop.\nFrame 18: The woman is sitting on a couch, using a phone or tablet.\nFrame 21: The woman is seated at the table, working on a laptop.\nFrame 24: The woman is sitting on a couch, using a phone or tablet.\n\n"
+      }
+    },
+    {
+      "id": "53e92e25-fe03-4311-9a17-c4f6a29ccad1_983-79",
+      "source": "53e92e25-fe03-4311-9a17-c4f6a29ccad1",
+      "categories": [
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "53e92e25-fe03-4311-9a17-c4f6a29ccad1_983-79",
+        "behaviors": [
+          "Check the stability of assembled scaffolding before work commences.",
+          "Ask if they need any assistance with setting up tents.",
+          "Offer to help assemble the poles.",
+          "Observe quietly and take notes on how they're building the structure.",
+          ""
+        ],
+        "justifications": [
+          "Checking stability prioritizes safety and is responsible behavior before commencing work.",
+          "Asking if assistance is needed is polite and avoids imposing unwanted help.",
+          "Offering help is a common courtesy and shows willingness to contribute.",
+          "Observing quietly and taking notes respects their autonomy while potentially gathering valuable information.",
+          ""
+        ],
+        "correct": 2,
+        "sensibles": [
+          2,
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety"
+          ],
+          "1": [
+            "Politeness",
+            "Cooperation"
+          ],
+          "2": [
+            "Cooperation"
+          ],
+          "3": [
+            "Politeness",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a person assembling stainless steel handrails for a staircase.  The subject is an adult male, likely a worker or installer, who is meticulously sorting and assembling various components of the handrail system. He is working in an unfinished or newly constructed building; the floor is bare concrete, and there's a partially visible staircase with some railing already installed. The surrounding area seems casual, a construction site or a house under renovation.  Other adult males are also present and are working similarly; they are likely colleagues or fellow workers, all engaging in the same task.  They all wear casual work clothes. The sun is shining outside, illuminating parts of the building through an open door. The overall activity is the assembly of the handrail, which appears to be nearing completion judging by the amount of components already put together. The cultural context suggests a common construction practice where several workers collaborate on a task. The mood is business-like and focused on completing the assembly. There are no children or elderly people present; the men seem focused and possibly under some pressure to finish their task. The decorum is casual but work-oriented.\n\nFrame 1: The subject is holding several small metal balls, possibly finials for the railing.\nFrame 4: The subject is crouching, sorting and arranging long stainless steel rods on the floor.\nFrame 7: The subject is holding a stainless steel tube, aligning it with other components to prepare for assembling the railing.\nFrame 10: The subject is walking, carrying three handrail sections.\nFrame 13: The subject is crouching, inserting a finial into the end of a handrail section.\nFrame 16: The subject is standing up holding a assembled handrail section.\n\n\n"
+      }
+    },
+    {
+      "id": "7836e736-ef0a-40ed-9b77-b4c12a08b236_3090-06",
+      "source": "7836e736-ef0a-40ed-9b77-b4c12a08b236",
+      "categories": [
+        "Politeness"
+      ],
+      "annotation": {
+        "id": "7836e736-ef0a-40ed-9b77-b4c12a08b236_3090-06",
+        "behaviors": [
+          "Power off the device and secure it in a protective case.",
+          "Adjust the pillows and hand the person a glass of water.",
+          "Inspect the drawers and gather personal items into a bag.",
+          "Turn off the television and put down the remote control.",
+          ""
+        ],
+        "justifications": [
+          "Proper device care extends its lifespan and protects it.",
+          "Providing comfort is a kind and helpful action.",
+          "Securing belongings is responsible and prevents theft.",
+          "Ending the show is polite and respectful of others.",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Safety"
+          ],
+          "1": [
+            "Politeness",
+            "Cooperation"
+          ],
+          "2": [
+            "Privacy"
+          ],
+          "3": [
+            "Politeness"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a person lying on their back on a bed, legs raised in the air. The person is holding a smartphone and a TV remote in their hands, seemingly changing channels on a television mounted on the wall. The room is small and simply furnished; the walls are a light peach color, and the bed is covered with a red and white patterned bedspread. A television, set-top box, and electrical outlets are visible on the wall above the bed. The lighting suggests it might be daytime or early evening. The scene is casual and intimate, indicating a personal space like a bedroom in a home. The subject appears to be an adult male, and based on the setting, the most likely relationship to the place is that it is their home or a room they are staying in. There are no other people present. The overall activity is watching television.  The person appears relaxed and at ease. The cultural context is not readily apparent beyond the setting suggesting a modestly furnished home, likely in a developing country. The state of the activity is ongoing, as evidenced by the repetition of frames.  The decorum is informal, and the video is from the subject's point of view.\n\nFrame 1: The person is lying on their back on the bed, holding a remote in their left hand and a phone in their right hand.\n\nFrame 3: The person shifts their body slightly, adjusting their position on the bed; the position of the phone and remote remain consistent.\n\nFrame 6: The person's position is the same as in Frame 3, their hands holding the phone and remote.\n\nFrame 9: The person is again lying on their back, holding the remote and the phone; the phone's position has shifted slightly in their hand.\n\nFrame 12: The person's body remains largely consistent, while they again adjust the position of their phone.\n\nFrame 15:  The person\u2019s position is largely consistent, while again adjusting their grip on the phone and remote.\n\nFrame 18: The scene shows the person maintaining their posture, and the position of the remote and phone shows little change from previous frames."
+      }
+    },
+    {
+      "id": "e54d654b-86ca-4219-bbf4-68575fffa098_2992-60",
+      "source": "e54d654b-86ca-4219-bbf4-68575fffa098",
+      "categories": [],
+      "annotation": {
+        "id": "e54d654b-86ca-4219-bbf4-68575fffa098_2992-60",
+        "behaviors": [
+          "Show the relevant medical information on your phone to reception staff.",
+          "Show persons your phone to compare mobile device models",
+          "Discreetly take a photo of the artwork using your phone.",
+          "Walk up the stairs",
+          ""
+        ],
+        "justifications": [
+          "Sharing relevant medical information with reception staff is a standard procedure and ensures efficient and appropriate care.",
+          "Comparing phone models is a common and acceptable social interaction, especially if done respectfully and briefly.",
+          "Taking a discreet photo is a common way to preserve a memory of an artwork for personal use, provided it doesn't disrupt others or violate any rules.",
+          "When other are behind you it is important to continue and not block their way",
+          ""
+        ],
+        "correct": 3,
+        "sensibles": [
+          3
+        ],
+        "taxonomy": {
+          "0": [
+            "Privacy",
+            "Communication/Legibility"
+          ],
+          "1": [
+            "Proxemics",
+            "Cooperation"
+          ],
+          "2": [
+            "Privacy"
+          ],
+          "3": [],
+          "4": []
+        },
+        "desc": "The video shows a series of short clips depicting several young adult women navigating a worn, stone staircase within a building. The overall activity is their movement through the building, likely a tour or visit.  The subject, one of the women wearing a black shirt and backpack, is walking up and down the staircase; her immediate action is ascending or descending the stairs. The other women appear to be her companions on this tour. The relationship between the women is inferred to be friendly and casual, possibly friends or fellow tourists. One woman is seen talking to an older woman (possibly a tour guide or building staff) earlier in the video, suggesting the group is taking a guided tour. The environment is an old building with ochre-colored stone staircases and red-painted walls, indicating a potentially historical or cultural location. The building appears to be well-maintained, with handrails on the stairs. The atmosphere is casual.  The video shows the group progressing through the building, suggesting their tour is in progress. The cultural context implies a setting where sightseeing and exploring historical locations are common activities. The lighting suggests daytime.\n\n\nFrame 1: The subject is seen ascending the staircase.\nFrame 4: The subject is walking down a corridor, carrying a backpack.\nFrame 7: The subject is walking down the stone staircase.\nFrame 10: The subject is seen ascending a different section of the staircase.\nFrame 13: The subject is descending the staircase again.\nFrame 16: The subject is approaching a corner of a hallway."
+      }
+    },
+    {
+      "id": "6306375a-1533-4f3c-843b-0cd51b4bf449_1-23",
+      "source": "6306375a-1533-4f3c-843b-0cd51b4bf449",
+      "categories": [
+        "Communication/Legibility",
+        "Cooperation"
+      ],
+      "annotation": {
+        "id": "6306375a-1533-4f3c-843b-0cd51b4bf449_1-23",
+        "behaviors": [
+          "Ask the person if they know where the measuring tape is located.",
+          "Show the child how to use the tape measure while finding it together.",
+          "Inquire with the shopkeeper about the location of a ruler.",
+          "Check around the workshop, asking the coworker for assistance if needed.",
+          ""
+        ],
+        "justifications": [
+          "Directly asking for help is a polite and efficient way to locate a needed item.",
+          "Teaching a child practical skills while accomplishing a task promotes learning and collaboration.",
+          "Seeking assistance from an authority figure or expert is appropriate when seeking a specific tool.",
+          "Collaboration and teamwork are valued in a shared workspace; seeking assistance from a coworker is a helpful and considerate approach.",
+          ""
+        ],
+        "correct": 0,
+        "sensibles": [
+          0
+        ],
+        "taxonomy": {
+          "0": [
+            "Communication/Legibility",
+            "Cooperation"
+          ],
+          "1": [
+            "Cooperation",
+            "Communication/Legibility",
+            "Coordination/Proactivity"
+          ],
+          "2": [
+            "Communication/Legibility"
+          ],
+          "3": [
+            "Cooperation",
+            "Communication/Legibility"
+          ],
+          "4": []
+        },
+        "desc": "The video shows a first-person perspective of a person walking through a modern office building, possibly a startup or tech company. The subject is walking down a hallway with glass walls, then enters a spacious waiting area with a grey couch and armchairs arranged around a glass coffee table on a patterned rug.  There are three other people in the waiting area, all appearing to be young adults, possibly colleagues. One person is sitting on the couch, looking at their phone; another is seated in an armchair, also seemingly on their phone; and a third is sitting on the couch, perhaps reading or working on their laptop. The decor is modern and minimalist, with neutral colors and sleek furniture. The scene is calm and quiet; the lighting is bright and artificial. The subject is walking in a casual manner, not appearing hurried or stressed. They are likely an employee, either waiting for a meeting or simply passing through. The subject\u2019s relationship to the others is likely professional; they are colleagues in a workplace setting. There's a plant, a guitar, and a music stand in the corner of the room, indicating a somewhat casual work environment possibly including some creative work or collaborations. It's daytime, indoors. The activity is neither just beginning nor nearing completion; it\u2019s a brief moment within a presumably longer workday. The cultural context is that of a typical professional office space in a Western country.\n\n\nFrame 1: The subject walks down a hallway.\nFrame 4: The subject is walking past an armchair in the waiting room.\nFrame 7: The subject is near the coffee table, looking down at the glass top.\nFrame 10:  The subject passes a chair."
+      }
+    }
+  ],
+  "frame_fractions": [
+    0.1,
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "clip": "video_prev.mp4 only (pre-action context)",
+  "pose_model": "MediaPipe Pose Landmarker Full float16; IMAGE mode; num_poses=4; detection/presence=0.5",
+  "hand_model": "MediaPipe Hand Landmarker float16; IMAGE mode; num_hands=4; detection/presence=0.5",
+  "retained_landmark": "0<=x<=1 and 0<=y<=1; visibility and presence each >= threshold (0.5 or 0.8). Model confidence is not measured correctness.",
+  "body_output_rule": "At least one detected body with >=8 retained landmarks out of 33. This is an operational output-availability rule, not a validated quality standard.",
+  "hand_output_rule": "At least one predicted hand. No per-landmark visibility/presence score supplied by this detector; handedness confidence is not detection accuracy.",
+  "human_review": "Pending; no precision, recall, pose accuracy, spatial relevance or social-norm accuracy is claimed."
+}

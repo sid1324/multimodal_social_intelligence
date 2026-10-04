@@ -1,0 +1,35 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\setlength{\columnsep}{0.25in}
+\title{Geometry, Pose, and Descriptions for Social-Norm Reasoning}
+\author{Idea 5: exploratory analysis draft for author review}
+\date{October 4, 2026}
+\begin{document}
+\maketitle
+\noindent\textbf{Review status.} This standalone preview presents a partial computational experiment, stopped at the user's request. Human review of predicted representations, captions, and the final interpretation is pending. Insert the accompanying section into the team's ICML report after reviewing it; this preview is not the complete team submission.
+\input{idea5-expanded-section.tex}
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{comparison.png}
+\caption{Joint action and justification accuracy on the 35 fully evaluated source-disjoint clips (of 40 prepared). Bars compare images alone with images and attached descriptions. Error bars are empirical 95\% source-video bootstrap intervals, not a correction for multiple exploratory comparisons.}
+\end{figure*}
+\clearpage\onecolumn
+\section*{AI usage and contribution record (draft)}
+An OpenAI Codex agent inspected the assignment and proposal, designed the exploratory comparison and controls, implemented and debugged the download, extraction, inference, and reporting scripts, installed isolated environments, downloaded the public dataset and pretrained models, ran the computations, calculated statistics, and generated this provisional section, figure, and review gallery. AI assistance includes experiment design, code, execution, analysis summaries, and writing.
+
+Frozen MediaPipe models generated body and hand landmark predictions. Frozen YOLOv8n-seg generated COCO-class instance masks; Depth Anything V2 Small generated uncalibrated relative monocular depth. A local community 8-bit Qwen3-VL-32B-Instruct checkpoint generated question-free RGB descriptions and experimental action/justification predictions. Processed-image descriptions summarize extractor outputs deterministically. A spawned agent configured with the requested gpt-5.6-sol override inspected actual images for a 15-example RGB baseline, a five-example representation pilot, and 15-condition diagnostics on four baseline failures. That pilot uses tools and accumulates context and is not a clean stateless API comparison. The agent could not independently inspect the served model identity. No model was trained.
+
+The student selected idea 5 and requested these analyses. Personal review, final student interpretation, TA approval, and teammate contributions have not yet been recorded. Complete these details truthfully. The student must lead the final interpretation and disclose all AI assistance.
+\section*{Reproducibility and limitations}
+The dataset was downloaded at a pinned revision. The fixed sample, frame timestamps, model revisions and weight hashes, dependencies, prompts, option permutations, raw responses, captions, predictions, scores, and paired comparisons are saved in the accompanying project. Failed detections and invalid outputs remain in the denominator. The review gallery attaches descriptions to RGB, pose, segmentation, and depth grids for all 40 examples and allows review notes to be exported.
+
+This is a custom subset experiment rather than a full-benchmark leaderboard reproduction. The representations are estimates derived from RGB, not independent physical measurements. Caption errors can influence decisions. Repeated-image controls match image slots and resolution but not description lengths. The new 32B prompt differs from the prior 8B pilot, preventing a clean model-size-only claim. Exploratory scoring uses EgoNormia labels, so these examples are not untouched test data for later model selection.
+\section*{Sources}
+\begin{itemize}
+\item EgoNormia: \url{https://huggingface.co/datasets/open-social-world/EgoNormia}
+\item Qwen checkpoint: \url{https://huggingface.co/mlx-community/Qwen3-VL-32B-Instruct-8bit}
+\item Depth model: \url{https://huggingface.co/depth-anything/Depth-Anything-V2-Small-hf}
+\item Segmentation: \url{https://docs.ultralytics.com/tasks/segment/}
+\end{itemize}
+\end{document}

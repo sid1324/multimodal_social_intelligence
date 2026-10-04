@@ -1,0 +1,1 @@
+{"id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45", "condition": "textforced", "model": ["claude-opus-5-5"], "action_position": 5, "justification_position": 4, "raw": "{\"action\": 5, \"justification\": 4}", "num_turns": 1, "web_search_requests": 0, "web_fetch_requests": 0, "input_tokens": 2, "cache_read_input_tokens": 0}

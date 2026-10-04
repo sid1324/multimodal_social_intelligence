@@ -1,0 +1,289 @@
+{
+  "clips": 40,
+  "frames": 200,
+  "coverage": {
+    "body_50": {
+      "frames": 59,
+      "frame_fraction_cluster_ci": [
+        0.29500000000000004,
+        0.195,
+        0.4
+      ],
+      "clips_with_at_least_one": 23,
+      "clips_all_five": 2
+    },
+    "body_80": {
+      "frames": 59,
+      "frame_fraction_cluster_ci": [
+        0.29500000000000004,
+        0.195,
+        0.4
+      ],
+      "clips_with_at_least_one": 23,
+      "clips_all_five": 2
+    },
+    "hand": {
+      "frames": 36,
+      "frame_fraction_cluster_ci": [
+        0.18,
+        0.1,
+        0.265
+      ],
+      "clips_with_at_least_one": 17,
+      "clips_all_five": 1
+    },
+    "either": {
+      "frames": 81,
+      "frame_fraction_cluster_ci": [
+        0.4050000000000001,
+        0.3,
+        0.5050000000000001
+      ],
+      "clips_with_at_least_one": 31,
+      "clips_all_five": 3
+    },
+    "both": {
+      "frames": 14,
+      "frame_fraction_cluster_ci": [
+        0.06999999999999999,
+        0.025,
+        0.125
+      ],
+      "clips_with_at_least_one": 9,
+      "clips_all_five": 0
+    }
+  },
+  "by_category": [
+    {
+      "category": "Communication/Legibility",
+      "clips": 10,
+      "frames": 50,
+      "body_50_fraction": 0.42,
+      "hand_fraction": 0.22
+    },
+    {
+      "category": "Cooperation",
+      "clips": 17,
+      "frames": 85,
+      "body_50_fraction": 0.2823529411764706,
+      "hand_fraction": 0.08235294117647059
+    },
+    {
+      "category": "Coordination/Proactivity",
+      "clips": 5,
+      "frames": 25,
+      "body_50_fraction": 0.32,
+      "hand_fraction": 0.16
+    },
+    {
+      "category": "Politeness",
+      "clips": 16,
+      "frames": 80,
+      "body_50_fraction": 0.3,
+      "hand_fraction": 0.2375
+    },
+    {
+      "category": "Privacy",
+      "clips": 6,
+      "frames": 30,
+      "body_50_fraction": 0.1,
+      "hand_fraction": 0.3
+    },
+    {
+      "category": "Proxemics",
+      "clips": 9,
+      "frames": 45,
+      "body_50_fraction": 0.28888888888888886,
+      "hand_fraction": 0.1111111111111111
+    },
+    {
+      "category": "Safety",
+      "clips": 12,
+      "frames": 60,
+      "body_50_fraction": 0.21666666666666667,
+      "hand_fraction": 0.23333333333333334
+    }
+  ],
+  "raw_pose_frames": 60,
+  "all_raw_bodies": 60,
+  "all_raw_hands": 46,
+  "inference_seconds": 5.355229616165161,
+  "human_annotation": "Not performed; detector-output availability, not accuracy or recall",
+  "qwen": {
+    "scores": {
+      "rgb": {
+        "action_correct": {
+          "correct": 18,
+          "n": 40,
+          "ci": [
+            0.45,
+            0.3,
+            0.6
+          ]
+        },
+        "justification_correct": {
+          "correct": 19,
+          "n": 40,
+          "ci": [
+            0.475,
+            0.325,
+            0.625
+          ]
+        },
+        "both_correct": {
+          "correct": 16,
+          "n": 40,
+          "ci": [
+            0.4,
+            0.25,
+            0.55
+          ]
+        }
+      },
+      "rgb_repeat": {
+        "action_correct": {
+          "correct": 16,
+          "n": 40,
+          "ci": [
+            0.4,
+            0.25,
+            0.55
+          ]
+        },
+        "justification_correct": {
+          "correct": 15,
+          "n": 40,
+          "ci": [
+            0.375,
+            0.225,
+            0.525
+          ]
+        },
+        "both_correct": {
+          "correct": 13,
+          "n": 40,
+          "ci": [
+            0.325,
+            0.175,
+            0.475
+          ]
+        }
+      },
+      "rgb_pose": {
+        "action_correct": {
+          "correct": 18,
+          "n": 40,
+          "ci": [
+            0.45,
+            0.3,
+            0.6
+          ]
+        },
+        "justification_correct": {
+          "correct": 18,
+          "n": 40,
+          "ci": [
+            0.45,
+            0.3,
+            0.6
+          ]
+        },
+        "both_correct": {
+          "correct": 15,
+          "n": 40,
+          "ci": [
+            0.375,
+            0.225,
+            0.525
+          ]
+        }
+      },
+      "rgb_shuffled_pose": {
+        "action_correct": {
+          "correct": 18,
+          "n": 40,
+          "ci": [
+            0.45,
+            0.3,
+            0.6
+          ]
+        },
+        "justification_correct": {
+          "correct": 19,
+          "n": 40,
+          "ci": [
+            0.475,
+            0.325,
+            0.625
+          ]
+        },
+        "both_correct": {
+          "correct": 15,
+          "n": 40,
+          "ci": [
+            0.375,
+            0.225,
+            0.525
+          ]
+        }
+      }
+    },
+    "invalid_outputs": {
+      "rgb": 0,
+      "rgb_repeat": 0,
+      "rgb_pose": 0,
+      "rgb_shuffled_pose": 0
+    },
+    "comparisons": [
+      {
+        "condition": "rgb_pose",
+        "reference": "rgb",
+        "metric": "both_correct",
+        "difference_ci": [
+          -0.025,
+          -0.075,
+          0.0
+        ],
+        "improved": 0,
+        "worsened": 1,
+        "unchanged": 39,
+        "action_answer_flips": 1,
+        "justification_answer_flips": 2,
+        "exact_mcnemar_p": 1.0
+      },
+      {
+        "condition": "rgb_pose",
+        "reference": "rgb_repeat",
+        "metric": "both_correct",
+        "difference_ci": [
+          0.05,
+          0.0,
+          0.125
+        ],
+        "improved": 2,
+        "worsened": 0,
+        "unchanged": 38,
+        "action_answer_flips": 5,
+        "justification_answer_flips": 5,
+        "exact_mcnemar_p": 0.5
+      },
+      {
+        "condition": "rgb_pose",
+        "reference": "rgb_shuffled_pose",
+        "metric": "both_correct",
+        "difference_ci": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "improved": 0,
+        "worsened": 0,
+        "unchanged": 40,
+        "action_answer_flips": 0,
+        "justification_answer_flips": 1,
+        "exact_mcnemar_p": 1.0
+      }
+    ],
+    "complete": true
+  }
+}

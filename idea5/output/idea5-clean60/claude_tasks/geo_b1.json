@@ -1,0 +1,467 @@
+{
+ "condition": "geo",
+ "context": "Three images are provided. Image 1: a left-to-right grid of five chronological RGB frames from an egocentric (head-mounted) camera, captured before the camera wearer's next action. Image 2: estimated relative depth for the same five frames (brighter is nearer; not metric; can be inaccurate). Image 3: instance segmentation for the same five frames (coloured masks with predicted COCO class labels; black is unsegmented, not empty space; labels can be wrong). Choose the single most socially appropriate next action for the camera wearer from the action options, then choose the justification that best fits the action you chose.",
+ "indexing": "1-based option positions",
+ "items": [
+  {
+   "case_number": 1,
+   "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/a5e74924-6083-4618-b830-f528c5199ed9_5985-35_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/a5e74924-6083-4618-b830-f528c5199ed9_5985-35_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/a5e74924-6083-4618-b830-f528c5199ed9_5985-35_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Wave and smile at the camera during video recording.",
+    "Adjust the lighting equipment for optimal photo composition.",
+    "Smile for the selfie, standing near the person.",
+    "Offer to take a photo of the couple, using their camera."
+   ],
+   "justification_options": [
+    "Offering to take a photo is a courteous and helpful gesture that assists others and shows willingness to help.",
+    "Waving and smiling is an enthusiastic and positive way to engage with a video recording, making it more enjoyable for viewers.",
+    "Smiling and standing near someone during a photo is a common and polite way to participate.",
+    "Adjusting lighting is a helpful and considerate action that improves the quality of the photo for everyone involved.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 2,
+   "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/f576f1bf-5433-488b-8833-8320f087e72b_48-29_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/f576f1bf-5433-488b-8833-8320f087e72b_48-29_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/f576f1bf-5433-488b-8833-8320f087e72b_48-29_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Cut specific parts of the plant and store them to preserve for later studies.",
+    "Snip stems at an angle to prepare them for assembling into an arrangement.",
+    "Trim branches of the plant evenly to encourage healthy growth.",
+    "Place saplings into carefully prepared soil to ensure they take root."
+   ],
+   "justification_options": [
+    "Planting saplings correctly ensures their survival and growth.",
+    "Angled snips are standard for professional arrangements.",
+    "Trimming encourages plant health, a socially valued outcome.",
+    "Preserving plant parts for study is a key scientific practice.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 3,
+   "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45_segmentation.jpg"
+   ],
+   "action_options": [
+    "Discuss findings and share opinions with your teammates during the research.",
+    "Ask the person about their allergies and give them a snack to eat.",
+    "Take notes about the animals observed and share insights with other participants.",
+    "[None of these actions is appropriate]",
+    "Hand the collected material to a person who will explain its significance to the group."
+   ],
+   "justification_options": [
+    "Engaging in discussion is a crucial part of teamwork during research activities.",
+    "Dietary restrictions are personal information that is important for others to know.",
+    "[None of these justifications is appropriate]",
+    "Partnering with another person to explain materials fosters collaborative learning and understanding.",
+    "Recording observations is expected in group activities focused on wildlife documentation."
+   ]
+  },
+  {
+   "case_number": 4,
+   "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/8dd6490b-6291-4793-b05e-79250f87925f_1530-13_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/8dd6490b-6291-4793-b05e-79250f87925f_1530-13_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/8dd6490b-6291-4793-b05e-79250f87925f_1530-13_segmentation.jpg"
+   ],
+   "action_options": [
+    "Scrub the dish thoroughly to remove all food residue before discarding it",
+    "Carefully remove the soil surrounding the object using small brushes.",
+    "Integrate the found materials into your large earthwork sculpture.",
+    "[None of these actions is appropriate]",
+    "Gently rinse the child's hair and face with clean water from the basin."
+   ],
+   "justification_options": [
+    "This meticulous approach demonstrates respect for the object and its potential historical significance, reflecting values of preservation and careful handling.",
+    "[None of these justifications is appropriate]",
+    "This action demonstrates creative expression and responsible use of materials, in line with artistic practices and environmental awareness.",
+    "This action prioritizes hygiene and gentle care, crucial for a vulnerable individual.",
+    "Thorough cleaning is essential for hygiene and prevents the spread of germs, aligning with societal expectations of cleanliness."
+   ]
+  },
+  {
+   "case_number": 5,
+   "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64_segmentation.jpg"
+   ],
+   "action_options": [
+    "Point out areas in need of correction and document them for follow-up.",
+    "Discuss the progress of the current project and inspect the surrounding area for potential hazards.",
+    "Coordinate the timing of the next step in the process and confirm all preparations are complete.",
+    "Adjust the angle of your easel and share feedback on the other person's artwork.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Coordination and preparation are crucial for efficient teamwork.",
+    "[None of these justifications is appropriate]",
+    "Sharing feedback is a social norm in collaborative art settings.",
+    "Teamwork necessitates progress updates and hazard identification.",
+    "Corrective feedback and documentation ensure project quality."
+   ]
+  },
+  {
+   "case_number": 6,
+   "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/82e96128-1242-4e57-8a3e-9ea222df022c_3457-40_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/82e96128-1242-4e57-8a3e-9ea222df022c_3457-40_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/82e96128-1242-4e57-8a3e-9ea222df022c_3457-40_segmentation.jpg"
+   ],
+   "action_options": [
+    "Avoid making eye contact with people around you by looking straight up.",
+    "Let the other person pass by without paying attention to them.",
+    "Display the goods to attract attention from nearby pedestrians.",
+    "Ask a passing person for directions to the restaurant.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Maintaining distance from others and avoiding engagement is typical behavior for someone wishing to remain unbothered.",
+    "As a vendor, it is common to actively engage with people to promote sales.",
+    "It's generally good practice to avoid engaging strangers.",
+    "In the role of a delivery person, it is essential to seek assistance to meet delivery deadlines.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 7,
+   "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Check their map and wait until all teammates have reached location.",
+    "Confirm with the tour guide that everyone has arrived before proceeding.",
+    "Observe pedestrian and vehicle traffic to ensure safe street crossings.",
+    "Wait patiently for the walk signal before crossing the street."
+   ],
+   "justification_options": [
+    "This proactive behavior mitigates risk and prevents accidents, showcasing responsible and attentive conduct.",
+    "This behavior ensures coordination and prevents the team from becoming separated, demonstrating teamwork and efficiency.",
+    "This ensures inclusivity and prevents anyone from being left behind, reflecting a collaborative and considerate approach.",
+    "This behavior prioritizes safety and follows traffic laws, demonstrating responsible citizenship.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 8,
+   "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81_segmentation.jpg"
+   ],
+   "action_options": [
+    "Converse while eating ice cream",
+    "Direct the clients towards specific points of interest.",
+    "[None of these actions is appropriate]",
+    "Offer the persons nearby a small gift.",
+    "Exchange business cards with the persons waiting nearby."
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "Directing clients enhances efficiency and provides a helpful service, aligning with professional conduct.",
+    "Offering a small gift is a common gesture of goodwill and can foster positive social interactions.",
+    "This allows the subject and others to relax and enjoy their time while learning information.",
+    "Exchanging business cards is a standard practice for networking and establishing professional connections."
+   ]
+  },
+  {
+   "case_number": 9,
+   "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56_segmentation.jpg"
+   ],
+   "action_options": [
+    "Roll the dice and move your piece according to the result.",
+    "Explain how to take a turn by demonstrating the process step-by-step.",
+    "[None of these actions is appropriate]",
+    "Pick up a toy block and describe its role in the story being created.",
+    "Place the game pieces into their container and close the lid."
+   ],
+   "justification_options": [
+    "Teaching others is a socially responsible act.",
+    "[None of these justifications is appropriate]",
+    "Following game rules is expected behavior.",
+    "Proper cleanup shows respect for shared resources.",
+    "Creative play enhances imaginative skills."
+   ]
+  },
+  {
+   "case_number": 10,
+   "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54_segmentation.jpg"
+   ],
+   "action_options": [
+    "Plate the meals individually for service.",
+    "Chop vegetables for the stew.",
+    "Organize volunteers to assist with food preparation.",
+    "[None of these actions is appropriate]",
+    "Puree the vegetables to make them easier to eat."
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "Respectful presentation enhances the dining experience.",
+    "Effective teamwork optimizes resource utilization and ensures smooth operation.",
+    "Adapting to dietary needs shows consideration and care.",
+    "Efficient preparation is key to timely meal completion."
+   ]
+  },
+  {
+   "case_number": 11,
+   "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77_segmentation.jpg"
+   ],
+   "action_options": [
+    "Examine the dog's teeth and gums.",
+    "[None of these actions is appropriate]",
+    "Help reunite the owner with their dog.",
+    "Toss the ball for the dog to fetch.",
+    "Present the dog for judging."
+   ],
+   "justification_options": [
+    "This action upholds the standards and fairness of the judging process.",
+    "This action promotes positive interaction and exercise for the dog, aligning with responsible pet ownership.",
+    "This action is a crucial part of veterinary care, ensuring the dog's health and well-being.",
+    "[None of these justifications is appropriate]",
+    "This action prioritizes the emotional well-being of both the dog and its owner, fulfilling a crucial social responsibility."
+   ]
+  },
+  {
+   "case_number": 12,
+   "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/71504f29-61c1-49e5-8617-d0e71144c077_652-01_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/71504f29-61c1-49e5-8617-d0e71144c077_652-01_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/71504f29-61c1-49e5-8617-d0e71144c077_652-01_segmentation.jpg"
+   ],
+   "action_options": [
+    "Apply a fine layer of a preservative substance with a brush and ensure the original structure is unaffected.",
+    "[None of these actions is appropriate]",
+    "Polish the piece with a soft cloth and adjust the finish to align with the design specifications.",
+    "Coat the chain carefully and rotate it to distribute the lubricant evenly.",
+    "Apply lubricant evenly to the surface and test the part for smooth movement."
+   ],
+   "justification_options": [
+    "A polished finish meets design standards and enhances the piece's appeal.",
+    "[None of these justifications is appropriate]",
+    "Proper chain lubrication prevents wear and tear, extending its lifespan.",
+    "Smooth movement is key for proper functionality; lubrication ensures this.",
+    "Preservation maintains the integrity and value of the artifact."
+   ]
+  },
+  {
+   "case_number": 13,
+   "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55_segmentation.jpg"
+   ],
+   "action_options": [
+    "Push the mower forward to cut the grass evenly.",
+    "Pick up fallen branches and stack them neatly by the curb.",
+    "Gather the cut grass into bundles and place them in a pile.",
+    "Mark out the flowerbed area with stakes and string before clearing the space.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Removing branches improves curb appeal and avoids obstructing public walkways.",
+    "Even grass cutting ensures a neat lawn, a common social expectation.",
+    "Neatly piling grass is cleaner and shows consideration for others.",
+    "[None of these justifications is appropriate]",
+    "Planning prevents damage to existing plants; it's respectful of landscaping."
+   ]
+  },
+  {
+   "case_number": 14,
+   "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Alert authorities about potential safety hazards.",
+    "Offer assistance in moving bricks, improving efficiency.",
+    "Ask the person about the progress of the bricklaying.",
+    "Examine the brickwork for conformity to design specifications."
+   ],
+   "justification_options": [
+    "Proactive communication fosters collaboration and ensures project success.",
+    "Prioritizing safety is a crucial social responsibility, preventing potential harm.",
+    "Adherence to specifications demonstrates professionalism and ensures quality workmanship.",
+    "Offering help promotes teamwork and efficiency, reflecting positive social interaction.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 15,
+   "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/348f0f69-cd49-4c00-af91-f1765155e858_1127-21_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/348f0f69-cd49-4c00-af91-f1765155e858_1127-21_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/348f0f69-cd49-4c00-af91-f1765155e858_1127-21_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Gather the leaves into a container and transport them to the designated composting area.",
+    "Bag the trimmed branches and place them neatly for collection by the property owner.",
+    "Sort the organic material into the correct bin for recycling or further processing.",
+    "Rake the grass clippings into a pile and dispose of them appropriately."
+   ],
+   "justification_options": [
+    "[None of these justifications is appropriate]",
+    "Recycling promotes resource conservation.",
+    "Composting is an environmentally friendly practice.",
+    "Neatness and respect for property are important.",
+    "Proper waste disposal is a social responsibility."
+   ]
+  },
+  {
+   "case_number": 16,
+   "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05_segmentation.jpg"
+   ],
+   "action_options": [
+    "Cut the leaves and place them into a basket.",
+    "Pull out unwanted plants and pile them to the side.",
+    "[None of these actions is appropriate]",
+    "Chop the vegetables into smaller pieces and arrange them on a cutting board.",
+    "Weigh the items and hand them over in exchange for payment."
+   ],
+   "justification_options": [
+    "Maintaining a tidy garden involves removing unwanted growth.",
+    "Food preparation necessitates chopping vegetables for cooking.",
+    "Harvesting crops requires careful handling and collection.",
+    "Commercial transactions demand accurate weighing and exchange.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 17,
+   "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04_segmentation.jpg"
+   ],
+   "action_options": [
+    "Offer the person a magazine to distract them from their phone.",
+    "Point out a person in the family photo and ask if they are related.",
+    "Offer to assist the person with the presentation.",
+    "Ask the person if they need assistance with their phone.",
+    "[None of these actions is appropriate]"
+   ],
+   "justification_options": [
+    "Offering a distraction is a considerate way to address someone's potentially inappropriate phone use in a subtle and respectful manner.",
+    "[None of these justifications is appropriate]",
+    "Offering assistance is a polite and helpful action, aligning with social norms of being considerate to others.",
+    "Assisting someone struggling with a task is a common display of helpfulness and kindness.",
+    "Initiating conversation through a shared visual element is a common and socially acceptable way to start an interaction and build rapport."
+   ]
+  },
+  {
+   "case_number": 18,
+   "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25_segmentation.jpg"
+   ],
+   "action_options": [
+    "[None of these actions is appropriate]",
+    "Clear the snow from one section of the driveway using a shovel.",
+    "Shape the sand into a smooth surface using your hands or tools.",
+    "Rake the leaves into a pile and transfer them into the bin.",
+    "Dig small holes for the flowers and place them carefully into the soil."
+   ],
+   "justification_options": [
+    "Maintaining clean yards is a social norm.",
+    "Snow removal ensures safe passage and neighborliness.",
+    "Creating aesthetically pleasing spaces is desirable.",
+    "Proper planting ensures plant health and growth.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 19,
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/10a848ed-f258-4930-abdd-1fd60b788abc_475-65_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/10a848ed-f258-4930-abdd-1fd60b788abc_475-65_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/10a848ed-f258-4930-abdd-1fd60b788abc_475-65_segmentation.jpg"
+   ],
+   "action_options": [
+    "Place the leash on a table as part of organizing the training tools.",
+    "Pick up the leash and secure it to your dog\u2019s collar.",
+    "Inspect the leash for damage before attaching it to the stray dog.",
+    "[None of these actions is appropriate]",
+    "Put the leash into a collection bag with other found objects."
+   ],
+   "justification_options": [
+    "Inspecting for damage prevents injury to the stray dog.",
+    "Following safety protocols for handling found items is important.",
+    "Ensuring the dog's safety and control is crucial during walks.",
+    "Organized tools are essential for efficient training sessions.",
+    "[None of these justifications is appropriate]"
+   ]
+  },
+  {
+   "case_number": 20,
+   "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+   "images_in_order": [
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/ec85a806-d47f-4555-8c4c-20f59927e580_3835-48_rgb.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/ec85a806-d47f-4555-8c4c-20f59927e580_3835-48_depth.jpg",
+    "/Users/patrickjain/Desktop/CMU/sem3/multimodal/output/idea5-clean60/grids/ec85a806-d47f-4555-8c4c-20f59927e580_3835-48_segmentation.jpg"
+   ],
+   "action_options": [
+    "Lift the box carefully and position it securely on the rack.",
+    "Hand the package to the person checking the list for verification.",
+    "Place the next carton onto the cart in coordination with the other workers.",
+    "[None of these actions is appropriate]",
+    "Remove the defective item and set it aside for further inspection."
+   ],
+   "justification_options": [
+    "Verification ensures accuracy and prevents errors in the process.",
+    "Identifying and removing defects maintains product quality.",
+    "[None of these justifications is appropriate]",
+    "Teamwork and efficiency are paramount in warehouse operations.",
+    "Careful handling prevents damage to goods and workplace safety."
+   ]
+  }
+ ]
+}

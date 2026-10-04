@@ -1,0 +1,1254 @@
+{
+ "a5e74924-6083-4618-b830-f528c5199ed9_5985-35": {
+  "correct": 2,
+  "action_order": [
+   4,
+   2,
+   0,
+   1,
+   3
+  ],
+  "justification_order": [
+   3,
+   2,
+   1,
+   0,
+   4
+  ],
+  "labels": [
+   "Communication/Legibility",
+   "Cooperation"
+  ]
+ },
+ "f576f1bf-5433-488b-8833-8320f087e72b_48-29": {
+  "correct": 1,
+  "action_order": [
+   4,
+   2,
+   0,
+   1,
+   3
+  ],
+  "justification_order": [
+   3,
+   0,
+   1,
+   2,
+   4
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation"
+  ]
+ },
+ "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45": {
+  "correct": 0,
+  "action_order": [
+   2,
+   0,
+   3,
+   4,
+   1
+  ],
+  "justification_order": [
+   2,
+   0,
+   4,
+   1,
+   3
+  ],
+  "labels": [
+   "Privacy",
+   "Safety",
+   "Politeness"
+  ]
+ },
+ "8dd6490b-6291-4793-b05e-79250f87925f_1530-13": {
+  "correct": 3,
+  "action_order": [
+   1,
+   0,
+   2,
+   4,
+   3
+  ],
+  "justification_order": [
+   0,
+   4,
+   2,
+   3,
+   1
+  ],
+  "labels": [
+   "Politeness",
+   "Communication/Legibility"
+  ]
+ },
+ "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64": {
+  "correct": 3,
+  "action_order": [
+   2,
+   3,
+   1,
+   0,
+   4
+  ],
+  "justification_order": [
+   1,
+   4,
+   0,
+   3,
+   2
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation",
+   "Communication/Legibility"
+  ]
+ },
+ "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40": {
+  "correct": 1,
+  "action_order": [
+   2,
+   1,
+   0,
+   3,
+   4
+  ],
+  "justification_order": [
+   2,
+   0,
+   1,
+   3,
+   4
+  ],
+  "labels": [
+   "Proxemics",
+   "Communication/Legibility",
+   "Cooperation",
+   "Privacy"
+  ]
+ },
+ "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13": {
+  "correct": 0,
+  "action_order": [
+   4,
+   3,
+   2,
+   1,
+   0
+  ],
+  "justification_order": [
+   1,
+   3,
+   2,
+   0,
+   4
+  ],
+  "labels": [
+   "Safety",
+   "Politeness"
+  ]
+ },
+ "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81": {
+  "correct": 3,
+  "action_order": [
+   3,
+   1,
+   4,
+   0,
+   2
+  ],
+  "justification_order": [
+   4,
+   1,
+   0,
+   3,
+   2
+  ],
+  "labels": [
+   "Politeness",
+   "Communication/Legibility"
+  ]
+ },
+ "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56": {
+  "correct": 0,
+  "action_order": [
+   0,
+   1,
+   4,
+   2,
+   3
+  ],
+  "justification_order": [
+   1,
+   4,
+   0,
+   3,
+   2
+  ],
+  "labels": [
+   "Cooperation"
+  ]
+ },
+ "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54": {
+  "correct": 0,
+  "action_order": [
+   0,
+   1,
+   2,
+   4,
+   3
+  ],
+  "justification_order": [
+   4,
+   0,
+   2,
+   3,
+   1
+  ],
+  "labels": [
+   "Politeness",
+   "Cooperation",
+   "Coordination/Proactivity"
+  ]
+ },
+ "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77": {
+  "correct": 2,
+  "action_order": [
+   3,
+   4,
+   1,
+   2,
+   0
+  ],
+  "justification_order": [
+   0,
+   2,
+   3,
+   4,
+   1
+  ],
+  "labels": [
+   "Proxemics"
+  ]
+ },
+ "71504f29-61c1-49e5-8617-d0e71144c077_652-01": {
+  "correct": 2,
+  "action_order": [
+   1,
+   4,
+   0,
+   3,
+   2
+  ],
+  "justification_order": [
+   0,
+   4,
+   3,
+   2,
+   1
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation"
+  ]
+ },
+ "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55": {
+  "correct": 2,
+  "action_order": [
+   2,
+   1,
+   3,
+   0,
+   4
+  ],
+  "justification_order": [
+   1,
+   2,
+   3,
+   4,
+   0
+  ],
+  "labels": [
+   "Proxemics"
+  ]
+ },
+ "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62": {
+  "correct": 0,
+  "action_order": [
+   4,
+   3,
+   2,
+   0,
+   1
+  ],
+  "justification_order": [
+   0,
+   3,
+   1,
+   2,
+   4
+  ],
+  "labels": [
+   "Communication/Legibility",
+   "Cooperation"
+  ]
+ },
+ "348f0f69-cd49-4c00-af91-f1765155e858_1127-21": {
+  "correct": 0,
+  "action_order": [
+   4,
+   1,
+   2,
+   3,
+   0
+  ],
+  "justification_order": [
+   4,
+   3,
+   1,
+   2,
+   0
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation"
+  ]
+ },
+ "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05": {
+  "correct": 2,
+  "action_order": [
+   0,
+   2,
+   4,
+   1,
+   3
+  ],
+  "justification_order": [
+   2,
+   1,
+   0,
+   3,
+   4
+  ],
+  "labels": [
+   "Proxemics"
+  ]
+ },
+ "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04": {
+  "correct": 1,
+  "action_order": [
+   0,
+   3,
+   2,
+   1,
+   4
+  ],
+  "justification_order": [
+   0,
+   4,
+   1,
+   2,
+   3
+  ],
+  "labels": [
+   "Politeness",
+   "Cooperation"
+  ]
+ },
+ "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25": {
+  "correct": 2,
+  "action_order": [
+   4,
+   3,
+   1,
+   2,
+   0
+  ],
+  "justification_order": [
+   2,
+   3,
+   1,
+   0,
+   4
+  ],
+  "labels": [
+   "Cooperation",
+   "Coordination/Proactivity"
+  ]
+ },
+ "10a848ed-f258-4930-abdd-1fd60b788abc_475-65": {
+  "correct": 2,
+  "action_order": [
+   3,
+   2,
+   1,
+   4,
+   0
+  ],
+  "justification_order": [
+   1,
+   0,
+   2,
+   3,
+   4
+  ],
+  "labels": [
+   "Proxemics",
+   "Cooperation"
+  ]
+ },
+ "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48": {
+  "correct": 0,
+  "action_order": [
+   1,
+   2,
+   0,
+   4,
+   3
+  ],
+  "justification_order": [
+   2,
+   3,
+   4,
+   0,
+   1
+  ],
+  "labels": [
+   "Cooperation",
+   "Coordination/Proactivity"
+  ]
+ },
+ "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33": {
+  "correct": 2,
+  "action_order": [
+   1,
+   0,
+   4,
+   2,
+   3
+  ],
+  "justification_order": [
+   1,
+   4,
+   3,
+   0,
+   2
+  ],
+  "labels": [
+   "Proxemics",
+   "Cooperation"
+  ]
+ },
+ "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11": {
+  "correct": 3,
+  "action_order": [
+   3,
+   4,
+   1,
+   0,
+   2
+  ],
+  "justification_order": [
+   3,
+   2,
+   0,
+   1,
+   4
+  ],
+  "labels": [
+   "Politeness",
+   "Communication/Legibility"
+  ]
+ },
+ "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56": {
+  "correct": 1,
+  "action_order": [
+   4,
+   1,
+   2,
+   0,
+   3
+  ],
+  "justification_order": [
+   2,
+   1,
+   3,
+   0,
+   4
+  ],
+  "labels": [
+   "Safety",
+   "Coordination/Proactivity"
+  ]
+ },
+ "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35": {
+  "correct": 3,
+  "action_order": [
+   4,
+   2,
+   0,
+   3,
+   1
+  ],
+  "justification_order": [
+   1,
+   2,
+   3,
+   0,
+   4
+  ],
+  "labels": [
+   "Politeness"
+  ]
+ },
+ "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18": {
+  "correct": 0,
+  "action_order": [
+   3,
+   2,
+   0,
+   4,
+   1
+  ],
+  "justification_order": [
+   0,
+   3,
+   1,
+   2,
+   4
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation"
+  ]
+ },
+ "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91": {
+  "correct": 2,
+  "action_order": [
+   0,
+   2,
+   4,
+   3,
+   1
+  ],
+  "justification_order": [
+   3,
+   1,
+   0,
+   4,
+   2
+  ],
+  "labels": [
+   "Proxemics",
+   "Safety"
+  ]
+ },
+ "edaf03e3-3021-4140-8434-dc9e744ae492_178-18": {
+  "correct": 3,
+  "action_order": [
+   2,
+   3,
+   4,
+   0,
+   1
+  ],
+  "justification_order": [
+   2,
+   0,
+   4,
+   3,
+   1
+  ],
+  "labels": [
+   "Coordination/Proactivity",
+   "Cooperation",
+   "Politeness"
+  ]
+ },
+ "22653c79-369f-4a0d-a663-33a1da378fe0_245-16": {
+  "correct": 1,
+  "action_order": [
+   2,
+   1,
+   0,
+   4,
+   3
+  ],
+  "justification_order": [
+   4,
+   3,
+   1,
+   2,
+   0
+  ],
+  "labels": [
+   "Proxemics",
+   "Coordination/Proactivity",
+   "Cooperation"
+  ]
+ },
+ "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46": {
+  "correct": 1,
+  "action_order": [
+   2,
+   4,
+   1,
+   3,
+   0
+  ],
+  "justification_order": [
+   2,
+   1,
+   0,
+   3,
+   4
+  ],
+  "labels": [
+   "Proxemics"
+  ]
+ },
+ "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80": {
+  "correct": 0,
+  "action_order": [
+   4,
+   2,
+   0,
+   1,
+   3
+  ],
+  "justification_order": [
+   1,
+   0,
+   4,
+   3,
+   2
+  ],
+  "labels": [
+   "Cooperation"
+  ]
+ },
+ "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23": {
+  "correct": 0,
+  "action_order": [
+   3,
+   1,
+   0,
+   2,
+   4
+  ],
+  "justification_order": [
+   4,
+   0,
+   1,
+   3,
+   2
+  ],
+  "labels": [
+   "Cooperation",
+   "Communication/Legibility"
+  ]
+ },
+ "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41": {
+  "correct": 2,
+  "action_order": [
+   3,
+   1,
+   0,
+   4,
+   2
+  ],
+  "justification_order": [
+   1,
+   3,
+   2,
+   0,
+   4
+  ],
+  "labels": [
+   "Cooperation"
+  ]
+ },
+ "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33": {
+  "correct": 0,
+  "action_order": [
+   4,
+   2,
+   0,
+   1,
+   3
+  ],
+  "justification_order": [
+   4,
+   3,
+   2,
+   1,
+   0
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation"
+  ]
+ },
+ "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87": {
+  "correct": 4,
+  "action_order": [
+   4,
+   3,
+   0,
+   1,
+   2
+  ],
+  "justification_order": [
+   3,
+   4,
+   0,
+   2,
+   1
+  ],
+  "labels": []
+ },
+ "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64": {
+  "correct": 2,
+  "action_order": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "justification_order": [
+   2,
+   3,
+   1,
+   0,
+   4
+  ],
+  "labels": [
+   "Cooperation",
+   "Coordination/Proactivity",
+   "Safety"
+  ]
+ },
+ "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48": {
+  "correct": 2,
+  "action_order": [
+   3,
+   0,
+   1,
+   2,
+   4
+  ],
+  "justification_order": [
+   3,
+   1,
+   4,
+   0,
+   2
+  ],
+  "labels": [
+   "Proxemics"
+  ]
+ },
+ "069c1058-881d-49da-b45d-b9f7e08fe932_475-96": {
+  "correct": 1,
+  "action_order": [
+   0,
+   4,
+   2,
+   3,
+   1
+  ],
+  "justification_order": [
+   1,
+   3,
+   0,
+   4,
+   2
+  ],
+  "labels": [
+   "Proxemics",
+   "Coordination/Proactivity"
+  ]
+ },
+ "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69": {
+  "correct": 1,
+  "action_order": [
+   0,
+   1,
+   2,
+   4,
+   3
+  ],
+  "justification_order": [
+   0,
+   3,
+   4,
+   2,
+   1
+  ],
+  "labels": [
+   "Proxemics"
+  ]
+ },
+ "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41": {
+  "correct": 0,
+  "action_order": [
+   3,
+   1,
+   4,
+   0,
+   2
+  ],
+  "justification_order": [
+   2,
+   3,
+   1,
+   0,
+   4
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation"
+  ]
+ },
+ "1bfac46e-f957-4495-9583-dbd7fa683225_823-65": {
+  "correct": 2,
+  "action_order": [
+   4,
+   3,
+   1,
+   0,
+   2
+  ],
+  "justification_order": [
+   3,
+   1,
+   2,
+   0,
+   4
+  ],
+  "labels": [
+   "Proxemics",
+   "Communication/Legibility"
+  ]
+ },
+ "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98": {
+  "correct": 2,
+  "action_order": [
+   0,
+   1,
+   4,
+   2,
+   3
+  ],
+  "justification_order": [
+   0,
+   2,
+   3,
+   1,
+   4
+  ],
+  "labels": [
+   "Proxemics"
+  ]
+ },
+ "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50": {
+  "correct": 0,
+  "action_order": [
+   3,
+   1,
+   0,
+   2,
+   4
+  ],
+  "justification_order": [
+   3,
+   1,
+   4,
+   0,
+   2
+  ],
+  "labels": [
+   "Politeness",
+   "Communication/Legibility"
+  ]
+ },
+ "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04": {
+  "correct": 3,
+  "action_order": [
+   4,
+   2,
+   3,
+   0,
+   1
+  ],
+  "justification_order": [
+   4,
+   0,
+   2,
+   3,
+   1
+  ],
+  "labels": [
+   "Politeness",
+   "Communication/Legibility"
+  ]
+ },
+ "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44": {
+  "correct": 2,
+  "action_order": [
+   1,
+   2,
+   4,
+   0,
+   3
+  ],
+  "justification_order": [
+   1,
+   3,
+   2,
+   4,
+   0
+  ],
+  "labels": [
+   "Proxemics",
+   "Politeness"
+  ]
+ },
+ "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46": {
+  "correct": 3,
+  "action_order": [
+   3,
+   4,
+   1,
+   0,
+   2
+  ],
+  "justification_order": [
+   1,
+   4,
+   3,
+   0,
+   2
+  ],
+  "labels": [
+   "Privacy"
+  ]
+ },
+ "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83": {
+  "correct": 0,
+  "action_order": [
+   3,
+   1,
+   4,
+   2,
+   0
+  ],
+  "justification_order": [
+   4,
+   3,
+   1,
+   2,
+   0
+  ],
+  "labels": [
+   "Politeness",
+   "Proxemics",
+   "Communication/Legibility"
+  ]
+ },
+ "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42": {
+  "correct": 0,
+  "action_order": [
+   0,
+   3,
+   2,
+   1,
+   4
+  ],
+  "justification_order": [
+   2,
+   4,
+   0,
+   3,
+   1
+  ],
+  "labels": [
+   "Politeness",
+   "Cooperation"
+  ]
+ },
+ "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07": {
+  "correct": 4,
+  "action_order": [
+   2,
+   0,
+   4,
+   1,
+   3
+  ],
+  "justification_order": [
+   0,
+   3,
+   2,
+   1,
+   4
+  ],
+  "labels": [
+   "Communication/Legibility",
+   "Cooperation"
+  ]
+ },
+ "470499d1-e015-4d45-a858-ca3e9566085e_2490-62": {
+  "correct": 1,
+  "action_order": [
+   4,
+   1,
+   0,
+   3,
+   2
+  ],
+  "justification_order": [
+   4,
+   1,
+   0,
+   3,
+   2
+  ],
+  "labels": [
+   "Proxemics"
+  ]
+ },
+ "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26": {
+  "correct": 1,
+  "action_order": [
+   2,
+   1,
+   3,
+   4,
+   0
+  ],
+  "justification_order": [
+   1,
+   0,
+   4,
+   3,
+   2
+  ],
+  "labels": [
+   "Proxemics",
+   "Coordination/Proactivity",
+   "Cooperation"
+  ]
+ },
+ "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77": {
+  "correct": 0,
+  "action_order": [
+   4,
+   1,
+   3,
+   0,
+   2
+  ],
+  "justification_order": [
+   2,
+   3,
+   1,
+   0,
+   4
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation"
+  ]
+ },
+ "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87": {
+  "correct": 1,
+  "action_order": [
+   3,
+   4,
+   1,
+   2,
+   0
+  ],
+  "justification_order": [
+   0,
+   4,
+   1,
+   3,
+   2
+  ],
+  "labels": [
+   "Cooperation",
+   "Coordination/Proactivity"
+  ]
+ },
+ "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03": {
+  "correct": 3,
+  "action_order": [
+   4,
+   1,
+   3,
+   2,
+   0
+  ],
+  "justification_order": [
+   2,
+   3,
+   0,
+   1,
+   4
+  ],
+  "labels": [
+   "Politeness",
+   "Communication/Legibility",
+   "Proxemics"
+  ]
+ },
+ "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13": {
+  "correct": 3,
+  "action_order": [
+   1,
+   2,
+   3,
+   4,
+   0
+  ],
+  "justification_order": [
+   0,
+   3,
+   4,
+   2,
+   1
+  ],
+  "labels": [
+   "Politeness",
+   "Communication/Legibility"
+  ]
+ },
+ "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48": {
+  "correct": 1,
+  "action_order": [
+   0,
+   3,
+   1,
+   4,
+   2
+  ],
+  "justification_order": [
+   0,
+   2,
+   1,
+   3,
+   4
+  ],
+  "labels": [
+   "Safety",
+   "Proxemics"
+  ]
+ },
+ "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42": {
+  "correct": 2,
+  "action_order": [
+   2,
+   4,
+   0,
+   1,
+   3
+  ],
+  "justification_order": [
+   4,
+   2,
+   3,
+   0,
+   1
+  ],
+  "labels": [
+   "Politeness",
+   "Proxemics"
+  ]
+ },
+ "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27": {
+  "correct": 1,
+  "action_order": [
+   1,
+   0,
+   3,
+   4,
+   2
+  ],
+  "justification_order": [
+   4,
+   0,
+   3,
+   2,
+   1
+  ],
+  "labels": [
+   "Proxemics",
+   "Safety",
+   "Coordination/Proactivity"
+  ]
+ },
+ "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98": {
+  "correct": 3,
+  "action_order": [
+   1,
+   4,
+   2,
+   0,
+   3
+  ],
+  "justification_order": [
+   3,
+   0,
+   1,
+   2,
+   4
+  ],
+  "labels": []
+ },
+ "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83": {
+  "correct": 0,
+  "action_order": [
+   2,
+   0,
+   1,
+   3,
+   4
+  ],
+  "justification_order": [
+   3,
+   4,
+   1,
+   0,
+   2
+  ],
+  "labels": [
+   "Safety",
+   "Cooperation"
+  ]
+ },
+ "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36": {
+  "correct": 3,
+  "action_order": [
+   1,
+   3,
+   0,
+   2,
+   4
+  ],
+  "justification_order": [
+   0,
+   4,
+   3,
+   1,
+   2
+  ],
+  "labels": [
+   "Safety"
+  ]
+ }
+}

@@ -1,0 +1,1 @@
+{"id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13", "condition": "rgb_nn", "model": "claude-sonnet-5-5", "action_position": 5, "justification_position": 4, "raw": "{\"action\": 5, \"justification\": 4}", "num_turns": 1, "tools_available": 0, "mcp_servers": 0, "web_search_requests": 0, "web_fetch_requests": 0, "images_sent": 1, "context_tokens": 1493}

@@ -1,0 +1,1 @@
+{"id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56", "condition": "geo_nn", "model": "claude-sonnet-5-5", "action_position": 1, "justification_position": 3, "raw": "{\"action\": 1, \"justification\": 3}", "num_turns": 1, "tools_available": 0, "mcp_servers": 0, "web_search_requests": 0, "web_fetch_requests": 0, "images_sent": 3, "context_tokens": 2608}

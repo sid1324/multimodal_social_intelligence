@@ -1,0 +1,21 @@
+{
+  "model": "mlx-community/Qwen3-VL-8B-Instruct-4bit",
+  "revision": "defcdea7cc7a4b0858fea563cbbce171d328e457",
+  "quantization": "community 4-bit checkpoint; not full-precision paper model",
+  "conditions": [
+    "rgb",
+    "rgb_repeat",
+    "rgb_pose",
+    "rgb_shuffled_pose"
+  ],
+  "temperature": 0.0,
+  "max_tokens": 16,
+  "seed": 42,
+  "action_then_justification": true,
+  "independent_option_permutations": "SHA256 fixed per item and task, identical across conditions",
+  "frame_grid": "Five frames in a horizontal strip; each frame maximum side 384px; RGB resolution identical in every condition; auxiliary grids have same dimensions as RGB grids for that item.",
+  "shuffled_pose": "Next source in the preselected sample, cyclic rotation; resized to target grid dimensions.",
+  "prefix": "You observe a situation from an egocentric camera. Image 1 is a chronological grid of five RGB context frames, read left to right. If image 2 is present, it is an auxiliary grid: it can repeat the RGB frames or display estimated body (yellow) and hand (magenta) landmarks. Auxiliary landmarks may be missing, inaccurate, or unrelated. Use the RGB context to judge the situation; do not assume the auxiliary image is correct. No action has yet been taken.\n",
+  "descriptions_or_gold_or_norm_labels_in_prompt": false,
+  "evaluation": "Custom subset pilot, not official leaderboard replication; same sources as extraction audit."
+}

@@ -1,0 +1,10 @@
+{
+  "new_baseline_rows": 10,
+  "original_baseline_rows": 5,
+  "followup_rows": 60,
+  "selected_failures": 4,
+  "conditions_per_failure": 15,
+  "exact_image_view_records_checked": 164,
+  "attached_description_pointers_verified": true,
+  "choices_scored_externally": true
+}

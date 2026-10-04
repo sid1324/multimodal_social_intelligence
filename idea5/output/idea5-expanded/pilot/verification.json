@@ -1,0 +1,10 @@
+{
+  "snapshot_rows": 48,
+  "source_clips": 3,
+  "conditions_per_clip": 16,
+  "local_image_links_checked": 25,
+  "gallery_javascript_syntax_passed": true,
+  "qwen_joint_correct_every_condition": 1,
+  "agent_matched_joint_correct_every_condition": 3,
+  "pdf_rendered_and_visually_checked": true
+}

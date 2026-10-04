@@ -1,0 +1,1 @@
+{"id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56", "condition": "geo_nn", "model": "gpt-5.6-sol", "action_position": 2, "justification_position": 2, "raw": "{\"action\":2,\"justification\":2}", "events": {"thread.started": 1, "turn.started": 1, "item.completed:agent_message": 1, "turn.completed": 1}}
