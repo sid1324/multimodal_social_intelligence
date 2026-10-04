@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "participants": 1,
+  "items": 20,
+  "responses": 60,
+  "unique_item_stage_pairs": 60,
+  "gold_matches_raw_and_packet": true,
+  "distinct_source_prefixes": 20,
+  "complete_three_stages": true,
+  "metric": "action-only agreement with released gold",
+  "independence_limit": "Twenty repeated items from one participant in two sequential ten-item blocks, not 60 independent observations.",
+  "provenance": "All 60 responses supplied by one user in chat. Unaided completion not independently verified. No gold feedback within either ten-item block; scores and item-level feedback on block 1 were disclosed before block 2."
+}

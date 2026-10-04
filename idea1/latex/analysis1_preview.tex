@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{microtype,graphicx,booktabs,amsmath,capt-of}
+\usepackage[preprint]{icml2026}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\icmltitlerunning{Analysis 1: Progressive Perceptual Grounding}
+\begin{document}
+% This is a section-only preview; the team paper supplies title, authors and notice.
+\makeatletter\global\icml@noticeprintedtrue\makeatother
+\twocolumn[{\begin{minipage}{\textwidth}
+\centering
+\includegraphics[width=\textwidth]{../outputs/figures/grounding_ladder.pdf}
+\captionof{figure}{\textbf{A:} Joint accuracy on each model's three-condition intersection. \textbf{B:} Description-to-grid gain, equally averaged over the three models, by taxonomy of the \emph{correct candidate action}. Categories overlap and model-specific item populations differ. Error bars are 95\% source-ID-cluster bootstrap intervals. These are released-system comparisons with the prompt caveat discussed in the text.}
+\label{fig:a1ladder}
+\end{minipage}\vspace{1em}}]
+\raggedbottom
+\input{preview_body}
+\bibliographystyle{icml2026}
+\bibliography{references}
+\end{document}

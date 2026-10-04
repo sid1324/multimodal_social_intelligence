@@ -1,0 +1,41 @@
+{
+  "items": 1853,
+  "source_id_prefixes": 1075,
+  "verified": 200,
+  "options_per_item": {
+    "5": 1853
+  },
+  "empty_gold_items": 21,
+  "missing_description_ids": [
+    "b68e46bf-2cc5-4c6b-895a-1f8c6cad959a_2324-99",
+    "19f2ea20-5041-4be2-bdc9-714473f16236_1915-00"
+  ],
+  "gold_revision_items": 33,
+  "unexpected_label_occurrences": {
+    "Trust": 1,
+    "Proactivity": 2,
+    "": 1,
+    "Proactivity/Coordination": 1
+  },
+  "position_counts_0based": [
+    445,
+    469,
+    439,
+    454,
+    46
+  ],
+  "position_uniform_five_chi2": 356.76524554776034,
+  "position_uniform_five_p": 6.070041097117931e-76,
+  "nonempty_gold_rank_counts_0based": [
+    445,
+    469,
+    439,
+    479
+  ],
+  "nonempty_gold_rank_chi2": 2.3842794759825328,
+  "nonempty_gold_rank_p": 0.49656770198433187,
+  "uniform_five_action_chance": 0.2,
+  "uniform_nonempty_action_chance_all_items": 0.24716675661090123,
+  "malformed_result_shapes": [],
+  "no_correct_option_labels": 59
+}

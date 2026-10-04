@@ -1,0 +1,642 @@
+[
+  {
+    "check": "raw_hash_final_data.json",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "raw_hash_final_data_eval.json",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "raw_hash_verified_split.json",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_joint_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_joint_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_joint_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_action_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_action_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_action_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_justification_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_justification_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Flash_justification_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_joint_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_joint_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_joint_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_action_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_action_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_action_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_justification_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_justification_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_Gemini-1.5-Pro_justification_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_joint_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_joint_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_joint_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_action_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_action_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_action_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_justification_blind",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_justification_desc",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "ladder_GPT-4o_justification_grid",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Flash_joint_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Flash_joint_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Flash_action_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Flash_action_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Flash_justification_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Flash_justification_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Pro_joint_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Pro_joint_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Pro_action_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Pro_action_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Pro_justification_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_Gemini-1.5-Pro_justification_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_GPT-4o_joint_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_GPT-4o_joint_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_GPT-4o_action_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_GPT-4o_action_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_GPT-4o_justification_three_way",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "paired_arithmetic_GPT-4o_justification_verified",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_five_options_tfidf_source",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_five_options_tfidf_source",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_five_options_tfidf_strict",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_five_options_tfidf_strict",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_five_options_behavior",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_five_options_behavior",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_five_options_justification",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_five_options_justification",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_five_options_length",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_five_options_length",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_legacy_four_nonempty_tfidf_source",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_legacy_four_nonempty_tfidf_source",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_legacy_four_nonempty_tfidf_strict",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_legacy_four_nonempty_tfidf_strict",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_legacy_four_nonempty_behavior",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_legacy_four_nonempty_behavior",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_legacy_four_nonempty_justification",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_legacy_four_nonempty_justification",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_legacy_four_nonempty_length",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "probe_folds_legacy_four_nonempty_length",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "strict_error_count",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "error_split_Gemini-1.5-Flash_probe_correct",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "error_split_Gemini-1.5-Flash_probe_wrong",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "error_split_Gemini-1.5-Pro_probe_correct",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "error_split_Gemini-1.5-Pro_probe_wrong",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "error_split_GPT-4o_probe_correct",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "error_split_GPT-4o_probe_wrong",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_option_norm_Safety",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_option_norm_Privacy",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_option_norm_Proxemics",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_option_norm_Politeness",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_option_norm_Cooperation",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_option_norm_Coordination/Proactivity",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_option_norm_Communication/Legibility",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_description_norm_Safety",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_description_norm_Privacy",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_description_norm_Proxemics",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_description_norm_Politeness",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_description_norm_Cooperation",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_description_norm_Coordination/Proactivity",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_sbert_description_norm_Communication/Legibility",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "same_visual_ids_clip_correct_option_norm",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_clip_correct_option_norm_Safety",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_clip_correct_option_norm_Privacy",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_clip_correct_option_norm_Proxemics",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_clip_correct_option_norm_Politeness",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_clip_correct_option_norm_Cooperation",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_clip_correct_option_norm_Coordination/Proactivity",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_clip_correct_option_norm_Communication/Legibility",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "same_visual_ids_matched_description_tfidf_lsa",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_tfidf_lsa_Safety",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_tfidf_lsa_Privacy",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_tfidf_lsa_Proxemics",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_tfidf_lsa_Politeness",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_tfidf_lsa_Cooperation",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_tfidf_lsa_Coordination/Proactivity",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_tfidf_lsa_Communication/Legibility",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "same_visual_ids_matched_description_mpnet",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_mpnet_Safety",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_mpnet_Privacy",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_mpnet_Proxemics",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_mpnet_Politeness",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_mpnet_Cooperation",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_mpnet_Coordination/Proactivity",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "auroc_matched_description_mpnet_Communication/Legibility",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "normbank_count",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "normbank_duplicates",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "normbank_unique_rows",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "hf_membership",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "normlens_high_agreement",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "normlens_mid_agreement",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "manuscript_primary_deltas",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "manuscript_error_subset",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no_unresolved_scaffolding_analysis1_section",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no_unresolved_scaffolding_methods_supplement",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no_unresolved_scaffolding_external_audits",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no_unresolved_scaffolding_qualitative_cases",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no_unresolved_scaffolding_idea1_intro",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no_unresolved_scaffolding_idea1_discussion",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "no_unresolved_scaffolding_ai_disclosure",
+    "status": "PASS",
+    "detail": ""
+  }
+]

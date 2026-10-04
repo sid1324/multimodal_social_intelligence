@@ -1,0 +1,12 @@
+{
+  "hf_rows": 1743,
+  "hf_unique_ids": 1743,
+  "github_rows": 1853,
+  "shared": 1743,
+  "hf_only": 0,
+  "github_only": 110,
+  "field_differences": {
+    "desc": 27
+  },
+  "note": "The observed row gap is explained by the explicit missing ID list; cause of release omission is not documented by this audit."
+}

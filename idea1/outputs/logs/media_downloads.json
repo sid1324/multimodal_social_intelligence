@@ -1,0 +1,2802 @@
+[
+  {
+    "item": "5605bd9a-d151-4d5b-b0f6-cfc28ae6937e_2980-56",
+    "status": 200,
+    "bytes": 3035411,
+    "sha256": "cc26e4cd10e2ee7fac86dd71a4722958dbd8866d3020c38e978a654bbdc901a7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5605bd9a-d151-4d5b-b0f6-cfc28ae6937e_2980-56/frame_all_prev.jpg"
+  },
+  {
+    "item": "36baa5a9-16bf-4ad6-b011-4d7daae6b8f9_641-91",
+    "status": 200,
+    "bytes": 2690868,
+    "sha256": "5b60330ebbf23949b6ffbf286a37fb5a223d70c4a3299cdde1e1b035635b845d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/36baa5a9-16bf-4ad6-b011-4d7daae6b8f9_641-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "d1a27322-8acd-4297-9029-db45af8d7cc2_34-04",
+    "status": 200,
+    "bytes": 974063,
+    "sha256": "4c436ef7b1f7400b2671a7ac7269e8f2dc5017054c8c9a36ab038b3eca1705a5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d1a27322-8acd-4297-9029-db45af8d7cc2_34-04/frame_all_prev.jpg"
+  },
+  {
+    "item": "624a6c0a-a4cb-4073-b501-48e4b6b679e4_1105-28",
+    "status": 200,
+    "bytes": 2263979,
+    "sha256": "994aea85f1d570a07cc91823422dcbde2e8e2345977625c0f2055f990584b09f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/624a6c0a-a4cb-4073-b501-48e4b6b679e4_1105-28/frame_all_prev.jpg"
+  },
+  {
+    "item": "ed027cb2-5b92-4de2-ab58-69d42325ef15_1281-72",
+    "status": 200,
+    "bytes": 533672,
+    "sha256": "0a0e58071e32c6f48bce9cd8627a1d48150b8f12ff21c5e72e857c56142a15d6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ed027cb2-5b92-4de2-ab58-69d42325ef15_1281-72/frame_all_prev.jpg"
+  },
+  {
+    "item": "fb92d350-9bf9-4b16-8a1f-7858de276226_2422-37",
+    "status": 200,
+    "bytes": 1048655,
+    "sha256": "45c674b138ca47d0337158e3ea4f1c83f3404e50834cc369f044f5f1d3436441",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fb92d350-9bf9-4b16-8a1f-7858de276226_2422-37/frame_all_prev.jpg"
+  },
+  {
+    "item": "fb92d350-9bf9-4b16-8a1f-7858de276226_32-25",
+    "status": 200,
+    "bytes": 892141,
+    "sha256": "7c0b2b1895e8438249ede02a780f3b83e48d40420445ed7807442c54f5cec2ae",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fb92d350-9bf9-4b16-8a1f-7858de276226_32-25/frame_all_prev.jpg"
+  },
+  {
+    "item": "356661f5-767b-495d-95c7-03dcc46f85c6_1860-68",
+    "status": 200,
+    "bytes": 832688,
+    "sha256": "3396e7ff9d7c6032c13a65a82e4ed222e6c03c2b35253e2fb176eed2da0d9254",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/356661f5-767b-495d-95c7-03dcc46f85c6_1860-68/frame_all_prev.jpg"
+  },
+  {
+    "item": "2ec3c123-0a04-46d7-97d5-8b85b5e6d06f_1372-45",
+    "status": 200,
+    "bytes": 812157,
+    "sha256": "42fa02300fd5c68fd0e8d67d82c711ce9847997952e9db16cfcef95576d3e8f0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2ec3c123-0a04-46d7-97d5-8b85b5e6d06f_1372-45/frame_all_prev.jpg"
+  },
+  {
+    "item": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_2651-56",
+    "status": 200,
+    "bytes": 601071,
+    "sha256": "893da1faef63e5160e43149e8ebf6fcd22358912272946bb743431c54b076ca6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/620d3087-c6fb-4b08-bb6a-4dc4ede3b994_2651-56/frame_all_prev.jpg"
+  },
+  {
+    "item": "375ca7e7-1e3c-4159-9f7f-4691ef11f322_68-87",
+    "status": 200,
+    "bytes": 1708935,
+    "sha256": "7b0c391a4bd2314470a97e39d97682b0a19eec7dd5cd36b83e36c51274f25328",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/375ca7e7-1e3c-4159-9f7f-4691ef11f322_68-87/frame_all_prev.jpg"
+  },
+  {
+    "item": "083b7556-9dff-40e2-9fad-bef3f82dbf37_34-58",
+    "status": 200,
+    "bytes": 3505457,
+    "sha256": "0535ac423a23d25c399d4921c39f1dcb760f9b9f6dfafb14744a67887a965f57",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/083b7556-9dff-40e2-9fad-bef3f82dbf37_34-58/frame_all_prev.jpg"
+  },
+  {
+    "item": "a8197601-7474-4cb0-8d08-e8a8febcecfc_997-91",
+    "status": 200,
+    "bytes": 1920457,
+    "sha256": "eeb15849b8f8d3168f563c5f72b2b313fb847399102a064f2936e11ccf2ebb39",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a8197601-7474-4cb0-8d08-e8a8febcecfc_997-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "7c4f8ef4-c126-46b7-8fa9-1b2daf5b41de_2272-79",
+    "status": 200,
+    "bytes": 786315,
+    "sha256": "b22ebfa1058f00e9312fdb0a701dd731590a06f03c53213fae4fa2b35160e048",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7c4f8ef4-c126-46b7-8fa9-1b2daf5b41de_2272-79/frame_all_prev.jpg"
+  },
+  {
+    "item": "a437e059-78be-4894-a7ab-dc27fa16d3f8_6791-07",
+    "status": 200,
+    "bytes": 3191922,
+    "sha256": "8af3b4c429ff0865230e451d72f0bf9d5049046ef3af0299b380f40ff440127a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a437e059-78be-4894-a7ab-dc27fa16d3f8_6791-07/frame_all_prev.jpg"
+  },
+  {
+    "item": "307b1878-875f-4703-bfe9-32d11d20853f_32-44",
+    "status": 200,
+    "bytes": 6601525,
+    "sha256": "ec63d5c5bf605e6598c277d94e48238a7c9c3f6d61874d44d489ea907ef7a148",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/307b1878-875f-4703-bfe9-32d11d20853f_32-44/frame_all_prev.jpg"
+  },
+  {
+    "item": "b1543ea3-e86b-4545-9195-f1bf83e02b41_4163-19",
+    "status": 200,
+    "bytes": 874720,
+    "sha256": "af0dae960fad5bb83530ca0621bfb356ce694ba199894dfebb2c48f21d5f22bb",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b1543ea3-e86b-4545-9195-f1bf83e02b41_4163-19/frame_all_prev.jpg"
+  },
+  {
+    "item": "5cab806a-3794-4578-94f2-33c3093151d1_433-69",
+    "status": 200,
+    "bytes": 941603,
+    "sha256": "af61378f354d9209e6529758eec9ed683e73057cb374e748dc1d0c666801af32",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5cab806a-3794-4578-94f2-33c3093151d1_433-69/frame_all_prev.jpg"
+  },
+  {
+    "item": "5e193b30-3e79-4851-801b-dab99125cd44_3348-61",
+    "status": 200,
+    "bytes": 1921717,
+    "sha256": "32b6487da50b66a225209390c0867a141f4e89d1ae95dfd7336dc4b6825dba52",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5e193b30-3e79-4851-801b-dab99125cd44_3348-61/frame_all_prev.jpg"
+  },
+  {
+    "item": "b5c3c1e3-7ee7-4b4a-b938-4d008d5aa49b_644-73",
+    "status": 200,
+    "bytes": 1449355,
+    "sha256": "164c558cd02802184153827d2f12d18fb97e6df4d6b028ffb0950243e6fa9c55",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b5c3c1e3-7ee7-4b4a-b938-4d008d5aa49b_644-73/frame_all_prev.jpg"
+  },
+  {
+    "item": "8b82316c-c293-49a7-b401-a3cc026ab1d0_2095-46",
+    "status": 200,
+    "bytes": 1503203,
+    "sha256": "f70740579d5ed6f6a2f1c4c565910a0e003e3ff4cedeaf6d5a51ed9261d24c39",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8b82316c-c293-49a7-b401-a3cc026ab1d0_2095-46/frame_all_prev.jpg"
+  },
+  {
+    "item": "1c983176-b07a-4a69-ae51-de7829de6b6a_261-56",
+    "status": 200,
+    "bytes": 1010801,
+    "sha256": "2169d470e403217acfaf41f8bca31d911f1ea7eb61fc3fa17ca7103f1182af25",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1c983176-b07a-4a69-ae51-de7829de6b6a_261-56/frame_all_prev.jpg"
+  },
+  {
+    "item": "f0041c6c-06b2-4c3b-b8e6-934305b4226e_3757-69",
+    "status": 200,
+    "bytes": 2588213,
+    "sha256": "c6e4d2df929865145822f9b13fee05d2f5dd5cd922fa885de8afe10ea0781699",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f0041c6c-06b2-4c3b-b8e6-934305b4226e_3757-69/frame_all_prev.jpg"
+  },
+  {
+    "item": "6b7fc6db-e979-43a0-b61f-7dced89d423d_229-56",
+    "status": 200,
+    "bytes": 956325,
+    "sha256": "1d59f9f18028e0cf3b03b32c9401fdc6895a94977669b996cde9c4279da8d657",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6b7fc6db-e979-43a0-b61f-7dced89d423d_229-56/frame_all_prev.jpg"
+  },
+  {
+    "item": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+    "status": 200,
+    "bytes": 5901168,
+    "sha256": "a33bff49841e0ee8f746a276bba63cf49e535713353781e474f6c3648ea4742c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23/frame_all_prev.jpg"
+  },
+  {
+    "item": "19f2ea20-5041-4be2-bdc9-714473f16236_5269-91",
+    "status": 200,
+    "bytes": 3900127,
+    "sha256": "5713eef02968f3260b237b66a0dee15fbde0756c7261a79bb232480675853b62",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/19f2ea20-5041-4be2-bdc9-714473f16236_5269-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "fb8a0650-986c-4c08-9d97-ac432cca424e_70-34",
+    "status": 200,
+    "bytes": 1780557,
+    "sha256": "ad1f1568e3e79e544f16e0a86872fa440223c24dd577b9de4a891dd9ea5bc6ff",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fb8a0650-986c-4c08-9d97-ac432cca424e_70-34/frame_all_prev.jpg"
+  },
+  {
+    "item": "820d4b9e-6fba-472f-aa45-25b27241d4af_366-20",
+    "status": 200,
+    "bytes": 914416,
+    "sha256": "f0d1c93b81287ac6bfcec2ce9fb7e4197081b4be41221d3dd4bf2fd6d89d4e2e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/820d4b9e-6fba-472f-aa45-25b27241d4af_366-20/frame_all_prev.jpg"
+  },
+  {
+    "item": "9a732221-3adb-4903-b61d-9b8097965fbf_2751-77",
+    "status": 200,
+    "bytes": 1302666,
+    "sha256": "7159d78432c042649e35961787897be7b409bb4980f66a62757973ca82bfc5ea",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9a732221-3adb-4903-b61d-9b8097965fbf_2751-77/frame_all_prev.jpg"
+  },
+  {
+    "item": "750c5383-58f6-4063-8cc8-50691a68994d_562-01",
+    "status": 200,
+    "bytes": 884626,
+    "sha256": "8655e65a580d444af3c67976a37481583952f1ed693205f573b69af8be8c466f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/750c5383-58f6-4063-8cc8-50691a68994d_562-01/frame_all_prev.jpg"
+  },
+  {
+    "item": "24c447b6-094f-49a6-9c20-ed594ab0da65_0-04",
+    "status": 200,
+    "bytes": 852109,
+    "sha256": "2bcba0a4748e00432f214d2f3d8048af950d1680a9fdd4a9e6e374cb1672a89b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/24c447b6-094f-49a6-9c20-ed594ab0da65_0-04/frame_all_prev.jpg"
+  },
+  {
+    "item": "2dfec7b6-c8b0-4cd0-baf6-4a963aed1d6a_1906-66",
+    "status": 200,
+    "bytes": 2135630,
+    "sha256": "51072a3daf74d2ea7fa0444e06fe60a849b26fa61e9b6fa103bbf4ff5724eebb",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2dfec7b6-c8b0-4cd0-baf6-4a963aed1d6a_1906-66/frame_all_prev.jpg"
+  },
+  {
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_989-72",
+    "status": 200,
+    "bytes": 1137102,
+    "sha256": "bf3aed6133fba5f2b726098822c9230431b75f68ccbe7fd1e16b488c15bee9e5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2dbdd409-0be0-447c-8ae8-3f107fe9af80_989-72/frame_all_prev.jpg"
+  },
+  {
+    "item": "82e96128-1242-4e57-8a3e-9ea222df022c_2985-80",
+    "status": 200,
+    "bytes": 1515335,
+    "sha256": "038ac92154b41536c29ce2c9df7935e6724970920e4fe256501217700d53e252",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/82e96128-1242-4e57-8a3e-9ea222df022c_2985-80/frame_all_prev.jpg"
+  },
+  {
+    "item": "5ead8e7c-2600-44b1-afd6-b82cb5f7b9ce_567-35",
+    "status": 200,
+    "bytes": 1326438,
+    "sha256": "d372690a4c87a54f8cd591e9553b9fc2d3893f42f21d9d80167812ad25e8fccd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5ead8e7c-2600-44b1-afd6-b82cb5f7b9ce_567-35/frame_all_prev.jpg"
+  },
+  {
+    "item": "20525d50-586a-4792-bfdb-fd941ee64ea9_547-93",
+    "status": 200,
+    "bytes": 677999,
+    "sha256": "bcf9dbc05aaff7673dd38b4032ea314b4035466deb3786254a7b48d55d13486d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/20525d50-586a-4792-bfdb-fd941ee64ea9_547-93/frame_all_prev.jpg"
+  },
+  {
+    "item": "6fc30ceb-ace8-49f8-8244-71f14c6d773c_936-70",
+    "status": 200,
+    "bytes": 1919640,
+    "sha256": "3aabcc90a34471946f6e1cd07b5b5396b3cc3ba58c9bf93f593ec14b165d2536",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6fc30ceb-ace8-49f8-8244-71f14c6d773c_936-70/frame_all_prev.jpg"
+  },
+  {
+    "item": "d8936caf-0142-4ceb-bacc-70313a19f169_694-31",
+    "status": 200,
+    "bytes": 797986,
+    "sha256": "33cadc24615890b01a6e265b264968b43182192c4b73195aabb25d9747340cb8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d8936caf-0142-4ceb-bacc-70313a19f169_694-31/frame_all_prev.jpg"
+  },
+  {
+    "item": "2893d559-89cb-4125-a761-3ff8e68768a9_638-82",
+    "status": 200,
+    "bytes": 1892908,
+    "sha256": "f435923fcd3752eea5b2485fa2813375dfc1649cac82ad1e1f2d6b3ba152a0da",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2893d559-89cb-4125-a761-3ff8e68768a9_638-82/frame_all_prev.jpg"
+  },
+  {
+    "item": "261edec2-f089-4a74-b25f-ddf32c92f90c_801-93",
+    "status": 200,
+    "bytes": 1160718,
+    "sha256": "b4ae85b509589743d9dd06d702708bc9f341938797c425dacec90018db7790e0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/261edec2-f089-4a74-b25f-ddf32c92f90c_801-93/frame_all_prev.jpg"
+  },
+  {
+    "item": "570fc280-231c-4a3e-99c2-12eefed1c122_925-58",
+    "status": 200,
+    "bytes": 4454806,
+    "sha256": "f20f539fe29b302f102bcfaf8a05532b01e0ca177ff93445ee1e533cd218e7e1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/570fc280-231c-4a3e-99c2-12eefed1c122_925-58/frame_all_prev.jpg"
+  },
+  {
+    "item": "d3980f7e-2ef1-4b2b-b73a-2a7db7465660_452-63",
+    "status": 200,
+    "bytes": 812540,
+    "sha256": "e31dcb084ef8bac0e70f0a6026ecd5b200a3b5858c5f1d38ad4e17c516ef4751",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d3980f7e-2ef1-4b2b-b73a-2a7db7465660_452-63/frame_all_prev.jpg"
+  },
+  {
+    "item": "75ee5afa-d891-4653-ac4c-d81db1a90af7_32-52",
+    "status": 200,
+    "bytes": 2622040,
+    "sha256": "ac22a29f6995d7bb7bd1356d52dfaf4c1ac3c13b711e0835950e6458eca0e754",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/75ee5afa-d891-4653-ac4c-d81db1a90af7_32-52/frame_all_prev.jpg"
+  },
+  {
+    "item": "944aacb0-f596-460d-b5a6-9ae05df1d430_3528-77",
+    "status": 200,
+    "bytes": 2256005,
+    "sha256": "5b13e7ea34aa8540228f482cd43891996d52765626ca2305f74e2c30f4249215",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/944aacb0-f596-460d-b5a6-9ae05df1d430_3528-77/frame_all_prev.jpg"
+  },
+  {
+    "item": "63e9e643-25c5-435d-b6f0-0aab1af76e68_28-98",
+    "status": 200,
+    "bytes": 973474,
+    "sha256": "9cf8fc21d19c559d738d6907737b65b7c96a2e5909d608cc8e5daf21cfaa9ddb",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/63e9e643-25c5-435d-b6f0-0aab1af76e68_28-98/frame_all_prev.jpg"
+  },
+  {
+    "item": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+    "status": 200,
+    "bytes": 1102900,
+    "sha256": "6f9586694bbb20cfe96b96473cb767cd768a7e8d25112bac23dfc61507d49b04",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/03ca4970-374e-4901-9895-81f262c0da5c_817-27/frame_all_prev.jpg"
+  },
+  {
+    "item": "10a848ed-f258-4930-abdd-1fd60b788abc_75-21",
+    "status": 200,
+    "bytes": 2873896,
+    "sha256": "dddbef0f65113fd96453a0f37a2f4c9d8b6989a8678c37703f925f2b7a180fdd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/10a848ed-f258-4930-abdd-1fd60b788abc_75-21/frame_all_prev.jpg"
+  },
+  {
+    "item": "1a50cd38-dda2-41d0-8a6f-294f17373d97_2829-22",
+    "status": 200,
+    "bytes": 948892,
+    "sha256": "2bfa365e7e3093bca7d9431847be8ca446037a73a602d7a8abc645475cd1c83f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1a50cd38-dda2-41d0-8a6f-294f17373d97_2829-22/frame_all_prev.jpg"
+  },
+  {
+    "item": "170fb6c9-8550-4e82-bb9a-4ad574c0f0fa_7137-29",
+    "status": 200,
+    "bytes": 1708175,
+    "sha256": "52d3650be6b547356f46e394214a2b5b344718e7562045c72f87827c1d631ad3",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/170fb6c9-8550-4e82-bb9a-4ad574c0f0fa_7137-29/frame_all_prev.jpg"
+  },
+  {
+    "item": "262fd2ec-8eba-44d9-8082-4d0574f7a515_3000-11",
+    "status": 200,
+    "bytes": 1304579,
+    "sha256": "d37867eb8a167d023f6ac6cf9d5b47f5a0049b51f61c6e9c30f0dd6646f613ae",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/262fd2ec-8eba-44d9-8082-4d0574f7a515_3000-11/frame_all_prev.jpg"
+  },
+  {
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_163-46",
+    "status": 200,
+    "bytes": 1404048,
+    "sha256": "0c29e50ee6bc945ba027e5cd2376a102df68adeb4c392ad01682dd3152a7ccf1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2dbdd409-0be0-447c-8ae8-3f107fe9af80_163-46/frame_all_prev.jpg"
+  },
+  {
+    "item": "af400f98-3c57-46ad-acac-eaca6f940180_3131-59",
+    "status": 200,
+    "bytes": 651979,
+    "sha256": "b63a1870afd798de80e52ffa47be85d4e9bedb4989be0d9c8b74a09f4d30278d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/af400f98-3c57-46ad-acac-eaca6f940180_3131-59/frame_all_prev.jpg"
+  },
+  {
+    "item": "d64fb34a-08fd-416c-ac6f-86a0813869a8_275-80",
+    "status": 200,
+    "bytes": 997838,
+    "sha256": "43f48fb4e1f331ad997d50b7af072fd7a9c3bd0c87d6859b402e0e89251eff7d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d64fb34a-08fd-416c-ac6f-86a0813869a8_275-80/frame_all_prev.jpg"
+  },
+  {
+    "item": "caa17bb0-2b04-49b0-8ccc-38b2803a3b1f_26-31",
+    "status": 200,
+    "bytes": 2151608,
+    "sha256": "220aa48a4cf88fa457dba0b7239ba3adc2689426895d0e1722cf21bef9716fb1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/caa17bb0-2b04-49b0-8ccc-38b2803a3b1f_26-31/frame_all_prev.jpg"
+  },
+  {
+    "item": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2561-43",
+    "status": 200,
+    "bytes": 2767259,
+    "sha256": "f4c55e9603ea23df06bedac1bf888c4b3ead839b24ae0b2ed230677f7a4d02b5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2561-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "963c1ecc-d25e-4c0a-b447-9b26f3778efc_207-31",
+    "status": 200,
+    "bytes": 3512418,
+    "sha256": "4783f733bd7640243ab6250b69484956b818060eb883fa096c36736afa3e7b3f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/963c1ecc-d25e-4c0a-b447-9b26f3778efc_207-31/frame_all_prev.jpg"
+  },
+  {
+    "item": "9531cee8-0f60-4a68-8243-397ab7670a75_270-43",
+    "status": 200,
+    "bytes": 363655,
+    "sha256": "031ff4ee238e0a5a6db101a63d4872d03945649a9449daa8a2a8fd34d2701d3f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9531cee8-0f60-4a68-8243-397ab7670a75_270-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "3b021bad-6945-4be2-a7db-44af3db1eae8_2667-18",
+    "status": 200,
+    "bytes": 764908,
+    "sha256": "06a2438d3c7b3646e6f7e12fd16e3c406513e6891aeb9e927eb3105f9a863312",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3b021bad-6945-4be2-a7db-44af3db1eae8_2667-18/frame_all_prev.jpg"
+  },
+  {
+    "item": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+    "status": 200,
+    "bytes": 842742,
+    "sha256": "32de635a74c9614404ac31d3977d32936914ad72e66aaeda976615c363d4eafd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58/frame_all_prev.jpg"
+  },
+  {
+    "item": "a71f72c5-5225-4b12-aba3-01fa46f53427_914-96",
+    "status": 200,
+    "bytes": 1162963,
+    "sha256": "0de6765c048160713d078b73ee88b7d01fa651ce011d22f43b14bedfec228265",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a71f72c5-5225-4b12-aba3-01fa46f53427_914-96/frame_all_prev.jpg"
+  },
+  {
+    "item": "ed792c47-5cb3-427c-a0e9-5dac33456e6a_1026-89",
+    "status": 200,
+    "bytes": 3748019,
+    "sha256": "dd32613bb2876ee9dbc3a3a4c4c7a8f91b3485602994d687cb7add6c9932e567",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ed792c47-5cb3-427c-a0e9-5dac33456e6a_1026-89/frame_all_prev.jpg"
+  },
+  {
+    "item": "8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22",
+    "status": 200,
+    "bytes": 1189265,
+    "sha256": "8dac7480b1f1670ed3ac1d5d68e905fb6864b04272b43817c1f4954204d2affc",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8b89d35d-5e19-4240-b45e-7a692cf962e3_392-22/frame_all_prev.jpg"
+  },
+  {
+    "item": "baf15309-e865-4e9e-9efd-09097f1d5a43_412-45",
+    "status": 200,
+    "bytes": 809890,
+    "sha256": "60b2bb09e503d92a1c443ee46f9a0ac8a9bef43799e3a758a5695ba5a0bf462e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/baf15309-e865-4e9e-9efd-09097f1d5a43_412-45/frame_all_prev.jpg"
+  },
+  {
+    "item": "49b14463-2172-4b0e-ad13-fdf9383e9a77_284-00",
+    "status": 200,
+    "bytes": 899086,
+    "sha256": "e50d4e8d8ddbebf40bb6ae875b2b9d48818ecf5cc68fb7be2f64aae19b60ee60",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/49b14463-2172-4b0e-ad13-fdf9383e9a77_284-00/frame_all_prev.jpg"
+  },
+  {
+    "item": "04b2f7a8-1d95-43c2-8b3b-8053b22dda52_810-37",
+    "status": 200,
+    "bytes": 7577213,
+    "sha256": "fefa91edcdef4ff03d99ca7df8a647366c1673eb39893e3b51e41f44c96c6b86",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/04b2f7a8-1d95-43c2-8b3b-8053b22dda52_810-37/frame_all_prev.jpg"
+  },
+  {
+    "item": "fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_3041-68",
+    "status": 200,
+    "bytes": 1098001,
+    "sha256": "3d4d00cb70dcb9212a886df90648e5895e3c46442ae5b8b2e2bf3830524a723b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_3041-68/frame_all_prev.jpg"
+  },
+  {
+    "item": "92153977-6016-4863-be78-c4af25a56a0f_1117-24",
+    "status": 200,
+    "bytes": 1222963,
+    "sha256": "56337884b38b39337a34fd5555e05cc6748495ebf3201adf3777fbcf18f96de7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/92153977-6016-4863-be78-c4af25a56a0f_1117-24/frame_all_prev.jpg"
+  },
+  {
+    "item": "600e392c-4be6-4b8b-bef8-e789ce3d8915_3230-09",
+    "status": 200,
+    "bytes": 2959594,
+    "sha256": "d607b6ec1f84364d83235dd76d577f848e7eb04f7f247344786312af2c849c91",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/600e392c-4be6-4b8b-bef8-e789ce3d8915_3230-09/frame_all_prev.jpg"
+  },
+  {
+    "item": "ec02ed27-b697-44b0-ae18-a9275205bfee_9-72",
+    "status": 200,
+    "bytes": 1994434,
+    "sha256": "d197e09e8445259e65403991f613cf6f7097e68e23fef41013f7f342c9821f98",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ec02ed27-b697-44b0-ae18-a9275205bfee_9-72/frame_all_prev.jpg"
+  },
+  {
+    "item": "abca0171-5e73-426e-9ba1-49a6339b2ef5_1825-89",
+    "status": 200,
+    "bytes": 557539,
+    "sha256": "6e7fdac7d8efed6e2c118557f0b9ffc38c813b20f489a8c0693aa0d0ecc2c930",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/abca0171-5e73-426e-9ba1-49a6339b2ef5_1825-89/frame_all_prev.jpg"
+  },
+  {
+    "item": "470499d1-e015-4d45-a858-ca3e9566085e_961-34",
+    "status": 200,
+    "bytes": 1450262,
+    "sha256": "50c18180e86a19800061172c50a430617c3bdc9ff1718cafe5d7047d52933187",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/470499d1-e015-4d45-a858-ca3e9566085e_961-34/frame_all_prev.jpg"
+  },
+  {
+    "item": "8ed40810-09cf-4061-953c-9fff6e6d6aeb_122-51",
+    "status": 200,
+    "bytes": 480365,
+    "sha256": "29d99e373ca272aae70499a0143c0fd7469e998be0071ff51d37ceac78056700",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8ed40810-09cf-4061-953c-9fff6e6d6aeb_122-51/frame_all_prev.jpg"
+  },
+  {
+    "item": "1ea95f25-81f9-46b1-b7a1-c4ca58251c6f_1089-87",
+    "status": 200,
+    "bytes": 1863802,
+    "sha256": "d2278c3089e9715cea431df118c9bf5f707ffc781304b1bd02d673a23ee83db7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1ea95f25-81f9-46b1-b7a1-c4ca58251c6f_1089-87/frame_all_prev.jpg"
+  },
+  {
+    "item": "1eee4aaf-a21c-4ae5-82cd-96fdccae6742_761-92",
+    "status": 200,
+    "bytes": 1259161,
+    "sha256": "c53db9d60dc43cd336c51abec1fb36ad56ea5cf915702135f8dbd7462fea3f23",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1eee4aaf-a21c-4ae5-82cd-96fdccae6742_761-92/frame_all_prev.jpg"
+  },
+  {
+    "item": "44327c5e-9442-4334-b675-8019df3678af_2165-30",
+    "status": 200,
+    "bytes": 2167080,
+    "sha256": "5e1e4a2505c01ae11c0ee308694975365f1ee54bafb565f5c96d9bd3582b3b82",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/44327c5e-9442-4334-b675-8019df3678af_2165-30/frame_all_prev.jpg"
+  },
+  {
+    "item": "4de25e28-5a34-4fbe-bc83-200d513b4d9a_1123-59",
+    "status": 200,
+    "bytes": 1317348,
+    "sha256": "cb63bc26d3cb5a43378fc5cb5ab4843b9b39a6bcaa845761f6b70e747f3ebfad",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4de25e28-5a34-4fbe-bc83-200d513b4d9a_1123-59/frame_all_prev.jpg"
+  },
+  {
+    "item": "ad851441-1f15-467e-83d8-48c764e220a8_975-45",
+    "status": 200,
+    "bytes": 1009354,
+    "sha256": "ae8399cd0db6f79c08a8570a549687251c07243ac5e7f12bed000432dcf15781",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ad851441-1f15-467e-83d8-48c764e220a8_975-45/frame_all_prev.jpg"
+  },
+  {
+    "item": "4c64e0d9-72f4-427f-995d-112ef1a2b7a1_210-26",
+    "status": 200,
+    "bytes": 723396,
+    "sha256": "7f0d02341f8785645cc926b6fbd9882fe3c2cafcc87cda343b43dd0a2b92e0b0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4c64e0d9-72f4-427f-995d-112ef1a2b7a1_210-26/frame_all_prev.jpg"
+  },
+  {
+    "item": "10a848ed-f258-4930-abdd-1fd60b788abc_294-40",
+    "status": 200,
+    "bytes": 1880388,
+    "sha256": "be40202478a073964faf42ce55f54f20fae94cff61e9257803b576e3f8c673ac",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/10a848ed-f258-4930-abdd-1fd60b788abc_294-40/frame_all_prev.jpg"
+  },
+  {
+    "item": "99f41d39-cc65-4aad-b186-23b66e282f19_68-52",
+    "status": 200,
+    "bytes": 1975815,
+    "sha256": "edd52cfe717666cfee776bb73948322e5391a776c6ba68f834cabd96d29ee77f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/99f41d39-cc65-4aad-b186-23b66e282f19_68-52/frame_all_prev.jpg"
+  },
+  {
+    "item": "e6d852dd-2510-482f-ad25-3d731388ea44_141-52",
+    "status": 200,
+    "bytes": 1878995,
+    "sha256": "4b3a291c7c46202a1c51e05137e9cdaf743c5ae8e8b42c607bdc5632787b515a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e6d852dd-2510-482f-ad25-3d731388ea44_141-52/frame_all_prev.jpg"
+  },
+  {
+    "item": "261edec2-f089-4a74-b25f-ddf32c92f90c_1105-51",
+    "status": 200,
+    "bytes": 860221,
+    "sha256": "77d3e0a4b770a19ab5f73f3f0cd8498eb791632f96e145a06f85b1e45809a7d4",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/261edec2-f089-4a74-b25f-ddf32c92f90c_1105-51/frame_all_prev.jpg"
+  },
+  {
+    "item": "c34effc7-6198-4c85-80c7-c8be85b77dd3_5294-07",
+    "status": 200,
+    "bytes": 1223423,
+    "sha256": "c0d001603ed6ed155f06bbabf7d2f315dbc1d8337b596b8f2890266ce0091c6d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c34effc7-6198-4c85-80c7-c8be85b77dd3_5294-07/frame_all_prev.jpg"
+  },
+  {
+    "item": "e402df54-0a64-424e-a7e6-3e68b18a761c_242-70",
+    "status": 200,
+    "bytes": 808381,
+    "sha256": "5f05c6a650407e1f605c47118a9d42461301f64a30b0028994329fd133661d91",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e402df54-0a64-424e-a7e6-3e68b18a761c_242-70/frame_all_prev.jpg"
+  },
+  {
+    "item": "d1952343-6eaf-4317-ae19-6b48b292ad24_877-17",
+    "status": 200,
+    "bytes": 957771,
+    "sha256": "5f4be68ab14fd54114239b05551052e0b279df8325a535bd12b9260b65727263",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d1952343-6eaf-4317-ae19-6b48b292ad24_877-17/frame_all_prev.jpg"
+  },
+  {
+    "item": "a1b38e9d-7225-46ab-ab17-a61b261faa36_1920-36",
+    "status": 200,
+    "bytes": 5827970,
+    "sha256": "553714a1db95b83eb5881bc7c707fd03b520cd8c5e8757655d23e5808663d1e6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a1b38e9d-7225-46ab-ab17-a61b261faa36_1920-36/frame_all_prev.jpg"
+  },
+  {
+    "item": "19f2ea20-5041-4be2-bdc9-714473f16236_2706-11",
+    "status": 200,
+    "bytes": 2281066,
+    "sha256": "eeee2ce67d99674935b963c585b4a2ea966bb706118b3be0db45263ed8f669e8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/19f2ea20-5041-4be2-bdc9-714473f16236_2706-11/frame_all_prev.jpg"
+  },
+  {
+    "item": "5e193b30-3e79-4851-801b-dab99125cd44_2971-00",
+    "status": 200,
+    "bytes": 1122414,
+    "sha256": "6ef7921e629ae95249b2353f537df0c3c40bd9ed3ac3b7c92b355daf6803b1c2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5e193b30-3e79-4851-801b-dab99125cd44_2971-00/frame_all_prev.jpg"
+  },
+  {
+    "item": "6c0ca07f-6bb2-4db4-a0c3-5926726493fc_272-36",
+    "status": 200,
+    "bytes": 703735,
+    "sha256": "69366befb98c1b1274ade1588e939e24c72a3993fc98dc1f8cd816164a6c5727",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6c0ca07f-6bb2-4db4-a0c3-5926726493fc_272-36/frame_all_prev.jpg"
+  },
+  {
+    "item": "b79c342b-db1e-407e-958a-e1585c6c3ddd_3-67",
+    "status": 200,
+    "bytes": 1177694,
+    "sha256": "3a0a1015afe20ddb462c2efb688ba81c2cf02f23dcbdc3792b4c3b344475d2c7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b79c342b-db1e-407e-958a-e1585c6c3ddd_3-67/frame_all_prev.jpg"
+  },
+  {
+    "item": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+    "status": 200,
+    "bytes": 5597542,
+    "sha256": "4d0a9efab4586078ecfe88145f8eefbec8be7751194435d773ee6c9ffd5bb31f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/71504f29-61c1-49e5-8617-d0e71144c077_652-01/frame_all_prev.jpg"
+  },
+  {
+    "item": "ee3c00d5-9759-43b3-9116-3375227aadfd_15-30",
+    "status": 200,
+    "bytes": 1376171,
+    "sha256": "68f4696ea8ec70ea65d8a2ce73a31a50d85d96100cc160fd8f9ce8548c001eaa",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ee3c00d5-9759-43b3-9116-3375227aadfd_15-30/frame_all_prev.jpg"
+  },
+  {
+    "item": "f0041c6c-06b2-4c3b-b8e6-934305b4226e_6185-52",
+    "status": 200,
+    "bytes": 3534984,
+    "sha256": "7be9b8055a1644e77b8204adc5e99e64f59b709f5ff8ae0786200050993101ed",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f0041c6c-06b2-4c3b-b8e6-934305b4226e_6185-52/frame_all_prev.jpg"
+  },
+  {
+    "item": "a2c3a84e-ae75-4e72-8a52-64511ed67080_919-81",
+    "status": 200,
+    "bytes": 1200568,
+    "sha256": "69a3cd06674644f97282606747476b681745919c6430bc975914043bbb2081de",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a2c3a84e-ae75-4e72-8a52-64511ed67080_919-81/frame_all_prev.jpg"
+  },
+  {
+    "item": "ec85a806-d47f-4555-8c4c-20f59927e580_909-71",
+    "status": 200,
+    "bytes": 840480,
+    "sha256": "2b956ddf4d82a65d509a4329c03c6ec1014c2e7827c88dae2784804e133dba0a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ec85a806-d47f-4555-8c4c-20f59927e580_909-71/frame_all_prev.jpg"
+  },
+  {
+    "item": "9a33e9f1-a740-4810-a624-62b0c9935741_831-69",
+    "status": 200,
+    "bytes": 1450731,
+    "sha256": "4cab196f652e1382c2f1f228aae44e021bd3b6ef2d769a471fbc938ff8d70e9d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9a33e9f1-a740-4810-a624-62b0c9935741_831-69/frame_all_prev.jpg"
+  },
+  {
+    "item": "89d8c9c5-fa11-4674-b08f-007f81958555_1391-21",
+    "status": 200,
+    "bytes": 3889281,
+    "sha256": "24a70d2d9858affbb7673ddef8269700e9f709cce9f7ba4fa8c9f5efc1aeb42f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/89d8c9c5-fa11-4674-b08f-007f81958555_1391-21/frame_all_prev.jpg"
+  },
+  {
+    "item": "c7e8af35-608f-4d18-b752-2f3140f5fcc4_772-15",
+    "status": 200,
+    "bytes": 845496,
+    "sha256": "58786d6b48165a57020ccb7b16b9383fc6c679a6016ed909d7610c0567b5874b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c7e8af35-608f-4d18-b752-2f3140f5fcc4_772-15/frame_all_prev.jpg"
+  },
+  {
+    "item": "5cab806a-3794-4578-94f2-33c3093151d1_391-05",
+    "status": 200,
+    "bytes": 623331,
+    "sha256": "e27f85fbb878a92ce60bae1480b1d8f4055f9661c6bcbdf76339213381f8bd73",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5cab806a-3794-4578-94f2-33c3093151d1_391-05/frame_all_prev.jpg"
+  },
+  {
+    "item": "5605bd9a-d151-4d5b-b0f6-cfc28ae6937e_3534-55",
+    "status": 200,
+    "bytes": 3082157,
+    "sha256": "441393fe2087f7120d8a3565d2e48e3029dbbbb8a0980d3ac8c00f8b4c560196",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5605bd9a-d151-4d5b-b0f6-cfc28ae6937e_3534-55/frame_all_prev.jpg"
+  },
+  {
+    "item": "9d26362a-4411-4d8b-b114-03f4f89928d7_1156-78",
+    "status": 200,
+    "bytes": 1878933,
+    "sha256": "22dfc91003ef73c564ef283bae5ec601cdb3bc5756bb0eed120b90569d4f25e1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9d26362a-4411-4d8b-b114-03f4f89928d7_1156-78/frame_all_prev.jpg"
+  },
+  {
+    "item": "a3f1b2f3-0735-4c65-b66e-5c397f3126c7_276-64",
+    "status": 200,
+    "bytes": 953484,
+    "sha256": "2f71541e70ffd7ab8c2014290d70ca7978612e151a5d9e4f6a941ec1e88cd172",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a3f1b2f3-0735-4c65-b66e-5c397f3126c7_276-64/frame_all_prev.jpg"
+  },
+  {
+    "item": "c2071026-add0-4546-8374-b6d04ddd94b1_0-04",
+    "status": 200,
+    "bytes": 913651,
+    "sha256": "2a18a6d4ad186de641e6e17e25f516d1059077fd24118eebc5aa79b8d694a9f1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c2071026-add0-4546-8374-b6d04ddd94b1_0-04/frame_all_prev.jpg"
+  },
+  {
+    "item": "622ab8aa-21f8-4ad0-99c3-7f4876850df7_193-96",
+    "status": 200,
+    "bytes": 7329270,
+    "sha256": "39ec8e72754dec04f04de2f914a32a5fe21146550f5f14a53c431a92ca6f9b49",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/622ab8aa-21f8-4ad0-99c3-7f4876850df7_193-96/frame_all_prev.jpg"
+  },
+  {
+    "item": "5aa01f1b-351d-428b-a1be-1f2edaff6a0c_693-84",
+    "status": 200,
+    "bytes": 1272953,
+    "sha256": "110ef551f438fb031feb07fa432b3d31ccae58bd5a477e8807da911b9a58ac21",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5aa01f1b-351d-428b-a1be-1f2edaff6a0c_693-84/frame_all_prev.jpg"
+  },
+  {
+    "item": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+    "status": 200,
+    "bytes": 2303453,
+    "sha256": "7d68de3e481d3222d63f98ab2c0308ab8816201d44ae9cc73272e09766cf5d6b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64/frame_all_prev.jpg"
+  },
+  {
+    "item": "c34effc7-6198-4c85-80c7-c8be85b77dd3_5341-13",
+    "status": 200,
+    "bytes": 1121753,
+    "sha256": "d2b686d0a65fe4404f0458329387cb452dd971c68e15eb50a64f1585ddee80c5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c34effc7-6198-4c85-80c7-c8be85b77dd3_5341-13/frame_all_prev.jpg"
+  },
+  {
+    "item": "cc83fb01-1904-4917-8d11-2fe2c66a990c_5792-18",
+    "status": 200,
+    "bytes": 1212700,
+    "sha256": "579b6fe8f116e9a8400b580709b78f40d1186206f406226a37acfe85fd028c65",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/cc83fb01-1904-4917-8d11-2fe2c66a990c_5792-18/frame_all_prev.jpg"
+  },
+  {
+    "item": "99a89af1-a535-477c-88a8-c0830ba33486_1246-37",
+    "status": 200,
+    "bytes": 602108,
+    "sha256": "3e08824bbb512e8d387c277462267f073a9cf1863288f459d1e88fab92be06d7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/99a89af1-a535-477c-88a8-c0830ba33486_1246-37/frame_all_prev.jpg"
+  },
+  {
+    "item": "89d8c9c5-fa11-4674-b08f-007f81958555_1665-43",
+    "status": 200,
+    "bytes": 2088403,
+    "sha256": "73f11a8149c8cdd25b28047c48305114480be59c55b2340883a6bd9550a597c5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/89d8c9c5-fa11-4674-b08f-007f81958555_1665-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "ed31f134-b3f0-4f50-b8ae-d956b2f9ccfd_2025-02",
+    "status": 200,
+    "bytes": 876385,
+    "sha256": "7415d7c98b984b28f7e021466353ca79c2e983c2f44636c235bdb6eb7e4252d5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ed31f134-b3f0-4f50-b8ae-d956b2f9ccfd_2025-02/frame_all_prev.jpg"
+  },
+  {
+    "item": "70c8bd4f-bfe1-4fb5-82ad-7d763cc28935_756-65",
+    "status": 200,
+    "bytes": 1415814,
+    "sha256": "f0214656fb7cbbef26e1071601da1f5b318192f70199324642f9c1df6db9313d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/70c8bd4f-bfe1-4fb5-82ad-7d763cc28935_756-65/frame_all_prev.jpg"
+  },
+  {
+    "item": "f7d99eca-11d5-4d45-8d60-695c3cb2f07c_431-32",
+    "status": 200,
+    "bytes": 505511,
+    "sha256": "67ed533119241e645e0219271018906a1be3b66f19e046f0cc68ad288ffc02d5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f7d99eca-11d5-4d45-8d60-695c3cb2f07c_431-32/frame_all_prev.jpg"
+  },
+  {
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+    "status": 200,
+    "bytes": 1095703,
+    "sha256": "4c5bcb0b67c652abf520102711b491f2b2368231bcaf2ba5128caccd3e9bc0db",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "348180aa-c90b-463a-8b3f-0743469a8b59_7126-75",
+    "status": 200,
+    "bytes": 1098943,
+    "sha256": "c01bf615d5d46a38809879d1e7a05fd12ba6cbf79b3369529d3fb5263168bf46",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/348180aa-c90b-463a-8b3f-0743469a8b59_7126-75/frame_all_prev.jpg"
+  },
+  {
+    "item": "49b14463-2172-4b0e-ad13-fdf9383e9a77_426-72",
+    "status": 200,
+    "bytes": 1324338,
+    "sha256": "d8dc2b590c25a298b950b3f319031adfaa0a0479fbbad47dee19e7dfc015f060",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/49b14463-2172-4b0e-ad13-fdf9383e9a77_426-72/frame_all_prev.jpg"
+  },
+  {
+    "item": "e623faab-101a-41a6-83ac-8e22b4371aba_1053-43",
+    "status": 200,
+    "bytes": 644567,
+    "sha256": "8ea13f332556d4ab798047544b811d0c27770ed7fe6559210c1d2a6a21cfe3d6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e623faab-101a-41a6-83ac-8e22b4371aba_1053-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "90398a2b-de6b-4232-9bea-149c48cb1326_334-80",
+    "status": 200,
+    "bytes": 1773634,
+    "sha256": "c7b8f6fb95ac69711c39b0847b2b1b109e0f5cc851f43b06129d69d37bb37d06",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/90398a2b-de6b-4232-9bea-149c48cb1326_334-80/frame_all_prev.jpg"
+  },
+  {
+    "item": "4ff2e551-1ccb-44ce-8b68-09666397f681_554-17",
+    "status": 200,
+    "bytes": 1148192,
+    "sha256": "ad3785020701319876fa69f2777957469eb1fa0a7097a0da5b0efc73168d288c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4ff2e551-1ccb-44ce-8b68-09666397f681_554-17/frame_all_prev.jpg"
+  },
+  {
+    "item": "a5bd4711-275b-4bbf-96fe-37553e5d3e93_480-52",
+    "status": 200,
+    "bytes": 2483264,
+    "sha256": "31e1df72c12224611c766788b60b723762cfd48b363fd58b0666e1d828e5310b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a5bd4711-275b-4bbf-96fe-37553e5d3e93_480-52/frame_all_prev.jpg"
+  },
+  {
+    "item": "6e68d2f9-6d37-4317-a3eb-9541321d558e_977-72",
+    "status": 200,
+    "bytes": 1247759,
+    "sha256": "342a6873a78112b22b31f8a2a7a1e802ea64b4e49eca2bca8b1c8fbc74c6d8e0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6e68d2f9-6d37-4317-a3eb-9541321d558e_977-72/frame_all_prev.jpg"
+  },
+  {
+    "item": "17be1d0a-f213-4126-ab6e-08e5c8ee5b93_4479-70",
+    "status": 200,
+    "bytes": 1191979,
+    "sha256": "32906c0f369857c0321148dd94f143493d527d191856d9761a0a81d3dcdfd126",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/17be1d0a-f213-4126-ab6e-08e5c8ee5b93_4479-70/frame_all_prev.jpg"
+  },
+  {
+    "item": "92153977-6016-4863-be78-c4af25a56a0f_394-80",
+    "status": 200,
+    "bytes": 1313314,
+    "sha256": "dd218118ca8735adf71464285886fdc7e897c9703d87f08db93ba3a128fd59c1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/92153977-6016-4863-be78-c4af25a56a0f_394-80/frame_all_prev.jpg"
+  },
+  {
+    "item": "bdeb0df9-2983-41bb-ba27-c431d9ef3163_1772-82",
+    "status": 200,
+    "bytes": 792401,
+    "sha256": "4b88535425be48697ed690b9af5c4bdd471496ecd319dc76efa1aada8d427dd1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/bdeb0df9-2983-41bb-ba27-c431d9ef3163_1772-82/frame_all_prev.jpg"
+  },
+  {
+    "item": "15c5a595-c577-4b4b-b26a-639517f140c9_1-82",
+    "status": 200,
+    "bytes": 705821,
+    "sha256": "5e1df72d2a4933d4fdb797eb45f11a0e2674e51b5cfbe81063c65c4dc0e4c6b4",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/15c5a595-c577-4b4b-b26a-639517f140c9_1-82/frame_all_prev.jpg"
+  },
+  {
+    "item": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+    "status": 200,
+    "bytes": 1015743,
+    "sha256": "879eba2ef6f44a41b2d519d3c3092a5ad65998432efc0ebead79f4fd05c1c59b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/af43394e-d24c-40c2-b03a-f3cdff888370_762-90/frame_all_prev.jpg"
+  },
+  {
+    "item": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+    "status": 200,
+    "bytes": 2415751,
+    "sha256": "9701ebbc274da3486f74b9ec26ec7575066f56f2452a86633c2b3550db9b06e9",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04/frame_all_prev.jpg"
+  },
+  {
+    "item": "0d5f2917-e0bd-47cb-b887-1c14c69568f9_848-84",
+    "status": 200,
+    "bytes": 1867589,
+    "sha256": "e1547af2c8f0b75d222bc0b0b6de0505d7a3696bb4c7d107e422f99c76c1b327",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/0d5f2917-e0bd-47cb-b887-1c14c69568f9_848-84/frame_all_prev.jpg"
+  },
+  {
+    "item": "9d2ec4ad-945f-4614-b41f-24260de662f6_1664-30",
+    "status": 200,
+    "bytes": 1458339,
+    "sha256": "359f8b3542b5d732b0ab8fb9f0d6ac47cd75fdcbad143b6787fd7308bd71bffd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9d2ec4ad-945f-4614-b41f-24260de662f6_1664-30/frame_all_prev.jpg"
+  },
+  {
+    "item": "d752fc52-9592-4cb5-910b-d09bb39261fd_420-77",
+    "status": 200,
+    "bytes": 1928000,
+    "sha256": "82b252d29aaa57ca9bab195a78313aede0d91ff51eeabad70977c89dc8a14bd9",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d752fc52-9592-4cb5-910b-d09bb39261fd_420-77/frame_all_prev.jpg"
+  },
+  {
+    "item": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+    "status": 200,
+    "bytes": 3231718,
+    "sha256": "c80cc1b17576f7f6462703d4e49c0a5422864a90d6b8b4bfa730b294d22a14e0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77/frame_all_prev.jpg"
+  },
+  {
+    "item": "f5accd2a-0799-4345-9e0d-eb8d87a677a4_1449-87",
+    "status": 200,
+    "bytes": 7195349,
+    "sha256": "b31d7611d72496ec7febd38d4ad5a044ba8db7c0cc3d08cf35850d6524ccd3e8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f5accd2a-0799-4345-9e0d-eb8d87a677a4_1449-87/frame_all_prev.jpg"
+  },
+  {
+    "item": "05d5d7cf-9fb9-4390-bcd3-dd626b948771_1543-50",
+    "status": 200,
+    "bytes": 683233,
+    "sha256": "5b8801ce2101342be6f1e9f5858cd06cb16a34425f27123d6020176b19969eb1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/05d5d7cf-9fb9-4390-bcd3-dd626b948771_1543-50/frame_all_prev.jpg"
+  },
+  {
+    "item": "b6ae365a-dd70-42c4-90d6-e0351778d991_416-05",
+    "status": 200,
+    "bytes": 1633617,
+    "sha256": "0d05da288e77ee43f3650d61336efd506fdca7b82bbf36dc287e8b816b2258f8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b6ae365a-dd70-42c4-90d6-e0351778d991_416-05/frame_all_prev.jpg"
+  },
+  {
+    "item": "b9de7a2c-d02e-4d66-9556-381f0b7ca51a_3795-42",
+    "status": 200,
+    "bytes": 972574,
+    "sha256": "cdde677d0dcfc7292a3177faaff210adda62fbf817bf825204f908a47c0b36ce",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b9de7a2c-d02e-4d66-9556-381f0b7ca51a_3795-42/frame_all_prev.jpg"
+  },
+  {
+    "item": "214b62df-2fb1-4b0e-af9d-42b0dd37defb_138-53",
+    "status": 200,
+    "bytes": 1543085,
+    "sha256": "f5ac3d00ffefa98f12c2c970ab30ce77adc6b623beabe7d1fb5d87fdf474433d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/214b62df-2fb1-4b0e-af9d-42b0dd37defb_138-53/frame_all_prev.jpg"
+  },
+  {
+    "item": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+    "status": 200,
+    "bytes": 1424811,
+    "sha256": "046319b8cefd1457addf7a16e388c0b6416fd55d1165112a0d9dc9d5f4584ac8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44/frame_all_prev.jpg"
+  },
+  {
+    "item": "262fd2ec-8eba-44d9-8082-4d0574f7a515_1038-82",
+    "status": 200,
+    "bytes": 1082218,
+    "sha256": "c85f1cebf7cb890a2c2850e2f6f5df9d0cdde80b7ad9222ec696e27a20b0c170",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/262fd2ec-8eba-44d9-8082-4d0574f7a515_1038-82/frame_all_prev.jpg"
+  },
+  {
+    "item": "4209376c-04be-47f0-b905-835fedde4cd0_5602-77",
+    "status": 200,
+    "bytes": 1181780,
+    "sha256": "e6b22d0d33e0f5a5ad67356b258ac5694974b2a52b7290e345636d5e69737ee1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4209376c-04be-47f0-b905-835fedde4cd0_5602-77/frame_all_prev.jpg"
+  },
+  {
+    "item": "10a848ed-f258-4930-abdd-1fd60b788abc_489-09",
+    "status": 200,
+    "bytes": 2215384,
+    "sha256": "bcbace6f604d8e24eee153777f0ee32019bde97062b65f21e20cad808f4d811a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/10a848ed-f258-4930-abdd-1fd60b788abc_489-09/frame_all_prev.jpg"
+  },
+  {
+    "item": "f6da4761-4774-4e05-bb2a-beca6db68f51_4196-85",
+    "status": 200,
+    "bytes": 1673669,
+    "sha256": "b89fe9b28fb2d7cb950a27d90760030f45fb8692788b29c12a9406be0d241a25",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f6da4761-4774-4e05-bb2a-beca6db68f51_4196-85/frame_all_prev.jpg"
+  },
+  {
+    "item": "5ed59c41-af9e-4368-a0ce-30d536d34895_1575-15",
+    "status": 200,
+    "bytes": 1603244,
+    "sha256": "69929522b734edb38dd82e8d82a33a063526c05a92c14a5be2e99d6e9523e226",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5ed59c41-af9e-4368-a0ce-30d536d34895_1575-15/frame_all_prev.jpg"
+  },
+  {
+    "item": "c7da3efd-4a18-458e-90fd-f757ed966a63_380-64",
+    "status": 200,
+    "bytes": 803869,
+    "sha256": "fbdadf7a30e754b90d2743e294d0b3619b26951a8fdb4978f14c9dab81653476",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c7da3efd-4a18-458e-90fd-f757ed966a63_380-64/frame_all_prev.jpg"
+  },
+  {
+    "item": "e402df54-0a64-424e-a7e6-3e68b18a761c_62-43",
+    "status": 200,
+    "bytes": 1492009,
+    "sha256": "44d9342a617c1b84a1025bcbd8c0f9324f4979d8cdac22b6256dec3d6568a30e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e402df54-0a64-424e-a7e6-3e68b18a761c_62-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "3455a3f3-1657-46bb-ae42-52d16ec5ffaa_959-38",
+    "status": 200,
+    "bytes": 2191923,
+    "sha256": "c6e6ee9017fcdc5a070fc035d09d539b6342fea54647747b504d37fdb6e28785",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3455a3f3-1657-46bb-ae42-52d16ec5ffaa_959-38/frame_all_prev.jpg"
+  },
+  {
+    "item": "a12f0a2e-e066-4b65-8603-6754bb73e196_30-04",
+    "status": 200,
+    "bytes": 677220,
+    "sha256": "793225af05046deb04e639ff9281084dacbefbe162f9844b07d475ef46f888f6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a12f0a2e-e066-4b65-8603-6754bb73e196_30-04/frame_all_prev.jpg"
+  },
+  {
+    "item": "72c81e60-8604-4897-8cd5-71df5244acaa_1172-93",
+    "status": 200,
+    "bytes": 1400365,
+    "sha256": "846ebc1d4d3be66b4a13e2b8edbdef483895cafc30e6c33b445db5362495d6c6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/72c81e60-8604-4897-8cd5-71df5244acaa_1172-93/frame_all_prev.jpg"
+  },
+  {
+    "item": "324ec8a1-3bd1-46b6-9abb-a824e53c0879_1801-82",
+    "status": 200,
+    "bytes": 1249593,
+    "sha256": "d4ad4d868edc430c82dc4ad341269549732d5bb77ba2cfbe0167d0caf37f3a4e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/324ec8a1-3bd1-46b6-9abb-a824e53c0879_1801-82/frame_all_prev.jpg"
+  },
+  {
+    "item": "86fb4797-274f-4807-848a-8b1ddc5c29e8_808-67",
+    "status": 200,
+    "bytes": 2369043,
+    "sha256": "1b2142e8e2992d73e230901fa93418dcf32e395c00dd45c25017b0f80130abaa",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/86fb4797-274f-4807-848a-8b1ddc5c29e8_808-67/frame_all_prev.jpg"
+  },
+  {
+    "item": "8fafc02a-ef7a-46f4-ae97-b0c68c8bb207_16014-05",
+    "status": 200,
+    "bytes": 964866,
+    "sha256": "55844c9f59520f1daf62cafb6413627fb751b82198196a7b91717d98bf104e2a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8fafc02a-ef7a-46f4-ae97-b0c68c8bb207_16014-05/frame_all_prev.jpg"
+  },
+  {
+    "item": "f51552ce-3d91-448c-8770-9800a6b5aa50_1666-29",
+    "status": 200,
+    "bytes": 1010288,
+    "sha256": "30bb8ea64a35fab5bb8942e5f6e05a9ddf6f045e0dfaa370297817a2b8b2b96e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f51552ce-3d91-448c-8770-9800a6b5aa50_1666-29/frame_all_prev.jpg"
+  },
+  {
+    "item": "283a15b5-59ae-4f04-9738-bf49c97496a8_102-60",
+    "status": 200,
+    "bytes": 1155293,
+    "sha256": "37a8bd53997e5a377ab8b973a4022512c5e258ae66bc7bf3512f9ed1f89a9345",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/283a15b5-59ae-4f04-9738-bf49c97496a8_102-60/frame_all_prev.jpg"
+  },
+  {
+    "item": "0f574f9b-00bc-479d-894b-9e7c999fe13a_302-98",
+    "status": 200,
+    "bytes": 745199,
+    "sha256": "c47a35dfb9b66aac6d1821ca66d6bfb276a2e33a559ef35a60977338f4cd99c3",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/0f574f9b-00bc-479d-894b-9e7c999fe13a_302-98/frame_all_prev.jpg"
+  },
+  {
+    "item": "6243586b-a8df-4c37-95f8-da7f4f5d57d6_513-82",
+    "status": 200,
+    "bytes": 875402,
+    "sha256": "5630d56320cb0f2ec0e122863350ac1660e2c97cfa42c114e3facef00bcf90ba",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6243586b-a8df-4c37-95f8-da7f4f5d57d6_513-82/frame_all_prev.jpg"
+  },
+  {
+    "item": "c864505c-9d49-4da4-bf7e-254b4c348c03_191-07",
+    "status": 200,
+    "bytes": 1228064,
+    "sha256": "6cc088df26212908779fd16d9f31ee3ce839bf2b11433034d76a59e05d23261f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c864505c-9d49-4da4-bf7e-254b4c348c03_191-07/frame_all_prev.jpg"
+  },
+  {
+    "item": "18189ea3-00fd-428a-bbae-7549ddd9a97e_803-15",
+    "status": 200,
+    "bytes": 1712730,
+    "sha256": "5dad774a02d66df057b72184860aa12a20eacac9a73a0b2eb5f200a291a594fb",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/18189ea3-00fd-428a-bbae-7549ddd9a97e_803-15/frame_all_prev.jpg"
+  },
+  {
+    "item": "b3a0d595-d5b4-4e4b-9c52-337053871604_278-40",
+    "status": 200,
+    "bytes": 883990,
+    "sha256": "5d9871eae71968988ac97dd6fbf02a60721702443bf529888f93ec247d00ac74",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b3a0d595-d5b4-4e4b-9c52-337053871604_278-40/frame_all_prev.jpg"
+  },
+  {
+    "item": "3091004e-8606-417e-8bc2-7922f951845f_73-46",
+    "status": 200,
+    "bytes": 946418,
+    "sha256": "b033def8318b75e385899132f19003953e64450307efcc3d39fe0f11e92598ee",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3091004e-8606-417e-8bc2-7922f951845f_73-46/frame_all_prev.jpg"
+  },
+  {
+    "item": "d66f42bb-822b-444a-bce0-ddd15b29bd1b_7-30",
+    "status": 200,
+    "bytes": 1855024,
+    "sha256": "df54ea7ab1dd34706d82c5cd704394708ecc837003b664b746e84f2308f1e5e9",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d66f42bb-822b-444a-bce0-ddd15b29bd1b_7-30/frame_all_prev.jpg"
+  },
+  {
+    "item": "e3f37c38-bf24-481f-b1c6-8d472fab4290_1679-92",
+    "status": 200,
+    "bytes": 898842,
+    "sha256": "976c53941eac7c54c5a617a3bad3f525bc8df3f803762366da6b3110123a07ee",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e3f37c38-bf24-481f-b1c6-8d472fab4290_1679-92/frame_all_prev.jpg"
+  },
+  {
+    "item": "d6f9d174-2d42-49e7-83e4-daa9e8b0aa25_432-24",
+    "status": 200,
+    "bytes": 1376243,
+    "sha256": "c4a5889604d86c59501fbca48f6ec028ecd333363c30b6df08b26e728ab9c285",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d6f9d174-2d42-49e7-83e4-daa9e8b0aa25_432-24/frame_all_prev.jpg"
+  },
+  {
+    "item": "d40be91b-85bb-4c47-ac18-52c4d044e3fc_5905-56",
+    "status": 200,
+    "bytes": 1029226,
+    "sha256": "773a8af31c596d6c5d03dca7d7df327b8d52aa61d7f16fc565b4aedff60d22a9",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d40be91b-85bb-4c47-ac18-52c4d044e3fc_5905-56/frame_all_prev.jpg"
+  },
+  {
+    "item": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+    "status": 200,
+    "bytes": 871087,
+    "sha256": "544392750a01c94370076dbd1626cce5efb62c0db919951ca207f7780207c4e0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/38788778-0822-4c9c-b51e-5bce8a765a97_91-28/frame_all_prev.jpg"
+  },
+  {
+    "item": "b9b65293-fec8-494e-81e7-c4496aafba6f_1524-26",
+    "status": 200,
+    "bytes": 1520397,
+    "sha256": "7a814704d19970fefc58edc6f3c6b6a30b5ea8b0370067e07af9b7d8b221e24c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b9b65293-fec8-494e-81e7-c4496aafba6f_1524-26/frame_all_prev.jpg"
+  },
+  {
+    "item": "53e92e25-fe03-4311-9a17-c4f6a29ccad1_1365-15",
+    "status": 200,
+    "bytes": 657762,
+    "sha256": "14af43ca8569a61c57100477848a444970884752e40cc0a0e18a333ee5215e8f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/53e92e25-fe03-4311-9a17-c4f6a29ccad1_1365-15/frame_all_prev.jpg"
+  },
+  {
+    "item": "6b7fc6db-e979-43a0-b61f-7dced89d423d_347-96",
+    "status": 200,
+    "bytes": 998055,
+    "sha256": "a1bcfbdd9a1d685d88587288dc055796799bc57d5a97d5b233369693bbb6a83a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6b7fc6db-e979-43a0-b61f-7dced89d423d_347-96/frame_all_prev.jpg"
+  },
+  {
+    "item": "d1c7b7ec-506e-4c02-b008-8b5aaaf442d7_1891-93",
+    "status": 200,
+    "bytes": 714796,
+    "sha256": "887d26281e5b5c6fbac759f96b9a69f03ab3aad8aa080f6e1bacf28366bfceaf",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d1c7b7ec-506e-4c02-b008-8b5aaaf442d7_1891-93/frame_all_prev.jpg"
+  },
+  {
+    "item": "3588502f-e1c1-426c-81d6-6fac28e6c81a_531-41",
+    "status": 200,
+    "bytes": 1925905,
+    "sha256": "64cf87701ea315c33fd8844962aef0611be2654725c35226e3db340baef415f8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3588502f-e1c1-426c-81d6-6fac28e6c81a_531-41/frame_all_prev.jpg"
+  },
+  {
+    "item": "426eb9d9-d4cf-4acc-9efb-979f61a5be91_785-24",
+    "status": 200,
+    "bytes": 866878,
+    "sha256": "a04e3877afd9c6baa386b55e4544473681ee3f57d17972a1e2dc4e446a82939f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/426eb9d9-d4cf-4acc-9efb-979f61a5be91_785-24/frame_all_prev.jpg"
+  },
+  {
+    "item": "8b82316c-c293-49a7-b401-a3cc026ab1d0_3206-95",
+    "status": 200,
+    "bytes": 1504937,
+    "sha256": "53e0487377e0a22a9c8fa1b1a75fdc388a9f3de21ec68a19f28a941e4b7c81e1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8b82316c-c293-49a7-b401-a3cc026ab1d0_3206-95/frame_all_prev.jpg"
+  },
+  {
+    "item": "2859218c-84ee-4e85-833f-74255b355032_596-50",
+    "status": 200,
+    "bytes": 1401331,
+    "sha256": "8d19ca0e82fecc2cce5f3a5476220c82302d3bb23d130db2483db0487d7e03bd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2859218c-84ee-4e85-833f-74255b355032_596-50/frame_all_prev.jpg"
+  },
+  {
+    "item": "17be1d0a-f213-4126-ab6e-08e5c8ee5b93_1922-28",
+    "status": 200,
+    "bytes": 1186554,
+    "sha256": "ca2066459ae98b01e976f33ccf0cfb52ee41e7eb754dff786d1b7c915f54cec0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/17be1d0a-f213-4126-ab6e-08e5c8ee5b93_1922-28/frame_all_prev.jpg"
+  },
+  {
+    "item": "c34effc7-6198-4c85-80c7-c8be85b77dd3_5200-39",
+    "status": 200,
+    "bytes": 1189389,
+    "sha256": "2cdcc6ae0bab55de57ecae187778b6404ca029af76b0e5b772952fdb5d4d9c56",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c34effc7-6198-4c85-80c7-c8be85b77dd3_5200-39/frame_all_prev.jpg"
+  },
+  {
+    "item": "fb92d350-9bf9-4b16-8a1f-7858de276226_2190-65",
+    "status": 200,
+    "bytes": 1116679,
+    "sha256": "8fd10a39654010277c75564fafae6d8a51b958ab5062802dac0be9511b3e49d8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fb92d350-9bf9-4b16-8a1f-7858de276226_2190-65/frame_all_prev.jpg"
+  },
+  {
+    "item": "ef641454-94d5-4fe4-bf21-710144143967_723-67",
+    "status": 200,
+    "bytes": 1069577,
+    "sha256": "92e9a4997ad7768d2ca7291bc61fc0ea9ffb11df4ff57ebe0a72dd3cdf400e0b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ef641454-94d5-4fe4-bf21-710144143967_723-67/frame_all_prev.jpg"
+  },
+  {
+    "item": "d0a861f7-3e5c-4836-9b43-29a0b3288165_1279-67",
+    "status": 200,
+    "bytes": 1604004,
+    "sha256": "873055f08f8c0763c2e75984c67bc84f89624d518700d60cf559114e55662c35",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d0a861f7-3e5c-4836-9b43-29a0b3288165_1279-67/frame_all_prev.jpg"
+  },
+  {
+    "item": "0696265e-aba2-401b-9316-c380c30c901e_878-07",
+    "status": 200,
+    "bytes": 1022183,
+    "sha256": "111639bb5865dd7c24249ef94a86071be333a24c22b53a172631d2deeab7530c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/0696265e-aba2-401b-9316-c380c30c901e_878-07/frame_all_prev.jpg"
+  },
+  {
+    "item": "89d8c9c5-fa11-4674-b08f-007f81958555_227-24",
+    "status": 200,
+    "bytes": 1741293,
+    "sha256": "b9848c0f8e398676700616c1858127a9f252573e93ab60b2cb7f4e162fd64294",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/89d8c9c5-fa11-4674-b08f-007f81958555_227-24/frame_all_prev.jpg"
+  },
+  {
+    "item": "a5bd4711-275b-4bbf-96fe-37553e5d3e93_1659-18",
+    "status": 200,
+    "bytes": 2800371,
+    "sha256": "3434a26fc603bfcd19df2e341f2e8d2a18e9c04708472a1d3b862b4913f46705",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a5bd4711-275b-4bbf-96fe-37553e5d3e93_1659-18/frame_all_prev.jpg"
+  },
+  {
+    "item": "a3c41b4b-6dc7-4e69-b04b-ca30b4f1c185_1014-12",
+    "status": 200,
+    "bytes": 977447,
+    "sha256": "79793dbaf0fdf3b1e1f6394fcb907fdd183bef08e4f5365fa928480f1169bb1d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a3c41b4b-6dc7-4e69-b04b-ca30b4f1c185_1014-12/frame_all_prev.jpg"
+  },
+  {
+    "item": "fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_4100-48",
+    "status": 200,
+    "bytes": 1096555,
+    "sha256": "d35cadc3c773b4238ffaf0ad96d9fee3fe22ee0f9ff32c531baf43e0ae8e440c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_4100-48/frame_all_prev.jpg"
+  },
+  {
+    "item": "f0b8d19e-28c0-4d11-bb2d-5c6576eb7dcb_138-10",
+    "status": 200,
+    "bytes": 999118,
+    "sha256": "fb9877350f740e7912e7b9d41020848a1bf4f993115141f6dea3ba794a8c595e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f0b8d19e-28c0-4d11-bb2d-5c6576eb7dcb_138-10/frame_all_prev.jpg"
+  },
+  {
+    "item": "7b5fafdb-136a-4722-84a4-cffb213a224a_2353-21",
+    "status": 200,
+    "bytes": 2645616,
+    "sha256": "8e85f65c22b78305202d119ca08f7bba0f95708860dd07e8e93711dab3899017",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7b5fafdb-136a-4722-84a4-cffb213a224a_2353-21/frame_all_prev.jpg"
+  },
+  {
+    "item": "59764b58-1523-48b3-88d2-9fc07880e597_1504-77",
+    "status": 200,
+    "bytes": 801243,
+    "sha256": "23fd83e4743b0fee2a9ecc8e5f59b5bd367aaa2dd54ce6eee1f38ea5a8b4c7bb",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/59764b58-1523-48b3-88d2-9fc07880e597_1504-77/frame_all_prev.jpg"
+  },
+  {
+    "item": "39d1462e-506c-482b-9c9e-a94cffd71563_2316-87",
+    "status": 200,
+    "bytes": 1157127,
+    "sha256": "c16181caa136ca7587f4faa4ac85d05caa120886412d0e674e1c918dc45197c7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/39d1462e-506c-482b-9c9e-a94cffd71563_2316-87/frame_all_prev.jpg"
+  },
+  {
+    "item": "c7da3efd-4a18-458e-90fd-f757ed966a63_8-87",
+    "status": 200,
+    "bytes": 607153,
+    "sha256": "73513a20d48291149d232594936d81b3449e051c837fc3c401b526db7f68b08a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c7da3efd-4a18-458e-90fd-f757ed966a63_8-87/frame_all_prev.jpg"
+  },
+  {
+    "item": "695cefe9-04c0-42fb-80fc-d308b314b788_303-92",
+    "status": 200,
+    "bytes": 873872,
+    "sha256": "e9ba317db62313124ab5c9e212e4779d4a8cd07ac2eb33dfe6a88e47373cf302",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/695cefe9-04c0-42fb-80fc-d308b314b788_303-92/frame_all_prev.jpg"
+  },
+  {
+    "item": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+    "status": 200,
+    "bytes": 5787984,
+    "sha256": "7d10ed0dbdc6e5d7ed2144b661c9fd178f5cfa984a7fcea7becad440044bc2f2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/348f0f69-cd49-4c00-af91-f1765155e858_1127-21/frame_all_prev.jpg"
+  },
+  {
+    "item": "ce19b572-7341-426a-8c2f-fe067344c98d_1914-35",
+    "status": 200,
+    "bytes": 1813247,
+    "sha256": "05cad992a8e9732028f881ad686a5cb51ca02dd86433ba862446c13a6b9610c3",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ce19b572-7341-426a-8c2f-fe067344c98d_1914-35/frame_all_prev.jpg"
+  },
+  {
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1697-32",
+    "status": 200,
+    "bytes": 1150664,
+    "sha256": "ff3e91f27e656ba49127da59a018550fdb87be24bfe9ff5b028e63ae3ecd2d47",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2dbdd409-0be0-447c-8ae8-3f107fe9af80_1697-32/frame_all_prev.jpg"
+  },
+  {
+    "item": "eb5cb2b0-59e6-45da-af1b-ba86c7ab0b54_705-79",
+    "status": 200,
+    "bytes": 2889042,
+    "sha256": "c6edb9a8bb2972bc83d52b5e810b0de7e49e1788e524cb92b6f5fc9b88d6c0a2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/eb5cb2b0-59e6-45da-af1b-ba86c7ab0b54_705-79/frame_all_prev.jpg"
+  },
+  {
+    "item": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+    "status": 200,
+    "bytes": 1695489,
+    "sha256": "0a47782a9cda10f305217c59680fa663ab1edcf39619e1a61453570a9e92f4ec",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48/frame_all_prev.jpg"
+  },
+  {
+    "item": "cfa595aa-c467-48fe-a86b-2e9b1a63ccab_1218-24",
+    "status": 200,
+    "bytes": 885843,
+    "sha256": "8d7d0f0da67c075eb74ebb7e7201b57ee6f701475f4d183220c2613a693d7783",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/cfa595aa-c467-48fe-a86b-2e9b1a63ccab_1218-24/frame_all_prev.jpg"
+  },
+  {
+    "item": "1ce16a97-f614-4660-b21c-4205b33c8bab_1988-77",
+    "status": 200,
+    "bytes": 602561,
+    "sha256": "8b6cf49f79b603b53b444180732f0cd5dd5286f4e82bdded57e6d0960789aaf0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1ce16a97-f614-4660-b21c-4205b33c8bab_1988-77/frame_all_prev.jpg"
+  },
+  {
+    "item": "4c9777fc-1997-4dc8-a2d2-ea59c50b32f4_573-78",
+    "status": 200,
+    "bytes": 1372319,
+    "sha256": "0543b638d359223a9c15a5415793e14d3ee563b22fa88f5334f337e6364137b4",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4c9777fc-1997-4dc8-a2d2-ea59c50b32f4_573-78/frame_all_prev.jpg"
+  },
+  {
+    "item": "153cd84b-0345-4590-90f6-f66c294db429_799-88",
+    "status": 200,
+    "bytes": 766201,
+    "sha256": "0d32d70b7939af20d731504ae4d792234b541e3fe805fd951427e7ef67db5e79",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/153cd84b-0345-4590-90f6-f66c294db429_799-88/frame_all_prev.jpg"
+  },
+  {
+    "item": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+    "status": 200,
+    "bytes": 1556570,
+    "sha256": "30353f52301b87f3aab4c5d947435fb00082eeb75ad8857e36067c94f1162533",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48/frame_all_prev.jpg"
+  },
+  {
+    "item": "088add57-cf62-4ddd-9908-7eb738b0ec22_2767-48",
+    "status": 200,
+    "bytes": 508835,
+    "sha256": "a6c83feedac82ce65fac9e9d02316c75755d6ac7939ac9d34a8a29d059272792",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/088add57-cf62-4ddd-9908-7eb738b0ec22_2767-48/frame_all_prev.jpg"
+  },
+  {
+    "item": "68134357-62e5-4f0b-8300-2e661763aeb5_389-26",
+    "status": 200,
+    "bytes": 803391,
+    "sha256": "ec0632ab12f37325151a2d305bd8af071ddc83ed1fad508117f9e99c1680e670",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/68134357-62e5-4f0b-8300-2e661763aeb5_389-26/frame_all_prev.jpg"
+  },
+  {
+    "item": "fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_3860-90",
+    "status": 200,
+    "bytes": 1138672,
+    "sha256": "5a5fbc73d96d2656f4f5411033872db4481e44c6f3ede2a9656efca08a1cc3db",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_3860-90/frame_all_prev.jpg"
+  },
+  {
+    "item": "93a5f8cb-d7eb-4e5a-9913-77ef1487ce61_3858-22",
+    "status": 200,
+    "bytes": 815822,
+    "sha256": "378fbc0da1b8d60d793440c8f6a03de6459f2baabdf36308a0d51c99c365583d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/93a5f8cb-d7eb-4e5a-9913-77ef1487ce61_3858-22/frame_all_prev.jpg"
+  },
+  {
+    "item": "d013010f-fca0-4fc0-9545-500318a8e91f_511-08",
+    "status": 200,
+    "bytes": 2125232,
+    "sha256": "b64c3cf7a7f4188a0e6d5f595c37a4d08ecc5e739543cf9440ff68a61349b774",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d013010f-fca0-4fc0-9545-500318a8e91f_511-08/frame_all_prev.jpg"
+  },
+  {
+    "item": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+    "status": 200,
+    "bytes": 1601895,
+    "sha256": "f451bf571876900f8a70e6fbe47a0bc4903beaeeda4a4c8edfb64afa7240b3fa",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/069c1058-881d-49da-b45d-b9f7e08fe932_475-96/frame_all_prev.jpg"
+  },
+  {
+    "item": "8d4adc89-dcec-42ca-aebc-0d05cafa8f26_21-35",
+    "status": 200,
+    "bytes": 747203,
+    "sha256": "02e7390481436d011b87f572462fb84a24fd73cdcbf8fcf786cf6f0a981617c5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8d4adc89-dcec-42ca-aebc-0d05cafa8f26_21-35/frame_all_prev.jpg"
+  },
+  {
+    "item": "635cb327-1636-4fbc-a9ca-5a7adfc34b2e_0-40",
+    "status": 200,
+    "bytes": 1126953,
+    "sha256": "f7fd6bdb3fb93fb65943509f7461f26a418bfa59c4d6ef25c04e51bf10748688",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/635cb327-1636-4fbc-a9ca-5a7adfc34b2e_0-40/frame_all_prev.jpg"
+  },
+  {
+    "item": "134d9865-d9ee-47e5-a121-589a26c6b3ba_1586-50",
+    "status": 200,
+    "bytes": 1809933,
+    "sha256": "60cadeac70506b1d1ff011b79dd20755245a5b646fd8925f51d8621fe28f73ad",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/134d9865-d9ee-47e5-a121-589a26c6b3ba_1586-50/frame_all_prev.jpg"
+  },
+  {
+    "item": "39af7641-e376-4a99-977f-4d7f746e14ba_79-79",
+    "status": 200,
+    "bytes": 610132,
+    "sha256": "2b5e609b79e135d28761d404eee2701196ca36f2339d5420a4e0ebd7293a0c4e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/39af7641-e376-4a99-977f-4d7f746e14ba_79-79/frame_all_prev.jpg"
+  },
+  {
+    "item": "6639f53c-701d-4fe7-adcd-55d040ce8afe_0-03",
+    "status": 200,
+    "bytes": 1351758,
+    "sha256": "14ad6232d85a426a5737e30209baa2856981f554e03d503cc4b05919676e364b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6639f53c-701d-4fe7-adcd-55d040ce8afe_0-03/frame_all_prev.jpg"
+  },
+  {
+    "item": "df0b81a6-826c-4e9b-8921-392304716c0e_525-16",
+    "status": 200,
+    "bytes": 1883630,
+    "sha256": "fe8c50b8f94a87f48ea6503910aabb16d95625cddfd470d6a87f3cbb68215042",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/df0b81a6-826c-4e9b-8921-392304716c0e_525-16/frame_all_prev.jpg"
+  },
+  {
+    "item": "ecdc4071-1903-4024-a357-d0082720168e_454-42",
+    "status": 200,
+    "bytes": 916904,
+    "sha256": "af06cce2aea2e922ab82f1b3e53fb8d457424d273b831777450ddc35a6f328ed",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ecdc4071-1903-4024-a357-d0082720168e_454-42/frame_all_prev.jpg"
+  },
+  {
+    "item": "792d0000-7dcd-4e6c-a486-7befe397233d_917-53",
+    "status": 200,
+    "bytes": 2045572,
+    "sha256": "cbc7f8558ec07b175f108759c116052d7b61004ab00d15e15194e1ecd5e8b3cb",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/792d0000-7dcd-4e6c-a486-7befe397233d_917-53/frame_all_prev.jpg"
+  },
+  {
+    "item": "c23eaef5-7441-42b4-9456-9f5a4a1bd615_11-29",
+    "status": 200,
+    "bytes": 737020,
+    "sha256": "6e3c3e5b52248c5ceedb8a2993ac6300ccce7d37b14cb07bb4e218bb9a501bf8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c23eaef5-7441-42b4-9456-9f5a4a1bd615_11-29/frame_all_prev.jpg"
+  },
+  {
+    "item": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+    "status": 200,
+    "bytes": 1509971,
+    "sha256": "80cd389d16b00b6bd0ef27c7e2a1f6b07af397bea312cbcc9f558527948e8ffe",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19/frame_all_prev.jpg"
+  },
+  {
+    "item": "d2985e7b-6dc8-4c7e-9aef-40d633895aa0_1413-23",
+    "status": 200,
+    "bytes": 791782,
+    "sha256": "ba7c65a596417771c4ac6a206894c7237912184658183e9ae0738170a69365f9",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d2985e7b-6dc8-4c7e-9aef-40d633895aa0_1413-23/frame_all_prev.jpg"
+  },
+  {
+    "item": "f5778003-9aea-4ca0-9398-69299ba0331c_124-11",
+    "status": 200,
+    "bytes": 1497367,
+    "sha256": "14e18e2bb948b2141f776e64afdd06ec7263e67670787c54b1170f5f36a5aab8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f5778003-9aea-4ca0-9398-69299ba0331c_124-11/frame_all_prev.jpg"
+  },
+  {
+    "item": "6f7f3410-1e20-4eb2-b7b0-088c1500054b_299-75",
+    "status": 200,
+    "bytes": 2614423,
+    "sha256": "f58942148ab4df039f37111ac68c137df2c6769dc7bea184d7c1dc3a5b05e3c3",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6f7f3410-1e20-4eb2-b7b0-088c1500054b_299-75/frame_all_prev.jpg"
+  },
+  {
+    "item": "eabf19d3-4e52-4aee-8f14-5118626a078f_778-52",
+    "status": 200,
+    "bytes": 1160256,
+    "sha256": "d1c64d98dada3e2ca742b5a1e63e17f0dbfc68a8f86776cb6849f8c4cf8487dc",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/eabf19d3-4e52-4aee-8f14-5118626a078f_778-52/frame_all_prev.jpg"
+  },
+  {
+    "item": "9a33e9f1-a740-4810-a624-62b0c9935741_2416-26",
+    "status": 200,
+    "bytes": 1197827,
+    "sha256": "cf460c6351f31138ca4d2c4d65d32c13fd603a9471066bfb00862f79788344a1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9a33e9f1-a740-4810-a624-62b0c9935741_2416-26/frame_all_prev.jpg"
+  },
+  {
+    "item": "d3a0899e-2093-454c-9f65-30087883193a_399-22",
+    "status": 200,
+    "bytes": 4782397,
+    "sha256": "70f5fdb523635dcbaf8e930d58bd53e605c338e00ffc9b381270e8c273244bf8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d3a0899e-2093-454c-9f65-30087883193a_399-22/frame_all_prev.jpg"
+  },
+  {
+    "item": "3024e27a-237a-4b48-8ea9-b9b16181eaf1_49-89",
+    "status": 200,
+    "bytes": 523977,
+    "sha256": "02c7cbb9991168d6d7d54db53114f6a7047cde8afd34bfcc75d8e04d43ee8155",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3024e27a-237a-4b48-8ea9-b9b16181eaf1_49-89/frame_all_prev.jpg"
+  },
+  {
+    "item": "e6d852dd-2510-482f-ad25-3d731388ea44_105-51",
+    "status": 200,
+    "bytes": 1562629,
+    "sha256": "10498189247568ad6f3a8c1231bfd259188963552cb4950f7ac496883f276dd5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e6d852dd-2510-482f-ad25-3d731388ea44_105-51/frame_all_prev.jpg"
+  },
+  {
+    "item": "95f2caf6-c6f5-4471-9763-2957e248eb58_588-89",
+    "status": 200,
+    "bytes": 1291139,
+    "sha256": "9c5a6a4665da45451366eefc09c9b2d9a6f1a086a3cc9554c176549a7bffbab6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/95f2caf6-c6f5-4471-9763-2957e248eb58_588-89/frame_all_prev.jpg"
+  },
+  {
+    "item": "e70f4b34-432f-47dc-834f-5bc6bd67dc62_78-75",
+    "status": 200,
+    "bytes": 1412851,
+    "sha256": "4a24e19d2158602eb498fdbfe2070b120bd1f871810d5ecd0e979cd46ab1de51",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e70f4b34-432f-47dc-834f-5bc6bd67dc62_78-75/frame_all_prev.jpg"
+  },
+  {
+    "item": "3f7f5927-02e7-42ea-a31a-edea41bc17f9_565-60",
+    "status": 200,
+    "bytes": 1720298,
+    "sha256": "d453f2060196a328a11a2f3cbec43896a55819594ad144442f5abadeae7ee966",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3f7f5927-02e7-42ea-a31a-edea41bc17f9_565-60/frame_all_prev.jpg"
+  },
+  {
+    "item": "214b62df-2fb1-4b0e-af9d-42b0dd37defb_1307-44",
+    "status": 200,
+    "bytes": 1499097,
+    "sha256": "13c3f93cf674ca3ac910afa4f55c2050c225e837720f0f627c7ae7bc8a43ac96",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/214b62df-2fb1-4b0e-af9d-42b0dd37defb_1307-44/frame_all_prev.jpg"
+  },
+  {
+    "item": "11f247e0-179a-4b9d-8244-16fb918010a1_1002-90",
+    "status": 200,
+    "bytes": 476250,
+    "sha256": "9cfd16cd7ab7939683ca86b18f5377ebe32bed6e73b264a0898e070e6784a2a3",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/11f247e0-179a-4b9d-8244-16fb918010a1_1002-90/frame_all_prev.jpg"
+  },
+  {
+    "item": "2a97736a-4fff-4753-84de-e6586a5603cc_2712-24",
+    "status": 200,
+    "bytes": 493801,
+    "sha256": "cf004e30cbf70a58cc2210fc3afd542a140091088d2d92121a35ff3fa059ca77",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2a97736a-4fff-4753-84de-e6586a5603cc_2712-24/frame_all_prev.jpg"
+  },
+  {
+    "item": "93f78437-229d-4824-a8c1-68d9b17e754d_1063-21",
+    "status": 200,
+    "bytes": 1416446,
+    "sha256": "8d4b8fce919ad48eb294eb564fc1d4b5b9a233cdbe866039b9bafa29f79eb219",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/93f78437-229d-4824-a8c1-68d9b17e754d_1063-21/frame_all_prev.jpg"
+  },
+  {
+    "item": "85b87948-4578-4912-95cb-addd19cfd31a_1580-85",
+    "status": 200,
+    "bytes": 2677457,
+    "sha256": "502de4b47a996c0b64ec0842aaaf0259df02f0ca68f2418ecea0ad55a60b5cf6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/85b87948-4578-4912-95cb-addd19cfd31a_1580-85/frame_all_prev.jpg"
+  },
+  {
+    "item": "e00d8164-9996-48ed-8645-bb88ab30cc09_113-51",
+    "status": 200,
+    "bytes": 1800143,
+    "sha256": "7e507ca80a5c265d135ac6dab76a553418b6bee45c659ce4aa24413bdffb076e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e00d8164-9996-48ed-8645-bb88ab30cc09_113-51/frame_all_prev.jpg"
+  },
+  {
+    "item": "4651e5c2-4371-4af2-8f05-cb8b0b1ec7fd_233-33",
+    "status": 200,
+    "bytes": 2368126,
+    "sha256": "b2bf60f73ec5a6aaa47b54364cd75ab4452cb11648826790a63c608a86880644",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4651e5c2-4371-4af2-8f05-cb8b0b1ec7fd_233-33/frame_all_prev.jpg"
+  },
+  {
+    "item": "dc4d0940-b35c-4700-af77-5f13bb530ad8_1063-54",
+    "status": 200,
+    "bytes": 1313408,
+    "sha256": "006878dacaa6794d52c2852ab215dac5b2df2906b1940bd7ea02aea9b51ca3d8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/dc4d0940-b35c-4700-af77-5f13bb530ad8_1063-54/frame_all_prev.jpg"
+  },
+  {
+    "item": "f77f437c-4e60-43ef-a5e1-ce3881409455_1543-97",
+    "status": 200,
+    "bytes": 1216109,
+    "sha256": "8c6ac83273a7cb55e4f8016b2717b58dccc822a93dfceae5b84e9146b15a2e37",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f77f437c-4e60-43ef-a5e1-ce3881409455_1543-97/frame_all_prev.jpg"
+  },
+  {
+    "item": "42d72164-8f4a-49e4-8b95-b3ad423ba65b_81-84",
+    "status": 200,
+    "bytes": 1231777,
+    "sha256": "59137e3f0188493fbe8a2a1fecb361122d461ccf5529b169dc830838362a378b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/42d72164-8f4a-49e4-8b95-b3ad423ba65b_81-84/frame_all_prev.jpg"
+  },
+  {
+    "item": "56da7a14-f3fe-4dd9-9acb-92917603f42c_469-73",
+    "status": 200,
+    "bytes": 979224,
+    "sha256": "0e8ec7380b2cabf8c35f995f9a8fcffeaa033330b1233f05e35b7c570bd6e747",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/56da7a14-f3fe-4dd9-9acb-92917603f42c_469-73/frame_all_prev.jpg"
+  },
+  {
+    "item": "1106ee5c-8829-460f-8454-c4a8348f5400_10077-91",
+    "status": 200,
+    "bytes": 1514378,
+    "sha256": "a1ba260b3f34c99c2d30663ecd7fc14d95fdc39d293760893995b0d71232844b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1106ee5c-8829-460f-8454-c4a8348f5400_10077-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "af72c57c-b242-48b2-8d00-aea29f4e37ac_1063-17",
+    "status": 200,
+    "bytes": 1512801,
+    "sha256": "32b5178343fd2fe09092ca8b5fd4ab4766d81ba55017b0d6ca468d86fc68b0e4",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/af72c57c-b242-48b2-8d00-aea29f4e37ac_1063-17/frame_all_prev.jpg"
+  },
+  {
+    "item": "8e605fdf-a4f1-4393-975a-f332ab6b5f79_167-81",
+    "status": 200,
+    "bytes": 1894709,
+    "sha256": "402d1d8ef7536d30c6580c6c1a59765dac1e99c88e57fc03a51063c93da2bcf7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8e605fdf-a4f1-4393-975a-f332ab6b5f79_167-81/frame_all_prev.jpg"
+  },
+  {
+    "item": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91",
+    "status": 200,
+    "bytes": 770871,
+    "sha256": "f430387bd4ca193164f8d4dc60bf1b60dafc9fd74226378bfdbab2138201bfb2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "4f80ac6f-b78f-441b-b80d-fa8dd10756c4_471-91",
+    "status": 200,
+    "bytes": 1186912,
+    "sha256": "edbb7df31705f0f0f0024f97741b5e6a7717393355c69be58ee7266777fa8f78",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4f80ac6f-b78f-441b-b80d-fa8dd10756c4_471-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "e5d2cc2c-0a36-4bad-bf50-bc9347e99eca_1120-59",
+    "status": 200,
+    "bytes": 1124200,
+    "sha256": "969d6bde1c5567d24e3123ff8a30235e4993246c78595b8dbc3d2bb7ce2da399",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e5d2cc2c-0a36-4bad-bf50-bc9347e99eca_1120-59/frame_all_prev.jpg"
+  },
+  {
+    "item": "706de1df-babc-4e54-a310-1d9070140197_195-59",
+    "status": 200,
+    "bytes": 1079089,
+    "sha256": "7f5b0c2b45fd5e2454270399e8e592f1ed22272ddce5a13a759b90d0f76a81fd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/706de1df-babc-4e54-a310-1d9070140197_195-59/frame_all_prev.jpg"
+  },
+  {
+    "item": "d64fb34a-08fd-416c-ac6f-86a0813869a8_437-60",
+    "status": 200,
+    "bytes": 989729,
+    "sha256": "471911f436b983f1e5bdc1999594ac62b0bf042c50ce2c8876328b901de097d2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d64fb34a-08fd-416c-ac6f-86a0813869a8_437-60/frame_all_prev.jpg"
+  },
+  {
+    "item": "c25111f0-0c78-4bf8-a16d-57a6c25c2169_3852-71",
+    "status": 200,
+    "bytes": 1952130,
+    "sha256": "c7bbaeb583a6276504aa70ca0f4497d4a524d14309d121c137ef81c2f19f3bd7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c25111f0-0c78-4bf8-a16d-57a6c25c2169_3852-71/frame_all_prev.jpg"
+  },
+  {
+    "item": "f1b5ae1e-742c-4802-9e61-ff8aae83e12e_459-05",
+    "status": 200,
+    "bytes": 651234,
+    "sha256": "662986e3286472cde18173db295ddbe773e26dd8403c58ba4bafdcf30704a217",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f1b5ae1e-742c-4802-9e61-ff8aae83e12e_459-05/frame_all_prev.jpg"
+  },
+  {
+    "item": "828ef13f-f52a-4a16-b206-4ec7e471f025_274-71",
+    "status": 200,
+    "bytes": 1763908,
+    "sha256": "d0821691efa0d888cd3f11aa9effe7dd11a88ac5108aab9ae25415e193f1df8c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/828ef13f-f52a-4a16-b206-4ec7e471f025_274-71/frame_all_prev.jpg"
+  },
+  {
+    "item": "40f3258a-f7d8-4b05-8b6a-bd9f8d5b85fb_792-58",
+    "status": 200,
+    "bytes": 1125335,
+    "sha256": "d354504ca2e1334899fc73942745a0159e739f4d0681d4a70e22bac3d1e3a5c5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/40f3258a-f7d8-4b05-8b6a-bd9f8d5b85fb_792-58/frame_all_prev.jpg"
+  },
+  {
+    "item": "e9e0f26d-3005-436a-a70f-7d99977808c8_1554-09",
+    "status": 200,
+    "bytes": 2249846,
+    "sha256": "064c919b0250bb098bf0c0e390371995f014043d12862ca8190ef88c605ba995",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e9e0f26d-3005-436a-a70f-7d99977808c8_1554-09/frame_all_prev.jpg"
+  },
+  {
+    "item": "ed027cb2-5b92-4de2-ab58-69d42325ef15_266-43",
+    "status": 200,
+    "bytes": 547552,
+    "sha256": "bf55933c6900fd0a96665946801bcbd2b130007bf8f6f6afecd54c35e426413b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ed027cb2-5b92-4de2-ab58-69d42325ef15_266-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "bdd32b96-5baf-4d67-9975-34cdce64b0cc_240-16",
+    "status": 200,
+    "bytes": 1806124,
+    "sha256": "3bb54d486d054d84bf4b430abf9ecbc77afb73ef7b51eaa4297fa636237988bf",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/bdd32b96-5baf-4d67-9975-34cdce64b0cc_240-16/frame_all_prev.jpg"
+  },
+  {
+    "item": "a13a145f-920a-44ec-8aef-b489c097f4a7_171-91",
+    "status": 200,
+    "bytes": 974912,
+    "sha256": "07350de639ea76f043df02ba69d43886eaa64ec2f4974653515c1c1683f20c8e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a13a145f-920a-44ec-8aef-b489c097f4a7_171-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "0b38da1c-2b62-4c05-a68e-e8f2aafa47a8_1227-10",
+    "status": 200,
+    "bytes": 1782851,
+    "sha256": "f27e416d7ff9d60c2520caea48ff31de79392e6bf0973ad9ee79281391d6fda5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/0b38da1c-2b62-4c05-a68e-e8f2aafa47a8_1227-10/frame_all_prev.jpg"
+  },
+  {
+    "item": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+    "status": 200,
+    "bytes": 1651753,
+    "sha256": "d18c8477d6b60b30984a59765cac7be0282d6ffe859ae7d1fd7087e586ccc1a2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77/frame_all_prev.jpg"
+  },
+  {
+    "item": "434a5651-9901-4b32-b782-d9a2bb52e805_711-02",
+    "status": 200,
+    "bytes": 1438230,
+    "sha256": "322ac0d5110a6638cec6c8ddd444a2513cd0bc76c2b8664670a8b55caf35b161",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/434a5651-9901-4b32-b782-d9a2bb52e805_711-02/frame_all_prev.jpg"
+  },
+  {
+    "item": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+    "status": 200,
+    "bytes": 946000,
+    "sha256": "acb8e80732d0e57ce9bd1c1d0a89917d8609e434e008ef164b12b53a3e1a7484",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45/frame_all_prev.jpg"
+  },
+  {
+    "item": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+    "status": 200,
+    "bytes": 2728179,
+    "sha256": "5d5c09db4572f53678aae4f101624567348c4a886ab530bc62bd7c6aa7f60b07",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13/frame_all_prev.jpg"
+  },
+  {
+    "item": "dd82f801-fc96-4ced-b066-ad559da3faab_836-46",
+    "status": 200,
+    "bytes": 2545317,
+    "sha256": "3dfa30972db5224d90982f34fa180abac1c286c9b10ec2203ac0a4bb55f2dbdd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/dd82f801-fc96-4ced-b066-ad559da3faab_836-46/frame_all_prev.jpg"
+  },
+  {
+    "item": "3efc152d-ea0e-4372-b552-7d5e1cf07259_6416-63",
+    "status": 200,
+    "bytes": 1095743,
+    "sha256": "365c7b1649db80ff736892da507aa16f441ac91a6916a18b206784a1a570327e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3efc152d-ea0e-4372-b552-7d5e1cf07259_6416-63/frame_all_prev.jpg"
+  },
+  {
+    "item": "ecdc4071-1903-4024-a357-d0082720168e_44-12",
+    "status": 200,
+    "bytes": 2017742,
+    "sha256": "09bde06a2474df8b3efa1ee36e9484f5466864b736df36097bf226ea3d7c5a0c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ecdc4071-1903-4024-a357-d0082720168e_44-12/frame_all_prev.jpg"
+  },
+  {
+    "item": "b9b65293-fec8-494e-81e7-c4496aafba6f_2296-78",
+    "status": 200,
+    "bytes": 1741513,
+    "sha256": "fac132bfa21f72ba9ba3fea3726d874b46ecc1ef8886f8253f98321776684f72",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b9b65293-fec8-494e-81e7-c4496aafba6f_2296-78/frame_all_prev.jpg"
+  },
+  {
+    "item": "520374ca-09f9-4716-8176-dd289ea7baa9_659-75",
+    "status": 200,
+    "bytes": 2130818,
+    "sha256": "e30eefd062add7b904fa5f2c9942a974e0ec32e807a160959492925684b05d98",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/520374ca-09f9-4716-8176-dd289ea7baa9_659-75/frame_all_prev.jpg"
+  },
+  {
+    "item": "dd82f801-fc96-4ced-b066-ad559da3faab_1788-27",
+    "status": 200,
+    "bytes": 2826291,
+    "sha256": "89c5c1ce7de5f297a1ca6e495c7a74952893a0280cab3da6870fb9d85e5caae4",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/dd82f801-fc96-4ced-b066-ad559da3faab_1788-27/frame_all_prev.jpg"
+  },
+  {
+    "item": "9632b0a9-cf21-4773-b95b-83aae9a23d0a_630-61",
+    "status": 200,
+    "bytes": 986103,
+    "sha256": "8825792b9093ccd3b394bd1d86cb38c1b7a66601cc867f68bbd1dc4371042d31",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9632b0a9-cf21-4773-b95b-83aae9a23d0a_630-61/frame_all_prev.jpg"
+  },
+  {
+    "item": "e1b0b312-ce2d-41a0-be5a-70c807fcc5ef_2287-10",
+    "status": 200,
+    "bytes": 2211857,
+    "sha256": "7d06061502dee2b023c2e52c1a248d7a82a8561c56b427e173f2e639f05b92d0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e1b0b312-ce2d-41a0-be5a-70c807fcc5ef_2287-10/frame_all_prev.jpg"
+  },
+  {
+    "item": "1acd2d5c-b0d4-4ec5-a54c-6a9c84cb11f6_773-39",
+    "status": 200,
+    "bytes": 959228,
+    "sha256": "be45ad573755d11ab3370930a2a2b71fe36ac617333a16085fbb803cd12b3426",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1acd2d5c-b0d4-4ec5-a54c-6a9c84cb11f6_773-39/frame_all_prev.jpg"
+  },
+  {
+    "item": "54a421d2-763e-4751-a6b4-54e3d6c46cc1_1361-15",
+    "status": 200,
+    "bytes": 656792,
+    "sha256": "5b13f5627835ec6f3a675d6cd12ce46aaf970d67e4a01c97a0b9e2e40eee3415",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/54a421d2-763e-4751-a6b4-54e3d6c46cc1_1361-15/frame_all_prev.jpg"
+  },
+  {
+    "item": "7c1c5dca-5856-4997-8cda-9fa3bca10a3b_1973-06",
+    "status": 200,
+    "bytes": 1180139,
+    "sha256": "3d47e590375b9fa586926376c2fe23e4f5a64ae92b5f93dd6480642300b1045c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7c1c5dca-5856-4997-8cda-9fa3bca10a3b_1973-06/frame_all_prev.jpg"
+  },
+  {
+    "item": "8c075dc9-9c6a-43cf-8c6e-fb1af3624cf0_842-26",
+    "status": 200,
+    "bytes": 829522,
+    "sha256": "6df057c5c98f830a3028b28626419697943a4ed5a875ba45c6e77cf7ed5f086f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8c075dc9-9c6a-43cf-8c6e-fb1af3624cf0_842-26/frame_all_prev.jpg"
+  },
+  {
+    "item": "e579ef82-c68f-44dc-8b0f-7fe62e20974c_2509-16",
+    "status": 200,
+    "bytes": 1667741,
+    "sha256": "eef8da82a0456e2cf1ee37246a221879981bcf39b8e989317d26fa1bf1d91b86",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e579ef82-c68f-44dc-8b0f-7fe62e20974c_2509-16/frame_all_prev.jpg"
+  },
+  {
+    "item": "34590a11-c136-4423-bdc4-c6a45221e546_565-25",
+    "status": 200,
+    "bytes": 1586353,
+    "sha256": "9cdc3fa311e83629ab0bbd7651c86e59c4459854ccbabbb76186010dbc04c362",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/34590a11-c136-4423-bdc4-c6a45221e546_565-25/frame_all_prev.jpg"
+  },
+  {
+    "item": "af400f98-3c57-46ad-acac-eaca6f940180_508-42",
+    "status": 200,
+    "bytes": 304927,
+    "sha256": "98f1a4a5afcca60f814d1c9e2d223ad53a8a5cd3d337997f14d277aa6ba0221c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/af400f98-3c57-46ad-acac-eaca6f940180_508-42/frame_all_prev.jpg"
+  },
+  {
+    "item": "14a3d52a-e66c-4a4c-8f71-d86f7199993c_10-64",
+    "status": 200,
+    "bytes": 1667640,
+    "sha256": "1c778069ba8eb8143b6fdc736d1f6b364b571cee73d9bfc0bbed62092e6a9b02",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/14a3d52a-e66c-4a4c-8f71-d86f7199993c_10-64/frame_all_prev.jpg"
+  },
+  {
+    "item": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+    "status": 200,
+    "bytes": 2188795,
+    "sha256": "afab2a25d9e12125992fe3799b70bf6f60472b8dbc166a4f2687a19f635852f1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69/frame_all_prev.jpg"
+  },
+  {
+    "item": "39208fca-0c54-48e9-b4f3-b4803bb67661_3315-32",
+    "status": 200,
+    "bytes": 1357264,
+    "sha256": "800313404357eb562833e7222eae61f9aef3f0e6f26f038e70140d008b173456",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/39208fca-0c54-48e9-b4f3-b4803bb67661_3315-32/frame_all_prev.jpg"
+  },
+  {
+    "item": "90398a2b-de6b-4232-9bea-149c48cb1326_984-97",
+    "status": 200,
+    "bytes": 1385120,
+    "sha256": "4e51293631dd2daf432147ca139f828157f6b98569797a31502a212f022b7840",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/90398a2b-de6b-4232-9bea-149c48cb1326_984-97/frame_all_prev.jpg"
+  },
+  {
+    "item": "10a848ed-f258-4930-abdd-1fd60b788abc_345-05",
+    "status": 200,
+    "bytes": 2175326,
+    "sha256": "fa845099767b1e7ce36c5611c39a27cd100c95ed972f165d1e536020f74d6032",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/10a848ed-f258-4930-abdd-1fd60b788abc_345-05/frame_all_prev.jpg"
+  },
+  {
+    "item": "4bf46557-3c5a-4a89-840d-158403590c9f_3687-37",
+    "status": 200,
+    "bytes": 1211452,
+    "sha256": "ca8d4bdcaa554f196e7734ae2692db0aab094e322ac748a31ae672176e4a43be",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4bf46557-3c5a-4a89-840d-158403590c9f_3687-37/frame_all_prev.jpg"
+  },
+  {
+    "item": "38788778-0822-4c9c-b51e-5bce8a765a97_83-68",
+    "status": 200,
+    "bytes": 583534,
+    "sha256": "5d47c84d533d8aa49870cac68d2452dd5e5e635a88ca07f5a267470d0214ac6d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/38788778-0822-4c9c-b51e-5bce8a765a97_83-68/frame_all_prev.jpg"
+  },
+  {
+    "item": "7a680a9a-dd7b-467a-a724-a597f1be9f06_2545-71",
+    "status": 200,
+    "bytes": 911257,
+    "sha256": "4f7e7b845e3fbebbb7abaa8b2e5b0782320afd83aedd6d9924fb5b0c3e5a0f75",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7a680a9a-dd7b-467a-a724-a597f1be9f06_2545-71/frame_all_prev.jpg"
+  },
+  {
+    "item": "7b5fafdb-136a-4722-84a4-cffb213a224a_1092-90",
+    "status": 200,
+    "bytes": 2702277,
+    "sha256": "ab00df53699364e063634beab2d696aba889f6fb267c8b9bbac7347e7020472f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7b5fafdb-136a-4722-84a4-cffb213a224a_1092-90/frame_all_prev.jpg"
+  },
+  {
+    "item": "526675a3-acea-4d5b-b5c9-ccb1b89f6e58_421-44",
+    "status": 200,
+    "bytes": 1137485,
+    "sha256": "8b15950bca884e0d4fadc181b099fd8b4d2b948b056a24210342cf56179ff380",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/526675a3-acea-4d5b-b5c9-ccb1b89f6e58_421-44/frame_all_prev.jpg"
+  },
+  {
+    "item": "1a9a07d5-70ad-4e18-9740-66ea985a527b_945-60",
+    "status": 200,
+    "bytes": 1198678,
+    "sha256": "6edff4328d4273342c61bb04466b2fe0c69196f3ad2f310ba2e1c7535c7b4e33",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1a9a07d5-70ad-4e18-9740-66ea985a527b_945-60/frame_all_prev.jpg"
+  },
+  {
+    "item": "a437e059-78be-4894-a7ab-dc27fa16d3f8_9861-81",
+    "status": 200,
+    "bytes": 3388428,
+    "sha256": "68b5b5cbc1f70a69118fb5fa869328a0f79543e13fe3b0cd2310289af9634310",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a437e059-78be-4894-a7ab-dc27fa16d3f8_9861-81/frame_all_prev.jpg"
+  },
+  {
+    "item": "7c1c5dca-5856-4997-8cda-9fa3bca10a3b_1061-91",
+    "status": 200,
+    "bytes": 896860,
+    "sha256": "be61448d7e37b9b882d0c651b4c9121fb999f7ea0911541e6f6ee69087047c78",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7c1c5dca-5856-4997-8cda-9fa3bca10a3b_1061-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "f374039b-7f08-4dc3-af64-4e9ff61db531_2262-81",
+    "status": 200,
+    "bytes": 1720023,
+    "sha256": "15d9f644d04f8d5790b4caeafc53cb324fd0d43eadea5851f3cb87fc2bb0ae02",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f374039b-7f08-4dc3-af64-4e9ff61db531_2262-81/frame_all_prev.jpg"
+  },
+  {
+    "item": "2efc9b47-0a23-4247-89a6-db46dae6c998_416-58",
+    "status": 200,
+    "bytes": 1500208,
+    "sha256": "7e40dad91adbf7c24c26e7a31d9d30384345919b9f0c5f46ba76b27f19feee91",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2efc9b47-0a23-4247-89a6-db46dae6c998_416-58/frame_all_prev.jpg"
+  },
+  {
+    "item": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+    "status": 200,
+    "bytes": 690858,
+    "sha256": "e58e02f3d3721be7727df9e243f8006178316f44b7f6dd84ccf3c565b31e6704",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c79e05d5-eaf6-4323-a707-744020743037_763-82/frame_all_prev.jpg"
+  },
+  {
+    "item": "949b2e8a-83f9-4b89-b29b-9e8d81600dd8_2242-73",
+    "status": 200,
+    "bytes": 2927303,
+    "sha256": "211cb4135b3254b104f9803b3320bc564dd1dbd89191431cf939dfb634649f56",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/949b2e8a-83f9-4b89-b29b-9e8d81600dd8_2242-73/frame_all_prev.jpg"
+  },
+  {
+    "item": "e93fdf27-c14c-4794-b4b7-20685b40156f_1313-69",
+    "status": 200,
+    "bytes": 930620,
+    "sha256": "8644662fd49dbce9d387c2198bf7047932e12172c69f16215ca474c1a71d9e99",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e93fdf27-c14c-4794-b4b7-20685b40156f_1313-69/frame_all_prev.jpg"
+  },
+  {
+    "item": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14330-76",
+    "status": 200,
+    "bytes": 2533120,
+    "sha256": "713d26c922ed69a30cdaefea5c59be32ad3de4132c79cfc754f5bc0543f56aaf",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/0b530687-26d8-4c9d-9771-c758ecd2ecbf_14330-76/frame_all_prev.jpg"
+  },
+  {
+    "item": "1f61d972-e61b-4846-af3a-d09db9f111f8_1079-93",
+    "status": 200,
+    "bytes": 1354548,
+    "sha256": "abc6426c3926ca316e8f8e7ead68e66c72d83352d09ed52afabbdacf03276e2f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1f61d972-e61b-4846-af3a-d09db9f111f8_1079-93/frame_all_prev.jpg"
+  },
+  {
+    "item": "eb81442c-a322-49ea-b243-a39d2e288b9b_838-90",
+    "status": 200,
+    "bytes": 3779157,
+    "sha256": "f37b9946dc259e4c6a3cd7d6bb72e9696b457e6a04bc34fc01b34022b024dc4c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/eb81442c-a322-49ea-b243-a39d2e288b9b_838-90/frame_all_prev.jpg"
+  },
+  {
+    "item": "45c274b8-54e6-4187-9fd9-73c0b0ada28d_1281-25",
+    "status": 200,
+    "bytes": 571481,
+    "sha256": "a4b3f0445c11a24e70eb9616f320bd0155fbca89ad8838302bc797b32df32d1b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/45c274b8-54e6-4187-9fd9-73c0b0ada28d_1281-25/frame_all_prev.jpg"
+  },
+  {
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1439-37",
+    "status": 200,
+    "bytes": 1058263,
+    "sha256": "ce1be9116624550476bb6fa2b32edd5f828ce82b18036d27fb971953caf94e98",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2dbdd409-0be0-447c-8ae8-3f107fe9af80_1439-37/frame_all_prev.jpg"
+  },
+  {
+    "item": "cd1d3c56-69ca-4602-944e-bb9fabb9710b_1865-43",
+    "status": 200,
+    "bytes": 1145208,
+    "sha256": "621fd2bc124a6fcb80f7ab232a575c3cce5e15172b5c7ab9a6d7f452463507ab",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/cd1d3c56-69ca-4602-944e-bb9fabb9710b_1865-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "a055e4e8-cc07-47c1-a438-06f45c4f724c_2257-57",
+    "status": 200,
+    "bytes": 594917,
+    "sha256": "6f8b977c9b433eae87883ad81b62195ad0235e7f0e693ddd1815a53086f0277a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a055e4e8-cc07-47c1-a438-06f45c4f724c_2257-57/frame_all_prev.jpg"
+  },
+  {
+    "item": "7b5fafdb-136a-4722-84a4-cffb213a224a_1908-63",
+    "status": 200,
+    "bytes": 2728135,
+    "sha256": "9cbd353876929289373e95f58494601d38047477949482d5cd2b0d3a80f2c0d9",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7b5fafdb-136a-4722-84a4-cffb213a224a_1908-63/frame_all_prev.jpg"
+  },
+  {
+    "item": "5a9ca82c-bb33-4f05-9e08-efd614269566_1201-43",
+    "status": 200,
+    "bytes": 1005871,
+    "sha256": "2fc166476e69418993ade262ec28d53029042c77ae94e5e40abf0ef2b667098b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5a9ca82c-bb33-4f05-9e08-efd614269566_1201-43/frame_all_prev.jpg"
+  },
+  {
+    "item": "1f6eb61d-74fa-411e-979c-2e66e71f2b7d_501-62",
+    "status": 200,
+    "bytes": 1288359,
+    "sha256": "7c8ecfb83c373674610dfeafa92b3b97c455a3c0d3e25b04054fa99517f3e44b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1f6eb61d-74fa-411e-979c-2e66e71f2b7d_501-62/frame_all_prev.jpg"
+  },
+  {
+    "item": "73f94b03-b777-481d-b342-10c516f192a2_3-08",
+    "status": 200,
+    "bytes": 981282,
+    "sha256": "23bd17fc3cdad1a8ad2247f79d38d24db616b78ef2db1da098db8ba3d9b15b18",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/73f94b03-b777-481d-b342-10c516f192a2_3-08/frame_all_prev.jpg"
+  },
+  {
+    "item": "fdbe0fbc-90a3-41b9-8898-a0c7ce3f966c_696-68",
+    "status": 200,
+    "bytes": 2629890,
+    "sha256": "ffa73d8a20e1b7494ab94447911db71a88cb60a7bf8e047d384c5293c10e5f9f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fdbe0fbc-90a3-41b9-8898-a0c7ce3f966c_696-68/frame_all_prev.jpg"
+  },
+  {
+    "item": "d64fb34a-08fd-416c-ac6f-86a0813869a8_290-32",
+    "status": 200,
+    "bytes": 809298,
+    "sha256": "7cca8825e843e24d6b691a85c907a2fe81a42c65b3482f9462e5b15fe392c0f8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d64fb34a-08fd-416c-ac6f-86a0813869a8_290-32/frame_all_prev.jpg"
+  },
+  {
+    "item": "214b62df-2fb1-4b0e-af9d-42b0dd37defb_2020-07",
+    "status": 200,
+    "bytes": 1528457,
+    "sha256": "9f68a8ea8223f6824bd8a1a81c286e971ef077f6fff3602108e1b7c2ca2ae13d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/214b62df-2fb1-4b0e-af9d-42b0dd37defb_2020-07/frame_all_prev.jpg"
+  },
+  {
+    "item": "40b33c95-3689-4ec8-8765-7e926f623b75_726-75",
+    "status": 200,
+    "bytes": 1432693,
+    "sha256": "dfab80cbf379fcbdffd9a6f754cd52724b7109f27e50607da87c115c96f98082",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/40b33c95-3689-4ec8-8765-7e926f623b75_726-75/frame_all_prev.jpg"
+  },
+  {
+    "item": "b5c3c1e3-7ee7-4b4a-b938-4d008d5aa49b_521-60",
+    "status": 200,
+    "bytes": 1175419,
+    "sha256": "eb1c785db272c44383bb2999d12420a0f9a31e61db0481df5c52604ed552df9e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b5c3c1e3-7ee7-4b4a-b938-4d008d5aa49b_521-60/frame_all_prev.jpg"
+  },
+  {
+    "item": "42d72164-8f4a-49e4-8b95-b3ad423ba65b_1368-26",
+    "status": 200,
+    "bytes": 1051878,
+    "sha256": "f1cee527212c10b6e02741117906d8fb296650218d001fa2a6025b9f58fb6dfb",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/42d72164-8f4a-49e4-8b95-b3ad423ba65b_1368-26/frame_all_prev.jpg"
+  },
+  {
+    "item": "5c3be03c-07a5-4427-a2fe-449f16e8017b_787-88",
+    "status": 200,
+    "bytes": 3358758,
+    "sha256": "dafff82d3acbd8d80c58d722f1144671d2a4177a002c10c9336824b5aee8d93d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5c3be03c-07a5-4427-a2fe-449f16e8017b_787-88/frame_all_prev.jpg"
+  },
+  {
+    "item": "ca1773b8-ec8e-4f61-8e8f-7e4211830793_835-99",
+    "status": 200,
+    "bytes": 1181533,
+    "sha256": "c23d3db7eecb70d74a535a555687c03da1930c61080dd37148f08354fabaf947",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ca1773b8-ec8e-4f61-8e8f-7e4211830793_835-99/frame_all_prev.jpg"
+  },
+  {
+    "item": "5cf98bc1-012f-482d-86ee-9337d8747dce_1374-50",
+    "status": 200,
+    "bytes": 1537822,
+    "sha256": "6e7aa2eb7e9fc90cde30c4d6228dfdab2f0f5beac5f80e6ef48d3c184b221f88",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5cf98bc1-012f-482d-86ee-9337d8747dce_1374-50/frame_all_prev.jpg"
+  },
+  {
+    "item": "c00d3596-99db-4ea7-9a65-57ab4319d640_329-17",
+    "status": 200,
+    "bytes": 1128079,
+    "sha256": "5a83f0e6d812c237469e6856d3ecda56035fd2a24937b64abde7061af9446dfc",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c00d3596-99db-4ea7-9a65-57ab4319d640_329-17/frame_all_prev.jpg"
+  },
+  {
+    "item": "9b34e344-494d-4664-8180-a8ff2a692ab2_35-55",
+    "status": 200,
+    "bytes": 729860,
+    "sha256": "67caa758dec2e61d41139d38dba07054e440745cebe0a737bd5895699630d269",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9b34e344-494d-4664-8180-a8ff2a692ab2_35-55/frame_all_prev.jpg"
+  },
+  {
+    "item": "22653c79-369f-4a0d-a663-33a1da378fe0_292-96",
+    "status": 200,
+    "bytes": 5501513,
+    "sha256": "95994a74806cc96896565a8c9a0d903a8086a6d4e25459fa52c318517e35fec6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/22653c79-369f-4a0d-a663-33a1da378fe0_292-96/frame_all_prev.jpg"
+  },
+  {
+    "item": "bbd30b78-137a-4c75-a4e9-b51f62b3f04e_184-26",
+    "status": 200,
+    "bytes": 1415300,
+    "sha256": "a918c18b97b0fd75cd99df8314f5e7646aa3e0d6ef80c45e1b9564402e14a0c2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/bbd30b78-137a-4c75-a4e9-b51f62b3f04e_184-26/frame_all_prev.jpg"
+  },
+  {
+    "item": "5aa8f84b-aea8-4e40-b710-82b93875e1ae_422-21",
+    "status": 200,
+    "bytes": 1185162,
+    "sha256": "801eef38938f79125bbf1e2ef9bfcdf23899f663a302a44d8ad7a8aa3acebb3c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5aa8f84b-aea8-4e40-b710-82b93875e1ae_422-21/frame_all_prev.jpg"
+  },
+  {
+    "item": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+    "status": 200,
+    "bytes": 1122971,
+    "sha256": "12867ba6dd1b463ffbff931fe3e4abbb56a5771ed63ce95f39a8c2d92216f33b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08/frame_all_prev.jpg"
+  },
+  {
+    "item": "d36cf2fd-8916-4b69-b7a2-e9743675fb38_3568-39",
+    "status": 200,
+    "bytes": 1509856,
+    "sha256": "31ee2069dbb1f020253cef49914cda402b2f03ad43887799f2392bfa79b47930",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d36cf2fd-8916-4b69-b7a2-e9743675fb38_3568-39/frame_all_prev.jpg"
+  },
+  {
+    "item": "8774b5c6-83aa-43b0-8a51-00f173949944_3529-30",
+    "status": 200,
+    "bytes": 1332565,
+    "sha256": "9a200c5506f987fcd1f727dfb755f5ee45204c099358e7e07d2741a1a86203f7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8774b5c6-83aa-43b0-8a51-00f173949944_3529-30/frame_all_prev.jpg"
+  },
+  {
+    "item": "4767de01-96e1-4cf4-80f4-1c9d3acd26ed_650-13",
+    "status": 200,
+    "bytes": 2408318,
+    "sha256": "096e6de77fbdb01341c3260c1090575e3fcd6c8a5cb57425436c4491fb2b2aac",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4767de01-96e1-4cf4-80f4-1c9d3acd26ed_650-13/frame_all_prev.jpg"
+  },
+  {
+    "item": "5f26c69f-6f1c-4041-a81f-3c4808e0a385_156-09",
+    "status": 200,
+    "bytes": 961955,
+    "sha256": "afd08a68e4b4b400483273ccc72d13ded249200b8efac2b038b81004774f9435",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5f26c69f-6f1c-4041-a81f-3c4808e0a385_156-09/frame_all_prev.jpg"
+  },
+  {
+    "item": "5b0225e8-b81b-42fe-aa08-b0732b46c8bd_1082-56",
+    "status": 200,
+    "bytes": 676786,
+    "sha256": "ccdc642969eed05532c662d6810e640fe3c4a9984110baa38ffe5a522d4fa12e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5b0225e8-b81b-42fe-aa08-b0732b46c8bd_1082-56/frame_all_prev.jpg"
+  },
+  {
+    "item": "449e14cf-f05e-42ac-bb7e-0ba87617f95a_582-28",
+    "status": 200,
+    "bytes": 764591,
+    "sha256": "b31c2a9c155e475ddee78b781db7230302cf3f8a8ee174978ea9727f64888a48",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/449e14cf-f05e-42ac-bb7e-0ba87617f95a_582-28/frame_all_prev.jpg"
+  },
+  {
+    "item": "11663dd8-aa9d-429d-80e2-2807b341350e_224-01",
+    "status": 200,
+    "bytes": 765300,
+    "sha256": "1e82416b9b588a318360cd3e086d5442ec4957c3bb93013ced1afe5e4b3ea7f5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/11663dd8-aa9d-429d-80e2-2807b341350e_224-01/frame_all_prev.jpg"
+  },
+  {
+    "item": "c8b61175-cfa4-44f9-a88b-76609ffa4ca3_3008-85",
+    "status": 200,
+    "bytes": 1071507,
+    "sha256": "cdefda3acc72b524e58bcc6069b2f25f881c406261694e5895babe565eaf9610",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c8b61175-cfa4-44f9-a88b-76609ffa4ca3_3008-85/frame_all_prev.jpg"
+  },
+  {
+    "item": "95c0a226-5cb1-4380-af73-db2fcdbdbb76_174-41",
+    "status": 200,
+    "bytes": 953464,
+    "sha256": "6f6f6c7ac889bedf87c4b2440d4cbffb59849f03aee92f7aba32c10dd486a920",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/95c0a226-5cb1-4380-af73-db2fcdbdbb76_174-41/frame_all_prev.jpg"
+  },
+  {
+    "item": "2cddb76f-24d1-4863-bd91-9a5d1922a543_1368-59",
+    "status": 200,
+    "bytes": 2482700,
+    "sha256": "cf1b6c4ab1adc70af35763ae145518a4bc48d001f9fd464c8439bbb1dc93c234",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2cddb76f-24d1-4863-bd91-9a5d1922a543_1368-59/frame_all_prev.jpg"
+  },
+  {
+    "item": "8a0de6d0-5d28-43f5-91e6-48f41eeb3752_1074-03",
+    "status": 200,
+    "bytes": 879765,
+    "sha256": "026ef53fa05eb108b8773788af0d6b73397fa961ad3b137d3faf9557aed59f3a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/8a0de6d0-5d28-43f5-91e6-48f41eeb3752_1074-03/frame_all_prev.jpg"
+  },
+  {
+    "item": "63d56e4c-e454-48c2-a8f2-5bc2c34622ca_172-69",
+    "status": 200,
+    "bytes": 1024207,
+    "sha256": "95a6a587d454df896bfe8b9f805e9909af6a9d0e52fce2907010aa1c885c0dde",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/63d56e4c-e454-48c2-a8f2-5bc2c34622ca_172-69/frame_all_prev.jpg"
+  },
+  {
+    "item": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55",
+    "status": 200,
+    "bytes": 1186935,
+    "sha256": "337c5052571e456c66fa0e66932e7140c7d9f46147ca262ff4783a5a017af9e0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55/frame_all_prev.jpg"
+  },
+  {
+    "item": "35b1a8c7-80fd-402f-b240-768926b7bcee_562-55",
+    "status": 200,
+    "bytes": 1606962,
+    "sha256": "ba613c593aad844a10f96db5662f477480f794e4c9da74f891e4f5433dcaad1f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/35b1a8c7-80fd-402f-b240-768926b7bcee_562-55/frame_all_prev.jpg"
+  },
+  {
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1653-80",
+    "status": 200,
+    "bytes": 1113340,
+    "sha256": "8715208fa005de2ea143a9f86c26417fa27d543e634150df6311b2b4b0befb1e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2dbdd409-0be0-447c-8ae8-3f107fe9af80_1653-80/frame_all_prev.jpg"
+  },
+  {
+    "item": "af862b37-12f1-4b55-a1ca-1c162c4f98a0_3380-57",
+    "status": 200,
+    "bytes": 1158452,
+    "sha256": "26faeb0d6b1ba5dc8452ad27483e000c7a04f7aedab9ea83876ee5414b6b1471",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/af862b37-12f1-4b55-a1ca-1c162c4f98a0_3380-57/frame_all_prev.jpg"
+  },
+  {
+    "item": "49f87e0a-cc34-447e-87ba-209e430aafb0_2852-27",
+    "status": 200,
+    "bytes": 1704625,
+    "sha256": "20936b7d6346d12a8a1af339bdca56fe4d6fdda83efe86014c6e5996dcf31537",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/49f87e0a-cc34-447e-87ba-209e430aafb0_2852-27/frame_all_prev.jpg"
+  },
+  {
+    "item": "1f6eb61d-74fa-411e-979c-2e66e71f2b7d_345-36",
+    "status": 200,
+    "bytes": 1119507,
+    "sha256": "58bbc548b999dcdb6485cbadbf9003ccfb0ec7dd97aa83fcfcd15f872f72c4f8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1f6eb61d-74fa-411e-979c-2e66e71f2b7d_345-36/frame_all_prev.jpg"
+  },
+  {
+    "item": "e95dbd21-3017-48f5-8f36-46531f053ab1_339-47",
+    "status": 200,
+    "bytes": 985330,
+    "sha256": "2351c5cb93e6a94f59ce43c37c43c08ca8830d0b5464818aaff86242b16e2967",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e95dbd21-3017-48f5-8f36-46531f053ab1_339-47/frame_all_prev.jpg"
+  },
+  {
+    "item": "50c1df1c-e016-472a-b0ac-d297b0c82e87_3264-37",
+    "status": 200,
+    "bytes": 1548948,
+    "sha256": "a961e4d39f6d549b7758f71ebfc1e5c43e6534cc1de875c68e3c003a7ca376c8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/50c1df1c-e016-472a-b0ac-d297b0c82e87_3264-37/frame_all_prev.jpg"
+  },
+  {
+    "item": "b959f479-0508-4f1b-96a5-1b17e86af8ce_1110-67",
+    "status": 200,
+    "bytes": 1216009,
+    "sha256": "d698c9569d959af0068c29ebd382d00c80d36089df13f26a6d1cd17f31edbc99",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b959f479-0508-4f1b-96a5-1b17e86af8ce_1110-67/frame_all_prev.jpg"
+  },
+  {
+    "item": "e623faab-101a-41a6-83ac-8e22b4371aba_1141-39",
+    "status": 200,
+    "bytes": 345311,
+    "sha256": "b697777a3a6d4342a0fdf3392d9ab86f0b893661650c8f7fa7c80eb25fa3f432",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e623faab-101a-41a6-83ac-8e22b4371aba_1141-39/frame_all_prev.jpg"
+  },
+  {
+    "item": "64049385-6855-4eed-8b3c-ce3e8d704008_1157-10",
+    "status": 200,
+    "bytes": 1197785,
+    "sha256": "71b0ee30d0f4b8d0b7934236af20358a02d404c2a4390bf77c80c81a8375fbf4",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/64049385-6855-4eed-8b3c-ce3e8d704008_1157-10/frame_all_prev.jpg"
+  },
+  {
+    "item": "2d01625b-b7c4-41aa-989b-2d0b392d8b54_113-94",
+    "status": 200,
+    "bytes": 1201443,
+    "sha256": "1f5f4bdd3ac063e4417504aa1a6c29285b23ff29dc679a51bb7c781fdd297974",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2d01625b-b7c4-41aa-989b-2d0b392d8b54_113-94/frame_all_prev.jpg"
+  },
+  {
+    "item": "17be1d0a-f213-4126-ab6e-08e5c8ee5b93_1056-33",
+    "status": 200,
+    "bytes": 1046454,
+    "sha256": "cc90ae2ac2d48349ea8765a90da14d71c1f2396d9fe7319b9f9d22ea847687a6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/17be1d0a-f213-4126-ab6e-08e5c8ee5b93_1056-33/frame_all_prev.jpg"
+  },
+  {
+    "item": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+    "status": 200,
+    "bytes": 2210356,
+    "sha256": "5365fd9da133050ec6819f895f165e71ef6b0c28db237de50f4d41e4baa2a731",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62/frame_all_prev.jpg"
+  },
+  {
+    "item": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_481-32",
+    "status": 200,
+    "bytes": 1181551,
+    "sha256": "fe2dcacc1646d0f2c0e6ed762a8efeaa6a618bcb231e620d180a31d0c4ddaae8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/db35b386-4c65-4c5e-a488-51b2aa5eb1fb_481-32/frame_all_prev.jpg"
+  },
+  {
+    "item": "033520cd-e7e4-4649-b551-83bb451a4802_382-12",
+    "status": 200,
+    "bytes": 2152911,
+    "sha256": "17b02243bba5bb218735cc2a86d95e101957dcb95430e0f6dc278b45702da5e7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/033520cd-e7e4-4649-b551-83bb451a4802_382-12/frame_all_prev.jpg"
+  },
+  {
+    "item": "786877d8-e353-4fae-b488-8d7443646882_883-95",
+    "status": 200,
+    "bytes": 1697410,
+    "sha256": "1d7162d795858bef64b6a63337908f4cdca2b0b50a0bf16c5bfa3b2f301c3b2d",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/786877d8-e353-4fae-b488-8d7443646882_883-95/frame_all_prev.jpg"
+  },
+  {
+    "item": "14e96091-4011-4557-95b3-a195fb5c39d8_919-08",
+    "status": 200,
+    "bytes": 1266211,
+    "sha256": "e60ad4cea9486dda21d747027205aeb4cfd523a87cb9aaefa64193f1bc52c5d0",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/14e96091-4011-4557-95b3-a195fb5c39d8_919-08/frame_all_prev.jpg"
+  },
+  {
+    "item": "7a33ca42-9a39-4d59-ba82-c9667c250f48_2200-51",
+    "status": 200,
+    "bytes": 1901781,
+    "sha256": "f87888efaeab5ccca2dc6cbdb8443915c24973953c299881f45909f4e33ed0b1",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7a33ca42-9a39-4d59-ba82-c9667c250f48_2200-51/frame_all_prev.jpg"
+  },
+  {
+    "item": "f22115b5-b9be-4e30-8576-7c1fcecec480_21-27",
+    "status": 200,
+    "bytes": 6419887,
+    "sha256": "3e9fb5bc3230e6ca651ad706521d5663b9df8b82f5d85c260c1d9d845e3a8f49",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f22115b5-b9be-4e30-8576-7c1fcecec480_21-27/frame_all_prev.jpg"
+  },
+  {
+    "item": "ac8dba37-ce09-4dc5-b478-8194e41353c3_9451-92",
+    "status": 200,
+    "bytes": 739916,
+    "sha256": "847a0c8234f0d02e57529f87242a75373bb5fee1a457c1cd7fd5d9587f8062ed",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ac8dba37-ce09-4dc5-b478-8194e41353c3_9451-92/frame_all_prev.jpg"
+  },
+  {
+    "item": "9fc3678b-86e2-44ab-adbc-9aeda78ceb60_957-19",
+    "status": 200,
+    "bytes": 848476,
+    "sha256": "300e2366aac2ae1fa775fda0405ce3593c9ab3b2221c558ec2450c75c765e18e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/9fc3678b-86e2-44ab-adbc-9aeda78ceb60_957-19/frame_all_prev.jpg"
+  },
+  {
+    "item": "e5fea731-7b32-4857-a86b-587eda0ff334_979-09",
+    "status": 200,
+    "bytes": 1975838,
+    "sha256": "b757cddbbc3c2e23457379dd0f413b3d94f08d1faea75f6fc26d53d59bab399e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/e5fea731-7b32-4857-a86b-587eda0ff334_979-09/frame_all_prev.jpg"
+  },
+  {
+    "item": "0f3fa455-3622-4fb4-a3be-0c1a7fd697a7_1157-44",
+    "status": 200,
+    "bytes": 1060375,
+    "sha256": "1c0303c53bfe0f51b188e131406f315b4772054ce5d32b13074cbd47c5acdf8b",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/0f3fa455-3622-4fb4-a3be-0c1a7fd697a7_1157-44/frame_all_prev.jpg"
+  },
+  {
+    "item": "fb9fda68-f264-465d-9208-19876f5ef90f_63-03",
+    "status": 200,
+    "bytes": 618627,
+    "sha256": "7ad0f9a5dabb0e85baebe074afa24de6956210479474323204532f9eba3c69ce",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fb9fda68-f264-465d-9208-19876f5ef90f_63-03/frame_all_prev.jpg"
+  },
+  {
+    "item": "18a3840b-7463-43c4-9aa9-b1d8e486fa84_2172-38",
+    "status": 200,
+    "bytes": 2491447,
+    "sha256": "e5597aea6bdfe28c8b8527cb61d6e6586c234b686f6da72626427bbcf2801d53",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/18a3840b-7463-43c4-9aa9-b1d8e486fa84_2172-38/frame_all_prev.jpg"
+  },
+  {
+    "item": "d40be91b-85bb-4c47-ac18-52c4d044e3fc_13523-54",
+    "status": 200,
+    "bytes": 1501311,
+    "sha256": "c9a174a747d65e141b8666069340afa10216433629a833dbbe6d9eea60100c3e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d40be91b-85bb-4c47-ac18-52c4d044e3fc_13523-54/frame_all_prev.jpg"
+  },
+  {
+    "item": "ac8dba37-ce09-4dc5-b478-8194e41353c3_748-30",
+    "status": 200,
+    "bytes": 661883,
+    "sha256": "af8492622a8e762d06459cf7f4a1495f2df3ca9f8eced9ef5f20458e4562b5d2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ac8dba37-ce09-4dc5-b478-8194e41353c3_748-30/frame_all_prev.jpg"
+  },
+  {
+    "item": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1376-40",
+    "status": 200,
+    "bytes": 745344,
+    "sha256": "85a50e635c210d09cf4cc625afb5837188cd262510c995e4b8a00b5cbe1247cd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/98fcbc28-9542-4f3c-9a03-73af08fb989d_1376-40/frame_all_prev.jpg"
+  },
+  {
+    "item": "d64fb34a-08fd-416c-ac6f-86a0813869a8_494-32",
+    "status": 200,
+    "bytes": 911916,
+    "sha256": "053ad757ec9cb7e08e3890f6089155a2c40cbfc7336b51ec6ab68522cdc1eebf",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d64fb34a-08fd-416c-ac6f-86a0813869a8_494-32/frame_all_prev.jpg"
+  },
+  {
+    "item": "6ef7f9c0-30eb-4280-acc1-55f22f6e2924_2998-83",
+    "status": 200,
+    "bytes": 1386290,
+    "sha256": "985ed1113237dd74792b6e7bcac72208150a1aea5d762e70386311a5db5a7ffe",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6ef7f9c0-30eb-4280-acc1-55f22f6e2924_2998-83/frame_all_prev.jpg"
+  },
+  {
+    "item": "744c58f8-9a76-40d4-838f-8c7676fcb316_139-70",
+    "status": 200,
+    "bytes": 1845702,
+    "sha256": "a9921af3baa6a5b65d81baf941aea20fbc7241a5086b4731a90fe304c5ce40d2",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/744c58f8-9a76-40d4-838f-8c7676fcb316_139-70/frame_all_prev.jpg"
+  },
+  {
+    "item": "513f572f-6d1c-4a8a-8b57-9c1d0aa363f7_1015-09",
+    "status": 200,
+    "bytes": 1890584,
+    "sha256": "c63abca039eee96a6f03f90fce3787706dd8d63e9b3d21e67b923d8879da15ab",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/513f572f-6d1c-4a8a-8b57-9c1d0aa363f7_1015-09/frame_all_prev.jpg"
+  },
+  {
+    "item": "0f1024e6-ff80-46e2-aea8-3878f11bc1d7_201-92",
+    "status": 200,
+    "bytes": 818039,
+    "sha256": "ea57f39d19e8daddb3ecf64509c9824519d344e7bbd2d387293fc11f70e732f8",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/0f1024e6-ff80-46e2-aea8-3878f11bc1d7_201-92/frame_all_prev.jpg"
+  },
+  {
+    "item": "786877d8-e353-4fae-b488-8d7443646882_1021-24",
+    "status": 200,
+    "bytes": 1794095,
+    "sha256": "a1d561dc731a29a3fb1dff0dcf63a5607f45875c672fd88955b776dcb5d28f3c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/786877d8-e353-4fae-b488-8d7443646882_1021-24/frame_all_prev.jpg"
+  },
+  {
+    "item": "2b012751-2e50-4acb-b645-c864930e92c8_1119-28",
+    "status": 200,
+    "bytes": 1177748,
+    "sha256": "aa7c40a07d7187b0c53554b1ffdc7ab233f2a3114eaa88904244fe3ef364e781",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/2b012751-2e50-4acb-b645-c864930e92c8_1119-28/frame_all_prev.jpg"
+  },
+  {
+    "item": "366b71ad-3f35-4704-b6ef-e793c7e73ac6_1040-50",
+    "status": 200,
+    "bytes": 2204534,
+    "sha256": "54fec9770b7dd188d4263b31404409f4e03cf1afec4cc7bd0ca03e96edbf09f7",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/366b71ad-3f35-4704-b6ef-e793c7e73ac6_1040-50/frame_all_prev.jpg"
+  },
+  {
+    "item": "878666b9-5f3d-476a-960f-3a5d02da7619_6890-95",
+    "status": 200,
+    "bytes": 1467171,
+    "sha256": "5a5aebe4a22f36b201332485b299583f8d106c6de0366dd9500e18f83e8d1803",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/878666b9-5f3d-476a-960f-3a5d02da7619_6890-95/frame_all_prev.jpg"
+  },
+  {
+    "item": "439cfa9c-ef6b-41ba-aa5d-2f40b195b374_1380-00",
+    "status": 200,
+    "bytes": 1842932,
+    "sha256": "7fbd3c822e79dbe38572ea1a3c26a50b0dd199dcc87d8fd77be6e2107c9a8581",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/439cfa9c-ef6b-41ba-aa5d-2f40b195b374_1380-00/frame_all_prev.jpg"
+  },
+  {
+    "item": "214b62df-2fb1-4b0e-af9d-42b0dd37defb_2181-76",
+    "status": 200,
+    "bytes": 1990350,
+    "sha256": "0bb9e45e2b01f05c63894c6761836f88e974b546048926c847a56ad1f027668a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/214b62df-2fb1-4b0e-af9d-42b0dd37defb_2181-76/frame_all_prev.jpg"
+  },
+  {
+    "item": "5ab334f2-ecc8-4a05-96f8-4320225379b2_905-78",
+    "status": 200,
+    "bytes": 2374019,
+    "sha256": "bf21dd95593bb424da6f579af6fd3f0584ca311677bfb322131e5a8128c3187e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/5ab334f2-ecc8-4a05-96f8-4320225379b2_905-78/frame_all_prev.jpg"
+  },
+  {
+    "item": "65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02",
+    "status": 200,
+    "bytes": 1158712,
+    "sha256": "56e2e8dab999ed5aabd628c20eb7313df3e06af4b9d1ff705e19a6e9b2263617",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02/frame_all_prev.jpg"
+  },
+  {
+    "item": "7a680a9a-dd7b-467a-a724-a597f1be9f06_3668-06",
+    "status": 200,
+    "bytes": 839155,
+    "sha256": "c5d87005babda06abdce9525c1cd811b54ce1cc6a0b386d3c26bc77c5b6fcb68",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7a680a9a-dd7b-467a-a724-a597f1be9f06_3668-06/frame_all_prev.jpg"
+  },
+  {
+    "item": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+    "status": 200,
+    "bytes": 859375,
+    "sha256": "6a9155bff50413c0ae37f2f2c5199bab162aa057feb13ffb0f584536dac2e814",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40/frame_all_prev.jpg"
+  },
+  {
+    "item": "225a1ffe-3e7e-4ff8-a47e-2e80989077fe_94-47",
+    "status": 200,
+    "bytes": 1411676,
+    "sha256": "33c7a8b4e99b9cf6484f7cdf3a6557fdf1818f14eafda947888418b127cd1ecc",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/225a1ffe-3e7e-4ff8-a47e-2e80989077fe_94-47/frame_all_prev.jpg"
+  },
+  {
+    "item": "fec31c20-1910-4ab1-afc5-6aa3057a45f5_810-30",
+    "status": 200,
+    "bytes": 861896,
+    "sha256": "1dae7e327b5d5248de94d360ac05123fe1d766321303331378841bd6f6f8355f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fec31c20-1910-4ab1-afc5-6aa3057a45f5_810-30/frame_all_prev.jpg"
+  },
+  {
+    "item": "7c0c0057-3bbc-40ef-a91e-4d6e1a637642_1139-91",
+    "status": 200,
+    "bytes": 926785,
+    "sha256": "f92f00c3d2c1e79fd7ed332787ec335a8a7493fa7c54ca854cc569d6b9f1bccd",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7c0c0057-3bbc-40ef-a91e-4d6e1a637642_1139-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "584fd34c-9bd5-44fd-8266-9d3161d8c790_3302-91",
+    "status": 200,
+    "bytes": 496967,
+    "sha256": "a40fd02479a0f4ee33a9d38227bed1bce2c92f63e2c7eb0b07ad9eecd9378798",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/584fd34c-9bd5-44fd-8266-9d3161d8c790_3302-91/frame_all_prev.jpg"
+  },
+  {
+    "item": "cd0c7d35-19cf-4ce2-9b40-0209547acde5_1447-25",
+    "status": 200,
+    "bytes": 1042183,
+    "sha256": "43c2868bd5c1b435618570fb67d84395fc03d75ade58a8116c68bea918ea0ada",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/cd0c7d35-19cf-4ce2-9b40-0209547acde5_1447-25/frame_all_prev.jpg"
+  },
+  {
+    "item": "d6f9d174-2d42-49e7-83e4-daa9e8b0aa25_1389-10",
+    "status": 200,
+    "bytes": 1049479,
+    "sha256": "c803d82b05c6c3475042cee6857347e8a910899fe1effff64f144539af083263",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d6f9d174-2d42-49e7-83e4-daa9e8b0aa25_1389-10/frame_all_prev.jpg"
+  },
+  {
+    "item": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_275-35",
+    "status": 200,
+    "bytes": 651547,
+    "sha256": "54245b9056257687dce5f3f084b79f3d84e9b46ce8a1bb703938bbd1010f43a6",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/eb2c9739-dba0-479c-81b7-9dda51c4ac20_275-35/frame_all_prev.jpg"
+  },
+  {
+    "item": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+    "status": 200,
+    "bytes": 1367041,
+    "sha256": "9c91bc2ed85c77adea2dd15957a4b0e300c016cdbf63d043e2e374c890b8c1ab",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51/frame_all_prev.jpg"
+  },
+  {
+    "item": "3178c414-453e-44e9-b192-67dba2ccc982_1088-81",
+    "status": 200,
+    "bytes": 1114827,
+    "sha256": "b4f1b187b6e5695b7b846e4eb0fd7d266fa984eac5f7ebaa2bef7f2e866dc51f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/3178c414-453e-44e9-b192-67dba2ccc982_1088-81/frame_all_prev.jpg"
+  },
+  {
+    "item": "6e4baf27-2090-4a90-816b-a35a0aff0e56_1099-34",
+    "status": 200,
+    "bytes": 1289979,
+    "sha256": "c47622e409fc411dcd5ba5d9ba245285bea70e9e7f216bf951a377d6d7e03f20",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/6e4baf27-2090-4a90-816b-a35a0aff0e56_1099-34/frame_all_prev.jpg"
+  },
+  {
+    "item": "aad332b0-a437-4bd9-9147-f580bb58c3f5_3472-99",
+    "status": 200,
+    "bytes": 720028,
+    "sha256": "c28c700bcbd8b11f16097202e8c9d859eea41827a0fa0366c1a51f2e8a73e144",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/aad332b0-a437-4bd9-9147-f580bb58c3f5_3472-99/frame_all_prev.jpg"
+  },
+  {
+    "item": "b7022084-61ea-470f-b2cd-49be2ecaf3aa_688-07",
+    "status": 200,
+    "bytes": 1032058,
+    "sha256": "0cdf4b02bc825e78fe173e7a38909c3c958d01731378375a8259d11f6c653079",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/b7022084-61ea-470f-b2cd-49be2ecaf3aa_688-07/frame_all_prev.jpg"
+  },
+  {
+    "item": "4bf46557-3c5a-4a89-840d-158403590c9f_3598-37",
+    "status": 200,
+    "bytes": 1294770,
+    "sha256": "0f58e173266e69cf8e7aba0265cfb786fdad7d244ceed28c40ea3b2a8d64b61c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/4bf46557-3c5a-4a89-840d-158403590c9f_3598-37/frame_all_prev.jpg"
+  },
+  {
+    "item": "d6f9d174-2d42-49e7-83e4-daa9e8b0aa25_270-04",
+    "status": 200,
+    "bytes": 1067784,
+    "sha256": "1fcacba1d274b34b5dbc55d6cf9cbf7a6bdb503b31f805b8614257330cbfdf8e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/d6f9d174-2d42-49e7-83e4-daa9e8b0aa25_270-04/frame_all_prev.jpg"
+  },
+  {
+    "item": "072623e8-1889-4580-8175-ddc05a3dceb3_11-40",
+    "status": 200,
+    "bytes": 1639205,
+    "sha256": "90c22a1b939d4e2f8accf2aa797f57b429d68bc613a15ca8483ddf5fa78a3aee",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/072623e8-1889-4580-8175-ddc05a3dceb3_11-40/frame_all_prev.jpg"
+  },
+  {
+    "item": "10a848ed-f258-4930-abdd-1fd60b788abc_788-28",
+    "status": 200,
+    "bytes": 2172583,
+    "sha256": "fb25ab9ff17178caf6bf6fb61ebd77bfff6952ba1f45bf1816a4cb6485fcaa09",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/10a848ed-f258-4930-abdd-1fd60b788abc_788-28/frame_all_prev.jpg"
+  },
+  {
+    "item": "7836e736-ef0a-40ed-9b77-b4c12a08b236_3090-06",
+    "status": 200,
+    "bytes": 560525,
+    "sha256": "0cbf338aa40df83acbceb03150544f6c435af5461df74d196f08f8953971d589",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/7836e736-ef0a-40ed-9b77-b4c12a08b236_3090-06/frame_all_prev.jpg"
+  },
+  {
+    "item": "c586c267-9ac3-45d5-a9aa-6deab0b9608d_246-72",
+    "status": 200,
+    "bytes": 939069,
+    "sha256": "4a91f85141768eb9debf20ad034cf64f08b80132c91f1034da2cf2c25f8e48a4",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/c586c267-9ac3-45d5-a9aa-6deab0b9608d_246-72/frame_all_prev.jpg"
+  },
+  {
+    "item": "53e92e25-fe03-4311-9a17-c4f6a29ccad1_3512-58",
+    "status": 200,
+    "bytes": 830798,
+    "sha256": "97456e9c95cad4fa83833a164a569a1a54315d51660bc855986a011b41faf566",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/53e92e25-fe03-4311-9a17-c4f6a29ccad1_3512-58/frame_all_prev.jpg"
+  },
+  {
+    "item": "83f18213-f8f8-44fa-b9ce-104c6ddbcd57_1657-94",
+    "status": 200,
+    "bytes": 684386,
+    "sha256": "f1d983665affd13d43e3916d3868dcb3528c7fa627eeafb16dfc7715ea349413",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/83f18213-f8f8-44fa-b9ce-104c6ddbcd57_1657-94/frame_all_prev.jpg"
+  },
+  {
+    "item": "ac8704d3-ab1c-4412-a10e-befb387063b2_270-04",
+    "status": 200,
+    "bytes": 1100729,
+    "sha256": "89e4bf21ced062001d307dbb6725768f1d1cf6d38dd1b57e613e9cc23498a05a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/ac8704d3-ab1c-4412-a10e-befb387063b2_270-04/frame_all_prev.jpg"
+  },
+  {
+    "item": "053ae0a6-937d-4bdc-8001-d3dfe7899811_1085-52",
+    "status": 200,
+    "bytes": 742226,
+    "sha256": "5a65275e3e41b2efdf5315d2d899c9c56bf6f4b9e289c75ad576c505bbc3c16a",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/053ae0a6-937d-4bdc-8001-d3dfe7899811_1085-52/frame_all_prev.jpg"
+  },
+  {
+    "item": "bb2297d3-91b7-4ec4-b39b-cc64694929db_0-03",
+    "status": 200,
+    "bytes": 1108446,
+    "sha256": "7e712e97e3efc7188f374508691ddd91a774a16449d3d112dc4e3cf2e442f99c",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/bb2297d3-91b7-4ec4-b39b-cc64694929db_0-03/frame_all_prev.jpg"
+  },
+  {
+    "item": "fffbaeef-577f-45f0-baa9-f10cabf62dfb_278-37",
+    "status": 200,
+    "bytes": 1343666,
+    "sha256": "3dc6fcd51efcdea1a35905d9b6c65bf22cfbe26a606e7a22e50caefa195fc49f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/fffbaeef-577f-45f0-baa9-f10cabf62dfb_278-37/frame_all_prev.jpg"
+  },
+  {
+    "item": "42d72164-8f4a-49e4-8b95-b3ad423ba65b_1575-60",
+    "status": 200,
+    "bytes": 1117752,
+    "sha256": "b0ba9c17f919966ac01eca3c1c4a4e3b433bfa5f63aca3d1e05be89524653ece",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/42d72164-8f4a-49e4-8b95-b3ad423ba65b_1575-60/frame_all_prev.jpg"
+  },
+  {
+    "item": "dced4894-d13a-4222-941b-5e4ecf1e3299_629-13",
+    "status": 200,
+    "bytes": 919123,
+    "sha256": "7ad55393b3dff6815b3f3869e9dfd9d809502498168f5e85e78339eaff8eb65e",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/dced4894-d13a-4222-941b-5e4ecf1e3299_629-13/frame_all_prev.jpg"
+  },
+  {
+    "item": "110f9870-6b6c-4a20-a3c8-8c2e29c53bb7_1388-88",
+    "status": 200,
+    "bytes": 1459991,
+    "sha256": "aaed78e5c1d8ecf97ff80f53a6ee5203c904bc85404dc1dc64f9e8d52946df35",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/110f9870-6b6c-4a20-a3c8-8c2e29c53bb7_1388-88/frame_all_prev.jpg"
+  },
+  {
+    "item": "f22115b5-b9be-4e30-8576-7c1fcecec480_12-52",
+    "status": 200,
+    "bytes": 6443745,
+    "sha256": "9d8ceb6f3345116d440b95514357393dcecbf23320b90dd753adc684bf9df2d5",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/f22115b5-b9be-4e30-8576-7c1fcecec480_12-52/frame_all_prev.jpg"
+  },
+  {
+    "item": "a5bd4711-275b-4bbf-96fe-37553e5d3e93_156-00",
+    "status": 200,
+    "bytes": 2664883,
+    "sha256": "01abbab2f442dc3db41a9f28014108f87b34a7fef21c75b013b5bfca144c533f",
+    "url": "https://huggingface.co/datasets/open-social-world/EgoNormia/resolve/2937df7fa96d8515417e7b5122fbf8eaeeaeee86/video/a5bd4711-275b-4bbf-96fe-37553e5d3e93_156-00/frame_all_prev.jpg"
+  }
+]

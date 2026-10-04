@@ -1,0 +1,590 @@
+{
+  "participant": "participant_01",
+  "status": "complete",
+  "current_item_number": 1,
+  "current_item_id": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+  "current_stage": "complete",
+  "responses": [
+    {
+      "annotator": "participant_01",
+      "item": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+      "stage": "options",
+      "answer": 1,
+      "confidence": 1,
+      "cue": "Without context, choice 1 looks okay to me.",
+      "cue_type": "option language",
+      "raw_response": "I guess, like without any context, I would choose one, and I would be, like, very unsure about this choice. And the reason is just, like, I'm choosing one, which looks okay to me."
+    },
+    {
+      "annotator": "participant_01",
+      "item": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+      "stage": "options",
+      "answer": 1,
+      "confidence": 1,
+      "cue": "makes sense compared to others",
+      "cue_type": "option language",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+      "stage": "options",
+      "answer": 1,
+      "confidence": 1,
+      "cue": "all seem decent random guess",
+      "cue_type": "uncertain",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91",
+      "stage": "options",
+      "answer": 2,
+      "confidence": 1,
+      "cue": "all seem decent random guess",
+      "cue_type": "uncertain",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+      "stage": "options",
+      "answer": 2,
+      "confidence": 1,
+      "cue": "all seem decent random guess",
+      "cue_type": "uncertain",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+      "stage": "options",
+      "answer": 2,
+      "confidence": 1,
+      "cue": "most seem decent random guess",
+      "cue_type": "uncertain",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+      "stage": "options",
+      "answer": 4,
+      "confidence": 1,
+      "cue": "all seem decent random guess",
+      "cue_type": "uncertain",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+      "stage": "options",
+      "answer": 2,
+      "confidence": 1,
+      "cue": "most seem decent random guess",
+      "cue_type": "uncertain",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+      "stage": "options",
+      "answer": 3,
+      "confidence": 1,
+      "cue": "most seem decent random guess",
+      "cue_type": "uncertain",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+      "stage": "options",
+      "answer": 3,
+      "confidence": 1,
+      "cue": "all seem decent random guess",
+      "cue_type": "uncertain",
+      "cue_type_source": "researcher-coded from participant reason"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 5,
+      "cue": "The scene is household chores and cooking, not serving or receiving tea.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+      "stage": "description",
+      "answer": 3,
+      "confidence": 5,
+      "cue": "The subject is explicitly piping white material onto shapes to create decorative patterns.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The subject is simply walking through an office; none of the proposed social interactions are supported.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91",
+      "stage": "description",
+      "answer": 1,
+      "confidence": 2,
+      "cue": "At a construction worksite, handing the worker a level is the only contextually plausible option, though the description does not explicitly show the worker requesting one.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+      "stage": "description",
+      "answer": 4,
+      "confidence": 5,
+      "cue": "The man is eating an egg at breakfast, closely matching cutting and eating the egg.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+      "stage": "description",
+      "answer": 2,
+      "confidence": 5,
+      "cue": "Observing pedestrian and vehicle traffic is directly appropriate for repeatedly crossing a busy street.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 5,
+      "cue": "The subject is stocking an office pantry; none of the listed actions match that activity.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 5,
+      "cue": "The subject is distributing bags, while all other choices involve receipts, boarding passes, or restaurant payment.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+      "stage": "description",
+      "answer": 3,
+      "confidence": 5,
+      "cue": "The manicurist is explicitly cleaning excess polish from the client's nails with cotton.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 3,
+      "cue": "The subject is assisting teens with an activity on the crash mat, not personally beginning a climb or performing any of the other listed actions.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+      "stage": "frames",
+      "answer": 4,
+      "confidence": 4,
+      "cue": "The final frame shows the cup being extended directly toward the seated person rather than placed on a nearby table.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+      "stage": "frames",
+      "answer": 3,
+      "confidence": 5,
+      "cue": "The later frames clearly show material being piped onto the repeated white shapes.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+      "stage": "frames",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The frames only show movement through the snack/office area, with no clear social interaction supporting choices 1\u20134.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91",
+      "stage": "frames",
+      "answer": 1,
+      "confidence": 4,
+      "cue": "A worker is below in an active construction area looking upward, making handing down a work tool such as a level the contextually appropriate option.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+      "stage": "frames",
+      "answer": 4,
+      "confidence": 5,
+      "cue": "The person is visibly using utensils to cut and eat the egg.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+      "stage": "frames",
+      "answer": 2,
+      "confidence": 4,
+      "cue": "The person is at the edge of a busy crossing with vehicles passing, supporting checking traffic before crossing; the walk signal itself is unclear.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+      "stage": "frames",
+      "answer": 2,
+      "confidence": 4,
+      "cue": "The frames show a red basket full of snacks, the subject holding an item, and another person positioned across the counter like a cashier; this conflicts somewhat with the description.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+      "stage": "frames",
+      "answer": 4,
+      "confidence": 4,
+      "cue": "In the final frame, the subject is extending a small white slip toward the standing person beside the brown bag, consistent with handing back a receipt.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+      "stage": "frames",
+      "answer": 3,
+      "confidence": 5,
+      "cue": "The frames clearly show the worker cleaning around the person's painted nails with cotton.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+      "stage": "frames",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "Everyone remains engaged in the group activity on the crash mat; the subject appears to be assisting them rather than preparing to climb.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+      "stage": "options",
+      "answer": 2,
+      "confidence": 1,
+      "cue": "Least assumption-heavy action.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+      "stage": "options",
+      "answer": 2,
+      "confidence": 1,
+      "cue": "Plausible if the task involves grinding a pipe.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+      "stage": "options",
+      "answer": 1,
+      "confidence": 1,
+      "cue": "Plausible generic yard-work follow-up.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+      "stage": "options",
+      "answer": 2,
+      "confidence": 1,
+      "cue": "Plausible in a construction inspection context.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55",
+      "stage": "options",
+      "answer": 3,
+      "confidence": 1,
+      "cue": "Plausible camera-instruction action.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+      "stage": "options",
+      "answer": 4,
+      "confidence": 1,
+      "cue": "Broadly plausible worksite interaction.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+      "stage": "options",
+      "answer": 1,
+      "confidence": 1,
+      "cue": "Most generic basketball activity.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+      "stage": "options",
+      "answer": 1,
+      "confidence": 1,
+      "cue": "Broadest plausible interaction.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+      "stage": "options",
+      "answer": 3,
+      "confidence": 1,
+      "cue": "Common action in a store setting.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+      "stage": "options",
+      "answer": 4,
+      "confidence": 1,
+      "cue": "Plausible during an apartment walkthrough.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The description shows an empty park with no people or animals, so none of the proposed actions fit.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+      "stage": "description",
+      "answer": 1,
+      "confidence": 4,
+      "cue": "The worker is installing and grinding a handrail, so steadying the handrail is the most directly relevant supporting action.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+      "stage": "description",
+      "answer": 1,
+      "confidence": 3,
+      "cue": "The person is mowing the lawn, so raking and disposing of grass clippings is the most plausible follow-up, though the description does not show that step occurring.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The subject is adjusting wire fencing for animal enclosures, while the options concern bricklaying, moving bricks, or reporting hazards.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The subject is reviewing footage on a laptop during a photoshoot, and none of the options directly describe reviewing or editing footage.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+      "stage": "description",
+      "answer": 2,
+      "confidence": 2,
+      "cue": "The worker is positioning scaffolding poles with other workers, so coordinating the timing of the next step is plausible, but the description does not explicitly show verbal coordination.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+      "stage": "description",
+      "answer": 1,
+      "confidence": 4,
+      "cue": "The subject is repeatedly taking basketball shots alone, which directly matches shooting hoops and practicing shots.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+      "stage": "description",
+      "answer": 2,
+      "confidence": 3,
+      "cue": "The scene is an ongoing recreational badminton game, so offering to join the next game is the only option that matches the activity, though the subject is already participating.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The subject is simply walking through and recording the mall, with no evidence of touching merchandise, testing doors, or checking surfaces.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+      "stage": "description",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The setting is clearly an office, while all four alternatives describe actions appropriate to an apartment walkthrough.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+      "stage": "frames",
+      "answer": 2,
+      "confidence": 4,
+      "cue": "A woman in a pink shirt is clearly visible beside the path in one frame, while no dog is visible, making a brief greeting the best fit.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+      "stage": "frames",
+      "answer": 2,
+      "confidence": 4,
+      "cue": "The camera wearer is gripping the metal rail while another worker below appears to be using a grinder, matching holding it firmly during grinding.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+      "stage": "frames",
+      "answer": 1,
+      "confidence": 3,
+      "cue": "The frames consistently show the person mowing grass, so dealing with grass clippings afterward is the closest follow-up, though the mower appears to have a collection bag.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+      "stage": "frames",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The subject is touching and checking the wire-mesh enclosure rather than interacting with another bricklayer or inspecting brick construction.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55",
+      "stage": "frames",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The person remains focused on footage displayed on a laptop; the frames do not clearly show camera instruction, demonstrating framing, or equipment diagnostics.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+      "stage": "frames",
+      "answer": 4,
+      "confidence": 3,
+      "cue": "The frames show an active, cluttered construction site with scaffolding and building materials, making discussing progress and checking the area for hazards the closest option; the exact next action is not visually clear.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+      "stage": "frames",
+      "answer": 1,
+      "confidence": 5,
+      "cue": "Multiple frames show the basketball traveling toward or through the hoop during repeated solo shots.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+      "stage": "frames",
+      "answer": 5,
+      "confidence": 3,
+      "cue": "The badminton racket is visible in the foreground and a game is already underway, so the subject appears to already be participating rather than needing to ask to join the next game.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+      "stage": "frames",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The visible frames show ordinary movement through a shopping mall with other pedestrians, with no clear interaction with a shelf, door handle, light beam, or surface.",
+      "cue_type": "not separately elicited"
+    },
+    {
+      "annotator": "participant_01",
+      "item": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+      "stage": "frames",
+      "answer": 5,
+      "confidence": 4,
+      "cue": "The frames show a modern office or workplace with lounge seating and glass-walled areas, not an apartment walkthrough.",
+      "cue_type": "not separately elicited"
+    }
+  ],
+  "administration": "Two consecutive ten-item blocks: within each block, options-only batch, description batch, then description-plus-frames batch. Initial 20-item sample temporarily reduced at participant request; original remaining ten subsequently completed. See extension_note.",
+  "planned_item_count": 20,
+  "selected_item_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "transcription_notes": [
+    "Extraneous words \"Pasted text\" following description response 9 excluded from the reason.",
+    "Extraneous words \"Pasted text\" following description response 20 excluded from the reason.",
+    "Item 1 options-only confidence \"very unsure\" was mapped to 1/5 using the announced scale; its short reason is a faithful paraphrase and the original response is preserved in raw_response."
+  ],
+  "provenance": "All 60 responses supplied by one user in chat. Unaided completion not independently verified. No gold feedback within either ten-item block; scores and item-level feedback on block 1 were disclosed before block 2.",
+  "extension_note": "After completing and receiving aggregate scores and item-level feedback for items 1\u201310, participant requested original items 11\u201320. These form a second sequential block. No gold feedback for items 11\u201320 supplied during collection. Report block order and prior feedback exposure; do not claim all 20 options responses preceded all descriptions."
+}

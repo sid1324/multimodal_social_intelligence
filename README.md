@@ -21,6 +21,9 @@ For Milestone 2, each idea's premises were tested directly on the data, using re
 
 Each analysis lives in its own top-level folder with its own README describing its code, results and how to obtain the data.
 
+- [Idea 1: Progressive perceptual grounding](idea1/) — rechecked analyses, report sections, and the 20-item human exercise.
+- [Idea 3: Face-bias premise tests](idea3_face_bias/) — existing Analysis 2 contribution.
+
 ## Notes
 
 - Datasets (EgoNormia, Ego4D) are not redistributed here; each folder documents how to download what it needs.

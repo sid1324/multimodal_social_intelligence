@@ -1,0 +1,16 @@
+stage,evidence_code,count,n_reasons
+options,text,20,20
+options,scene_object,0,20
+options,spatial,0,20
+options,gesture_gaze,0,20
+options,temporal_interaction,0,20
+description,text,20,20
+description,scene_object,20,20
+description,spatial,0,20
+description,gesture_gaze,0,20
+description,temporal_interaction,5,20
+frames,text,0,20
+frames,scene_object,20,20
+frames,spatial,7,20
+frames,gesture_gaze,3,20
+frames,temporal_interaction,4,20

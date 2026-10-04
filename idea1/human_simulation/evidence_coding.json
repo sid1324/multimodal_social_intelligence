@@ -1,0 +1,641 @@
+[
+  {
+    "example": 1,
+    "item": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Without context, choice 1 looks okay to me.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 1,
+    "item": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The scene is household chores and cooking, not serving or receiving tea.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 1,
+    "item": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "spatial",
+      "gesture_gaze"
+    ],
+    "reason": "The final frame shows the cup being extended directly toward the seated person rather than placed on a nearby table.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 2,
+    "item": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "makes sense compared to others",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 2,
+    "item": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The subject is explicitly piping white material onto shapes to create decorative patterns.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 2,
+    "item": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The later frames clearly show material being piped onto the repeated white shapes.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 3,
+    "item": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "all seem decent random guess",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 3,
+    "item": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The subject is simply walking through an office; none of the proposed social interactions are supported.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 3,
+    "item": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The frames only show movement through the snack/office area, with no clear social interaction supporting choices 1\u20134.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 4,
+    "item": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "all seem decent random guess",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 4,
+    "item": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "At a construction worksite, handing the worker a level is the only contextually plausible option, though the description does not explicitly show the worker requesting one.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 4,
+    "item": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "spatial"
+    ],
+    "reason": "A worker is below in an active construction area looking upward, making handing down a work tool such as a level the contextually appropriate option.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 5,
+    "item": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "all seem decent random guess",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 5,
+    "item": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The man is eating an egg at breakfast, closely matching cutting and eating the egg.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 5,
+    "item": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The person is visibly using utensils to cut and eat the egg.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 6,
+    "item": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "most seem decent random guess",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 6,
+    "item": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object",
+      "temporal_interaction"
+    ],
+    "reason": "Observing pedestrian and vehicle traffic is directly appropriate for repeatedly crossing a busy street.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 6,
+    "item": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "spatial"
+    ],
+    "reason": "The person is at the edge of a busy crossing with vehicles passing, supporting checking traffic before crossing; the walk signal itself is unclear.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 7,
+    "item": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "all seem decent random guess",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 7,
+    "item": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The subject is stocking an office pantry; none of the listed actions match that activity.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 7,
+    "item": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "spatial"
+    ],
+    "reason": "The frames show a red basket full of snacks, the subject holding an item, and another person positioned across the counter like a cashier; this conflicts somewhat with the description.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 8,
+    "item": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "most seem decent random guess",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 8,
+    "item": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The subject is distributing bags, while all other choices involve receipts, boarding passes, or restaurant payment.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 8,
+    "item": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "gesture_gaze"
+    ],
+    "reason": "In the final frame, the subject is extending a small white slip toward the standing person beside the brown bag, consistent with handing back a receipt.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 9,
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "most seem decent random guess",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 9,
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The manicurist is explicitly cleaning excess polish from the client's nails with cotton.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 9,
+    "item": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The frames clearly show the worker cleaning around the person's painted nails with cotton.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 10,
+    "item": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "all seem decent random guess",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 10,
+    "item": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The subject is assisting teens with an activity on the crash mat, not personally beginning a climb or performing any of the other listed actions.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 10,
+    "item": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "temporal_interaction"
+    ],
+    "reason": "Everyone remains engaged in the group activity on the crash mat; the subject appears to be assisting them rather than preparing to climb.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 11,
+    "item": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Least assumption-heavy action.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 11,
+    "item": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The description shows an empty park with no people or animals, so none of the proposed actions fit.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 11,
+    "item": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "spatial"
+    ],
+    "reason": "A woman in a pink shirt is clearly visible beside the path in one frame, while no dog is visible, making a brief greeting the best fit.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 12,
+    "item": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Plausible if the task involves grinding a pipe.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 12,
+    "item": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The worker is installing and grinding a handrail, so steadying the handrail is the most directly relevant supporting action.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 12,
+    "item": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "spatial",
+      "gesture_gaze"
+    ],
+    "reason": "The camera wearer is gripping the metal rail while another worker below appears to be using a grinder, matching holding it firmly during grinding.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 13,
+    "item": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Plausible generic yard-work follow-up.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 13,
+    "item": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object",
+      "temporal_interaction"
+    ],
+    "reason": "The person is mowing the lawn, so raking and disposing of grass clippings is the most plausible follow-up, though the description does not show that step occurring.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 13,
+    "item": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "temporal_interaction"
+    ],
+    "reason": "The frames consistently show the person mowing grass, so dealing with grass clippings afterward is the closest follow-up, though the mower appears to have a collection bag.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 14,
+    "item": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Plausible in a construction inspection context.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 14,
+    "item": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The subject is adjusting wire fencing for animal enclosures, while the options concern bricklaying, moving bricks, or reporting hazards.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 14,
+    "item": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The subject is touching and checking the wire-mesh enclosure rather than interacting with another bricklayer or inspecting brick construction.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 15,
+    "item": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Plausible camera-instruction action.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 15,
+    "item": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The subject is reviewing footage on a laptop during a photoshoot, and none of the options directly describe reviewing or editing footage.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 15,
+    "item": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The person remains focused on footage displayed on a laptop; the frames do not clearly show camera instruction, demonstrating framing, or equipment diagnostics.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 16,
+    "item": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Broadly plausible worksite interaction.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 16,
+    "item": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object",
+      "temporal_interaction"
+    ],
+    "reason": "The worker is positioning scaffolding poles with other workers, so coordinating the timing of the next step is plausible, but the description does not explicitly show verbal coordination.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 16,
+    "item": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The frames show an active, cluttered construction site with scaffolding and building materials, making discussing progress and checking the area for hazards the closest option; the exact next action is not visually clear.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 17,
+    "item": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Most generic basketball activity.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 17,
+    "item": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object",
+      "temporal_interaction"
+    ],
+    "reason": "The subject is repeatedly taking basketball shots alone, which directly matches shooting hoops and practicing shots.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 17,
+    "item": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "temporal_interaction"
+    ],
+    "reason": "Multiple frames show the basketball traveling toward or through the hoop during repeated solo shots.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 18,
+    "item": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Broadest plausible interaction.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 18,
+    "item": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object",
+      "temporal_interaction"
+    ],
+    "reason": "The scene is an ongoing recreational badminton game, so offering to join the next game is the only option that matches the activity, though the subject is already participating.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 18,
+    "item": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object",
+      "spatial",
+      "temporal_interaction"
+    ],
+    "reason": "The badminton racket is visible in the foreground and a game is already underway, so the subject appears to already be participating rather than needing to ask to join the next game.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 19,
+    "item": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Common action in a store setting.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 19,
+    "item": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The subject is simply walking through and recording the mall, with no evidence of touching merchandise, testing doors, or checking surfaces.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 19,
+    "item": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The visible frames show ordinary movement through a shopping mall with other pedestrians, with no clear interaction with a shelf, door handle, light beam, or surface.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 20,
+    "item": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+    "stage": "options",
+    "evidence_codes": [
+      "text"
+    ],
+    "reason": "Plausible during an apartment walkthrough.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 20,
+    "item": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+    "stage": "description",
+    "evidence_codes": [
+      "text",
+      "scene_object"
+    ],
+    "reason": "The setting is clearly an office, while all four alternatives describe actions appropriate to an apartment walkthrough.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  },
+  {
+    "example": 20,
+    "item": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+    "stage": "frames",
+    "evidence_codes": [
+      "scene_object"
+    ],
+    "reason": "The frames show a modern office or workplace with lounge seating and glass-walled areas, not an apartment walkthrough.",
+    "coding_basis": "Stated rationale, including explicitly mentioned absent cues; not independently verified scene facts."
+  }
+]

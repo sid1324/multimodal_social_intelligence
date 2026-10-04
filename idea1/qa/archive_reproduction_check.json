@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "method": "Extract the compact ZIP to a new directory, then run the complete run_all.sh pipeline using included tables, frozen folds and feature caches, without source-media/model downloads.",
+  "pipeline_exit_code": 0,
+  "independent_validation_checks": 128,
+  "tables_compared_byte_for_byte": 47,
+  "table_differences": [],
+  "included_source_strips": 22,
+  "all_400_original_strips_required_for_cached_rerun": false,
+  "models_required_for_cached_rerun": false,
+  "scope": "Prior 47-table full cached-pipeline reproduction; unchanged computational analyses. See archive_human_update_check.json for final updated-archive checks."
+}

@@ -1,0 +1,4 @@
+check,status,detail
+official_score_rows_exact_match,PASS,43 table rows match supplied official_scores.log
+frozen_fold_rerun,PASS,probes.csv and artifact_robustness.csv byte-identical after switching to saved fold IDs
+human_packet_javascript_syntax,PASS,node --check passed; no participant responses generated

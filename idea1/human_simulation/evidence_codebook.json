@@ -1,0 +1,12 @@
+{
+  "coder": "OpenAI Codex; post-hoc single AI coder; no independent second coder",
+  "unit": "One submitted free-text reason; multiple labels allowed; counts are overlapping",
+  "rules": {
+    "text": "Answer wording, plausibility without scene input, or supplied description used as the evidence source. Description-stage reasons receive this tag in addition to any specific evidence content.",
+    "scene_object": "Stated scene, object, person, or activity identity/presence/absence; includes descriptions, not only pixels.",
+    "spatial": "Explicit position or relation, e.g. across a counter, below, beside, or at an edge.",
+    "gesture_gaze": "Explicit hand extension/grip or gaze as an interaction cue; absence of such a cue may also be cited.",
+    "temporal_interaction": "Explicit repetition, sequence, already-in-progress state, or next-step timing used in the rationale."
+  },
+  "limits": "These codes characterize participant statements, not verified frame content or causal mechanisms. Negative evidence is coded when explicitly invoked. Do not equate evidence content with input modality. No inter-rater reliability is available."
+}

@@ -1,0 +1,75 @@
+\section{Exploratory human simulation: 20 completed examples}
+\paragraph{Design and provenance.} One participant supplied action choices, confidence from 1 (very unsure) to 5 (very sure), and short reasons in chat for 20 items, giving 60 responses. The original packet selected 20 verified EgoNormia items from the downloaded 400-item media sample by a fixed hash rule, retaining 20 distinct source prefixes. After the first options-only answer, the participant requested a reduction to ten items; these were completed and scored. The participant later requested the remaining ten original items. Collection therefore used two consecutive ten-item blocks, each ordered options-only batch, description batch, then description-plus-frames batch. First-block aggregate results and item-level feedback were disclosed before the second block. No correctness feedback was supplied within either block. This was not a single blinded 20-item experiment, and block differences cannot isolate a feedback effect from item differences.
+
+Five frames per item were displayed in temporal order, left to right and top to bottom. Descriptions and choices were reproduced from the packet with display whitespace and punctuation normalization. Unaided completion was not independently verified. The included reusable web interface operates item by item; the chat administration used the batched protocol specified above.
+
+\paragraph{Scoring.} Action indices are one-based, including the valid none option. Each packet gold label was independently checked against the raw release. Reasons are retained with documented transcription cleanup; they are not scored as benchmark justification options. Agreement below means action agreement with released gold, not the joint action/justification metric used for the VLM comparison.
+
+\begin{center}
+\begin{tabular}{lrrr}\toprule
+Input stage & Gold agreement & Mean confidence & None choices\\\midrule
+Options only & 8/20 (40\%) & 1.00 & 0\\
+Description & 8/20 (40\%) & 4.00 & 10\\
+Description plus frames & 9/20 (45\%) & 4.05 & 7\\\bottomrule
+\end{tabular}
+\end{center}
+
+\paragraph{Block results.} For items 1--10, correct counts are 2, 4, and 5 and confidence means are 1.0, 4.4, and 4.3. For items 11--20, correct counts are 6, 4, and 4 and confidence means are 1.0, 3.6, and 3.8. Each ordered triple follows options, descriptions, and frames. Aggregated improvement is small and is not consistent across blocks.
+
+\paragraph{Transitions and agreement.} Adding descriptions changes 16 choices: five disagreements become agreements, five agreements become disagreements, and six change while still disagreeing. Adding frames changes seven choices: three become agreements, two lose agreement, and two remain disagreements. The net frame-stage gain is one item (5 percentage points), not seven corrected items. Exact within-participant choice agreement is 4/20 (20\%) for options/description, 13/20 (65\%) for description/frames, and 7/20 (35\%) for options/frames. Inter-person agreement is not estimable because there is only one participant. Full five-by-five transition matrices are archived.
+
+\clearpage
+\section*{Item-level audit}
+\begin{center}
+\begin{tabular}{rrrrr}\toprule
+Example & Gold & Options & Description & Frames\\\midrule
+1 & 3 & 1 & 5 & 4\\
+2 & 3 & 1 & 3 & 3\\
+3 & 4 & 1 & 5 & 5\\
+4 & 1 & 2 & 1 & 1\\
+5 & 4 & 2 & 4 & 4\\
+6 & 1 & 2 & 2 & 2\\
+7 & 2 & 4 & 5 & 2\\
+8 & 1 & 2 & 5 & 4\\
+9 & 3 & 3 & 3 & 3\\
+10 & 3 & 3 & 5 & 5\\
+11 & 2 & 2 & 5 & 2\\
+12 & 1 & 2 & 1 & 2\\
+13 & 1 & 1 & 1 & 1\\
+14 & 1 & 2 & 5 & 5\\
+15 & 2 & 3 & 5 & 5\\
+16 & 4 & 4 & 2 & 4\\
+17 & 1 & 1 & 1 & 1\\
+18 & 2 & 1 & 2 & 5\\
+19 & 3 & 3 & 5 & 5\\
+20 & 4 & 4 & 5 & 5\\
+\bottomrule\end{tabular}
+\end{center}
+
+\paragraph{Frame-stage gains and losses.} Items 7, 11, and 16 change from disagreement to agreement. At item 7 the participant cites a basket and a person across a counter, conflicting with the pantry-stocking description. At item 11 the participant cites a woman beside a path, conflicting with the description of an empty park. At item 16 the participant cites construction materials and hazards, while acknowledging the next action is unclear. These are participant rationales, not independently established mechanisms.
+
+Items 12 and 18 lose gold agreement. At item 12, the participant switches from steadying a handrail to holding a pipe during grinding; gold remains the handrail option. At item 18, the participant switches from joining the next badminton game to none because play appears underway; gold remains joining the next game. Items 1 and 8 change but still disagree: the participant interprets an extended cup or slip as giving rather than receiving. These examples show why a changed answer is not automatically a correction. No gold labels or scores were altered to accommodate plausible alternatives.
+
+Final frame-stage disagreements remain on items 1, 3, 6, 8, 10, 12, 14, 15, 18, 19, and 20. The complete response table preserves both choices and confidence, so ambiguity can be reviewed without retrospectively changing the metric.
+
+\clearpage
+\section*{Evidence coding and limits}
+\paragraph{Post-hoc coding.} Codex assigned non-exclusive categories to each submitted reason as a single AI coder. The labels describe what the participant said, including explicitly cited absence, not verified scene content. \textbf{Text} denotes answer-language plausibility or use of the supplied description; \textbf{scene/object} denotes stated scene, object, person, or activity identity; \textbf{spatial} denotes an explicit position or relation; \textbf{gesture/gaze} denotes hand extension, grip, or gaze used as an interaction cue; \textbf{temporal interaction} denotes explicit repetition, sequence, already-in-progress state, or next-step timing. Content categories can occur in descriptions as well as images. Options-only guesses are coded as text, rather than evidence of actually observing the imagined situation. No independent coder assessed these labels, so coding reliability is unavailable.
+
+\begin{center}
+\begin{tabular}{lrrr}\toprule
+Evidence category & Options & Description & Frames\\\midrule
+Text & 20 & 20 & 0\\
+Scene/object & 0 & 20 & 20\\
+Spatial & 0 & 0 & 7\\
+Gesture/gaze & 0 & 0 & 3\\
+Temporal interaction & 0 & 5 & 4\\\bottomrule
+\end{tabular}
+\end{center}
+Each column represents 20 reasons; categories overlap, so counts must not be summed as separate responses. Description-stage text tags follow the coding rule and do not measure a discovered preference for text. The gesture/gaze category here reflects hand cues; it does not establish use of gaze. These counts are descriptive coding outcomes, not independent evidence of which visual features caused a decision.
+
+\paragraph{Scientific limits.} This is one participant on 20 repeated items, not 60 independent human observations. The selected media subset, fixed order, repeated exposure, between-block feedback, lack of independent verification of unaided completion, and single-coder evidence tags limit interpretation. We make no population performance estimate, significance claim, or causal attribution to modality. None is gold on zero of these 20 items, so the sample does not cover correct none decisions. Confidence is ordinal self-report; its mean is a descriptive summary. The exercise does not test curriculum learning or establish parity with published human benchmark performance. More independent participants would be needed for inter-person agreement.
+
+\begingroup\raggedright
+\paragraph{Artifacts and integration.} Full responses and provenance are in \texttt{human\_simulation/chat\_session.json}; scored records are in \texttt{responses\_scored.csv}. The same directory contains \texttt{evidence\_coding.json} and \texttt{evidence\_codebook.json}. Seven \texttt{human\_*} tables retain stage and block summaries, transitions, stage agreement, item results, and evidence counts. Reproduction uses \texttt{scripts/11\_human\_results.py}. The main Analysis~1 section includes a compact result; this standalone record is supporting material and cannot be added to the assignment appendix without checking the team's page allowance.
+\par\endgroup

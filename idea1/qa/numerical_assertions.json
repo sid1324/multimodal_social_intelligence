@@ -1,0 +1,176 @@
+[
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_joint_blind",
+    "status": "PASS",
+    "numerator": 220,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_joint_desc",
+    "status": "PASS",
+    "numerator": 270,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_joint_grid",
+    "status": "PASS",
+    "numerator": 771,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_action_blind",
+    "status": "PASS",
+    "numerator": 272,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_action_desc",
+    "status": "PASS",
+    "numerator": 325,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_action_grid",
+    "status": "PASS",
+    "numerator": 863,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_justification_blind",
+    "status": "PASS",
+    "numerator": 253,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_justification_desc",
+    "status": "PASS",
+    "numerator": 306,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Flash_justification_grid",
+    "status": "PASS",
+    "numerator": 824,
+    "denominator": 1851
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_joint_blind",
+    "status": "PASS",
+    "numerator": 243,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_joint_desc",
+    "status": "PASS",
+    "numerator": 351,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_joint_grid",
+    "status": "PASS",
+    "numerator": 538,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_action_blind",
+    "status": "PASS",
+    "numerator": 284,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_action_desc",
+    "status": "PASS",
+    "numerator": 427,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_action_grid",
+    "status": "PASS",
+    "numerator": 609,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_justification_blind",
+    "status": "PASS",
+    "numerator": 271,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_justification_desc",
+    "status": "PASS",
+    "numerator": 392,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_Gemini-1.5-Pro_justification_grid",
+    "status": "PASS",
+    "numerator": 562,
+    "denominator": 1156
+  },
+  {
+    "check": "raw_numerator_GPT-4o_joint_blind",
+    "status": "PASS",
+    "numerator": 213,
+    "denominator": 1194
+  },
+  {
+    "check": "raw_numerator_GPT-4o_joint_desc",
+    "status": "PASS",
+    "numerator": 243,
+    "denominator": 1194
+  },
+  {
+    "check": "raw_numerator_GPT-4o_joint_grid",
+    "status": "PASS",
+    "numerator": 470,
+    "denominator": 1194
+  },
+  {
+    "check": "raw_numerator_GPT-4o_action_blind",
+    "status": "PASS",
+    "numerator": 240,
+    "denominator": 1194
+  },
+  {
+    "check": "raw_numerator_GPT-4o_action_desc",
+    "status": "PASS",
+    "numerator": 274,
+    "denominator": 1194
+  },
+  {
+    "check": "raw_numerator_GPT-4o_action_grid",
+    "status": "PASS",
+    "numerator": 535,
+    "denominator": 1194
+  },
+  {
+    "check": "raw_numerator_GPT-4o_justification_blind",
+    "status": "PASS",
+    "numerator": 240,
+    "denominator": 1194
+  },
+  {
+    "check": "raw_numerator_GPT-4o_justification_desc",
+    "status": "PASS",
+    "numerator": 273,
+    "denominator": 1194
+  },
+  {
+    "check": "raw_numerator_GPT-4o_justification_grid",
+    "status": "PASS",
+    "numerator": 528,
+    "denominator": 1194
+  },
+  {
+    "check": "five_choice_source_OOF_integrity",
+    "status": "PASS"
+  },
+  {
+    "check": "five_choice_strict_OOF_integrity",
+    "status": "PASS"
+  },
+  {
+    "check": "strict_shared_behavior_fold_integrity",
+    "status": "PASS"
+  }
+]

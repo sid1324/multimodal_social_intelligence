@@ -1,0 +1,4 @@
+stage,participants,n_items,correct,accuracy_percent,mean_confidence,none_choices
+options,1,20,8,40.0,1,0
+description,1,20,8,40.0,4,10
+frames,1,20,9,45.0,4.05,7

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-04",
+  "python": "3.13.5",
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "package_versions": {
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "torch": "2.13.0",
+    "transformers": "5.2.0",
+    "sentence-transformers": "5.2.3",
+    "matplotlib": "3.10.8",
+    "statsmodels": "0.14.6",
+    "Pillow": "12.3.0",
+    "pyarrow": "23.0.1",
+    "huggingface-hub": "1.23.0",
+    "requests": "2.32.5",
+    "safetensors": "0.7.0",
+    "empath": "0.89",
+    "reportlab": "5.0.1"
+  },
+  "egonormia_github_commit": "09d8a7c53f06ed582236722ba8496c6a504cd1ab",
+  "egonormia_hf_commit": "2937df7fa96d8515417e7b5122fbf8eaeeaeee86",
+  "normlens_commit": "2663c3240ac2f325950f5b4fe36ae196ed4d46be",
+  "videonorms_inspected_commit": "c405c227e71d137f18e8833b7147985433d66ec8",
+  "normbank_url": "https://drive.google.com/uc?export=download&id=1414I6GGCGmhmP7NCS_AQdI9XPvzAcdTK",
+  "normbank_sha256": "6aa9e513b66c914988870970f5b2bd23ba7620db19944332c92574a464790112",
+  "source_hashes": {
+    "data/egonormia/ood_robot.json": "978f3b40f36721c989a74312fba159a5f972235624182e956f893921d9f06f1b",
+    "data/egonormia/ood_robot_eval.json": "603def29b3b5166a038244e5eeb2b6d785af5a0ec805b02554cebe8a9a03b2e7",
+    "data/egonormia/final_data_eval.json": "8d81c140e914aabf448f3962cf3964a42373970d2d8479f30eed16489be1aa9e",
+    "data/egonormia/verified_split.json": "65820d50f700ca5d8bc2225910db8e1996e7b8eddb20d495a8cefcf732c23cff",
+    "data/egonormia/final_data.json": "0f19bc41374bf13b359a55fb65b4ba3e5db5a217c31727bc9ff5b1fa6d32e225"
+  },
+  "model_sources": [
+    {
+      "repo": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    {
+      "repo": "sentence-transformers/all-mpnet-base-v2",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    }
+  ]
+}

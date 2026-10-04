@@ -1,0 +1,69 @@
+{
+  "rows": 155423,
+  "columns": [
+    "setting",
+    "behavior",
+    "setting-behavior",
+    "constraints",
+    "constraints_given",
+    "constraint_predict",
+    "norm",
+    "label",
+    "split"
+  ],
+  "missing": {
+    "setting": 0,
+    "behavior": 0,
+    "setting-behavior": 0,
+    "constraints": 0,
+    "constraints_given": 0,
+    "constraint_predict": 0,
+    "norm": 0,
+    "label": 0,
+    "split": 0
+  },
+  "exact_duplicate_rows": 32059,
+  "label_counts": {
+    "0": 68057,
+    "1": 59507,
+    "2": 27859
+  },
+  "norm_counts": {
+    "taboo": 68057,
+    "normal": 59507,
+    "expected": 27859
+  },
+  "split_counts": {
+    "train": 124920,
+    "test": 15495,
+    "dev": 15008
+  },
+  "unique_settings": 129,
+  "unique_behaviors": 6938,
+  "label_norm_cross_tab": {
+    "expected": {
+      "0": 0,
+      "1": 0,
+      "2": 27859
+    },
+    "normal": {
+      "0": 0,
+      "1": 59507,
+      "2": 0
+    },
+    "taboo": {
+      "0": 68057,
+      "1": 0,
+      "2": 0
+    }
+  },
+  "duplicate_context_keys": 33460,
+  "context_keys_with_conflicting_labels": 1166,
+  "context_overlap_across_splits": {
+    "dev__test": 0,
+    "dev__train": 0,
+    "test__train": 0
+  },
+  "setting_behavior_groups": 13379,
+  "setting_behavior_groups_with_multiple_norms": 13250
+}

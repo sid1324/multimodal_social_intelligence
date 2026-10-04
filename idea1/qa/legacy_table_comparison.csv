@@ -1,0 +1,20 @@
+file,status,details
+artifact_easy_hard_models.csv,differences,n_easy:4; acc_easy:4; n_hard:4; acc_hard:4; gap:4
+artifact_x_ladder.csv,differences,n:6; blind:6; desc:6; grid:6; desc_to_grid:6
+egonormia_items.csv,exact_or_numeric_match,
+egonormia_label_cooccurrence_correct.csv,exact_or_numeric_match,
+egonormia_label_counts_full.csv,exact_or_numeric_match,
+egonormia_label_counts_verified.csv,exact_or_numeric_match,
+ladder_by_norm.csv,exact_or_numeric_match,
+ladder_by_norm_pooled_delta.csv,exact_or_numeric_match,
+ladder_gold_sensitivity.csv,exact_or_numeric_match,
+ladder_overall.csv,exact_or_numeric_match,
+ladder_pairwise.csv,exact_or_numeric_match,
+ladder_transitions.csv,exact_or_numeric_match,
+ladder_verified_subset.csv,exact_or_numeric_match,
+lang_answer_probe.csv,differences,top1_action_acc:3
+lang_artifact_checks.csv,differences,0:6
+lang_artifact_top_ngrams.csv,exact_or_numeric_match,
+lang_norm_auroc.csv,differences,Safety:5; Privacy:5; Proxemics:5; Politeness:5; Cooperation:5; Coordination:5; Communication:5; macro:5
+lang_option_label_prevalence.csv,exact_or_numeric_match,
+lang_probe_item_correct.csv,differences,text_probe_correct:164

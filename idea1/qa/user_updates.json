@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-04",
+  "videonorms": {
+    "source": "User statement in conversation",
+    "authors_contacted": true,
+    "expected_access": "soon, as reported by user",
+    "receipt_confirmed": false,
+    "delivery_date_confirmed": false
+  },
+  "human_exercise": {
+    "participant": "participant_01",
+    "status": "completed; 60 participant-supplied responses on 20 items",
+    "design": "Two sequential ten-item blocks. Each block: options batch, description batch, frames batch. First-block results and item-level feedback disclosed before second block.",
+    "reporting_limit": "One participant, repeated items, fixed order and between-block feedback; no inter-person agreement; unaided completion not verified; evidence tags assigned post hoc by one AI coder."
+  }
+}

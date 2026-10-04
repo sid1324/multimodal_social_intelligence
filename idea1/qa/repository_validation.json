@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Repository distribution, not the full private artifact ZIP",
+  "core_checks_passed": 128,
+  "human_choices_checked": 60,
+  "human_confidence_values_checked": 60,
+  "human_items": 20,
+  "human_correct_counts": [
+    8,
+    8,
+    9
+  ],
+  "result_tables_semantically_identical_to_verified_package": 52,
+  "omitted_source_text_tables": [
+    "normlens_items.csv",
+    "hf_github_field_differences.csv"
+  ],
+  "python_syntax": "PASS",
+  "download_check": "Core restoration executed against existing local files and verified pinned hashes. Full external/model/media redownload not repeated.",
+  "source_package_sha256": "4a83de407ebc19d8e52ccf44a4db7eabe8aa017942c4dd8186e18e6261e2bae5",
+  "repository_changes": "idea1/ plus root README links; Idea 3 untouched"
+}

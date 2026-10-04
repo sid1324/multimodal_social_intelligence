@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{microtype,graphicx,booktabs,amsmath}
+\usepackage[preprint]{icml2026}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\icmltitlerunning{Analysis 1: Methods and Evidence Supplement}
+\begin{document}
+\makeatletter\global\icml@noticeprintedtrue\makeatother
+\input{../sections/methods_supplement}
+\clearpage
+\input{../sections/external_audits}
+\clearpage\onecolumn
+\input{../sections/qualitative_cases}
+\clearpage
+\section{Representation visualizations}
+\begin{center}
+\includegraphics[width=.90\textwidth]{../outputs/figures/clip_tsne.pdf}
+\end{center}
+\noindent\textbf{CLIP.} The same t-SNE coordinates are recolored for each overlapping correct-action category on the 400-item sample. Gray denotes absence and blue denotes presence. Label overlap, scene composition, and low positive counts prevent treating this as proof of norm disentanglement.
+\begin{center}
+\includegraphics[width=.82\textwidth]{../outputs/figures/sbert_tsne.pdf}
+\end{center}
+\noindent\textbf{MPNet.} Only single-label nonempty options are plotted. Neighborhood structure is exploratory; the supervised out-of-fold metrics, not visual clusters, quantify prediction.
+\clearpage
+\bibliographystyle{icml2026}\bibliography{references}
+\end{document}

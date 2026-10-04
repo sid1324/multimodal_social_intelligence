@@ -1,0 +1,6 @@
+{
+  "data/external/NormBank.csv": "6aa9e513b66c914988870970f5b2bd23ba7620db19944332c92574a464790112",
+  "data/external/egonormia_hf.parquet": "0dce88b77f3c0f911b015466d0efac211d5d71f71f956294de361c7b5aa97cb7",
+  "data/external/high_agreement.jsonl": "e2be26d08d3d447f2225ff1f04d18521c0406e60ffbd0f9fa85679844332bf58",
+  "data/external/mid_agreement.jsonl": "227725a7db718c1d374e8729bfc2c649627b7de0c9c4d7150aae7facf3c076ea"
+}

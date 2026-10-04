@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "choices_checked": 60,
+  "confidence_values_checked": 60,
+  "stage_correct_counts": [
+    8,
+    8,
+    9
+  ],
+  "independent_transition_counts_changed_gained_lost": [
+    [
+      16,
+      5,
+      5
+    ],
+    [
+      7,
+      3,
+      2
+    ]
+  ],
+  "all_items_verified": true,
+  "original_hash_selection_reproduced": true,
+  "source_prefixes": 20,
+  "method": "Separate message-transcription arrays plus row-level arithmetic, verified membership, and independent hash-selection recomputation."
+}

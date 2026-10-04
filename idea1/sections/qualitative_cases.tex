@@ -1,0 +1,15 @@
+\section{Reproducibly selected qualitative cases}
+\begin{center}
+\includegraphics[width=0.92\textwidth]{../outputs/figures/qualitative_cases.pdf}
+\end{center}
+\noindent\textbf{Selection protocol.} Restrict to the 400 downloaded IDs with matched Flash description/grid predictions. Define rescue as description joint-wrong and grid joint-correct (145 eligible examples), and persistent failure as both joint-wrong (210 eligible examples). Within each group sort the SHA-256 hash of \texttt{qualitative-20261004:} plus ID, and select the first. These are illustrations, not estimated frequencies of a failure mechanism. Frames 1 and 5 are shown for A, and 2 and 3 for B; complete strips, descriptions, options, and zero-based released predictions are preserved in the package.
+
+\paragraph{A. Forest group: visual rescue.}
+ID: \texttt{600e392c-4be6-4b8b-bef8-e789ce3d8915\_3230-09}.
+Description prediction $(2,2)$; grid prediction $(1,1)$; gold index 1. The four nonempty actions concern participating in a program, maintaining pace and engaging respectfully, following reenactment leaders, and cooperating with supervisors. The fifth option is none. The description already reports a group on a wooded path, so this is not a case of wholly absent group context. The final inspected frame additionally shows a fist bump with a nearby person; that concrete interaction is absent from the description. The gold justification emphasizes a respectful and collaborative atmosphere, group cohesion, and a positive shared experience. Visual interaction evidence is consistent with the corrected choice, but no causal attribution or model rationale can be recovered from the released index pair.
+
+\paragraph{B. Dog scene: action correct, justification wrong.}
+ID: \texttt{e402df54-0a64-424e-a7e6-3e68b18a761c\_62-43}.
+Description prediction $(2,2)$; grid prediction $(3,4)$; gold index 3. The four nonempty actions concern inspecting the dog's body, positioning it for show standards, letting it sniff before careful touch, and calmly stroking its fur; the fifth is none. The grid changes the selected action to the gold calm-stroking behavior, but selects the none justification. The frames show a home interior and a dog near the camera; the description already mentions petting. This example establishes a dissociation between action and justification outcomes. It does not prove that missing temporal evidence caused the failure, and the released prompt issue could affect interpretation.
+
+\paragraph{Inspection status.} The displayed pixels and exact choices were checked by the AI assistant against the downloaded strips. This is a qualitative model/data audit, not a human-subject experiment or a substitute for teammate annotation.

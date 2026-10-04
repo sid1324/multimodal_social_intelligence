@@ -1,0 +1,80 @@
+{
+  "high_agreement": {
+    "rows": 934,
+    "unique_ids": 934,
+    "unique_images": 875,
+    "unique_action_texts": 853,
+    "exact_duplicate_image_text": 0,
+    "majority_label_counts": {
+      "2": 397,
+      "1": 350,
+      "0": 187
+    },
+    "unanimous_rows": 934,
+    "vote_counts": {
+      "5": 649,
+      "4": 213,
+      "3": 47,
+      "2": 21,
+      "1": 4
+    },
+    "tied_majorities": 0,
+    "missing_by_field": {
+      "question_id": 0,
+      "image": 0,
+      "text": 0,
+      "answer_judgment": 0,
+      "answer_explanation": 0,
+      "image_src": 0,
+      "caption": 0
+    }
+  },
+  "mid_agreement": {
+    "rows": 1049,
+    "unique_ids": 1049,
+    "unique_images": 954,
+    "unique_action_texts": 981,
+    "exact_duplicate_image_text": 0,
+    "majority_label_counts": {
+      "2": 371,
+      "1": 307,
+      "0": 254,
+      "-1": 117
+    },
+    "unanimous_rows": 0,
+    "vote_counts": {
+      "5": 648,
+      "4": 304,
+      "3": 86,
+      "2": 11
+    },
+    "tied_majorities": 117,
+    "missing_by_field": {
+      "question_id": 0,
+      "image": 0,
+      "text": 0,
+      "answer_judgment": 0,
+      "answer_explanation": 0,
+      "image_src": 0,
+      "caption": 0
+    }
+  },
+  "combined_context_diagnostic": {
+    "repeated_text_groups_with_multiple_images": 162,
+    "rows_in_repeated_text_groups": 418,
+    "groups_with_different_image_conditioned_majorities": 67,
+    "rows_not_equal_to_a_text_modal_label_min_count": 82,
+    "deviation_rate": 0.19617224880382775,
+    "text_modal_tie_groups": 45,
+    "interpretation": "Descriptive inconsistency with the within-dataset modal judgment for identical normalized action text; not comparison against separately annotated text-only gold."
+  },
+  "high_agreement_context_diagnostic": {
+    "repeated_text_groups_with_multiple_images": 69,
+    "rows_in_repeated_text_groups": 170,
+    "groups_with_different_image_conditioned_majorities": 25,
+    "rows_not_equal_to_a_text_modal_label_min_count": 29,
+    "deviation_rate": 0.17058823529411765,
+    "text_modal_tie_groups": 21,
+    "interpretation": "Descriptive inconsistency with the within-dataset modal judgment for identical normalized action text; not comparison against separately annotated text-only gold."
+  }
+}

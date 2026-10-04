@@ -1,0 +1,7 @@
+block,stage,n_items,correct,accuracy_percent,mean_confidence
+first_10,options,10,2,20.0,1
+first_10,description,10,4,40.0,4.4
+first_10,frames,10,5,50.0,4.3
+second_10,options,10,6,60.0,1
+second_10,description,10,4,40.0,3.6
+second_10,frames,10,4,40.0,3.8

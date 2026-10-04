@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "method": "Fresh extraction of the 20-item updated archive; rerun human scoring, independent human transcription/selection checks, and 128 core checks. All 54 result tables compared byte-for-byte. Prior full cached-pipeline reproduction for unchanged 47 tables is recorded separately.",
+  "rerun_scripts": [
+    "11_human_results.py",
+    "12_human_validate.py",
+    "10_validate.py"
+  ],
+  "tables_compared_byte_for_byte": 54,
+  "table_differences": [],
+  "all_package_manifest_hashes_verified": true,
+  "human_responses": 60,
+  "human_items": 20,
+  "human_participants": 1,
+  "human_stage_correct_counts": [
+    8,
+    8,
+    9
+  ]
+}
