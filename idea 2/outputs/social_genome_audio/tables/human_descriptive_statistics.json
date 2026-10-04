@@ -1,0 +1,17 @@
+{
+  "confidence": [
+    {
+      "annotator": "annotator1",
+      "n": 24,
+      "missing": 0,
+      "median": 5.0,
+      "counts": {
+        "4": 5,
+        "5": 19
+      }
+    }
+  ],
+  "quality_flag_count": 0,
+  "completed": 24,
+  "note": "Wilson intervals describe item proportions for this annotator; availability sampling and one rater limit generalization. Audio use is not proof of audio necessity."
+}

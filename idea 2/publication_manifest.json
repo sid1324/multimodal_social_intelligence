@@ -1,0 +1,501 @@
+{
+  "exclusions": [
+    "docs/",
+    "data/ (raw media, source metadata and individual annotation exports)",
+    "Assignment Instructions PDF",
+    ".cache/",
+    "embedding arrays and download logs"
+  ],
+  "artifacts": [
+    {
+      "source_path": "outputs/social_genome/tables/candidate_hard_negatives.csv",
+      "published_path": "outputs/social_genome/tables/candidate_hard_negatives.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "d7e95a8c07191d9d754528b3185f4d290e96bce32d7dadfb6f4baf5204158e3c",
+      "published_sha256": "d7e95a8c07191d9d754528b3185f4d290e96bce32d7dadfb6f4baf5204158e3c"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/cross_human_exclusions.csv",
+      "published_path": "outputs/social_genome/tables/cross_human_exclusions.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "67aa003e1b68f22f1a4f393b1b3c0268244ad28941ed7184a9c5ce9041c32adc",
+      "published_sha256": "67aa003e1b68f22f1a4f393b1b3c0268244ad28941ed7184a9c5ce9041c32adc"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/cross_human_retrieval.csv",
+      "published_path": "outputs/social_genome/tables/cross_human_retrieval.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "59a1e1a8383087da6c241eae11ba53d4584594bcf646c0620cab1ee5172d5522",
+      "published_sha256": "59a1e1a8383087da6c241eae11ba53d4584594bcf646c0620cab1ee5172d5522"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/cross_human_similarity.csv",
+      "published_path": "outputs/social_genome/tables/cross_human_similarity.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "c050591f2f35c2b1e4b0ef18417dc30d0b99785e610bc269420fb942d59feab9",
+      "published_sha256": "c050591f2f35c2b1e4b0ef18417dc30d0b99785e610bc269420fb942d59feab9"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/cross_human_statistics.json",
+      "published_path": "outputs/social_genome/tables/cross_human_statistics.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "53a307d2791f0d6d9d6d1e81d021d57522ae458184b49d4f969f0b2de3b22e70",
+      "published_sha256": "53a307d2791f0d6d9d6d1e81d021d57522ae458184b49d4f969f0b2de3b22e70"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/dataset_inspection.json",
+      "published_path": "outputs/social_genome/tables/dataset_inspection.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "36e40c824d84b4f71114456ad1357ef1b529c22d5aa6b8ee8967cd70ddda33d5",
+      "published_sha256": "36e40c824d84b4f71114456ad1357ef1b529c22d5aa6b8ee8967cd70ddda33d5"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/human_completion.csv",
+      "published_path": "outputs/social_genome/tables/human_completion.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "244718526d256d24487e0fa56776e2a0291073ff74046b61b5baa8ab92541ed0",
+      "published_sha256": "244718526d256d24487e0fa56776e2a0291073ff74046b61b5baa8ab92541ed0"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/human_statistics.json",
+      "published_path": "outputs/social_genome/tables/human_statistics.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "36d45b479e66be0550153f8cb46fff28065ab477e52904fe9b3bb47a1ac0f626",
+      "published_sha256": "36d45b479e66be0550153f8cb46fff28065ab477e52904fe9b3bb47a1ac0f626"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/missing_trims.csv",
+      "published_path": "outputs/social_genome/tables/missing_trims.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "137e7f17c6f67678dee5766018f0472c37df73394aaba8d4ae159e44c00b6871",
+      "published_sha256": "137e7f17c6f67678dee5766018f0472c37df73394aaba8d4ae159e44c00b6871"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/public_language_statistics.json",
+      "published_path": "outputs/social_genome/tables/public_language_statistics.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "38bbd74489d019f223fa484d05957c0b7a07137e329f1b31a141593a0522a2f7",
+      "published_sha256": "38bbd74489d019f223fa484d05957c0b7a07137e329f1b31a141593a0522a2f7"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/question_cluster_terms.csv",
+      "published_path": "outputs/social_genome/tables/question_cluster_terms.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "d1cef76037772cb9e21dc65b238e1e755862fad85cfdf8ffc58fe3d0ab6496c3",
+      "published_sha256": "d1cef76037772cb9e21dc65b238e1e755862fad85cfdf8ffc58fe3d0ab6496c3"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/question_clusters.csv",
+      "published_path": "outputs/social_genome/tables/question_cluster_assignments.csv",
+      "transformation": "Removed source/response text columns: text",
+      "source_sha256": "5235c919051ff4b94623d67a416c393840625dd8504f5bde28666e7edb6c6091",
+      "published_sha256": "a7afc17df2dea29fd5dfa861de4c8e77221ab9244f672f5d827d6b6c09818a0f"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/question_transcript_comparison.csv",
+      "published_path": "outputs/social_genome/tables/question_transcript_comparison.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "4b4d74a84e08f44dc678999f57e1d8698bd564bbb96027815d0183b1e7b9fe81",
+      "published_sha256": "4b4d74a84e08f44dc678999f57e1d8698bd564bbb96027815d0183b1e7b9fe81"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/question_tsne.csv",
+      "published_path": "outputs/social_genome/tables/question_tsne.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "8968d8bc211a1268ec47c8628e870e5f865affb679f5a605ca79ae08e3fb4d80",
+      "published_sha256": "8968d8bc211a1268ec47c8628e870e5f865affb679f5a605ca79ae08e3fb4d80"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/questions_per_video.csv",
+      "published_path": "outputs/social_genome/tables/questions_per_video.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "f32ae54705eaa848798360303c880165c039822cecdb939c436ecafbdbf3b265",
+      "published_sha256": "f32ae54705eaa848798360303c880165c039822cecdb939c436ecafbdbf3b265"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/transcript_cluster_terms.csv",
+      "published_path": "outputs/social_genome/tables/transcript_cluster_terms.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "f490339c87f81a95d6dd0310f8267b9fc4940f3007080398677d13cdd39c7020",
+      "published_sha256": "f490339c87f81a95d6dd0310f8267b9fc4940f3007080398677d13cdd39c7020"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/transcript_clusters.csv",
+      "published_path": "outputs/social_genome/tables/transcript_cluster_assignments.csv",
+      "transformation": "Removed source/response text columns: text",
+      "source_sha256": "a09b38ac8135bdd7fb682f659d591aabd45ebbffec12e46ec8416e1d58f28cde",
+      "published_sha256": "ce80c2b339c9ea8720be8d3cf8c2649cab204439c71045160cd5b5f8c6ae14b0"
+    },
+    {
+      "source_path": "outputs/social_genome/tables/transcript_tsne.csv",
+      "published_path": "outputs/social_genome/tables/transcript_tsne.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "28c7593020e95c1d6b0824e8a9315901d13a35c8a0580a2cd33860fae5105e5a",
+      "published_sha256": "28c7593020e95c1d6b0824e8a9315901d13a35c8a0580a2cd33860fae5105e5a"
+    },
+    {
+      "source_path": "outputs/social_genome/figures/B0_question_transcript_similarity.pdf",
+      "published_path": "outputs/social_genome/figures/B0_question_transcript_similarity.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "f41511ab77da12701906f65e32fd785000c3acf7fd3240928a84cad5cc109f11",
+      "published_sha256": "f41511ab77da12701906f65e32fd785000c3acf7fd3240928a84cad5cc109f11"
+    },
+    {
+      "source_path": "outputs/social_genome/figures/B0_question_transcript_similarity.png",
+      "published_path": "outputs/social_genome/figures/B0_question_transcript_similarity.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "708dde9107dde200fddb34da3f6dc3d66e4e32521a2a73ecf837d51590ec6eb5",
+      "published_sha256": "708dde9107dde200fddb34da3f6dc3d66e4e32521a2a73ecf837d51590ec6eb5"
+    },
+    {
+      "source_path": "outputs/social_genome/figures/B2_question_tsne.pdf",
+      "published_path": "outputs/social_genome/figures/B2_question_tsne.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "44c1f1b479cfaee46b0d529b99275d57bf5e1a405d2ce543f1e31879be15b6bc",
+      "published_sha256": "44c1f1b479cfaee46b0d529b99275d57bf5e1a405d2ce543f1e31879be15b6bc"
+    },
+    {
+      "source_path": "outputs/social_genome/figures/B2_question_tsne.png",
+      "published_path": "outputs/social_genome/figures/B2_question_tsne.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "a3f5475bb0fc443e37c06fac07d62262926fcd25cd7957488e25e4c297e98045",
+      "published_sha256": "a3f5475bb0fc443e37c06fac07d62262926fcd25cd7957488e25e4c297e98045"
+    },
+    {
+      "source_path": "outputs/social_genome/figures/B2_transcript_tsne.pdf",
+      "published_path": "outputs/social_genome/figures/B2_transcript_tsne.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "693c6b94c9d6b997ccb50cb37c3a7973c5f3e2efd67eeb6f8e0386e0f4a92ce4",
+      "published_sha256": "693c6b94c9d6b997ccb50cb37c3a7973c5f3e2efd67eeb6f8e0386e0f4a92ce4"
+    },
+    {
+      "source_path": "outputs/social_genome/figures/B2_transcript_tsne.png",
+      "published_path": "outputs/social_genome/figures/B2_transcript_tsne.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "86d7d3ca147c81e26318d5a1a6dc525c0434fb40541a110d5feec6dfa84c8f4b",
+      "published_sha256": "86d7d3ca147c81e26318d5a1a6dc525c0434fb40541a110d5feec6dfa84c8f4b"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/annotation_quality_flags.csv",
+      "published_path": "outputs/social_genome_audio/tables/annotation_quality_flags.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "f411654157460637340501c5d8740be0e5508b22a95d718b79f5b9ac4b733190",
+      "published_sha256": "f411654157460637340501c5d8740be0e5508b22a95d718b79f5b9ac4b733190"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/candidate_hard_negatives.csv",
+      "published_path": "outputs/social_genome_audio/tables/candidate_hard_negatives.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "d7e95a8c07191d9d754528b3185f4d290e96bce32d7dadfb6f4baf5204158e3c",
+      "published_sha256": "d7e95a8c07191d9d754528b3185f4d290e96bce32d7dadfb6f4baf5204158e3c"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/cross_human_exclusions.csv",
+      "published_path": "outputs/social_genome_audio/tables/cross_human_exclusions.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "67aa003e1b68f22f1a4f393b1b3c0268244ad28941ed7184a9c5ce9041c32adc",
+      "published_sha256": "67aa003e1b68f22f1a4f393b1b3c0268244ad28941ed7184a9c5ce9041c32adc"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/cross_human_retrieval.csv",
+      "published_path": "outputs/social_genome_audio/tables/cross_human_retrieval.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "59a1e1a8383087da6c241eae11ba53d4584594bcf646c0620cab1ee5172d5522",
+      "published_sha256": "59a1e1a8383087da6c241eae11ba53d4584594bcf646c0620cab1ee5172d5522"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/cross_human_similarity.csv",
+      "published_path": "outputs/social_genome_audio/tables/cross_human_similarity.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "c050591f2f35c2b1e4b0ef18417dc30d0b99785e610bc269420fb942d59feab9",
+      "published_sha256": "c050591f2f35c2b1e4b0ef18417dc30d0b99785e610bc269420fb942d59feab9"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/cross_human_statistics.json",
+      "published_path": "outputs/social_genome_audio/tables/cross_human_statistics.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "70f2e44b8075765488bd9e500a8b7385ced1f7a0a1c6702a3b93c293c1c9767d",
+      "published_sha256": "70f2e44b8075765488bd9e500a8b7385ced1f7a0a1c6702a3b93c293c1c9767d"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/dataset_inspection.json",
+      "published_path": "outputs/social_genome_audio/tables/dataset_inspection.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "36e40c824d84b4f71114456ad1357ef1b529c22d5aa6b8ee8967cd70ddda33d5",
+      "published_sha256": "36e40c824d84b4f71114456ad1357ef1b529c22d5aa6b8ee8967cd70ddda33d5"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_completion.csv",
+      "published_path": "outputs/social_genome_audio/tables/human_completion.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "bc60f00a101273bb1ec29fceea3007a2272edc18d8c5853e993a9ae0df549c8b",
+      "published_sha256": "bc60f00a101273bb1ec29fceea3007a2272edc18d8c5853e993a9ae0df549c8b"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_cue_rates.csv",
+      "published_path": "outputs/social_genome_audio/tables/human_cue_rates.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "ef5ed44b861f4b7d16240af30958326c858849ca83f914f9a03bccddda8588b3",
+      "published_sha256": "ef5ed44b861f4b7d16240af30958326c858849ca83f914f9a03bccddda8588b3"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_descriptive_statistics.json",
+      "published_path": "outputs/social_genome_audio/tables/human_descriptive_statistics.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "30d443ce8481f7b53a5298c95ada956230379746f8fd400f9ce1d27eac440708",
+      "published_sha256": "30d443ce8481f7b53a5298c95ada956230379746f8fd400f9ce1d27eac440708"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_evidence_cluster_terms_annotator1.csv",
+      "published_path": "outputs/social_genome_audio/tables/human_evidence_cluster_terms_annotator1.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "70312872ddaaae4a2805c7ab9b23770a6e138052aa321443800568cbe0d95b5a",
+      "published_sha256": "70312872ddaaae4a2805c7ab9b23770a6e138052aa321443800568cbe0d95b5a"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_evidence_lengths.csv",
+      "published_path": "outputs/social_genome_audio/tables/human_evidence_lengths.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "988a640878ad988e890dda8d738df60468d3db7f9b5a80ba98be48c92b879a37",
+      "published_sha256": "988a640878ad988e890dda8d738df60468d3db7f9b5a80ba98be48c92b879a37"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_evidence_structure_annotator1.csv",
+      "published_path": "outputs/social_genome_audio/tables/human_evidence_assignments_annotator1.csv",
+      "transformation": "Removed source/response text columns: human_evidence",
+      "source_sha256": "2920775beb969f6424606c58aaa7943d18ac842dc07d8ed9b479f83ab0689f15",
+      "published_sha256": "6e65ae39a6776ee66c2ee4b34c89dad05d24fc43852c9aed428d49aab9b7dfb7"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_language_statistics.json",
+      "published_path": "outputs/social_genome_audio/tables/human_language_statistics.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "3c3efc0c4273ddff3572b8152ec34022f47fa0f7c2251b001c96749dc06d799a",
+      "published_sha256": "3c3efc0c4273ddff3572b8152ec34022f47fa0f7c2251b001c96749dc06d799a"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_rates.csv",
+      "published_path": "outputs/social_genome_audio/tables/human_rates.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "be4f12c976c254c4d50c0141328390229f61affec2c020b2d2281252fc077439",
+      "published_sha256": "be4f12c976c254c4d50c0141328390229f61affec2c020b2d2281252fc077439"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_statistics.json",
+      "published_path": "outputs/social_genome_audio/tables/human_statistics.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "ad39cfee49207744bd3e87f46e297e50de92344b72a1047b96711ea327f99e48",
+      "published_sha256": "ad39cfee49207744bd3e87f46e297e50de92344b72a1047b96711ea327f99e48"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_transcript_association.csv",
+      "published_path": "outputs/social_genome_audio/tables/human_transcript_association.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "16e21a1fe9d976253291e54dfdc0f3ec81c22bd4ab8a92ae016f2541c02f74ea",
+      "published_sha256": "16e21a1fe9d976253291e54dfdc0f3ec81c22bd4ab8a92ae016f2541c02f74ea"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/human_transcript_retrieval.csv",
+      "published_path": "outputs/social_genome_audio/tables/human_transcript_retrieval.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "09149acccf555d9fb2e0855486006f12621d68ead8414fc9e762d5d427c6196a",
+      "published_sha256": "09149acccf555d9fb2e0855486006f12621d68ead8414fc9e762d5d427c6196a"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/missing_trims.csv",
+      "published_path": "outputs/social_genome_audio/tables/missing_trims.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "137e7f17c6f67678dee5766018f0472c37df73394aaba8d4ae159e44c00b6871",
+      "published_sha256": "137e7f17c6f67678dee5766018f0472c37df73394aaba8d4ae159e44c00b6871"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/public_language_statistics.json",
+      "published_path": "outputs/social_genome_audio/tables/public_language_statistics.json",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "a57d56d68f3260fee1fb5b228ecd73fada9474e5aa59e9a11e255749a3b1474d",
+      "published_sha256": "a57d56d68f3260fee1fb5b228ecd73fada9474e5aa59e9a11e255749a3b1474d"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/question_cluster_terms.csv",
+      "published_path": "outputs/social_genome_audio/tables/question_cluster_terms.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "d1cef76037772cb9e21dc65b238e1e755862fad85cfdf8ffc58fe3d0ab6496c3",
+      "published_sha256": "d1cef76037772cb9e21dc65b238e1e755862fad85cfdf8ffc58fe3d0ab6496c3"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/question_clusters.csv",
+      "published_path": "outputs/social_genome_audio/tables/question_cluster_assignments.csv",
+      "transformation": "Removed source/response text columns: text",
+      "source_sha256": "5235c919051ff4b94623d67a416c393840625dd8504f5bde28666e7edb6c6091",
+      "published_sha256": "a7afc17df2dea29fd5dfa861de4c8e77221ab9244f672f5d827d6b6c09818a0f"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/question_transcript_comparison.csv",
+      "published_path": "outputs/social_genome_audio/tables/question_transcript_comparison.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "eee38a69ed8ec1f2a9493453a3ec7c4930e862232398be246571a46f804a57ba",
+      "published_sha256": "eee38a69ed8ec1f2a9493453a3ec7c4930e862232398be246571a46f804a57ba"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/question_tsne.csv",
+      "published_path": "outputs/social_genome_audio/tables/question_tsne.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "0d3db5c12839cc27b56c1ea5d140f6f17c714d97e31492e999b4813c7315179a",
+      "published_sha256": "0d3db5c12839cc27b56c1ea5d140f6f17c714d97e31492e999b4813c7315179a"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/questions_per_video.csv",
+      "published_path": "outputs/social_genome_audio/tables/questions_per_video.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "f32ae54705eaa848798360303c880165c039822cecdb939c436ecafbdbf3b265",
+      "published_sha256": "f32ae54705eaa848798360303c880165c039822cecdb939c436ecafbdbf3b265"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/transcript_cluster_terms.csv",
+      "published_path": "outputs/social_genome_audio/tables/transcript_cluster_terms.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "f490339c87f81a95d6dd0310f8267b9fc4940f3007080398677d13cdd39c7020",
+      "published_sha256": "f490339c87f81a95d6dd0310f8267b9fc4940f3007080398677d13cdd39c7020"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/transcript_clusters.csv",
+      "published_path": "outputs/social_genome_audio/tables/transcript_cluster_assignments.csv",
+      "transformation": "Removed source/response text columns: text",
+      "source_sha256": "a09b38ac8135bdd7fb682f659d591aabd45ebbffec12e46ec8416e1d58f28cde",
+      "published_sha256": "ce80c2b339c9ea8720be8d3cf8c2649cab204439c71045160cd5b5f8c6ae14b0"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/tables/transcript_tsne.csv",
+      "published_path": "outputs/social_genome_audio/tables/transcript_tsne.csv",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "d448fab167ad476bcca6d59d1f3c98287a0327afe3b186a821a40cb92baf5ff7",
+      "published_sha256": "d448fab167ad476bcca6d59d1f3c98287a0327afe3b186a821a40cb92baf5ff7"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/A1_modality_annotator1.pdf",
+      "published_path": "outputs/social_genome_audio/figures/A1_modality_annotator1.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "13b5b807238982f65c49b376a6abe4c3b85b0f25f93bfb59a3be947f78542891",
+      "published_sha256": "13b5b807238982f65c49b376a6abe4c3b85b0f25f93bfb59a3be947f78542891"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/A1_modality_annotator1.png",
+      "published_path": "outputs/social_genome_audio/figures/A1_modality_annotator1.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "92199a4a790eac9eba49e63f35f6e78f7800f00f3f3d372964f432d5790b2735",
+      "published_sha256": "92199a4a790eac9eba49e63f35f6e78f7800f00f3f3d372964f432d5790b2735"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/A2_cues_annotator1.pdf",
+      "published_path": "outputs/social_genome_audio/figures/A2_cues_annotator1.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "23c4d5c0872cff4bb2cd027b91fb3d806c7cdb89a06db5899f270f367d96ff72",
+      "published_sha256": "23c4d5c0872cff4bb2cd027b91fb3d806c7cdb89a06db5899f270f367d96ff72"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/A2_cues_annotator1.png",
+      "published_path": "outputs/social_genome_audio/figures/A2_cues_annotator1.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "08a3a6a5f51c28dd61b2ed6acf97be89113ad6ef5bd6d01930326dc3b3d779aa",
+      "published_sha256": "08a3a6a5f51c28dd61b2ed6acf97be89113ad6ef5bd6d01930326dc3b3d779aa"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/A4_observability_annotator1.pdf",
+      "published_path": "outputs/social_genome_audio/figures/A4_observability_annotator1.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "4504592a1230866b52db33764bbdd8adacc10026e48b4306aa39de650fe845e7",
+      "published_sha256": "4504592a1230866b52db33764bbdd8adacc10026e48b4306aa39de650fe845e7"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/A4_observability_annotator1.png",
+      "published_path": "outputs/social_genome_audio/figures/A4_observability_annotator1.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "83b3dba67756e4b91eaea38a877ce8bc674b0c79846cd3324b8c90e4ebcb1502",
+      "published_sha256": "83b3dba67756e4b91eaea38a877ce8bc674b0c79846cd3324b8c90e4ebcb1502"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B0_question_transcript_similarity.pdf",
+      "published_path": "outputs/social_genome_audio/figures/B0_question_transcript_similarity.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "b2a90d6b7de8841cb7ea95e945dde03366f5346a9a9b7872e1ef2d60d090be1d",
+      "published_sha256": "b2a90d6b7de8841cb7ea95e945dde03366f5346a9a9b7872e1ef2d60d090be1d"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B0_question_transcript_similarity.png",
+      "published_path": "outputs/social_genome_audio/figures/B0_question_transcript_similarity.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "708dde9107dde200fddb34da3f6dc3d66e4e32521a2a73ecf837d51590ec6eb5",
+      "published_sha256": "708dde9107dde200fddb34da3f6dc3d66e4e32521a2a73ecf837d51590ec6eb5"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B2_human_evidence_annotator1.pdf",
+      "published_path": "outputs/social_genome_audio/figures/B2_human_evidence_annotator1.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "c0faf2e14b1b11e81c2453b13add16aee5ea07d6f74776716066a90f44fc4572",
+      "published_sha256": "c0faf2e14b1b11e81c2453b13add16aee5ea07d6f74776716066a90f44fc4572"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B2_human_evidence_annotator1.png",
+      "published_path": "outputs/social_genome_audio/figures/B2_human_evidence_annotator1.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "b9b796a45aa72ebf14190c3c97b7cb1a85f976a07732810117280debcedced02",
+      "published_sha256": "b9b796a45aa72ebf14190c3c97b7cb1a85f976a07732810117280debcedced02"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B2_question_tsne.pdf",
+      "published_path": "outputs/social_genome_audio/figures/B2_question_tsne.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "a3e34c3be896cd82db79734bd658a9be362403257d555fff3731895ba359494f",
+      "published_sha256": "a3e34c3be896cd82db79734bd658a9be362403257d555fff3731895ba359494f"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B2_question_tsne.png",
+      "published_path": "outputs/social_genome_audio/figures/B2_question_tsne.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "28f6deee7dcd60778c8bdfa0f9fb0cb1a150af2d22552e8d06fcf48277c097bc",
+      "published_sha256": "28f6deee7dcd60778c8bdfa0f9fb0cb1a150af2d22552e8d06fcf48277c097bc"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B2_transcript_tsne.pdf",
+      "published_path": "outputs/social_genome_audio/figures/B2_transcript_tsne.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "aee4ff65b5cdc8bb89ff038006806118a4253ad66172f4693fc493bc87301637",
+      "published_sha256": "aee4ff65b5cdc8bb89ff038006806118a4253ad66172f4693fc493bc87301637"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B2_transcript_tsne.png",
+      "published_path": "outputs/social_genome_audio/figures/B2_transcript_tsne.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "25508c365afa419d1b1053ec2dd094d9ea13daa7011666094ef2df2be9728ca3",
+      "published_sha256": "25508c365afa419d1b1053ec2dd094d9ea13daa7011666094ef2df2be9728ca3"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B4_human_transcript_association_annotator1.pdf",
+      "published_path": "outputs/social_genome_audio/figures/B4_human_transcript_association_annotator1.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "dd3d01b8c4a216d3da34585346516e61fe111136094bdcb6974b1606485a03bc",
+      "published_sha256": "dd3d01b8c4a216d3da34585346516e61fe111136094bdcb6974b1606485a03bc"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B4_human_transcript_association_annotator1.png",
+      "published_path": "outputs/social_genome_audio/figures/B4_human_transcript_association_annotator1.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "421b3781327cb42ce39365b91d14a205352ecb8bf3d5d8c6e3c60f3c9514c6eb",
+      "published_sha256": "421b3781327cb42ce39365b91d14a205352ecb8bf3d5d8c6e3c60f3c9514c6eb"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B5_human_transcript_ranks_annotator1.pdf",
+      "published_path": "outputs/social_genome_audio/figures/B5_human_transcript_ranks_annotator1.pdf",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "7a2e6968806a49021350fdab572b22658569efa9516ad272855fde497bb25ccc",
+      "published_sha256": "7a2e6968806a49021350fdab572b22658569efa9516ad272855fde497bb25ccc"
+    },
+    {
+      "source_path": "outputs/social_genome_audio/figures/B5_human_transcript_ranks_annotator1.png",
+      "published_path": "outputs/social_genome_audio/figures/B5_human_transcript_ranks_annotator1.png",
+      "transformation": "unchanged calculated artifact",
+      "source_sha256": "3a791d70a4ad92fe3559f93222b769ee89f6431fc6f4afc57b771c5aeb92ce63",
+      "published_sha256": "3a791d70a4ad92fe3559f93222b769ee89f6431fc6f4afc57b771c5aeb92ce63"
+    }
+  ]
+}

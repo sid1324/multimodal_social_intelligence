@@ -1,0 +1,35 @@
+{
+  "status": "exploratory_posthoc",
+  "annotators": {
+    "annotator1": {
+      "n": 24,
+      "candidate_transcripts": 24,
+      "own_minus_alternative": {
+        "n": 24,
+        "mean": 0.13015167030971497,
+        "ci_low": 0.06804399270331486,
+        "ci_high": 0.19802475039905398,
+        "clusters": 24
+      },
+      "fraction_own_gt_alternative": 0.75,
+      "means": {
+        "own_transcript": 0.22827874985523522,
+        "alternative_transcript": 0.09812707954552025,
+        "own_question": 0.5595361230274042,
+        "chosen_answer": 0.5853283094863097
+      },
+      "recall_at_1": 0.4583333333333333,
+      "recall_at_5": 0.7083333333333334,
+      "median_rank": 2.0,
+      "mrr": 0.5944639059770639,
+      "clustering": {
+        "k": 4,
+        "neural_vs_tfidf_ari": 0.13615023474178403,
+        "cosine_silhouette": 0.0972122848033905
+      },
+      "tsne_perplexity": 7.666666666666667
+    }
+  },
+  "design": "Post-hoc single-annotator diagnostics. Transcript targets are input text, not gold evidence. Alternatives fixed by public question similarity.",
+  "limitations": "Human saw questions, choices and transcripts. Text overlap and topic can drive retrieval; visible or non-speech audio observations need not match a transcript. These are not grounding/reward-validity metrics."
+}

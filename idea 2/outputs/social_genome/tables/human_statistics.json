@@ -1,0 +1,8 @@
+{
+  "status": "pending_humans",
+  "assigned_per_annotator": 24,
+  "completed_responses": 0,
+  "gold_accuracy": null,
+  "note": "Agreement is not correctness. Human cues are observations, not official dataset labels.",
+  "annotators": {}
+}

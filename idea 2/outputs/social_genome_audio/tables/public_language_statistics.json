@@ -1,0 +1,26 @@
+{
+  "n": 24,
+  "labels": "no gold labels used; cluster IDs are algorithmic assignments",
+  "question_own_minus_other_transcript": {
+    "n": 24,
+    "mean": 0.06896013642350833,
+    "ci_low": 0.0056686208272973704,
+    "ci_high": 0.13955348320305344,
+    "clusters": 24
+  },
+  "note": "Question/transcript semantic association is not evidence correctness.",
+  "representations": {
+    "question": {
+      "k": 4,
+      "neural_vs_tfidf_adjusted_rand_index": 0.2732868280672959,
+      "neural_cosine_silhouette": 0.095667265355587,
+      "tsne_perplexity": 7.666666666666667
+    },
+    "transcript": {
+      "k": 4,
+      "neural_vs_tfidf_adjusted_rand_index": -0.023696682464454975,
+      "neural_cosine_silhouette": 0.07921972870826721,
+      "tsne_perplexity": 7.666666666666667
+    }
+  }
+}

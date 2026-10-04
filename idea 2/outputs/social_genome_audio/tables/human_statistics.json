@@ -1,0 +1,92 @@
+{
+  "status": "exploratory",
+  "assigned_per_annotator": 24,
+  "completed_responses": 24,
+  "gold_accuracy": null,
+  "note": "Agreement is not correctness. Human cues are observations, not official dataset labels.",
+  "annotators": {
+    "annotator1": {
+      "completed": 24,
+      "modality_counts": {
+        "visual_transcript": 16,
+        "all_three": 4,
+        "visual_audio": 2,
+        "transcript_only": 1,
+        "audio_only": 1
+      },
+      "modality_recorded": 24,
+      "modality_blank": 0,
+      "modality_percent": {
+        "visual_transcript": 66.66666666666667,
+        "all_three": 16.666666666666668,
+        "visual_audio": 8.333333333333334,
+        "transcript_only": 4.166666666666667,
+        "audio_only": 4.166666666666667
+      },
+      "clearly_observable": {
+        "n": 24,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "clusters": 24,
+        "uncertain": 0,
+        "blank": 0
+      },
+      "requires_temporal_reasoning": {
+        "n": 24,
+        "mean": 0.9166666666666666,
+        "ci_low": 0.7916666666666666,
+        "ci_high": 1.0,
+        "clusters": 24,
+        "uncertain": 0,
+        "blank": 0
+      },
+      "audio_used": {
+        "n": 24,
+        "mean": 0.2916666666666667,
+        "ci_low": 0.125,
+        "ci_high": 0.5,
+        "clusters": 24,
+        "uncertain": 0,
+        "blank": 0
+      },
+      "language_understood": {
+        "n": 24,
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "clusters": 24,
+        "uncertain": 0,
+        "blank": 0
+      },
+      "cue_counts": {
+        "gaze": 21,
+        "facial_expression": 20,
+        "dialogue_content": 17,
+        "gesture": 9,
+        "body_movement": 8,
+        "proxemics": 5,
+        "tone_prosody": 5,
+        "posture": 3,
+        "object_interaction": 2,
+        "turn_taking": 1,
+        "interruption": 1
+      },
+      "cue_recorded": 24,
+      "cue_percent_among_recorded": {
+        "gaze": 87.5,
+        "facial_expression": 83.33333333333333,
+        "dialogue_content": 70.83333333333333,
+        "gesture": 37.5,
+        "body_movement": 33.333333333333336,
+        "proxemics": 20.833333333333332,
+        "tone_prosody": 20.833333333333332,
+        "posture": 12.5,
+        "object_interaction": 8.333333333333334,
+        "turn_taking": 4.166666666666667,
+        "interruption": 4.166666666666667
+      }
+    }
+  },
+  "agreement_status": "not_applicable_single_annotator"
+}

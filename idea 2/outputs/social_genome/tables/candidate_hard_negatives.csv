@@ -1,0 +1,25 @@
+sample_id,negative_id,selection
+sg-77bbd0d516a5db84,sg-20efaf9fa9f9e254,nearest question embedding among other sources; independent of human responses
+sg-20efaf9fa9f9e254,sg-9af38891ad06a04d,nearest question embedding among other sources; independent of human responses
+sg-18ac988e465a8015,sg-07ae99ae509996f3,nearest question embedding among other sources; independent of human responses
+sg-bbff53d8828fc507,sg-af1bb46f9fc849c2,nearest question embedding among other sources; independent of human responses
+sg-8d1d4ac22e23af96,sg-9af38891ad06a04d,nearest question embedding among other sources; independent of human responses
+sg-8d430dc996bec4b1,sg-bbff53d8828fc507,nearest question embedding among other sources; independent of human responses
+sg-2a8bd93f5d3604da,sg-6a0dd0bd9a918137,nearest question embedding among other sources; independent of human responses
+sg-a185e89c97525bb5,sg-bbff53d8828fc507,nearest question embedding among other sources; independent of human responses
+sg-af2e10a396bcf6ff,sg-18ac988e465a8015,nearest question embedding among other sources; independent of human responses
+sg-2cfb47a7b051ed92,sg-92ccd7e4c02e217d,nearest question embedding among other sources; independent of human responses
+sg-260daffccabb47b1,sg-bbff53d8828fc507,nearest question embedding among other sources; independent of human responses
+sg-bdc7eb5bdbfa0210,sg-18ac988e465a8015,nearest question embedding among other sources; independent of human responses
+sg-1e3404b84e4f41e9,sg-20efaf9fa9f9e254,nearest question embedding among other sources; independent of human responses
+sg-11141592c7f0a388,sg-260daffccabb47b1,nearest question embedding among other sources; independent of human responses
+sg-4fff05a2345f0af5,sg-1929dc72d6baae13,nearest question embedding among other sources; independent of human responses
+sg-e52f1c5e59e387a5,sg-4fff05a2345f0af5,nearest question embedding among other sources; independent of human responses
+sg-6a0dd0bd9a918137,sg-af2e10a396bcf6ff,nearest question embedding among other sources; independent of human responses
+sg-6dc1ed528ef4a1e1,sg-92ccd7e4c02e217d,nearest question embedding among other sources; independent of human responses
+sg-07ae99ae509996f3,sg-6d1e9cc32466a5c7,nearest question embedding among other sources; independent of human responses
+sg-6d1e9cc32466a5c7,sg-07ae99ae509996f3,nearest question embedding among other sources; independent of human responses
+sg-9af38891ad06a04d,sg-20efaf9fa9f9e254,nearest question embedding among other sources; independent of human responses
+sg-92ccd7e4c02e217d,sg-9af38891ad06a04d,nearest question embedding among other sources; independent of human responses
+sg-af1bb46f9fc849c2,sg-bbff53d8828fc507,nearest question embedding among other sources; independent of human responses
+sg-1929dc72d6baae13,sg-4fff05a2345f0af5,nearest question embedding among other sources; independent of human responses

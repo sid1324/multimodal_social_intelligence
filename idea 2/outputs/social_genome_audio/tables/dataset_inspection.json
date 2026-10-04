@@ -1,0 +1,39 @@
+{
+  "rows": 1486,
+  "source_videos": 274,
+  "source_videos_with_trims": 272,
+  "questions_without_trims": 10,
+  "schema_mapping": {
+    "qid": "native question ID",
+    "q": "social-inference question (not a norm)",
+    "vid_name": "YouTube source-video ID",
+    "ts": "question time range relative to supplied clip",
+    "a0": "candidate answer 0; no correctness implied",
+    "a1": "candidate answer 1; no correctness implied",
+    "a2": "candidate answer 2; no correctness implied",
+    "a3": "candidate answer 3; no correctness implied"
+  },
+  "gold_answers_available": false,
+  "reference_evidence_available": false,
+  "split": "public benchmark test inputs; exploratory study, not training",
+  "provenance": [
+    {
+      "file": "qa_test.json",
+      "url": "https://raw.githubusercontent.com/CMU-MultiComp-Lab/social-genome/7646cde5c23e9acf7c2665d19f2f57bcbec0554c/qa_test.json",
+      "sha256": "7c75374688937025296159489d55fd2e1ef2f5c7c3f7e4d4e355d6b25b47281e",
+      "bytes": 732794
+    },
+    {
+      "file": "videos.json",
+      "url": "https://raw.githubusercontent.com/CMU-MultiComp-Lab/social-genome/7646cde5c23e9acf7c2665d19f2f57bcbec0554c/videos.json",
+      "sha256": "80cca1395c0238638f975c409967bee259e2a6cced7fcdb984e3a05e3c4bf35d",
+      "bytes": 4110
+    },
+    {
+      "file": "trims.json",
+      "url": "https://raw.githubusercontent.com/CMU-MultiComp-Lab/social-genome/7646cde5c23e9acf7c2665d19f2f57bcbec0554c/trims.json",
+      "sha256": "e24aab26613513598e9db94d5749ccb30620e4a0c7943870f7897634792361a5",
+      "bytes": 39296
+    }
+  ]
+}
