@@ -1,0 +1,17 @@
+{
+  "Identical neutral prompts": [
+    11.7,
+    3.3,
+    20.0
+  ],
+  "Neutral vs. paraphrase": [
+    15.0,
+    6.7,
+    25.0
+  ],
+  "Low vs. high trust": [
+    30.0,
+    18.3,
+    41.7
+  ]
+}

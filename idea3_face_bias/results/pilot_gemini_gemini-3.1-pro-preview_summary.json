@@ -1,0 +1,130 @@
+{
+  "model": "gemini/gemini-3.1-pro-preview",
+  "items_complete": 60,
+  "accuracy": {
+    "neutral": [
+      66.7,
+      [
+        55.0,
+        78.3
+      ]
+    ],
+    "neutral_repeat": [
+      65.0,
+      [
+        53.3,
+        76.7
+      ]
+    ],
+    "paraphrase": [
+      66.7,
+      [
+        55.0,
+        78.3
+      ]
+    ],
+    "low": [
+      60.0,
+      [
+        48.3,
+        71.7
+      ]
+    ],
+    "high": [
+      71.7,
+      [
+        60.0,
+        83.3
+      ]
+    ]
+  },
+  "flip_vs_neutral": {
+    "neutral_repeat": [
+      11.7,
+      [
+        5.0,
+        20.0
+      ]
+    ],
+    "paraphrase": [
+      15.0,
+      [
+        6.7,
+        25.0
+      ]
+    ],
+    "low": [
+      21.7,
+      [
+        11.7,
+        31.7
+      ]
+    ],
+    "high": [
+      16.7,
+      [
+        8.3,
+        26.7
+      ]
+    ]
+  },
+  "person_directed_choice": {
+    "neutral": [
+      61.7,
+      [
+        48.3,
+        73.3
+      ]
+    ],
+    "neutral_repeat": [
+      61.7,
+      [
+        48.3,
+        73.3
+      ]
+    ],
+    "paraphrase": [
+      56.7,
+      [
+        45.0,
+        70.0
+      ]
+    ],
+    "low": [
+      58.3,
+      [
+        45.0,
+        70.0
+      ]
+    ],
+    "high": [
+      60.0,
+      [
+        48.3,
+        71.7
+      ]
+    ]
+  },
+  "low_minus_high_person_directed": [
+    -1.7,
+    [
+      -13.3,
+      10.0
+    ]
+  ],
+  "low_minus_neutral_accuracy": [
+    -6.7,
+    [
+      -18.3,
+      5.0
+    ]
+  ],
+  "high_minus_neutral_accuracy": [
+    5.0,
+    [
+      -5.0,
+      15.0
+    ]
+  ],
+  "unparsed_or_failed": 0
+}

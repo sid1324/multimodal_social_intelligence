@@ -1,0 +1,6 @@
+.env
+*.env
+data/
+results/label_crops/
+results/label_strips/
+__pycache__/

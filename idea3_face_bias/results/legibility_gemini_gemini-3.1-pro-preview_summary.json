@@ -1,0 +1,80 @@
+{
+  "model": "gemini/gemini-3.1-pro-preview",
+  "calls": 120,
+  "rated": 120,
+  "unrated_replies": [],
+  "scene": {
+    "mean_by_item": {
+      "969": {
+        "original": 4.0,
+        "low": 4.0,
+        "baseline": 4.33,
+        "high": 4.67
+      },
+      "1625": {
+        "original": 4.67,
+        "low": 4.0,
+        "baseline": 5.0,
+        "high": 5.0
+      },
+      "605": {
+        "original": 4.0,
+        "low": 4.0,
+        "baseline": 4.0,
+        "high": 4.0
+      },
+      "749": {
+        "original": 3.67,
+        "low": 3.67,
+        "baseline": 4.67,
+        "high": 5.0
+      },
+      "1250": {
+        "original": 4.0,
+        "low": 4.0,
+        "baseline": 4.0,
+        "high": 5.33
+      }
+    },
+    "scenes_with_low<base<high": 2,
+    "scenes_with_high>low": 4,
+    "mean_high_minus_low": 0.87
+  },
+  "closeup": {
+    "mean_by_item": {
+      "969": {
+        "original": 3.67,
+        "low": 3.67,
+        "baseline": 3.67,
+        "high": 4.33
+      },
+      "1625": {
+        "original": 3.33,
+        "low": 4.0,
+        "baseline": 5.0,
+        "high": 5.33
+      },
+      "605": {
+        "original": 3.0,
+        "low": 3.33,
+        "baseline": 3.33,
+        "high": 3.0
+      },
+      "749": {
+        "original": 3.0,
+        "low": 3.0,
+        "baseline": 3.67,
+        "high": 4.67
+      },
+      "1250": {
+        "original": 4.0,
+        "low": 3.33,
+        "baseline": 3.0,
+        "high": 5.33
+      }
+    },
+    "scenes_with_low<base<high": 2,
+    "scenes_with_high>low": 4,
+    "mean_high_minus_low": 1.07
+  }
+}

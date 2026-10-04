@@ -1,0 +1,38 @@
+{
+  "detections": {
+    "Not a face": 26,
+    "Blurred": 8,
+    "Unblurred, frontal": 14,
+    "Unblurred, turned away": 5,
+    "Unblurred, angled": 7
+  },
+  "items": {
+    "usable_face": 12,
+    "turned_away_or_too_small": 14,
+    "no_other_person": 10,
+    "blurred_face_only": 4
+  },
+  "items_labeled": 40,
+  "detections_not_face_pct_ci": [
+    43.3,
+    31.6,
+    55.9
+  ],
+  "items_usable_pct_ci": [
+    30.0,
+    18.1,
+    45.4
+  ],
+  "items_usable_projected_of_1853": 556,
+  "real_faces": 34,
+  "real_faces_unblurred_pct_ci": [
+    76.5,
+    60.0,
+    87.6
+  ],
+  "real_faces_usable_pct_ci": [
+    61.8,
+    45.0,
+    76.1
+  ]
+}
