@@ -3,7 +3,7 @@
 #SBATCH -A cis260338p
 #SBATCH -p GPU-shared
 #SBATCH --gres=gpu:h100-80:1
-#SBATCH -t 03:00:00
+#SBATCH -t 01:30:00
 #SBATCH -o logs/%x_%j.out
 # First GPU job: correctness check, then the gate on train items with residual capture.
 set -euo pipefail

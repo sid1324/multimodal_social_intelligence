@@ -1,0 +1,15 @@
+{
+ "official_annotations.json": {
+  "sha256": "0f19bc41374bf13b359a55fb65b4ba3e5db5a217c31727bc9ff5b1fa6d32e225",
+  "source": "https://raw.githubusercontent.com/open-social-world/EgoNormia/09d8a7c53f06ed582236722ba8496c6a504cd1ab/src/final_dataset/final_data.json"
+ },
+ "text_arm_items.csv": {
+  "sha256": "c28c9034cadc5b8ec3ab243cb34a0672a7a829a4feeedb01efec17dd38f46c37",
+  "source": "idea3_face_bias/results/text_arm_items.csv",
+  "note": "same 1,853 rows as the A2 reference copy (which has CRLF line endings, sha 8a93969d...)"
+ },
+ "download_records.json": {
+  "sha256": "52a38e056e197c53f486d146f7af78618d1b7f67e55774da35d4ecc679f4c0e4",
+  "source": "idea3_face_bias/midterm_steering/meta/download_records.json"
+ }
+}
