@@ -1,0 +1,443 @@
+{
+ "summary": {
+  "n": 20,
+  "all_finite": true,
+  "greedy_agree_rate": 1.0,
+  "accuracy": 0.7,
+  "chance": 0.25,
+  "min_letter_mass": 0.9999294877052307,
+  "mean_letter_mass": 0.9999963492155075,
+  "sec_per_item_score_plus_generate": 0.7506624341011048,
+  "tokens_range": [
+   1197,
+   1665
+  ],
+  "peak_gpu_mem_GB": 18.07046656,
+  "dtype": "torch.bfloat16",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "example_prompt": "The image shows five frames, in order from left to right, from an egocentric video recorded by the camera wearer. The other person in the scene appears untrustworthy. What should the camera wearer do next? Choose the most socially appropriate action.\n\nA. Place each item individually onto the conveyor belt for scanning.\nB. Group items by category and place them neatly on the table in separate sections.\nC. Arrange items on the assigned shelves based on provided labels.\nD. Sort items by recipient and pack them into individual containers.\n\nRespond with only the letter of your choice and no explanation.",
+  "passed": true
+ },
+ "items": [
+  {
+   "id": "ce19b572-7341-426a-8c2f-fe067344c98d_1972-11",
+   "greedy_text": "A",
+   "argmax": "A",
+   "agree": true,
+   "correct": false,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1618,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "a5bd4711-275b-4bbf-96fe-37553e5d3e93_1662-76",
+   "greedy_text": "B",
+   "argmax": "B",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1210,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  },
+  {
+   "id": "39af7641-e376-4a99-977f-4d7f746e14ba_79-79",
+   "greedy_text": "D",
+   "argmax": "D",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1227,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  },
+  {
+   "id": "ba078478-13a5-4e7f-8ee4-61620f84cb7a_2830-69",
+   "greedy_text": "A",
+   "argmax": "A",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1628,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_1299-73",
+   "greedy_text": "D",
+   "argmax": "D",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1230,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  },
+  {
+   "id": "1eee4aaf-a21c-4ae5-82cd-96fdccae6742_876-68",
+   "greedy_text": "D",
+   "argmax": "D",
+   "agree": true,
+   "correct": false,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1225,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  },
+  {
+   "id": "10a848ed-f258-4930-abdd-1fd60b788abc_294-40",
+   "greedy_text": "A",
+   "argmax": "A",
+   "agree": true,
+   "correct": false,
+   "finite": true,
+   "letter_mass": 0.9999997019767761,
+   "n_tokens": 1211,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  },
+  {
+   "id": "2a831288-6e91-4aba-9385-f22f666fab99_525-32",
+   "greedy_text": "A",
+   "argmax": "A",
+   "agree": true,
+   "correct": false,
+   "finite": true,
+   "letter_mass": 0.9999974966049194,
+   "n_tokens": 1611,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "53e92e25-fe03-4311-9a17-c4f6a29ccad1_1365-15",
+   "greedy_text": "B",
+   "argmax": "B",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1626,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "2cc2710e-aae0-41eb-9a70-deb9217bb7ea_3838-38",
+   "greedy_text": "A",
+   "argmax": "A",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 0.9999294877052307,
+   "n_tokens": 1665,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "fb92d350-9bf9-4b16-8a1f-7858de276226_599-33",
+   "greedy_text": "A",
+   "argmax": "A",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0000001192092896,
+   "n_tokens": 1216,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  },
+  {
+   "id": "356661f5-767b-495d-95c7-03dcc46f85c6_1826-46",
+   "greedy_text": "A",
+   "argmax": "A",
+   "agree": true,
+   "correct": false,
+   "finite": true,
+   "letter_mass": 1.0000001192092896,
+   "n_tokens": 1622,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "ec86fee5-ee10-46c5-b835-07c8a8d9651e_362-34",
+   "greedy_text": "D",
+   "argmax": "D",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1622,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "3df50de7-7ef7-4938-9cdb-fb2d07751084_666-85",
+   "greedy_text": "B",
+   "argmax": "B",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1228,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  },
+  {
+   "id": "1a50cd38-dda2-41d0-8a6f-294f17373d97_2805-73",
+   "greedy_text": "C",
+   "argmax": "C",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 0.9999999403953552,
+   "n_tokens": 1616,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "2cc2710e-aae0-41eb-9a70-deb9217bb7ea_3646-90",
+   "greedy_text": "C",
+   "argmax": "C",
+   "agree": true,
+   "correct": false,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1619,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "5605bd9a-d151-4d5b-b0f6-cfc28ae6937e_709-52",
+   "greedy_text": "C",
+   "argmax": "C",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1617,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_835-53",
+   "greedy_text": "B",
+   "argmax": "B",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1197,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  },
+  {
+   "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_481-32",
+   "greedy_text": "C",
+   "argmax": "C",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0000001192092896,
+   "n_tokens": 1626,
+   "grid": [
+    [
+     1,
+     30,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    480
+   ]
+  },
+  {
+   "id": "fab481c0-842c-4536-9126-9dc375464685_728-84",
+   "greedy_text": "C",
+   "argmax": "C",
+   "agree": true,
+   "correct": true,
+   "finite": true,
+   "letter_mass": 1.0,
+   "n_tokens": 1222,
+   "grid": [
+    [
+     1,
+     22,
+     200
+    ]
+   ],
+   "image_size": [
+    3200,
+    360
+   ]
+  }
+ ]
+}

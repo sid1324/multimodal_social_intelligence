@@ -1,0 +1,52 @@
+{
+ "strict_v1": {
+  "base": {
+   "n_prompts": 78,
+   "argmax_agree": 1.0,
+   "max_abs_dlogp": 0.7694830894470215,
+   "min_cos_last_layer_resid": 0.9994918704032898,
+   "ok": false
+  },
+  "constitution": {
+   "n_prompts": 78,
+   "argmax_agree": 0.9871794871794872,
+   "max_abs_dlogp": 0.6939048767089844,
+   "min_cos_last_layer_resid": 0.9983699917793274,
+   "ok": false
+  },
+  "ablation_random_dir": {
+   "n_prompts": 78,
+   "argmax_agree": 0.9743589743589743,
+   "max_abs_dlogp": 0.822056770324707,
+   "min_cos_last_layer_resid": 0.9994919896125793,
+   "ok": false
+  }
+ },
+ "base": {
+  "n_prompts": 78,
+  "fast_argmax_disagree": 0,
+  "fast_max_abs_dp": 0.0577,
+  "dup2_argmax_disagree": 1,
+  "dup2_max_abs_dp": 0.07801,
+  "ok": true
+ },
+ "constitution": {
+  "n_prompts": 78,
+  "fast_argmax_disagree": 1,
+  "fast_max_abs_dp": 0.08595,
+  "dup2_argmax_disagree": 0,
+  "dup2_max_abs_dp": 0.02538,
+  "ok": false
+ },
+ "ablation_random_dir": {
+  "n_prompts": 78,
+  "fast_argmax_disagree": 2,
+  "fast_max_abs_dp": 0.08226,
+  "dup2_argmax_disagree": 1,
+  "dup2_max_abs_dp": 0.0852,
+  "ok": true
+ },
+ "sec_per_prompt_slow": 0.2284,
+ "sec_per_prompt_fast": 0.035,
+ "ok": false
+}
