@@ -25,7 +25,7 @@
 
 % --- 2. Related Work: Idea 3 paragraph (trimmed for a shared 2/3 page) ---
 \paragraph{Appearance-based trait inference and its removal.}
-People infer trustworthiness from faces within a glance \citep{oosterhof2008functional}, and large language models reproduce this face-to-character mapping in consequential decisions \citep{lehr2026face}. Concepts in a model's residual stream are often carried by single directions that can be removed at inference time \citep{arditi2024refusal}, which \citet{ratzlaff2024debiasing} use to debias vision-language models; prompt-level rules offer a training-free alternative \citep{bai2022constitutional}. To our knowledge, no prior work tests whether appearance-based trust sways normative action choices in grounded egocentric scenes, or whether a trust direction estimated from language also governs a model's response to a face.
+People infer trustworthiness from faces within a glance \citep{oosterhof2008functional}, and large language models reproduce this face-to-character mapping in consequential decisions \citep{lehr2026face}. Concepts in a model's residual stream are often carried by single directions that can be removed at inference time \citep{arditi2024refusal}, which \citet{ratzlaff2024debias} use to debias vision-language models; prompt-level rules offer a training-free alternative \citep{bai2022constitutional}. To our knowledge, no prior work tests whether appearance-based trust sways normative action choices in grounded egocentric scenes, or whether a trust direction estimated from language also governs a model's response to a face.
 
 % --- 3. Problem Statement: notation request for its author (not text to paste) ---
 % Idea 3 uses the shared x = (V, q, O), gold a^*, and the model distribution p_theta(o | x); it adds an optional context
@@ -67,7 +67,7 @@ d^{\,l}_{\perp}=d^{\,l}_{\text{app}}-\big(d^{\,l}_{\text{app}}\cdot\hat u^{\,l}_
 \end{equation}
 where hats denote unit vectors.
 
-Following \citet{arditi2024refusal} and \citet{ratzlaff2024debiasing}, we project a unit direction $u$ out of the residual stream at every token position of a layer set $\mathcal{L}$,
+Following \citet{arditi2024refusal} and \citet{ratzlaff2024debias}, we project a unit direction $u$ out of the residual stream at every token position of a layer set $\mathcal{L}$,
 \begin{equation}
 h_l \leftarrow h_l-\alpha\,(h_l^{\top}u^{\,l})\,u^{\,l}\quad\text{for } l\in\mathcal{L},
 \end{equation}
@@ -128,6 +128,6 @@ The midterm results change the idea in two ways. First, because appearance and b
 r_\theta(y)&=\beta\log\frac{\pi_\theta(y\mid x,c)}{\pi_{\text{ref}}(y\mid x,c)},\\
 \mathcal{L}_{\text{DPO}}&=-\,\mathbb{E}\big[\log\sigma\big(r_\theta(y^{+})-r_\theta(y^{-})\big)\big].
 \end{align}
-Tying the preferred answer to the cue-free prediction targets invariance toward the unbiased choice rather than toward any constant answer, while behavior cues receive no invariance pairs so their influence is left free. Second, the face result shows that cross-modal transfer cannot be tested until a face reliably carries a trust impression into the decision. Before training, we will check whether Qwen perceives the OMI faces' trustworthiness when asked directly and compare a portrait beside the scene with the same face composited into it with expression held fixed \citep{sobieszek2026}; the trained model is then evaluated on held-out wordings, behavior and state cues, and on whichever face condition shows a baseline effect, against the steering and constitution baselines above.
+Tying the preferred answer to the cue-free prediction targets invariance toward the unbiased choice rather than toward any constant answer, while behavior cues receive no invariance pairs so their influence is left free. Second, the face result shows that cross-modal transfer cannot be tested until a face reliably carries a trust impression into the decision. Before training, we will check whether Qwen perceives the OMI faces' trustworthiness when asked directly and compare a portrait beside the scene with the same face composited into it with expression held fixed \citep{sobieszek2026generative}; the trained model is then evaluated on held-out wordings, behavior and state cues, and on whichever face condition shows a baseline effect, against the steering and constitution baselines above.
 
 % BibTeX entries for the new references are in idea3_refs.bib (paste into the team .bib).
