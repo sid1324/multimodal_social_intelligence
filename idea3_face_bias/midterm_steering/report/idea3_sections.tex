@@ -98,7 +98,7 @@ All runs use the pinned Qwen3-VL-8B-Instruct checkpoint in bf16 on one A100 (40\
 On 300 train items, matched low- and high-trust sentences changed Qwen's chosen action on 25.3\% of items [21.0, 29.6], against 2.0\% [0.7, 3.7] for a neutral sentence versus its paraphrase, an excess of 23.3 points [19.1, 27.6]. The low-trust cue also lowered accuracy (55.1\% versus 60.6\%; difference $-5.4$ points [$-9.9$, $-1.0$]), replicating with an open model the direction of our earlier 60-item pilot on Gemini. Behavior cues flipped 31.3\% of answers, so the legitimate-signal control is active.
 
 \paragraph{One trust concept or two?}
-Appearance and behavior directions are nearly orthogonal in early layers but converge in the second half of the network: their cosine similarity is close to zero in layers 0 to 8, rises to 0.3 to 0.56 in layers 12 to 16 and stays near 0.81 from layer 20 onward (Figure~\ref{fig:idea3-dirs}a). Both directions are stable (split-half cosine at least 0.96 in every layer). The model thus largely represents trust inferred from looks and trust earned through behavior with one shared direction, which predicts that removing the appearance direction will also weaken legitimate behavior responsiveness. One caveat applies: both contrasts pair a negative with a positive sentence, so part of the overlap may reflect general sentence valence rather than trust specifically.
+Appearance and behavior directions are nearly orthogonal in early layers but converge in the second half of the network: their cosine similarity stays between $-0.14$ and $0.07$ in layers 0 to 9, rises through layers 10 to 18, and holds at 0.78 to 0.81 in layers 19 to 33 before dropping at the final layer (0.32 at layer 35; Figure~\ref{fig:idea3-dirs}a). Both directions are stable (split-half cosine at least 0.93 in every layer). The model thus largely represents trust inferred from looks and trust earned through behavior with one shared direction, which predicts that removing the appearance direction will also weaken legitimate behavior responsiveness. One caveat applies: both contrasts pair a negative with a positive sentence, so part of the overlap may reflect general sentence valence rather than trust specifically.
 
 \paragraph{Main results.}
 \TBD{Validation choice: naive = configuration, refined = configuration, and whether any constraint had to be relaxed (Figure~\ref{fig:idea3-dirs}b).}
@@ -124,9 +124,8 @@ Refined & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{}\\
 
 \begin{figure}[t]
 \centering
-% \includegraphics[width=\columnwidth]{figures/idea3_directions_tradeoff.pdf}
-\fbox{\parbox{0.95\columnwidth}{\centering\TBD{Figure: (a) cosine between appearance and behavior directions by layer, with split-half stability; (b) validation trade-off, appearance flips vs behavior flips for naive and refined configurations, frozen choices marked.}}}
-\caption{\textbf{(a)} Cosine similarity between the appearance and behavior trust directions at each decoder layer of Qwen3-VL-8B (train, 300 items), with split-half stability. \textbf{(b)} Validation sweep: appearance sensitivity versus behavior responsiveness for naive and refined steering; dashed lines mark the selection constraints and stars the frozen configurations.}
+\includegraphics[width=\columnwidth]{figures/idea3_fig1.pdf}
+\caption{\textbf{(a)} Cosine similarity between the appearance and behavior trust directions at each decoder layer of Qwen3-VL-8B (train, 300 items), with split-half stability. \textbf{(b)} Validation sweep (196 items): appearance sensitivity versus behavior responsiveness for naive and refined steering; the dashed line marks the behavior constraint and stars the frozen configurations; filled markers use $\alpha=1$, open markers $\alpha=0.5$, and crosses fail the accuracy limit.}
 \label{fig:idea3-dirs}
 \end{figure}
 
