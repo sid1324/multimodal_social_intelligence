@@ -81,6 +81,13 @@ with $u=\hat u_{\text{app}}$ for \emph{naive} and $u=\hat u_{\perp}$ for \emph{r
 \end{equation}
 where Acc is clean accuracy (no cue). On validation we search $\alpha\in\{0.5,1\}$ and five layer sets: single layers 9, 14, 20 or 25 (about 25 to 70\% depth of 36 layers) or all layers from 14 to 35. We fix the selection rule before seeing any sweep result: the lowest $S_{\text{app}}$ that satisfies both constraints, with ties broken toward smaller $\alpha$ and fewer layers. We compare against the unmodified model and a \emph{constitution} baseline that adds a system prompt stating that observable behavior and expressed states are relevant but that impressions of character inferred from a face or looks are not \citep{bai2022constitutional}.
 
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/idea3_fig1.pdf}
+\caption{\textbf{(a)} Cosine similarity between the appearance and behavior trust directions at each decoder layer of Qwen3-VL-8B (300 train items); both directions are stable (split-half cosine $\geq 0.93$ at every layer). \textbf{(b)} Validation sweep (196 items): appearance flips versus behavior flips for the 10 naive and 10 refined steering configurations; circles mark the configurations chosen by the pre-registered rule and the dashed line the behavior constraint.}
+\label{fig:idea3-dirs}
+\end{figure}
+
 \paragraph{Vision arm.}
 Real faces in EgoNormia are small (median 50 pixels in 640-pixel frames, about $2\times2$ visual tokens) and vary in expression, so for a controlled visual test we show a second image, introduced as ``The second image shows the face of the other person in the scene,'' containing a synthetic face from One Million Impressions \citep{peterson2022omi}, whose 1,004 faces carry human ratings of trustworthiness, happiness, age and gender. Before any model run we matched 52 pairs that differ by at least 15 points in rated trustworthiness (0 to 100 scale; mean gap 17.2) while agreeing within 5 points in rated happiness (mean gap 1.0), 8 in age and 15 in gender, with the same majority race label, plus 285 equal-trust control pairs. Face sensitivity $S_{\text{face}}$ is the flip rate between a trust pair minus the flip rate between an equal-trust pair, and the multimodal test asks whether steering with a direction estimated only from text reduces it.
 
@@ -110,18 +117,13 @@ Refined steering & 62.9 & 1.5 & 23.8 & 16.1 & 21.6 & 32.0 & 0.8 \\
 \end{tabular}
 \end{table}
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\columnwidth]{figures/idea3_fig1.pdf}
-\caption{\textbf{(a)} Cosine similarity between the appearance and behavior trust directions at each decoder layer of Qwen3-VL-8B (300 train items); both directions are stable (split-half cosine $\geq 0.93$ at every layer). \textbf{(b)} Validation sweep (196 items): appearance flips versus behavior flips for the 10 naive and 10 refined steering configurations; circles mark the configurations chosen by the pre-registered rule and the dashed line the behavior constraint.}
-\label{fig:idea3-dirs}
-\end{figure}
+
 
 \paragraph{Failure analysis.}
-Three patterns stand out. First, under the low-trust cue the base model avoids the person: it chooses person-directed actions less often (58.1\% versus 63.8\%) and is less accurate (54.5\% versus 60.4\%); in one kitchen scene, ``hand the food to the person'' becomes ``discard the food'' (Appendix Figure~\ref{fig:idea3-example}). Second, naive steering often buys invariance without correctness: when it removes a flip, the answer shared by both cues is right only 49\% of the time (61\% for the constitution). Third, the bias does not reach the decision through faces, either because a portrait beside the scene is not bound to the person in it or because Qwen does not read trait impressions from it. Limitations: OMI trustworthiness is strongly anticorrelated with rated dominance ($r=-0.81$), the cues are explicit sentences, and we test one model.
+Three patterns stand out. First, under the low-trust cue the base model avoids the person: it chooses person-directed actions less often (58.1\% versus 63.8\%) and is less accurate (54.5\% versus 60.4\%); in one kitchen scene, ``hand the food to the person'' becomes ``discard the food''. Second, naive steering often buys invariance without correctness: when it removes a flip, the answer shared by both cues is right only 49\% of the time (61\% for the constitution). Third, the bias does not reach the decision through faces, either because a portrait beside the scene is not bound to the person in it or because Qwen does not read trait impressions from it. Limitations: OMI trustworthiness is strongly anticorrelated with rated dominance ($r=-0.81$), the cues are explicit sentences, and we test one model.
 
 \subsection{Updated Research Idea}
-The midterm results change the idea in two ways. First, because appearance and behavior share one late-layer direction and naive removal often produces invariance by settling on a wrong answer, we replace unconditional removal with a learned, conditional rule: ignore trust whose source is appearance, keep trust whose source is observed behavior. We will fine-tune Qwen3-VL with LoRA using direct preference optimization \citep{rafailov2023dpo} on invariance pairs specified by the constitution. For an appearance cue $c$, the preferred answer is the model's cue-free answer $y^{+}=\hat y(x,\varnothing)$ and the dispreferred answer is the cue-induced one $y^{-}=\hat y(x,c)$, with
+The midterm results change the idea in two ways. First, because appearance and behavior share one late-layer direction and naive removal often produces invariance by settling on a wrong answer, we replace unconditional removal with a learned, conditional rule: ignore trust whose source is appearance, keep trust whose source is observed behavior. We will fine-tune Qwen3-VL with LoRA using direct preference optimization \citep{rafailov2023dpo} on invariance pairs specified by the constitution. For an appearance cue $c$, the preferred answer is the model's cue-free answer $y^{+}=\hat y(x,\emptyset)$ and the dispreferred answer is the cue-induced one $y^{-}=\hat y(x,c)$, with
 \begin{align}
 r_\theta(y)&=\beta\log\frac{\pi_\theta(y\mid x,c)}{\pi_{\text{ref}}(y\mid x,c)},\\
 \mathcal{L}_{\text{DPO}}&=-\,\mathbb{E}\big[\log\sigma\big(r_\theta(y^{+})-r_\theta(y^{-})\big)\big].
