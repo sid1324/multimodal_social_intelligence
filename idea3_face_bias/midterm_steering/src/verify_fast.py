@@ -1,4 +1,8 @@
 """Check that batched shared-prefix scoring (--fast) matches one-prompt-at-a-time scoring.
+v2 (2026-10-25): v1 failed only on max |delta logp| (0.75 = three bf16 logit steps of 0.25). Logits are now
+computed in float32 from the final hidden state for both paths, and the pass criterion compares the fast path
+with a pure rounding-noise reference (the same prompt as a duplicated batch of two); see Qwen.verify_vs_noise.
+The strict v1 numbers are still reported under 'strict_v1'.
 Train items only. Cases: base model, constitution system prompt, and an active ablation hook
 (seeded random unit direction on layers 14-35, alpha 1). Writes results/fast_check.json; 'ok' requires the
 same argmax on every prompt and max |delta letter log-prob| <= 0.05 (bf16 rounding differs between
@@ -21,12 +25,12 @@ def main(n_items=6):
     q = Qwen()
     cases = lambda system: [([Image.open(image_path(k)).convert('RGB')], [prompt_text(ann[k], cues[c]) for c in GATE_CONDS],
                              len(permuted_options(ann[k])), system) for k in items]
-    res = {}
-    res['base'] = q.verify_fast(cases(None))
-    res['constitution'] = q.verify_fast(cases(constitution()))
+    res = {'strict_v1': {}}
     rnd = np.random.default_rng(0).standard_normal((q.n_layers, q.model.config.text_config.hidden_size))
-    q.set_ablation(rnd, 1.0, range(14, 36))
-    res['ablation_random_dir'] = q.verify_fast(cases(None))
+    for name, system, abl in (('base', None, False), ('constitution', constitution(), False), ('ablation_random_dir', None, True)):
+        q.set_ablation(rnd, 1.0, range(14, 36)) if abl else q.set_ablation(None)
+        res[name] = q.verify_vs_noise(cases(system))
+        res['strict_v1'][name] = q.verify_fast(cases(system))
     q.set_ablation(None)
     c = cases(None)
     torch.cuda.synchronize(); t = time.time()

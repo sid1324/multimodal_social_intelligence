@@ -27,6 +27,7 @@ class Qwen:
             MODEL_ID, revision=REVISION, local_files_only=True, dtype=self.dtype,
             attn_implementation='sdpa', device_map=device).eval()
         self.layers = self.model.model.language_model.layers
+        self._w32 = self.model.lm_head.weight.detach().float()  # [vocab, H] float32 copy for the scoring head
         self.n_layers = len(self.layers)
         tok = self.processor.tokenizer
         self.letter_ids = {}
@@ -82,10 +83,15 @@ class Qwen:
         enc, _ = self.inputs(images, text, system)
         self._capture = [] if capture else None
         self._capture_idx = torch.tensor([enc['input_ids'].shape[1] - 1])
-        logits = self.model(**enc, logits_to_keep=1).logits[0, -1].float()
+        hid = self.model.model(**enc).last_hidden_state[0, -1]
+        logits = self._head32(hid)
         resid = torch.stack(self._capture)[:, 0].half().numpy() if capture else None
         self._capture = None
         return self._letters(logits, n_opts, enc['input_ids'].shape[1], enc.get('image_grid_thw')), resid
+
+    def _head32(self, hidden):
+        """Final logits in float32 (bf16 logits near |30| are quantized in steps of 0.25)."""
+        return hidden.float() @ self._w32.T
 
     def _letters(self, logits, n_opts, n_tokens, grid):
         letters = 'ABCDE'[:n_opts]
@@ -135,9 +141,8 @@ class Qwen:
         dev = self.device
         # prefix (hooks active, no capture)
         self._capture = None
-        out = self.model(input_ids=ids0[None, :P].to(dev), attention_mask=torch.ones(1, P, dtype=torch.long, device=dev),
-                         pixel_values=encs[0]['pixel_values'], image_grid_thw=encs[0]['image_grid_thw'], use_cache=True,
-                         logits_to_keep=1)
+        out = self.model.model(input_ids=ids0[None, :P].to(dev), attention_mask=torch.ones(1, P, dtype=torch.long, device=dev),
+                               pixel_values=encs[0]['pixel_values'], image_grid_thw=encs[0]['image_grid_thw'], use_cache=True)
         cache = out.past_key_values
         rope_deltas = self.model.model.rope_deltas
         B, lens = len(texts), [len(x) - P for x in all_ids]
@@ -154,13 +159,43 @@ class Qwen:
         last = torch.tensor([l - 1 for l in lens])
         self._capture = [] if capture else None
         self._capture_idx = last
-        logits = self.model(input_ids=suf.to(dev), attention_mask=mask.to(dev), position_ids=pos,
-                            past_key_values=cache, cache_position=torch.arange(P, P + L, device=dev),
-                            use_cache=True).logits.float()
+        hid = self.model.model(input_ids=suf.to(dev), attention_mask=mask.to(dev), position_ids=pos,
+                               past_key_values=cache, cache_position=torch.arange(P, P + L, device=dev),
+                               use_cache=True).last_hidden_state
         resid = torch.stack(self._capture, 1).half().numpy() if capture else None  # [B, n_layers, H]
         self._capture = None
-        outs = [self._letters(logits[b, lens[b] - 1], n_opts, len(all_ids[b]), encs[0]['image_grid_thw']) for b in range(B)]
+        outs = [self._letters(self._head32(hid[b, lens[b] - 1]), n_opts, len(all_ids[b]), encs[0]['image_grid_thw']) for b in range(B)]
         return outs, ([resid[b] for b in range(B)] if capture else None)
+
+    @torch.no_grad()
+    def score_dup2(self, images, text, n_opts, system=None):
+        """Reference noise: the same prompt run as a batch of two identical rows (different bf16 kernels)."""
+        content = [{'type': 'image'} for _ in images] + [{'type': 'text', 'text': text}]
+        msgs = ([{'role': 'system', 'content': [{'type': 'text', 'text': system}]}] if system else []) + [{'role': 'user', 'content': content}]
+        chat = self.processor.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
+        enc = self.processor(text=[chat, chat], images=list(images) * 2, return_tensors='pt').to(self.device)
+        hid = self.model.model(**enc).last_hidden_state[1, -1]
+        return self._letters(self._head32(hid), n_opts, enc['input_ids'].shape[1], None)
+
+    def verify_vs_noise(self, cases):
+        """Pre-stated criterion: the fast path passes if, against the one-at-a-time path, its argmax disagreements are
+        at most those of the duplicate-batch reference plus one prompt, and its max |delta p| (probability of any
+        option letter) is at most max(2 x the reference's, 0.02)."""
+        import math
+        st = {'fast': [0, 0.0], 'dup2': [0, 0.0]}
+        n = 0
+        for images, texts, n_opts, system in cases:
+            ref, _ = self.score_many(images, texts, n_opts, system, fast=False)
+            fst, _ = self.score_many(images, texts, n_opts, system, fast=True)
+            dup = [self.score_dup2(images, t, n_opts, system) for t in texts]
+            for a, b, c in zip(ref, fst, dup):
+                n += 1
+                for key, o in (('fast', b), ('dup2', c)):
+                    st[key][0] += a['argmax'] != o['argmax']
+                    st[key][1] = max(st[key][1], max(abs(math.exp(x) - math.exp(y)) for x, y in zip(a['letter_logp'], o['letter_logp'])))
+        ok = st['fast'][0] <= st['dup2'][0] + 1 and st['fast'][1] <= max(2 * st['dup2'][1], 0.02)
+        return {'n_prompts': n, 'fast_argmax_disagree': st['fast'][0], 'fast_max_abs_dp': round(st['fast'][1], 5),
+                'dup2_argmax_disagree': st['dup2'][0], 'dup2_max_abs_dp': round(st['dup2'][1], 5), 'ok': bool(ok)}
 
     def verify_fast(self, cases, tol=0.05):
         """cases: list of (images, texts, n_opts, system). Compares fast vs reference letter log-probs

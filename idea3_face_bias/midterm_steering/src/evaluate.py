@@ -7,7 +7,7 @@ Phases
   test:  test split, run once after results/FREEZE.json exists. Methods: base, constitution, naive, refined.
          Text arm: 21 conditions on cue items; clean accuracy on the rest; portrait arm (OMI faces as a
          second image): trust pair high/low and equal-trust control pair a/b on cue items.
-Rows go to results/<phase>/rows.jsonl.gz (appended, resumable).
+Rows go to results/<phase>/rows_v2.jsonl.gz (appended, resumable; v2 = float32 scoring head).
 
 Usage: python src/evaluate.py --phase sweep|test [--fast] [--limit N]
 """
@@ -81,7 +81,7 @@ def main():
 
     outdir = HERE / f'results/{args.phase}'
     outdir.mkdir(parents=True, exist_ok=True)
-    path = outdir / 'rows.jsonl.gz'
+    path = outdir / 'rows_v2.jsonl.gz'  # v2: float32 scoring head (partial v1 rows used bf16 logits; not used)
     done = set()
     if path.exists():
         try:

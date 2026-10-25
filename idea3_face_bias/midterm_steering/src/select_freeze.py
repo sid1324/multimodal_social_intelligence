@@ -105,7 +105,7 @@ def gate():
 
 
 def sweep():
-    rows = load_rows(HERE / 'results/sweep/rows.jsonl.gz')
+    rows = load_rows(HERE / 'results/sweep/rows_v2.jsonl.gz')
     pm = per_item(rows)
     table = {m: summarize(items) for m, items in pm.items()}
     (HERE / 'results/sweep/sweep_table.json').write_text(json.dumps(table, indent=1))
