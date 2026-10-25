@@ -1,0 +1,31 @@
+{
+  "panel_sha256": "e341c8f38c691922becc85b355bca0460495c67aa6229a4dcaf3b91bb729b1ba",
+  "models": {
+    "base": {
+      "n": 400,
+      "adapter": null,
+      "source_prediction_sha256": {
+        "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/base_ego_cap384": "35f169eabd530eaad5b1b5bed36a7c011749926560a79b0cf2348f3a11f1fab3",
+        "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/base_ego_cap384_extension": "fcb12f29ed11629663f56a4e352f9a45c3e26fe6f846e54b0415e21ac06c97fc"
+      },
+      "merged_prediction_sha256": "0efe895f163b692a925fd7ab4f893b12c2afe9ddac0d9a1314c903afc1ec5847"
+    },
+    "rloo": {
+      "n": 400,
+      "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/rloo/checkpoint-00100",
+      "source_prediction_sha256": {
+        "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/rloo_ego_cap384": "8c065babd7461490fa0533a6bba89315bcb744e3a3ba459834c516ebffbe8024",
+        "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/rloo_ego_cap384_extension": "d715d432f7d9e18fb0921d6ad9b6f3b297b788b71e3ac93b5252b34e6d249ff1"
+      },
+      "merged_prediction_sha256": "a44c52fde804f9e32955480bb8650336e703dbf3cc2f5b38cdfe2707d1c55026"
+    },
+    "sft": {
+      "n": 400,
+      "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/sft/checkpoint-00100",
+      "source_prediction_sha256": {
+        "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/sft_ego_cap384_extension": "43e2eb7038065a139cec0a82ab004365ef75222c482348e68d0ca654159ac3a4"
+      },
+      "merged_prediction_sha256": "43e2eb7038065a139cec0a82ab004365ef75222c482348e68d0ca654159ac3a4"
+    }
+  }
+}

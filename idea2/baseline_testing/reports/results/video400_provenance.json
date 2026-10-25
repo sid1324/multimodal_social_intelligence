@@ -1,0 +1,27 @@
+{
+  "panel_sha256": "e341c8f38c691922becc85b355bca0460495c67aa6229a4dcaf3b91bb729b1ba",
+  "source_groups": 348,
+  "models": {
+    "base": {
+      "n": 400,
+      "adapter": null,
+      "prior_prediction_sha256": "4e0c9a4b40610651dbdfbe098d495488b1d6d6149377765ec7f31c918644cfa4",
+      "extension_prediction_sha256": "5841b49727b715016f6747285641235dc3dd283920c9caeab7ea837372bc5f08",
+      "merged_prediction_sha256": "59cbc1e9a446e82d319c62ccef92de55256de5991dbaff54f1ff95d6ae054f72"
+    },
+    "rloo": {
+      "n": 400,
+      "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/rloo/checkpoint-00100",
+      "prior_prediction_sha256": "f51026307fd2de02712f0adae2bf7210beb1dc42ac6e1a8b69fc74012da6c222",
+      "extension_prediction_sha256": "ac3312fdf1f887d33058919e67636724918d758a53899136322bda3711f3c99b",
+      "merged_prediction_sha256": "1411e965b711c961c3163e4423a6aaf418c1227741888edbb6033e87652f64c2"
+    },
+    "sft": {
+      "n": 400,
+      "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/sft/checkpoint-00100",
+      "prior_prediction_sha256": "3ba49f63c0a8302ef22da496f8a2a7a8d95ada48a2b5f59bc4ce1012b381145b",
+      "extension_prediction_sha256": "44a2bbc21f7b9539453681c726348395081a93a1f251fa5505569cad38e50218",
+      "merged_prediction_sha256": "579a42c83cdbb526357bca3f5c34f19bcfc2762f187e3efc5498bb073e47f8ba"
+    }
+  }
+}

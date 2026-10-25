@@ -1,0 +1,22 @@
+{
+  "model_id": "Qwen/Qwen3.5-9B",
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "seed": 777,
+  "frames": 8,
+  "frame_max_side": 384,
+  "max_new_tokens": 192,
+  "enable_thinking": false,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "learning_rate": 0.00001,
+  "rollouts": 4,
+  "temperature": 1.0,
+  "kl_beta": 0.02,
+  "max_steps": 100,
+  "save_every": 10,
+  "max_hours": 3.5,
+  "r3_revision": "e447dfe5b50961fa405f8029b24f0d6a120da164",
+  "ego_revision": "2937df7fa96d8515417e7b5122fbf8eaeeaeee86",
+  "ego_repository_commit": "09d8a7c53f06ed582236722ba8496c6a504cd1ab",
+  "condensedmovies_commit": "c4f0c35a34b8b2cf2f3f54fa37000d0fb275685b"
+}

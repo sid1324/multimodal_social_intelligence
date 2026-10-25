@@ -1,0 +1,85 @@
+{
+  "n": 40,
+  "source_groups": 39,
+  "cells": {
+    "base192": {
+      "joint_correct": 7,
+      "joint_accuracy": 0.175,
+      "invalid_examples": 19,
+      "cap_hits": {
+        "action": 7,
+        "justification": 13,
+        "sensibility": 2
+      }
+    },
+    "rloo192": {
+      "joint_correct": 10,
+      "joint_accuracy": 0.25,
+      "invalid_examples": 18,
+      "cap_hits": {
+        "action": 7,
+        "justification": 12,
+        "sensibility": 2
+      }
+    },
+    "base384": {
+      "joint_correct": 12,
+      "joint_accuracy": 0.3,
+      "invalid_examples": 4,
+      "cap_hits": {
+        "action": 1,
+        "justification": 3,
+        "sensibility": 0
+      }
+    },
+    "rloo384": {
+      "joint_correct": 13,
+      "joint_accuracy": 0.325,
+      "invalid_examples": 5,
+      "cap_hits": {
+        "action": 1,
+        "justification": 4,
+        "sensibility": 0
+      }
+    }
+  },
+  "paired_effects": {
+    "base_cap_384_minus_192": {
+      "difference": 0.125,
+      "ci95": [
+        0.025,
+        0.23076923076923078
+      ]
+    },
+    "rloo_cap_384_minus_192": {
+      "difference": 0.075,
+      "ci95": [
+        0.0,
+        0.15384615384615385
+      ]
+    },
+    "rloo_minus_base_at_192": {
+      "difference": 0.075,
+      "ci95": [
+        0.0,
+        0.15384615384615385
+      ]
+    },
+    "rloo_minus_base_at_384": {
+      "difference": 0.025,
+      "ci95": [
+        0.0,
+        0.07692307692307693
+      ]
+    },
+    "model_by_cap_interaction": {
+      "difference": -0.05,
+      "ci95": [
+        -0.1282051282051282,
+        0.0
+      ]
+    }
+  },
+  "panel": "first 40 IDs in supplied order",
+  "exploratory": true
+}
