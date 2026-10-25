@@ -28,65 +28,46 @@ def main():
     st = json.loads((HERE / 'results/directions_stats.json').read_text())
     table = json.loads((HERE / 'results/sweep/sweep_table.json').read_text())
     frz = json.loads((HERE / 'results/FREEZE.json').read_text())
-    L = list(range(len(st['cos_app_beh'])))
+    L = np.arange(len(st['cos_app_beh']))
+    fig, (a, b) = plt.subplots(2, 1, figsize=(3.25, 3.55), gridspec_kw={'height_ratios': [1, 1.35], 'hspace': 0.55})
 
-    fig, (a, b) = plt.subplots(2, 1, figsize=(3.25, 4.35), gridspec_kw={'height_ratios': [1, 1.25], 'hspace': 0.42})
-    # (a) cosine by layer
-    a.axvspan(14, 35, color=GRID, alpha=0.55, lw=0, zorder=0)
-    a.axvline(25, color=INK2, lw=0.7, ls=(0, (2, 2)), zorder=1)
-    a.text(14.4, -0.16, 'naive: 14 to 35', color=INK2, fontsize=6.6)
-    a.text(25.5, 0.05, 'refined:\nlayer 25', color=INK2, fontsize=6.6)
-    a.plot(L, st['split_half_cos_app'], color=ORANGE, lw=1.4, ls=(0, (4, 1.5)), label=r'split-half, $d_{app}$')
-    a.plot(L, st['split_half_cos_beh'], color=AQUA, lw=1.4, ls=(0, (1, 1.2)), label=r'split-half, $d_{beh}$')
-    a.plot(L, st['cos_app_beh'], color=BLUE, lw=2, label=r'$\cos(d_{app}, d_{beh})$')
-    a.set_xlim(0, 35); a.set_ylim(-0.2, 1.08)
-    a.set_xlabel('Decoder layer'); a.set_ylabel('Cosine similarity')
-    a.set_title(r'$\bf{(a)}$ Appearance vs. behavior trust direction', loc='left')
-    a.grid(axis='y', color=GRID, lw=0.6); a.set_axisbelow(True)
-    a.legend(loc='center left', bbox_to_anchor=(0.0, 0.6), frameon=False, handlelength=2.4, borderaxespad=0.2)
+    # (a) one line: how similar the two trust directions are at each layer
+    a.axhline(0, color=GRID, lw=0.8, zorder=0)
+    a.plot(L, st['cos_app_beh'], color=BLUE, lw=1.6, solid_capstyle='round')
+    a.set_xlim(0, 35); a.set_ylim(-0.25, 1.0); a.set_yticks([0, 0.5, 1.0]); a.set_xticks([0, 5, 10, 15, 20, 25, 30, 35])
+    a.set_xlabel('Decoder layer', labelpad=1.5)
+    a.set_ylabel(r'$\cos(d_{\mathrm{app}}, d_{\mathrm{beh}})$', labelpad=2)
+    a.text(-0.16, 1.04, '(a)', transform=a.transAxes, fontsize=8.5, fontweight='bold', va='bottom')
 
     # (b) validation trade-off
-    base, cons = table['base'], table['constitution']
     floor = frz['r_beh_min'] * 100
-    b.axhline(floor, color=INK2, lw=0.8, ls=(0, (3, 2)))
-    b.text(16.2, floor - 0.95, r'behavior floor (0.8 $\times$ base)', color=INK2, fontsize=6.6, ha='left')
-    for kind, color, marker in (('naive', BLUE, 'o'), ('refined', ORANGE, '^')):
-        for m, t in table.items():
-            if not m.startswith(kind + '_'):
-                continue
-            ok_acc = t['acc'][0] >= frz['acc_min']
-            alpha = m.rsplit('_a', 1)[1]
-            face = color if alpha == '1.0' else SURF
-            b.scatter(t['s_app'][0] * 100, t['r_beh'][0] * 100, s=26 if ok_acc else 18, marker=marker if ok_acc else 'X',
-                      facecolor=face if ok_acc else color, edgecolor=color, lw=1.1, zorder=3)
-    for name, t, mk in (('base model', base, 's'), ('constitution', cons, 'D')):
-        b.scatter(t['s_app'][0] * 100, t['r_beh'][0] * 100, s=26, marker=mk, color=INK, edgecolor=SURF, lw=0.8, zorder=4)
-    b.annotate('base model', (base['s_app'][0] * 100, base['r_beh'][0] * 100), xytext=(4, 3), textcoords='offset points', fontsize=6.8, color=INK)
-    b.annotate('constitution', (cons['s_app'][0] * 100, cons['r_beh'][0] * 100), xytext=(4, 2), textcoords='offset points', fontsize=6.8, color=INK)
-    for kind, color in (('naive', BLUE), ('refined', ORANGE)):
+    b.axhline(floor, color=INK2, lw=0.7, ls=(0, (3, 2)), zorder=1)
+    b.text(23.35, floor + 0.35, r'0.8$\times$base', color=INK2, fontsize=6.8, ha='right', va='bottom')
+    for kind, color, marker, lab in (('naive', BLUE, 'o', 'naive'), ('refined', ORANGE, '^', 'refined')):
+        pts = [(t['s_app'][0] * 100, t['r_beh'][0] * 100) for m, t in table.items() if m.startswith(kind + '_')]
+        b.scatter(*zip(*pts), s=16, marker=marker, color=color, edgecolor='none', alpha=0.9, zorder=3, label=lab)
+    for name, mk, off in (('base', 's', (4, 2)), ('constitution', 'D', (4, 2))):
+        t = table[name]
+        b.scatter(t['s_app'][0] * 100, t['r_beh'][0] * 100, s=16, marker=mk, color=INK, zorder=4)
+        b.annotate(name, (t['s_app'][0] * 100, t['r_beh'][0] * 100), xytext=off, textcoords='offset points', fontsize=7, color=INK)
+    for kind, off, ha in (('naive', (7, 3), 'left'), ('refined', (0, 6), 'center')):
         t = table[frz[kind]['name']]
         x, y = t['s_app'][0] * 100, t['r_beh'][0] * 100
-        b.scatter(x, y, s=150, marker='*', facecolor='none', edgecolor=INK, lw=0.9, zorder=5)
-        b.annotate(f'frozen {kind}', (x, y), xytext=(8, 4) if kind == 'naive' else (0, 10), ha='left' if kind == 'naive' else 'center', textcoords='offset points', fontsize=6.8, color=INK)
-    from matplotlib.lines import Line2D
-    h = [Line2D([], [], marker='o', ls='', mfc=BLUE, mec=BLUE, ms=4.5, label=r'naive, $\alpha=1$'),
-         Line2D([], [], marker='o', ls='', mfc=SURF, mec=BLUE, ms=4.5, label=r'naive, $\alpha=0.5$'),
-         Line2D([], [], marker='^', ls='', mfc=ORANGE, mec=ORANGE, ms=4.5, label=r'refined, $\alpha=1$'),
-         Line2D([], [], marker='^', ls='', mfc=SURF, mec=ORANGE, ms=4.5, label=r'refined, $\alpha=0.5$'),
-         Line2D([], [], marker='X', ls='', mfc=INK2, mec=INK2, ms=4, label='fails accuracy limit')]
-    b.legend(handles=h, loc='lower right', frameon=False, ncol=2, columnspacing=0.8, handletextpad=0.3, borderaxespad=0.2)
-    b.set_xlabel('Appearance flips, $S_{app}$ (%)  (lower is better)')
-    b.set_ylabel('Behavior flips, $R_{beh}$ (%)')
-    b.set_title(r'$\bf{(b)}$ Validation trade-off (196 items)', loc='left')
-    b.set_xlim(13, 23.5); b.set_ylim(14.5, 31)
-    b.grid(color=GRID, lw=0.6); b.set_axisbelow(True)
+        b.scatter(x, y, s=70, facecolor='none', edgecolor=INK, lw=0.8, zorder=5)
+        b.annotate(f'chosen ({kind})', (x, y), xytext=off, textcoords='offset points', fontsize=7, color=INK, ha=ha)
+    b.set_xlim(13.5, 23.5); b.set_ylim(18, 31); b.set_yticks([18, 21, 24, 27, 30])
+    b.set_xlabel(r'Appearance flips $S_{\mathrm{app}}$ (%)', labelpad=1.5)
+    b.set_ylabel(r'Behavior flips $R_{\mathrm{beh}}$ (%)', labelpad=2)
+    b.legend(loc='upper right', frameon=False, handletextpad=0.2, borderaxespad=0.1, markerscale=1.1)
+    b.text(-0.16, 1.03, '(b)', transform=b.transAxes, fontsize=8.5, fontweight='bold', va='bottom')
+    for ax in (a, b):
+        ax.grid(axis='y', color=GRID, lw=0.5); ax.set_axisbelow(True)
 
     out = HERE / 'report/figures'
     out.mkdir(parents=True, exist_ok=True)
     for ext in ('pdf', 'png'):
         fig.savefig(out / f'idea3_fig1.{ext}', dpi=300, bbox_inches='tight', facecolor=SURF)
     print('wrote', out / 'idea3_fig1.pdf')
-
 
 
 def fig_example(item_id, methods=('base', 'naive', 'refined'), out_name='idea3_example'):

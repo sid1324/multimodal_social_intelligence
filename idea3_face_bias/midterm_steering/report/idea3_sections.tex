@@ -41,11 +41,9 @@ For Idea 3 we use the 1,184 EgoNormia items whose gold action is non-empty and w
 
 \subsection{Initial Implementation}
 
-\paragraph{Idea.}
 When a vision-language model (VLM) chooses the appropriate next action in a real scene, the other person's \emph{apparent} trustworthiness should not matter: facial appearance is not valid evidence of character, even though humans and language models treat it as such \citep{oosterhof2008functional, lehr2026face}. What a person \emph{does} (holding a knife, returning a lost wallet) and the states they visibly express (anger, calm) are legitimate social signals. A useful fix must therefore remove the first influence while keeping the second. The same trust impression can reach a model through language (a sentence describing the person) or through vision (a face), which makes the problem multimodal: if both channels feed one internal representation, a correction estimated from text should also change how the model responds to faces. Our baseline tests this with activation steering on Qwen3-VL-8B-Instruct \citep{bai2025qwen3vl}.
 
-\paragraph{Measurement.}
-An item $x=(V,q,O)$ has five pre-action frames $V$, the question $q$ and $K=4$ candidate actions $O$ with gold action $a^\ast$. A cue $c$ is one sentence inserted before the question, for example ``The other person in the scene appears untrustworthy'' ($c_{\text{low}}$) or ``\dots appears trustworthy'' ($c_{\text{high}}$). We read the model's choice from its next-token distribution over the option letters,
+Formally, an item $x=(V,q,O)$ has five pre-action frames $V$, the question $q$ and $K=4$ candidate actions $O$ with gold action $a^\ast$. A cue $c$ is one sentence inserted before the question, for example ``The other person in the scene appears untrustworthy'' ($c_{\text{low}}$) or ``\dots appears trustworthy'' ($c_{\text{high}}$). We read the model's choice from its next-token distribution over the option letters,
 \begin{align}
 p_\theta(o_k \mid x,c)&=\operatorname{softmax}_k\, z_\theta(x,c)_{\ell_k},\\
 \hat y(x,c)&=\textstyle\arg\max_k\, p_\theta(o_k\mid x,c),
@@ -56,10 +54,7 @@ S_{\text{app}}=\Pr\big[\hat y(x,c_{\text{low}})\neq\hat y(x,c_{\text{high}})\big
 \end{equation}
 compared with the wording noise floor $S_0$ (a neutral sentence versus its paraphrase). Legitimate responsiveness $R_{\text{beh}}$ and $R_{\text{state}}$ are the analogous flip rates for negative versus positive behavior and expressed-state cues.
 
-\paragraph{Data and evaluation.}
-We use the EgoNormia items whose gold action is not the empty option and whose options leave room for a trait cue to matter (1,184 items, identified by the person-directed lexicon from our second assignment). We split by source video (50/15/35\%), giving 587 train, 196 validation and 401 test cue items; clean accuracy is computed on all items with a non-empty gold action in each split (921/289/622). Directions are estimated on train, the steering configuration is chosen on validation, and the test split is evaluated once after that choice is frozen. Cue sentences come in matched pairs: three appearance and two behavior wordings are used for training and validation, while two further appearance wordings, two behavior wordings and two expressed-state wordings appear only at test, so test results measure generalization to unseen wordings. We report flip rates, accuracy and changes in the gold option's log-probability, each with 95\% bootstrap intervals (5,000 replicates, resampling source videos).
-
-\paragraph{Directions.}
+\paragraph{Steering.}
 Let $h_l(x,c)\in\mathbb{R}^{4096}$ be the residual stream after decoder layer $l$ at the last prompt token. On train items we estimate an appearance direction and a behavior direction,
 \begin{align}
 d^{\,l}_{\text{app}}&=\mathbb{E}\big[h_l(x,c_{\text{low}})-h_l(x,c_{\text{high}})\big],\\
@@ -71,7 +66,6 @@ d^{\,l}_{\perp}=d^{\,l}_{\text{app}}-\big(d^{\,l}_{\text{app}}\cdot\hat u^{\,l}_
 \end{equation}
 where hats denote unit vectors.
 
-\paragraph{Steering.}
 Following \citet{arditi2024refusal} and \citet{ratzlaff2024debiasing}, we project a unit direction $u$ out of the residual stream at every token position of a layer set $\mathcal{L}$,
 \begin{equation}
 h_l \leftarrow h_l-\alpha\,(h_l^{\top}u^{\,l})\,u^{\,l}\quad\text{for } l\in\mathcal{L},
@@ -89,18 +83,14 @@ where Acc is clean accuracy (no cue). On validation we search $\alpha\in\{0.5,1\
 \paragraph{Vision arm.}
 Real faces in EgoNormia are small (median 50 pixels in 640-pixel frames, about $2\times2$ visual tokens) and vary in expression, so for a controlled visual test we show a second image, introduced as ``The second image shows the face of the other person in the scene,'' containing a synthetic face from One Million Impressions \citep{peterson2022omi}, whose 1,004 faces carry human ratings of trustworthiness, happiness, age and gender. Before any model run we matched 52 pairs that differ by at least 15 points in rated trustworthiness (0 to 100 scale; mean gap 17.2) while agreeing within 5 points in rated happiness (mean gap 1.0), 8 in age and 15 in gender, with the same majority race label, plus 285 equal-trust control pairs. Face sensitivity $S_{\text{face}}$ is the flip rate between a trust pair minus the flip rate between an equal-trust pair, and the multimodal test asks whether steering with a direction estimated only from text reduces it.
 
-\paragraph{Details.}
-All runs use the pinned Qwen3-VL-8B-Instruct checkpoint in bf16 on one A100 (40\,GB). Each item's five frames are given as one image strip at the 640-pixel preview resolution (1,100 to 1,500 visual tokens). Conditions that share an image are scored in one batch that reuses the image prefix; key test quantities were re-checked by scoring 100 test items one prompt at a time.
+We evaluate on the EgoNormia items whose gold action is not the empty option and whose options leave room for a trait cue to matter (1,184 items, identified by the person-directed lexicon from our second assignment). We split by source video (50/15/35\%), giving 587 train, 196 validation and 401 test cue items; clean accuracy is computed on all items with a non-empty gold action in each split (921/289/622). Directions are estimated on train, the steering configuration is chosen on validation, and the test split is evaluated once after that choice is frozen. Cue sentences come in matched pairs: three appearance and two behavior wordings are used for training and validation, while two further appearance wordings, two behavior wordings and two expressed-state wordings appear only at test, so test results measure generalization to unseen wordings. We report flip rates, accuracy and changes in the gold option's log-probability, each with 95\% bootstrap intervals (5,000 replicates, resampling source videos). All runs use the pinned Qwen3-VL-8B-Instruct checkpoint in bf16 on one A100 (40\,GB). Each item's five frames are given as one image strip at the 640-pixel preview resolution (1,100 to 1,500 visual tokens). Conditions that share an image are scored in one batch that reuses the image prefix; key test quantities were re-checked by scoring 100 test items one prompt at a time.
 
 \subsection{Results and Discussion}
 
-\paragraph{The text cue moves the model.}
-On 300 train items, matched low- and high-trust sentences changed Qwen's chosen action on 25.3\% of items [21.0, 29.6], against 2.0\% [0.7, 3.7] for a neutral sentence versus its paraphrase, an excess of 23.3 points [19.1, 27.6]. The low-trust cue also lowered accuracy (55.1\% versus 60.6\%; difference $-5.4$ points [$-9.9$, $-1.0$]), replicating with an open model the direction of our earlier 60-item pilot on Gemini. Behavior cues flipped 31.3\% of answers, so the legitimate-signal control is active.
+Before steering, we checked on 300 train items that the text cue moves the model at all: matched low- and high-trust sentences changed Qwen's chosen action on 25.3\% of items [21.0, 29.6], against 2.0\% [0.7, 3.7] for a neutral sentence versus its paraphrase, an excess of 23.3 points [19.1, 27.6]. The low-trust cue also lowered accuracy (55.1\% versus 60.6\%; difference $-5.4$ points [$-9.9$, $-1.0$]), replicating with an open model the direction of our earlier 60-item pilot on Gemini. Behavior cues flipped 31.3\% of answers, so the legitimate-signal control is active.
 
-\paragraph{One trust concept or two?}
-Appearance and behavior directions are nearly orthogonal in early layers but converge in the second half of the network: their cosine similarity stays between $-0.14$ and $0.07$ in layers 0 to 9, rises through layers 10 to 18, and holds at 0.78 to 0.81 in layers 19 to 33 before dropping at the final layer (0.32 at layer 35; Figure~\ref{fig:idea3-dirs}a). Both directions are stable (split-half cosine at least 0.93 in every layer). The model thus largely represents trust inferred from looks and trust earned through behavior with one shared direction, which predicts that removing the appearance direction will also weaken legitimate behavior responsiveness. One caveat applies: both contrasts pair a negative with a positive sentence, so part of the overlap may reflect general sentence valence rather than trust specifically.
+The estimated appearance and behavior directions are nearly orthogonal in early layers but converge in the second half of the network: their cosine similarity stays between $-0.14$ and $0.07$ in layers 0 to 9, rises through layers 10 to 18, and holds at 0.78 to 0.81 in layers 19 to 33 before dropping at the final layer (0.32 at layer 35; Figure~\ref{fig:idea3-dirs}a). Both directions are stable (split-half cosine at least 0.93 in every layer). The model thus largely represents trust inferred from looks and trust earned through behavior with one shared direction, which predicts that removing the appearance direction will also weaken legitimate behavior responsiveness. One caveat applies: both contrasts pair a negative with a positive sentence, so part of the overlap may reflect general sentence valence rather than trust specifically.
 
-\paragraph{Main results.}
 \TBD{Validation choice: naive = configuration, refined = configuration, and whether any constraint had to be relaxed (Figure~\ref{fig:idea3-dirs}b).}
 Table~\ref{tab:idea3-main} reports the test split. \TBD{2 to 4 sentences: S\_app base vs refined vs naive on train and held-out wordings; R\_beh and R\_state retained or lost; clean accuracy cost; constitution baseline; face sensitivity and whether text-derived steering reduced it (the multimodal transfer result).}
 
@@ -125,7 +115,7 @@ Refined & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{}\\
 \begin{figure}[t]
 \centering
 \includegraphics[width=\columnwidth]{figures/idea3_fig1.pdf}
-\caption{\textbf{(a)} Cosine similarity between the appearance and behavior trust directions at each decoder layer of Qwen3-VL-8B (train, 300 items), with split-half stability. \textbf{(b)} Validation sweep (196 items): appearance sensitivity versus behavior responsiveness for naive and refined steering; the dashed line marks the behavior constraint and stars the frozen configurations; filled markers use $\alpha=1$, open markers $\alpha=0.5$, and crosses fail the accuracy limit.}
+\caption{\textbf{(a)} Cosine similarity between the appearance and behavior trust directions at each decoder layer of Qwen3-VL-8B (300 train items); both directions are stable (split-half cosine $\geq 0.93$ at every layer). \textbf{(b)} Validation sweep (196 items): appearance flips versus behavior flips for the 10 naive and 10 refined steering configurations; circles mark the configurations chosen by the pre-registered rule and the dashed line the behavior constraint.}
 \label{fig:idea3-dirs}
 \end{figure}
 
