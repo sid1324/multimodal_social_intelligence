@@ -128,6 +128,7 @@ def sweep():
             proposal[kind] = dict(ok[0], flagged=False)
         else:
             fb = sorted([c for c in cands if c['acc'] >= acc_min], key=order) or sorted(cands, key=order)
+            assert fb, f'no {kind} rows in the sweep'
             proposal[kind] = dict(fb[0], flagged=True, flag='no config met both constraints; chosen by S_app with accuracy constraint only')
         proposal[f'{kind}_candidates'] = sorted(cands, key=order)
     (HERE / 'results/FREEZE_proposal.json').write_text(json.dumps(proposal, indent=1))

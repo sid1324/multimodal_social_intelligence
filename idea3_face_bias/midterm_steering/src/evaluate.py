@@ -9,7 +9,11 @@ Phases
          second image): trust pair high/low and equal-trust control pair a/b on cue items.
 Rows go to results/<phase>/rows_v2.jsonl.gz (appended, resumable; v2 = float32 scoring head).
 
-Usage: python src/evaluate.py --phase sweep|test [--fast] [--limit N]
+  recheck: after test, 100 seeded test cue items x {base, refined} x 13 conditions (none, neutral,
+         neutral_paraphrase, appearance train and held-out wordings), always one prompt at a time, to compare
+         with the batched test rows.
+
+Usage: python src/evaluate.py --phase sweep|test|recheck [--fast] [--limit N]
 """
 import argparse, gzip, json, os, sys, time
 from pathlib import Path
@@ -55,28 +59,40 @@ def test_methods():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--phase', choices=['sweep', 'test'], required=True)
+    ap.add_argument('--phase', choices=['sweep', 'test', 'recheck'], required=True)
     ap.add_argument('--fast', action='store_true', help='batched shared-prefix scoring (only if verify passed)')
     ap.add_argument('--limit', type=int, default=0, help='debug: first N items per list')
     ap.add_argument('--methods', default='', help='comma-separated subset of method names')
     args = ap.parse_args()
+    if args.phase == 'recheck':
+        args.fast = False
     if args.fast:
         chk = json.loads((HERE / 'results/fast_check.json').read_text())
-        assert chk['ok'], 'fast path did not pass verification'
+        approved = os.environ.get('FAST_OVERRIDE') == 'yash-approved'  # Yash's decision on 2026-10-25 (see AI_USAGE_LOG.md)
+        assert chk['ok'] or approved, 'fast path did not pass verification'
+        if not chk['ok']:
+            print('fast path used by decision of Yash (FAST_OVERRIDE); differences are at bf16 rounding-noise level', flush=True)
 
     ann, table, splits, cues = load_annotations(), load_item_table(), load_splits(), load_cues()
     split = 'val' if args.phase == 'sweep' else 'test'
     pool = splits['pool'][split]
     clean_only = [k for k in splits['clean'][split] if k not in set(pool)]
+    if args.phase == 'recheck':
+        from data import seeded_int
+        pool, clean_only = sorted(pool, key=lambda k: seeded_int('recheck-v1', k))[:100], []
     if args.limit:
         pool, clean_only = pool[:args.limit], clean_only[:args.limit]
     methods = sweep_methods() if args.phase == 'sweep' else test_methods()
+    if args.phase == 'recheck':
+        methods = [m for m in methods if m['name'] in ('base', 'refined')]
     if args.methods:
         keep = set(args.methods.split(','))
         methods = [m for m in methods if m['name'] in keep]
     text_conds = GATE_CONDS if args.phase == 'sweep' else TEST_TEXT_CONDS
+    if args.phase == 'recheck':
+        text_conds = [c for c in TEST_TEXT_CONDS if c.startswith(('none', 'neutral', 'app_'))]
     dirs = np.load(CACHE / 'directions.npz')
-    pairs = json.loads((HERE / 'results/omi_pairs.json').read_text()) if args.phase == 'test' else None
+    pairs = json.loads((HERE / 'results/omi_pairs.json').read_text()) if args.phase == 'test' else None  # portrait arm in test only
     system_text = constitution()
 
     outdir = HERE / f'results/{args.phase}'
