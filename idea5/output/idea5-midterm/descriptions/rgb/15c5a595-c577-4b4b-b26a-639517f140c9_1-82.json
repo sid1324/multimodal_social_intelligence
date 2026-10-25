@@ -1,0 +1,18 @@
+{
+ "id": "15c5a595-c577-4b4b-b26a-639517f140c9_1-82",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene begins in a room with a hardwood floor, windows along the right and back walls, a wooden desk with a computer monitor and wooden chairs on the left, and a second desk with dual monitors and a potted plant in the back-right corner. In the first frame, a brown-and-white dog stands on the floor in the lower-left foreground about 1 to 1.5 metres from the camera wearer, looking up toward the camera, while a seated person is about 2.5 to 3 metres away at the back-right desk, roughly 2 metres beyond the dog and 1.5 metres to the right of the left-side desk. The seated person initially faces away and to the right toward the monitors with the keyboard, mouse, lamp, and potted plant within their arm's reach, and their head cropped out at the top edge of Frame 1, while a white box on the lower-left and the nearby wooden chairs are within or just beyond the camera wearer's arm's reach. Across Frames 2 and 3, the camera wearer turns clockwise to the right and steps backward, causing the left-side desk and the dog to pass out of view while the seated person shifts to the left-center of the frame at about 2.5 to 3 metres distance and turns their head over their right shoulder to look directly toward the camera wearer in Frame 3. In Frames 4 and 5, the camera wearer continues rotating right and moving forward out of the office through an open wooden doorway\u2014whose dark frame and curtained window are within arm's reach on the left and right\u2014completely occluding the office and the seated person behind the wall. By the final frame, the viewpoint faces an adjacent hallway and room ahead where a tall cabinet and storage unit stand against the left wall about 2.5 to 3.5 metres away, with another dark doorway visible farther in the background at roughly 5 metres."
+ },
+ "duration_seconds": 20.606798,
+ "usage": {
+  "input_tokens": 19616,
+  "output_tokens": 708,
+  "thinking_tokens": 229,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20324
+ },
+ "conversation_id": "3afbdf86-349d-4490-819f-cb6abcd65537"
+}

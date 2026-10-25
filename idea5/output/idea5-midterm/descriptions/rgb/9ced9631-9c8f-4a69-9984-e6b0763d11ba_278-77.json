@@ -1,0 +1,18 @@
+{
+ "id": "9ced9631-9c8f-4a69-9984-e6b0763d11ba_278-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows a retail display counter with a white marble-patterned surface positioned directly in front of and below the camera wearer at roughly 0.5 to 0.8 metres distance, backed by a dark reflective partition wall about 0.8 to 1.0 metre away that mirrors the counter items and carries large red lettering above. No other people are visible in the scene; only the camera wearer's right hand appears at the bottom edge of frames 1 and 4, holding a rectangular boxed set of three folded pocket squares within immediate arm's reach at about 0.4 metres. On the counter surface to the left of the held box, three coiled black belts lie in a row about 0.1 metres apart behind four vertically arranged dark neckties, all within 0.5 to 0.7 metres of the camera wearer and within arm's reach. Across frames 1 to 4, the camera wearer rotates the held box in front of the right side of the counter\u2014showing its transparent front in frame 1, turning it sideways in frame 2, flipping its dark back toward the camera in frame 3, and returning it to face forward in frame 4\u2014where it partially occludes the rightmost necktie and the right edge of the tabletop. In frame 5, the camera pans slightly left and tilts down as the held box moves almost entirely out of view at the bottom-right corner, bringing an additional open belt loop, knit hats, and tan footwear on the left side of the counter into view at roughly 0.6 to 0.9 metres distance."
+ },
+ "duration_seconds": 12.885198,
+ "usage": {
+  "input_tokens": 5367,
+  "output_tokens": 420,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 28414,
+  "total_tokens": 5787
+ },
+ "conversation_id": "bf6c73a2-08d7-466e-afa3-f383f0002eb7"
+}

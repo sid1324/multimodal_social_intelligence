@@ -1,0 +1,18 @@
+{
+ "id": "0cd16e31-6045-45ea-b0d7-105116f9e6d1_1433-59",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living and dining area with a wooden floor, a patterned rug at the bottom-left foreground, a wall along the left side, and no other people present in any of the five frames. Along the left wall, proceeding from the foreground into the room, are the dark arm of a sofa and a woven basket on the floor, a small green children's desk with a red-and-wood backing and a small wooden chair tucked beneath it, and a low grey shelving unit holding toys and bins about 1 to 2 metres beyond the desk. Further back on the right side of the room, roughly 3 to 4.5 metres from the camera wearer and about 1.5 to 2 metres to the right of the grey shelving unit, stands a dark wooden dining table surrounded by chairs, with a white cabinet against the far back wall. In the first two frames, the camera wearer is positioned close to the left wall within arm's reach (about 0.5 to 1.2 metres) of the sofa arm, the woven basket, and the green children's desk and chair, while the grey shelf and the rest of the room to the right are partly or fully out of view. Across frames 2 through 5, the camera wearer retreats backward and slightly to the right while panning the view rightward, increasing the distance to the green desk from roughly 1 metre to about 2.5 metres so that nothing remains within arm's reach except the patterned rug below. As the viewpoint pulls back and turns rightward, the dining table and chairs enter the right half of the frame\u2014initially motion-blurred in frame 3 and partially cropped at the right and top edges in frames 4 and 5\u2014while the small wooden chair stays partially occluded underneath the green desk throughout."
+ },
+ "duration_seconds": 17.364979,
+ "usage": {
+  "input_tokens": 5405,
+  "output_tokens": 756,
+  "thinking_tokens": 309,
+  "cache_read_tokens": 28420,
+  "total_tokens": 6161
+ },
+ "conversation_id": "1fdc45ad-8ce6-419d-94f2-8589e40a242a"
+}

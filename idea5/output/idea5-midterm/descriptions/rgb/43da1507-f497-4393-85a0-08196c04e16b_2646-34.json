@@ -1,0 +1,18 @@
+{
+ "id": "43da1507-f497-4393-85a0-08196c04e16b_2646-34",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer faces a white wall at arm's reach (roughly 0.4 to 0.6 metres away) where a geometric gold metal wall sculpture hangs directly in front of them. The wearer's left arm extends forward from the bottom left to hold a vertical yellow tape measure against the center of the sculpture, occluding the bars directly behind the arm and tape, while the top and bottom ends of the tape measure and the right edge of the sculpture extend out of view. No other people are visible in the scene across any of the five frames. In frames three and four, the viewpoint turns rightward and tilts downward toward an interior wall corner about 0.8 to 1.2 metres away, bringing into view a small white corner stand at the bottom of the frame that holds a tall slender white vase on the left, a short round white vessel in front, and a small green plant on the right, all within or just beyond arm's reach. In the fifth frame, the camera wearer turns further right past a protruding white wall corner on the left (about 0.5 metres away, with a blurred white fabric or sleeve partially occluding the upper-left view) to look into an adjacent living area. Beyond a dark counter or furniture edge in the lower-right foreground (roughly 1 metre away), a blue accent chair sits about 2 to 2.5 metres away on a patterned white rug, with a glass coffee table ~0.5 metres behind the chair and a light-colored sofa with pillows against the far right background at roughly 3 to 4 metres."
+ },
+ "duration_seconds": 14.972423,
+ "usage": {
+  "input_tokens": 19573,
+  "output_tokens": 550,
+  "thinking_tokens": 143,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20123
+ },
+ "conversation_id": "50f9d0a8-b232-43cf-bcde-a8e62ab6aa18"
+}

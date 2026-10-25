@@ -1,0 +1,12 @@
+{
+ "id": "a4048b30-d9a8-4653-a2d6-d07422e3449e_739-24",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a workshop-like space, with their legs at the bottom of each frame, a metal workbench about 0.5\u20131 m ahead, a blue rolling cart roughly 1 m ahead-left, and a white bucket about 1\u20131.5 m ahead-right beneath the bench. A red-and-black wheeled tool or device lies on the floor approximately 0.3\u20130.6 m in front of the wearer, while several cables run across the floor between it, the cart, and the bench; these objects are generally within about 0.5\u20131.5 m of one another. No other person is clearly visible, and the only visible arms and hands appear connected to the camera wearer, so no separate facing or gaze direction can be established. The bench edge, nearby items, and the red floor device are within or near the wearer's arm's reach, whereas the cart and bucket are farther away; objects on top of the bench are partly hidden by the bench edge and fisheye distortion, and parts of the wearer's body extend out of the lower frame. Across the five frames, the viewpoint turns slightly left and right and tilts, shifting the bucket and cart laterally, while the wearer retracts a hand toward the lap around the middle frame and then extends an arm forward and upward toward the bench in the final frames; the fixed room objects show no clear approach or retreat."
+ },
+ "duration_seconds": 14.5,
+ "usage": null,
+ "conversation_id": null
+}

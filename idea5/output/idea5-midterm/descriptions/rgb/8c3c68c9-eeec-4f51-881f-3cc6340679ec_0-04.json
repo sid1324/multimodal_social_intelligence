@@ -1,0 +1,18 @@
+{
+ "id": "8c3c68c9-eeec-4f51-881f-3cc6340679ec_0-04",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor store area featuring a lit pastry display case and two tall glass-door beverage refrigerators lined up side by side along the back wall roughly 3.5 to 4.5 metres away, with posters mounted above and around them. A woman in a red shirt and lanyard stands in the foreground slightly right of center at about 1.0 to 1.3 metres from the camera wearer, nearly within the camera wearer's arm's reach, while her body below the waist is cut off by the bottom edge of the frame. Directly behind the woman by about 1.0 metre\u2014within her arm's reach and partially occluded by her torso\u2014is a small round table surrounded by black chairs, positioned in front of the rightmost refrigerator and adjacent to a right-hand wall with a partially cropped pizza sign. Throughout all five frames, the woman faces the camera wearer directly, looking toward the camera wearer in the first, third, and fifth frames while glancing downward in the second frame and slightly down to her left in the fourth. Across the five frames, the viewpoint shifts slightly forward and pans leftward, moving the woman and right-wall poster closer to the right edge of the view while progressively revealing a tiered snack rack in the lower-left foreground about 1.0 to 1.5 metres away."
+ },
+ "duration_seconds": 32.697176,
+ "usage": {
+  "input_tokens": 5414,
+  "output_tokens": 1160,
+  "thinking_tokens": 813,
+  "cache_read_tokens": 28424,
+  "total_tokens": 6574
+ },
+ "conversation_id": "79119a84-b6ca-4ffe-b06e-25910f2760c5"
+}

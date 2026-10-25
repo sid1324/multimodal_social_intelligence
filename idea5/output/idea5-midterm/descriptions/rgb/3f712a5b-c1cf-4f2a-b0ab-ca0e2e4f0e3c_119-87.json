@@ -1,0 +1,18 @@
+{
+ "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an elevated outdoor construction edge bordered by a grey concrete wall on the right, wooden scaffolding poles in front, and another brick building roughly 15 to 20 metres away across the ground below. A man in a grey shirt stands on lower scaffolding directly in front of and below the camera wearer at a distance of about 2 to 2.5 metres in the first frame, facing and looking upward toward the camera wearer. On the ledge within arm's reach (0.5 to 1 metre) in front of the camera wearer are stacked red bricks and a small blue bucket, while metal mortar pans and bricks rest on the scaffolding to the lower man's left within 1 to 3 metres of him. Across the five frames, the camera wearer steps forward to the edge and tilts their view further downward, decreasing the distance to the man below to about 1.2 to 1.5 metres while the right-hand wall moves mostly out of view and a second worker's legs become partially visible on the scaffolding 3 to 4 metres to the right in the middle frames. In the fourth and fifth frames, the man below reaches his gloved right arm upward toward the camera wearer's left hand, which enters the lower-left foreground holding a brick within 0.4 metres of the camera and just within the outstretched reach of the man below. The lower body of the man on the scaffolding is partially occluded by the ledge and wooden poles throughout the sequence, and the camera wearer's body remains out of view except for their left hand and a glimpse of their foot in the final frame."
+ },
+ "duration_seconds": 16.691349,
+ "usage": {
+  "input_tokens": 19570,
+  "output_tokens": 473,
+  "thinking_tokens": 61,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20043
+ },
+ "conversation_id": "cd3b7687-1388-445a-a917-500de595fa61"
+}

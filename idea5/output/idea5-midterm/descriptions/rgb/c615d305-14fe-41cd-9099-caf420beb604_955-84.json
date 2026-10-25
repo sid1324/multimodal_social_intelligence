@@ -1,0 +1,12 @@
+{
+ "id": "c615d305-14fe-41cd-9099-caf420beb604_955-84",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer stands at the near edge of a crowded table, with bowls, cups, plates, leafy greens, red food items, and a large round pot or tray roughly 0.3\u20131.0 m in front and mostly within arm's reach. A woman in a dark blue top stands closest at front-right, about 0.5\u20131.0 m away, facing the table and partly toward the camera wearer; a man in a dark shirt stands just left of her at about 0.7\u20131.2 m, while two women in dark clothing stand farther left and behind them at roughly 1\u20132 m. The closest woman and man are approximately 0.3\u20130.6 m apart, with their hands above or near the tabletop, and the nearer bodies and tableware partially occlude people and objects behind them. Over the five frames, the viewpoint shifts rightward, moving the left-side people partly out of view and revealing more people behind the central pair, including a person in a white top about 1.5\u20132.5 m away and another dark-clothed person farther back on the right. The closest woman shifts slightly right and turns more toward the table, the man changes from looking downward to facing more toward her and the camera side, and several background faces briefly orient toward the camera wearer without anyone clearly approaching or retreating by more than a small fraction of a metre."
+ },
+ "duration_seconds": 18.7,
+ "usage": null,
+ "conversation_id": null
+}

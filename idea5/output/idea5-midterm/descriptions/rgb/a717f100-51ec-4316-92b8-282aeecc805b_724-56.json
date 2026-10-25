@@ -1,0 +1,12 @@
+{
+ "id": "a717f100-51ec-4316-92b8-282aeecc805b_724-56",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in an indoor corridor or lobby with walls on both sides, a carpeted floor, ceiling lights above, and doorways/openings along the left and right walls. In the first three frames, no person is clearly visible; the view turns from a mostly dark area toward a brighter doorway on the left about 2\u20134 m away, while the center becomes briefly dark or occluded during the turn. In the fourth frame, one person is roughly 4\u20136 m directly ahead, facing away from the camera wearer and moving farther down the corridor; wall-mounted objects and furniture remain several metres away along the right side. In the fifth frame, that distant person is no longer clearly visible, while another person appears partly cut off at the far right edge about 1\u20132 m away, positioned beside a right-hand doorway and oriented approximately along the corridor rather than clearly looking at the camera. The nearest walls and doorway edges are within roughly 1 m of the camera wearer and likely within arm\u2019s reach, whereas the people are not; the two people are never simultaneously visible, so their distance from each other cannot be established."
+ },
+ "duration_seconds": 15.2,
+ "usage": null,
+ "conversation_id": null
+}

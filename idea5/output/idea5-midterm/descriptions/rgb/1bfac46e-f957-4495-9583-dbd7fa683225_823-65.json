@@ -1,0 +1,18 @@
+{
+ "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands approximately 0.5 to 0.8 m in front of an L-shaped wooden reception counter whose front section spans left-to-right before turning backward along a long hallway extending more than 10 m into the right background, with a white pillar holding fire extinguishers and a wooden lattice screen positioned 2.5 to 3 m behind the desk. Arranged from left to right across the counter surface within 0.5 to 1.8 m of the camera wearer are a beige-and-brown handbag (within arm's reach on the left), a small sign, a black monitor facing away from the viewer, a telephone, a receipt printer, a card terminal, a clipboard, and a clear spray bottle. Behind the counter about 1.2 to 1.5 m in front of the camera wearer, a woman in a white shirt sits partially occluded from the waist down by the desk and monitor; she leans forward with her hands at the printer in frame 1, sits upright in frames 2 to 4 facing toward the counter while angled and looking slightly toward the right side of the desk, and is mostly cut off by the left frame edge in frame 5. Immediately to the camera wearer's left (~0.5 to 0.8 m away, ~1.2 m from the seated woman), a person in a dark purple sleeve has their hands inside the open handbag in frame 1 with their body mostly out of view, disappears past the left border in frames 2 and 5, and has only an arm and the handbag visible at the left edge in frames 3 and 4. At the bottom right edge in frames 2 to 4, an outstretched left hand holding a small card appears about 0.6 m away, and in frame 5 the camera turns rightward, shifting the left side of the desk out of view and revealing a person in a red shirt standing 0.7 to 1.0 m to the right (~1.5 to 2.0 m from the woman behind the desk), facing the counter and looking toward the camera wearer while holding the card over the counter corner within arm's reach."
+ },
+ "duration_seconds": 30.666262,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 1334,
+  "thinking_tokens": 808,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20956
+ },
+ "conversation_id": "6eb5bbad-4152-4786-b793-445b816b18b0"
+}

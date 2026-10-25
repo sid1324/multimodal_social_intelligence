@@ -1,0 +1,18 @@
+{
+ "id": "df1a31a9-6508-4d9d-b1c7-cffc7bcc5d29_41-87",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a wide, paved outdoor parking lot and roadway bordered on the right by a black-and-white striped curb with a row of palm trees roughly 12 to 30 metres away, a small curbed median island with a tree about 15 to 20 metres ahead, and a yellow-and-black curbed corner at the bottom foreground about 1 to 2 metres in front of and below the camera wearer. In frame 1, the camera faces toward the open roadway and palm trees on the right, with structures and people to the left completely out of view. In frame 2, the viewpoint turns left to reveal a white canopy tent 3 to 5 metres away on the left, a dark foreground counter 2 to 3 metres away at the lower left, a black loudspeaker on a tripod stand about 2.5 metres ahead and 1.5 metres right of the counter, a blue car parked directly behind the tent 5 to 7 metres away, and a silver compact car on the road 12 to 15 metres away beyond the speaker. Two people stand about 0.5 to 1 metre apart beneath the tent roughly 3 to 4 metres from the camera wearer: the person on the left faces and looks toward the camera wearer, whereas the person on the right in a white shirt faces slightly left and downward without looking at the camera wearer. The counter and items beneath the canopy are within arm's reach of the two people while no objects or people are within arm's reach of the camera wearer, and the dark foreground counter occludes the lower bodies of both people as well as part of the blue car behind them. Across frames 3 to 5, the camera turns progressively back toward the right so that the tent and both people move out of view to the left in frame 3\u2014leaving the tripod speaker at the far left edge partially occluding the silver car behind it\u2014and by frames 4 and 5 the speaker and car also exit the left edge as the view returns to the roadway and palm trees."
+ },
+ "duration_seconds": 26.028094,
+ "usage": {
+  "input_tokens": 5323,
+  "output_tokens": 1656,
+  "thinking_tokens": 1151,
+  "cache_read_tokens": 28424,
+  "total_tokens": 6979
+ },
+ "conversation_id": "5c4f7f2a-045a-4e6a-9270-7082a9b74751"
+}

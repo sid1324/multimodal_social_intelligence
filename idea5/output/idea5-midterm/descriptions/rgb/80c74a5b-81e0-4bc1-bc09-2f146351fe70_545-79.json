@@ -1,0 +1,12 @@
+{
+ "id": "80c74a5b-81e0-4bc1-bc09-2f146351fe70_545-79",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a small shop or caf\u00e9 counter area, with open shelving and windows on the left, a checkout counter extending across the center and right, and glass-walled rooms or doors behind the counter. A woman stands behind the counter about 1\u20132 m in front of the camera wearer, initially near the center-right and partly occluded by a tall dark display; she faces generally toward the camera and appears to look toward it in the later frames. Across the five frames, the camera wearer turns and moves rightward and closer to her, reducing their separation to roughly 0.5\u20131 m, while the left-side shelves move out of view and the glass partitions become more prominent behind her. The woman shifts from behind the register toward the right side of the counter, remaining within arm's reach of the countertop and, by the last frames, nearly within the camera wearer's arm's reach. A red basket or handled object enters the foreground at chest-to-waist height and is held very close to the camera, partially occluding the woman's lower torso and the counter; the camera wearer's hands also appear at the bottom and right edges. In the final frame, the woman is close in front-left of the camera, a glass food-display case is about 1\u20132 m to the right, and another person's hand or arm is partly visible at the far right edge, less than about 1 m from the camera wearer."
+ },
+ "duration_seconds": 10.0,
+ "usage": null,
+ "conversation_id": null
+}

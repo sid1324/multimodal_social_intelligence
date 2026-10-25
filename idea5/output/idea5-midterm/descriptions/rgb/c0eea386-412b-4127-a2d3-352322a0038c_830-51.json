@@ -1,0 +1,18 @@
+{
+ "id": "c0eea386-412b-4127-a2d3-352322a0038c_830-51",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room viewed from a high downward angle, showing a white desk stretching from about 0.4 to 1.0 metres in front of and below the camera wearer, backed by grey curtains along a wall roughly 1.1 metres away and a window edge at the upper right. On the desk surface, a white lamp base sits at the far-left corner about 0.9 metres away, a round cable hole lies near the back-center edge, and an open workbook with a small cap beside it rests on the right-center surface about 0.6 metres from the viewpoint and 0.4 metres from the lamp. A child with braided hair is seated at the lower right, roughly 0.4 to 0.5 metres in front of and below the camera wearer, facing forward away from the camera and looking down at the workbook without ever looking toward the camera wearer, while her lower torso remains out of view below the bottom frame edge. The desk surface, workbook, pen, and the child's head and shoulders are all within arm's reach of both the camera wearer and the child, who holds a pen on the right page with her right hand across all five frames and rests her left hand on the left page in frames 1 through 4 before raising it to the left side of her neck in frame 5. Across the five frames, the camera wearer's left hand initially hovers over the desk in frame 1 (partially occluding the workbook and the child's left arm), then the camera wearer's right hand reaches across the lower foreground to touch the back of the child's neck in frame 2, retracts in frames 3 and 4 as a partially visible smartphone enters the bottom-center foreground at about 0.3 metres distance, and finally in frame 5 the smartphone drops out of view while the camera wearer's bent left wrist rises into the left foreground."
+ },
+ "duration_seconds": 22.046894,
+ "usage": {
+  "input_tokens": 19528,
+  "output_tokens": 1288,
+  "thinking_tokens": 812,
+  "cache_read_tokens": 14210,
+  "total_tokens": 20816
+ },
+ "conversation_id": "b25c5f68-1fd4-4d20-80f2-e09de61023ad"
+}

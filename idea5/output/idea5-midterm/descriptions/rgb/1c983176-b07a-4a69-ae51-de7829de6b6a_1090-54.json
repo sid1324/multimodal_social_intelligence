@@ -1,0 +1,18 @@
+{
+ "id": "1c983176-b07a-4a69-ae51-de7829de6b6a_1090-54",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer stands in a narrow corridor beside a glass-fronted display on the left and a glass-paneled wooden door on the right, holding the door handle within arm's reach at roughly 0.4\u20130.5 metres. A person in dark clothing stands close to the camera wearer's left at about 0.5\u20131.0 metres, partially cropped at the left frame edge in frames 1 and 2, and steps forward through the open doorway just ahead and to the left of the camera wearer in frame 3 before moving out of view to the left in frames 4 and 5. In frame 3, as the door swings open to the right with a red business-hours sign visible at close range (about 0.4 metres) in the lower right, the interior of a brightly lit clothing shop comes into view, initially partly occluded by the door frame. Inside the room, freestanding clothing racks holding hanging shirts and pants sit to the left and center-left at roughly 1.5\u20133.0 metres from the camera wearer, coming within arm's reach (under 1 metre) on the left as the camera wearer enters the room in frames 4 and 5. Near the back window wall, about 3.5\u20134.5 metres ahead and roughly 1.5\u20132.0 metres beyond the clothing racks, another person wearing a dark jacket and patterned scarf sits facing forward toward the doorway and looking toward the camera wearer. Directly to the seated person's right (viewer's right, within their arm's reach at 0.3\u20131.0 metres) are white box-like display pedestals and shelving units on the floor beneath the windows, while additional hanging garments are mounted high and low along the right wall in frame 5."
+ },
+ "duration_seconds": 20.512189,
+ "usage": {
+  "input_tokens": 5365,
+  "output_tokens": 523,
+  "thinking_tokens": 70,
+  "cache_read_tokens": 28426,
+  "total_tokens": 5888
+ },
+ "conversation_id": "0381a71f-1096-4ea9-ac75-b0f9e5383e24"
+}

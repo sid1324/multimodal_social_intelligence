@@ -1,0 +1,12 @@
+{
+ "id": "7474f654-b43a-463c-a1a1-f8c62cef1e64_1721-20",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera is inside a compact car, with the roof immediately above, seatbacks about 0.5\u20131 m away, side windows and doors to the left and right, and the dashboard and windshield roughly 1\u20132 m ahead. One seated person is visible near the front of the cabin, approximately 0.7\u20131.3 m from the camera; their head and upper body are partly occluded by seatbacks and the roof, and they generally face toward the windshield rather than directly toward the camera wearer. The steering wheel, dashboard, front seats, and nearby door or window edges are within or near the camera wearer\u2019s arm\u2019s reach, while buildings and parked exterior objects seen through the windows are several metres away. From left to right in time, the viewpoint rotates across the cabin, causing the person and steering wheel to shift from one side of the image toward the center and then toward the opposite side, without clear evidence of substantial approach or retreat. In the final frames, the person\u2019s raised arm and upper body become more prominent near a side window, while parts of their body remain outside the frame or hidden by the seat and dark roof."
+ },
+ "duration_seconds": 10.3,
+ "usage": null,
+ "conversation_id": null
+}

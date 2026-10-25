@@ -1,0 +1,12 @@
+{
+ "id": "f9c337af-fdf9-4737-b4c2-c5f68cd18d6a_553-83",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "An adult and a child stand together about 1.5\u20132 m in front of the camera wearer, with the adult slightly left of and partly behind the child; they are within roughly 0.3 m of each other. Both generally face the camera wearer, although the child\u2019s head turns sideways in several frames, while another person is only partly visible near the upper-left edge several metres farther away. Behind the pair is an orange wall and raised brick curb, with a rectangular drain low and left of them and a brick-paved walkway extending beneath and behind them. Across the five frames, the viewpoint shifts slightly right and closer, making the pair move from left-of-center to near center while the drain shifts farther left. In the final two frames, the adult extends an arm toward the camera wearer and the wearer\u2019s forearm enters from the lower-right, bringing their hands to within arm\u2019s reach and then into contact; the wearer\u2019s arm partly occludes the lower-right foreground."
+ },
+ "duration_seconds": 10.0,
+ "usage": null,
+ "conversation_id": null
+}

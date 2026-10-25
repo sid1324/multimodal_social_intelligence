@@ -1,0 +1,18 @@
+{
+ "id": "407df63f-c7a8-4c18-aa0f-b8e6ae16a938_620-12",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands on an elevated concrete construction surface bordered by a brick wall edge on the front-left and a pile of loose red bricks on the right, looking down at their own hands, blue jeans, and sandals roughly 1.2 to 1.5 metres below the camera. Within arm's reach (0.4 to 1.0 metres away), the wearer holds a metal trowel in their right hand and interacts with a round basin of grey mortar and the top of the brick wall, which sits about 0.2 to 0.4 metres to the left of the basin on the floor. Beyond and below the brick wall to the upper-left in the second frame, brown ground and a parked motorcycle are visible roughly 4 to 6 metres away, while the loose bricks lie 1.0 to 1.5 metres to the right, about 0.1 to 0.3 metres from the mortar basin. Across frames 1 to 4, the viewpoint shifts slightly leftward from tilting the mortar basin in frame 1 to resting it on the floor in frame 2, and then reaching both hands forward in frames 3 and 4 to apply mortar directly onto the brick wall ledge. In frame 5, the camera turns sharply to the right, moving the brick wall out of view, partially cropping the mortar basin at the bottom-left, centering the brick pile, and revealing a wooden frame and the lower body of a second person 1.5 to 2.5 metres away in the upper-right corner whose upper body, head, and gaze direction are cropped out of the frame."
+ },
+ "duration_seconds": 28.045095,
+ "usage": {
+  "input_tokens": 19568,
+  "output_tokens": 1154,
+  "thinking_tokens": 745,
+  "cache_read_tokens": 14210,
+  "total_tokens": 20722
+ },
+ "conversation_id": "a03b013f-4809-4df7-98e1-d1a3112475e4"
+}

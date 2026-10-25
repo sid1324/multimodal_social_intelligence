@@ -1,0 +1,4 @@
+{"step": 1, "epoch": 0, "loss": 2.680957719683647, "train_joint": 0.125, "tokens": 2918, "sec_per_item": 5.88, "mem_gb": 17.9}
+{"step": 2, "epoch": 0, "loss": 3.9747135043144226, "train_joint": 0.25, "tokens": 2824, "sec_per_item": 5.65, "mem_gb": 18.2}
+{"step": 3, "epoch": 0, "loss": 2.5982281044125557, "train_joint": 0.375, "tokens": 3014, "sec_per_item": 5.93, "mem_gb": 18.4}
+{"step": 4, "epoch": 0, "loss": 2.2641463801264763, "train_joint": 0.5, "tokens": 3365, "sec_per_item": 5.66, "mem_gb": 18.4}

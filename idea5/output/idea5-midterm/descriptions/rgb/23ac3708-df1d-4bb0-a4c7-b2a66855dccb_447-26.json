@@ -1,0 +1,18 @@
+{
+ "id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_447-26",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor corridor leading to an open, glass-walled retail area on the right and terminating at a windowed back wall with a potted plant, with overhead linear lights above. In frame 1, the camera wearer is between a dark wall on the left (~0.5\u20131 m away, within arm's reach) and a glass partition on the right (~1 m away), with one person ~2\u20133 m ahead in the corridor and another person in black ~4.5\u20135 m ahead on the left facing a counter with a brown paper bag within their arm's reach, while the back wall and potted plant are ~8\u201310 m ahead. In frame 2, as the camera wearer moves forward, the person at the left counter is ~2.5\u20133 m ahead and to the left facing away from the camera wearer, a solid wall segment with two floor bins is ~0.5\u20132 m on the right (the wall within the camera wearer's arm's reach), and a person inside the retail space ~6 m ahead on the right stands within arm's reach of white shelving units. In frame 3, a woman with brown hair and a light top appears ~0.5\u20130.8 m directly in front of the camera wearer (within arm's reach), facing forward away from the camera and partially occluding the person at the left counter (~1.5 m to her left) and the lower corridor ahead, while the store shelves are ~2.5\u20134 m ahead on the right. Across frames 4 and 5, the camera wearer follows ~0.8\u20131.5 m behind the woman as both approach and turn right through the doorway (passing within arm's reach of the right doorframe and display racks in frame 4, where the tops of two people's heads are partly occluded behind shelves ~4\u20135 m away), ending in frame 5 inside the aisle with a stocked white shelving unit on the left within the camera wearer's arm's reach (~0.5\u20131.5 m away) and the woman ~1\u20131.5 m ahead on the right, facing away and partly out of view at the right frame edge."
+ },
+ "duration_seconds": 24.44066,
+ "usage": {
+  "input_tokens": 19623,
+  "output_tokens": 1430,
+  "thinking_tokens": 894,
+  "cache_read_tokens": 14206,
+  "total_tokens": 21053
+ },
+ "conversation_id": "aecf3f73-17c3-4b87-a053-8c4dd3c2f9f2"
+}

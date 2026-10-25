@@ -1,0 +1,18 @@
+{
+ "id": "d8936caf-0142-4ceb-bacc-70313a19f169_888-66",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a carpeted indoor room viewed from above by a standing or crouching camera wearer looking downward toward the floor. A person in a black shirt and blue jeans lies horizontally on their side on the carpet about 1.2 to 2.0 metres in front of and below the camera wearer, with their head to the left and their bent legs and black-socked feet extending to the right, facing downward and slightly toward the floor space between them and the camera wearer rather than looking up at the camera. In the foreground, roughly 0.5 to 1.2 metres from the camera wearer and about 0.3 to 0.5 metres in front of the lying person, a black-and-white dog is on the carpet alongside a small light-colored object near the right edge of the frame. In frames 1 to 3, the dog is within the camera wearer's arm's reach, and the camera wearer's extended hands touch and pet the dog's head and neck at the bottom center while the dog faces left toward the lying person's head. Between frames 3 and 5, the camera wearer's hands retract out of view and the camera viewpoint shifts upward and slightly backward, increasing the distance to both the person and the dog by roughly 0.5 metres and revealing baseboards and walls in the upper background of frame 5. As the camera retreats in frames 4 and 5, the dog shifts slightly backward toward the lying person's hips\u2014partially occluding the person's upper legs\u2014and turns its head to look directly upward toward the camera wearer while its lower paws are partly cut off at the bottom frame edge."
+ },
+ "duration_seconds": 24.021262,
+ "usage": {
+  "input_tokens": 19575,
+  "output_tokens": 464,
+  "thinking_tokens": 45,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20039
+ },
+ "conversation_id": "0dfec7c7-29b8-4023-ae5f-d06995be855d"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "3efc152d-ea0e-4372-b552-7d5e1cf07259_14658-02",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor brick-paved landing at the base of brick steps and a low stone ledge on the left, with an open paved walkway extending to the upper right. Directly in front of and below the camera wearer's viewpoint at about 0.4 to 0.6 metres\u2014well within arm's reach\u2014stands a person in a white-and-navy shirt wearing a head-mounted camera, whose body faces generally toward the camera wearer while their head tilts sharply downward to look at a second action camera on a black strap and a small blue battery held in their hands. About 1.2 to 1.5 metres to the front-left of the camera wearer (and roughly 0.8 metres to the left of the foreground person), a second person in a black jacket stands at the foot of the steps facing rightward while holding a grey backpack within their own arm's reach. The person on the left has their head and upper chest cropped out by the top edge of the frame throughout, and the foreground person's top of head and lower feet also touch or cross the upper-right and bottom frame boundaries. In frames 2 and 3, the camera wearer's viewpoint shifts and rotates slightly rightward and closer over the foreground person's head, partially occluding the person and backpack on the left while bringing two distant pedestrians about 15 to 20 metres away into view in the upper-right background. In frames 4 and 5, the viewpoint turns back leftward to about 0.6 metres from the foreground person, uncovering the steps and the person with the backpack on the left as the foreground person separates the blue battery from the handheld camera."
+ },
+ "duration_seconds": 22.78873,
+ "usage": {
+  "input_tokens": 19576,
+  "output_tokens": 1093,
+  "thinking_tokens": 673,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20669
+ },
+ "conversation_id": "c5d6c433-e4a0-43de-af63-49c5e6a5cf5c"
+}

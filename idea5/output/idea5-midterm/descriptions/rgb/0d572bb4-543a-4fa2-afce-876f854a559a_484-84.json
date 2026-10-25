@@ -1,0 +1,18 @@
+{
+ "id": "0d572bb4-543a-4fa2-afce-876f854a559a_484-84",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen with a counter and stove running along the right wall, a tall silver refrigerator and dark curtain in the back-left corner roughly 3 metres away in the first frame, and a beige plastic chair holding a metal bowl on the floor to the left about 1.5 to 2 metres ahead. In frame 1, a man in a blue t-shirt stands about 2 to 2.5 metres in front of the camera wearer, positioned roughly 0.8 metres to the right of the plastic chair and facing right toward the wall while looking down at a black pan on the stove rather than toward the camera wearer. Meanwhile, a second person wearing a white mask is partially visible in the lower-right foreground about 0.5 to 1 metre away in frame 1, looking upward and to the left before turning away in frame 2 and dropping completely out of view below the frame from frame 3 onward. On the right counter, a green bowl and a blue-lidded jar sit about 0.5 metres in front of the black pan, while another metal counter holding jars and dishes sits about 0.5 to 1 metre further back behind the pan, keeping the pan, utensils, and adjacent counters within the standing man's arm's reach across all frames. Across the five frames, the camera wearer moves steadily forward and tilts their view slightly downward and right toward the stove, bringing the standing man, the green bowl, and the black pan within the camera wearer's arm's reach (about 0.4 to 0.8 metres away) by frames 4 and 5 while cropping the refrigerator, chair, and most of the standing man's torso out of the left and bottom edges of the view."
+ },
+ "duration_seconds": 24.760393,
+ "usage": {
+  "input_tokens": 19557,
+  "output_tokens": 1569,
+  "thinking_tokens": 1129,
+  "cache_read_tokens": 14199,
+  "total_tokens": 21126
+ },
+ "conversation_id": "9de5276a-01cd-4ab6-8990-3ac19da7cfd3"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "110f9870-6b6c-4a20-a3c8-8c2e29c53bb7_1386-55",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor carpeted room containing a tan sofa on the right (about 1.5 to 2.5 metres away), a low wooden bed platform against the left wall (about 3.5 to 5 metres away), a bright window on the back wall (about 5 to 6 metres ahead), and scattered clothing items across the floor between the sofa and left wall. In the first three frames, a person in dark clothing is in the left foreground roughly 1 to 2 metres from the camera wearer and about 1.5 metres left of the sofa, standing in frame 1 before bending forward in frames 2 and 3. This person faces right and downward toward a pile of clothes on the floor within their arm's reach, looking at the floor rather than toward the camera wearer. Across the five frames, the camera wearer steps forward and tilts their viewpoint progressively downward toward the floor and slightly right toward the sofa. As the camera shifts down in frames 3 through 5, the upper room and window move out of view above the frame, while the other person is increasingly cropped at the left edge until only a small pile of clothes on the left and the lower edge of the sofa on the right (within the camera wearer's arm's reach at under 1 metre, with the wearer's hand visible at the bottom right in frame 5) remain in view."
+ },
+ "duration_seconds": 14.142852,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 567,
+  "thinking_tokens": 205,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20136
+ },
+ "conversation_id": "f261d109-f795-4eb6-bb80-3f0070c00aac"
+}

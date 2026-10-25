@@ -1,0 +1,18 @@
+{
+ "id": "4840195a-580a-44c9-b1de-4bbb792473b5_487-41",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow indoor room or hallway under renovation with an unfinished wall immediately to the right (~0.3\u20130.5 m away), a dusty floor below, two white doors along the left wall (~1.5\u20132.5 m away), and an open doorway directly ahead (~2.0\u20132.5 m away). A long wooden cabinet frame (~1.5\u20131.8 m long) rests on the floor along the right wall, extending from ~0.3 m to ~2.0 m in front of the camera wearer, whose hands remain grasping the cabinet's near edge within arm's reach (~0.3\u20130.4 m below the camera) with their left foot visible beside its base. A second person stands ahead near the doorway at roughly 1.8 to 2.2 m from the camera wearer; throughout all five frames, this person's head and upper torso are out of view above the top edge of the frame, making their gaze direction unobservable. In frames 1 through 3, the second person is positioned to the left of the cabinet's far end (~0.3\u20130.5 m from it), angled toward the left wall while holding a red-handled broom and a dustpan within their arm's reach (~2.0\u20132.5 m ahead and left of the camera wearer). In frame 4, after leaving the broom leaning against the wall beside the dustpan on the floor (~0.5 m left of the cabinet), the person turns clockwise to face toward the camera wearer and steps closer to the cabinet's far end. By frame 5, the second person stands directly behind the far end of the cabinet (~1.8 m ahead of the camera wearer), with their lower legs partially occluded by the cabinet structure as they reach down to place both hands on its far corners."
+ },
+ "duration_seconds": 23.334218,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 1228,
+  "thinking_tokens": 768,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20797
+ },
+ "conversation_id": "1538d5d8-170e-4f29-b084-a367b991c808"
+}

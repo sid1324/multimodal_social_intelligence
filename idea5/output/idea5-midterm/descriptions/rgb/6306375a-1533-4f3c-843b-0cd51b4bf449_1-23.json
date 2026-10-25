@@ -1,0 +1,18 @@
+{
+ "id": "6306375a-1533-4f3c-843b-0cd51b4bf449_1-23",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor corridor with glass-partitioned rooms along the right wall, a large window with a potted plant about 8 to 10 metres ahead at the end of the hall, and an open lounge area on the left arranged on a patterned rug. In the lounge, a dark tufted sofa sits against the left wall flanked by two small side tables with lamps about 3 metres apart, facing a glass coffee table ~0.8 metres in front of it and two light-coloured armchairs on the near and far sides of the rug, with a potted plant, acoustic guitar, keyboard stand, and glass booth located 1 to 2 metres further right in the back corner. Across the five frames, the camera wearer walks forward and turns leftward toward the lounge area, causing the right-hand glass corridor and end window to pan out of view to the right while the distance to the lounge furniture decreases from roughly 5\u20137 metres in frame 1 to about 1.5\u20134 metres in frame 5. A person sits on the left end of the dark sofa, initially partly occluded by the left frame edge and dim lighting at about 5.5 metres in frame 2, and becomes clearly visible on the far left at roughly 2 metres from the camera wearer by frame 5 as the near armchair exits the bottom-left edge of the view. This seated person faces forward and slightly right toward the coffee table while tilted downward toward a handheld object within their arm's reach, never looking toward the camera wearer, while pillows on the sofa and the left side-table lamp are also within the seated person's arm's reach and nothing is within arm's reach of the camera wearer."
+ },
+ "duration_seconds": 18.303112,
+ "usage": {
+  "input_tokens": 19615,
+  "output_tokens": 765,
+  "thinking_tokens": 340,
+  "cache_read_tokens": 14198,
+  "total_tokens": 20380
+ },
+ "conversation_id": "f727a34d-6ce0-467a-aefd-fd2fde98dbe2"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "bd96484b-6f8c-492b-8969-cae99c868b4d_2855-28",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor construction site with bamboo scaffolding and a plastered masonry wall extending away from the camera wearer (though the video frames are rotated 90 degrees counter-clockwise so the wall appears horizontally across the lower portion of the frame and the ground lies to the left). In the immediate foreground at the bottom-left, roughly 0.4 to 0.6 metres in front of the camera wearer and within arm's reach, three red bricks stamped 'GRS' rest on the edge of the wall, while the camera wearer's own right hand enters from the bottom edge across frames 3 to 5 to place a half-brick next to them. Further along the wall in the midground, a man in a light-blue shirt and jeans stands on the scaffolding about 2 to 2.5 metres from the camera wearer, and a second man in a pink shirt and white head-cloth stands about 1.5 to 2 metres beyond him (roughly 3.5 to 4.5 metres from the camera wearer), with metal mortar pans resting on the scaffolding beside their feet. Both men are positioned to the left of the wall's outer face, facing toward the wall and angled slightly toward the camera wearer while looking down at the top edge of the brickwork rather than directly at the camera wearer, though in frame 5 the closer man turns his head slightly more toward the foreground as he places a brick piece onto the wall edge within his arm's reach. Across the five frames, the camera wearer's viewpoint shifts slightly to the right in the final frame to reveal a foreground bamboo pole on the far left, while the lower legs of both workers and the camera wearer's body remain partially occluded by the wall, scaffolding poles, and frame boundaries."
+ },
+ "duration_seconds": 17.285616,
+ "usage": {
+  "input_tokens": 19519,
+  "output_tokens": 702,
+  "thinking_tokens": 267,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20221
+ },
+ "conversation_id": "2716c81a-0243-4734-8eb3-d656483f2df7"
+}

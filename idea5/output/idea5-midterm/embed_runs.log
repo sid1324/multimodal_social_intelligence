@@ -1,0 +1,371 @@
+done C2 0
+done C5 0
+done C4 0
+done X1 4
+done C3 19
+X3 50
+X3 100
+done X3 127
+FORWARD_BUDGET_REACHED
+done C2 0
+done C5 0
+done C4 0
+done X1 32
+done C3 0
+X3 50
+done X3 72
+done C6 46
+FORWARD_BUDGET_REACHED
+done C2 0
+done C5 0
+done C4 0
+done X1 16
+done C3 0
+done X3 0
+C6 50
+C6 100
+done C6 134
+FORWARD_BUDGET_REACHED
+done C2 0
+done C5 0
+done C4 0
+done X1 7
+done C3 0
+done X3 0
+done C6 19
+X2 50
+X2 100
+done X2 124
+FORWARD_BUDGET_REACHED
+done C2 0
+done C5 0
+done C4 0
+done X1 10
+done C3 0
+done X3 0
+done C6 0
+X2 50
+done X2 75
+C2 50
+C2 100
+C2 150
+done C2 150
+FORWARD_BUDGET_REACHED
+C2 50
+C2 100
+done C2 102
+done C5 48
+FORWARD_BUDGET_REACHED
+done C2 0
+C5 50
+C5 100
+done C5 114
+done C4 0
+done X1 0
+done C3 0
+done X3 0
+done C6 0
+done X2 0
+C0 50
+C0 100
+C0 150
+C0 200
+done C0 200
+C1 50
+C1 100
+done C1 100
+FORWARD_BUDGET_REACHED
+done C0 0
+C1 50
+C1 100
+done C1 100
+C2 50
+C2 100
+C2 150
+done C2 199
+done C5 1
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+C5 50
+C5 100
+C5 150
+done C5 197
+X1 50
+X1 100
+done X1 103
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+done C5 1
+X1 50
+done X1 94
+C3 50
+C3 100
+C3 150
+done C3 196
+done C4 9
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+done C5 0
+done X1 2
+done C3 3
+C4 50
+C4 100
+C4 150
+done C4 190
+X3 50
+X3 100
+done X3 105
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+done C5 0
+done X1 0
+done C3 0
+done C4 0
+X3 50
+done X3 94
+C6 50
+C6 100
+C6 150
+done C6 199
+done X2 7
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+done C5 0
+done X1 0
+done C3 0
+done C4 0
+done X3 0
+done C6 0
+X2 50
+X2 100
+X2 150
+done X2 192
+C0 50
+C0 100
+C0 150
+C0 200
+C0 250
+C0 300
+done C0 300
+FORWARD_BUDGET_REACHED
+C0 50
+C0 100
+C0 150
+C0 200
+C0 250
+C0 300
+done C0 300
+FORWARD_BUDGET_REACHED
+done C0 0
+C1 50
+C1 100
+C1 150
+C1 200
+C1 250
+C1 300
+done C1 300
+FORWARD_BUDGET_REACHED
+done C0 0
+C1 50
+C1 100
+C1 150
+C1 200
+C1 250
+C1 300
+done C1 300
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+C2 50
+C2 100
+C2 150
+C2 200
+C2 250
+C2 300
+done C2 300
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+C2 50
+C2 100
+C2 150
+C2 200
+C2 250
+C2 300
+done C2 300
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+C5 50
+C5 100
+C5 150
+C5 200
+C5 250
+C5 300
+done C5 300
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+C5 50
+C5 100
+C5 150
+C5 200
+C5 250
+done C5 298
+done X1 2
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+done C5 2
+X1 50
+X1 100
+X1 150
+X1 200
+X1 250
+done X1 298
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+done C5 0
+X1 50
+X1 100
+X1 150
+X1 200
+X1 250
+done X1 294
+done C3 6
+FORWARD_BUDGET_REACHED
+done C0 0
+done C1 0
+done C2 0
+done C5 0
+done X1 6
+C3 50
+C3 100
+C3 150
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 65.65it/s]
+X3 50
+X3 100
+X3 150
+X3 200
+X3 250
+X3 300
+done X3 300
+FORWARD_BUDGET_REACHED
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 40.78it/s]
+X3 50
+X3 100
+X3 150
+X3 200
+X3 250
+/opt/homebrew/Cellar/python@3.11/3.11.15_3/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 43.41it/s]
+done X3 26
+X2 50
+X2 100
+X2 150
+X2 200
+X2 250
+done X2 274
+FORWARD_BUDGET_REACHED
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00, 29.44it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 35.05it/s]
+done X3 0
+X2 50
+X2 100
+X2 150
+X2 200
+X2 250
+X2 300
+done X2 300
+FORWARD_BUDGET_REACHED
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 44.84it/s]
+done X3 0
+done X2 26
+C3 50
+C3 100
+C3 150
+C3 200
+C3 250
+done C3 274
+FORWARD_BUDGET_REACHED
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 43.82it/s]
+done X3 0
+done X2 0
+C3 50
+C3 100
+C3 150
+done C3 156
+C4 50
+C4 100
+done C4 144
+FORWARD_BUDGET_REACHED
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 44.26it/s]
+done X3 0
+done X2 0
+done C3 2
+C4 50
+C4 100
+C4 150
+C4 200
+C4 250
+done C4 298
+FORWARD_BUDGET_REACHED
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 44.17it/s]
+done X3 0
+done X2 0
+done C3 0
+C4 50
+C4 100
+C4 150
+done C4 159
+C6 50
+C6 100
+done C6 141
+FORWARD_BUDGET_REACHED
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 44.44it/s]
+done X3 0
+done X2 0
+done C3 0
+done C4 0
+C6 50
+C6 100
+C6 150
+C6 200
+C6 250
+C6 300
+done C6 300
+FORWARD_BUDGET_REACHED
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 42.80it/s]
+done X3 0
+done X2 0
+done C3 0
+done C4 0
+C6 50
+C6 100
+C6 150
+done C6 159

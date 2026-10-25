@@ -1,0 +1,18 @@
+{
+ "id": "d1a27322-8acd-4297-9029-db45af8d7cc2_164-10",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor tiled floor in front of a low glass door or window about 1.2 to 1.5 metres ahead, with the camera wearer seated on the floor looking downward in the first four frames and tilting upward in the fifth. Within arm's reach (0.2 to 0.4 metres in front of the wearer's torso), the wearer's two hands hold an upright cardboard cylinder partially wrapped in twine, while the lower body and legs are directly below at 0.1 to 0.5 metres. On the floor about 0.6 to 1.2 metres in front of the wearer are several crafting supplies: a ball of twine to the front-left, a smaller upright cardboard tube in the centre-front, white tape rolls between them, a plastic bag of glue sticks and scissors to the front-right, a blue hot glue gun closer at about 0.6 metres to the front-right, a long fabric draft stopper along the base of the door, and an open white rectangular box to the far right (about 1.0 to 1.3 metres away). In frame 2, a light-coloured cat wearing a blue collar enters from the far right behind the white box at roughly 1.3 metres distance, facing left; in frame 3 it walks left into the space between the box and the draft stopper while facing away and to the left, and in frame 4 it turns toward the glass door with its head partly out of the top of the frame. In frame 5, as the camera tilts up toward the glass door, the cat leaps upward against the vertical glass pane about 1.0 to 1.2 metres ahead and above floor level, while a second dark-furred cat appears on the upper right edge near the window frame. Simultaneously in frame 5, the wearer's right arm extends forward and upward toward the jumping cat, bringing the right hand within about 0.2 to 0.3 metres of the cat's hindquarters while the held cylinder and left hand drop out of the lower field of view."
+ },
+ "duration_seconds": 13.7211,
+ "usage": {
+  "input_tokens": 5308,
+  "output_tokens": 556,
+  "thinking_tokens": 46,
+  "cache_read_tokens": 28422,
+  "total_tokens": 5864
+ },
+ "conversation_id": "359687bf-61ca-4c69-9f9b-72839f4da3d9"
+}

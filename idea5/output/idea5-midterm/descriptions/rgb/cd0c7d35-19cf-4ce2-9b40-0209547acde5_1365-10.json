@@ -1,0 +1,18 @@
+{
+ "id": "cd0c7d35-19cf-4ce2-9b40-0209547acde5_1365-10",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail space featuring a horizontal-slatted wooden display wall about 2 to 2.5 metres ahead, with a tall vertical silver-framed mirror mounted in its center and hanging garments flanked about 0.3 to 0.5 metres to its left (a grey top above dark trousers) and right (a white top above a patterned bottom). In the first frame, the camera wearer looks to the left where a seated person is partly visible at the far-left edge about 2 metres away, and a standing woman in a dark brown shirt, green lanyard, sunglasses, and purple-tinted hair is positioned about 1 to 1.5 metres in front of the camera wearer with the top of her head cropped out of view. In the second frame, the camera turns rightward to face the mirror directly, shifting the standing woman almost entirely out of frame to the bottom-left while revealing the camera wearer's own reflection in the mirror holding white garments within arm's reach at chest level. From the third through fifth frames, the woman in the dark brown shirt re-enters from the bottom-left and moves rightward and closer, closing the distance from roughly 1.2 metres on the left in the third frame to about 0.6 to 0.8 metres directly in front of the camera wearer by the fifth frame. As she approaches, her body progressively occludes the left side of the slatted wall and the hanging grey garments, and she faces slightly right while looking downward at a metal hanger and white garment held at waist height within arm's reach of both herself and the camera wearer, gripping a phone in her right hand and placing her left hand onto the hanger hook in the final frame."
+ },
+ "duration_seconds": 25.940216,
+ "usage": {
+  "input_tokens": 19623,
+  "output_tokens": 1206,
+  "thinking_tokens": 778,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20829
+ },
+ "conversation_id": "b3bbc7a9-a402-495c-a404-bd3609b6b54b"
+}

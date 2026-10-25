@@ -1,0 +1,18 @@
+{
+ "id": "8fafc02a-ef7a-46f4-ae97-b0c68c8bb207_7571-93",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a retail store interior featuring a waist-high recessed white display ledge backed by a glass window on the front-left, a glass doorway further to the left, and multi-tiered glass shelving holding handbags and a necklace bust about 1.5 to 2.2 metres away on the right in Frame 1. On the white ledge, spaced roughly 0.2 to 0.4 metres apart from left to right, sit a black hand-shaped bracelet stand, a beige woven tote bag atop a black riser block with a small sign behind it, and a black display bust on the right corner. Between Frame 1 and Frames 2\u20133, the camera wearer approaches from about 1.3 metres to within 0.5\u20130.8 metres (arm's reach) of the ledge and rotates slightly leftward, cutting the right-side shelving out of view while bringing their left hand into the lower foreground (~0.3\u20130.4 metres away) holding a small pink handbag below the woven tote. During Frames 2 and 3, a masked person in dark clothing is visible through/reflected in the window glass roughly 1.5 to 2.5 metres beyond the ledge, facing rightward and toward the window. By Frame 4, the pink handbag rests on the left end of the white ledge (~0.2 metres left of the hand stand and ~0.8 metres from the camera wearer) as the wearer retreats slightly to about 1.0 metre away, panning left to reveal the glass doorway about 2.0 metres to the left while the black bust on the right edge of the ledge becomes partly cropped. In Frame 5, the camera wearer holds a smartphone with both hands at the bottom center (~0.3 metres from the viewpoint) aimed at the bags on the ledge (~1.0 metre ahead), while a second person in black clothing and shoes appears on the far left (~1.2 to 1.5 metres from the wearer and ~1.0 metre left of the ledge), oriented toward the ledge and camera wearer with their upper torso and head cropped out of the left frame boundary."
+ },
+ "duration_seconds": 24.282691,
+ "usage": {
+  "input_tokens": 19584,
+  "output_tokens": 1253,
+  "thinking_tokens": 736,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20837
+ },
+ "conversation_id": "32e5c7c8-44fb-4d91-b324-56199a86825e"
+}

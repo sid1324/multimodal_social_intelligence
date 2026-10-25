@@ -1,0 +1,1 @@
+{"id": "8bb4369f-a6e0-45a3-9d2d-fd5d5c686ccc_70-57", "cond": "desc_only_para", "model": "gemini", "action_position": 4, "justification_position": 3, "raw": "{\"action\": 4, \"justification\": 3}\n", "meta": {"status": "SUCCESS", "denied": null}, "seconds": 5.3, "attempts": 1}

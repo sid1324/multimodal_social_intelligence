@@ -1,0 +1,1 @@
+{"id": "25ade38d-3e6b-4aa1-851d-7fbf791201c0_887-41", "cond": "maps", "model": "gemini", "action_position": null, "justification_position": null, "raw": "", "meta": {"status": "SUCCESS", "denied": [{"action": "command", "display_name": "RunCommand"}]}, "seconds": 14.2, "attempts": 3}

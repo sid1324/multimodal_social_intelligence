@@ -1,0 +1,802 @@
+{
+ "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64": {
+  "score": 2,
+  "reason": "Choosing among these options substantially depends on whether an easel or artwork is within reach, how the other person is positioned and facing, and whether nearby hazards are spatially apparent."
+ },
+ "02ca6897-bf08-4cfb-bbc7-7810dbf5cca2_2974-75": {
+  "score": 1,
+  "reason": "The decision depends mainly on understanding the interaction and the wearer's obligations, though spatial details could slightly affect whether it is safe or appropriate to resume cycling."
+ },
+ "03ca4970-374e-4901-9895-81f262c0da5c_817-27": {
+  "score": 0,
+  "reason": "The choice depends mainly on identifying the ongoing social activity and setting, not on distances, orientation, personal space, paths, or reachability."
+ },
+ "044a7a23-9305-4971-82ac-aa1a3dc154be_214-77": {
+  "score": 0,
+  "reason": "Choosing among prayer, silence, an oath, or condolences depends on interpreting the social ritual and context, not the scene's spatial layout."
+ },
+ "069c1058-881d-49da-b45d-b9f7e08fe932_2408-86": {
+  "score": 1,
+  "reason": "Choosing among these woodworking actions depends mostly on task context and the visible tool or wood state, with only slight reliance on what is within reach and how the materials are arranged."
+ },
+ "069c1058-881d-49da-b45d-b9f7e08fe932_475-96": {
+  "score": 2,
+  "reason": "Choosing whether to place or pass a wood piece depends substantially on who is working where, what is within reach, and whether the wearer can safely approach or hand it over."
+ },
+ "072623e8-1889-4580-8175-ddc05a3dceb3_89-78": {
+  "score": 3,
+  "reason": "Choosing among pointing something out, handing or passing an object, and rinsing sponges mainly requires knowing what is visible, within reach, and relevant to nearby people and their activity."
+ },
+ "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98": {
+  "score": 2,
+  "reason": "Distinguishing assistance, resource collection, engine inspection, or snacking depends substantially on what people, vehicle components, and supplies are nearby and within reach, though broader situational context also matters."
+ },
+ "087e11d0-5984-4365-989d-7365294ddaec_7351-39": {
+  "score": 0,
+  "reason": "The correct choice depends on recognizing the activity and social context, not on distances, orientation, personal space, paths, or reachability."
+ },
+ "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13": {
+  "score": 2,
+  "reason": "Choosing among traffic-safety and group-coordination actions depends substantially on where people and vehicles are, their movement and orientation, and whether the wearer is near or entering a crossing."
+ },
+ "0b530687-26d8-4c9d-9771-c758ecd2ecbf_3386-79": {
+  "score": 2,
+  "reason": "Choosing between proceeding with the group, inspecting damage, or addressing a nearby hazard substantially depends on the group's positions, the bridge's condition, and what is safely within reach."
+ },
+ "10a848ed-f258-4930-abdd-1fd60b788abc_475-65": {
+  "score": 2,
+  "reason": "Choosing whether to pick up and attach the leash depends substantially on which dog belongs to the wearer, the leash's reachability, and the nearby dogs' positions."
+ },
+ "110f9870-6b6c-4a20-a3c8-8c2e29c53bb7_1386-55": {
+  "score": 1,
+  "reason": "The choice depends mostly on the activity context and intended purpose of the clothes, with only slight spatial dependence on whether a suitcase, display racks, or designated storage is nearby and accessible."
+ },
+ "11e56f1e-baef-4fe8-ad0f-a7ec8788ea3a_836-51": {
+  "score": 2,
+  "reason": "Choosing among assisting, sweeping, handing over a tool, or coordinating a lift substantially depends on where the people, tools, debris, and object are positioned and within reach."
+ },
+ "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62": {
+  "score": 1,
+  "reason": "The choice depends mostly on the construction context and social intent, though proximity, reachability, and visible hazards could slightly affect whether to inspect, ask, help, or alert someone."
+ },
+ "1330508f-8168-4408-a4df-79f69fb87c83_1053-45": {
+  "score": 2,
+  "reason": "Choosing whether to hold, return, or reorganize the clothes depends substantially on proximity, reachability, crowding, and the other person's position and orientation."
+ },
+ "13d7173f-e8d1-4124-a66b-2ae648da9dbd_510-46": {
+  "score": 2,
+  "reason": "Choosing correctly substantially depends on identifying who or what is nearby, whether an animal is inside an enclosure, and where the food can be safely placed or offered."
+ },
+ "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80": {
+  "score": 1,
+  "reason": "The choices depend mostly on the activity and social context, though proximity, reach, and whether someone is exiting slightly affect which action fits."
+ },
+ "1626db26-0c74-43d6-a5c2-c1a8fa7b1429_2450-13": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on whether the wearer is positioned near audience members, actors, or a neighboring person and can see or reach the phone or tickets."
+ },
+ "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54": {
+  "score": 0,
+  "reason": "Choosing among these food-preparation actions and justifications depends on the meal\u2019s needs and workflow rather than the scene\u2019s spatial layout."
+ },
+ "1acd2d5c-b0d4-4ec5-a54c-6a9c84cb11f6_776-54": {
+  "score": 1,
+  "reason": "The likely privacy-preserving action depends somewhat on whether the wearer shares the room with an exposed person, but identifying the situation matters more than precise distances, facing, or reachability."
+ },
+ "1bfac46e-f957-4495-9583-dbd7fa683225_823-65": {
+  "score": 1,
+  "reason": "The choice depends mostly on recognizing the transaction stage and relevant objects, with spatial layout only slightly helping identify the counterparty and what is being handed over."
+ },
+ "1bfe3bec-79fd-4b1b-8738-4d313f3f79b9_47-86": {
+  "score": 2,
+  "reason": "Choosing between observing without interfering and handling nearby utensils substantially depends on the wearer's proximity to the cook, cabinet, countertop, and workspace."
+ },
+ "1f4a4d13-f083-4464-8c03-5e09f55e3f63_125-54": {
+  "score": 2,
+  "reason": "Choosing among caregiving, dressing, play, or photography depends substantially on who is near the wearer, what objects and clothing are within reach, and how the children are positioned and oriented."
+ },
+ "20525d50-586a-4792-bfdb-fd941ee64ea9_547-93": {
+  "score": 0,
+  "reason": "The decision depends mainly on the task context and the purpose of the inspection, not on distances, orientation, personal space, or reachability."
+ },
+ "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81": {
+  "score": 1,
+  "reason": "Spatial cues about who is nearby or approachable would help slightly, but the correct choice depends more on the social and professional context."
+ },
+ "22653c79-369f-4a0d-a663-33a1da378fe0_245-16": {
+  "score": 2,
+  "reason": "Choosing whether to hold, spread, or secure the tarp substantially depends on the tarp\u2019s position, the other person\u2019s location and activity, and what is within reach."
+ },
+ "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18": {
+  "score": 0,
+  "reason": "Choosing among these plant-care actions depends on identifying the plant and gardening task, not on distances, orientation, personal space, or reach."
+ },
+ "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_447-26": {
+  "score": 1,
+  "reason": "The choice depends mostly on identifying the social setting and participants\u2019 roles, with spatial cues such as who is approaching or reaching for the candy providing only slight additional help."
+ },
+ "25ade38d-3e6b-4aa1-851d-7fbf791201c0_887-41": {
+  "score": 3,
+  "reason": "Choosing among these actions mainly requires knowing what objects and people are nearby, within reach, in the wearer's path, and whether balancing or asking for help is necessary."
+ },
+ "262fd2ec-8eba-44d9-8082-4d0574f7a515_3060-97": {
+  "score": 1,
+  "reason": "The best farewell action depends mostly on the interaction\u2019s social context, though proximity, orientation, and accessibility slightly affect whether a handshake or quiet exit is appropriate."
+ },
+ "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69": {
+  "score": 3,
+  "reason": "Choosing among greeting, approaching or restraining the dog, and joining the patrol mainly depends on proximity, orientation, path obstruction, personal space, and whether the dog is within safe reach."
+ },
+ "2b7ace86-149f-4354-b617-c8ebd08c5310_381-65": {
+  "score": 0,
+  "reason": "Choosing among these conversational, assistance, and caregiving actions depends mainly on the task and social context rather than the scene's spatial layout."
+ },
+ "2c9a2cb8-93fd-4932-bb76-60e80822b70b_782-07": {
+  "score": 1,
+  "reason": "The choice depends mostly on the notebook task and conversational context, with spatial layout only slightly relevant to whether the notebook can be shown or discussed conveniently."
+ },
+ "2d01625b-b7c4-41aa-989b-2d0b392d8b54_328-63": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on conversational context and the shirt's purpose, though proximity, orientation, and whether it is being handed over could slightly help distinguish a gift, feedback request, or transaction."
+ },
+ "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41": {
+  "score": 2,
+  "reason": "Choosing among these handoff, lifting, and pointing actions substantially depends on proximity, reachability, orientation, and whether the person or object is positioned for safe interaction."
+ },
+ "2d1baacd-d82b-4e0c-9d85-b420fb9bde91_345-02": {
+  "score": 2,
+  "reason": "Choosing among assisting, guiding, pointing, or simply walking together substantially depends on positions, movement paths, orientation, proximity, and whether the object or sights are accessible."
+ },
+ "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1502-69": {
+  "score": 0,
+  "reason": "Choosing among these task-specific actions depends mainly on recognizing the activity and objects involved, not on spatial layout such as distances, paths, facing, or reach."
+ },
+ "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43": {
+  "score": 0,
+  "reason": "Choosing among these options depends on identifying the substance and cleaning context, not on distances, orientation, personal space, or reachability."
+ },
+ "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1872-88": {
+  "score": 0,
+  "reason": "Choosing among these procedural salon or skincare actions depends on role, timing, and task context rather than distances, orientation, personal space, or reachability."
+ },
+ "2ec3c123-0a04-46d7-97d5-8b85b5e6d06f_432-01": {
+  "score": 1,
+  "reason": "The choice depends mainly on identifying the social task and matching etiquette, though knowing who is nearby and whether the package, gift, sample, or furniture is within reach could slightly affect the appropriate action."
+ },
+ "3455a3f3-1657-46bb-ae42-52d16ec5ffaa_6236-63": {
+  "score": 2,
+  "reason": "Distinguishing among walking with the group, pointing out nearby exhibits, networking, or following a guided activity substantially depends on positions, movement, facing, and what is within view or reach."
+ },
+ "348f0f69-cd49-4c00-af91-f1765155e858_1127-21": {
+  "score": 0,
+  "reason": "Choosing among these yard-waste actions depends mainly on identifying the material and task context, not on spatial relationships or reachability."
+ },
+ "356661f5-767b-495d-95c7-03dcc46f85c6_1860-68": {
+  "score": 2,
+  "reason": "Choosing safely among continuing to ride, greeting or waving while passing, and handling the package depends substantially on proximity, paths, facing direction, and reachability."
+ },
+ "356dd07e-8165-494c-9be8-b82d314bf88d_895-74": {
+  "score": 1,
+  "reason": "The choice depends mostly on identifying the current activity and relevant object, with spatial layout only slightly affecting actions involving another person or reachable items."
+ },
+ "358e65ba-1ce0-46f6-a1b4-1c85569ef628_3143-38": {
+  "score": 2,
+  "reason": "Choosing appropriately depends substantially on seeing what the person is handling, whether the wearer is close enough to engage, and whether the wearer would intrude on their space or activity."
+ },
+ "3639ab8f-880a-45bd-b8a9-6ef6bdaad4ff_355-03": {
+  "score": 0,
+  "reason": "Choosing among these actions depends on conversational and policy context rather than distances, orientation, personal space, paths, or reachability."
+ },
+ "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87": {
+  "score": 1,
+  "reason": "The choice mainly depends on identifying the activity and objects, though reachability and proximity could slightly distinguish handling, dusting, or adjusting equipment."
+ },
+ "38737402-19bd-4689-9e74-3af391b15feb_1338-80": {
+  "score": 2,
+  "reason": "Choosing among restraining, separating, examining, or releasing the dogs substantially depends on their proximity, surroundings, accessibility, and whether the setting is a home, clinic, or transition area."
+ },
+ "38788778-0822-4c9c-b51e-5bce8a765a97_91-28": {
+  "score": 1,
+  "reason": "The choice mostly depends on the walkthrough's conversational context and purpose, though identifying windows, room layout, and visible damage requires slight spatial awareness."
+ },
+ "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on what object or surface is within reach and whether the wearer is positioned near a shelf, door, dusty surface, or beam of light."
+ },
+ "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55": {
+  "score": 2,
+  "reason": "Choosing among mowing, gathering grass, moving branches, or marking a flowerbed substantially depends on what objects and areas are present, accessible, and positioned in the wearer's path or reach."
+ },
+ "38b56399-3b1c-421d-8a80-1e5f54fcd667_806-77": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on identifying the pipe's intended task and surrounding object, with spatial placement and reachability providing only minor additional evidence."
+ },
+ "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27": {
+  "score": 2,
+  "reason": "Choosing among controlling multiple dogs, approaching an injured or lost dog, or using a cleared sidewalk substantially depends on proximity, obstacles, reachability, and the dogs\u2019 positions and paths."
+ },
+ "39a53568-d759-4f19-ac19-bc4ba29b5c17_726-07": {
+  "score": 3,
+  "reason": "Choosing among these actions mainly requires knowing which object and person are present, within reach, and positioned for safe interaction."
+ },
+ "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48": {
+  "score": 2,
+  "reason": "Choosing among accepting, directly handing, or placing the tea substantially depends on who holds it, who is nearby, and whether the person or table is within reach."
+ },
+ "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48": {
+  "score": 3,
+  "reason": "Choosing among honking, continuing, or steering around the person and dog mainly requires knowing their distances, orientation, path, and proximity to the vehicle."
+ },
+ "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87": {
+  "score": 2,
+  "reason": "Choosing correctly substantially depends on spatial relations such as whether a brick, water, wall, cake layer, or collecting person is nearby, aligned, and within reach."
+ },
+ "407df63f-c7a8-4c18-aa0f-b8e6ae16a938_620-12": {
+  "score": 1,
+  "reason": "Choosing among these actions depends mainly on identifying the object and ongoing task, with only slight spatial relevance from what surface is within reach."
+ },
+ "439cfa9c-ef6b-41ba-aa5d-2f40b195b374_1380-00": {
+  "score": 1,
+  "reason": "The choice mainly depends on identifying the materials and ongoing task, though nearby people and whether the heated tool is safely within reach matter slightly."
+ },
+ "43d83207-9c41-46aa-90c9-e30a6194be11_354-50": {
+  "score": 1,
+  "reason": "The choice depends mostly on conversational roles, tutoring context, and privacy norms, though proximity and screen visibility could slightly affect what is appropriate."
+ },
+ "46c3b557-dbda-4868-a9c8-43741d5815e1_288-99": {
+  "score": 3,
+  "reason": "Choosing among riding in formation, sprinting, keeping distance, or offering help mainly requires knowing relative positions, movement paths, spacing, orientation, and reachability."
+ },
+ "470499d1-e015-4d45-a858-ca3e9566085e_2490-62": {
+  "score": 2,
+  "reason": "Choosing between joining, engaging the trainer, or respectfully observing depends substantially on proximity, orientation, accessibility, and whether the wearer would intrude on the activity."
+ },
+ "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91": {
+  "score": 1,
+  "reason": "Spatial cues such as whether person A is nearby or within reach could help, but the correct choice depends more on recognizing the activity and setting."
+ },
+ "490b4f30-9bb5-4bf2-966b-13d509b5709b_1247-51": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on the transaction or technical-support context, with spatial cues such as who is positioned at and able to reach the terminal providing only slight additional evidence."
+ },
+ "4930cced-9b84-464e-88ce-3990188efed6_1781-50": {
+  "score": 2,
+  "reason": "Choosing among these options substantially depends on the dog\u2019s proximity to the workspace, nearby people and furniture, and whether it is creating a physical obstruction or hazard."
+ },
+ "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50": {
+  "score": 1,
+  "reason": "The choice depends mostly on recognizing the social activity and relevant objects, with spatial layout only slightly affecting whether approaching or offering help is appropriate."
+ },
+ "4ac57aee-4ac0-457e-b9de-9419056e4bbd_295-55": {
+  "score": 2,
+  "reason": "Choosing among feeding, inspecting, cleaning, or storing food substantially depends on what is within reach, where the animals and objects are, and whether anyone is in the wearer's path or personal space."
+ },
+ "4bd37cff-a43b-4843-b0ff-06ecfe00017e_258-98": {
+  "score": 1,
+  "reason": "Spatial cues such as who is behind the counter and within interaction range help slightly, but the correct choice depends mostly on roles, objects, and the ongoing activity."
+ },
+ "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03": {
+  "score": 2,
+  "reason": "Choosing whether to grasp the cash or wait for the customer to set it down substantially depends on hand positions, reachability, and the customer's ongoing movement."
+ },
+ "4c9777fc-1997-4dc8-a2d2-ea59c50b32f4_573-78": {
+  "score": 1,
+  "reason": "The choice depends mostly on recognizing the building's purpose and the child's situation, with spatial layout only slightly relevant to navigating the stroller toward an entrance."
+ },
+ "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56": {
+  "score": 1,
+  "reason": "Choosing among these actions depends primarily on identifying the equipment and its condition, with spatial layout mattering only slightly for determining which component is accessible."
+ },
+ "4f549225-e82e-4294-9379-4891e47725c7_1121-97": {
+  "score": 1,
+  "reason": "The choice depends mostly on identifying the ongoing task and relevant materials, with spatial layout mattering only slightly for what surface or object is within reach."
+ },
+ "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35": {
+  "score": 1,
+  "reason": "The choice depends mostly on rules, guidance, and the task context, though knowing whether a plant is accessible and in a designated area adds slight spatial dependence."
+ },
+ "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91": {
+  "score": 2,
+  "reason": "Choosing between asking someone to move, engaging them, handing over mail, or safely walking past depends substantially on their positions, orientation, proximity, and whether they obstruct the wearer's path."
+ },
+ "513f572f-6d1c-4a8a-8b57-9c1d0aa363f7_969-20": {
+  "score": 0,
+  "reason": "The decision depends primarily on identifying the current task and scene condition, not on distances, orientation, personal space, paths, or reachability."
+ },
+ "5315437a-2530-47e5-a0e4-4ac656c7cfa4_570-57": {
+  "score": 3,
+  "reason": "Choosing among directing, requesting help, signaling safe passage, or showing nearby items mainly depends on person J's position, orientation, path, and proximity to the road work, tractor, and vegetables."
+ },
+ "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56": {
+  "score": 0,
+  "reason": "The correct choice depends on the current game or play activity and social context, not on people's positions, orientations, paths, or reachability."
+ },
+ "54a421d2-763e-4751-a6b4-54e3d6c46cc1_1361-15": {
+  "score": 2,
+  "reason": "Choosing among helping, playing, working, or offering quiet support substantially depends on proximity, orientation, personal space, and whether the wearer is positioned to interact without intruding."
+ },
+ "57467033-41ad-48f8-bc45-26f0b92a1b48_681-96": {
+  "score": 0,
+  "reason": "The correct choice depends mainly on recognizing the type of transaction and social context, not on distances, orientation, personal space, or reachability."
+ },
+ "59976b3b-2328-47f2-a7b3-6f982497ed65_622-81": {
+  "score": 3,
+  "reason": "The likely correct choice hinges mainly on whether the person is still within the wearer\u2019s immediate workspace and could be dirtied by applying plaster."
+ },
+ "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77": {
+  "score": 1,
+  "reason": "The choice depends mostly on recognizing the broader activity and social context, though proximity, orientation, and who is interacting with the dog provide some spatial clues."
+ },
+ "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42": {
+  "score": 2,
+  "reason": "Choosing among these object-directed social actions substantially depends on who and what are nearby, facing the wearer, and within reach, though object identity and activity context also matter."
+ },
+ "5cab806a-3794-4578-94f2-33c3093151d1_391-05": {
+  "score": 2,
+  "reason": "Choosing appropriately depends substantially on whether the person and relevant items are nearby, accessible, and positioned so an offer would be practical without intruding."
+ },
+ "5d8dfcfe-93e4-465e-a548-44c1442ffa29_291-14": {
+  "score": 1,
+  "reason": "Spatial cues could slightly help identify who is nearby and available to address, but the best action mainly depends on the conversation and shopping context."
+ },
+ "5ed59c41-af9e-4368-a0ce-30d536d34895_1493-26": {
+  "score": 2,
+  "reason": "Choosing among handing over, comforting, playing with, or placing the baby in a stroller substantially depends on who is nearby, facing or approaching whom, and what is within reach."
+ },
+ "5f2d9e8b-6e0b-4e36-9f5b-d26bbe0a7c7c_1129-51": {
+  "score": 1,
+  "reason": "The correct choice depends mainly on recognizing the activity and relevant objects, though proximity, reachability, and who is available could slightly affect the action."
+ },
+ "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58": {
+  "score": 1,
+  "reason": "The choice depends mostly on identifying the object and activity, with spatial layout only slightly relevant for judging what is within reach and needs stabilizing."
+ },
+ "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_232-40": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on recognizing the construction task and railing condition, with spatial layout only slightly relevant to accessibility or whom the wearer could approach."
+ },
+ "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41": {
+  "score": 3,
+  "reason": "Choosing among handing over, placing, demonstrating, or stepping aside mainly requires knowing who holds the object, what is within reach, each person's position and orientation, and the stack's location."
+ },
+ "6395f964-0122-4f16-b036-337c28488504_1626-75": {
+  "score": 1,
+  "reason": "The choice depends primarily on identifying the activity and the wearer's role, while spatial details such as who needs help or supervision provide only modest additional guidance."
+ },
+ "65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02": {
+  "score": 1,
+  "reason": "Choosing among these actions depends mostly on understanding the social activity, though proximity, orientation, and whether the wearer would intrude slightly affect whether to join, help, or observe."
+ },
+ "668962c9-ecae-4b8f-bdc1-a6aeab093d88_1333-29": {
+  "score": 1,
+  "reason": "Choosing among these actions depends mostly on conversational roles and context, with spatial cues like who is being faced or focused on providing only slight assistance."
+ },
+ "66bf8281-f77c-4e37-b9a8-5f2aabf73ef9_943-34": {
+  "score": 2,
+  "reason": "Choosing the appropriate cash-exchange method depends substantially on whether the person, counter, or booth window is present and within reach, as well as the interpersonal distance."
+ },
+ "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25": {
+  "score": 1,
+  "reason": "Choosing among these actions depends mostly on identifying the activity and objects, with only slight spatial dependence for reachability and the relevant work area."
+ },
+ "6956cb48-951c-4607-a42b-a66de2c186be_292-00": {
+  "score": 2,
+  "reason": "Distinguishing among guiding, supporting, continuing to walk, or securing the dog depends substantially on its proximity, movement, surroundings, and whether a car, traffic, or designated area is spatially accessible."
+ },
+ "6956cb48-951c-4607-a42b-a66de2c186be_59-73": {
+  "score": 1,
+  "reason": "The correct choice depends mainly on whether this is an evacuation, confinement, or routine-walking situation, though nearby dogs, exits, and reachable equipment may slightly affect execution."
+ },
+ "6af6234f-abfe-48ac-9dde-399f25d9cb43_931-51": {
+  "score": 2,
+  "reason": "Choosing among receiving, offering, pouring, or serving depends substantially on where the items, table, and other person are positioned and whether they are within reach."
+ },
+ "6b7fc6db-e979-43a0-b61f-7dced89d423d_229-56": {
+  "score": 1,
+  "reason": "The correct choice depends mainly on recognizing the social and activity context, though positions, facing directions, and reachability could slightly help distinguish offering pamphlets from joining a discussion."
+ },
+ "6ba5f052-a1cd-46ba-83f2-1be480387020_599-71": {
+  "score": 0,
+  "reason": "Choosing among these kitchen cleanup and food-preparation actions depends on task context and object states, not the spatial relationships among people or objects."
+ },
+ "6e0c294c-d634-4804-8d41-cd6e9d79f0b9_1656-45": {
+  "score": 2,
+  "reason": "Spatial layout substantially affects whether a handshake, comforting touch, maintaining distance, or reaching for a nearby beverage is feasible and socially appropriate, though emotional and situational context also matters."
+ },
+ "6f27deaa-7133-4bbb-b9ed-5310d6d05a50_549-73": {
+  "score": 2,
+  "reason": "Choosing among handing items to a person or measuring an area depends substantially on who is nearby, what is within reach, and the scene's physical arrangement."
+ },
+ "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51": {
+  "score": 2,
+  "reason": "Distinguishing serving, handing over utensils, eating, or clearing dishes substantially depends on who is seated, what is within reach, and the positions and orientations of people and table items."
+ },
+ "706de1df-babc-4e54-a310-1d9070140197_195-59": {
+  "score": 3,
+  "reason": "The correct choice hinges on whether the wearer is blocking the person's access to the microwave or counter, which requires knowing positions, paths, facing, and reach."
+ },
+ "71504f29-61c1-49e5-8617-d0e71144c077_652-01": {
+  "score": 0,
+  "reason": "Choosing among these maintenance actions depends on identifying the object and task, not on people\u2019s positions, facing directions, personal space, or reach."
+ },
+ "7696b38a-59d3-4b85-966f-3522f9792966_89-69": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on who is nearby, where the ball, items, vehicle, and pointed-to object are, and whether each person is positioned for the proposed interaction."
+ },
+ "7a680a9a-dd7b-467a-a724-a597f1be9f06_2545-86": {
+  "score": 2,
+  "reason": "Choosing between staying seated, approaching D, or adjusting the workspace substantially depends on D\u2019s location, orientation, proximity, and accessibility."
+ },
+ "7c0c0057-3bbc-40ef-a91e-4d6e1a637642_1139-91": {
+  "score": 2,
+  "reason": "Choosing among these hands-on assembly actions substantially depends on which object is in front of the wearer, how its parts are positioned, and what is within reach."
+ },
+ "7c925095-c62a-4a7a-a2ca-118ca3f0176a_2-34": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on understanding the ongoing task and instructions, with scene layout offering only minor context about the woman, telescope, or team interaction."
+ },
+ "7f5ed6e1-aca1-40d5-87c6-d156c5f02263_213-34": {
+  "score": 2,
+  "reason": "Choosing among moving forward in line, handling the bag, preparing food, or assisting person X substantially depends on positions, orientation, proximity, and what is within reach, though social and activity context also matters."
+ },
+ "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40": {
+  "score": 2,
+  "reason": "Choosing among approaching a passerby, engaging nearby pedestrians, or letting someone pass substantially depends on proximity, movement paths, facing direction, and whether anyone is within conversational reach."
+ },
+ "830bd10c-4eb5-477d-9166-7d41ca86880a_963-23": {
+  "score": 1,
+  "reason": "Spatial layout helps identify the counter, shelves, and staff roles, but the correct action mainly depends on the items' condition and the wearer's transactional intent."
+ },
+ "845cb298-d60b-4106-8213-d2aca821740a_14-13": {
+  "score": 2,
+  "reason": "Choosing among handing over a package, pointing at a map, continuing past someone, or directing them depends substantially on proximity, orientation, what is within reach, and the wearer's path."
+ },
+ "84ec85f6-c167-413c-829d-9c6915519c57_919-33": {
+  "score": 2,
+  "reason": "Choosing among handing nearby materials or tools depends substantially on what activity is occurring, which items are within reach, and whether another person is positioned to receive them."
+ },
+ "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04": {
+  "score": 2,
+  "reason": "Choosing safely among playing, training, inspecting, or comforting the dogs substantially depends on their proximity, orientation, accessibility, and whether there is space to act."
+ },
+ "878666b9-5f3d-476a-960f-3a5d02da7619_18455-07": {
+  "score": 2,
+  "reason": "Choosing appropriately depends substantially on the person's proximity and condition, the dogs' positions and behavior, and whether anyone's path or personal space is affected."
+ },
+ "8b1d4210-a174-4617-8311-df4b32785d28_1114-53": {
+  "score": 2,
+  "reason": "Choosing between direct handover, counter placement, or wrapping and passing the object substantially depends on who is nearby, what is within reach, and the scene's physical arrangement."
+ },
+ "8bb4369f-a6e0-45a3-9d2d-fd5d5c686ccc_70-57": {
+  "score": 1,
+  "reason": "Spatial cues such as whether the cat is within reach and receptive to contact could modestly affect petting, but the main decision depends on the cat's condition and care context."
+ },
+ "8d3b84a9-e747-47c1-8f09-726fdde7986c_1371-62": {
+  "score": 1,
+  "reason": "Choosing among these actions depends mainly on identifying the transaction context and the wearer's role, with spatial layout only slightly relevant for determining the nearby person or machine being interacted with."
+ },
+ "8d900b59-e95d-4c9b-9432-8f5096aac2db_503-05": {
+  "score": 1,
+  "reason": "The choice depends mostly on the dogs\u2019 visible condition and the activity context, with spatial layout mattering only slightly for whether they are within reach and receptive to interaction."
+ },
+ "8dd6490b-6291-4793-b05e-79250f87925f_1530-13": {
+  "score": 0,
+  "reason": "Choosing among these actions depends on recognizing the activity and object involved, not on distances, orientation, personal space, or reachability."
+ },
+ "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83": {
+  "score": 2,
+  "reason": "Choosing among passing a dish, placing food before someone, eating, or clearing plates substantially depends on who is nearby, what is within reach, and the positions of people and table items."
+ },
+ "9490a06b-3fa1-47b6-b470-facb3d61ac57_599-12": {
+  "score": 1,
+  "reason": "Choosing among presenting, handing over, showing, or verbally explaining materials depends slightly on whether person X is nearby, facing the wearer, and within reach, but mainly on conversational context and the intended information-sharing goal."
+ },
+ "9520f703-8904-4123-bd7f-873b0b42074b_239-07": {
+  "score": 2,
+  "reason": "Choosing among approaching, showing, pointing, or observing from a distance substantially depends on proximity, orientation, reachability, and whether the wearer would enter the person's path or personal space."
+ },
+ "952d5295-06f4-4578-929b-4113e4ff9201_741-67": {
+  "score": 2,
+  "reason": "Choosing among assisting, physically supporting someone, applying medication, or holding still substantially depends on proximity, reachability, orientation, and whether the wearer would intrude into another person's workspace."
+ },
+ "952d5295-06f4-4578-929b-4113e4ff9201_769-29": {
+  "score": 0,
+  "reason": "Choosing among these actions depends on the procedure's stage and hygiene needs, not the spatial layout of the scene."
+ },
+ "97d62297-ee2c-482f-aec2-4f73448c3a03_538-31": {
+  "score": 1,
+  "reason": "Spatial context could help determine who is nearby or within conversational reach, but the choice mainly depends on the activity and social context rather than precise scene layout."
+ },
+ "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07": {
+  "score": 0,
+  "reason": "Choosing the safety-focused action depends mainly on recognizing distracted driving, not on distances, orientations, paths, personal space, or reachability."
+ },
+ "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6720-40": {
+  "score": 0,
+  "reason": "Choosing among these options depends on recognizing the activity and social context, not on distances, personal space, orientation, or reachability."
+ },
+ "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08": {
+  "score": 1,
+  "reason": "The choice depends mostly on the social and conversational context, though proximity and orientation could slightly affect whether initiating or continuing an interaction is appropriate."
+ },
+ "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42": {
+  "score": 2,
+  "reason": "Selecting the correct action depends substantially on spatial cues such as whether a person, hair-care tools, a car and hose, or a portrait and brush are present and within reach."
+ },
+ "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33": {
+  "score": 2,
+  "reason": "Choosing among assembly, measurement, disassembly, or reinforcement substantially depends on seeing how the wood, metal frame, loose joints, tools, and reachable work areas are spatially arranged."
+ },
+ "9d26362a-4411-4d8b-b114-03f4f89928d7_1588-24": {
+  "score": 3,
+  "reason": "Choosing whether to follow without passing primarily requires knowing relative positions, movement direction, path access, and personal-space boundaries."
+ },
+ "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11": {
+  "score": 1,
+  "reason": "The decision mainly depends on whether damage or a repair need is evident, with spatial factors like reachability and nearby people only slightly affecting safe assistance or demonstration."
+ },
+ "9fc3678b-86e2-44ab-adbc-9aeda78ceb60_992-74": {
+  "score": 2,
+  "reason": "Choosing among helping with the spill, handing someone a sponge, repositioning an object, or serving another table substantially depends on proximity, reachability, and who is positioned to act."
+ },
+ "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45": {
+  "score": 0,
+  "reason": "Choosing among these actions depends on interpreting the activity and social context, not on distances, orientations, personal space, or reachability."
+ },
+ "a5e74924-6083-4618-b830-f528c5199ed9_5985-35": {
+  "score": 2,
+  "reason": "Distinguishing between joining a selfie, photographing a couple, or adjusting equipment substantially depends on who faces the camera, their proximity, and what is within reach."
+ },
+ "ab865129-78fa-47d4-8a50-ff8c5533246f_318-49": {
+  "score": 2,
+  "reason": "Choosing among photographing a chimp, witness, or posed model substantially depends on identifying who is present, their orientation, and whether the subject and equipment are within usable range."
+ },
+ "aca9e131-8b44-4e59-8394-24a494c19801_183-42": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on identifying the person, items, and social context, with spatial cues such as proximity and reachability playing only a minor role."
+ },
+ "ada73c3a-765f-46de-afb5-d152d058d7e2_7766-82": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on seeing whether the wearer is in a line, near a nurse or available seat, and positioned within a working or social group."
+ },
+ "af215e0f-56c7-4356-9aad-a3a5fb7bbc4f_4328-60": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on who is nearby, whether a child is in danger or obstructing cleanup, and whether people or exhibits are within reach and appropriately positioned."
+ },
+ "af43394e-d24c-40c2-b03a-f3cdff888370_762-90": {
+  "score": 1,
+  "reason": "Choosing among these actions depends mostly on identifying the transaction context and objects, with spatial layout only slightly relevant to whether a person is walking away or an item is within reach."
+ },
+ "b5c3c1e3-7ee7-4b4a-b938-4d008d5aa49b_757-55": {
+  "score": 0,
+  "reason": "Choosing among these manicure actions depends on the procedural stage and roles, not on distances, orientation, personal space, or reachability."
+ },
+ "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on whether the wearer is in a bathroom or room, what objects and people are within reach, and whether they are positioned to assist or continue shaving someone."
+ },
+ "bdeb0df9-2983-41bb-ba27-c431d9ef3163_1770-19": {
+  "score": 2,
+  "reason": "Choosing among soothing, examining, lifting, or transferring the baby substantially depends on who is nearby, what is within reach, and whether the other person is positioned to receive the baby safely."
+ },
+ "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77": {
+  "score": 2,
+  "reason": "Choosing among solo shooting, rehabilitation, team drills, or instruction substantially depends on the number, positioning, orientation, and proximity of nearby people and equipment."
+ },
+ "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55": {
+  "score": 1,
+  "reason": "The choice depends mostly on the instructional context, though knowing who is directing whom and whether the camera or screen is within reach would help slightly."
+ },
+ "c00d3596-99db-4ea7-9a65-57ab4319d640_370-19": {
+  "score": 0,
+  "reason": "The choice depends mainly on the social and instructional context around sculpture work, not on distances, orientation, personal space, paths, or reachability."
+ },
+ "c1f4d37c-bfd8-4722-b1c4-767f8426ccfd_867-73": {
+  "score": 1,
+  "reason": "Spatial cues such as garment reachability and the other person's position may help, but the choice mainly depends on the retail task and garment condition."
+ },
+ "c25111f0-0c78-4bf8-a16d-57a6c25c2169_10881-80": {
+  "score": 1,
+  "reason": "Spatial cues could slightly help identify the group and event setup, but the correct choice mainly depends on social context, role, and whether the wearer is invited."
+ },
+ "c34effc7-6198-4c85-80c7-c8be85b77dd3_2128-22": {
+  "score": 0,
+  "reason": "The correct choice depends on social etiquette, privacy, and professional conduct rather than distances, orientation, personal space, or reachability."
+ },
+ "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26": {
+  "score": 1,
+  "reason": "Choosing among these actions depends mostly on recognizing the activity and objects, with only slight reliance on tool-to-target reach and positioning."
+ },
+ "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33": {
+  "score": 1,
+  "reason": "Selecting the correct retail procedure depends mostly on the activity context, though slight spatial awareness could help identify who is interacting with whom and what objects are within reach."
+ },
+ "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04": {
+  "score": 1,
+  "reason": "The choice depends mostly on recognizing the person's activity and social context, with spatial details such as proximity and accessibility playing only a minor role."
+ },
+ "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46": {
+  "score": 1,
+  "reason": "The choice mainly depends on the social and task context, though knowing the person's proximity, orientation, and access to the work could slightly affect whether to pause, demonstrate, or continue painting."
+ },
+ "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98": {
+  "score": 2,
+  "reason": "Choosing among serving someone, offering a nearby person a drink, or simply participating depends substantially on who is nearby, where the table and drinks are, and what is within reach."
+ },
+ "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_115-52": {
+  "score": 0,
+  "reason": "Choosing among medical care, securing, rewarding, or documenting the dog depends primarily on its condition and the situation, not the scene's spatial layout."
+ },
+ "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_23-76": {
+  "score": 2,
+  "reason": "Choosing among play, searching, leash guidance, or physical support substantially depends on the dog's position, proximity, orientation, mobility, and access to the field or garden path."
+ },
+ "cb8df5e7-af5c-4211-b779-0568f94c7ded_3375-73": {
+  "score": 2,
+  "reason": "Choosing whether to adjust position or leave depends substantially on relative seating, proximity, orientation, and whether the wearer is physically distracting or obstructing the other person."
+ },
+ "cebb6331-2a18-454a-862b-3aa502267017_1587-77": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on who and what are nearby, within reach, facing the wearer, or engaged with the wearer, though activity context also matters."
+ },
+ "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48": {
+  "score": 3,
+  "reason": "Choosing among approaching the wall, signaling an operator, returning binoculars, or helping with a cake mainly requires knowing who and what is nearby, within reach, facing the wearer, and accessible without obstruction."
+ },
+ "d0925317-dc23-4cb4-a375-a7baddc06b27_901-57": {
+  "score": 1,
+  "reason": "The choices mainly depend on identifying the activity and roles, while spatial layout only slightly helps determine nearby people, counters, or items."
+ },
+ "d0c0065b-79d2-4e6f-9c0f-e212dd17a0ca_31-42": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on whether the animal is nearby or obstructing work, tools and shelter are within reach, and the wearer is positioned to begin installation safely."
+ },
+ "d27c5c7e-db9c-48f4-bea5-9970078d352e_87-62": {
+  "score": 2,
+  "reason": "Choosing among securing the tent, helping the person inside, and organizing nearby items substantially depends on who and what is within reach and whether anyone faces an immediate spatial hazard."
+ },
+ "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on identifying the activity and objects, with only slight reliance on whether plants, tools, a basket, or another person are within reach."
+ },
+ "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19": {
+  "score": 1,
+  "reason": "The choice mainly depends on recognizing the material and current task stage, with spatial details such as tool reach and surface arrangement providing only slight help."
+ },
+ "d7d516f6-4ba0-4ea7-a18f-f943abc50ff8_869-60": {
+  "score": 0,
+  "reason": "Choosing correctly depends on identifying the ongoing activity and the objects being handed over, not on spatial relationships in the scene."
+ },
+ "d8936caf-0142-4ceb-bacc-70313a19f169_805-14": {
+  "score": 1,
+  "reason": "Spatial context such as who is nearby, whether food is spilled, and what is within reach could help, but the choice mainly depends on understanding the activity and social context."
+ },
+ "d8936caf-0142-4ceb-bacc-70313a19f169_888-66": {
+  "score": 2,
+  "reason": "Choosing among petting, observing, crating, or assisting substantially depends on proximity, reachability, whether the dog or person is in the wearer's path or personal space, and their orientations."
+ },
+ "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83": {
+  "score": 0,
+  "reason": "Choosing among these actions depends mainly on recognizing the social and task context, not on distances, orientations, paths, personal space, or reachability."
+ },
+ "dd0aa717-59d8-4d8a-9f11-21be827fb184_1260-03": {
+  "score": 2,
+  "reason": "Choosing between posing for a photo and moving away from a restricted area depends substantially on where the wearer is positioned relative to the camera, people, boundaries, and their orientations."
+ },
+ "dd508a2a-1ea7-43d2-805a-8080eeae9985_1035-99": {
+  "score": 0,
+  "reason": "Choosing among these socially normative group-participation actions depends on the activity and instructions, not on distances, orientation, paths, personal space, or reachability."
+ },
+ "dd508a2a-1ea7-43d2-805a-8080eeae9985_36-14": {
+  "score": 1,
+  "reason": "The choice depends mainly on recognizing the social or ritual context, though locating the bowl, altar, or enclosure adds slight spatial dependence."
+ },
+ "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46": {
+  "score": 2,
+  "reason": "Choosing among assisting nearby customers, recording friends, or showing someone a phone depends substantially on who is nearby, facing the wearer, and within conversational or physical reach."
+ },
+ "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23": {
+  "score": 3,
+  "reason": "Choosing among securing, arranging, inspecting, or photographing garments mainly depends on what is within reach, how the garments are positioned, and the other person's location and orientation."
+ },
+ "e21a6f09-3df0-4bfb-a23b-47a1866aadf1_511-16": {
+  "score": 3,
+  "reason": "Choosing whether to throw, lightly toss, demonstrate, or roll the ball mainly depends on recipients' positions, distances, orientation, readiness, and safety within the scene."
+ },
+ "e6f1accd-e18d-43ec-b854-e7633b15cbf7_1189-37": {
+  "score": 0,
+  "reason": "Choosing among these actions depends on recognizing the activity, objects, and task stage rather than judging interpersonal or navigational spatial layout."
+ },
+ "e70f4b34-432f-47dc-834f-5bc6bd67dc62_166-47": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on identifying the repair task and material condition, with spatial layout only slightly relevant for reach and precise placement."
+ },
+ "e9343bd2-cd48-4abe-902a-3d3f6a0b51d8_1810-91": {
+  "score": 3,
+  "reason": "Choosing among these transfer actions depends mainly on the person's identity and position, the nearby seating or floor layout, what is within reach, and whether a safe transfer path exists."
+ },
+ "e9957d35-9c4d-44cc-b3b6-267dfa13841a_896-74": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on recognizing the activity and relevant objects, with spatial layout only slightly helping identify the person or bin to approach."
+ },
+ "e9e0f26d-3005-436a-a70f-7d99977808c8_1690-81": {
+  "score": 2,
+  "reason": "Choosing among these throwing actions substantially depends on who and what are nearby, their distances and orientations, and whether a person or dog is in the object's path."
+ },
+ "eaa560d5-6432-4030-a03a-b6ba512e621d_61-64": {
+  "score": 0,
+  "reason": "Choosing among these actions depends on social roles, responsibilities, and situational context rather than distances, orientation, personal space, or reachability."
+ },
+ "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1223-78": {
+  "score": 1,
+  "reason": "The correct choice depends mainly on identifying the social activity and roles, though proximity and reach could slightly help distinguish assisting, instructing, or serving a client."
+ },
+ "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1624-37": {
+  "score": 1,
+  "reason": "The choice depends mainly on understanding the ongoing professional task and roles, with spatial layout only slightly relevant for identifying who is nearby and involved."
+ },
+ "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40": {
+  "score": 1,
+  "reason": "The choice depends mainly on identifying the activity being performed, with spatial layout only slightly affecting whether approaching or engaging is appropriate."
+ },
+ "eb2c9739-dba0-479c-81b7-9dda51c4ac20_148-23": {
+  "score": 3,
+  "reason": "Choosing among these actions mainly requires knowing the court layout, team positions, facing directions, and whether the shuttlecock and other players are within the wearer's path or reach."
+ },
+ "ec85a806-d47f-4555-8c4c-20f59927e580_1424-09": {
+  "score": 1,
+  "reason": "The decision is driven mainly by ethical and contextual norms around handling eggs, though knowing whether the eggs are in nests, on a farm, or within reach provides slight spatial relevance."
+ },
+ "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48": {
+  "score": 2,
+  "reason": "Choosing among handling, placing, or handing off items substantially depends on which objects and workers are nearby, within reach, and positioned for the next warehouse step."
+ },
+ "edaf03e3-3021-4140-8434-dc9e744ae492_178-18": {
+  "score": 1,
+  "reason": "The choice depends mostly on identifying the ongoing activity and relevant objects, though proximity to materials and the fellow artist provides some spatial context."
+ },
+ "ee1eea29-aaad-41a4-b299-c72ed26c9da5_801-68": {
+  "score": 3,
+  "reason": "Choosing between dismounting in a crowded area and continuing at a safe distance mainly depends on crowd density, spacing, paths, and collision risk."
+ },
+ "f576f1bf-5433-488b-8833-8320f087e72b_48-29": {
+  "score": 2,
+  "reason": "Choosing among trimming, planting, angled stem cutting, or specimen collection substantially depends on which plant materials, tools, soil, and containers are visible and within reach, though task context also matters."
+ },
+ "f58900c3-5747-447c-9fa2-04c608e7f40a_18-07": {
+  "score": 0,
+  "reason": "Choosing among these task-oriented actions depends on the work context and roles, not on distances, orientations, paths, personal space, or reachability."
+ },
+ "f668b2c9-d376-411b-96e5-7d7379fae824_107-18": {
+  "score": 2,
+  "reason": "Choosing among these actions substantially depends on whether the nearby person is a toddler, student, or other individual, as well as who is within reach of the dropped item and positioned to retrieve it safely."
+ },
+ "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64": {
+  "score": 3,
+  "reason": "Choosing among solo lifting, coordinated carrying, and maneuvering through a doorway mainly requires knowing the object's reachability, the other person's position, and the available path."
+ },
+ "facdbd7a-da79-48bd-9bb0-c866f675699b_1484-63": {
+  "score": 1,
+  "reason": "The choice depends mainly on social context and intent, with only slight reliance on knowing whether the wearer is positioned in a checkout line near the cashier."
+ },
+ "fb92d350-9bf9-4b16-8a1f-7858de276226_2438-10": {
+  "score": 1,
+  "reason": "The choice depends mostly on recognizing the foot's condition and the purpose of the cloth, with spatial details only slightly affecting whether holding or wiping is feasible."
+ },
+ "fb92d350-9bf9-4b16-8a1f-7858de276226_32-25": {
+  "score": 1,
+  "reason": "The correct choice depends mostly on recognizing the activity and context, with spatial layout only slightly helping determine whether the foot is a client\u2019s, patient\u2019s, footprint, or clay model and what is within reach."
+ },
+ "fb92d350-9bf9-4b16-8a1f-7858de276226_603-23": {
+  "score": 2,
+  "reason": "Choosing whose hand to steady or trim depends substantially on hand ownership, orientation, proximity, and what is within the wearer's reach."
+ },
+ "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13": {
+  "score": 0,
+  "reason": "Choosing among these actions mainly depends on the conversational context and roles, not the scene's spatial layout."
+ },
+ "fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_3041-68": {
+  "score": 0,
+  "reason": "Choosing among these role-specific actions depends mainly on identifying the activity and social context, not on distances, orientation, personal space, or reachability."
+ }
+}

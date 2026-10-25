@@ -1,0 +1,18 @@
+{
+ "id": "087e11d0-5984-4365-989d-7365294ddaec_7351-39",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow indoor locker room with grey metal lockers along the left wall and a blue doorway in the background about 4 to 5 metres ahead. Directly in front and slightly to the right of the camera wearer, within arm's reach at about 0.4 to 0.6 metres, stands a person in a grey 'BANGKOK' hoodie and blue surgical mask holding a smartphone in both hands at chest level. In the first three frames, this foreground person is angled toward the left while looking down at the phone, with the upper half of their head cropped out of the top of the frame; in frame 4 they turn their torso and masked face more directly toward the camera wearer before angling slightly left again in frame 5, where another hand touches their left upper arm from the lower right edge. Behind and to the left of the hoodie wearer, a person in a white 'JAMES 10' jersey starts about 1.2 metres away facing away from the camera, then walks further away to about 2.5 to 3 metres along the left lockers and bends forward over a bench from frame 3 to frame 5. Several other people in dark shirts and tank tops stand in the background corridor between 2 and 4.5 metres away, partially occluded by the foreground hoodie wearer and the person in the white jersey. In frame 3, one person in a black t-shirt briefly approaches to about 1.5 metres in the centre gap facing the camera wearer before becoming occluded by the hoodie wearer in frame 4."
+ },
+ "duration_seconds": 12.970479,
+ "usage": {
+  "input_tokens": 19615,
+  "output_tokens": 497,
+  "thinking_tokens": 105,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20112
+ },
+ "conversation_id": "ec421416-4b29-43f2-8494-b4cdf7b278da"
+}

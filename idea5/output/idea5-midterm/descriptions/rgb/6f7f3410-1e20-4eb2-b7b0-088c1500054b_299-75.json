@@ -1,0 +1,18 @@
+{
+ "id": "6f7f3410-1e20-4eb2-b7b0-088c1500054b_299-75",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grassy area beside a light-colored brick building with a white doorway on the left, wall-mounted gas meters near the center-left, a large green utility box on the ground to the right about 1.5 to 2.5 metres away, and a patio with white chairs and bushes further back at roughly 5 to 10 metres. In frame 1, the camera wearer looks ahead toward the utility box and bushes with a pile of white fabric partially visible at the bottom-left edge within 1 metre, while in frame 2 the view pans left to reveal a woman standing on the doorstep about 1 to 1.5 metres away on the left, a black-and-white dog beside her legs, a bundle of white fabric on the grass between her and the utility box, and a red cloth held within arm's reach at the bottom-left foreground. The woman faces generally toward the camera wearer and slightly right while angled downward toward the ground and objects in her hands rather than looking directly into the lens. In frames 3 and 4, the camera wearer shifts closer to the doorway and turns right as the woman steps forward to within 0.5 to 1 metre\u2014within arm's reach of the camera wearer\u2014holding a yellow-brown cloth in her right hand in frame 3 before bending down in frame 4 to grasp the white fabric bundle on the grass while her head is partly cropped at the top edge. Meanwhile, the dog moves from behind the woman's legs in frames 2 and 3 (where it is partially occluded by her body) to the open grass between the white bundle and the utility box in frame 4, roughly 1.5 to 2 metres from the camera wearer. By frame 5, the woman is completely out of view to the left as the camera wearer looks down at their own hands holding the white fabric bundle within arm's reach at the bottom of the frame, with the gas meter about 1.5 metres away on the upper left and the dog facing right beside the green utility box about 1.5 to 2 metres away on the right."
+ },
+ "duration_seconds": 15.621806,
+ "usage": {
+  "input_tokens": 5367,
+  "output_tokens": 570,
+  "thinking_tokens": 45,
+  "cache_read_tokens": 28427,
+  "total_tokens": 5937
+ },
+ "conversation_id": "c1e008d4-2742-4e99-b2b0-9f2871aef1c0"
+}

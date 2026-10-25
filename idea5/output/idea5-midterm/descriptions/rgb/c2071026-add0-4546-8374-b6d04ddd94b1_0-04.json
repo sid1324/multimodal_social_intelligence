@@ -1,0 +1,18 @@
+{
+ "id": "c2071026-add0-4546-8374-b6d04ddd94b1_0-04",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living area featuring a man wearing a grey number 12 jersey and a green lanyard standing directly in front of the camera wearer at roughly 1 to 1.2 metres, with a patterned rug and low glass coffee table below and slightly to the right at about 1.5 to 2 metres. Behind the man, roughly 3 to 4 metres from the camera wearer and 2 to 3 metres behind him, a white main wall is flanked by a dark sofa with two light pillows, two small round side tables with white-shaded lamps on either end of the sofa, a potted plant on the far right, and a recessed alcove on the far left containing a small white table and wall mirror about 4 metres away. The man's lower body below the waist, the left edge of the alcove table, and the lower foreground are cropped out of the frame, while the man's torso partially occludes the left side of the sofa, the left lamp, and the coffee table in the early frames. In the first two frames, the man holds a glowing smartphone in both hands at waist height within his own arm's reach and just beyond or at the outer edge of the camera wearer's arm's reach, with his head tilted downward looking at the screen while his torso faces the camera wearer. From the third to the fifth frame, he lowers the phone out of view below the bottom edge of the frame, raises his head to look directly toward the camera wearer in frame three, and then turns his head and gaze slightly to his left (the camera wearer's right) in frames four and five while shifting slightly leftward and revealing more of the sofa behind him."
+ },
+ "duration_seconds": 13.592099,
+ "usage": {
+  "input_tokens": 19587,
+  "output_tokens": 650,
+  "thinking_tokens": 226,
+  "cache_read_tokens": 14213,
+  "total_tokens": 20237
+ },
+ "conversation_id": "84e2048c-7e21-418e-927f-8ef601388397"
+}

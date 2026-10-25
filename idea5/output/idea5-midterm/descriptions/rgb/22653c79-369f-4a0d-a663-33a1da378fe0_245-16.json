@@ -1,0 +1,18 @@
+{
+ "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor concrete patio bordered by a low curved stone wall, viewed looking steeply downward from the camera wearer's head-mounted perspective at a silver tarp (~1.5\u20132 m across) lying flat on the ground with a long wooden plank resting along one of its edges and a small level lying on the concrete to the left in frame 1. In frame 1, the camera wearer stands on the lower corner of the tarp with a stone wall ~0.5\u20131 m to the lower left, while a second person in a bright green shirt and tan pants crouches ~2\u20132.5 m ahead at the opposite end of the wooden plank, facing downward toward the tarp with only their lower legs and hands visible at the top edge of the frame and not looking at the camera wearer. In frame 2, as the camera wearer turns clockwise and steps slightly off the tarp, the second person is now standing ~0.5\u20130.8 m to the camera wearer's immediate left, facing forward in roughly the same direction toward the tarp with their head and upper torso cropped out of the left frame edge, while both the tarp edge and wooden plank are within arm's reach of both people. Across frames 3 to 5, the camera wearer continues rotating clockwise to face the wooden plank edge of the tarp directly and bends down at the waist, bringing their hands from ~0.8 m above the ground down to grasp the tarp and plank directly between and in front of their feet (~0.3\u20130.5 m from the head). During this bend in frame 4, the second person's single booted foot and lower leg are briefly visible ~0.6\u20130.8 m to the right edge of the frame before moving completely out of view by frame 5, while the camera wearer's own torso, arms, and legs partially occlude the concrete and tarp directly beneath them throughout the sequence."
+ },
+ "duration_seconds": 45.796366,
+ "usage": {
+  "input_tokens": 19564,
+  "output_tokens": 734,
+  "thinking_tokens": 264,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20298
+ },
+ "conversation_id": "a8389413-e1b0-4120-b19d-38a2d6da84d7"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "963c1ecc-d25e-4c0a-b447-9b26f3778efc_207-31",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grassy area bordered immediately on the left by a multi-story tan brick building with windows (about 1.5 to 2 metres from the camera wearer) and on the right by a paved parking lot with several parked cars roughly 8 to 15 metres away. A person is positioned in the immediate foreground below eye level, within arm's reach at about 0.4 to 0.8 metres from the camera wearer, with their lower body cropped out by the bottom frame edge. In the first two frames, this foreground person is on the lower left facing and looking toward the camera wearer with their left arm raised within reach in frame 1 before lowering it in frame 2. Across frames 3 to 5, the camera wearer's viewpoint levels out and shifts slightly forward while the foreground person moves toward the bottom center and turns their head away, leaving mostly the back and top of their head visible and occluding a small patch of the grass directly ahead. In the distant background near a tall tree (roughly 15 to 20 metres ahead) and a white fence (25 to 30 metres away), a person with a black dog is partially visible in frames 3 and 4 before becoming occluded in frame 5 by the foreground person's head."
+ },
+ "duration_seconds": 27.006927,
+ "usage": {
+  "input_tokens": 5363,
+  "output_tokens": 403,
+  "thinking_tokens": 55,
+  "cache_read_tokens": 28417,
+  "total_tokens": 5766
+ },
+ "conversation_id": "a83cde13-f338-4369-bc8b-b26874d494a4"
+}

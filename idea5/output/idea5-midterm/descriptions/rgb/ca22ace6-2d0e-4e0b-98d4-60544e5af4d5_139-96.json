@@ -1,0 +1,18 @@
+{
+ "id": "ca22ace6-2d0e-4e0b-98d4-60544e5af4d5_139-96",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first four frames, the camera wearer faces an indoor wall roughly 1.0 to 1.5 metres away featuring a mounted whiteboard just left of center and a window with closed white blinds 0.1 to 0.2 metres to its right, while a framed picture on the right-hand perpendicular wall is partly cut off and occluded at the top right by a dark camera-mount edge. Below and to the left of the whiteboard, about 1.0 to 1.2 metres away, is the right end of a desk holding a mug, tissues, a red object, and a monitor mostly out of view past the left edge, while a black cat sits on the windowsill about 1.0 to 1.2 metres in front of the camera wearer and 0.4 metres to the right of the desk. In frames 1 and 2, the cat is reared up facing left with its front paw reaching the bottom-right corner of the whiteboard\u2014occluding that corner and the lower-left portion of the blinds\u2014before lowering onto all four paws on the windowsill in frames 3 and 4 while still facing left. In the fifth frame, the camera wearer turns sharply to the left, shifting the whiteboard to the far-right edge of the view, moving the cat and first window out of frame to the right, and revealing the full desk with two lit monitors in front of a second blinded window with string lights on the left and a hanging wall ornament above the screens. In the lower-left foreground of frame 5, a man is visible from the shoulders up about 0.8 to 1.0 metre from the camera wearer (near the limit of the camera wearer's arm's reach, with his torso below the shoulders cut off by the bottom frame edge), facing away and to the right toward the two monitors within his own arm's reach (0.5 to 0.7 metres in front of him) without looking toward the camera wearer."
+ },
+ "duration_seconds": 26.868757,
+ "usage": {
+  "input_tokens": 5374,
+  "output_tokens": 2021,
+  "thinking_tokens": 1536,
+  "cache_read_tokens": 28411,
+  "total_tokens": 7395
+ },
+ "conversation_id": "cd256ee5-0d50-449b-a1ce-062f57f39b3e"
+}

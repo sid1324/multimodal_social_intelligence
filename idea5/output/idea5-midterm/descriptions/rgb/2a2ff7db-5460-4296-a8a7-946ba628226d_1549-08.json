@@ -1,0 +1,12 @@
+{
+ "id": "2a2ff7db-5460-4296-a8a7-946ba628226d_1549-08",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera looks steeply downward at the wearer\u2019s two hands held over a small round metal bowl about 0.3\u20130.5 m away, all within arm\u2019s reach. A second person is partly visible along the upper-left to upper-center edge, approximately 0.7\u20131.2 m in front of the wearer and slightly left, with only dark-clothed legs/body and a hand or small object visible; their head and gaze are out of frame. The bowl rests on a woven mat, while a darker hard floor borders the mat on the left; small packages or objects lie near the boundary roughly 0.5\u20130.9 m from the wearer and between the two people. The wearer\u2019s forearms occlude parts of the bowl and lower scene, and the other person is heavily cropped by the top edge. Across the five frames, the wearer\u2019s hands make small movements around the bowl, while the other person shifts slightly rightward and closer to the upper-center edge without a clear approach, retreat, or turn."
+ },
+ "duration_seconds": 8.5,
+ "usage": null,
+ "conversation_id": null
+}

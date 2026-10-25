@@ -1,0 +1,18 @@
+{
+ "id": "a99c5790-b590-4c29-98b3-004bbf106ce7_312-10",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is viewed steeply downward from a wide-angle head-mounted camera over a flat grey paved ground with a narrow linear drain along the left border, showing the camera wearer's torso, arms, legs, and feet at the bottom of each frame and no other people present. Throughout all five frames, a blue-and-green dumbbell-shaped toy remains within the wearer's arm's reach (about 0.3 to 0.6 metres in front of the camera) while a tan-and-white dog moves on the ground below and in front of the wearer at roughly 0.5 to 1.3 metres distance. In frames 1 and 2, the wearer extends the toy forward in their left hand (partly clipped at the top-left edge in frame 1) while the dog stands about 0.8 to 1.2 metres ahead and 0.2 to 0.5 metres to the right of the toy, facing left and looking upward toward the toy and wearer. In frame 3, the wearer's left hand holds the toy lower on the left and the right arm drops back while the dog stands roughly 1.2 metres in front of the wearer facing left, before leaping upward in frame 4 to within arm's reach (about 0.5 to 0.7 metres from the camera and 0.1 metres behind the toy) while facing and looking directly at the camera as the wearer holds the toy centrally in both hands, which partially occlude the dog's torso while the top frame edge clips its ears. By frame 5, the wearer holds the toy extended to the upper right in their right hand (about 0.5 metres away) while the dog is back on the ground to the front-left about 1.0 to 1.2 metres from the wearer and 0.6 metres left of the toy, with its tail clipped at the top edge and its head turned right toward the raised right hand."
+ },
+ "duration_seconds": 24.504782,
+ "usage": {
+  "input_tokens": 19514,
+  "output_tokens": 1359,
+  "thinking_tokens": 870,
+  "cache_read_tokens": 14198,
+  "total_tokens": 20873
+ },
+ "conversation_id": "df3a4857-0ffd-4fd5-876e-61dbf40b61fc"
+}

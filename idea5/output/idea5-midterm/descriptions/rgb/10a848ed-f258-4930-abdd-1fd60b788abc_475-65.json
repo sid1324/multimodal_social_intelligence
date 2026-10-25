@@ -1,0 +1,18 @@
+{
+ "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a fenced outdoor dirt and mulch enclosure, with the camera wearer initially looking sharply downward toward the ground before tilting the viewpoint upward and turning left across the five frames. In the first two frames, two medium-sized black, white, and tan dogs stand below and in front of the camera wearer at roughly 1 to 1.5 metres distance and within 0.5 metres of each other, looking upward toward the camera wearer while the wearer's gloved right hand reaches out within arm's reach (about 0.4 metres away) in frame 1, partially occluding the lower dog. By frame 3, one dog remains near the bottom center at about 1 metre distance with its lower body cropped out of view, while the second dog has retreated to roughly 2 to 2.5 metres ahead and slightly right, sitting and facing away to the upper left. In frame 4, as the camera wearer turns left, both dogs exit the field of view, a white chair edge appears partially cropped at the far left roughly 2.5 metres away, the feet of a standing person are barely visible at the top edge about 3 metres ahead, and the wearer's gloved hands holding a green bag and leash clip are visible within arm's reach (0.3 metres) at the bottom edge. In frame 5, the camera tilts up to reveal the curved chain-link perimeter fence 5 to 15 metres away, a person in a light grey hoodie and dark pants standing 2.5 to 3 metres to the left facing right in profile without looking at the camera wearer, and one of the dogs visible far to the right near the fence roughly 10 to 12 metres away."
+ },
+ "duration_seconds": 14.201412,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 635,
+  "thinking_tokens": 201,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20214
+ },
+ "conversation_id": "a0eae879-a7e1-477d-bd36-b5914c9a88f9"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "af72c57c-b242-48b2-8d00-aea29f4e37ac_1063-17",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor paved basketball court bordered by a grassy strip and dense trees in the first two frames, with a wide asphalt lot and brick buildings beyond the opposite direction in the final frames. In the first frame, the camera wearer faces a basketball hoop on a post roughly 4 to 5 metres ahead and above eye level, with an orange basketball floating in the air about 3 to 4 metres in front of the wearer and 1 metre below the rim, while the post partially occludes the trees behind it. Across the second and third frames, the camera wearer rapidly approaches the hoop and pitches their head sharply upward, bringing the rim and net to within 0.5 to 1 metre\u2014within arm's reach above and to the right\u2014while the post and trees drop out of view below the frame. In the fourth frame, the wearer turns left and begins tilting the view downward as the hoop shifts to the upper right edge about 1 to 1.5 metres away and a distant building (roughly 30 to 40 metres away) enters the lower left. By the fifth frame, the wearer has completed a turn away from the hoop (now completely out of view behind them) to face the open asphalt lot, where a man in a white shirt and dark shorts stands about 2.5 to 3 metres directly in front and slightly to the left, facing and looking toward the camera wearer with his lower legs partly cropped by the bottom edge of the frame."
+ },
+ "duration_seconds": 9.860359,
+ "usage": {
+  "input_tokens": 5350,
+  "output_tokens": 378,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28420,
+  "total_tokens": 5728
+ },
+ "conversation_id": "2f4e865b-c336-4f62-9206-9124dbd8a536"
+}

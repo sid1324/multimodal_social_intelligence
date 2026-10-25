@@ -1,0 +1,12 @@
+{
+ "id": "c7e8af35-608f-4d18-b752-2f3140f5fcc4_772-15",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A paved road extends ahead and curves gently right, with a raised curb and gravel strip on the camera wearer\u2019s right, palm trees mainly to the left, and streetlights lining both sides above the roadway. Two cyclists are ahead on the right side: the nearer cyclist in a bright green top is roughly 8\u201312 m away by the fifth frame, while the cyclist in pink is about 3\u20135 m farther right and slightly farther ahead; they remain several metres apart laterally. Both cyclists are oriented generally along the road and mostly face away or sideways from the camera wearer, with no clear evidence that either looks toward the camera. Across the five frames, the cyclists increase in apparent size and shift toward the right edge, indicating that the camera wearer approaches them while continuing forward; the palm trees and nearby curb also slide backward relative to the viewpoint. Nothing is within the camera wearer\u2019s arm\u2019s reach, though each cyclist is within arm\u2019s reach of their own bicycle; parts of the cyclists and bicycles become partially cut off by the right image boundary in the final frame, while distant road features are partly obscured by perspective and the curve."
+ },
+ "duration_seconds": 13.3,
+ "usage": null,
+ "conversation_id": null
+}

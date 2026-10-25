@@ -1,0 +1,12 @@
+{
+ "id": "8f4008a5-18c9-464b-9bce-1ffa824f238d_96-39",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a narrow, partially demolished interior doorway or wall opening, with exposed wood framing very close on the left and above, a white door and wall roughly 2\u20133 m ahead, and a red ladder about 1\u20132 m in front-right. Two people stand ahead: a person in a blue shirt is about 1.5\u20132.5 m away near the center or left, while a person in a dark shirt and tan shorts is about 1\u20132 m away on the ladder or beside it to the right; they are roughly 1 m from each other. The blue-shirted person generally faces the camera wearer and appears to look toward them, whereas the dark-shirted person is mostly side-on or partly turned away, with their upper body sometimes cropped above the frame. The camera wearer's forearm and a handheld power tool occupy the near foreground within arm's reach, extending upward toward the exposed framing; the ladder and nearby wall edge are also within or near reach, while the blue-shirted person holds a long-handled tool extending down to the floor within their own reach. Across the five frames, the viewpoint rotates and tilts slightly rightward and upward, causing the power tool and arm to move from the left foreground toward the center and upper-right, while the people shift laterally in the image without a clear large change in distance; framing, the camera wearer's arm, and frame boundaries intermittently occlude parts of the ladder, walls, and both people's heads or bodies."
+ },
+ "duration_seconds": 13.3,
+ "usage": null,
+ "conversation_id": null
+}

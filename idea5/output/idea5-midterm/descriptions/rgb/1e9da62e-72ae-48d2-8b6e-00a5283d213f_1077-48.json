@@ -1,0 +1,18 @@
+{
+ "id": "1e9da62e-72ae-48d2-8b6e-00a5283d213f_1077-48",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor meeting room with a curved conference table in front of the camera wearer, a glass whiteboard on the back wall to the left (about 3.5 to 4 metres away), a standing easel pad in the corner, and a large wall-mounted presentation screen to the right (about 2.5 to 3 metres away). In the first three frames, two seated people are visible across the table in front and to the left: a person in dark clothing on the far left about 3 metres away and a person in a green top about 2.2 metres away (roughly 0.8 metres to the right of the first person), while the back of a third person's head is very close on the immediate right (about 0.5 to 0.7 metres away, within arm's reach of the camera wearer). An open laptop at the bottom edge and a water bottle on the near side of the table are within arm's reach (0.4 to 0.7 metres) in front of the camera wearer, while a tablet and water bottle sit within arm's reach of the person in green, a closed laptop sits within arm's reach of the person on the far left, and a desktop monitor and keyboard sit at the far right end of the table below the large screen. All three other people face and look toward the presentation screen on the right rather than toward the camera wearer, with the person in green raising their left arm in frame 1, resting their chin on their hand in frames 2 to 4, and pointing toward the screen in frame 5. The close person on the right is mostly out of view below the head and partially occludes the lower portion of the presentation screen and the table edge, while the camera wearer's laptop at the bottom is mostly cropped out of the frame. Across the five frames, the people remain stationary in distance while the camera wearer turns their head to the right between frames 3 and 4, shifting the presentation screen and the nearby person's head toward the center of the view, bringing a second easel pad on the far right into view, and moving the person on the far left completely out of frame while leaving the person in green only partly visible at the left edge."
+ },
+ "duration_seconds": 20.164078,
+ "usage": {
+  "input_tokens": 19607,
+  "output_tokens": 802,
+  "thinking_tokens": 261,
+  "cache_read_tokens": 14194,
+  "total_tokens": 20409
+ },
+ "conversation_id": "cc0934fc-556a-4caf-a30d-5c4bf30edecc"
+}

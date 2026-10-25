@@ -1,0 +1,18 @@
+{
+ "id": "d0a861f7-3e5c-4836-9b43-29a0b3288165_829-52",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is the interior of a transit bus with rows of blue-upholstered seats on both sides of a central aisle and large windows along the left and right walls. Directly within arm's reach (about 0.4 to 0.7 metres) below and to the front-left of the camera wearer is a child's head partially visible at the bottom-left edge of the frame, along with a black stroller tray holding a purple cup and a pink bottle; to the immediate front-right (about 0.5 to 0.8 metres away) is an empty blue seat and the raised black underside of a folded wheelchair-area seat directly ahead at roughly 1 metre. Beyond the stroller in the aisle to the front-left, about 2 to 2.5 metres from the camera wearer and roughly 1.5 metres from the folded seat, a seated person in a dark jacket and cap faces forward toward the front of the bus (roughly toward the camera wearer's direction) while looking slightly right and not directly at the camera wearer, with the seat next to them and vertical grab poles within their arm's reach. Farther down the bus at roughly 4 to 5 metres in the upper-middle background, another person's head is partially visible above a grey partition, heavily occluded by the partition and intermediate seat backs, while the lower bodies of both background passengers and the lower portion of the child are occluded or cut off by seats and the frame boundary. Across the 5 frames, all people and interior fixtures remain stationary relative to the camera wearer with no approach or retreat, while a slight downward-and-leftward camera tilt shifts the foreground blue seat slightly more out of the bottom edge and the trees outside the right windows move past as the bus travels forward."
+ },
+ "duration_seconds": 13.03995,
+ "usage": {
+  "input_tokens": 19560,
+  "output_tokens": 443,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20003
+ },
+ "conversation_id": "c7ce91d7-2b7f-475b-8721-888bf8cd1b16"
+}

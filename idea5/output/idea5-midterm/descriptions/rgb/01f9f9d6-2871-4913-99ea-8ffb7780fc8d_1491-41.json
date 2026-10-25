@@ -1,0 +1,12 @@
+{
+ "id": "01f9f9d6-2871-4913-99ea-8ffb7780fc8d_1491-41",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a small indoor room, roughly 3\u20134 m across, facing a wall with curtained windows, wall shelves, plants, chairs, and a low cabinet or desk. Across the first three frames, the viewpoint turns steadily to the right: the central window and nearby furniture move from in front to the left, while a second curtained window, wall shelf, and cabinet come into view ahead and to the right. Most wall furniture and plants are about 1.5\u20133 m from the camera wearer; chairs sit approximately 0.5\u20131 m in front of the walls, and ceiling lights are above the viewpoint. A seated or crouched person appears at the lower right in the fourth frame and becomes larger and more central-right in the fifth, placing them roughly 0.5\u20131 m from the camera and within the camera wearer\u2019s arm\u2019s reach; they face generally toward the camera, though their gaze is unclear. The person is partly cut off by the bottom and right image edges, while foreground plants and furniture intermittently overlap parts of the walls and windows as the camera turns."
+ },
+ "duration_seconds": 15.9,
+ "usage": null,
+ "conversation_id": null
+}

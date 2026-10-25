@@ -1,0 +1,18 @@
+{
+ "id": "85b87948-4578-4912-95cb-addd19cfd31a_1581-49",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor agricultural field with planted green crop beds on the left, bare dirt rows lined with black irrigation pipes on the right, and a treeline in the background. Directly below the camera viewpoint within arm's reach (about 0.3 to 0.5 metres away) are a blue plastic bucket containing a yellow basin, a small green container, and the camera wearer's hands holding a small black mobile phone, with a main black irrigation pipe running horizontally across the ground roughly 1 metre ahead. In frame 1, the camera looks downward toward the bucket and left crop rows where a distant person in orange crouches about 15 to 20 metres away on the far left while only the lower leg of a seated person is visible at the right edge; across frames 2 to 5, the camera tilts up and pans right to reveal a man in dark clothing sitting on a chair about 4 to 5 metres ahead along the dirt furrow, facing and looking toward the camera wearer with a hand near his ear. In frame 3, a second standing person is partially visible at the far right edge about 3 metres away, who then walks forward and leftward across frame 4 (where his head is cropped out of the top right edge at roughly 2 metres distance) to stand about 1.5 to 2 metres in front and slightly right of the camera wearer in frame 5, approximately 3 metres closer than the seated man. By frame 5, this approaching person faces and looks downward toward the camera wearer while extending his right arm downward, and the camera wearer's right hand extends the black mobile phone forward toward him within mutual arm's reach while the blue bucket remains partially occluded at the bottom edge of the frame."
+ },
+ "duration_seconds": 40.577999,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 957,
+  "thinking_tokens": 523,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20477
+ },
+ "conversation_id": "c7b77198-2f15-4050-ba64-4a8bdbc978ed"
+}

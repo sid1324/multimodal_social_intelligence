@@ -1,0 +1,18 @@
+{
+ "id": "0548b16c-cc3f-475d-82a4-9a73109d4327_1779-11",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a carpeted bedroom viewed from a high angle looking downward and forward, containing a flat-screen television resting on two wooden crates in the center, a bed behind it, a light-colored armchair to the left, and a dog crate and potted plants along the bright window to the right. In the first three frames, a black-and-white dog sits on the floor in the lower foreground about 1 to 1.5 metres below and in front of the camera wearer, positioned immediately to the left of the dog crate and just in front of the right wooden crate. The television and wooden crates sit roughly 1.5 to 2 metres ahead of the camera wearer and partially occlude the lower end of the bed located 2.5 to 3.5 metres away in the background. In the first frame, another person in a red top is partially visible at the far lower-left edge within 0.5 metres (arm's reach) of the camera wearer before moving completely out of view in the second frame, while the dog turns its head slightly left and upward toward the viewpoint. Across frames three to five, the camera wearer pitches their head steeply downward, rotates counterclockwise, and approaches the floor near the wooden crates, reducing the distance to the crates and the dog to under 1 metre (within arm's reach). By the fifth frame, the bed, armchair, and window are completely out of view, leaving only the carpet, the two wooden crates on the right, the bottom edge of the television at the far right, and the partially cropped dog at the bottom edge."
+ },
+ "duration_seconds": 15.209262,
+ "usage": {
+  "input_tokens": 5411,
+  "output_tokens": 510,
+  "thinking_tokens": 107,
+  "cache_read_tokens": 28426,
+  "total_tokens": 5921
+ },
+ "conversation_id": "07b34e2e-6de0-45c7-8baa-78d9e6519f4c"
+}

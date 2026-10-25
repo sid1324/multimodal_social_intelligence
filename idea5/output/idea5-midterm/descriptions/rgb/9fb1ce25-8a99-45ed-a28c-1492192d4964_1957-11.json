@@ -1,0 +1,18 @@
+{
+ "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows an industrial setup where an open white electrical cabinet with internal terminal blocks sits about 0.5 to 0.8 metres in front of and slightly above the camera wearer, mounted over a grey metal base with structural pipes and coiled cables 0.4 to 0.8 metres to the lower left and a red cylindrical tank about 1.2 metres away to the upper right. A second person wearing an orange high-visibility vest, light blue shirt, and blue mask stands immediately to the right of the camera wearer and faces left and forward toward the cabinet interior, never looking toward the camera wearer. Within the camera wearer's arm's reach, their own left forearm enters from the bottom right to hold the lower edge of the hinged cabinet door about 0.4 to 0.6 metres away, while the cabinet door and interior\u2014including a small plastic bag inside\u2014are within arm's reach of both people. In the first two frames, the person in the orange vest is 0.3 to 0.5 metres from both the camera wearer and the cabinet with their right hand reaching inside the cabinet, while their head and torso are partially cropped by the top and right frame borders and occlude the red tank behind them; the top of the cabinet and left-side pipes are also partly out of view. Across frames 3 to 5, this person withdraws their right hand to their side and retreats rightward to about 0.7 to 1.0 metres away, moving their head and shoulders out of the upper-right frame and revealing the red tank behind the cabinet, while the camera wearer's left hand swings the hinged door rightward toward the cabinet opening."
+ },
+ "duration_seconds": 31.70618,
+ "usage": {
+  "input_tokens": 19524,
+  "output_tokens": 2128,
+  "thinking_tokens": 1706,
+  "cache_read_tokens": 14208,
+  "total_tokens": 21652
+ },
+ "conversation_id": "a6575d22-d06a-42fe-b8d8-2ce5663a7641"
+}

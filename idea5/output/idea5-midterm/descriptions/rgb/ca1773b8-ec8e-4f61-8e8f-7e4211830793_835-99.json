@@ -1,0 +1,12 @@
+{
+ "id": "ca1773b8-ec8e-4f61-8e8f-7e4211830793_835-99",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A narrow dining table extends forward and to the right from the camera wearer, with bowls, plates, chopsticks, food containers, and a central cooking pot spread across it; the nearest bowl and chopsticks are within about 0.3\u20130.5 m and arm\u2019s reach. A woman in a yellow shirt sits roughly 0.5\u20131 m to the left-front, initially facing mostly right toward the table, while a woman in dark clothing and sunglasses sits across the table about 1.5\u20132 m ahead and faces generally toward the camera wearer. Two seated men are beside the woman across the table, roughly 2\u20133 m from the camera and about 0.5\u20131 m from one another; their heads turn toward the camera in several frames, and another man is partly visible behind the yellow-shirted woman near the left edge. The tabletop and foreground people partly occlude everyone\u2019s lower bodies, while the closest bowl and the yellow-shirted woman are intermittently cropped by the bottom and left edges. Across the five frames, the viewpoint turns right along the table, shifting the yellow-shirted woman from the left foreground toward the center-right and making her appear slightly closer as she turns more toward the camera; the people across the table move leftward in the image without a clear change in physical distance."
+ },
+ "duration_seconds": 12.5,
+ "usage": null,
+ "conversation_id": null
+}

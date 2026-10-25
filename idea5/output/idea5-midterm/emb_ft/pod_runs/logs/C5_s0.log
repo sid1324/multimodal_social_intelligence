@@ -1,0 +1,33 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 60.33it/s]
+trainable 43646976
+{"step": 5, "epoch": 0, "loss": 2.1460200175642967, "train_joint": 0.25, "tokens": 3223, "sec_per_item": 5.59, "mem_gb": 18.5}
+{"step": 10, "epoch": 0, "loss": 2.68933168053627, "train_joint": 0.375, "tokens": 2583, "sec_per_item": 5.17, "mem_gb": 18.5}
+{"step": 15, "epoch": 0, "loss": 2.860837534070015, "train_joint": 0.125, "tokens": 3474, "sec_per_item": 6.04, "mem_gb": 18.5}
+{"step": 20, "epoch": 0, "loss": 1.3063082993030548, "train_joint": 0.875, "tokens": 2733, "sec_per_item": 5.76, "mem_gb": 18.5}
+{"step": 25, "epoch": 0, "loss": 1.9849092178046703, "train_joint": 0.5, "tokens": 3088, "sec_per_item": 5.61, "mem_gb": 18.5}
+{"step": 30, "epoch": 0, "loss": 2.290959931910038, "train_joint": 0.375, "tokens": 2532, "sec_per_item": 5.4, "mem_gb": 18.5}
+{"step": 35, "epoch": 0, "loss": 1.7341608107089996, "train_joint": 0.375, "tokens": 3196, "sec_per_item": 5.58, "mem_gb": 18.5}
+{"step": 40, "epoch": 0, "loss": 1.2969809276983142, "train_joint": 0.625, "tokens": 3645, "sec_per_item": 5.88, "mem_gb": 18.5}
+{"step": 45, "epoch": 0, "loss": 2.4406384117901325, "train_joint": 0.5, "tokens": 2609, "sec_per_item": 5.73, "mem_gb": 18.5}
+{"step": 50, "epoch": 0, "loss": 3.152025669813156, "train_joint": 0.375, "tokens": 2772, "sec_per_item": 5.54, "mem_gb": 18.5}
+{"step": 55, "epoch": 0, "loss": 1.3526851329952478, "train_joint": 0.5, "tokens": 2495, "sec_per_item": 5.45, "mem_gb": 18.5}
+{"step": 60, "epoch": 0, "loss": 1.5854585021734238, "train_joint": 0.625, "tokens": 3019, "sec_per_item": 5.74, "mem_gb": 18.5}
+{"step": 65, "epoch": 0, "loss": 2.7701383531093597, "train_joint": 0.375, "tokens": 2467, "sec_per_item": 5.73, "mem_gb": 18.5}
+{"step": 70, "epoch": 0, "loss": 2.872729614377022, "train_joint": 0.125, "tokens": 3074, "sec_per_item": 5.69, "mem_gb": 18.5}
+{"step": 75, "epoch": 0, "loss": 1.7300122007727623, "train_joint": 0.625, "tokens": 2706, "sec_per_item": 5.79, "mem_gb": 18.5}
+{"step": 80, "epoch": 1, "loss": 1.4438968021422625, "train_joint": 0.75, "tokens": 2810, "sec_per_item": 5.62, "mem_gb": 18.5}
+{"step": 85, "epoch": 1, "loss": 0.9102982878684998, "train_joint": 0.875, "tokens": 3588, "sec_per_item": 5.57, "mem_gb": 18.5}
+{"step": 90, "epoch": 1, "loss": 1.2294132336974144, "train_joint": 0.625, "tokens": 3114, "sec_per_item": 5.24, "mem_gb": 18.5}
+{"step": 95, "epoch": 1, "loss": 1.401355093345046, "train_joint": 0.625, "tokens": 3839, "sec_per_item": 6.07, "mem_gb": 18.5}
+{"step": 100, "epoch": 1, "loss": 1.2645865762606263, "train_joint": 0.625, "tokens": 3020, "sec_per_item": 5.7, "mem_gb": 18.5}
+{"step": 105, "epoch": 1, "loss": 1.8705813521519303, "train_joint": 0.5, "tokens": 2471, "sec_per_item": 5.63, "mem_gb": 18.5}
+{"step": 110, "epoch": 1, "loss": 1.936960108578205, "train_joint": 0.5, "tokens": 3224, "sec_per_item": 5.62, "mem_gb": 18.5}
+{"step": 115, "epoch": 1, "loss": 1.4948565550148487, "train_joint": 0.5, "tokens": 3678, "sec_per_item": 5.83, "mem_gb": 18.6}
+{"step": 120, "epoch": 1, "loss": 3.3916816683486104, "train_joint": 0.625, "tokens": 2490, "sec_per_item": 5.43, "mem_gb": 18.6}
+{"step": 125, "epoch": 1, "loss": 0.7910485370084643, "train_joint": 0.75, "tokens": 3210, "sec_per_item": 5.48, "mem_gb": 18.6}
+{"step": 130, "epoch": 1, "loss": 0.8022570814937353, "train_joint": 0.75, "tokens": 2549, "sec_per_item": 5.45, "mem_gb": 18.6}
+{"step": 135, "epoch": 1, "loss": 1.9034987641498446, "train_joint": 0.75, "tokens": 3832, "sec_per_item": 6.01, "mem_gb": 18.6}
+{"step": 140, "epoch": 1, "loss": 1.1769933812320232, "train_joint": 0.75, "tokens": 3539, "sec_per_item": 5.47, "mem_gb": 18.6}
+{"step": 145, "epoch": 1, "loss": 1.217247440945357, "train_joint": 0.625, "tokens": 2750, "sec_per_item": 5.57, "mem_gb": 18.6}
+{"step": 150, "epoch": 1, "loss": 1.4267872907221317, "train_joint": 0.625, "tokens": 3456, "sec_per_item": 5.78, "mem_gb": 18.6}
+RUN_DONE C5 0 199 420 s eval

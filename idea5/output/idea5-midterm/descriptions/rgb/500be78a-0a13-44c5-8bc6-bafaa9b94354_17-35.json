@@ -1,0 +1,18 @@
+{
+ "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor mountain slope covered in grass, low shrubs, and a muddy trail rising in front of the camera wearer from about 1 to 20 metres away, with distant rocky ridges on the upper left horizon. Directly in front of and below the camera wearer at roughly 0.3 to 0.5 metres is a person wearing a black jacket with a fur-trimmed hood, a teal inner layer, and a head-mounted action camera on a black strap. Across frames 1 to 4, the camera wearer's left and right hands reach forward into the lower foreground within 0.3 to 0.4 metres to touch and adjust the action camera and strap on top of the other person's head, while the person's body remains mostly below the bottom frame edge. In frames 1 to 4, the other person is positioned lower than the camera wearer and faces forward and slightly right, away from the camera wearer. By frame 5, the camera wearer's viewpoint shifts slightly upward and back to about 0.5 metres away as the other person stands upright in right profile, facing right and looking ahead along the slope rather than toward the camera wearer. In frame 5, only the camera wearer's left hand remains partly visible at the bottom left touching the person's upper back and shoulder within arm's reach, while the person's lower torso and legs are cut off by the bottom edge of the frame."
+ },
+ "duration_seconds": 13.178545,
+ "usage": {
+  "input_tokens": 19572,
+  "output_tokens": 391,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 14200,
+  "total_tokens": 19963
+ },
+ "conversation_id": "d87fcfdc-75b9-4820-a994-d94536cbf559"
+}

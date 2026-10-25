@@ -1,0 +1,8 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  2.12s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.91s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+base sat_static_heldout 0.796
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 60.84it/s]
+spatial sat_static_heldout 0.89
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 59.40it/s]
+control sat_static_heldout 0.788
+STATIC_DONE

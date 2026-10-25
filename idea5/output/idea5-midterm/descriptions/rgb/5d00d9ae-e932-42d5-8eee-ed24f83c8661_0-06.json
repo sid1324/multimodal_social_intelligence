@@ -1,0 +1,18 @@
+{
+ "id": "5d00d9ae-e932-42d5-8eee-ed24f83c8661_0-06",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow, dimly lit indoor hallway roughly 1 metre wide, lined with walls and doorways on both the left and right and ending at a closed white door. In the first two frames, the camera wearer is within 0.3 to 0.5 metres (arm's reach) of a light-colored wall and doorway frame on the left before turning right and stepping forward to face down the corridor, leaving the surrounding ceiling and floor mostly out of view. By the third frame, the closed door at the far end is roughly 3 to 4 metres ahead, and a standing person in dark clothing appears about 2.5 to 3 metres in front of the camera wearer and 0.5 to 1 metre in front of that far door. This person faces away from the camera wearer toward the far end of the hall and does not look back toward the camera, while open doorframe recesses flank the camera wearer on the left and right within arm's reach (0.5 to 1 metre). Across the fourth and fifth frames, the camera wearer approaches down the hallway until the far white door is roughly 1.5 to 2 metres ahead, while the other person (within arm's reach of the far door and left doorway) shifts left into an adjacent doorway and becomes largely occluded by the left wall, leaving only a partial silhouette visible to the left of the door."
+ },
+ "duration_seconds": 17.326176,
+ "usage": {
+  "input_tokens": 19582,
+  "output_tokens": 1066,
+  "thinking_tokens": 704,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20648
+ },
+ "conversation_id": "0eae3024-ee0f-482d-b78c-3e78121c5d40"
+}

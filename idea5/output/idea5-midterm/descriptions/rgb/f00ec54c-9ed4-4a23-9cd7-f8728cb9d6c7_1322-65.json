@@ -1,0 +1,12 @@
+{
+ "id": "f00ec54c-9ed4-4a23-9cd7-f8728cb9d6c7_1322-65",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the five frames, the camera wearer turns right from facing a pair of windows toward a kitchen counter, then toward a doorway and an adjoining dining/living area. In the first frame, the windows are about 1\u20132 m ahead, with no objects clearly within arm\u2019s reach. In the second frame, a sink and countertop run along the left side about 0.5\u20131.5 m away, while a table or peninsula with a fruit bowl is roughly 1 m ahead and tall cabinets and appliances stand about 1\u20132 m farther back. In the third and fourth frames, the counter recedes to the left and an interior doorway and wall appear ahead and right at roughly 1\u20133 m as the viewpoint continues rotating right. By the fifth frame, an archway frames a room about 2\u20134 m ahead, with a hanging ceiling light above and furnishings or wall decorations partly cut off at the right and lower edges; no people are visible in any frame."
+ },
+ "duration_seconds": 9.2,
+ "usage": null,
+ "conversation_id": null
+}

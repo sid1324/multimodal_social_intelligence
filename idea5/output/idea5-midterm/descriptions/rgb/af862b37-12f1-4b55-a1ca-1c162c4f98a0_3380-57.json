@@ -1,0 +1,12 @@
+{
+ "id": "af862b37-12f1-4b55-a1ca-1c162c4f98a0_3380-57",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a compact open kitchen with a long white island in the foreground, counters and cabinets along the rear wall, and a television/storage unit beyond the island toward the left-middle background. In frames 1\u20134, a woman stands across the island about 1\u20132 m from the camera wearer, generally near the left or center of view; she faces partly toward the wearer while looking mostly downward or sideways, and holds a red object close to her torso. The island edge, a red placemat, and a small white bowl are within the camera wearer\u2019s arm\u2019s reach, while the woman can reach the opposite side of the island and nearby countertop items; flowers and a fruit plate sit farther along the island, roughly 1\u20132 m from her. As the camera wearer turns and moves rightward across the five frames, the woman shifts from left-front to center and then farther left/out of view, while more of the stove, sink, refrigerator, and right side of the kitchen become visible. In frame 5, a man appears about 1\u20132 m ahead with his back to the camera, facing the counter and microwave; he partly occludes the rear counter, while the woman and much of the island are then outside the left edge of view."
+ },
+ "duration_seconds": 11.9,
+ "usage": null,
+ "conversation_id": null
+}

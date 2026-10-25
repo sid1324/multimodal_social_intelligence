@@ -1,0 +1,18 @@
+{
+ "id": "64747fa7-c7b9-46fc-ac9d-ea9a514d91df_73-27",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a wooden floor or low platform viewed from a downward-angled egocentric viewpoint, covered with white plastic bags, small white pouches, and green-and-white packaged goods. Directly below and in front of the camera wearer within arm's reach (0.3 to 0.8 metres) are the wearer's own hands and lower legs, alongside a large open white sack on the right (about 0.5 metres away), a cluster of small white pouches in the center, and green packages to the left (0.6 to 1.2 metres away). A second person in dark clothing is seated or crouched to the upper right at roughly 1.0 to 1.5 metres from the camera wearer, oriented sideways toward the workspace on the left, while a third person is partially visible further away (about 1.5 to 2.0 metres) in the upper left of the later frames. Across the five frames, the camera wearer's head turns from facing forward-right in frame 1 toward the left in frames 2 and 3 as the wearer reaches out to pick up a white pouch and place it into a small white plastic bag, before panning back toward the right in frames 4 and 5. Throughout the sequence, the surrounding people's heads and upper torsos are cropped out of the top and side edges of the frame, so none are seen looking toward the camera wearer, and the large white sack on the right partially occludes the floor behind it."
+ },
+ "duration_seconds": 30.881614,
+ "usage": {
+  "input_tokens": 19559,
+  "output_tokens": 472,
+  "thinking_tokens": 87,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20031
+ },
+ "conversation_id": "8680f326-ec3d-44bc-bfc3-b6a249c4acf4"
+}

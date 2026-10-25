@@ -1,0 +1,18 @@
+{
+ "id": "6e68d2f9-6d37-4317-a3eb-9541321d558e_2271-24",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor rock climbing gym featuring tall, angled climbing walls on both the left and right sides, a padded blue floor below, and bright skylights along the high ceiling above. In the foreground, roughly 1.5 to 2 metres in front of and slightly to the right of the camera wearer, a person in an olive green shirt, climbing harness, and dark mask stands with hands on their hips, facing and looking directly down toward the camera wearer. The black and yellow climbing wall on the immediate left is within arm's reach (about 0.5 to 1 metre away) of the camera wearer, while a white rope bag and coiled climbing rope on the floor to the right are within arm's reach of the foreground person and partially cut off by the right frame edge. Further back in the corridor, about 8 to 12 metres away and 6 to 10 metres behind the foreground person, another person in a blue top stands near the left wall facing right and looking up the wall, while two other distant people stand near large black containers and numbered white rope buckets (1, 2, 3) in the center background. In frames 1 and 5, the foreground person's lower legs are partly out of view below the bottom edge of the frame, and the person partially occludes the base of the right climbing wall and a rope bucket immediately behind their left leg. Across the five frames, the people and objects remain stationary in the room while the camera wearer's viewpoint tilts downward from frame 1 to frame 2 to reveal the floor and the foreground person's feet, stays level through frame 4, and tilts upward again in frame 5."
+ },
+ "duration_seconds": 19.945493,
+ "usage": {
+  "input_tokens": 19627,
+  "output_tokens": 745,
+  "thinking_tokens": 320,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20372
+ },
+ "conversation_id": "b5841d43-2b75-44ba-9b95-13ade9224c93"
+}

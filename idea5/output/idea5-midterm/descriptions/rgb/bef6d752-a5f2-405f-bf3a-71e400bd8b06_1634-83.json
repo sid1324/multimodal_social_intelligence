@@ -1,0 +1,12 @@
+{
+ "id": "bef6d752-a5f2-405f-bf3a-71e400bd8b06_1634-83",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Frame 1 shows a narrow equipment room or workshop, with shelving and hanging gear close along the left side, a work surface and wall-mounted equipment ahead, and parts of the scene blurred or cropped at both edges; no other person is clearly visible. In frames 2\u20133, the camera wearer turns right and downward toward the central floor area, where dark bags or equipment lie about 0.5\u20131.5 m ahead and the wearer\u2019s hand reaches toward a black-and-red object within arm\u2019s reach; cabinets, benches, and equipment line the surrounding walls. By frame 4, an adult stands roughly 1\u20131.5 m in front and slightly right of the camera wearer, beside a blue chair and a white table, facing mostly left across the room with their head partly turned toward the camera. In frame 5, the same person is closer, about 0.5\u20131 m away and nearly centered, facing the camera wearer more directly; the camera wearer\u2019s hand and forearm appear at the lower right within possible arm\u2019s reach of the person. The person partly occludes the table and wall equipment behind them, while tall shelving and hanging equipment remain along the rear and right walls, and the sequence overall shows the camera turning right and approaching the person."
+ },
+ "duration_seconds": 10.0,
+ "usage": null,
+ "conversation_id": null
+}

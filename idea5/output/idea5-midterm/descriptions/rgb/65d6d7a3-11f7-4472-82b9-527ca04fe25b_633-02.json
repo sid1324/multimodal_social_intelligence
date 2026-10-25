@@ -1,0 +1,18 @@
+{
+ "id": "65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a spacious indoor studio where the camera wearer is seated on the right end of a couch, with two people sitting immediately to the left along the same seating area\u2014one in a green shirt and mask about 0.3 m away within arm's reach, and another in a white shirt and black shorts about 0.8 m away\u2014both facing diagonally forward-right into the room and away from the camera wearer. Directly in front of them at roughly 1.0 to 1.5 m is a low white coffee table holding a tissue box and a small potted plant, and just beyond the table's far end, about 2.3 m ahead-left of the camera wearer and 1.5 m from the person in the white shirt, a man in a black shirt and jeans sits in an armchair facing forward-right with a phone within arm's reach on his left armrest. Behind the seated man at roughly 2.5 to 4.5 m are a potted palm, a curved pop-up backdrop on the left, two white garment frames, and a upright garment steamer, which partially occlude the vanity counter behind them. Deeper in the room at about 5 to 6 m ahead, a woman in a blue top sits in a salon chair facing a mirror while a person in black stands within 0.5 m behind her within arm's reach of her hair, flanked by studio lights and backdrops at 6 to 7 m and a white folding screen closer on the right at about 3 m. Across the five frames, the camera rotates clockwise to level the horizon and pans slightly rightward, progressively moving the heads and upper bodies of the two people on the immediate left out of the left edge of the frame until only their lower bodies and arms are visible, while bringing more of the right-side folding screen into view as the man in the armchair tilts his head slightly upward in the final frame without looking at the camera wearer."
+ },
+ "duration_seconds": 23.889794,
+ "usage": {
+  "input_tokens": 19634,
+  "output_tokens": 1231,
+  "thinking_tokens": 751,
+  "cache_read_tokens": 14215,
+  "total_tokens": 20865
+ },
+ "conversation_id": "58b97e60-80a0-487d-90a7-9b2e9c4c1903"
+}

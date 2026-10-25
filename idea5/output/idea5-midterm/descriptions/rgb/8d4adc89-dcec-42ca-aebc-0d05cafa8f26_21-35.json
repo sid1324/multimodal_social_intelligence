@@ -1,0 +1,12 @@
+{
+ "id": "8d4adc89-dcec-42ca-aebc-0d05cafa8f26_21-35",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a small room with a dark back wall, an air conditioner mounted high on that wall, bright windows to the right, plants beneath the windows, and a desk or table with a monitor at the front-right. One person stands near the back wall roughly 2\u20133 m in front of the camera wearer, below the air conditioner and left of the windows; the person faces generally toward the camera and appears to look toward it in several frames. The person is not within the camera wearer's arm's reach, while the wall and air conditioner are within about 1 m of the person and the nearby plants and desk are roughly 1\u20132 m to the person's right. Across the first three frames, the camera turns and tilts rightward and downward, moving the person from near center to the upper-left edge and then mostly out of view while the floor and right-side desk area occupy more of the image. In the fourth and fifth frames, the camera turns back toward the person and appears to move closer, enlarging the person from a full upper-body view at about 2 m to a partly occluded head-and-shoulders view near the lower center at roughly 1\u20131.5 m; the bed or another foreground surface blocks the person's lower body in the final frame, and room edges remain partly out of view throughout."
+ },
+ "duration_seconds": 9.9,
+ "usage": null,
+ "conversation_id": null
+}

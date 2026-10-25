@@ -1,0 +1,18 @@
+{
+ "id": "67b78a5b-ab72-4483-95c4-33e837013e93_2874-42",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open outdoor dirt and gravel area bordered on the left by a low light-colored wall and trees about 8 to 15 metres away, and on the right by a winding concrete path 2 to 5 metres away with white residential buildings beyond it. Directly in front of the camera wearer stands a person in a yellow shirt and dark helmet straddling a black bicycle, initially about 3.5 metres away in the first frame. Across the five frames, the camera wearer approaches this person, decreasing the separation to roughly 2.5 metres in frame two, 1.8 metres in frame three, 1.5 metres in frame four, and about 1 metre in frame five. The person on the bicycle is positioned in a right-side profile relative to the camera wearer, with the bicycle pointing forward and to the right, while turning their head and extending their right arm toward the camera wearer from frame two onward before raising their hands near their face in frame five. The bicycle remains directly beneath and within arm's reach of the standing person throughout, and by the final frame, the person and the front handlebars are within or just at arm's reach of the camera wearer, whose own hand holding a white plastic bag enters the bottom center of the view. The standing person's body partially occludes the central frame and left side of the bicycle, while the lower portion of the bicycle wheels and the person's legs are progressively cut off by the bottom edge of the frame as the camera wearer gets closer."
+ },
+ "duration_seconds": 12.014477,
+ "usage": {
+  "input_tokens": 5341,
+  "output_tokens": 442,
+  "thinking_tokens": 56,
+  "cache_read_tokens": 28415,
+  "total_tokens": 5783
+ },
+ "conversation_id": "99eb361a-e6d4-4e2c-abd7-65cf528e6608"
+}

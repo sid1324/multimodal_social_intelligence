@@ -1,0 +1,18 @@
+{
+ "id": "71d5f5dc-fff6-4352-b37c-a8e1ed3b39bd_541-68",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first four frames, the camera wearer stands facing downward toward a rectangular ironing table covered in a green and purple floral cloth about 0.4 to 0.6 metres in front of and below the camera, with stacked clothes partially visible to the left in the first frame. A folded light-colored patterned garment lies horizontally across the center of the table within arm's reach, and a white-and-purple electric iron sits upright on the right side of the table about 0.5 to 0.7 metres from the wearer in the second frame. Across frames one to four, the wearer adjusts the garment with both hands and then holds its left end with the left hand while grasping the iron with the right hand, sliding the iron from the center toward the right end of the garment. In the fifth frame, the camera wearer turns rightward away from the ironing table\u2014leaving only a corner of the table and a nearby chair frame partially visible at the bottom right about 0.5 to 1.2 metres away\u2014to face an open tiled floor space. At the top left of the fifth frame, a second person sits about 1.5 to 2.0 metres in front of and slightly to the left of the camera wearer on a low wooden structure beside dark cabinets roughly 2.0 to 2.5 metres away, with their body oriented toward the wearer, their hands holding a small dark object within their own arm's reach, and their head and upper chest cropped out by the top edge of the frame."
+ },
+ "duration_seconds": 18.534213,
+ "usage": {
+  "input_tokens": 19570,
+  "output_tokens": 854,
+  "thinking_tokens": 465,
+  "cache_read_tokens": 14210,
+  "total_tokens": 20424
+ },
+ "conversation_id": "f30b0589-3496-4e64-b3c6-158bf2d1e94d"
+}

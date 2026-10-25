@@ -1,0 +1,4 @@
+n_people {1: 332, 3: 150, 2: 234, 0: 84}
+nearest_dist {'near': 240, 'far': 239, 'mid': 237, 'none': 84}
+facing {'none': 270, 'away': 383, 'toward': 147}
+hands {0: 392, 1: 408}

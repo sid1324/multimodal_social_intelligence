@@ -1,0 +1,18 @@
+{
+ "id": "8ea5ddc3-ae53-4cff-b457-ba425c6bec97_5750-66",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor dining area with parallel rows of red picnic-style tables and attached benches over a tiled floor, viewed from above as the standing camera wearer looks downward. Immediately in front of and below the camera wearer (within 0.5 to 1.5 metres and within arm's reach) is a red table with a small white cup and a white shaker on its surface, while another table row sits 1.5 to 2.5 metres to the left in frames 1\u20132 and a further red table row is 2 to 3 metres ahead in frames 3\u20135. Across frames 1 and 2, a person in a black jacket, white cap, and striped scarf steps over the right bench to sit at the near table about 1 metre away, alongside a seated person in a dark blue shirt to their left (1.2 to 1.5 metres away), with both upper bodies partly cropped by the top and right frame edges and both touching the tabletop within their arm's reach. In frames 3 and 4, the camera wearer turns clockwise and looks rightward toward the aisle at the end of the table, bringing into view a person in a white-and-black top at the bottom right (about 0.8 to 1.2 metres away, reaching out to touch the table corner) and a standing person in a blue-and-white striped shirt and ripped jeans about 1.8 to 2.5 metres away who faces the table row, while background pedestrians stand 2.5 to 4 metres away near the adjacent table. By frame 5, the camera wearer pans slightly back to the left so the red table spans the lower foreground within arm's reach, showing the seated person in the dark blue shirt on the left (1.2 metres away, facing toward the camera wearer's direction) beside the seated person in the black jacket and cap (1 metre away, facing down toward the table), while the person in the striped shirt turns away on the right about 1.8 metres off and the person at the bottom right is mostly occluded by the lower frame boundary."
+ },
+ "duration_seconds": 15.994429,
+ "usage": {
+  "input_tokens": 19619,
+  "output_tokens": 733,
+  "thinking_tokens": 216,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20352
+ },
+ "conversation_id": "dc990160-22bc-4ed0-94ba-9aa21d2e5091"
+}

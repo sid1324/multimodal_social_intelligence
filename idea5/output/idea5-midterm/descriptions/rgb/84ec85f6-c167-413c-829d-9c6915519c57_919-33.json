@@ -1,0 +1,18 @@
+{
+ "id": "84ec85f6-c167-413c-829d-9c6915519c57_919-33",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow outdoor construction trench about 0.8 to 1.0 metres wide, bounded on the left by a low cinder-block wall with a large green plant leaf overhanging it and on the right by a curved stone or concrete structure topped with green netting. In the first two frames, the camera wearer stands facing down and forward along the low wall, holding a trowel in their right hand within arm's reach (about 0.4 metres away) above the blocks, while the large leaf in the upper left partially occludes the wall and ground below. Another person wearing a blue-and-white striped shirt and jeans stands about 1.2 to 1.5 metres ahead and to the upper right in the narrow passage, bent over and facing left toward the block wall with their head and upper torso partly cut off by the top frame edge, working with a trowel within their own arm's reach and never looking toward the camera wearer. A stack of grey cinder blocks sits on the ground to the lower right of the camera wearer (about 0.6 metres away), and a second stack with a dark pan on top rests about 1.5 metres ahead against the right-hand curved wall, right behind the other person's legs. Across frames 3 to 5, the camera wearer turns their viewpoint to the right and approaches forward along the passage toward the other person, causing the large leaf on the left to exit the view while bringing the curved right wall and block stacks closer. By the fifth frame, the camera wearer is immediately behind the bent-over person at less than 0.4 metres distance, with the person's striped back filling the left side of the view and the camera wearer's extended right hand positioned directly above and touching or nearly touching the person's right shoulder."
+ },
+ "duration_seconds": 14.987326,
+ "usage": {
+  "input_tokens": 19504,
+  "output_tokens": 452,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14205,
+  "total_tokens": 19956
+ },
+ "conversation_id": "96d50c39-7cf5-4311-aecc-3e030a5f2d7e"
+}

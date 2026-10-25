@@ -1,0 +1,18 @@
+{
+ "id": "23ac2590-b25f-4718-8c9b-89d32eb992b2_641-98",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a wide, open grassy park field under a blue sky with a distant tree line and city skyline hundreds of metres away along the horizon. In the first three frames, a person in a white top and dark pants stands on the grass roughly 20 to 30 metres in front and slightly to the left of the camera wearer, facing and looking toward the camera wearer while holding a white flying disc within their arm's reach. Another person in a blue top stands about 15 to 20 metres further behind and to the right of the first person (roughly 40 metres from the camera wearer), with a third distant figure further to the right; nothing is within the camera wearer's arm's reach initially. Across the first three frames, the camera wearer pitches their head upward and tilts the view, causing the person in the white top to become partially cut off at the bottom edge of frame 3 after releasing the disc. In frame 4, the camera points steeply upward into the sky, completely leaving the field and people below the frame while the white flying disc is visible above and in front of the camera wearer at roughly 1 to 2 metres distance, approaching within or near arm's reach. By frame 5, the camera pitches back down and pans slightly right toward the field, positioning the person in the white top at the far left edge of the frame and shifting more of the open grass and distant skyline into view."
+ },
+ "duration_seconds": 13.35596,
+ "usage": {
+  "input_tokens": 5359,
+  "output_tokens": 374,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28421,
+  "total_tokens": 5733
+ },
+ "conversation_id": "35c66c13-6054-4304-a4fd-d78a1cc5e193"
+}

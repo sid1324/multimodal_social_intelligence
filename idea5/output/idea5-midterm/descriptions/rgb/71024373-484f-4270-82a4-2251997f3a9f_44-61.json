@@ -1,0 +1,18 @@
+{
+ "id": "71024373-484f-4270-82a4-2251997f3a9f_44-61",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor industrial or mining area with a sandy ground, sloped terrain in the background (10 to 50 metres away), and a row of metal electrical cabinets directly ahead and to the left within 0.5 to 3 metres of the camera wearer. In frames 1 and 2, the camera wearer faces a metal cabinet about 0.5 to 0.8 metres in front of them, holding a yellow-handled tool with their right hand at chest height while two white hard hats and a walkie-talkie sit below on a lower surface within arm's reach, and a man in a hard hat and reflective vest stands 0.6 to 0.8 metres to the left, partially cropped by the left frame edge and facing right toward the cabinet and camera wearer's hand. Both the foreground cabinet and the man are within arm's reach of each other and of the camera wearer, while the cabinets further back in the row are partially occluded behind the closer ones. In frame 3, the camera wearer turns and tilts their head left and slightly downward, bringing the man fully into the centre-left of the view at about 0.8 metres distance as he faces toward the camera wearer and looks down toward his own hands, while the foreground cabinet shifts to the right edge and is largely out of view. Across frames 4 and 5, the camera wearer pitches their view sharply downward and further left toward the ground, shifting the man to the far right edge of the frame (0.5 to 0.7 metres away, with his head and left side cropped out of view) as he reaches down near the camera wearer's lower right. This downward view reveals black cables and an open metal toolbox resting on the ground about 1.5 to 2 metres ahead and slightly left of the camera wearer, roughly 1 to 1.5 metres to the left of the man's feet."
+ },
+ "duration_seconds": 18.101074,
+ "usage": {
+  "input_tokens": 19568,
+  "output_tokens": 565,
+  "thinking_tokens": 91,
+  "cache_read_tokens": 14210,
+  "total_tokens": 20133
+ },
+ "conversation_id": "af9c6051-9146-491e-a6a3-d7a7c5739472"
+}

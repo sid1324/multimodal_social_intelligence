@@ -1,0 +1,12 @@
+{
+ "id": "0b38da1c-2b62-4c05-a68e-e8f2aafa47a8_1227-10",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a narrow interior hallway or small room under renovation, with an open doorway directly ahead leading into a brighter room; stripped wooden flooring runs through the doorway, and walls and door panels tightly border the path on both sides. Across frames 1\u20133, the doorway is roughly 0.5\u20131.5 m ahead, while a small pile of items near the right doorjamb and a dark tool or object near the left edge of the floor are about 1\u20132 m from the camera wearer and within a few tenths of a metre of the doorway. The camera wearer advances toward and through the doorway while turning progressively to the right, bringing the right wall and doorframe within arm's reach and shifting the original hallway and floor area toward the left and then partly behind the viewpoint. In frames 4\u20135, a second adult appears about 1\u20132 m away in the brighter room, positioned ahead and then at the far right edge; the person faces mostly leftward across the room rather than directly toward the camera wearer, and their upper body becomes partly cropped by the top and right image boundaries. Red equipment or stacked objects stand behind and to the person's right, roughly 0.5\u20131 m from them, while the near wall intermittently occludes parts of the adjacent room as the camera wearer turns."
+ },
+ "duration_seconds": 11.8,
+ "usage": null,
+ "conversation_id": null
+}

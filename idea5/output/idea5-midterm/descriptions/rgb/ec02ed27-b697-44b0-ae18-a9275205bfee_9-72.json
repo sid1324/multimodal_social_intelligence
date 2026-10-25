@@ -1,0 +1,18 @@
+{
+ "id": "ec02ed27-b697-44b0-ae18-a9275205bfee_9-72",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor concrete walkway bordered by sand and a raised dirt bank, viewed initially from a steep downward angle directly above the ground. Directly in front of and below the camera wearer, at a distance of roughly 0.5 to 1.0 metres and within arm's reach, a small child sits in a blue stroller facing forward away from the camera wearer without looking back, holding a small green container in their lap within their own reach. A pink cloth item hangs from the right handle of the stroller about 0.3 metres behind the child, while the camera wearer's black shirt, shorts, and sandals are partially visible at the bottom left of the first two frames directly behind the stroller. In the second frame, the camera wearer's right hand briefly enters the lower-right foreground about 0.3 to 0.5 metres from the lens before dropping out of view. Across the five frames, as the camera wearer walks forward along the path and pitches their head progressively upward, the camera wearer's body and the rear of the stroller pass below the bottom edge of the frame until only the front footrest and the child's legs remain partially visible at the bottom. By the fourth and fifth frames, the raised view reveals the curving concrete walkway extending several metres ahead, flanked by a dirt slope 1.5 to 4 metres to the right and sandy ground with a metal post and barrier 3 to 6 metres ahead on the left."
+ },
+ "duration_seconds": 18.897828,
+ "usage": {
+  "input_tokens": 19557,
+  "output_tokens": 999,
+  "thinking_tokens": 626,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20556
+ },
+ "conversation_id": "140b46bf-d77b-4c18-a007-aee586cdbfb5"
+}

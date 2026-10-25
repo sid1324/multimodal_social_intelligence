@@ -1,0 +1,12 @@
+{
+ "id": "d3980f7e-2ef1-4b2b-b73a-2a7db7465660_452-63",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show a compact gym area viewed downward from head height, with a black floor, dumbbell rack along the left side, a gray padded exercise bench or machine near the center, and yellow wall panels ahead. An adult in a blue shirt remains about 0.7\u20131.5 m in front of the camera wearer, generally facing left or away rather than looking toward the camera; the person stands beside the equipment and is within arm\u2019s reach of its handle. A small yellow stool or stand is roughly 1\u20132 m ahead-left of the wearer and about 1 m from the blue-shirted person, while the dumbbells are approximately 1\u20132 m to the left of the central bench. Across the sequence, the camera wearer shifts and turns rightward around the central equipment, causing the blue-shirted person to move from upper center-right toward the left edge and then partly out of view, while the bench shifts from center-right to center-left. The wearer\u2019s shoes briefly appear at the bottom edge in the middle frame, and both forearms and hands enter very close to the camera in the final frame, partly occluding the right foreground; several gym structures remain cropped by the top and side edges throughout."
+ },
+ "duration_seconds": 11.1,
+ "usage": null,
+ "conversation_id": null
+}

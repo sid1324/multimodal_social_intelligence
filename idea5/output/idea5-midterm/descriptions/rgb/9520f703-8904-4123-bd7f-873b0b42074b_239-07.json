@@ -1,0 +1,18 @@
+{
+ "id": "9520f703-8904-4123-bd7f-873b0b42074b_239-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor clothing store containing freestanding metal clothing racks in the foreground (0.5 to 1.5 metres away), wall-mounted displays with a full-length mirror on a slatted wall (2.5 to 4 metres away), mannequins in a window display (2 to 3 metres away), and a double glass door along the right wall. In frame 1, the camera wearer faces a clothing rack within arm's reach (about 0.6 to 1 metre ahead) on the left, while two mannequins stand behind the rack at 2 to 3 metres distance and a framed floor sign sits to the right. In frame 2, as the camera wearer turns clockwise toward the right, a woman in red appears at the lower-left edge within 1 metre facing down and away, while two other people stand 1.5 to 2.5 metres to the right behind a second rack of jeans and shirts, partially occluded by the hanging garments and motion blur. By frame 3, the camera wearer faces the slatted back wall about 3 metres away, where a full-length mirror reflects the camera wearer (in a red plaid jacket facing the mirror) alongside the woman in red standing about 1 metre behind them; the jeans rack remains in the lower-right foreground within 1 metre. Across frames 4 and 5, the camera wearer pitches their view downward and continues turning right toward the jeans rack, bringing the hanging denim within 0.5 metres as the wearer's right hand reaches out to grasp a pair of jeans at the bottom right of frame 5. In frame 4, a person in a dark coat is partially visible at the right edge about 1.5 to 2 metres away near the glass doors, and in frame 5, the lower bodies of a mannequin on a round base and a person in dark clothing and blue jeans are visible 1.5 to 2.5 metres ahead beyond the rack, with their upper bodies cropped out of the top of the frame."
+ },
+ "duration_seconds": 14.622242,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 545,
+  "thinking_tokens": 49,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20122
+ },
+ "conversation_id": "a3ed5b90-672f-4d87-9c55-e4b720d84471"
+}

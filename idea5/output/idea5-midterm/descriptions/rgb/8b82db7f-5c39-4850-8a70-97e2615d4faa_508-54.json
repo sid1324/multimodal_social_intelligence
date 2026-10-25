@@ -1,0 +1,12 @@
+{
+ "id": "8b82db7f-5c39-4850-8a70-97e2615d4faa_508-54",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is in a narrow rocky passage, with steep sandstone walls close on both sides and an opening visible above; ropes lie along the rock and ground. In frames 1\u20132, the view is mostly toward the nearby wall and rope, generally within about 0.5\u20132 m, with no other person clearly visible and some equipment cut off by the frame edges. In frame 3, green rope, blue straps, and metal carabiners hang within roughly 0.2\u20130.6 m in front of and above the camera wearer, partly occluding the rock beyond. In frame 4, a person in teal stands below and in front about 3\u20135 m away, facing upward toward the camera wearer, while the surrounding walls are roughly 1\u20133 m to either side. By frame 5, the camera has turned right and closer toward a second person about 1\u20132 m ahead who faces and looks toward the camera wearer; the wearer\u2019s raised arm and hand occupy the near foreground within arm\u2019s reach and partly occlude the upper center, while the teal-clad person remains farther away at the extreme right edge and is partly out of view."
+ },
+ "duration_seconds": 11.2,
+ "usage": null,
+ "conversation_id": null
+}

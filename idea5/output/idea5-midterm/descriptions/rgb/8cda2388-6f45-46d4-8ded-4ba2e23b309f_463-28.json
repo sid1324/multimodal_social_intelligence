@@ -1,0 +1,18 @@
+{
+ "id": "8cda2388-6f45-46d4-8ded-4ba2e23b309f_463-28",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor park with a grassy slope, paved paths, trees, a low curved stone wall, and a roofed stone pavilion in the background about 8 to 15 metres away. In the first frame, a person in a cap and dark top stands directly in front of the camera wearer about 1 to 1.5 metres away facing and looking toward the camera while holding a purple disc raised in their right hand and a small red object in their left hand, while a second person wearing sunglasses stands to the lower left about 1.5 to 2 metres away facing the camera; both people have their lower bodies cropped out of the bottom of the frame. In the second frame, the camera wearer turns left toward the low stone wall (about 1 to 2 metres away on the left) and a parked-car roadway beyond, extending their own gloved left hand about 0.3 to 0.5 metres in front of the lens holding a blue disc within arm's reach, while only the hair edge of a person remains visible at the bottom-right corner. In the third frame, the camera wearer pans right toward the shaded path and grassy hill where the pavilion stands to the left at roughly 10 to 12 metres and a third person stands in tree shadow on the right at roughly 6 to 8 metres. In the fourth frame, the camera turns back toward the pavilion and low stone wall (now on the left at 3 to 8 metres), bringing the person in the cap (1 to 1.5 metres away at bottom-centre, cropped below the chest) and the person in sunglasses (2 to 2.5 metres away to the left, standing about 1 metre from the person in the cap) back into view facing the camera wearer. In the fifth frame, the camera turns further left and tilts slightly down so that a fourth person in a plaid shirt and beanie appears on the far left about 2.5 to 3 metres away facing the camera, the low stone wall and pavilion sit at centre-right (3 to 8 metres away), the person in sunglasses stands on the right at about 2.5 to 3 metres holding a blue disc and looking upward and left, and the person in the cap is mostly cut off at the far right edge holding the purple disc at waist level."
+ },
+ "duration_seconds": 14.967332,
+ "usage": {
+  "input_tokens": 19617,
+  "output_tokens": 686,
+  "thinking_tokens": 127,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20303
+ },
+ "conversation_id": "be7b89fb-a62b-4eda-96bd-93c813f72c19"
+}

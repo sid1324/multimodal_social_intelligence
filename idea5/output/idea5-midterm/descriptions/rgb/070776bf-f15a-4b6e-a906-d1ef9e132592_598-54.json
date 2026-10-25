@@ -1,0 +1,18 @@
+{
+ "id": "070776bf-f15a-4b6e-a906-d1ef9e132592_598-54",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place outdoors on a snow-covered trail bordered by bare trees and brush, with an open snowy field visible beyond the trees in the background. In the first frame, a person wearing a grey, black, and pink jacket and a Santa hat stands about 1.5 metres in front of and slightly to the right of the camera wearer, facing toward the camera wearer, while a blue plastic sled lies on the snow below and to the left at roughly 1.5 metres distance and the edge of a vehicle is partially cut off on the far right. In the second and third frames, the camera wearer turns their viewpoint leftward to face down the open snowy trail flanked by trees several metres ahead, rotating the person, the sled, and the vehicle completely out of view to the right. In the fourth frame, the camera wearer turns back to the right, bringing the person back into view at about 1.8 metres away as they face the camera wearer and look down toward a coiled rope held within their arm's reach, while partially occluding the rear of a black Polaris utility vehicle parked about 2.5 to 3 metres away to the right. By the fifth frame, the distance between the camera wearer and the person decreases to roughly 1.0 to 1.2 metres\u2014within mutual arm's reach\u2014as the camera wearer's yellow-gloved hand enters the lower-right foreground beside the person's outstretched left hand, with the person's lower legs and the right side of the utility vehicle cropped by the bottom and right edges of the frame."
+ },
+ "duration_seconds": 18.390161,
+ "usage": {
+  "input_tokens": 5415,
+  "output_tokens": 940,
+  "thinking_tokens": 542,
+  "cache_read_tokens": 28414,
+  "total_tokens": 6355
+ },
+ "conversation_id": "f997c2c0-8137-477c-90f3-f4997c3c5be0"
+}

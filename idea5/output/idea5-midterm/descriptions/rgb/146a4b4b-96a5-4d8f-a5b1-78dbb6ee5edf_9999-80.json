@@ -1,0 +1,18 @@
+{
+ "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a red-tiled outdoor walkway leading to a glass-fronted shop entrance with an open doorway and dark floor mat on the left, a closed glass door with a horizontal handle and interior display case in the center, and potted bushes flanking the path on both sides. In the first frame, the camera wearer is roughly 3 to 3.5 metres from the entrance, with a person in a dark top, jeans, boots, and backpack standing about 2.5 metres ahead on the left and another person's lower leg partially visible at the bottom-left corner within 1 metre. Across the five frames, the camera wearer walks forward and angles slightly rightward toward the closed glass door, closing the distance to about 1 to 1.5 metres so that the glass door handle and the right-hand potted bush come within or nearly within arm's reach, while the foreground potted bush on the far right passes out of view after the second frame. Simultaneously, the person with the backpack steps rightward in the second frame onto the left edge of the entrance mat, about 1 to 1.5 metres ahead and to the left of the camera wearer, and remains standing there within arm's reach of the left planter and open doorway through the fifth frame. This person faces toward the shop interior and to the right, never looking toward the camera wearer, and is partially cropped by the left frame edge in frames two, three, and five, and mostly out of view except for their lower legs in the fourth frame. Inside the shop, about 2 to 3 metres beyond the entrance threshold, another person's legs and a wooden shelving unit are partially visible but largely occluded by the glass door, an orange door sign, and the display counter."
+ },
+ "duration_seconds": 24.2376,
+ "usage": {
+  "input_tokens": 19573,
+  "output_tokens": 1342,
+  "thinking_tokens": 909,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20915
+ },
+ "conversation_id": "8314b97a-865f-45d1-ac91-8c6bfe257fd5"
+}

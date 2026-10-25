@@ -1,0 +1,18 @@
+{
+ "id": "8d4895eb-b2d1-43b8-90f1-e80fcc37797b_9565-47",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated at a dark circular table in a bright indoor dining area with open patio seating visible in the background, holding a smartphone within 0.3 to 0.4 metres directly in front of them alongside two upright tabletop menu stands that are also within arm's reach. Across the circular table at roughly 1.0 to 1.3 metres sits a person in a black t-shirt facing toward the camera wearer while looking down at a phone held in both hands, with a standing person in a beige shirt directly behind and slightly to the right of them at about 1.5 to 1.8 metres, and another seated person in a long-sleeved black shirt and blue mask to the left at roughly 1.2 to 1.5 metres holding a bag on their lap. To the right of the circular table at an adjacent light-coloured rectangular table about 1.0 to 1.5 metres away, a person in a white t-shirt and black cap sits facing left and downward toward tabletop menus within their reach, while additional companions sit further to the right at 0.8 to 1.5 metres, partly cropped at the right edge in the first four frames. Across the first four frames, the camera wearer's viewpoint remains relatively steady while the person on the left flips their hair from right to left and turns their head to face the camera wearer by the fourth frame. In the fifth frame, the camera wearer pans sharply to the right, moving the left-side companions out of view, shifting the person in the black t-shirt to the far left edge, and bringing the adjacent rectangular table into the center where the person in the white t-shirt now looks toward the camera wearer alongside two companions seated to their left (viewer's right) in an olive jacket and a white shirt at roughly 0.7 to 1.4 metres away."
+ },
+ "duration_seconds": 16.183241,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 530,
+  "thinking_tokens": 66,
+  "cache_read_tokens": 14197,
+  "total_tokens": 20099
+ },
+ "conversation_id": "0df0eaa4-68bf-430f-a3a9-54ff2a1cacd9"
+}

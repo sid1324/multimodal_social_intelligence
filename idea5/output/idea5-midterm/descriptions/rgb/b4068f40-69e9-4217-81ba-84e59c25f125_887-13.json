@@ -1,0 +1,18 @@
+{
+ "id": "b4068f40-69e9-4217-81ba-84e59c25f125_887-13",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a high-ceilinged indoor utility and storage room with hanging fluorescent lights above, an open doorway and ascending staircase along the wall ahead, wire shelving units with bundled gear immediately beside the camera wearer, and a sink and commercial laundry machines along the opposite wall. In Frame 1, the camera wearer looks upward and extends their left arm within 0.5 metres in front of them to point toward the upper loft and hanging bags on the left, while the top of another person's head is barely visible at the bottom-right corner. Across Frames 2 and 3, the camera pitches downward and pans slightly right, revealing a person in a denim jacket standing about 2.5 to 3 metres ahead in front of the open doorway, facing left toward the camera wearer and holding a bottle within their own arm's reach, with blue rolling bins and piles of bags on the floor to their left (about 2 to 4 metres from the camera wearer) and a wire shelving rack within 0.5 to 1 metre on the far right. In Frame 4, the camera wearer turns rapidly to the right, causing heavy motion blur as the close wire shelving rack passes directly in front of the lens within 0.5 metres and occludes the background while the person in the denim jacket exits the left edge of the frame. By Frame 5, the camera wearer faces a new direction where the wire shelving rack sits within arm's reach (under 1 metre) on the left, a dog stands on the floor about 2.5 to 3 metres ahead facing left, and a second person stands about 4.5 to 5 metres away at a sink behind the dog with their back turned; the camera wearer's right arm extends into the lower-right foreground pointing toward the dog and sink area, with laundry machines and stacked bins situated 4 to 6 metres away on the right."
+ },
+ "duration_seconds": 14.863565,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 517,
+  "thinking_tokens": 43,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20086
+ },
+ "conversation_id": "aadbfb1b-7971-4566-9835-e55566f689d7"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "02ca6897-bf08-4cfb-bbc7-7810dbf5cca2_2974-75",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a wide, two-lane paved residential street with a curbed sidewalk, lampposts, and a light-colored wall 1 to 4 metres to the right of the camera wearer, a grassy park strip 7 to 15 metres to the left across the opposite lane, a painted crosswalk ahead, and two-story houses 25 to 50 metres in the background. On the far-left curb and sidewalk, two people walk side by side about 0.5 to 1 metre apart with two brown dogs on leashes positioned 1 to 1.5 metres in front of them and below waist height, while a white SUV sits parked near a house 25 to 40 metres ahead and a playground appears 15 to 20 metres to the left in the final frame. Across the five frames, the camera wearer moves forward along the right side of the road while the two pedestrians and dogs walk in the opposite direction along the left curb, closing the distance between them and the camera wearer from roughly 35\u201340 metres in the first frame to about 25 metres, 16 metres, 11 metres, and finally 8 metres to the front-left in the fifth frame. Both walkers and their dogs face forward along their path toward the front-left of the frame and look ahead rather than toward the camera wearer, with thecamera wearer panning slightly leftward by the last frame as passing the crosswalk. Nothing is within arm's reach of the camera wearer in the open roadway, whereas the leashes are held within arm's reach of the walkers. The walker and dog closer to the roadway partially occlude the second walker and second dog beside them, while the right-side wall, trees, and lampposts progressively exit the right edge of the field of view as the camera wearer advances."
+ },
+ "duration_seconds": 19.3693,
+ "usage": {
+  "input_tokens": 19555,
+  "output_tokens": 1135,
+  "thinking_tokens": 682,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20690
+ },
+ "conversation_id": "6b21aa35-2a8b-4449-a4dd-cddcba13334e"
+}

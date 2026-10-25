@@ -1,0 +1,18 @@
+{
+ "id": "a3c41b4b-6dc7-4e69-b04b-ca30b4f1c185_1014-12",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living room featuring a glossy white coffee table positioned directly in front of and below the camera wearer at approximately 0.4 to 1.2 metres, with a white tiered shelving unit and television stand against the windowed wall behind it at roughly 2.5 to 3.5 metres. No other people are present in the room, and only a sliver of the camera wearer's hand holding fanned playing cards is visible at the bottom-left edge in the fourth frame at about 0.3 metres distance. Several tabletop objects lie within the camera wearer's arm's reach between 0.4 and 1.0 metres away, spaced 0.05 to 0.6 metres apart: a teal mug on the far left, a black remote control beside a white game controller left of center, a yellow-bordered magazine right of center, a second teal mug on the far right, and a rear cluster consisting of a purple vase with yellow floral stems beside a purple candle in front of stacked magazines. Behind the table, the shelving unit holds a white console on its left tier, a potted plant in the center, books and boxes inside the lower cubbies, and a black flat-screen television on the right next to a standing vacuum cleaner. Across the five frames, the camera wearer stays in place while pitching their head upward in the third frame\u2014bringing the television, plant, and window into view while cropping out the left mug, playing cards, and lower magazine edge\u2014then pitches back down in the fourth frame to reveal the cards and table surface before tilting slightly upward again in the fifth frame."
+ },
+ "duration_seconds": 22.848576,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 1357,
+  "thinking_tokens": 950,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20937
+ },
+ "conversation_id": "d7499c3b-12c7-4958-a735-fc2d8a0f0c61"
+}

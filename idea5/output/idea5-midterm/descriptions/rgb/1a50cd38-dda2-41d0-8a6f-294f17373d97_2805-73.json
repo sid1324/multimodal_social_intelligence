@@ -1,0 +1,12 @@
+{
+ "id": "1a50cd38-dda2-41d0-8a6f-294f17373d97_2805-73",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a large indoor construction area centered on a deep rectangular excavation, whose near rim stays about 0.5\u20131 m in front of the camera wearer; exposed vertical rebar rises inside it, and a ladder descends at the far edge roughly 3\u20135 m away. In frame 1, two men stand close on the left and front-left, about 1\u20132 m from the wearer and roughly 1 m from each other; both face toward the excavation rather than directly toward the wearer, while two other men stand across the pit about 5\u20138 m away, one near center-left in yellow and one farther right in dark clothing. A third nearby man in gray appears at front-right in frames 1\u20132, approximately 1 m away and within the wearer's arm's reach, facing left and downward toward the pit; his body partly blocks the near-right rim before he moves out of view. Across frames 2\u20135, the camera turns and shifts rightward along the near edge, causing all nearby people to leave the frame and moving the two distant men from near center toward the far left and then completely out of view. The later frames reveal more of the excavation's right side, including cables on the floor, a pale bucket or container near the far rim, a small cylindrical object on the near-right ledge within about 1 m of the wearer, and additional rebar below; the pit interior remains heavily shadowed and its bottom is partly occluded by the rim."
+ },
+ "duration_seconds": 11.6,
+ "usage": null,
+ "conversation_id": null
+}

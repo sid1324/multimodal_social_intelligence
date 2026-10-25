@@ -1,0 +1,12 @@
+{
+ "id": "64ec6de1-0e86-49de-889c-4a0fdcba6658_808-22",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is at a shop counter, with the counter and display cases roughly 0.5\u20131.5 m ahead and overhead lights several metres above. In the first frame, a man is very close at the lower-left foreground (about 0.5 m), while two women stand behind the counter about 1.5\u20132.5 m away; one is near the center-left facing the camera and the other is near the center-right, also looking toward it. In the middle frames, the viewpoint turns right: a seated or lower-positioned person appears partly occluded near the lower center about 1\u20131.5 m away, and a man in a red shirt stands behind the counter about 1 m ahead, with another display case and a red basket behind him. In the fourth frame, the camera is close to the counter, placing the red basket and countertop within roughly an arm's reach, while the red-shirted man is partly cropped at the left and another person passes very close across the right foreground, heavily occluding that side. By the fifth frame, the camera has turned farther right and moved close to the red-shirted man, whose upper body fills much of the center-right at less than 1 m; the earlier two women are now out of view, and the display case remains partly visible at the far right."
+ },
+ "duration_seconds": 11.3,
+ "usage": null,
+ "conversation_id": null
+}

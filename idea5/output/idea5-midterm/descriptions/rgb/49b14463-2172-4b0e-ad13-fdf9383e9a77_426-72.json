@@ -1,0 +1,18 @@
+{
+ "id": "49b14463-2172-4b0e-ad13-fdf9383e9a77_426-72",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor residential dining area connected to a kitchen ahead through an open doorway and a living room to the right through a wide archway. In frames 1, 2, and 5, the camera wearer is positioned directly in front of a wooden dining table within arm's reach (about 0.3 to 0.8 metres away), which holds a harness or strap on the near left, a smartphone held near the bottom edge, two bowls of salad, a lit candle in a glass cylinder on the right, and a checkered placemat with a chair tucked into the far side about 1.2 metres away. To the left at roughly 1.5 to 2.5 metres is a light-colored hutch cabinet with a hanging apron beside the doorway, while through the doorway about 4 to 5 metres ahead in the kitchen, a person stands near a sink and window facing away from the camera wearer and partially occluded by the doorframe. In frame 3, the camera wearer turns rapidly to the right and tilts upward, causing heavy motion blur across the tabletop and wall. By frame 4, the viewpoint faces the adjoining living room to the right, revealing a wall-mounted rack, framed picture, and dark desk about 2.5 to 3.5 metres away on the left, and a living area 5 to 7 metres away containing two tall bookshelves flanking a curtained window, yellow armchairs, a ceiling fan above, and a dark sofa on the right, before turning back to the original dining table view in frame 5."
+ },
+ "duration_seconds": 12.860167,
+ "usage": {
+  "input_tokens": 19554,
+  "output_tokens": 400,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14196,
+  "total_tokens": 19954
+ },
+ "conversation_id": "be23f659-890e-4fed-aaa4-91cb4bcc4aa2"
+}

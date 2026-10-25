@@ -1,0 +1,18 @@
+{
+ "id": "381c4c64-a697-42ab-90ab-a515740bf484_1318-72",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail or cafe counter area where a bearded man in a grey zippered hoodie stands directly in front of the camera wearer at a distance of roughly 0.8 to 1.0 metres across a counter. In the foreground on the left, within arm's reach (about 0.4 to 0.7 metres) of both the camera wearer and the man, are a black cash register and a brown paper bag on the counter, which are partially cropped by the bottom and left frame edges. To the right of the man, roughly 1.2 to 1.8 metres from the camera wearer and about 0.8 metres from the man, sits a lit glass display case on a wooden stand, with a yellow wet-floor sign positioned on the floor in the gap between the man and the stand, and a white wall with a window frame behind him. Throughout the sequence, the man's lower body is occluded by the counter and the lower frame boundary, and in the final two frames the camera pans slightly right and tilts slightly down, moving the paper bag out of view on the left while cutting off the top of the man's head and revealing a dark object on the far right counter. Across the first four frames, the man faces the camera wearer with his head tilted downward looking at the register and the banknotes in his hands\u2014reaching into the register with his right hand in frames 1 and 3 while holding bills in his left, and bringing both hands together in frames 2 and 4. In the fifth frame, the man extends his left hand forward to about 0.4 metres from the camera wearer to meet the camera wearer's rising left hand over the counter, while his head remains oriented forward without looking directly into the camera lens."
+ },
+ "duration_seconds": 12.54268,
+ "usage": {
+  "input_tokens": 19560,
+  "output_tokens": 440,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20000
+ },
+ "conversation_id": "a201be95-a9d7-4b87-b6e9-115557eb76dd"
+}

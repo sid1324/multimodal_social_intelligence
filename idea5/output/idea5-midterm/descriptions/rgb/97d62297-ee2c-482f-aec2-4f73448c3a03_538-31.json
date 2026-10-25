@@ -1,0 +1,18 @@
+{
+ "id": "97d62297-ee2c-482f-aec2-4f73448c3a03_538-31",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer sits indoors in front of a small wooden table about 0.3 to 0.7 metres away and below eye level, with an open notebook and a yellow-capped pen resting on the tabletop within arm's reach of the wearer's two visible hands. Directly ahead in the room, an empty wooden armchair with a white cloth over its backrest stands about 2.0 to 2.5 metres in front of the wearer, facing left toward a small side table with a metal cup about 0.2 metres to its left and a pink-covered bed about 1.5 to 3.0 metres away on the left side of the room. Behind the armchair and side table, a larger dark wooden desk sits against the back wall roughly 3.5 to 4.0 metres from the camera wearer, while a green wall and a curtained doorway border the right side of the room about 2.0 to 3.5 metres away. The bed on the left and the top of the far desk are partly cropped by the left and upper frame edges across all five frames, and the front edge of the wearer's table partially occludes a patterned floor mat directly beneath and behind it. In frame 3, a person wearing red clothing enters the upper-right background about 3.0 to 3.5 metres away, with their head cropped out of the top of the frame so their gaze is not visible, and walks leftward behind the armchair in frames 4 and 5 where their lower body is largely occluded by the chair and desk. Meanwhile, the camera wearer's viewpoint remains stationary while their right hand shifts slightly rightward across the notebook in frames 3 and 4 before returning toward the center of the page in frame 5."
+ },
+ "duration_seconds": 13.572586,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 535,
+  "thinking_tokens": 97,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20096
+ },
+ "conversation_id": "41ec1f1c-3dc3-4867-9d30-3de2577e29bf"
+}

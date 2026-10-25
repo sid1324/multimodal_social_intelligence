@@ -1,7 +1,10 @@
-# Idea 5: explicit geometry for social-norm reasoning (Analysis 3)
+# Idea 5: explicit geometry for social-norm reasoning
 
-Everything behind Analysis 3 of the second project assignment: the code, the raw model answers, the scored
-results, the report sources, and the exploratory work that came before the final experiment.
+Everything behind Idea 5: Analysis 3 of the second project assignment (4 October 2026) and the midterm report
+(25 October 2026, see "Midterm report" at the end). That covers the code, the raw model answers, the scored
+results, the report sources, and the exploratory work that came before each experiment.
+
+# Analysis 3 (second assignment)
 
 The question: before training anything, does a frozen vision-language model get anything out of explicit
 geometry (depth and segmentation maps) beyond the RGB frames those maps are derived from?
@@ -100,3 +103,54 @@ Model answers are not deterministic for the API models, so a rerun will not matc
   verification was started and stopped before it finished.
 - AI use is described in the report's disclosure section. The code, runs and drafts here were produced with
   OpenAI Codex and Claude Code under the direction of Shiv Gupta.
+
+# Midterm report
+
+The question: does adding explicit spatial input (depth, segmentation and pose maps) or training on spatial tasks
+improve social-norm reasoning on EgoNormia beyond matched non-spatial controls? Everything is under
+`output/idea5-midterm/` and the `midterm_*`, `lora_pilot/`, `emb_ft/`, `rl_pilot/`, `lit_scaling_analysis.py` and
+`frontier_spatial_social.py` scripts. Test set: the 200 verified items; 600 items from disjoint videos for training
+and cross-validation (`splits.json`). Metric: joint accuracy (action and justification both correct).
+
+## Result
+
+No spatial intervention beat its matched control. Pooling ten spatial-specific contrasts gives +0.2 pp
+(95% CI -1.7 to +2.1).
+
+| Contrast | Change (pp, 95% CI) |
+|---|---|
+| Embedding scorer, correct vs mismatched maps (C5 - X1, CV) | +1.3 [-0.9, +3.4] |
+| Direct answering, correct vs mismatched maps (3 models pooled) | -0.7 [-3.2, +1.8] |
+| Text only, true vs spatially reversed descriptions | +3.5 [+0.9, +6.0] |
+| SAT spatial LoRA vs VQAv2 control LoRA (Qwen3-VL-8B) | -6.5 [-12.0, -1.0] |
+| SpatialLadder-3B vs Qwen2.5-VL-3B | -12.0 [-19.5, -4.5] |
+| SAT LoRA + maps vs base on RGB | -9.8 [-16.5, -3.2] |
+
+The report section is `output/idea5-midterm/report/idea5_section_final.tex`, with figures `forest_compact.pdf` and
+`frontier_spatial_social.pdf`. The RL (GRPO) pilot under `rl_pilot/` and the embedding fine-tune under `emb_ft/`
+are included but not reported.
+
+## Layout
+
+| Path | What it is |
+|---|---|
+| `output/idea5-midterm/PLAN.md` | Experiment plan and the decisions taken along the way |
+| `scripts/midterm_splits.py`, `midterm_prepare_maps.py`, `midterm_prepare_pose.py`, `midterm_spatial_labels.py` | Splits, depth/segmentation/pose maps, the four spatial probe labels |
+| `scripts/midterm_describe.py`, `midterm_flip_desc.py` | Question-blind map descriptions (Gemini 4); reworded and spatially reversed copies (`descriptions*/`) |
+| `scripts/midterm_embed*.py/.sh`, `midterm_scorer.py` | Qwen3-VL-Embedding-8B conditions C0-C6, X1-X3 and the low-rank bilinear scorer (`emb/` manifests, `results/`) |
+| `scripts/midterm_direct_eval.py`, `midterm_direct_score.py` | Zero-shot answering by Gemini 4, GPT-5.6, Qwen3-VL-32B and published spatial checkpoints (`direct_eval/`) |
+| `scripts/midterm_error_types.py`, `midterm_spatial_need.py` | Error classification and per-item spatial-need ratings (`error_types/`, `spatial_need.json`) |
+| `scripts/midterm_stats.py`, `midterm_meta.py`, `midterm_summary_plot.py`, `midterm_report_figures.py` | Paired tests, random-effects pooling (`meta.json`, run with `--no-rl` for the reported numbers), figures |
+| `scripts/lora_pilot/` | SAT vs VQAv2 LoRA training and evaluation on Bridges-2 (sbatch files), the combined-input 2x2 (`run_combined_pod.sh`) and local scoring (`output/idea5-midterm/lora_pilot/`) |
+| `scripts/emb_ft/` | Embedding LoRA fine-tune (`output/idea5-midterm/emb_ft/README.md`) |
+| `scripts/rl_pilot/` | GRPO pilot (not reported) |
+| `scripts/lit_scaling_analysis.py`, `scripts/frontier_spatial_social.py` | Cross-model analysis from published leaderboards; archived sources in `lit_scaling/sources/` |
+
+## Not in the repository (midterm)
+
+- Embedding arrays (`*.npy`), LoRA adapter weights (`*.safetensors`, 167 MB each) and all image grids
+  (`grids/`, `lora_pilot/egonormia_images/`, about 620 MB). The scripts regenerate them.
+- The test answer key (`lora_pilot/answer_key.json`). Scoring ran locally; it is rebuilt from the EgoNormia
+  data by `scripts/lora_pilot/make_egonormia_tasks.py`.
+- Runs invalidated by an MPS half-precision attention bug (`*_INVALID`).
+- Logs contain absolute paths from Bridges-2 and the local machine.

@@ -1,0 +1,12 @@
+{
+ "id": "b7022084-61ea-470f-b2cd-49be2ecaf3aa_18-42",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer moves along a narrow indoor corridor with glass-fronted rooms mainly on the right, solid wall sections on the left, and ceiling lights above; the corridor extends roughly 8\u201312 m ahead. An adult in an orange shirt shifts from partly outside the left edge in frame 1 to about 0.5\u20131.5 m in front-left of the camera in frames 2\u20135, seen mostly from the side or back and not looking toward the camera; their body repeatedly occludes part of the left foreground and is within the camera wearer\u2019s arm\u2019s reach in the later frames. Another adult is visible farther ahead, roughly 3\u20136 m from the camera and about 2\u20135 m from the orange-shirted person, facing and moving away down the corridor before becoming smaller or obscured. Glass doors, wall-mounted signs, and a bright oval \u201cOPEN\u201d sign lie on the right at approximately 1\u20133 m; the sign grows larger as the camera approaches and is at about shoulder-to-head height. In the final frame, a seated person is partly visible through the glass room on the right, roughly 2\u20133 m away and partially occluded by the doorframe, while the orange-shirted person remains cropped at the left edge and the open corridor stays directly ahead."
+ },
+ "duration_seconds": 13.4,
+ "usage": null,
+ "conversation_id": null
+}

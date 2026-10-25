@@ -1,0 +1,18 @@
+{
+ "id": "262fd2ec-8eba-44d9-8082-4d0574f7a515_3060-97",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a narrow indoor hallway bordered on the left by a glass-walled room and white-framed glass door, on the right by a dark wall featuring a pink-and-green wireframe mural, an orange-framed wall keypad, and recessed dark grey doors, and at the far end by an exit door with a window and horizontal push bar. In the first frame, the camera wearer faces straight down the corridor with the side walls about 0.5 to 1 metre to the left and right (within arm's reach), the keypad and first right-side doorway roughly 3.5 to 4 metres ahead on the right, and the far exit door about 8 metres ahead. In the second frame, as the camera wearer walks forward, a person in dark clothing becomes partially visible about 2.5 to 3 metres ahead in the right-side doorway, mostly occluded by the edge of the mural wall. Across frames three and four, the camera wearer continues approaching the end door (closing the distance from roughly 5.5 metres to 3.5 metres) while passing within arm's reach (under 1 metre) of the left glass door, the right keypad, and the right-hand doorframes, before rotating rightward toward the dark grey wall panels while the person is out of view behind the camera's field of view. By the fifth frame, the camera wearer has turned roughly 180 degrees to face back toward the mural wall and adjacent doorway frame about 0.8 to 1 metre away, where a person wearing glasses stands directly in front of the camera wearer at about 0.5 to 0.8 metres distance (within arm's reach of both the camera wearer and the doorframe), facing and looking directly toward the camera wearer with their body below the shoulders and extended right arm partly cropped out at the bottom-left edge of the frame."
+ },
+ "duration_seconds": 23.289477,
+ "usage": {
+  "input_tokens": 19581,
+  "output_tokens": 1293,
+  "thinking_tokens": 828,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20874
+ },
+ "conversation_id": "a659dbe9-6320-422f-a6b3-7d535a7625e1"
+}

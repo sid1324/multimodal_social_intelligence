@@ -1,0 +1,18 @@
+{
+ "id": "03d6e9bf-389a-4828-bf82-0ef6decf7671_900-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands in a kitchen facing a wooden upper cabinet directly ahead and to the right and a black over-the-range microwave to the upper left, both roughly 0.4 to 0.6 metres away at eye level. Below the microwave on the left, about 0.5 to 0.8 metres away, is a black stove top holding a foil-lined tray in the foreground, a small round pan behind it to the left, and a paper towel roll further left, while bottles and a knife block sit on the counter below the cabinet to the right. In the lower foreground about 0.3 to 0.4 metres from the viewpoint, the camera wearer's right hand holds a small dark cylindrical container within arm's reach, with the lower countertop and the wearer's body cut off below the bottom edge of the frame. A second person is located to the left of the camera wearer at roughly 0.7 to 1.0 metres distance, with their head and torso out of view beyond the left frame boundary so their facing and gaze direction cannot be seen, though their extended arm points right toward the stove. Across the five frames, the viewpoint levels out from a tilted angle in the first frame and remains steady through the fourth frame as the wearer's hand tilts the container, before shifting slightly upward and right in the fifth frame as the other person's right hand reaches in from the left edge over the stove within arm's reach of the pan and foil tray, roughly 0.3 to 0.4 metres left of the wearer's hand."
+ },
+ "duration_seconds": 22.975685,
+ "usage": {
+  "input_tokens": 5363,
+  "output_tokens": 1399,
+  "thinking_tokens": 995,
+  "cache_read_tokens": 28418,
+  "total_tokens": 6762
+ },
+ "conversation_id": "cb82a124-a0da-44e8-ae30-334553cf28e1"
+}

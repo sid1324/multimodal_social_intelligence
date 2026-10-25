@@ -1,0 +1,18 @@
+{
+ "id": "c7f71299-a622-4a9a-b225-019335d6f2d2_658-88",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an elevated brick construction site platform with an unfinished red-brick wall and wooden window/door frames on the left, a floor littered with a coiled blue hose, white sacks, and a large pile of red bricks below, and a drop-off to an outdoor courtyard several metres below on the far right. In the first two frames, a person in a blue shirt stands inside the room behind the brick wall to the upper left, roughly 2.5 to 3 metres from the camera wearer, facing sideways to the left and looking away, partially occluded from the waist down by the wall opening and a dark basin on the floor. Across frames 2 to 4, another person's lower legs and flip-flopped feet appear at the upper right edge of the frame, about 1.5 to 2 metres in front of the camera wearer and roughly 2 metres to the right of the person inside, oriented away and walking further out of the upper frame. Directly below and in front of the camera wearer (within 0.5 to 1.5 metres) is a metal grille frame resting atop the pile of red bricks, alongside the coiled blue hose immediately to its left. Across the five frames, the camera wearer pivots clockwise to the right and pitches their head sharply downward while stepping closer to the brick pile and bending down. By the fourth and fifth frames, the brick wall and other people move completely out of view above and to the left, while the camera wearer's own hands, red shirt, and jeans enter the bottom of the frame as both hands grasp the top edge of the metal grille within immediate arm's reach (about 0.3 to 0.5 metres away)."
+ },
+ "duration_seconds": 17.486517,
+ "usage": {
+  "input_tokens": 19549,
+  "output_tokens": 517,
+  "thinking_tokens": 94,
+  "cache_read_tokens": 14197,
+  "total_tokens": 20066
+ },
+ "conversation_id": "45ecd070-a026-4320-9adb-19bf74b07f17"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor salon where the camera wearer stands directly behind a seated client facing a white wall about 1.8 to 2.2 metres ahead, which holds two tall black-framed mirrors flanked by small black-and-white drawer cabinets and a wall-mounted hairdryer. Directly below and in front of the camera wearer at 0.3 to 0.5 metres\u2014well within arm's reach\u2014is the crown of the seated client's head covered in silver foils, while a black rolling trolley holding a tint bowl and foil sits 0.5 to 0.8 metres to the lower right, also within the camera wearer's reach. The client faces forward toward the central mirror (away from the camera wearer) with a smartphone resting on their lap about 0.8 metres away, and their torso is largely occluded from direct view by their head and salon cape, though their masked face, crossed legs, and the camera wearer standing behind them are visible in the mirror reflection. About 1.2 to 1.5 metres to the lower left of the camera wearer (and 0.5 metres in front of the client's chair), a second worker in black crouches beside a blue foot basin, facing the client's lower legs and holding the client's bare foot within that worker's arm's reach while remaining partly cut off by the left edge of the frame. Across the five frames, the camera wearer's head tilts slightly upward and toward the left between the first and fourth frames\u2014bringing more of the crouching worker and left cabinet into view\u2014before angling back toward the right in the fifth frame as the camera wearer's black-gloved hands manipulate the foils on the client's head and reach toward the right-side trolley."
+ },
+ "duration_seconds": 20.83149,
+ "usage": {
+  "input_tokens": 19616,
+  "output_tokens": 1065,
+  "thinking_tokens": 624,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20681
+ },
+ "conversation_id": "96349684-99d4-4cf1-ad54-6aa210ee0a9a"
+}

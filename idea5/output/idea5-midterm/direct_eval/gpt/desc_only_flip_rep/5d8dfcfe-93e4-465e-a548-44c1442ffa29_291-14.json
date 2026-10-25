@@ -1,0 +1,1 @@
+{"id": "5d8dfcfe-93e4-465e-a548-44c1442ffa29_291-14", "cond": "desc_only_flip_rep", "model": "gpt", "action_position": 3, "justification_position": 2, "raw": "{\"action\":3,\"justification\":2}", "meta": {"returncode": 0}, "seconds": 8.1, "attempts": 1}

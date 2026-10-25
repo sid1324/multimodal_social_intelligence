@@ -1,0 +1,18 @@
+{
+ "id": "8f05300f-1200-4c18-937b-b8e23dc92505_261-93",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a carpeted living room viewed from a standing camera wearer, featuring a sliding glass door on the far wall about 4.5 metres ahead, a sofa and wooden coffee table on the foreground left within 1 to 2.5 metres, and a blue media console with a television on the foreground right about 1.5 to 2.5 metres away. Along the right wall between the media console and the glass door sit an oval dog bed (~3 metres away), a wooden rocking chair (~3.8 metres away), and a wire dog crate (~4.5 metres away), with pairs of boots on the floor to the left of the crate. In the first frame, a medium-sized white-and-brown dog stands near the glass door and boots about 4.2 metres in front of the camera wearer, facing left and slightly forward. Across frames 2 through 5, the dog turns directly toward the camera wearer and walks forward through the centre of the room between the coffee table and the media console, closing the distance from about 3.5 metres in frame 2 to 2.2 metres in frame 3, 1.3 metres in frame 4 (where it looks up directly at the camera wearer), and finally about 0.8 metres in frame 5. Concurrently across frames 3 to 5, the camera wearer pitches their head downward, shifting the upper walls and glass door partly out of the top of the frame while bringing the cluttered coffee table (within arm's reach on the left), the patterned area rug directly below, and the dog (entering arm's reach in frame 5 with its head and lower legs partly cropped at the bottom edge) into full view."
+ },
+ "duration_seconds": 15.639065,
+ "usage": {
+  "input_tokens": 19620,
+  "output_tokens": 539,
+  "thinking_tokens": 108,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20159
+ },
+ "conversation_id": "4794a5b6-77c3-4cf5-8bcd-25e5e0baeee5"
+}

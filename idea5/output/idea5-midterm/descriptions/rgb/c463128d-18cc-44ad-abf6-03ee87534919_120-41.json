@@ -1,0 +1,18 @@
+{
+ "id": "c463128d-18cc-44ad-abf6-03ee87534919_120-41",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor desert canyon trail bordered by a tall dark rock face on the left, dry brush and boulders in the foreground, and pale layered sandstone cliffs in the background roughly 20 to 50 metres away. In the first frame, the camera wearer's left arm extends forward on the left within 0.5 metres, while a person in a black top and cap is in the lower-right foreground about 0.5 to 1 metre away (within arm's reach), facing right and downward with their lower body cut off by the bottom frame edge. Further up the trail in front and slightly left, a second person in a green hooded jacket and backpack stands about 4 to 5 metres away ( roughly 3.5 to 4.5 metres behind the foreground person), facing and looking toward the camera wearer with their feet partly occluded by brush. Across frames 2 and 3, the foreground person moves out of view below the bottom edge while the person in green approaches down the slope to about 2.5 to 3 metres from the camera wearer, remaining oriented toward the camera. In frames 4 and 5, the camera wearer turns clockwise to the right, shifting the person in green to the far left edge (partially cut off in frame 4 and completely out of view in frame 5) and bringing the narrow dirt path and surrounding brush within arm's reach on the right. By the fifth frame, the camera wearer faces down the trail behind the first person in the black top, who is now centered in front about 1.5 to 2 metres away, facing and walking away with their head cropped at the top edge."
+ },
+ "duration_seconds": 13.512947,
+ "usage": {
+  "input_tokens": 19562,
+  "output_tokens": 422,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14207,
+  "total_tokens": 19984
+ },
+ "conversation_id": "9b8b27e9-f44d-4620-8cd8-e6f4890e4c61"
+}

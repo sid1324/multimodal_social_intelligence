@@ -1,0 +1,18 @@
+{
+ "id": "adb9100b-45da-449a-94b1-ae29e107e4c5_72-02",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows a close-up egocentric view of a brick wall under construction roughly 0.4 to 0.6 metres in front of the camera wearer, featuring a lower row of mortared red bricks below a textured grey concrete surface with two protruding metal pins on the left and a dark opening and bamboo pole on the right. The camera wearer's left arm, clad in a pink sleeve, extends upward and rightward from the bottom-left foreground to rest its fingers on the top-left corner of an upper red brick located about 0.5 metres away on the right side of the wall. Entering from the right edge of the frame is another hand positioned roughly 0.1 to 0.15 metres to the right of the left hand, pressing against the front face of that same upper brick, while the rest of that arm and any other body or head are completely out of view beyond the frame edges. Both hands, the upper brick, the adjacent mortared bricks, and the two metal pins are within arm's reach (under 0.6 metres) of the camera wearer, and the left forearm partially occludes the mortared bricks directly behind it. Across the five frames from left to right, the camera shifts slightly downward and to the right while the left hand adjusts its grip upward along the top edge of the brick and the right hand slides slightly upward toward the brick's top-left corner, narrowing the gap between the two hands to a few centimetres."
+ },
+ "duration_seconds": 26.941627,
+ "usage": {
+  "input_tokens": 19521,
+  "output_tokens": 1520,
+  "thinking_tokens": 1142,
+  "cache_read_tokens": 14205,
+  "total_tokens": 21041
+ },
+ "conversation_id": "082df477-284e-4445-aebc-61922a921ac4"
+}

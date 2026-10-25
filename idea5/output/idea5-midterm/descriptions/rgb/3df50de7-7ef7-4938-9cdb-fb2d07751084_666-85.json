@@ -1,0 +1,18 @@
+{
+ "id": "3df50de7-7ef7-4938-9cdb-fb2d07751084_666-85",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a semi-outdoor brick-floored plaza beside an open-front ice cream kiosk featuring a colorful tiled counter, a glass display case on the right, and wall menus and cabinets above. In the first frame, a person in a white t-shirt and dark backpack stands about 2 m ahead to the left facing the counter with the open plaza and stairs extending 5 to 15 m to the right, while in the second frame the camera wearer moves closer and pans left so this person is within 1 m and arm's reach, partially occluding the counter and a worker behind it. Across frames three to five, the camera wearer steps back to about 2 m from the counter and turns slightly left, revealing a standing person in an olive jacket about 2.5 to 3 m away on the left holding a cup within arm's reach and facing toward the camera wearer, alongside a seated person in dark clothing about 1.5 to 2 m away to the lower left facing away toward the standing person. A yellow ice cream cone held at the bottom edge of frames two through four is within the camera wearer's arm's reach and partly cropped out of view, while in frame four another person's blurred head briefly enters the extreme lower-left foreground within 0.5 m, partially occluding the seated person. By the fifth frame, the person in the white t-shirt turns completely around to face and walk toward the camera wearer at a distance of about 1.5 m, while the masked kiosk worker remains about 3 m away behind the counter, partially occluded by the counter and display case."
+ },
+ "duration_seconds": 21.79835,
+ "usage": {
+  "input_tokens": 19614,
+  "output_tokens": 694,
+  "thinking_tokens": 282,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20308
+ },
+ "conversation_id": "46697c80-bae2-432d-9720-2aed39f69cce"
+}

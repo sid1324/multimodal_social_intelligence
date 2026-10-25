@@ -1,0 +1,12 @@
+{
+ "id": "bae603bd-dc3d-46a4-90b7-9c1e2bcd3970_966-87",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated at the near edge of a dark dining table, with a bowl and spoon about 0.3-0.5 m in front; the wearer\u2019s forearms and hands are visible around the bowl in the first two frames. A staircase and sitting area are roughly 3-6 m ahead-left, while a doorway or hall is about 2-4 m ahead-right; chairs surround the table, including a brown chair about 1 m ahead. Across the five frames, the viewpoint turns gradually to the right, shifting the bowl from near center to the lower-right and bringing an open laptop, about 0.6-1 m away on the far-left side of the table, into view. In the final two frames, the wearer\u2019s left hand moves upward and forward toward the laptop and briefly occludes part of its screen, coming within arm\u2019s reach of both the laptop and bowl. No other person is physically visible in the room; a face appears only on the laptop display, oriented toward its camera, and its real-world distance and position cannot be determined from the image."
+ },
+ "duration_seconds": 10.7,
+ "usage": null,
+ "conversation_id": null
+}

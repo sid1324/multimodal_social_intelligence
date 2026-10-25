@@ -1,0 +1,18 @@
+{
+ "id": "c1626bce-83ba-49da-921c-7b60243c19ea_7-12",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow rocky gorge with steep canyon walls within 1 to 2 metres on both the left and right sides and a stepped rock ledge rising ahead. A person wearing a light fleece jacket and a red-and-blue backpack stands about 0.8 to 1.2 metres in front and slightly to the right of the camera wearer, within arm's reach, facing away and looking up toward the ledge while holding a smartphone above their head in frames 3 to 5. Another smartphone is held in the lower foreground about 0.3 to 0.5 metres in front and slightly left of the camera wearer, within arm's reach, with its screen facing the camera wearer and partially cropped at the bottom frame edge. About 4 to 6 metres ahead and 2 to 3 metres above the camera wearer on the upper rock ledge, two hikers stand side by side (less than 0.5 metres apart) facing toward and looking down at the camera wearer and the foreground person, with the right hiker's left arm extended to touch the right rock wall. Across the five frames, the camera wearer's viewpoint pitches downward in frames 2 and 3\u2014causing the upper ledge and the two hikers above to go completely out of view above the top frame edge while the foreground person raises their arms and phone\u2014and then pitches back upward in frames 4 and 5, bringing the two hikers above back into view while the foreground person's lower back becomes cropped at the bottom right."
+ },
+ "duration_seconds": 15.914142,
+ "usage": {
+  "input_tokens": 5348,
+  "output_tokens": 387,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28422,
+  "total_tokens": 5735
+ },
+ "conversation_id": "de7a9e0a-1f49-421a-93a7-ba6f2e357cec"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "afd5c197-7b14-4e21-ac56-d23b6a5543d0_1411-24",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first frame, the camera wearer is in a dining area looking toward a hanging chandelier about 1\u20131.5 m ahead and above, with bright windows and glass doors 2\u20133 m to the right, dining chairs partially visible at the bottom edge within 1.5 m, and an adjacent living room in the distance to the left; no other people are present in the scene. In the second frame, the camera wearer turns left and advances toward the carpeted living room, bringing a wire dog crate with toys on top within 1.5 m on the left, a staircase with white spindles 2.5\u20134 m ahead on the left, and a white-and-brown dog standing on the floor about 2\u20132.5 m directly ahead facing and looking toward the camera wearer. Beyond the dog, about 4\u20135 m from the camera wearer (and 2 m behind the dog), sits a dark sofa backed by a black cube storage unit with green and white bins and a wooden side table to its right, which partially occlude a fireplace, bookshelves, and a television along the far wall 7\u20139 m away. Across frames 3 and 4, as the camera wearer walks forward into the living room, the wire crate passes out of view behind the left edge, the staircase railing comes within arm's reach (0.8\u20131.5 m) on the left, a dark cabinet appears partially along the right edge at 1.5\u20132 m, and the dog moves closer to within 1\u20131.5 m while becoming mostly cut off at the bottom of the frame. By the fifth frame, the camera wearer tilts their view downward next to the staircase base (0.8 m to the left), placing the dog within arm's reach (0.5\u20131 m ahead at the bottom center) now facing away toward the cube shelf and sofa 2\u20133 m ahead, while the upper walls and fireplace are cropped out of view above."
+ },
+ "duration_seconds": 25.987813,
+ "usage": {
+  "input_tokens": 19574,
+  "output_tokens": 1296,
+  "thinking_tokens": 810,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20870
+ },
+ "conversation_id": "b370c302-926e-4faa-9c7f-025c95b177eb"
+}

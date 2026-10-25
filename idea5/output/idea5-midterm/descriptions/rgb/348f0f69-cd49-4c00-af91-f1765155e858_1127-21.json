@@ -1,0 +1,18 @@
+{
+ "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grassy lawn viewed from a steep downward angle, with no other people present besides the camera wearer. Directly below the viewpoint at 0 to 0.5 metres are the camera wearer's grey shirt, shoulders, and chin, with both arms extended forward and downward so the hands grip a lawnmower handlebar at roughly 0.5 to 0.6 metres. The walk-behind lawnmower extends forward in front of the camera wearer from the handlebar at 0.5 metres to the grey grass-catcher bag at about 0.8 to 1.1 metres and the silver deck with a red engine housing at about 1.1 to 1.5 metres, while the front edge of the mower deck is partly cut off by the top of each frame. The handlebar is held in both hands well within arm's reach, and the grass-catcher bag is also within arm's reach just ahead of the wearer's legs. The camera wearer's torso and the handlebar partially occlude the wearer's black shorts, legs, and alternating shoes directly underneath, while the mower body occludes the patch of grass beneath it. Across the five frames, the relative distance and alignment between the camera wearer and the lawnmower remain nearly constant at roughly 0.5 to 1.5 metres ahead as both advance forward together over the grass with slight left-right shifts and alternating foot positions."
+ },
+ "duration_seconds": 15.513969,
+ "usage": {
+  "input_tokens": 19514,
+  "output_tokens": 379,
+  "thinking_tokens": 13,
+  "cache_read_tokens": 14202,
+  "total_tokens": 19893
+ },
+ "conversation_id": "c7bd16c8-eb67-4c17-8ce7-464d396c1ca2"
+}

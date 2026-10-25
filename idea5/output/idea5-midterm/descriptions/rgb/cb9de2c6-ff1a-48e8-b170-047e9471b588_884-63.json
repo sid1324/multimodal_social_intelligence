@@ -1,0 +1,18 @@
+{
+ "id": "cb9de2c6-ff1a-48e8-b170-047e9471b588_884-63",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail space bordered by a glossy white paneled wall with a rectangular mirror on the left and a large multi-pane exterior window wall overlooking trees on the right, roughly 1.5 to 2 metres from the camera wearer. In the first frame, the camera wearer faces the left wall about 1.5 to 2 metres away, where their own dark-clothed upper body is reflected facing forward in the mirror, with a small white pedestal partially visible at the bottom right edge about 0.8 metres to the right of the mirror. Across the second and third frames, the camera wearer turns rightward toward the window wall, bringing into view a faceless mannequin in a cap and blue scarf standing about 1.5 metres away facing toward the camera wearer on the left, and a black clothing rack with hanging garments positioned about 0.6 to 1.0 metre away in the lower-right foreground, roughly within arm's reach and 0.5 to 0.8 metres to the right of the mannequin. By the third frame, the rightward head turn moves the mannequin completely out of view to the left while only the top bar of the clothing rack remains partially visible along the lower edge below eye level. Across the fourth and fifth frames, the camera wearer turns back to the left so the mannequin shifts from the far-left edge to the right side of the view at about 1.2 to 1.5 metres away, standing 0.5 metres to the right of the corner pedestal stand with its reflection visible in the window behind it. In the final frame, the camera wearer's right hand and a held dark garment enter the lower foreground at 0.2 to 0.4 metres\u2014directly within arm's reach\u2014partially occluding the lower torso of the mannequin behind them."
+ },
+ "duration_seconds": 20.886167,
+ "usage": {
+  "input_tokens": 19570,
+  "output_tokens": 1128,
+  "thinking_tokens": 679,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20698
+ },
+ "conversation_id": "67213879-cef2-4a3f-bb1f-6ddb5686c718"
+}

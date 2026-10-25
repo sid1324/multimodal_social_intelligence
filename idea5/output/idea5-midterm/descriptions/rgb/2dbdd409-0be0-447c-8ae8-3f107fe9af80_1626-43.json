@@ -1,0 +1,18 @@
+{
+ "id": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is viewed from a high downward angle by a seated camera wearer whose lap, draped in a grey towel with two small black wired controllers resting at the bottom center about 0.3 to 0.4 metres away, occupies the lower middle of the frame. Directly in front of the camera wearer, resting on the towel-covered right knee/thigh area at roughly 0.4 to 0.5 metres distance, is a white dome-shaped UV nail lamp, while a white plastic supply caddy containing bottles and containers sits to the left on the floor or a low surface about 0.5 to 0.7 metres away. Across from and slightly to the right of the camera wearer, a second person is seated facing generally toward the camera wearer at roughly 0.6 to 0.8 metres distance, with only their dark-trousered legs, forearms, and hands visible and their upper body and head out of view beyond the top-right edge. In frames 1 and 2, the camera wearer's left hand reaches down into the supply caddy on the left while their right hand holds the wired controller on their lap, and the other person's right hand rests on top of the white UV lamp near the right edge of the frame. By frame 3, the camera wearer turns their head slightly right so the white UV lamp is centered, with the other person's right hand resting flat atop the lamp and their left hand inserted inside the lamp's opening below. In frames 4 and 5, the camera wearer raises both hands toward the top of the UV lamp\u2014within 0.3 to 0.4 metres of the camera\u2014bringing a small white pad in their right hand and then both hands into contact with the index finger of the other person's right hand, partially occluding the top of the lamp."
+ },
+ "duration_seconds": 16.584451,
+ "usage": {
+  "input_tokens": 19626,
+  "output_tokens": 556,
+  "thinking_tokens": 99,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20182
+ },
+ "conversation_id": "08d7bf58-87f9-423b-8676-ad71c2d46cd2"
+}

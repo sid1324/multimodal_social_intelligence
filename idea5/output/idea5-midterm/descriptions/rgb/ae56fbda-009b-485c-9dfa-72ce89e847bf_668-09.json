@@ -1,0 +1,18 @@
+{
+ "id": "ae56fbda-009b-485c-9dfa-72ce89e847bf_668-09",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor sports club lobby featuring a curved reception counter in the foreground on the left, a wood-paneled wall behind it, a recessed ceiling light overhead, and an open hallway extending about 8 to 12 metres into the background on the right. Directly in front of the camera wearer at roughly 0.5 to 1.2 metres\u2014within the camera wearer's arm's reach\u2014sit the counter's near edge, a small tabletop sign, a tethered pen, and a black computer monitor with a keyboard on the far left. About 2.0 to 2.5 metres ahead behind the counter, a man in a light blue shirt and a woman in dark clothing stand less than 0.5 metres apart with a second monitor and keyboard within their arm's reach in front of them, while a beige chair, a cabinet with trays, and the back wall lie 0.5 to 1.5 metres behind them. The curved counter occludes both people's lower bodies and the lower portion of the furniture behind the desk, the man partially occludes the woman standing to his right, and the left edge of the near monitor is partly cut off by the left frame boundary in the earlier frames. In the first frame the man faces slightly right while his head is angled toward the camera wearer, whereas the woman faces away toward the second monitor on the right. Across the five frames, the camera viewpoint shifts slightly leftward and tilts slightly upward to reveal more of the near left monitor, while both people remain in place behind the counter and the man turns his head away from the camera wearer to look at the second monitor."
+ },
+ "duration_seconds": 21.70998,
+ "usage": {
+  "input_tokens": 19517,
+  "output_tokens": 1269,
+  "thinking_tokens": 857,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20786
+ },
+ "conversation_id": "990a70d3-960a-4679-bd23-fa29573f169e"
+}

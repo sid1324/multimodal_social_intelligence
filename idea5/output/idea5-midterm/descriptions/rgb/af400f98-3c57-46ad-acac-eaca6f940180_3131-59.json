@@ -1,0 +1,18 @@
+{
+ "id": "af400f98-3c57-46ad-acac-eaca6f940180_3131-59",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a downward-angled egocentric view of an outdoor dirt-verged paved road bordered by low green vegetation along the right edge and a faint white road line on the left. A single person wearing a tan-and-blue patterned tunic, dark trousers, and red-and-white shoes walks ahead and to the right of the camera wearer at roughly 1.5 to 2.5 metres away, while the road surface lies about 1.5 metres below the camera and the vegetation sits 0.3 to 0.5 metres to the right of the person Ahead. That person faces forward away from the camera in the direction of travel and never turns or looks toward the camera wearer. Nothing in the environment is within arm's reach of the camera wearer except their own swinging arms, while the person ahead is just beyond the camera wearer's reach and within arm's reach of the roadside grass to their right. The upper head and shoulders of the person ahead are cropped out by the top edge of the frame (and their right side is partly cut off by the right frame edge in frame 5), while the camera wearer's own lower torso, feet, and swinging left or right forearms partially enter the bottom edge in frames 1 through 4. Across the five frames, both the camera wearer and the person ahead move forward along the road at a similar pace, keeping their separation roughly constant between 1.5 and 2.5 metres as the person ahead shifts slightly further toward the right edge of the frame by frame 5."
+ },
+ "duration_seconds": 14.24601,
+ "usage": {
+  "input_tokens": 19563,
+  "output_tokens": 712,
+  "thinking_tokens": 319,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20275
+ },
+ "conversation_id": "0b9136a6-2d4f-4517-bcd5-580080347af4"
+}

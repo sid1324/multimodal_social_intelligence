@@ -1,0 +1,12 @@
+{
+ "id": "ffa4f27f-4e66-4b8c-ba6a-9a94f3491eb6_1093-00",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A checkout counter fills the lower foreground in the first three frames, within arm\u2019s reach of the camera wearer, with a payment terminal at the lower left, a large sign or display near the centre, and shelving and equipment behind the counter. A man in a blue shirt stands roughly 0.7\u20131.0 m in front of the camera across the counter; his torso and forearms are visible, but his head is mostly above the frame, and he faces generally toward the camera wearer. Across frames 1\u20133, the viewpoint shifts rightward along the counter while the man remains close and near the centre, with parts of his arms, head, and lower body occluded by the frame edges and counter. In frame 4, the camera has turned farther right and/or retreated, placing the man about 1.5\u20132 m ahead with more of his upper body and face visible; he still faces the camera and appears to look toward it, while wall-mounted objects and another partly visible person are several metres behind him. In frame 5, a hand rises extremely close to the lens, roughly 0.1\u20130.3 m away, blocking much of the central view; the man is then partly cut off at the far right, while the counter and display remain to the left and below the hand."
+ },
+ "duration_seconds": 12.5,
+ "usage": null,
+ "conversation_id": null
+}

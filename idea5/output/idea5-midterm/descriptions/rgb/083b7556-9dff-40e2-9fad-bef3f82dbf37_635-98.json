@@ -1,0 +1,18 @@
+{
+ "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor dirt parking area in a desert canyon with tall red-rock cliffs rising in the background and a white camper trailer parked roughly 20\u201330 metres away on the far right. Directly in front and slightly left of the camera wearer is a dark pickup truck with its left door and rear tailgate open, filled with bags and camping gear, while a green backpack sits on the ground beside its rear right bumper and additional bags rest on rocks to the left (visible in frames 1\u20133 before passing out of view). Two people stand near the right side of the truck bed about 1\u20131.5 metres apart: a person in a grey shirt and orange-brown pants closer in the foreground, and a person in a plaid shirt and grey shorts just beyond them holding a green bag within arm's reach. Across the five frames, the camera wearer walks steadily forward toward the back of the truck, reducing the distance to the tailgate and the two people from roughly 5\u20136 metres in frame 1 to about 1.5\u20132 metres in frame 5, where the open tailgate and green backpack come nearly within the wearer's arm's reach. As the wearer approaches, the person in the plaid shirt faces generally toward the rear-right of the truck and looks downward or toward the other person without looking at the camera wearer, while the person in the grey shirt initially faces away toward the plaid-shirted person in frames 1\u20133 before turning in frames 4\u20135 to face left with their head angled toward the truck and their hands raised to their mouth. In frame 4, the camera wearer's own raised hand and the underside of a cap visor enter the upper foreground within immediate reach, partially occluding the upper half of the scene including the canyon cliffs."
+ },
+ "duration_seconds": 19.983639,
+ "usage": {
+  "input_tokens": 19628,
+  "output_tokens": 544,
+  "thinking_tokens": 98,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20172
+ },
+ "conversation_id": "987474b1-d34c-44a8-bf52-edafdde78c9c"
+}

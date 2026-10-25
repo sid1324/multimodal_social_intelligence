@@ -1,0 +1,12 @@
+{
+ "id": "596760c3-b1d6-453c-916c-ecbc30ab1c5d_1392-89",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open, level work area with uneven reddish soil and low dirt mounds in the foreground and middle distance, with grass, trees, utility poles, and overhead wires farther behind. One person is in front of the camera wearer, moving from the left side of each frame toward the right while also drawing closer, from roughly 7\u20139 m away in frame 1 to about 3\u20134 m away in frame 5. The person is mostly shown in right-facing profile and does not clearly look toward the camera wearer; their upper body becomes progressively larger and less occluded by the dirt mound. In the final frame, the person holds a long-handled tool close to their body, with the dark tool head above and to their right; it is within their arm's reach but remains several metres beyond the camera wearer's reach. No other people are visible, and parts of the person's lower body are hidden by the foreground dirt or cropped near the bottom edge throughout."
+ },
+ "duration_seconds": 10.2,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer is in an indoor corridor with a dark obstruction within 0.5 metres on the left and a glass-paneled door with a push bar about 1.5 to 2 metres ahead on the right, followed by a rapid rightward turn past an interior window about 1 metre away. By the third frame, the view opens onto a brightly lit hallway extending 6 to 8 metres ahead on the left\u2014where waste bins sit against the wall at about 4 metres and a distant person is partially cut off by the left frame edge at roughly 6 to 8 metres\u2014while a glass-walled room on the right (1.5 to 5 metres away) contains a cushioned sofa with white and blue pillows in the lower foreground and dark cabinets further back. Across frames four and five, the camera angles downward and rightward toward a person in a grey hoodie and dark jacket standing directly in front of the camera wearer at 0.5 to 0.8 metres, within arm's reach of the wearer. This person faces torso-first toward the camera wearer, though their head and gaze are cropped out above the top edge of the frame, and their body partially occludes the glass partition and the pillow-lined sofa about 1.5 to 2.5 metres behind them to the left. At the bottom center of frames four and five, about 0.4 to 0.6 metres from the camera wearer and within arm's reach of both individuals, a white paper bag and a lidded cup sit below the person's torso as the person shifts slightly rightward and brings their extended right hand onto the bag."
+ },
+ "duration_seconds": 19.629166,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 990,
+  "thinking_tokens": 574,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20567
+ },
+ "conversation_id": "f2106ad3-1599-4e6e-9bd0-16d27f8fef47"
+}

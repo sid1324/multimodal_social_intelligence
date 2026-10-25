@@ -1,0 +1,18 @@
+{
+ "id": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a large indoor gymnasium with a wooden floor, a curved blue-and-yellow wall beneath an elevated balcony above, a background basketball hoop about 15\u201318 metres away, and a portable badminton net extending from a near post roughly 5\u20136 metres in front-left of the camera wearer to a far post about 10\u201311 metres ahead. Within arm's reach (~0.3\u20130.6 metres in front and below), the camera wearer holds a badminton racket that is raised in the lower-right foreground in frame 1 (partially occluding the court floor), drops mostly out of view at the bottom edge in frames 2\u20134, and is held low in front in frame 5 as the viewpoint pitches downward, cutting off the upper ceiling. Beyond the net, four other people\u2014each with a racket within their own arm's reach\u2014occupy the court: two on the left side of the net and two on the right side, none of whom look directly at the camera wearer. On the left side, a player in black stands 11\u201313 metres away facing right toward the net across all frames, while a teammate in a light-blue shirt (~8\u201310 metres away, 2\u20134 metres to his right) crouches in frame 2 and then moves rightward toward the center across frames 3\u20135, becoming partially occluded behind the net post and mesh as he bends down near the far post in frame 5. On the right side, a player in a red shirt starts ~7\u20138 metres away facing left toward the net in frame 1, then retreats rightward in frame 2 to stand within arm's reach (<0.5 metres) of a teammate in black (~9\u201310 metres away) such that the two partially occlude each other through frame 4, before separating to ~1 metre apart in frame 5 with the black-shirted player facing toward the front-left and the red-shirted player facing away toward the back wall."
+ },
+ "duration_seconds": 24.018655,
+ "usage": {
+  "input_tokens": 5307,
+  "output_tokens": 1351,
+  "thinking_tokens": 854,
+  "cache_read_tokens": 28422,
+  "total_tokens": 6658
+ },
+ "conversation_id": "ccea56da-9b76-4a5b-837e-b869d0bb176e"
+}

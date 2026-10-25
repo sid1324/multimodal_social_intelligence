@@ -1,0 +1,18 @@
+{
+ "id": "c7da3efd-4a18-458e-90fd-f757ed966a63_380-64",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands on an elevated industrial walkway with yellow metal railings beside a large rectangular grey tank filled with foamy liquid, looking above a factory floor lined with white sacks and machinery. In Frame 1, the tank wall and its horizontal pipe are on the right within arm's reach (0.4 to 1.5 m away) with the wearer's raised right hand at 0.3 m partially occluding the tank, while the walkway, yellow railings, and a blue machine extend 1 to 4 m ahead and to the left above piles of white bags on the floor 3 to 5 m below. Across Frames 2 and 3, the camera wearer turns roughly 90 degrees clockwise to face directly across the 2-to-3-m-wide tank, bringing a green circular valve wheel and the tank's front rim within arm's reach (0.5 to 1 m in front) before the green valve shifts to the left edge and becomes partly cut off in Frame 3. Across Frames 4 and 5, the wearer completes a nearly 180-degree clockwise turn from the initial viewpoint to face down a descending flight of dark stairs bordered by the tank wall within arm's reach on the left (0.4 to 1.5 m) and a yellow handrail within arm's reach on the right (0.5 m). Beyond the stairs on the lower floor in Frames 4 and 5, one person in dark clothing stands at the base of the steps about 3.5 to 4.5 m ahead and below\u2014partly occluded by the yellow railings and within arm's reach of adjacent blue equipment\u2014while a second person in a red shirt stands 6 to 7 m away on the upper right, about 1.5 m to the right of a wheeled metal rack and 3 m from the first person, facing generally toward the stairs and camera wearer with piles of white bags below on the right partly out of view."
+ },
+ "duration_seconds": 26.550927,
+ "usage": {
+  "input_tokens": 19522,
+  "output_tokens": 1461,
+  "thinking_tokens": 973,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20983
+ },
+ "conversation_id": "389e9a48-afdb-4795-b902-76c07ec71d48"
+}

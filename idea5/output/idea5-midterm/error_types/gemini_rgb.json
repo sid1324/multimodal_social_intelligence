@@ -1,0 +1,270 @@
+{
+ "087e11d0-5984-4365-989d-7365294ddaec_7351-39": {
+  "cause": "norm",
+  "reason": "The model failed to prioritize the social responsibility of collecting personal belongings and clearing a shared locker-room space."
+ },
+ "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62": {
+  "cause": "spatial",
+  "reason": "The bricks and worker are separated from the camera wearer by the enclosure, so offering to move bricks is less immediately feasible than asking about progress."
+ },
+ "1330508f-8168-4408-a4df-79f69fb87c83_1053-45": {
+  "cause": "perception",
+  "reason": "The model failed to recognize that the nearby person was presenting clothing in a shopping or style-consultation context."
+ },
+ "13d7173f-e8d1-4124-a66b-2ae648da9dbd_510-46": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the baby and the ongoing feeding context indicated by the scene."
+ },
+ "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the children browsing the display shelf and the opportunity to assist them."
+ },
+ "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the visible outdoor meal-preparation and serving context in which plating meals individually is appropriate."
+ },
+ "1bfac46e-f957-4495-9583-dbd7fa683225_823-65": {
+  "cause": "perception",
+  "reason": "The model misidentified the card as an item being handed to the camera wearer rather than recognizing that the wearer should give it to the person behind the counter."
+ },
+ "1f4a4d13-f083-4464-8c03-5e09f55e3f63_125-54": {
+  "cause": "norm",
+  "reason": "The model recognized the dressing and childcare situation but prioritized later group play over keeping the process quick, quiet, and minimally disruptive."
+ },
+ "262fd2ec-8eba-44d9-8082-4d0574f7a515_3060-97": {
+  "cause": "norm",
+  "reason": "The model failed to prioritize the socially appropriate farewell gesture despite the interaction appearing to be concluding."
+ },
+ "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the nearby woman and the ordinary opportunity to greet her while continuing the walk."
+ },
+ "2c9a2cb8-93fd-4932-bb76-60e80822b70b_782-07": {
+  "cause": "norm",
+  "reason": "The model recognized the notebook task but wrongly prioritized unsolicited collaboration over following the instruction to draw the line."
+ },
+ "2d01625b-b7c4-41aa-989b-2d0b392d8b54_328-63": {
+  "cause": "ambiguous",
+  "reason": "The frames show clothing racks but no visible person seeking feedback, so declining to act is also defensible from the visual evidence alone."
+ },
+ "2d1baacd-d82b-4e0c-9d85-b420fb9bde91_345-02": {
+  "cause": "norm",
+  "reason": "The model failed to recognize that matching the companion\u2019s pace and sharing the conversation evenly is the socially respectful response."
+ },
+ "356dd07e-8165-494c-9be8-b82d314bf88d_895-74": {
+  "cause": "perception",
+  "reason": "The model failed to recognize that the camera wearer was handling a magazine while shopping, so it missed the appropriate return-to-shelf action."
+ },
+ "358e65ba-1ce0-46f6-a1b4-1c85569ef628_3143-38": {
+  "cause": "perception",
+  "reason": "The model failed to recognize that the wearer was viewing artwork in a social setting where polite engagement was appropriate."
+ },
+ "38788778-0822-4c9c-b51e-5bce8a765a97_91-28": {
+  "cause": "perception",
+  "reason": "The model failed to recognize that the group was walking through an apartment with large windows, making a positive comment about the view contextually appropriate."
+ },
+ "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the nearby retail display and the ordinary opportunity to inspect an item before buying it."
+ },
+ "39a53568-d759-4f19-ac19-bc4ba29b5c17_726-07": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the clear ongoing tire-handling task and the appropriate next step of storing the tire safely."
+ },
+ "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48": {
+  "cause": "perception",
+  "reason": "The model misread the camera wearer as serving the tea rather than receiving it from the host."
+ },
+ "43d83207-9c41-46aa-90c9-e30a6194be11_354-50": {
+  "cause": "norm",
+  "reason": "The action was correct, but the model failed to recognize that respecting the confidentiality of the person's study materials appropriately justifies avoiding their screens."
+ },
+ "470499d1-e015-4d45-a858-ca3e9566085e_2490-62": {
+  "cause": "norm",
+  "reason": "The model recognized the dancing but wrongly prioritized joining strangers over maintaining a respectful distance and observing."
+ },
+ "490b4f30-9bb5-4bf2-966b-13d509b5709b_1247-51": {
+  "cause": "perception",
+  "reason": "The model misread the camera wearer\u2019s role and the transaction stage, treating them as the cashier scanning items instead of the customer completing payment at the card terminal."
+ },
+ "4930cced-9b84-464e-88ce-3990188efed6_1781-50": {
+  "cause": "perception",
+  "reason": "The model likely failed to recognize that a dog was present near an active cooking area and could interfere or be endangered."
+ },
+ "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50": {
+  "cause": "norm",
+  "reason": "The model failed to prioritize the social courtesy of offering help to people engaged in a task."
+ },
+ "4ac57aee-4ac0-457e-b9de-9419056e4bbd_295-55": {
+  "cause": "ambiguous",
+  "reason": "The frames show a pantry and hallway but no clearly visible dogs, bowls, or refrigerator, so rejecting the proposed actions is defensible from the visual evidence."
+ },
+ "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the ongoing turnbuckle-tightening task and the need to finish securing it for safety."
+ },
+ "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the visible trail vegetation and the camera-wearer's apparent readiness to photograph a plant."
+ },
+ "5315437a-2530-47e5-a0e4-4ac656c7cfa4_570-57": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the nearby road worker and the active road-work zone requiring a safety signal for passage."
+ },
+ "54a421d2-763e-4751-a6b4-54e3d6c46cc1_1361-15": {
+  "cause": "perception",
+  "reason": "The model likely failed to recognize the child near the camera wearer and therefore missed the opportunity for appropriate playful interaction."
+ },
+ "6395f964-0122-4f16-b036-337c28488504_1626-75": {
+  "cause": "norm",
+  "reason": "The model recognized the climbing-group context but prioritized technical assessment and safety coaching over the expected role of broadly supporting and encouraging participants."
+ },
+ "6956cb48-951c-4607-a42b-a66de2c186be_292-00": {
+  "cause": "perception",
+  "reason": "The model incorrectly inferred that the dog had mobility issues, whereas the frames only show an ordinary dog walk near a snowy road and traffic."
+ },
+ "6b7fc6db-e979-43a0-b61f-7dced89d423d_229-56": {
+  "cause": "perception",
+  "reason": "The model misread the repeated views of one person as multiple people waiting and inferred pamphlet distribution rather than an ongoing magazine discussion."
+ },
+ "6ba5f052-a1cd-46ba-83f2-1be480387020_599-71": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the visible food and clutter as an ongoing kitchen-cleanup situation requiring leftovers to be stored and surfaces wiped."
+ },
+ "6e0c294c-d634-4804-8d41-cd6e9d79f0b9_1656-45": {
+  "cause": "norm",
+  "reason": "The model recognized no specific alternative but failed to apply the social norm of offering a nearby beverage to the seated person as a gesture of hospitality."
+ },
+ "706de1df-babc-4e54-a310-1d9070140197_195-59": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the open microwave and the visible need to clean its interior."
+ },
+ "7c925095-c62a-4a7a-a2ca-118ca3f0176a_2-34": {
+  "cause": "perception",
+  "reason": "The model incorrectly inferred that the woman had given instructions and that another scene should be performed, rather than recognizing her as someone the wearer could ask for help."
+ },
+ "830bd10c-4eb5-477d-9166-7d41ca86880a_963-23": {
+  "cause": "perception",
+  "reason": "The model failed to recognize that the camera wearer was at a checkout counter completing a purchase."
+ },
+ "845cb298-d60b-4106-8213-d2aca821740a_14-13": {
+  "cause": "norm",
+  "reason": "The scene supports ordinary continued walking, but the model incorrectly rejected the standard precaution of keeping the phone secure."
+ },
+ "84ec85f6-c167-413c-829d-9c6915519c57_919-33": {
+  "cause": "ambiguous",
+  "reason": "The chosen action matches the correct action, and its justification conveys the same collaboration norm in different words."
+ },
+ "952d5295-06f4-4578-929b-4113e4ff9201_769-29": {
+  "cause": "norm",
+  "reason": "The model identified the henna-application activity correctly but failed to recognize hygiene as the relevant priority before continuing the artistic procedure."
+ },
+ "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6720-40": {
+  "cause": "norm",
+  "reason": "The phone distraction is clearly visible, but the model failed to prioritize the widely accepted safety norm of putting it away in the vehicle."
+ },
+ "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11": {
+  "cause": "perception",
+  "reason": "The model failed to recognize visible wear or damage on the equipment that should be pointed out for safety and responsible handling."
+ },
+ "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45": {
+  "cause": "perception",
+  "reason": "The model misidentified the food being offered as collected material for a group explanation, misunderstanding the activity underway."
+ },
+ "a5e74924-6083-4618-b830-f528c5199ed9_5985-35": {
+  "cause": "perception",
+  "reason": "The model misread the ongoing activity as a couple needing a photo taken rather than recognizing that the camera wearer was being video-recorded and should engage with the recording."
+ },
+ "af215e0f-56c7-4356-9aad-a3a5fb7bbc4f_4328-60": {
+  "cause": "norm",
+  "reason": "The model recognized the child and the cleanup context but wrongly prioritized relocating the child over the more socially appropriate response of offering hospitality and conversation while cleaning."
+ },
+ "af43394e-d24c-40c2-b03a-f3cdff888370_762-90": {
+  "cause": "perception",
+  "reason": "The model misidentified the nearby person as a departing customer who had left their receipt, rather than recognizing that the camera wearer had received the receipt and should set it down before sitting."
+ },
+ "bdeb0df9-2983-41bb-ba27-c431d9ef3163_1770-19": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the baby in the cradle and the ongoing caregiving situation."
+ },
+ "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55": {
+  "cause": "perception",
+  "reason": "The model misread the ongoing screen-based explanation as camera-operation instruction and practice."
+ },
+ "c1f4d37c-bfd8-4722-b1c4-767f8426ccfd_867-73": {
+  "cause": "perception",
+  "reason": "The model misread the camera wearer as a salesperson presenting merchandise rather than a shopper examining clothing on the rack."
+ },
+ "c25111f0-0c78-4bf8-a16d-57a6c25c2169_10881-80": {
+  "cause": "norm",
+  "reason": "The model recognized no immediate physical action but incorrectly treated respectful, conditional social engagement as inappropriate."
+ },
+ "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the nearby person using or struggling with their phone, so it overlooked the appropriate opportunity to offer assistance."
+ },
+ "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46": {
+  "cause": "perception",
+  "reason": "The model failed to recognize that the wearer was already painting the object and could appropriately continue while acknowledging the nearby observer."
+ },
+ "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98": {
+  "cause": "norm",
+  "reason": "The scene supports casually drinking while conversing, but the model incorrectly judged that ordinary socially appropriate action as unsuitable."
+ },
+ "d27c5c7e-db9c-48f4-bea5-9970078d352e_87-62": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the ongoing collaborative sorting and distribution of clothes or supplies visible in the frames."
+ },
+ "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05": {
+  "cause": "perception",
+  "reason": "The model misidentified garden weeding\u2014pulling unwanted plants\u2014as harvesting edible leaves into a basket."
+ },
+ "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83": {
+  "cause": "perception",
+  "reason": "The model misidentified the people and setting as factory workers engaged in egg production rather than people at a market stall."
+ },
+ "dd508a2a-1ea7-43d2-805a-8080eeae9985_1035-99": {
+  "cause": "norm",
+  "reason": "The model failed to recognize that joining the clearly collective prayer is the socially appropriate next action."
+ },
+ "e70f4b34-432f-47dc-834f-5bc6bd67dc62_166-47": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the ongoing masonry task and the need to spread the visible mixture evenly along the mortar joints."
+ },
+ "e9957d35-9c4d-44cc-b3b6-267dfa13841a_896-74": {
+  "cause": "ambiguous",
+  "reason": "The chosen action matches the correct action, and its justification is substantively equivalent to fulfilling the required transaction."
+ },
+ "eaa560d5-6432-4030-a03a-b6ba512e621d_61-64": {
+  "cause": "ambiguous",
+  "reason": "The frames show someone sorting peas in a living area rather than clearly showing dirty kitchen counters, so declining the proposed actions is also defensible."
+ },
+ "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1624-37": {
+  "cause": "perception",
+  "reason": "The model misread the ongoing manicure as a teaching situation instead of recognizing that the camera wearer should complete the client's nail treatment."
+ },
+ "eb2c9739-dba0-479c-81b7-9dda51c4ac20_148-23": {
+  "cause": "norm",
+  "reason": "The model recognized the badminton game but prioritized team strategy over the immediate courtesy and fair-play obligation to return the shuttlecock."
+ },
+ "ec85a806-d47f-4555-8c4c-20f59927e580_1424-09": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the eggs and the ongoing collection task visible in the frames."
+ },
+ "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48": {
+  "cause": "perception",
+  "reason": "The model failed to recognize the ongoing coordinated task of loading cartons onto the cart despite the workers, cartons, and cart being visibly present."
+ },
+ "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64": {
+  "cause": "norm",
+  "reason": "The model recognized the timber-moving task but failed to prioritize coordinated team lifting as the safer and more efficient action."
+ },
+ "facdbd7a-da79-48bd-9bb0-c866f675699b_1484-63": {
+  "cause": "norm",
+  "reason": "The model recognized the cashier and service context but wrongly judged that requesting restroom permission was inappropriate."
+ },
+ "fb92d350-9bf9-4b16-8a1f-7858de276226_603-23": {
+  "cause": "norm",
+  "reason": "The action is correct, but the justification misidentifies the primary norm as helpfulness rather than basic hygiene."
+ }
+}

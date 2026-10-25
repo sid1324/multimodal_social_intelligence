@@ -1,0 +1,51 @@
+{"cond": "C5", "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "X1", "id": "6e0c294c-d634-4804-8d41-cd6e9d79f0b9_1656-45", "error": "Image features and image tokens do not match: tokens: 2040, features 2040"}
+{"cond": "X1", "id": "9fc3678b-86e2-44ab-adbc-9aeda78ceb60_992-74", "error": "Image features and image tokens do not match: tokens: 1800, features 1800"}
+{"cond": "X1", "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "513f572f-6d1c-4a8a-8b57-9c1d0aa363f7_969-20", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "6395f964-0122-4f16-b036-337c28488504_1626-75", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "706de1df-babc-4e54-a310-1d9070140197_195-59", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C5", "id": "d0396c77-6ecc-4d9f-bda1-af051699d0cf_1049-41", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C5", "id": "92153977-6016-4863-be78-c4af25a56a0f_1117-24", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C5", "id": "d1a27322-8acd-4297-9029-db45af8d7cc2_164-10", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C5", "id": "342cb558-ab3e-4b04-8169-a68bbf06a448_1575-74", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C5", "id": "05d5d7cf-9fb9-4390-bcd3-dd626b948771_1543-50", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "X1", "id": "a6264c7d-d42a-4708-8fc2-b35ad0c5fe42_55-09", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "X1", "id": "792d0000-7dcd-4e6c-a486-7befe397233d_917-53", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "X1", "id": "5cf98bc1-012f-482d-86ee-9337d8747dce_1374-50", "error": "Image features and image tokens do not match: tokens: 2040, features 2040"}
+{"cond": "X1", "id": "9b8a4b28-b831-417b-83dd-deb7890908c0_1561-56", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "X1", "id": "59764b58-1523-48b3-88d2-9fc07880e597_1504-77", "error": "Image features and image tokens do not match: tokens: 2040, features 2040"}
+{"cond": "X1", "id": "c824d4e5-298a-462b-a408-28a85a7364af_126-28", "error": "Image features and image tokens do not match: tokens: 2040, features 2040"}
+{"cond": "X1", "id": "8d85aa58-438d-413c-b8b3-ae5417737c5c_1900-47", "error": "Image features and image tokens do not match: tokens: 1800, features 1800"}
+{"cond": "X1", "id": "5c172db2-eca2-4f9a-8963-b2111123fef2_81-63", "error": "Image features and image tokens do not match: tokens: 1800, features 1800"}
+{"cond": "X1", "id": "2a2ff7db-5460-4296-a8a7-946ba628226d_1549-08", "error": "Image features and image tokens do not match: tokens: 1800, features 1800"}
+{"cond": "C3", "id": "c93e077c-9f51-449c-b130-8be107c8a7d5_199-82", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "c58e1887-0314-4cb3-a09d-5ba529d8eda0_6-27", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "449763d0-a924-40a4-8830-01e7028f9428_3059-66", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "c7f71299-a622-4a9a-b225-019335d6f2d2_658-88", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "a6264c7d-d42a-4708-8fc2-b35ad0c5fe42_55-09", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "61da558c-b125-4e65-a8a6-28f0eae34c1a_156-26", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "8774b5c6-83aa-43b0-8a51-00f173949944_421-89", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "862f0fa5-2c3e-4a6c-ab93-c059637eee8c_49-84", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "14e96091-4011-4557-95b3-a195fb5c39d8_919-08", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "56da7a14-f3fe-4dd9-9acb-92917603f42c_521-16", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "3efc152d-ea0e-4372-b552-7d5e1cf07259_14658-02", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "10019839-9ded-439f-a573-5ccacd7d829d_650-42", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "dbcca18b-4b62-4ba1-b799-a6a65231d084_3795-07", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "70c8bd4f-bfe1-4fb5-82ad-7d763cc28935_732-98", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "4d45174a-6a77-48cd-a8f2-9b93e2d47f07_604-84", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "b0a30641-ad93-4d6a-92a9-f277c78f1aa5_112-83", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "792d0000-7dcd-4e6c-a486-7befe397233d_917-53", "error": "Image features and image tokens do not match: tokens: 1680, features 1680"}
+{"cond": "C3", "id": "dfe44f90-17f9-43eb-adf4-da35f15002ed_825-32", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "e87752b1-35a5-4cd7-9b95-a4b28129f9f3_932-40", "error": "non-finite vector"}
+{"cond": "C3", "id": "5605bd9a-d151-4d5b-b0f6-cfc28ae6937e_2980-56", "error": "non-finite vector"}
+{"cond": "C3", "id": "ade9b865-951f-4a27-b6cb-ce12cb613de8_887-25", "error": "non-finite vector"}
+{"cond": "C3", "id": "3761fbb4-3e0e-4b15-a277-fec95edacf04_2287-87", "error": "non-finite vector"}
+{"cond": "C3", "id": "09690df3-0715-4875-8745-7e8830c761d0_341-62", "error": "non-finite vector"}
+{"cond": "C3", "id": "9d0c46d6-ea9a-43e6-8b8a-4b2972eb6ef4_551-12", "error": "non-finite vector"}
+{"cond": "C3", "id": "7f296d37-a819-408f-aa34-80b63a40f01e_28-00", "error": "non-finite vector"}
+{"cond": "X3", "id": "70c8bd4f-bfe1-4fb5-82ad-7d763cc28935_732-98", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "44c5117d-fb5c-4fcf-b648-d7eb76d5f95a_1424-15", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C3", "id": "9155f5b9-6235-484f-990d-fbd3010a791e_2163-97", "error": "Image features and image tokens do not match: tokens: 2160, features 2160"}
+{"cond": "C4", "id": "cb9de2c6-ff1a-48e8-b170-047e9471b588_884-63", "error": "Image features and image tokens do not match: tokens: 420, features 420"}
+{"cond": "C4", "id": "0dca9b08-f9c6-446f-8754-3c1312fa3274_101-78", "error": "Image features and image tokens do not match: tokens: 420, features 420"}

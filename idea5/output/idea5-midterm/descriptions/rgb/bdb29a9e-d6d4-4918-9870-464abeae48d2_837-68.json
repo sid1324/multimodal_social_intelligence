@@ -1,0 +1,18 @@
+{
+ "id": "bdb29a9e-d6d4-4918-9870-464abeae48d2_837-68",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer rides a white scooter forward at night along the left lane of a two-lane roadway beneath a tall, brightly lit arched canopy leading to a gated checkpoint. Directly below and in front of the viewpoint at roughly 0.5 metres\u2014within arm's reach and gripped by the camera wearer's both hands\u2014are the scooter's handlebars, side mirrors, and lit instrument cluster, while the rest of the scooter and the wearer's body remain out of view below the frame. No other people are visible in the scene; two glass-walled booths sit on raised curbs to the left and right of the roadway about 7 to 8 metres apart, separated by a black-and-yellow striped median island and a right lane blocked at its entrance by a red barrier and three traffic cones spaced 1 to 2 metres apart. Across the five frames, the camera wearer approaches the left booth and a closed horizontal red-and-white boom barrier spanning the lane ahead: the left booth (fronted by a vertical blue sign and a wall-mounted fire extinguisher) closes from roughly 20 to 25 metres ahead in the first frame to about 10 metres in the second, 5 to 6 metres in the third, 2 to 3 metres to the front-left in the fourth, and 1.5 to 2 metres directly to the left in the fifth. Over the same progression, the overarching canopy roof, the right-hand traffic cones and red barrier (after the third frame), and the right booth (by the fifth frame) pass out of the upper and right edges of the field of view, leaving the boom barrier roughly 5 to 6 metres directly ahead and a small post on the left curb about 3 to 4 metres ahead in the final frame."
+ },
+ "duration_seconds": 21.9693,
+ "usage": {
+  "input_tokens": 19522,
+  "output_tokens": 1158,
+  "thinking_tokens": 714,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20680
+ },
+ "conversation_id": "6b6a56cf-2018-4d4c-8948-b82be8c02483"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "1f6eb61d-74fa-411e-979c-2e66e71f2b7d_501-62",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene transitions from a dark interior vestibule with glass double doors and side glass panels out onto an exterior concrete walkway and asphalt parking lot. Across the 5 frames, the camera wearer walks forward about 3 to 4 metres, approaching the closed glass door from roughly 2.5 metres away in frame 1, bringing its horizontal push bar and frame within arm's reach (under 0.5 metres) in frame 3, and swinging the door open to the right in frames 4 and 5 while stepping outside. Outside on the left, a large U-Haul box truck with an extended rear loading ramp sits roughly 8 to 10 metres from the doorway (closing to about 5 to 6 metres from the camera wearer by frame 5) and faces away into the lot. About 6 to 8 metres to the right of the truck and 10 to 14 metres ahead of the doorway, a white passenger van is parked facing forward and slightly right, with a person in dark clothing standing within arm's reach beside its open right-side door, facing toward the van and not looking toward the camera wearer. In the earlier frames, the dark interior walls and vertical door mullions partially occlude the U-Haul truck, the white van, a nearby light pole on the right (about 4 to 6 metres from the entrance), and background parked cars 15 to 30 metres away, before the doorway frame passes to the right edge of the view in frame 5."
+ },
+ "duration_seconds": 16.585895,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 438,
+  "thinking_tokens": 50,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20017
+ },
+ "conversation_id": "09cd38c9-3393-43d9-96db-05b6c71b8202"
+}

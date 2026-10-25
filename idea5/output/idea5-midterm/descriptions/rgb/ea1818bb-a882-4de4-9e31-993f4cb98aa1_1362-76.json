@@ -1,0 +1,18 @@
+{
+ "id": "ea1818bb-a882-4de4-9e31-993f4cb98aa1_1362-76",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room with an exposed ceiling and overhead rectangular lights above, a clothing rack in the left background about 2.5 to 3.5 metres away, and a wall of large windows along the rear and right. In the foreground, a man in a red-and-black plaid shirt, dark glasses, and a green lanyard stands directly in front of the camera wearer, starting roughly 0.7 to 0.9 metres away in the first frame and closing to about 0.4 to 0.6 metres by the fifth frame, well within arm's reach. In the first frame, he is positioned slightly left of center and angled toward the right while looking down at a black garment on a hanger held in both hands about 0.4 to 0.6 metres from the camera wearer, while a second person in a dark shirt stands roughly 2.5 to 3.5 metres away in the right background (about 2 metres behind the foreground man) facing forward and looking down at their hands. Across the second and third frames, the camera view pitches slightly upward as the foreground man moves closer and lifts the hanger and garment across the lower-right foreground, which partly occludes his lower face and chest and completely blocks the background person from view. In the fourth and fifth frames, the foreground man turns his head and torso to face the camera wearer directly while looking slightly downward toward the camera wearer's chest level, and the top of the background person's head briefly reappears at the lower-right frame edge in the fourth frame. Also in the fourth and fifth frames, the camera wearer's left hand reaches into the lower-left foreground about 0.3 to 0.5 metres from the camera to touch the man's right collar and shoulder, while his lower torso and the garment beneath the hanger hook are cropped out below the bottom edge of the view."
+ },
+ "duration_seconds": 52.105999,
+ "usage": {
+  "input_tokens": 19621,
+  "output_tokens": 1179,
+  "thinking_tokens": 711,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20800
+ },
+ "conversation_id": "a24a0ba5-8a20-49d5-b731-315df5bc00b0"
+}

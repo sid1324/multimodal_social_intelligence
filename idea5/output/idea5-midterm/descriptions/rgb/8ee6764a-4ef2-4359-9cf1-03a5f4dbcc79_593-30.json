@@ -1,0 +1,12 @@
+{
+ "id": "8ee6764a-4ef2-4359-9cf1-03a5f4dbcc79_593-30",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a narrow, unfinished brick corridor or balcony, with a waist-high brick wall and open exterior along the left, brick pillars ahead, and a darker interior area with debris on the right. One person is initially about 0.5\u20131 metre ahead, near the center-right, with their upper body partly cropped; they face away toward the openings and do not look toward the camera. Across the five frames, the person shifts to the right and becomes more fully visible at roughly 1\u20132 metres away, turning slightly so their left side and back face the camera while they look toward the right-side opening. The nearest brick wall and pillar edges are within the camera wearer\u2019s arm\u2019s reach, while the person, sacks, boards, and a bucket remain beyond immediate reach. Brick pillars intermittently occlude parts of the person and corridor, and the exterior building visible through the openings stays several metres beyond the balcony wall."
+ },
+ "duration_seconds": 11.8,
+ "usage": null,
+ "conversation_id": null
+}

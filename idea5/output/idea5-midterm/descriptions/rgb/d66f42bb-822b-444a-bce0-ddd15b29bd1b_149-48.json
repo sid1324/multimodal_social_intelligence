@@ -1,0 +1,12 @@
+{
+ "id": "d66f42bb-822b-444a-bce0-ddd15b29bd1b_149-48",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is on a sidewalk beside a multi-lane parking or roadway area, with a small tree and curb in the near foreground, a canopy-covered equipment table and tall black speakers about 2\u20135 m ahead, parked cars roughly 4\u20138 m away, and rows of palms and light poles farther behind. In the first two frames, a man in a white shirt and blue jeans stands about 2\u20133 m to the left-front near the tree, facing mostly right and partly toward the camera, while another dark-clothed person is partly occluded by the tree, table, and speaker about 3\u20135 m ahead. Across the middle frames, the camera turns right and/or moves past the setup, causing the white-shirted man and tree to shift out of view on the left while the speakers, tables, canopy, and cars slide from center-right toward the left side. A dark-clothed person in the roadway becomes clearer about 5\u20138 m in front, faces generally toward the camera wearer, and shifts from center-right toward center-left as the view continues turning right; another person remains near the canopy, partly hidden by equipment. Nothing clearly enters the camera wearer's arm's reach, although the curb and edge of the sidewalk are within roughly 1 m; the people near the equipment may be within arm's reach of the tables and speakers, which mutually occlude parts of their bodies."
+ },
+ "duration_seconds": 10.6,
+ "usage": null,
+ "conversation_id": null
+}

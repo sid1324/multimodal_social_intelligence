@@ -1,0 +1,18 @@
+{
+ "id": "cce59bcd-0ebc-463e-bbb1-094186a6ed8d_1562-00",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open-plan indoor living area with a white coffee table directly in front of and below the camera wearer at 0.5 to 1.2 metres, a grey sofa with a red cushion 2 to 3 metres away to the right, and a white shelving unit by windows 3 to 4 metres away on the left. On the table surface are a teal mug and a red game box on the nearer left side (about 0.6 to 0.8 metres away), a small purple vase with yellow flowers and magazines near the centre, and a second teal mug and an orange juice bottle on the far right corner (about 1.0 to 1.1 metres away), which are spaced 0.2 to 0.6 metres apart from one another. A person in a dark shirt and dark glasses is seated on the right side of the table about 0.8 to 1.0 metres from the camera wearer, with the right edge of the table, the second mug, and the bottle within their arm's reach, while the nearer mug, game box, and an open instruction sheet held 0.3 to 0.5 metres in front of the viewpoint are within the camera wearer's reach. In frames 1 to 4, the seated person's head and torso are out of view beyond the right frame edge with only their hands and forearms visible near the table edge, and in frames 2 to 4 the camera wearer's held paper sheet partially occludes the centre of the table. Across the five frames, the viewpoint pitches downward from frame 1 to frames 2 and 3 to focus on the held sheet and table, then pitches up in frame 4 and pans rightward in frame 5, cropping out the left side of the table while bringing the seated person into view as they face forward and slightly left, looking downward toward the table rather than at the camera wearer."
+ },
+ "duration_seconds": 17.513198,
+ "usage": {
+  "input_tokens": 5367,
+  "output_tokens": 985,
+  "thinking_tokens": 509,
+  "cache_read_tokens": 28429,
+  "total_tokens": 6352
+ },
+ "conversation_id": "33146c59-4067-4397-864a-c6193ed0a7ea"
+}

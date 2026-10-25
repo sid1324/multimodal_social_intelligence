@@ -1,0 +1,18 @@
+{
+ "id": "2859218c-84ee-4e85-833f-74255b355032_596-50",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a large indoor hall where a tiered wooden platform and long wooden planks extend from directly in front of the camera wearer to about 3 metres ahead, with a taller parallel wooden tier to the left, low stacked wooden panels 4 to 6 metres ahead on the right, and arched windows and a wooden staircase 8 to 15 metres away in the background. Throughout all five frames, the camera wearer's right hand remains within arm's reach at the bottom center-right, gripping the near edge of the top wooden plank about 0.4 metres away, while small black floor equipment sits 1 to 1.5 metres away in the bottom-right corner, partly out of view. In the first two frames, another person stands to the right of the platform about 2 metres ahead of the camera wearer, facing left toward the planks with raised arms and their head partially clipped by the top border in the second frame. Across the third and fourth frames, this person moves away from the camera wearer to a distance of about 3 metres, walking around the far-right side of the platform where their lower legs become occluded by the wooden structure before turning at the far end to face the camera wearer. By the fifth frame, the person stands directly opposite the camera wearer at the far end of the 2.5-to-3-metre plank, facing forward and looking toward the plank and camera wearer while placing both hands within arm's reach onto the far corners of the board."
+ },
+ "duration_seconds": 19.678155,
+ "usage": {
+  "input_tokens": 19521,
+  "output_tokens": 965,
+  "thinking_tokens": 583,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20486
+ },
+ "conversation_id": "8d6482dc-0f02-4266-b367-08191a788e48"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "34590a11-c136-4423-bdc4-c6a45221e546_565-25",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A sewing machine sits on a tabletop directly in front of and slightly right of the camera wearer, roughly 0.4\u20130.7 m away, with its handwheel on the right and a blue fabric or pouch immediately beside it. The camera wearer\u2019s forearms and hands enter from the bottom and right edges within arm\u2019s reach of the machine; the left hand rises and moves forward over the table in the middle frame, while the right hand remains near the machine before reaching toward its upper-right area in the final frame. Another person stands across the table about 1\u20131.5 m from the camera wearer and roughly 0.5\u20130.8 m from the machine; only parts of their lower torso, legs, hands, and feet are visible along the top edge, and their body faces generally toward the table and camera wearer, but their head and gaze are out of view. A blue door and small floor area lie behind that person, farther in front of the camera wearer, while the tabletop fills most of the left and central view and partly occludes both people\u2019s lower bodies. Across the five frames, the viewpoint shifts slightly right and closer to the machine, bringing the handwheel and the camera wearer\u2019s raised right arm more prominently into view while cropping more of the left side; neither person shows a clear large approach, retreat, or turn."
+ },
+ "duration_seconds": 11.5,
+ "usage": null,
+ "conversation_id": null
+}

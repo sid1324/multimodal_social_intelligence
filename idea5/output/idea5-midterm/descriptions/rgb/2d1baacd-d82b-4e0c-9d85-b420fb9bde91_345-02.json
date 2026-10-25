@@ -1,0 +1,18 @@
+{
+ "id": "2d1baacd-d82b-4e0c-9d85-b420fb9bde91_345-02",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a covered outdoor plaza at night with a tiled floor divided by light-colored stone bands, bordered by dark pillars and glass storefronts 8 to 15 metres to the left and a pole with a small tree 1.5 metres to the right in the first frame that passes out of view to the right as the camera wearer advances. In the first frame, a woman in a black dress, hat, and pink crossbody bag is 8 to 10 metres ahead to the left, walking rightward beside a companion 0.5 metres to her left. By the second frame, at about 6 to 7 metres away, the woman turns to face and look directly at the camera wearer while her companion remains just behind her, partially occluded by her body in subsequent frames. Across frames three to five, the woman approaches directly toward the camera wearer, closing the distance from about 4.5 metres to 2 metres, and finally to about 0.5 metres in the fifth frame. In this final frame, she is directly in front of the camera wearer and within arm's reach, with her torso and raised hands partly cropped by the bottom edge of the view and her head and hat almost completely occluding the person standing behind her. Meanwhile, another pedestrian in a red shirt holding a white bag walks forward on the right side from roughly 12 metres away in the second frame to about 5 metres away on the far right edge in the fifth frame, while a fourth person near the left storefronts at 10 to 12 metres away exits the left edge of the frame after the fourth frame."
+ },
+ "duration_seconds": 19.686799,
+ "usage": {
+  "input_tokens": 19521,
+  "output_tokens": 854,
+  "thinking_tokens": 447,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20375
+ },
+ "conversation_id": "0b42b7ef-7fa6-46f8-a9f4-bc311f063022"
+}

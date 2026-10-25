@@ -1,0 +1,18 @@
+{
+ "id": "94734a4a-4fb2-4d45-a47f-9d3d0ad70071_1049-90",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor urban sidewalk bordered on the left by a brick-and-glass building facade (with an illuminated 'FENG CHA' storefront ahead) roughly 1 to 2 metres from the camera wearer, and on the right by a street with trees and streetlights. A dark-haired woman in glasses and a black jacket with white sleeve stripes walks immediately to the camera wearer's left at about 0.5 to 0.8 metres\u2014within arm's reach of both the camera wearer and the adjacent brick wall about 0.5 to 1 metre to her left\u2014while two distant pedestrians walk roughly 15 to 25 metres ahead on the sidewalk about 1 metre apart from each other. In frame 1, the companion is partly cropped at the far left edge facing forward and slightly rightward; in frame 2, she falls completely out of view beyond the left border as the camera points slightly right, revealing a trash bin and red fire hydrant about 8 to 12 metres ahead on the right side of the walkway. In frame 3, as both advance forward along the sidewalk, the companion re-enters the left foreground in right profile facing forward and downward toward a food item in a white paper wrapper held within her and the camera wearer's arm's reach (roughly 0.5 to 0.7 metres away) below chest level. Across frames 4 and 5, as they pass the brick pillar alongside the storefront windows, the companion keeps her torso angled forward along the walkway while turning her head and gaze slightly rightward toward the camera wearer. Throughout her appearances, the companion's lower body below the waist is cropped out by the bottom frame boundary, her upper body partially occludes the brick pillar and glass window behind her to the left, and a second yellow object or food item is partly visible at the bottom-center edge within 0.5 metres of the camera wearer in frames 4 and 5."
+ },
+ "duration_seconds": 22.84918,
+ "usage": {
+  "input_tokens": 19572,
+  "output_tokens": 1269,
+  "thinking_tokens": 794,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20841
+ },
+ "conversation_id": "055501ae-ba38-45fd-ad42-03a98a58c857"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "fec2a5e2-615f-46b3-a320-b8741c2b6365_562-48",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a narrow indoor retail or checkout area, with a counter and red cart directly in front, shelving to the left, and glass doors or partitions behind and to the right. A woman remains roughly 1\u20131.5 m in front of the wearer and within about 0.5 m of the counter/cart; she generally faces the wearer but looks downward or sideways in the first four frames, then looks more toward the wearer in the fifth. The cart rim and nearby countertop are within the wearer\u2019s arm\u2019s reach, while the woman\u2019s hands stay near or above them and within her own reach. Another person appears briefly about 2\u20133 m away on the left side of the fourth frame, mostly occluded by a tall dark fixture, placing that person roughly 2 m from the woman. Across the five frames, lateral camera motion shifts the woman from center-left to right and back toward center without a clear large change in depth, while doorframes, partitions, and the cart intermittently enter or leave the image edges and partially block the background."
+ },
+ "duration_seconds": 15.6,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,12 @@
+{
+ "id": "fc0450d5-00cd-4d55-9a8e-68628c38ddd2_87-11",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is immediately beside a cluster of large, tightly packed boulders, with most visible rock surfaces roughly 0.2\u20131.5 metres in front and small patches of sky above. In frame 1, a pale near-vertical rock occupies the left foreground about 0.3\u20130.7 metres away, while darker rocks and a narrow gap lie to the right; frames 2\u20133 shift the view rightward across adjoining rounded rocks and shadowed crevices. In frame 4, a broad rounded boulder fills the center within arm\u2019s reach, and part of the camera wearer\u2019s hand appears at the bottom against or within a few centimetres of its surface. By frame 5, the view has turned farther right toward two close rock faces separated by a dark vertical fissure, with the rightmost boulder partly cut off by the image edge. No other people are visible, and the rocks frequently occlude the terrain beyond them; the sequence mainly shows lateral turning or movement along the rock cluster rather than a clear approach or retreat."
+ },
+ "duration_seconds": 10.7,
+ "usage": null,
+ "conversation_id": null
+}

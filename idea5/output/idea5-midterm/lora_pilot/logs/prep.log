@@ -1,0 +1,7 @@
+train_spatial 5000 k Counter({2: 4029, 5: 971}) answer Counter({'B': 2241, 'A': 2209, 'C': 198, 'D': 181, 'E': 171})
+train_control 5000 k Counter({2: 4368, 5: 632}) answer Counter({'B': 2334, 'A': 2295, 'C': 138, 'E': 133, 'D': 100})
+eval_sat_val 500 k Counter({2: 500}) answer Counter({'A': 259, 'B': 241})
+eval_sat_test 150 k Counter({2: 150}) answer Counter({'A': 76, 'B': 74})
+{"prompt": "Considering the relative positions, is brown top white leg dining table (marked B) above or below black colour chair (marked A)?\nChoices:\nA. below\nB. above\nAnswer with the letter of the correct choice only.", "answer": "A", "question_type": "other"}
+{"prompt": "How many Beds are visible in the scene?\nChoices:\nA. 3\nB. 0\nC. 1\nD. 2\nE. 4\nAnswer with the letter of the correct choice only.", "answer": "C", "question_type": "other"}
+{"prompt": "How many ShelvingUnits are visible in the scene?\nChoices:\nA. 0\nB. 1\nC. 3\nD. 4\nE. 2\nAnswer with the letter of the correct choice only.", "answer": "B", "question_type": "other"}

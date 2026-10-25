@@ -1,0 +1,18 @@
+{
+ "id": "63d56e4c-e454-48c2-a8f2-5bc2c34622ca_1218-51",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer faces a dark slatted retail wall panel roughly 0.5 to 1.0 metre in front of them, with their right hand reaching up within arm's reach (about 0.4 metres away) to grasp a dark garment on a hanger at the bottom edge of the view. Between the second and third frames, the camera wearer turns to the left toward a wall of large windows, bringing a woman into view standing approximately 2.0 to 2.5 metres directly ahead in frames 3 and 4, positioned about 0.5 metres in front of the window panes. In frames 3 and 4, only the woman's head and upper shoulders are visible above the lower frame boundary, and her body and face are oriented directly toward the camera wearer while a clothing rack is partially visible to her left (the camera wearer's lower left) about 1.5 metres away. In the fifth frame, the camera pitches downward and approaches the woman, who is now about 1.2 to 1.5 metres in front of the camera wearer with her torso and legs visible while her head is cropped out above the top edge of the frame. In this final frame, the camera wearer's left hand holds dark clothing on a hanger within 0.3 to 0.5 metres at the lower-left edge, which partially occludes the rack directly between them and the woman's right hand, while a white shelving unit stands about 1.0 metre to the woman's left (on the right side of the frame) in front of the corner window."
+ },
+ "duration_seconds": 16.752257,
+ "usage": {
+  "input_tokens": 5409,
+  "output_tokens": 518,
+  "thinking_tokens": 107,
+  "cache_read_tokens": 28420,
+  "total_tokens": 5927
+ },
+ "conversation_id": "45662408-dc83-4ed1-86b8-8bd9a35d9c0e"
+}

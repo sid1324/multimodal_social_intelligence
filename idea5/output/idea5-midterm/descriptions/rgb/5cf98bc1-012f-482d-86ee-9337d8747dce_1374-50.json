@@ -1,0 +1,18 @@
+{
+ "id": "5cf98bc1-012f-482d-86ee-9337d8747dce_1374-50",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor climbing gym featuring an angled grey and yellow rock-climbing wall directly in front of the camera wearer (~1.5 to 2.5 metres away) with blue padded floor mats along its base. In frames 1 to 3, a climber in grey pants and a pink shirt is positioned high on the upper-right section of the wall (~2 to 2.5 metres ahead and above eye level), facing into the wall away from the camera wearer with their upper torso and head cropped out of the top of the frame, while a person in a grey t-shirt and white pants stands to the far left (~1.5 to 2 metres away), facing right and looking up toward the climber with their lower body initially cut off by the bottom edge. In frame 3, the camera wearer's own right arm extends upward into the lower-right foreground within arm's reach, and in frame 4 the camera view tilts downward as the climber drops vertically down the wall (~1.5 metres in front of the standing observer) while a third person in a black top enters the immediate left foreground (~0.5 to 1 metre from the camera wearer and ~1 metre in front of the person in the grey shirt), partially occluding the left edge of the scene. By frame 5, the climber has landed in a crouched position on the blue floor mat to the lower right (~2 metres from the camera wearer and ~1.5 metres to the right of the other two people), facing left and downward with the floor mat and lower climbing holds within their arm's reach. Meanwhile, both the person in the black top (within arm's reach to the left at ~0.8 metres) and the person in the grey shirt (~1.8 metres away to the left-center) turn their heads and gaze downward and to the right toward the crouched climber, with none of the three people looking at the camera wearer."
+ },
+ "duration_seconds": 13.351473,
+ "usage": {
+  "input_tokens": 4207,
+  "output_tokens": 628,
+  "thinking_tokens": 153,
+  "cache_read_tokens": 29628,
+  "total_tokens": 4835
+ },
+ "conversation_id": "5b46eaeb-b4e4-4c18-9d01-5a07d99891f4"
+}

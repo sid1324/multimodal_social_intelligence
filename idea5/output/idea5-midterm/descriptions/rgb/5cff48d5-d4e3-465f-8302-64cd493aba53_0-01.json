@@ -1,0 +1,18 @@
+{
+ "id": "5cff48d5-d4e3-465f-8302-64cd493aba53_0-01",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor ground-level area viewed looking downward from the seated camera wearer's perspective, featuring a raised mud or earthen ledge along the upper edge and bare ground beyond it. At the bottom of the frame, the camera wearer's lap (covered in patterned orange and pink fabric) and both hands with bangles are visible within 0.3 to 0.5 metres. In front of and to the right of the camera wearer on the ledge, roughly 0.6 to 1.0 metre away, sit three circular clay/earthen vessels and lids arranged in a line from left to right, spaced about 0.1 to 0.2 metres apart from each other. A standing child in a white long-sleeved shirt, orange striped shorts, and pink footwear is positioned on the left in front of the camera wearer, initially within 0.3 to 0.5 metres with their upper torso and head cropped out of the top of the frame. Across the first four frames, the child faces generally away and toward the upper left while their right hand is in direct contact with the camera wearer's hands within arm's reach, partially occluding the ground and the camera wearer's legs. By the fifth frame, the camera wearer's viewpoint tilts slightly upward and left as the child steps forward and away toward the upper-left ground to a distance of roughly 0.8 to 1.2 metres, revealing a vertical wooden post to the child's right and dark earthen chunks on the ground to the left."
+ },
+ "duration_seconds": 13.083744,
+ "usage": {
+  "input_tokens": 5362,
+  "output_tokens": 481,
+  "thinking_tokens": 88,
+  "cache_read_tokens": 28408,
+  "total_tokens": 5843
+ },
+ "conversation_id": "afef88ff-10c7-44b5-b045-755f86743c8f"
+}

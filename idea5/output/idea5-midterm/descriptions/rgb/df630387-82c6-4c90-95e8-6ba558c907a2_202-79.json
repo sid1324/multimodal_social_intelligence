@@ -1,0 +1,18 @@
+{
+ "id": "df630387-82c6-4c90-95e8-6ba558c907a2_202-79",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room under renovation with white walls, a glass door on the left, a multi-pane window, a tall aluminum A-frame ladder, a yellow miter saw stand, and another person standing in the room. In the first three frames, the camera wearer faces a white corner wall at a distance of about 0.5 to 1.5 metres while panning rightward and upward toward the high ceiling and recessed window, holding a flashlight in their right hand within arm's reach (0.4\u20130.6 metres). In the fourth and fifth frames, the camera wearer turns clockwise to the right, revealing an aluminum ladder immediately in front of and to the left of them at about 0.4\u20130.8 metres, within arm's reach. Beyond the ladder at roughly 2.0 to 2.5 metres stands a man in a white t-shirt and face covering facing and looking toward the camera wearer, with his right hand extended forward within his own arm's reach and a portable work light held in his left hand. In frame four, the ladder rungs partially occlude the standing man, while in frame five the camera wearer shifts rightward so the ladder moves to the left edge of the view, leaving the man, the camera wearer's outstretched right arm holding the flashlight, and the yellow saw stand (about 3.5\u20134.5 metres away on the right) clearly visible."
+ },
+ "duration_seconds": 14.488879,
+ "usage": {
+  "input_tokens": 19573,
+  "output_tokens": 431,
+  "thinking_tokens": 60,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20004
+ },
+ "conversation_id": "2b9de4cf-260c-466f-83d1-423300de148b"
+}

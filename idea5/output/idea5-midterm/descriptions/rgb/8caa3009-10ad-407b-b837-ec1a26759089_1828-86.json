@@ -1,0 +1,18 @@
+{
+ "id": "8caa3009-10ad-407b-b837-ec1a26759089_1828-86",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated in the right-side driver's seat inside a car cabin, facing forward down a paved two-lane road bordered by a raised median barrier on the right and vegetation on the left. Within arm's reach (roughly 0.3 to 0.8 metres in front of the wearer) are the top of the steering wheel held by the wearer's left hand at the bottom center, the dashboard below the windshield, a sun visor directly above at the top of the frame, a rearview mirror with an orange hanging garland to the front-left, and the right A-pillar and side mirror to the front-right. The lower cabin, the wearer's body, and the car's exterior hood are out of view below the bottom frame edge, while the A-pillar, roof liner, and rearview mirror partially occlude the exterior roadside and sky. Through the windshield, a person riding a bicycle on the left side of the road faces away from the camera wearer in the direction of travel, with additional distant vehicles and a red truck visible further ahead (roughly 50 to over 100 metres away) on both the main highway to the right and the current roadway. Across the five frames, the car moves steadily forward so that the cyclist ahead on the left rapidly gets closer, decreasing in distance from roughly 40\u201350 metres away in the first frame to about 10\u201315 metres in front-left of the vehicle by the fifth frame. Meanwhile, the camera wearer tilts their head slightly downward in frames four and five, shifting the steering wheel and hand partially out of the bottom edge while bringing more of the overhead roof liner into view."
+ },
+ "duration_seconds": 13.656041,
+ "usage": {
+  "input_tokens": 19552,
+  "output_tokens": 520,
+  "thinking_tokens": 99,
+  "cache_read_tokens": 14196,
+  "total_tokens": 20072
+ },
+ "conversation_id": "e9e2d6d4-bbc7-428a-bdfd-517ab5bce359"
+}

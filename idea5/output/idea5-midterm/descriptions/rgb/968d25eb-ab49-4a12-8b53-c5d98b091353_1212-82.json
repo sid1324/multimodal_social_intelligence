@@ -1,0 +1,12 @@
+{
+ "id": "968d25eb-ab49-4a12-8b53-c5d98b091353_1212-82",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A narrow street runs forward between closely spaced buildings, with walls, barred windows, doors, and overhead lights on both sides; the camera wearer moves forward along the street. In frames 1\u20134, a person in a pale yellow shirt is about 1\u20132 m ahead near the center, facing away and remaining roughly the same distance while shifting from slightly right to slightly left in the view. A backpacked person appears to the left of that person in frame 2, about 1\u20132 m from the camera and less than 1 m from the yellow-shirted person, also facing forward rather than toward the camera. Several smaller figures are farther down the street, approximately 6\u201315 m ahead, intermittently obscured by the nearer person, building edges, and motion blur. By frame 5, two people occupy the right foreground: a seated masked person roughly 0.5\u20131 m away and a standing person in a light top roughly 1\u20132 m away; they are within or near the camera wearer\u2019s arm\u2019s reach, partly cropped by the bottom and right edges, and appear in side or rear profile rather than looking directly toward the camera. Across the sequence, the viewpoint passes the foreground pair on their left while the yellow-shirted person moves out of view, and no person is clearly visible behind the camera wearer."
+ },
+ "duration_seconds": 10.4,
+ "usage": null,
+ "conversation_id": null
+}

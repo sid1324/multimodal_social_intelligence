@@ -1,0 +1,18 @@
+{
+ "id": "59857657-5cb1-4268-9c8f-ab6cb3c3ad3b_5306-98",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in an indoor shopping mall corridor featuring a tiled floor, illuminated storefronts, a cylindrical support column, and a pair of side-by-side escalators ascending from right to left. In frame 1, the escalators are about 4 to 6 metres ahead on the left behind a low railing, a column with a potted plant stands about 3 metres ahead-left, and a man in a white shirt, glasses, and black mask stands within arm's reach (about 0.8 metres) at the far right edge, partly cropped out of view while facing and looking toward the camera wearer. In frame 2, the viewpoint turns rightward toward an open walkway where the man in the white shirt walks about 1.5 metres ahead-left facing away, another pedestrian in a white t-shirt and grey trousers walks about 3.5 metres to the right facing forward-left, and several other people and a cow statue are 7 to 10 metres away in the background. Across frames 3 and 4, the camera wearer turns left and approaches the base of the escalators (closing from about 2.5 metres to 1 metre away), while the man in the white shirt remains 0.6 to 1 metre to the right\u2014within arm's reach\u2014angled toward the escalator steps with his head turned left looking at the camera wearer, and another person's lower legs are partially visible 3 to 4 metres ahead and above on the left escalator. By frame 5, both have stepped onto the right-hand escalator, placing the man in the white shirt directly in front of and slightly above the camera wearer at about 0.6 metres (within arm's reach), facing away with his head cropped above the top frame edge and his left hand touching the left handrail. In this final frame, both escalator handrails are within arm's reach of the camera wearer on the left and right, while a yellow floor sign (about 3 metres below-right) and three distant pedestrians (6 to 9 metres away) remain visible to the right of the glass balustrade."
+ },
+ "duration_seconds": 33.582156,
+ "usage": {
+  "input_tokens": 5379,
+  "output_tokens": 1147,
+  "thinking_tokens": 635,
+  "cache_read_tokens": 28421,
+  "total_tokens": 6526
+ },
+ "conversation_id": "235f3571-9473-465d-850b-c83048cc8d33"
+}

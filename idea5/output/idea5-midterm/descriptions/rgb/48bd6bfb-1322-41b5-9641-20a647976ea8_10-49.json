@@ -1,0 +1,12 @@
+{
+ "id": "48bd6bfb-1322-41b5-9641-20a647976ea8_10-49",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the five frames, a white-and-yellow bus occupies the center and then increasingly fills the view as the camera wearer moves from roughly 4\u20136 m away to within about 0.5\u20131 m of its open front doorway. A bicycle stands beside the curb near the bus entrance, about 1\u20132 m from the camera wearer in the middle frames and partly occluded by the bus and frame edges. The bus driver is seated inside above and to the right of the doorway, initially several metres away and later about 1\u20132 m away; the driver faces mostly forward or toward the controls and does not clearly look at the camera wearer. Trees, grass, a sidewalk, poles, and distant vehicles lie behind and to the left or right of the bus, generally more than 5 m away, while parts of the bus extend beyond the top and side boundaries as the camera approaches. In the final frames, the doorway, dashboard area, and driver are close ahead and to the right, while a patterned bag or fabric enters the lower-right foreground within arm's reach and partially blocks the entrance area."
+ },
+ "duration_seconds": 10.6,
+ "usage": null,
+ "conversation_id": null
+}

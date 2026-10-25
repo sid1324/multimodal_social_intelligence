@@ -1,0 +1,12 @@
+{
+ "id": "a71f72c5-5225-4b12-aba3-01fa46f53427_914-96",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a store aisle, with long product shelves running across the left and center at roughly 0.5\u20132 m and a glass-fronted wall or doorway area on the right at about 2\u20134 m. Across frames 1\u20133, the camera turns and moves rightward along the shelving: nearby shelf edges and products sweep rapidly across the view, become heavily motion-blurred, and intermittently occlude the more distant aisle and floor. Most visible merchandise is within about 0.5\u20131.5 m of the camera wearer and likely within arm\u2019s reach, while higher items sit above hand or head level; no people are clearly visible in the first three frames. In frames 4\u20135, a dark-haired person appears behind a low display near the lower-right/center, roughly 1\u20132 m away, facing approximately toward the camera wearer, although their eyes and exact gaze are unclear because the face is partly hidden by the display and frame edge. A second person is partly visible farther back near the right wall, around 3\u20135 m from the camera and roughly 2\u20134 m behind the nearer person, with too little visible detail to determine facing direction or gaze. By the final frame the camera has turned farther right and slightly approached the foreground display, bringing the nearer person and colorful packaged goods more centrally into view while the left-side shelves move mostly out of frame."
+ },
+ "duration_seconds": 15.0,
+ "usage": null,
+ "conversation_id": null
+}

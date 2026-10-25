@@ -1,0 +1,18 @@
+{
+ "id": "2dff68c2-6310-4763-8d39-05a1dbe40fda_501-39",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor tiled courtyard bordered by a red-and-black patterned wall on the left and a white wall with greenery in the background, containing a row of three parked motorcycles on the left and several standing and seated people. In the first frame, a doorframe is within arm's reach (under 0.5 m) on the right, a man in a grey suit stands about 1.5 to 2 m ahead facing away from the camera wearer, three parked motorcycles are lined up 2 to 5 m to the left, and a person in a black shirt is about 6 m ahead near the back wall. In the second frame, as the camera wearer steps past the doorway, a uniformed man in khaki comes into view about 3 m ahead to the right facing the grey-suited man (~1.5 m ahead), while three men are positioned 5 to 7 m away near the back corner (one seated in blue facing the camera, two standing in profile). Across the third and fourth frames, the camera wearer walks forward and pitches their gaze downward to pass directly between the closest blue-seated motorcycle on the right and the red motorcycle on the left, bringing both bikes within arm's reach (under 1 m) while the wearer's left hand enters the lower foreground holding a cup (~0.4 m away) and the surrounding people's upper bodies are cropped out of the top and right edges of the view. By the fifth frame, the camera wearer stops between the handlebars of the red and blue motorcycles (each within 0.5 to 1 m to the left and right) and raises their view toward a man in a blue patterned shirt standing 1.5 to 2 m ahead to the left, who faces and looks directly toward the camera wearer. Behind and to the right of the blue-shirted man in the fifth frame, a man in a white shirt and dark shorts stands about 3.5 m away in right profile, another man in a white shirt and khaki pants stands 2.5 to 3 m ahead to the right facing toward the camera with his head cropped by the upper frame edge, and the man in the grey suit remains partially occluded by the right edge of the frame about 1.5 to 2 m away."
+ },
+ "duration_seconds": 18.661876,
+ "usage": {
+  "input_tokens": 5306,
+  "output_tokens": 1140,
+  "thinking_tokens": 594,
+  "cache_read_tokens": 28428,
+  "total_tokens": 6446
+ },
+ "conversation_id": "823d6cf1-a1e2-4a66-8922-ef2138c73a3d"
+}

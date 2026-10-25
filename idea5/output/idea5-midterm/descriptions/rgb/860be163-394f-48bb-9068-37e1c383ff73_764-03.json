@@ -1,0 +1,18 @@
+{
+ "id": "860be163-394f-48bb-9068-37e1c383ff73_764-03",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a paved ground-floor courtyard beneath a concrete building with support pillars and parked scooters about 4 to 6 metres away on the right and an open courtyard area extending behind to the left. Directly below and in front of the camera wearer at 0.3 to 0.6 metres\u2014within arm's reach\u2014are bicycle handlebars and a front wire basket holding a yellow plastic bag. Standing 0.7 to 1.0 metre in front and slightly to the left of the camera wearer is a person in a blue shirt facing the camera wearer and angled downward toward the basket rather than at the camera, with the basket, handlebars, and a curved black lock cable held in her left hand all within her arm's reach. About 4 to 6 metres ahead in the middle ground (roughly 3 to 5 metres behind the person in blue and 2 to 3 metres left of the pillars and scooters), a woman in a red and green sari stands facing away from the camera wearer, while two distant figures are 10 to 15 metres back near the rear opening. Across the five frames, the camera wearer's viewpoint pitches down in frame 2, up in frame 3, and slightly down again in frames 4 and 5\u2014causing the upper head of the person in blue to be cropped out of the top of the frame in frames 1, 2, and 5\u2014while the camera wearer's hands reach into the basket to lift the yellow bag toward the left and the person in blue lowers the lock cable toward the basket in frame 4 before retracting her left hand in frame 5."
+ },
+ "duration_seconds": 21.828675,
+ "usage": {
+  "input_tokens": 19524,
+  "output_tokens": 926,
+  "thinking_tokens": 512,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20450
+ },
+ "conversation_id": "908ca736-82c1-4e74-8976-b4e90969b4f7"
+}

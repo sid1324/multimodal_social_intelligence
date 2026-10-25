@@ -1,0 +1,18 @@
+{
+ "id": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1872-88",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor salon or lounge with a row of high-backed tufted beige armchairs lined up along a dark grey wall, spaced roughly 0.5 to 0.8 metres apart and extending from under 1 metre to about 4 metres away. In the first three frames, a person wearing a black mask, a head-mounted camera, and a black shoulder bag is seated on the front edge of the nearest armchair on the right, approximately 0.8 to 1.2 metres in front of and to the right of the camera wearer. This seated person faces forward and slightly right away from the backrest while turning their head to the right to look directly toward the camera wearer, with the chair's armrest, pillows, and their own bag within their arm's reach and the nearest chair's armrest also within the camera wearer's reach. Further along the row to the left and behind the nearest armchair, two additional tufted armchairs and small side tables are partially occluded by the foreground chair's high wingback and the seated person's body, while the seated person's lower legs are cropped out at the bottom edge. In the fourth frame, the camera wearer turns sharply to the left and shifts toward an adjacent empty tufted armchair located about 0.7 to 1.0 metre in front of them, causing the seated person to move completely out of view to the right. By the fifth frame, the camera wearer rotates further right and tilts downward to face the narrow gap between the two armchairs at a distance of about 0.6 to 1.0 metre, where a small dark side table holding dark and gold-colored boxes sits within arm's reach below a white wall outlet, with the left and right armchairs partially cropped at the frame edges."
+ },
+ "duration_seconds": 16.544243,
+ "usage": {
+  "input_tokens": 19624,
+  "output_tokens": 564,
+  "thinking_tokens": 126,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20188
+ },
+ "conversation_id": "64cd003b-10e9-46b0-977e-fa15768e8423"
+}

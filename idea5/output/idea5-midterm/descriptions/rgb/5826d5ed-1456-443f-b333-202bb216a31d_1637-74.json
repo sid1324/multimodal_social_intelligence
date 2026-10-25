@@ -1,0 +1,12 @@
+{
+ "id": "5826d5ed-1456-443f-b333-202bb216a31d_1637-74",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer faces a very dark indoor space with a low ceiling overhead; a row of small bright lights runs along the upper-left to upper-middle area, likely several metres away. A large dark foreground form occupies much of the lower-left and central view, within roughly 0.5\u20131.5 m of the camera, but the darkness and cropping prevent reliable identification or facing direction. Thin vertical or curved elements appear near the lower centre-left in several frames, partly occluded by the foreground form and extending out of the bottom edge. No clearly identifiable person, face, or gaze direction is visible, so distances between people and whether anyone looks toward the camera cannot be determined. From left to right, the ceiling lights shift toward the centre and then upper-right while the foreground silhouette moves laterally across the frame, consistent with the camera wearer turning or panning rather than clearly approaching or retreating."
+ },
+ "duration_seconds": 11.1,
+ "usage": null,
+ "conversation_id": null
+}

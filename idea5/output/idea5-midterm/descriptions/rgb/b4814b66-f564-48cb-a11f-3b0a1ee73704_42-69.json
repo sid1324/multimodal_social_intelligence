@@ -1,0 +1,18 @@
+{
+ "id": "b4814b66-f564-48cb-a11f-3b0a1ee73704_42-69",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer looks down and slightly left inside a bedroom toward the side of a wooden-framed bed covered in patterned blankets about 0.5 to 1.5 metres ahead and to the right (within arm's reach), with a white rug directly below on the floor, a small yellow ball about 2 metres away to the left, and an open doorway 3 to 4 metres away in the upper-left background. The far end and top surface of the bed are partially out of view beyond the right and upper frame edges. In the third frame, the camera wearer rotates rapidly to the right, blurring the scene as the bed moves to the lower left and a back wall with hanging pictures (about 2.5 to 3 metres away) and bright windows on the right wall (about 2 to 2.5 metres away) sweep into view. By the fourth and fifth frames, the camera wearer completes the rightward turn and tilts the viewpoint downward toward the carpeted floor next to a tall blue-paneled partition located about 0.8 to 1.2 metres away on the right (within arm's reach). In the background of frames four and five, the foot of the bed and a black laundry hamper sit 1.5 to 2 metres away on the far left, a wooden chair stands in the corner about 2.5 to 3 metres ahead, and a red crate filled with books rests below the window about 2 to 2.5 metres away and roughly 0.5 metres to the right of the chair. Directly in front of and below the camera wearer at a distance of 0.5 to 1.2 metres (within arm's reach), a black, brown, and white dog lies on its side on the carpet with its legs stretched toward the left and its head and rear partially cut off by the bottom-right edge of the frame, while a part of the camera wearer's limb enters the bottom edge in the final frame."
+ },
+ "duration_seconds": 29.322069,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 1145,
+  "thinking_tokens": 657,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20722
+ },
+ "conversation_id": "3406014d-0b55-4dfd-bc7e-1248031b16f8"
+}

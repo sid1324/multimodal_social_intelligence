@@ -1,0 +1,18 @@
+{
+ "id": "6f93978d-a3d0-467d-b401-e23b3c92f3bf_5298-67",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor ground-level workspace viewed from a downward-looking angle, featuring flat trays covered in grain and piped leaf-shaped patterns sitting on patterned cloth and white woven sacks over concrete. In the first two frames, the camera wearer's right arm (wearing a red sleeve and gold bangle) reaches forward about 0.4 to 0.6 metres above a tray directly in front of them, holding a plastic piping bag over the upper-right section of the tray while a second tray is partially visible to the right. Between the second and third frames, the camera wearer turns their head and torso roughly 90 degrees to the left, bringing their blue-draped lap into the lower foreground and revealing another person standing immediately to their left at a distance of about 0.5 to 0.8 metres. This second person, wearing a red garment and blue trousers, is seen from the torso down with their head and upper body out of view above the frame, holding a translucent plastic bag within arm's reach (about 0.5 metres) of both individuals. Behind the standing person's legs, about 1.0 to 1.2 metres from the camera wearer, a white woven sack labeled 'SUGAR' lies on the ground to the left of the patterned trays, while two round metal basins sit on the concrete floor to the far left in the final frame. Across frames three to five, the standing person shifts slightly backward and to the left while the camera wearer raises their left arm (also in a red sleeve and gold bangle) upward and forward to touch the bottom of the standing person's red garment at roughly 0.4 metres distance."
+ },
+ "duration_seconds": 23.146215,
+ "usage": {
+  "input_tokens": 5351,
+  "output_tokens": 504,
+  "thinking_tokens": 84,
+  "cache_read_tokens": 28413,
+  "total_tokens": 5855
+ },
+ "conversation_id": "509ccc0b-518b-4585-ace9-5e5ab5b5b754"
+}

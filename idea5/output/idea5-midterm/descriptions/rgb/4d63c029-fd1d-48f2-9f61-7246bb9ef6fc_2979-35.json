@@ -1,0 +1,12 @@
+{
+ "id": "4d63c029-fd1d-48f2-9f61-7246bb9ef6fc_2979-35",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is very close to a bicycle in a workshop-like space, with the front wheel, frame, handlebars, cables, and repair-stand hardware roughly 0.2\u20131 m ahead and mostly above the wearer\u2019s visible gloved hands. A white tiled floor lies below, while a black-and-orange tool cabinet or platform is about 0.5\u20131.5 m in front-right; additional equipment, shelving, and another bicycle are partly visible about 1\u20133 m farther ahead. One other person is partially visible near the bicycle in the later frames, roughly 0.5\u20131 m from the camera wearer, but their head and most of their body are outside the frame, so facing direction and eye contact cannot be determined. The wearer\u2019s hands and the nearest parts of the bicycle are within arm\u2019s reach, and the bicycle wheel and frame repeatedly occlude the more distant floor, equipment, and parts of the other person. From left to right, the viewpoint turns and shifts rightward and closer beneath the bicycle, causing the wheel and frame to sweep across the center, enlarge, and increasingly dominate the view while the left-side workspace moves out of frame."
+ },
+ "duration_seconds": 12.1,
+ "usage": null,
+ "conversation_id": null
+}

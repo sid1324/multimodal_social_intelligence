@@ -1,0 +1,18 @@
+{
+ "id": "069c1058-881d-49da-b45d-b9f7e08fe932_2408-86",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer stands at the threshold of open wooden double doors facing an outdoor paved area, with a portable table saw directly in front and below eye level at about 0.5 to 1.0 metres (within arm's reach) as the wearer's right hand moves a narrow wooden strip from the left side of the saw table in frame 1 to the right side in frame 2, while the wearer's lower body is partly cut off at the bottom edge. In frame 3, the wearer turns roughly 180 degrees toward the indoor workspace, bringing the open wooden door and a floor-mounted yellow miter saw (about 1.5 to 2.0 metres away) to the right, a dusty concrete floor below, and an indoor area ahead containing a large wooden structure on the left and vertical boards leaning against a central pillar about 3.0 to 3.5 metres away. Across frames 3 to 5, the wearer steps forward into the room, approaching a second person in a grey shirt and dark pants who stands beside the wooden structure, reducing the distance between them from roughly 3.0 metres in frame 3 to about 1.5 to 2.0 metres on the front-left in frame 5. This second person remains bent over facing the wooden structure to the left, looking downward at wooden panels within their own arm's reach rather than toward the camera wearer. About 1.0 to 1.5 metres to the right of that person lie a black cable reel and scrap wood on the floor (about 1.5 to 2.0 metres ahead of the wearer in frame 5), while the vertical boards against the pillar sit about 2.5 metres ahead and a blue folding chair beside dark platform blocks is positioned 3.0 to 4.5 metres away to the front-right. As the wearer advances and turns slightly leftward in frames 4 and 5, the wooden structure on the left becomes partially cropped by the left frame boundary, and the yellow miter saw on the right retreats out of view past the bottom-right edge."
+ },
+ "duration_seconds": 22.687302,
+ "usage": {
+  "input_tokens": 19521,
+  "output_tokens": 1262,
+  "thinking_tokens": 745,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20783
+ },
+ "conversation_id": "7fbe0202-e6b6-4f87-a3f9-16486bcc8e31"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "2d1bf98e-a133-4f63-bc1d-91f718078a52_337-47",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show a compact bicycle workshop, with tiled floor below, benches and storage bins along the far wall, and several bicycles and stands occupying the center and sides. A man in a dark gray shirt remains roughly 1\u20132 m in front of the camera wearer, generally facing away or downward toward a bicycle and never clearly looking toward the camera; nearby bicycles are within about 0.5\u20131 m of him. The camera wearer\u2019s hands, forearms, and a bicycle handlebar or wheel intermittently appear at the lower edge within arm\u2019s reach, while another bicycle is about 0.5\u20131.5 m to the left or directly ahead and partly occludes the floor and furniture. Across the sequence, the viewpoint rotates and shifts rightward and downward, moving from a view dominated by bicycles on the left and center toward the workbench, chair, and bike components on the right; the man consequently moves from upper center-right toward upper left in the image without a clear large change in distance. Chairs, bins, tools, and work surfaces lie roughly 1\u20133 m ahead around the room perimeter, with many objects partially hidden behind bicycle frames or cropped by the top, bottom, and side edges."
+ },
+ "duration_seconds": 11.2,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "b5d691f6-1618-467e-9fc9-d2ebd8eaafe4_836-72",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands outdoors looking steeply downward at their own torso, arms, and a vertical metal grid fence directly in front of them, with no other people present in the scene. A concrete ledge or step sits at the base of the metal grid about 1.5 metres below the camera, while sandy ground scattered with small stones and brick fragments lies on the far side of the grid roughly 1.5 to 2.5 metres away. The camera wearer's left arm extends forward and upward on the left side of the frame to grip an upper bar of the metal grid at about 0.3 to 0.5 metres from the camera, partially occluding the grid and ground behind it, while the top of the left hand is partly cut off by the upper frame edge. Below and to the right of the left arm, the camera wearer's right hand holds a long flat metal tool\u2014such as a file or blade\u2014within arm's reach at about 0.5 to 0.7 metres below the camera, pressing it against the lower horizontal bar and wire intersections of the grid. The camera wearer's striped shirt, white lower garment, and left foot on the concrete base are visible directly below at the bottom of the frame, with the rest of their body out of view. Across the five frames from left to right, the scene layout and camera orientation remain nearly static as the left arm shifts slightly leftward and the right hand moves the metal tool back and forth along the lower grid bar by a few centimetres."
+ },
+ "duration_seconds": 12.028408,
+ "usage": {
+  "input_tokens": 19557,
+  "output_tokens": 522,
+  "thinking_tokens": 136,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20079
+ },
+ "conversation_id": "242300aa-3c80-4f51-88ee-5ad2e8406f36"
+}

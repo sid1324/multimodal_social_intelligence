@@ -1,0 +1,18 @@
+{
+ "id": "3ffeedef-3088-4e70-a21d-3578f07546a2_2438-39",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows a downward-angled egocentric view of a narrow, rocky dirt trail flanked on the left and right by raised earthy banks covered in rocks, moss, and low scrub vegetation. Directly in front of and below the camera's line of sight is a person wearing dark pants, rubber boots, and a bright blue backpack, positioned roughly 1.8 to 2.5 metres ahead in the first four frames, with a second person in white clothing and dark pants situated about 0.5 to 1 metre further ahead of the first person (roughly 2.5 to 3.5 metres from the camera wearer). Both people face away from the camera wearer along the forward path of the trail and never look back toward the camera. Because of the downward camera pitch, the upper body and head of the person with the blue backpack are cut off by the top edge of the frame in frames 1 through 4, and their body and backpack completely or mostly occlude the second person ahead in all frames except frame 3 (where the second person's left legs and lower white jacket appear to the left) and frame 5 (where a small portion of white clothing is visible ahead of the first person's left shoulder). The camera wearer's own dark-sleeved right arm or hand is partially visible at the bottom-right corner in frames 1 and 4, and the tip of their boot appears at the bottom center in frame 2. Across the five frames, the camera wearer advances along the trail at a fairly steady distance behind the first person from frames 1 to 4 before closing the gap in frame 5 to roughly 0.8 to 1.2 metres, shifting the blue-backpacked person into the right half of the view and bringing their backpack nearly within the camera wearer's arm's reach while the two people ahead remain within arm's reach of each other."
+ },
+ "duration_seconds": 24.587997,
+ "usage": {
+  "input_tokens": 5409,
+  "output_tokens": 1289,
+  "thinking_tokens": 822,
+  "cache_read_tokens": 28428,
+  "total_tokens": 6698
+ },
+ "conversation_id": "c034520e-2c82-4de4-87d1-33d56c022425"
+}

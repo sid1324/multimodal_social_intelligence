@@ -1,0 +1,18 @@
+{
+ "id": "356dd07e-8165-494c-9be8-b82d314bf88d_895-74",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor breakroom or cafe corner with a small round black table directly in front of the camera wearer at about 0.8 to 1.5 metres, backed by a lit pastry display case and a tall double-door glass beverage refrigerator along the back-right wall roughly 2.5 to 4 metres away, and a beverage dispenser counter along the back-left wall about 4 to 5 metres away. A seated person in a blue t-shirt and sunglasses is positioned about 2 to 2.5 metres in front of the camera wearer and slightly to the right, just in front of the display case and refrigerator, facing generally toward the camera wearer and the table with their head tilted slightly downward in frames 3 and 4. On the left at about 0.8 to 1.2 metres, a standing person in a yellow shirt and another standing person just beyond them in a white t-shirt (about 1.8 to 2.5 metres away) face away from the camera wearer toward the back-left counter, while in frames 1 and 2 a person in dark clothing on the far right at roughly 1 metre partially occludes the right side of the refrigerator. The round table holding a brown paper bag, bottles, and a can is within arm's reach of both the camera wearer and the seated person in blue, who holds a white cup in their right hand at chest height in frames 1, 2, and 5 and lowers it to table level in frames 3 and 4, while the display case and refrigerator sit immediately behind the seated person within their reach. Several elements are partially out of view or occluded, including the lower edge of the round table at the bottom of the frame, the heads and left sides of the standing people in yellow and white on the left edge, and the right half of the beverage refrigerator when the camera pans left in frames 3 and 4. Across the five frames, the camera wearer turns their head leftward and steps slightly closer to the table from frames 1 to 4\u2014bringing the seated person from 2.5 metres to roughly 1.8 metres and shifting the standing people in yellow and white into the left foreground\u2014before turning back to the right and retreating slightly in frame 5 so the standing people move out of the left edge of the view."
+ },
+ "duration_seconds": 14.480205,
+ "usage": {
+  "input_tokens": 19575,
+  "output_tokens": 780,
+  "thinking_tokens": 221,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20355
+ },
+ "conversation_id": "a69869dc-fa05-4727-9d20-c96ea267e58a"
+}

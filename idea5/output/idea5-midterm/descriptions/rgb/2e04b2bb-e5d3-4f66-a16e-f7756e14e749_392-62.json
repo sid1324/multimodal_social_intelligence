@@ -1,0 +1,12 @@
+{
+ "id": "2e04b2bb-e5d3-4f66-a16e-f7756e14e749_392-62",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer stands directly in front of a crowded laboratory bench, with the bench surface about 0.2\u20130.5 m away and the rear wall, shelves, and equipment roughly 0.8\u20131.5 m ahead. A black rectangular tray filled with ice sits near the center-right of the bench about 0.4\u20130.7 m from the camera, while blue tube racks lie in front of it and stacks of pipette-tip boxes and small containers occupy the left and rear areas, generally within about 0.3\u20131.0 m of one another. No other person is visible; only the camera wearer's blue-gloved hands and white-sleeved forearms enter the lower and side portions of the frames, partly occluding nearby boxes, racks, and the tray. Nearly all foreground items are within the wearer's arm's reach, whereas equipment and bottles along the back edge are farther away but still approximately within 1 m. From left to right in time, the viewpoint turns and shifts slightly rightward toward the ice tray, while the right arm extends forward over the bench and reaches above the near edge of the tray; the objects themselves remain stationary and no clear approach or retreat of another person occurs."
+ },
+ "duration_seconds": 9.7,
+ "usage": null,
+ "conversation_id": null
+}

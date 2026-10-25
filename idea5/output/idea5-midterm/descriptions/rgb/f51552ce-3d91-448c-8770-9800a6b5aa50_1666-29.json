@@ -1,0 +1,12 @@
+{
+ "id": "f51552ce-3d91-448c-8770-9800a6b5aa50_1666-29",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A leaf-covered dirt trail runs through bare deciduous woods, extending forward near the center and rising slightly, with sloped banks, standing trees on both sides, and fallen branches or logs mainly to the right. Two people are ahead on the trail: a dark-clothed person on the left and an orange-clothed person on the right, generally about 1\u20132 m apart. Across the five frames they grow from small and roughly 20\u201330 m ahead to about 4\u20137 m ahead, indicating decreasing separation from the camera wearer; both face generally toward the camera, though their gaze is not clearly visible. Neither person nor any fixed scene object is within the camera wearer\u2019s arm\u2019s reach, while the two people are near enough to be within roughly one or two arm lengths of each other. In the earliest frame one person partly occludes the other at distance, and parts of the camera wearer\u2019s fingers appear at the bottom edge in several middle frames before becoming mostly out of view."
+ },
+ "duration_seconds": 11.4,
+ "usage": null,
+ "conversation_id": null
+}

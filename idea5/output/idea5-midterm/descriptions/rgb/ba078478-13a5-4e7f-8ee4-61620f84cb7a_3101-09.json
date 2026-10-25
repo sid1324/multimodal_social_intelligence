@@ -1,0 +1,12 @@
+{
+ "id": "ba078478-13a5-4e7f-8ee4-61620f84cb7a_3101-09",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is looking steeply downward at their orange-clad lap and both hands, which hold a turquoise fabric object about 0.3\u20130.5 m from the camera and within arm\u2019s reach. A long thin rod extends from the hands toward the right, while a pink patterned cloth lies immediately left of the wearer and is partly occluded by their arm and body. Rough stone and dirt surround the wearer, and a yellow sheet lies in front-right roughly 0.5\u20131 m away, with another turquoise object resting on it about 0.8\u20131.2 m from the camera. Parts of at least one other person appear near the upper edge about 1 m away, but their head and most of their body are out of view, so facing direction and gaze cannot be determined. Across the five frames the wearer\u2019s hands and nearby objects remain at nearly constant distances, while the viewpoint shifts slightly right; in the last frame, another person\u2019s forearm and hand enter from the right holding a blue object roughly 0.4\u20130.7 m from the wearer."
+ },
+ "duration_seconds": 12.5,
+ "usage": null,
+ "conversation_id": null
+}

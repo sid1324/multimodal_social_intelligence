@@ -1,0 +1,12 @@
+{
+ "id": "59764b58-1523-48b3-88d2-9fc07880e597_1504-77",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is inside a clothing store, facing a wall with a full-length mirror and hanging garments; clothing racks occupy the foreground and midground, generally about 0.5\u20132 m away. In frames 1\u20132, another person is visible mainly in the mirror roughly 2\u20133 m in front of the camera wearer, facing the mirror/camera direction, while the camera shifts slightly right and the nearby racks slide left across the view. In frame 3, a dark-clothed person is partly visible near the left edge and behind a rack about 1\u20132 m away, with much of their lower body occluded by clothing. In frame 4, the view turns farther right toward a bright doorway or window, and a red-clothed person appears close on the right, about 0.5\u20131 m away, facing generally toward the camera wearer with their hands raised near chest level. By frame 5, the camera has turned back toward the mirror wall; the red-clothed person is out of view, while the reflected person remains about 2\u20133 m ahead and the nearest rack and garments are within the camera wearer\u2019s arm\u2019s reach."
+ },
+ "duration_seconds": 12.6,
+ "usage": null,
+ "conversation_id": null
+}

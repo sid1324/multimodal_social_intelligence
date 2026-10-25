@@ -1,0 +1,18 @@
+{
+ "id": "f17f0d96-4d93-4e4b-83c5-fddfbc581bb3_963-95",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place inside a retail store featuring clothing racks, mannequins, a white vertical column, and a large mirror or glass partition on the left that shows a distant standing figure about 5 to 7 metres away. In the first frame, amidst heavy motion blur, a woman with long dark hair in a red top is partially visible at the far left edge about 0.8 to 1.0 metres away, with a clothing rack, a standing sign, and mannequins positioned 1.2 to 2.5 metres ahead on the right. In the second frame, the camera pans right so the woman moves out of view, placing a horizontal clothing rack bar with hangers directly in front of the camera wearer at 0.8 to 1.2 metres (within arm's reach), with another rack, a mannequin, and a high multi-pane window 2.0 to 4.0 metres behind it. Across the third, fourth, and fifth frames, the camera turns back to the left and stabilizes, positioning the woman in the lower center-right foreground at roughly 0.7 to 1.0 metres\u2014within arm's reach of the camera wearer\u2014as she faces left and slightly downward in profile, looking away from the camera wearer. Directly behind and extending above her at 1.2 to 1.5 metres stands a mannequin in a white headwrap against the central white pillar, while a second mannequin wearing a dark scarf stands 0.8 to 1.0 metres further right (about 1.8 to 2.2 metres from the camera wearer) and within the woman's reach. Throughout the final three frames, the woman's head and shoulders occlude the lower torso of the closer mannequin and the base of the pillar behind her, while her own torso and arms remain cropped out below the bottom edge of the frame and a framed sign on the far right in frame three shifts out of view by frame four."
+ },
+ "duration_seconds": 29.622804,
+ "usage": {
+  "input_tokens": 5375,
+  "output_tokens": 1183,
+  "thinking_tokens": 705,
+  "cache_read_tokens": 28418,
+  "total_tokens": 6558
+ },
+ "conversation_id": "a56d150d-bb26-418a-a220-4099497096a1"
+}

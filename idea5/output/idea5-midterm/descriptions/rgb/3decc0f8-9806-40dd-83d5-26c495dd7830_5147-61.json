@@ -1,0 +1,18 @@
+{
+ "id": "3decc0f8-9806-40dd-83d5-26c495dd7830_5147-61",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an urban street intersection with a green-painted corner curb, white crosswalk stripes, and a two-lane roadway bordered by buildings on the far side about 10 to 15 metres away. In the first three frames, a person in a maroon jacket stands in the immediate left foreground within 0.5 metres (arm's reach) of the camera wearer, facing right and slightly forward while partially occluding the sidewalk and two companions in black and olive-green jackets standing 1 to 2 metres to the left. The camera wearer's own grey-sleeved right forearm extends forward into the bottom-center of frames 1 and 2, while those companions initially look toward the camera wearer and the street. Across frames 2 and 3, a red hatchback car drives away from right to left along the roadway at a distance of 4 to 10 metres, receding behind a motorcyclist in a high-visibility jacket. By frames 4 and 5, the camera pitches downward and turns slightly right as the person in the maroon jacket shifts to the lower-left edge, while the two people in the olive-green and black jackets step forward onto the edge of the green curb about 1.5 to 2.5 metres ahead of the camera wearer, spaced about 0.5 metres apart and facing away toward the intersection. In frame 4, a dark motorcycle passes from left to right directly in front of the pair at roughly 3 metres from the camera wearer, and by frame 5 the person in the black jacket raises their right arm toward the open street while pedestrians remain visible on the far sidewalk 12 to 15 metres to the upper right."
+ },
+ "duration_seconds": 19.871651,
+ "usage": {
+  "input_tokens": 19571,
+  "output_tokens": 475,
+  "thinking_tokens": 52,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20046
+ },
+ "conversation_id": "4b2debd8-55ad-45e8-b31a-c59ffb441b8f"
+}

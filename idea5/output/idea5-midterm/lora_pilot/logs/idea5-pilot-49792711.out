@@ -1,0 +1,87 @@
+GPU 0: NVIDIA L40S (UUID: GPU-69d803e6-d11b-4f03-8cf8-c0d34586a9e8)
+train_spatial 5000 k Counter({2: 4029, 5: 971}) answer Counter({'B': 2241, 'A': 2209, 'C': 198, 'D': 181, 'E': 171})
+train_control 5000 k Counter({2: 4368, 5: 632}) answer Counter({'B': 2334, 'A': 2295, 'C': 138, 'E': 133, 'D': 100})
+eval_sat_val 500 k Counter({2: 500}) answer Counter({'A': 259, 'B': 241})
+eval_sat_test 150 k Counter({2: 150}) answer Counter({'A': 76, 'B': 74})
+{"prompt": "Considering the relative positions, is brown top white leg dining table (marked B) above or below black colour chair (marked A)?\nChoices:\nA. below\nB. above\nAnswer with the letter of the correct choice only.", "answer": "A", "question_type": "other"}
+{"prompt": "How many Beds are visible in the scene?\nChoices:\nA. 3\nB. 0\nC. 1\nD. 2\nE. 4\nAnswer with the letter of the correct choice only.", "answer": "C", "question_type": "other"}
+{"prompt": "How many ShelvingUnits are visible in the scene?\nChoices:\nA. 0\nB. 1\nC. 3\nD. 4\nE. 2\nAnswer with the letter of the correct choice only.", "answer": "B", "question_type": "other"}
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.52s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  2.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.94s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+base sat_val 1.0 sat_test(per-rotation) 0.5 egonormia parsed 4 / 4
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 61.75it/s]
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+trainable params: 43,646,976 || all params: 8,810,770,672 || trainable%: 0.4954
+{"step": 16, "loss": 0.17545959704290226, "seconds": 16.768478393554688}
+/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen3-VL-8B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 61.56it/s]
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+trainable params: 43,646,976 || all params: 8,810,770,672 || trainable%: 0.4954
+{"step": 200, "loss": 0.2512651971069238, "seconds": 98.4738199710846}
+{"step": 400, "loss": 0.16140034099895273, "seconds": 193.2013714313507}
+{"step": 600, "loss": 0.17595846625685227, "seconds": 288.5981938838959}
+{"step": 800, "loss": 0.14932866845658282, "seconds": 385.3191044330597}
+{"step": 1000, "loss": 0.1305463733166107, "seconds": 480.7619094848633}
+{"step": 1200, "loss": 0.12750544802198419, "seconds": 576.8473381996155}
+{"step": 1400, "loss": 0.1439258507633349, "seconds": 672.2174291610718}
+{"step": 1600, "loss": 0.14045714694693742, "seconds": 767.4548738002777}
+{"step": 1800, "loss": 0.1291891172794567, "seconds": 865.8731868267059}
+{"step": 2000, "loss": 0.13623593577212886, "seconds": 961.4831101894379}
+{"step": 2200, "loss": 0.14397278482851106, "seconds": 1056.7333421707153}
+{"step": 2400, "loss": 0.14490631321128603, "seconds": 1151.752115726471}
+{"step": 2600, "loss": 0.14549571442999876, "seconds": 1247.590208530426}
+{"step": 2800, "loss": 0.1027888003528642, "seconds": 1342.079102754593}
+{"step": 3000, "loss": 0.09609688688138704, "seconds": 1437.7334671020508}
+{"step": 3200, "loss": 0.09755930486364378, "seconds": 1532.9168713092804}
+{"step": 3400, "loss": 0.1375847419253114, "seconds": 1628.8606271743774}
+{"step": 3600, "loss": 0.10153041723948263, "seconds": 1724.1709518432617}
+{"step": 3800, "loss": 0.10285850487369316, "seconds": 1820.8024516105652}
+{"step": 4000, "loss": 0.11964245046888208, "seconds": 1916.340104341507}
+{"step": 4200, "loss": 0.10666319294474307, "seconds": 2011.7788305282593}
+{"step": 4400, "loss": 0.10423342825255531, "seconds": 2108.606927871704}
+{"step": 4600, "loss": 0.08684472173858011, "seconds": 2205.0426013469696}
+{"step": 4800, "loss": 0.11494759892043475, "seconds": 2301.1585507392883}
+{"step": 5000, "loss": 0.1097934281382004, "seconds": 2397.990247488022}
+/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen3-VL-8B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 60.18it/s]
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+trainable params: 43,646,976 || all params: 8,810,770,672 || trainable%: 0.4954
+{"step": 200, "loss": 0.16961305752228667, "seconds": 99.31009030342102}
+{"step": 400, "loss": 0.04578996522943953, "seconds": 196.27063536643982}
+{"step": 600, "loss": 0.06113644269326528, "seconds": 291.5580675601959}
+{"step": 800, "loss": 0.07242582452548958, "seconds": 388.0136442184448}
+{"step": 1000, "loss": 0.05175740365380989, "seconds": 483.7826747894287}
+{"step": 1200, "loss": 0.04561385889727489, "seconds": 586.7661516666412}
+{"step": 1400, "loss": 0.049712046357524284, "seconds": 691.3711187839508}
+{"step": 1600, "loss": 0.028333837877256657, "seconds": 795.3329298496246}
+{"step": 1800, "loss": 0.03564300406518441, "seconds": 897.1843039989471}
+{"step": 2000, "loss": 0.030939161049701625, "seconds": 998.8168032169342}
+{"step": 2200, "loss": 0.027755129208350268, "seconds": 1102.4113283157349}
+{"step": 2400, "loss": 0.06408954665984318, "seconds": 1204.4580318927765}
+{"step": 2600, "loss": 0.04625756080938686, "seconds": 1307.0414991378784}
+{"step": 2800, "loss": 0.02874246188158395, "seconds": 1411.6849253177643}
+{"step": 3000, "loss": 0.03119929509921576, "seconds": 1515.4299218654633}
+{"step": 3200, "loss": 0.06309595455499561, "seconds": 1618.4730784893036}
+{"step": 3400, "loss": 0.032409114539789244, "seconds": 1722.4222493171692}
+{"step": 3600, "loss": 0.047750815194839334, "seconds": 1824.7970888614655}
+{"step": 3800, "loss": 0.04508355630612186, "seconds": 1926.5693876743317}
+{"step": 4000, "loss": 0.04750782062017379, "seconds": 2029.2868461608887}
+{"step": 4200, "loss": 0.04070917301029112, "seconds": 2133.3589992523193}
+{"step": 4400, "loss": 0.03721473596889382, "seconds": 2237.177447080612}
+{"step": 4600, "loss": 0.041521628204536684, "seconds": 2338.6862840652466}
+{"step": 4800, "loss": 0.03311767732842554, "seconds": 2443.1582868099213}
+{"step": 5000, "loss": 0.04072251223603416, "seconds": 2547.8911168575287}
+/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen3-VL-8B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 61.40it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+base sat_val 0.588 sat_test(per-rotation) 0.723 egonormia parsed 200 / 200
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 62.32it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+adapters/spatial sat_val 0.59 sat_test(per-rotation) 0.743 egonormia parsed 200 / 200
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 62.30it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+adapters/control sat_val 0.63 sat_test(per-rotation) 0.727 egonormia parsed 200 / 200
+PILOT_DONE

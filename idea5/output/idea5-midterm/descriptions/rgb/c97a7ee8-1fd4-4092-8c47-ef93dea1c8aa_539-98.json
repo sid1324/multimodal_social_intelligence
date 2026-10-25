@@ -1,0 +1,18 @@
+{
+ "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor cafeteria with rows of tables and chairs extending 3 to 15 metres into the background on the left, a large vertical pillar about 1.8 metres away on the right, and a rectangular dining table extending from 0.3 to 1.2 metres directly in front of the camera wearer. Three people sit around the table: a woman with dark glasses immediately to the camera wearer's left at 0.4 to 0.6 metres (within the camera wearer's arm's reach), a man in a light green shirt seated across the table at 1.2 to 1.5 metres, and a man in a black shirt seated to the right of the man in green (about 0.6 metres from him and 0.8 to 1.1 metres from the camera wearer). Within arm's reach of the camera wearer and the woman on the near side of the table (0.3 to 0.8 metres away) are paper bowls with chopsticks, plastic lids, napkins, a clear water bottle, and an open laptop on the left, while an open white foam food container on a red bag, small sauce cups, and a dark soda bottle sit 0.7 to 1.1 metres away within arm's reach of the two men across the table, with the clear bottle and laptop partially occluding the soda bottle. In frames 1 and 2, the man in green faces and looks toward the camera wearer while leaning slightly closer in frame 2, whereas the woman on the lower left and the man in black on the far right are mostly cropped out of the frame except for their arms. Across frames 3 and 4, the camera view shifts leftward to reveal the woman's head and shoulders in the left foreground facing right toward the men while the man in black moves completely out of view on the right, and the man in green turns his head toward the left in frame 3 before looking back toward the camera wearer and reaching his right hand forward in frame 4 to grasp the dark soda bottle. In frame 5, the camera turns back to the right, cutting the woman out of the left edge of the view and revealing the man in black facing and looking toward the camera wearer's side while holding food on the right, as the man in green holds the lifted soda bottle with both hands against his chest and turns his head to look at the man in black."
+ },
+ "duration_seconds": 29.208863,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 1616,
+  "thinking_tokens": 1039,
+  "cache_read_tokens": 14208,
+  "total_tokens": 21195
+ },
+ "conversation_id": "c4b077c4-94c4-45b4-b0cc-430a4792656a"
+}

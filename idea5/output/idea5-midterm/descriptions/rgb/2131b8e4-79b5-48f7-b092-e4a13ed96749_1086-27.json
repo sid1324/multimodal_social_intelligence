@@ -1,0 +1,12 @@
+{
+ "id": "2131b8e4-79b5-48f7-b092-e4a13ed96749_1086-27",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is seated at the near edge of a dining table, with the tabletop directly in front and within about 0.2\u20130.8 m; plates, bowls, utensils, papers or napkins, a candle-like light, and drinking vessels are spread across it. One seated person is opposite the wearer, roughly 1\u20131.5 m away and slightly right of center, facing generally toward the wearer, although their head and upper body are partly cropped and too dark to confirm their gaze; another person is partly visible at the far left, about 1\u20131.5 m away, mostly occluded by darkness and the frame edge. The opposite person is about 0.8\u20131.2 m from the partially visible person on the left, while most table objects are within arm's reach of either the wearer or the opposite person depending on which half of the table they occupy. The wearer's forearms and hands intermittently enter from the bottom and right foreground, partially blocking the table; from frames 2 through 4, one hand moves forward toward the center-right vessel and then retreats slightly. By frame 5, a foreground hand at the right holds or closely surrounds a round vessel about 0.2\u20130.4 m from the camera, creating a larger occlusion, while the seated people and table remain in approximately the same positions without clear approach, retreat, or turning."
+ },
+ "duration_seconds": 12.0,
+ "usage": null,
+ "conversation_id": null
+}

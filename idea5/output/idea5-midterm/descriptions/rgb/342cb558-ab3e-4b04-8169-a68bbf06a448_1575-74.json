@@ -1,0 +1,18 @@
+{
+ "id": "342cb558-ab3e-4b04-8169-a68bbf06a448_1575-74",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen with an L-shaped counter and overhead wooden cabinets, and no other people are present in the view. In the first two frames, the camera wearer faces a wall on the left at a distance of about 0.5 to 0.7 metres, with a sink faucet at the bottom left, a light switch ahead, and two soap bottles on the counter to the right, all within arm's reach and spaced 0.1 to 0.3 metres apart. Across frames 3 and 4, the camera wearer turns clockwise toward the right, shifting the wall and soap bottles to the far left edge while bringing the corner countertop and upper wooden cabinets directly in front at approximately 0.6 to 1.0 metres away. Below the upper cabinets on the counter\u2014still largely within or just at the edge of arm's reach\u2014sit a dark appliance in the corner, a red container, a hanging bunch of bananas above oranges, a knife block to the right, and a bowl in the foreground just 0.4 to 0.5 metres from the viewer. By the fifth frame, the camera wearer continues turning right and steps slightly back, putting the counter items out of the left side of the frame and revealing a white stove and an overhead white microwave 1.2 to 1.8 metres ahead, flanked by a tall cabinet on the right. Beyond the kitchen counter to the far right in the final frame, an adjacent dimly lit room with a table is partially visible roughly 3 to 4 metres away, while the lower portions of the stove and cabinets are cut off by the bottom edge of the frame."
+ },
+ "duration_seconds": 14.948751,
+ "usage": {
+  "input_tokens": 5349,
+  "output_tokens": 414,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28417,
+  "total_tokens": 5763
+ },
+ "conversation_id": "1404315f-3e4d-49e8-8c19-9eae3aa753d5"
+}

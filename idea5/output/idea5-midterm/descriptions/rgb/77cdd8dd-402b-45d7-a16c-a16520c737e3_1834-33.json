@@ -1,0 +1,18 @@
+{
+ "id": "77cdd8dd-402b-45d7-a16c-a16520c737e3_1834-33",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen viewed looking steeply downward from the camera wearer's head toward a reddish-pink floor surface about 1.0 to 1.2 metres below and a raised beige platform edge to the right. Directly in front of the wearer's lower body, within arm's reach at roughly 0.5 to 0.8 metres from the camera, sits a cylindrical wet grinder containing white batter and roller stones on a black base, with a translucent circular lid resting on the floor immediately to its lower left (~0.2 metres away) and a metal bowl and white container further to the left (~0.3 to 0.5 metres from the lid). The camera wearer's own torso, clothed in a patterned garment with a green-and-white striped cloth over the left shoulder, occupies the bottom of each frame, while the wearer's hands and forearms extend forward into the workspace. In frame 1, the camera points down and slightly left as the wearer's left hand reaches toward the floor near the lid and metal bowl while the grinder is partly out of view at the upper right. Across frames 2, 3, and 4, the viewpoint shifts rightward to center directly above the open drum of the grinder as the wearer's right arm reaches in from the lower right to hold and move a white spatula inside the drum (~0.4 to 0.6 metres from the camera), partially occluding the interior rollers. In frame 5, the camera turns back toward the left, shifting the grinder mostly out of view to the upper right while the wearer's left hand and a second person's arm\u2014entering from the bottom-left edge within 0.2 metres of the wearer's hand, with their body and head out of frame and facing toward the workspace\u2014both reach the metal bowl on the left."
+ },
+ "duration_seconds": 14.559603,
+ "usage": {
+  "input_tokens": 5355,
+  "output_tokens": 559,
+  "thinking_tokens": 95,
+  "cache_read_tokens": 28421,
+  "total_tokens": 5914
+ },
+ "conversation_id": "455f9306-1549-4f9c-8314-11ff0abacb73"
+}

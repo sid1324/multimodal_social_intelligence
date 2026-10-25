@@ -1,0 +1,1 @@
+{"id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_447-26", "cond": "rgb_ctx_wrong_rep", "model": "gpt", "action_position": 5, "justification_position": 5, "raw": "{\"action\":5,\"justification\":5}", "meta": {"returncode": 0}, "seconds": 8.3, "attempts": 1}

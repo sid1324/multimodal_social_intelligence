@@ -1,0 +1,12 @@
+{
+ "id": "9b34e344-494d-4664-8180-a8ff2a692ab2_35-55",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a small indoor room or corridor with tiled flooring, pale walls, and an open dark doorway roughly 2\u20133 m in front of the camera wearer. In frames 1\u20133, a wheeled chair or cart with red components is about 0.5\u20131 m to the left-front, while a person beside it is mostly outside the left edge; a raised forearm and hand fills the near foreground within arm\u2019s reach. Another person is partly visible near or through the doorway about 2\u20133 m ahead and roughly 2 m from the partly seen person on the left. Across frames 4\u20135, the camera turns to the right, and a large dark vertical object very close to the camera moves into the left foreground, occluding much of the earlier room; another person is briefly partly visible low behind it. By frame 5, a man in a blue shirt and light shorts stands approximately 2 m ahead near the doorway, facing and appearing to look toward the camera wearer, with his feet below him and the doorway directly behind him."
+ },
+ "duration_seconds": 13.1,
+ "usage": null,
+ "conversation_id": null
+}

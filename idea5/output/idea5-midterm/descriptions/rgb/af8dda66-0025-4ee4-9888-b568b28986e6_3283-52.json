@@ -1,0 +1,18 @@
+{
+ "id": "af8dda66-0025-4ee4-9888-b568b28986e6_3283-52",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living room viewed from a seated camera wearer, featuring a rectangular glass-top coffee table directly in front at roughly 0.5 to 1.3 metres, an empty grey armchair with cushions to the front-left at about 1.8 to 2.2 metres, and a white media console with a television and potted plant against a windowed wall to the front-right at about 2.5 to 3.5 metres. Seated immediately to the camera wearer's left at roughly 0.3 to 0.5 metres is another person whose grey-trousered legs and hands holding a smartphone are visible in the bottom-left foreground, while their torso and head remain out of view beyond the left frame edge, and the camera wearer's own smartphone appears at the bottom-center edge within 0.3 to 0.4 metres. On the coffee table, a black remote control resting on stacked books lies about 0.6 to 0.8 metres in front of the camera wearer\u2014within arm's reach of both the camera wearer and the person to the left\u2014while four small white snack bowls to the left, a white cup, a tall textured metallic vase in the center, and two teal mugs with a small potted plant to the right sit roughly 0.8 to 1.2 metres away. The tall central vase partially occludes the teal mugs and small plant behind its base, the transparent glass tabletop reveals the metal support legs below, and the upper portion of the television and outer edges of the armchair are partially cropped by the top and left boundaries of the frame. Across the five frames, the people and furniture remain stationary while the camera wearer's viewpoint pitches and turns: frames 1 and 2 face forward toward the table, armchair, and television, frame 3 tilts downward and slightly left to reveal the adjacent person's knees and both smartphones in the lower foreground, frame 4 pans slightly right and upward so the adjacent person leaves the view, and frame 5 tilts downward again to bring both phones and the adjacent person's legs back into the bottom foreground."
+ },
+ "duration_seconds": 37.149545,
+ "usage": {
+  "input_tokens": 19574,
+  "output_tokens": 1339,
+  "thinking_tokens": 825,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20913
+ },
+ "conversation_id": "0cc9d492-44c9-4059-b1e5-460dcc0abbc1"
+}

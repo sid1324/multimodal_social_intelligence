@@ -1,0 +1,12 @@
+{
+ "id": "b2ebded2-4c94-473d-b9e4-8dd3556a3152_31-51",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is on a sidewalk beside a two-lane road, with the road in front, a curb and gravel strip between, and palm trees, hedges, and buildings farther across the road. A stroller containing a small child stays very close in the lower foreground, roughly 0.3\u20131 m from the camera; it shifts from near the center-right in frames 1\u20133 to the far right and partly out of view in frames 4\u20135 as the wearer turns left. The child faces generally toward the camera wearer but looks mostly downward or sideways, while the stroller handle and an adult hand remain within the wearer\u2019s arm\u2019s reach and partially occlude the child\u2019s lower body. A small dog is on the sidewalk about 1\u20132 m ahead and left of the stroller in frame 1, moves farther left and partly out of view in frame 2, is absent from frame 3, then reappears near the lower-left edge about 1\u20132 m away in frame 4 and slightly closer to the stroller in frame 5. A dark vehicle travels along the road several metres ahead, moving from left-of-center toward the right across frames 1\u20133 before leaving view, while the changing sidewalk and road alignment indicates the camera wearer rotates leftward rather than making a large forward or backward movement."
+ },
+ "duration_seconds": 11.8,
+ "usage": null,
+ "conversation_id": null
+}

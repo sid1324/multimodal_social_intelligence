@@ -1,0 +1,18 @@
+{
+ "id": "1e90b2b5-5483-4ecc-b8e0-fb0bf63ccac3_3303-65",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor corridor and adjacent lounge area separated by a white partition wall on the left, with no other people present in any of the five frames. Immediately below and in front of the camera wearer (within 0.3 to 0.6 metres and within arm's reach) is the dark circular rim of a bin or container, with the wearer's fingers briefly visible at the bottom edge in the first two frames before dropping out of view, and the bin itself disappearing below the frame in the third and fifth frames. Beyond the partition wall in the lounge area, a blue velvet armchair sits on a patterned white rug roughly 2.5 to 3 metres ahead, with a glass coffee table about 0.5 metres to its right and a light-coloured sofa with pillows about 1 to 1.5 metres further right (roughly 3.5 to 4.5 metres from the wearer), while a white cabinet, a second blue chair, a desk, a wall poster, and a bright glass doorway lie 4 to 6 metres away in the background. In the first two frames, the left partition wall (~1 to 1.5 metres away) occludes the left side of the room while the sofa is partly cropped by the right frame edge; in the third frame, the camera tilts upward and rolls counterclockwise to reveal exposed ceiling ducts and lights above while cutting off the lower floor and the sofa's right half. Across the fourth and fifth frames, the camera wearer turns and steps leftward toward an alcove behind the partition wall, shifting the lounge area out of view to the right until only a sliver of the white cabinet remains at the far right edge. By the fifth frame, a white open shelving unit holding vases on its top shelf and a decorative wire sphere, plant, and book on its middle shelf is positioned directly to the left within 0.5 to 1 metre (within arm's reach), with the partition wall corner roughly 1 to 1.5 metres ahead."
+ },
+ "duration_seconds": 16.748472,
+ "usage": {
+  "input_tokens": 19613,
+  "output_tokens": 761,
+  "thinking_tokens": 275,
+  "cache_read_tokens": 14198,
+  "total_tokens": 20374
+ },
+ "conversation_id": "ea579be0-10ba-4b48-b1ff-4927da20c9dc"
+}

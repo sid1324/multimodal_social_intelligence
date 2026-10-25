@@ -1,0 +1,12 @@
+{
+ "id": "93f78437-229d-4824-a8c1-68d9b17e754d_1063-13",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A second person stands directly in front of the camera wearer at roughly 0.5\u20130.8 m, facing generally toward the wearer; their pixelated face is directed toward the camera in the first two frames, then becomes partly or fully cropped above the frame. The person is between the wearer and a stove/counter area, with two pans or pots about 0.7\u20131.2 m ahead and slightly to the right, while shelves, bottles, and small appliances line the wall roughly 1\u20132 m ahead. A wooden cutting board with a knife, tomato, mushrooms, and bowls lies below and in front of the wearer at about 0.3\u20130.7 m, within the wearer\u2019s arm\u2019s reach; many of these items are also within the other person\u2019s reach. The wearer\u2019s hands enter from the left or lower-left in the first frames, while the other person\u2019s hands stay near their torso and later hold a small open container in front-right space, about 0.4\u20130.7 m from the camera. Across the five frames, the viewpoint pans and shifts rightward and slightly closer, moving the person from center-left toward center and enlarging their torso while the cutting board and cookware shift from center-right toward the lower-right; the person\u2019s head and parts of the wearer\u2019s arms are intermittently occluded or cut off by the frame edges."
+ },
+ "duration_seconds": 10.8,
+ "usage": null,
+ "conversation_id": null
+}

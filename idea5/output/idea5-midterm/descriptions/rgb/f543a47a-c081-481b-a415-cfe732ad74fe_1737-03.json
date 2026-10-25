@@ -1,0 +1,12 @@
+{
+ "id": "f543a47a-c081-481b-a415-cfe732ad74fe_1737-03",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is on a grassy area facing a low line of rocks about 5\u20138 m ahead, with water beyond the rocks and the horizon above them. No other people are visible; the wearer\u2019s gray-clad knees or legs occupy the lower foreground roughly 0.3\u20130.8 m from the camera. In frames 1\u20133, a black bag lies immediately to the wearer\u2019s lower left, about 0.3\u20130.7 m away and within arm\u2019s reach, while a hand holds a small dark object just above or beside it. By frames 4\u20135, the view has turned to the right: the bag and hand move out of view, and an open book appears at the lower right within about 0.3\u20130.6 m, partly cropped by the bottom and right edges. The rocks and water remain in front but shift laterally across the strip with the camera\u2019s rightward rotation; nothing clearly approaches or retreats, and portions of the wearer\u2019s body and nearby objects remain occluded by the frame boundaries."
+ },
+ "duration_seconds": 10.5,
+ "usage": null,
+ "conversation_id": null
+}

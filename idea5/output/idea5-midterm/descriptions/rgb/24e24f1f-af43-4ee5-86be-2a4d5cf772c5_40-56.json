@@ -1,0 +1,12 @@
+{
+ "id": "24e24f1f-af43-4ee5-86be-2a4d5cf772c5_40-56",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open grassy field beside a paved road, with houses and trees roughly 30\u2013100 m away along the horizon and the sky above. In frame 1 the camera points steeply downward and turns rapidly over the grass; a small purple ball-like object lies about 1\u20132 m ahead-left, while a light-blue object or lower leg is partly cut off at the upper edge about 1 m away. In frame 2 the view lifts toward the horizon, showing one person approximately 8\u201315 m ahead near the center-right, facing roughly toward the camera wearer but too blurred to determine gaze, with a small white object on the ground near that person. In frame 3 the camera turns right and tilts, placing a green metal frame partly out of view at the lower left within about 1\u20132 m and a red object on the grass roughly 2\u20134 m ahead; the distant person is no longer visible. Frames 4 and 5 continue facing across the field toward the road, while the red object remains low and ahead-left, and in frame 5 the camera wearer\u2019s right forearm enters from the right holding a small green-and-orange object within arm\u2019s reach, partly cropped by the edge."
+ },
+ "duration_seconds": 9.9,
+ "usage": null,
+ "conversation_id": null
+}

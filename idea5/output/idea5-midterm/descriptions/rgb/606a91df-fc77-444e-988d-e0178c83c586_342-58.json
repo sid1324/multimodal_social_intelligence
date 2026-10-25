@@ -1,0 +1,12 @@
+{
+ "id": "606a91df-fc77-444e-988d-e0178c83c586_342-58",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A dining table fills the lower foreground, with bowls, plates, utensils, a bright candle, and a notebook roughly 0.3\u20131.2 m from the camera wearer; cabinets and a window are about 2\u20133 m beyond the table. A dark-haired person sits across the table about 1\u20131.5 m away, generally facing the camera wearer and looking toward them in several frames, while another person is only partly visible near the right edge at a similar distance. A blurred person or head passes very close on the left, about 0.3\u20130.6 m from the camera, intermittently occluding the table and the person opposite. The nearest dishes and candle are within the camera wearer\u2019s arm\u2019s reach, while the seated person opposite can reach the bowls and plates on their side; the candle and central dishes are roughly 0.4\u20130.8 m from that person. Across the five frames, the camera turns right and briefly moves or rotates quickly, producing strong blur in the middle frame; the opposite person shifts from near the center to the right and then toward the left side of view, while the kitchen cabinets become more visible and no clear approach or retreat occurs."
+ },
+ "duration_seconds": 12.1,
+ "usage": null,
+ "conversation_id": null
+}

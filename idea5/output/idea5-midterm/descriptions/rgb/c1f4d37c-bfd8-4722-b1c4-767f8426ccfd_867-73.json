@@ -1,0 +1,18 @@
+{
+ "id": "c1f4d37c-bfd8-4722-b1c4-767f8426ccfd_867-73",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail space near a glass storefront window decorated with a red sun and mountain decal on the left, a white wall and grey doorway frame on the right, and two mannequins positioned near the window and wall. In the immediate foreground, about 0.4 to 0.8 metres in front of the camera wearer and within arm's reach, is a horizontal black metal clothing rack with garments on hangers that extends from the left toward its right end post. Behind the rack, a woman wearing glasses stands roughly 1.2 to 1.5 metres from the camera wearer on the opposite side of the clothes, within arm's reach of the hanging garments, while a mannequin in a striped sweater stands about 2.5 metres away in front of the window and a second mannequin in a maroon top and scarf stands about 2 to 2.5 metres away to the right. The clothing rack and hanging garments heavily occlude the lower body of the woman and parts of the window display, while the right-side mannequin is partially or fully cropped out of the right edge of the view in frames 1 through 4. Across the five frames, the camera wearer turns their head to the left in frame 2\u2014bringing the left end of the rack with blue garments, yellow/orange size dividers, the woman, and a second person farther back on the far left into view\u2014before turning back to the right in frames 3 through 5. Simultaneously, the woman behind the rack moves rightward toward the end of the rack in frames 4 and 5, facing forward and slightly downward toward the clothes rather than looking directly at the camera wearer."
+ },
+ "duration_seconds": 14.2228,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 435,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20015
+ },
+ "conversation_id": "116d1706-8222-465d-93be-54898575accb"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "92153977-6016-4863-be78-c4af25a56a0f_1117-24",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor workshop or garage where the camera wearer stands roughly 0.5 to 1.0 metres in front of a vertical wooden pegboard wall, with an open red toolbox on a surface below it, an overhead wooden shelf and caged fluorescent light fixture about 0.3 to 0.5 metres above it, and a white wall to the right. No other people are present in the scene; only the camera wearer's own right hand and arm enter the field of view in the fourth and fifth frames. Hanging on the right section of the pegboard, within arm's reach at about 0.5 to 0.8 metres from the camera wearer and spaced roughly 0.1 to 0.3 metres apart above the red toolbox, are a claw hammer, a yellow-handled black mallet, a packaged tool, and yellow-and-black ear defenders resting over a triangular carpenter's square, while screwdrivers, levels, and upper storage bins sit further to the left at roughly 1.2 to 2.5 metres distance. Across frames 1 to 3, the viewpoint tilts upward and turns left away from the red toolbox toward the left end of the pegboard and the upper shelf, before turning back to the right in frames 4 and 5. In frame 4, the camera wearer's right hand reaches into the lower right of the view to grasp the ear defenders on the pegboard, and in frame 5 the ear defenders are no longer on the pegboard as the wearer's right arm reaches up to the overhead shelf, partially occluding the upper right wall while the toolbox and lower workbench remain partly cropped at the bottom edge across the strip."
+ },
+ "duration_seconds": 24.653294,
+ "usage": {
+  "input_tokens": 19573,
+  "output_tokens": 1571,
+  "thinking_tokens": 1146,
+  "cache_read_tokens": 14201,
+  "total_tokens": 21144
+ },
+ "conversation_id": "72e6cbd4-b603-4428-b700-ac138c56dde2"
+}

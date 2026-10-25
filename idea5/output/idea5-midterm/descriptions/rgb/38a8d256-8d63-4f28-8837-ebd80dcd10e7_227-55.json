@@ -1,0 +1,18 @@
+{
+ "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grassy lawn seen from a high downward-looking egocentric angle, bordered on the left by a curved concrete walkway and on the upper right in the final frame by a mulched shrub bed. No other people are present; only the camera wearer's grey-shirted torso, arms, and feet are visible below the camera, facing forward behind a push lawn mower. The mower's handlebar is directly in front of the wearer at roughly 0.4 to 0.5 metres and held within arm's reach by both hands, while the dark grass catcher bag and red-and-silver mower deck extend about 0.6 to 1.4 metres ahead on the ground below. The concrete walkway lies roughly 0.5 to 1.0 metre to the left of the mower in the first four frames, while the wearer's upper torso and the mower handlebar partially occlude the wearer's lower legs, feet, and the grass directly beneath them. Across the five frames, the camera wearer walks forward at a steady distance behind the mower while steering slightly to the right, causing the left-hand walkway to curve away and exit the left edge of the frame by the fifth frame as the shrub bed enters on the upper right about 1.0 to 1.5 metres away."
+ },
+ "duration_seconds": 13.335669,
+ "usage": {
+  "input_tokens": 19523,
+  "output_tokens": 579,
+  "thinking_tokens": 233,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20102
+ },
+ "conversation_id": "48b5efbd-1629-4939-bf40-105cf274e8e7"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "307b1878-875f-4703-bfe9-32d11d20853f_63-96",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A narrow grassy passage lies between a house wall on the left and a wooden fence on the right, with the fence about 0.5\u20131.5 m from the camera wearer and patches of bare soil below. No other people are visible; the camera wearer\u2019s green-shirted torso, arms, and occasionally legs occupy the lower foreground, while they face generally toward a lawn mower. The mower is roughly 0.7\u20131.5 m in front of and below the camera, oriented away from the wearer, with its handle extending back to within arm\u2019s reach and partly occluded by the wearer\u2019s hands. Across the five frames, the wearer and mower turn through the confined passage: the mower shifts from near the upper center to the upper left, then back toward the upper center, while the house and fence rotate across the view. The wearer\u2019s body increasingly occludes the lower and right portions of the final frames, and parts of the mower, fence, house, and ground extend beyond the image boundaries throughout."
+ },
+ "duration_seconds": 9.8,
+ "usage": null,
+ "conversation_id": null
+}

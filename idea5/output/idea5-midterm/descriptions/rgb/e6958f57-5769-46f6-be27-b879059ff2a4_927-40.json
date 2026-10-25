@@ -1,0 +1,18 @@
+{
+ "id": "e6958f57-5769-46f6-be27-b879059ff2a4_927-40",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor city street corner where the camera wearer stands on the sidewalk beside two perpendicular painted crosswalks, with multi-story commercial buildings across the streets roughly 20 to 50 metres away. In frames 1 and 2, a yellow bollard with a pedestrian crossing sign is to the left at roughly 1.5 to 2 metres, a red fire hydrant and a tall sign pole with a blue bus-stop marker stand along the curb about 2 to 3 metres ahead-left, a sidewalk bench is roughly 8 to 10 metres further down the left sidewalk, and several parked cars (including a silver SUV and dark sedans) line the opposite curb about 15 to 25 metres across the street in front of a colonnaded building. Across the 5 frames, the camera wearer rotates their head and gaze: looking down the street to the left in frame 1, panning rightward in frames 2 and 3 to face the intersection and a large dark building across the diagonal (30 to 60 metres away) while the left-side hydrant and sign pole leave the field of view, and then turning back toward the left in frames 4 and 5. In frame 5, a person with pink hair wearing dark glasses and a black jacket appears at the bottom-left edge of the frame within arm's reach (roughly 0.5 to 1 metre from the camera wearer) and about 1 to 1.5 metres from the red fire hydrant directly in front of them. This person's lower body is cropped out by the bottom frame boundary, and their head and shoulders are oriented forward and slightly right toward the street intersection rather than looking toward the camera wearer. Apart from this nearby pedestrian in the final frame, no objects or other people are within arm's reach of the camera wearer, though the fire hydrant and sign post are nearly within reach of the pedestrian in frame 5."
+ },
+ "duration_seconds": 14.566609,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 539,
+  "thinking_tokens": 63,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20116
+ },
+ "conversation_id": "eee111c6-b074-4716-ab0f-1e9497121056"
+}

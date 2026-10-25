@@ -1,0 +1,18 @@
+{
+ "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open grassy field bordered in the background, roughly 20 to 35 metres away, by two picnic tables on the left, trash bins to the right, leafless trees, and a hillside. In the first frame, a woman in a grey top and black pants stands about 6 to 7 metres in front of the camera wearer facing right toward a black-and-white dog in a blue harness about 1 metre to her right, while a long thin tether line runs along the ground from the dog toward the camera wearer. Across frames 2 through 5, both the woman and the dog approach the camera wearer and shift slightly toward the left side of the view: the woman turns to face and look toward the camera wearer as she closes from about 6 metres to roughly 2.5 to 3 metres, while the dog moves ahead of her from about 5 metres to 1.5 to 2 metres away before turning left in profile in the final frame. Starting in frame 3, the camera pitches downward toward the ground, revealing a yellow anchor stake, blue attachment, and tennis ball lying on the grass at the bottom center roughly 1 to 1.5 metres in front of the camera wearer where the tether attaches. Nothing is within immediate arm's reach of the camera wearer, while the woman holds a small object in her hands and the dog is within 1 metre of her legs in the later frames. As the camera pitches down and the subjects move closer in frames 3 to 5, the upper background trees and eventually the top of the woman's head are cropped out at the top edge, the yellow ground stake is partially cut off at the bottom-right edge, and the dog briefly occludes the lower part of the woman's right leg in the final frame."
+ },
+ "duration_seconds": 23.335671,
+ "usage": {
+  "input_tokens": 19582,
+  "output_tokens": 1323,
+  "thinking_tokens": 874,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20905
+ },
+ "conversation_id": "b7f45d21-763a-4cce-91f3-452df8391284"
+}

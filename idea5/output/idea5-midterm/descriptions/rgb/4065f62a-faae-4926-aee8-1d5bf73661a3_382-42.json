@@ -1,0 +1,12 @@
+{
+ "id": "4065f62a-faae-4926-aee8-1d5bf73661a3_382-42",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a small dirt work area bordered by black metal mesh gates, with narrow gray concrete slabs along the gate bases and scattered red bricks, stones, debris, and leaves on the ground. A black bucket containing gray material sits about 0.7\u20131.0 m in front of the camera wearer, slightly right of center at first; nearby bricks and stones are roughly 0.5\u20131.5 m away and generally within about 0.2\u20130.8 m of one another. No other person is clearly visible; only the camera wearer\u2019s forearms and hands enter the lower and right portions of later frames, with a small hand tool held within arm\u2019s reach and directed toward the ground and gate area. Across the five frames, the viewpoint turns progressively to the right, causing the bucket to shift from center-right toward the lower-left and revealing more of the gate panels and concrete footing on the right. The gate remains approximately 0.5\u20131.5 m ahead, with parts extending beyond the top and side edges, while the wearer\u2019s raised right arm becomes partly cut off at the upper-right edge in the final frame."
+ },
+ "duration_seconds": 11.1,
+ "usage": null,
+ "conversation_id": null
+}

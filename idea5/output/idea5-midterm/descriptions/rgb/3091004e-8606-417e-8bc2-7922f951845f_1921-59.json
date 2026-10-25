@@ -1,0 +1,18 @@
+{
+ "id": "3091004e-8606-417e-8bc2-7922f951845f_1921-59",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor industrial or quarry site where the camera wearer stands on an elevated concrete ledge beside a metal walkway that slopes upward to the left over a lower equipment area 3 to 5 metres below, with large rusty metal hoppers directly behind the walkway and open ground with blue corrugated sheets and a small mixer 6 to 12 metres away to the right. In the first three frames, a man in an orange safety vest and face mask stands at the base of the metal walkway about 1.5 to 2 metres in front of and slightly to the left of the camera wearer, facing and looking toward the camera wearer while gesturing with his right hand and keeping the walkway railing within his arm's reach. Immediately in front of and below the camera wearer, within arm's reach at about 0.5 to 1 metre away, an upright gas cylinder with gauges, a regulator, hoses, and a resting wrench sits on the concrete ledge between the camera wearer and the man. Across frames 1 to 3, the camera wearer turns their head slightly to the right, shifting the walkway toward the left edge of the view and revealing more of the ground and hoppers to the right. In frames 4 and 5, the camera wearer turns sharply to the left and pitches their view downward toward the lower industrial floor and the concrete ledge, where a second gas cylinder lies horizontally within 0.8 metres in front of them and the first upright cylinder goes out of view to the right. At the bottom left of frames 4 and 5, another person standing less than 1 metre away is mostly out of view except for their lower legs, feet, and an outstretched left arm reaching across the horizontal cylinder to pass a metal wrench into the camera wearer's outstretched right hand in frame 5."
+ },
+ "duration_seconds": 14.250606,
+ "usage": {
+  "input_tokens": 19521,
+  "output_tokens": 687,
+  "thinking_tokens": 243,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20208
+ },
+ "conversation_id": "7c94645b-9874-4f90-af0e-f3e97eae9cf6"
+}

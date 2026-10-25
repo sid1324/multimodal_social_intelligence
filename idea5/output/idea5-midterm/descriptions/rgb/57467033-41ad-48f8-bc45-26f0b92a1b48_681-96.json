@@ -1,0 +1,18 @@
+{
+ "id": "57467033-41ad-48f8-bc45-26f0b92a1b48_681-96",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor counter area with a light-colored tabletop in the bottom foreground, a glass-door doorway in the center-left background about 2 to 2.5 metres away, and an illuminated glass display case on a wooden stand to the right about 2 to 3 metres from the camera wearer. A person in a black long-sleeved top stands on the left side behind the counter, roughly 1 to 1.2 metres from the camera wearer and about 0.5 metres to the left of a red plastic shopping basket containing a bottle and packaged items. Both the red shopping basket and a receipt printer at the bottom left sit on the counter within arm's reach (0.5 to 0.8 metres) of both the camera wearer and the person in black, while a dark-draped chair sits just behind the counter about 1.5 metres away. In frames 1 through 4, the person's head is largely cropped out above the upper-left frame boundary, with their torso facing toward the camera wearer and the counter. Across frames 4 and 5, the camera wearer's viewpoint pans slightly left and tilts upward, bringing the person's full face\u2014which is angled downward toward the counter rather than directly at the camera wearer's eyes\u2014into view and revealing a distant person in the background hallway to the far left about 4 to 5 metres away. In frame 5, the camera wearer's left hand enters the bottom center-left foreground within 0.4 metres, holding paper banknotes that overlap with the extended left hand of the person in black as the red basket shifts partially out of view at the bottom right."
+ },
+ "duration_seconds": 24.438108,
+ "usage": {
+  "input_tokens": 19567,
+  "output_tokens": 422,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14210,
+  "total_tokens": 19989
+ },
+ "conversation_id": "a09ab96a-3f33-4e0f-b59a-60586d1a318d"
+}

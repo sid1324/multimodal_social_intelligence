@@ -1,0 +1,18 @@
+{
+ "id": "e623faab-101a-41a6-83ac-8e22b4371aba_357-75",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in an indoor shop corridor with a checkout counter directly in front of the camera wearer, a glass-walled food area to the left, and a bright hallway extending behind the counter into the background. A person in a black shirt stands behind the counter on the right, roughly 1 to 1.5 metres from the camera wearer, while a brown paper bag, a wire snack rack, a jar, and a cash register rest on the counter surface within 0.5 to 1.2 metres of the camera wearer and within arm's reach of both individuals. The person behind the counter faces toward the camera wearer and slightly left, looking down toward the counter and bag in the earlier frames before looking more toward the lower-left counter area in the final frame, with their lower body occluded by the counter and their right side partly cropped at the frame edge in frames 1 through 3. Two distant figures stand in the background hallway about 5 to 7 metres away, partially occluded by the wall opening, the counter, and the brown paper bag. Across the five frames, the camera wearer's viewpoint pitches downward and turns slightly right while moving marginally closer to the counter, bringing the cash register and counter surface into view at the bottom while the upper ceiling recedes out of the frame. Meanwhile, the person behind the counter withdraws their hands from the brown paper bag in frame 1 and leans forward with both arms resting on the counter next to the register by frame 5."
+ },
+ "duration_seconds": 19.546315,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 605,
+  "thinking_tokens": 225,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20183
+ },
+ "conversation_id": "cc5ae68d-6f0b-4dee-aa39-1d69c9784c35"
+}

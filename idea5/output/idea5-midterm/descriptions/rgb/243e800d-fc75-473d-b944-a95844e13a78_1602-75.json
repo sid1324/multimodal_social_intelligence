@@ -1,0 +1,18 @@
+{
+ "id": "243e800d-fc75-473d-b944-a95844e13a78_1602-75",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor space viewed from an angled downward perspective toward a textured grey-brown carpeted floor, with a wooden furniture frame (such as a bed or chair) draped in a blue-and-red patterned blanket on the left within 0.3 to 0.8 metres of the camera wearer. A medium-sized dog with black, tan, and white fur lies on the floor partially underneath the furniture edge at a distance of roughly 0.5 to 1.2 metres, with its body mostly occluded by the overhanging blanket and wooden frame while its white-and-tan legs and paws extend outward onto the carpet. In the first frame, the camera wearer looks down from about 1.0 metre above the floor with their own hand visible at the bottom-right corner on the carpet within arm's reach, while the dog's legs protrude near the top and left edges under the blanket. Across the second, third, and fourth frames, the camera wearer leans down and shifts closer\u2014within 0.3 to 0.5 metres of the wooden frame on the left and the dog's outstretched white paw in the center\u2014and in the fourth frame the wearer's right hand and forearm enter from the upper right to touch the dog's paw within direct reach. By the fifth frame, the camera wearer pulls back and rotates upward and to the right, widening the view to about 1.0 to 1.5 metres away and revealing the patterned blanket above the wooden frame on the left and more of the dog's torso and hind legs stretched out on the floor to the right."
+ },
+ "duration_seconds": 25.738587,
+ "usage": {
+  "input_tokens": 5408,
+  "output_tokens": 499,
+  "thinking_tokens": 93,
+  "cache_read_tokens": 28431,
+  "total_tokens": 5907
+ },
+ "conversation_id": "a318f195-0e5f-4427-9f5e-f9d1c412f24c"
+}

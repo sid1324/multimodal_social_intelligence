@@ -1,0 +1,18 @@
+{
+ "id": "820d4b9e-6fba-472f-aa45-25b27241d4af_366-20",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grass athletic field bordered in the distance by a running track, stadium bleachers, palm trees, and a large roofed building on the far right beneath an open sky. In the first frame, a person in black athletic wear stands on the grass roughly 8 to 10 metres ahead and slightly to the left, facing toward the camera wearer with a dark ball on the ground about 2 metres in front of them, while bleachers sit over 50 metres away on the right. From the second through the fifth frames, the camera wearer rotates rightward so that the person in black shifts to the far left edge of the view (partially cut off by the left frame boundary in frame 2) at roughly 8 to 12 metres distance, oriented sideways and then slightly away toward the field. This rightward pan brings a white soccer goalpost into view ahead at roughly 25 to 30 metres distance, where a second person stands inside the goal frame facing toward the field, roughly 20 metres away from the person in black. In the third frame, a white soccer ball appears on the grass at the bottom center of the view, roughly 1.5 to 2 metres in front of and below the camera wearer, before moving out of the lower frame boundary in the fourth and fifth frames. Throughout all five frames, no people or objects are within arm's reach of the camera wearer, and the distant track and bleachers remain partially occluded behind the goalpost netting and field boundary."
+ },
+ "duration_seconds": 16.553062,
+ "usage": {
+  "input_tokens": 5352,
+  "output_tokens": 485,
+  "thinking_tokens": 104,
+  "cache_read_tokens": 28416,
+  "total_tokens": 5837
+ },
+ "conversation_id": "8e052799-57d5-44d9-90a6-da2e74aac3ff"
+}

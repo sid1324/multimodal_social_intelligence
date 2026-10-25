@@ -1,0 +1,18 @@
+{
+ "id": "e9343bd2-cd48-4abe-902a-3d3f6a0b51d8_1810-91",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room corner with two meeting beige walls, floor-to-ceiling curtains beside a glass door about 2 to 3 metres away on the right, and a small dark corner table holding a white router, a dark telephone, and a white cord about 1.5 to 2 metres from the camera wearer in the first frame. Directly in front of and below the camera wearer at about 0.5 to 0.8 metres\u2014well within arm's reach\u2014is a white and dark-padded highchair with a bottle on its tray, occupied by a baby in a red top who initially faces and looks up toward the camera wearer while partially occluding the corner table behind the backrest. Across frames 1 to 3, as the highchair turns clockwise and the camera wearer moves forward and around its right side toward the corner, the baby turns their head and upper body toward the backrest and away from the camera wearer, while the corner table shifts to the right side of the view at about 1 to 1.5 metres away with full visibility. In frame 4, the camera wearer stands directly behind the highchair looking steeply down, with the corner table about 1 metre ahead, the camera wearer's bare right foot visible at the bottom right, and most of the highchair tray and baby out of view below the bottom left edge except for the baby's hands gripping the top of the backrest. By frame 5, the camera wearer turns left to face the side of the highchair within arm's reach (about 0.5 metres away at the bottom right) where the baby reaches both arms up onto the backrest, revealing a second young child in a dark top standing about 1 metre away on the left in front of a chair, facing right toward the highchair and looking toward the baby while holding the front edge of the highchair tray with both hands."
+ },
+ "duration_seconds": 25.788714,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 1302,
+  "thinking_tokens": 836,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20871
+ },
+ "conversation_id": "60a53d09-0c43-412c-adb2-ad535545953f"
+}

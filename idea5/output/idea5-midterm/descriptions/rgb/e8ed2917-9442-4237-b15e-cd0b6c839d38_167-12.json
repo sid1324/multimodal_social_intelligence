@@ -1,0 +1,18 @@
+{
+ "id": "e8ed2917-9442-4237-b15e-cd0b6c839d38_167-12",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor garage or workshop where the camera wearer is standing and looking downward at an elevated vehicle wheel hub and brake rotor assembly positioned roughly 0.4 to 0.7 metres in front of and below them, with a concrete floor about 1.5 metres below. No other people are present in the scene, and only the camera wearer's arms, torso, and feet are visible at the bottom of the frame. Within the camera wearer's immediate arm's reach (0.3 to 0.6 metres), their left hand holds a long screwdriver angled forward and right against the metal steering knuckle behind the brake dust shield, while their right hand holds a hammer just below and behind the screwdriver handle. In the first four frames, a black overhead work light bar extends diagonally from the upper left to the center at a distance of about 0.1 to 0.3 metres from the camera, partially occluding the view of the suspension components and the floor below. On the floor to the lower right, roughly 1.0 to 1.5 metres away, sits a red tool cart with yellow objects on top, which is partly cut off by the bottom-right frame boundary. Across the first four frames, the camera wearer remains stationary while making slight striking movements with the hammer against the screwdriver, and in the fifth frame the wearer turns their head and torso rightward and steps slightly back, causing the overhead light bar to exit the left side of the view while revealing the front face of the rusty brake rotor on the left and a floor jack and wheel about 1.5 to 2.5 metres away in the upper right."
+ },
+ "duration_seconds": 16.090647,
+ "usage": {
+  "input_tokens": 19509,
+  "output_tokens": 418,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14209,
+  "total_tokens": 19927
+ },
+ "conversation_id": "7a4b9365-65fe-488f-b979-f86471ec0f94"
+}

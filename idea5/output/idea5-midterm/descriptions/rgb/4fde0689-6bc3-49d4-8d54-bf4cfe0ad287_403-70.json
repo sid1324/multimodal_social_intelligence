@@ -1,0 +1,18 @@
+{
+ "id": "4fde0689-6bc3-49d4-8d54-bf4cfe0ad287_403-70",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room with a dark floor and a white back wall located roughly 2.5 to 3.5 metres ahead, featuring a potted palm plant in a white planter on the left, a musical keyboard on a stand in the center-left background with wall art above it, and a glass partition or sliding door on the right. A man wearing dark-framed glasses and a dark t-shirt sits directly in front of the camera wearer, positioned between the camera wearer and the background keyboard, with the potted plant about 1 metre to his right (viewer's left) and the glass door about 1 metre to his left (viewer's right). In frames 1 and 2, the seated man is approximately 1.5 to 2 metres away, facing and looking directly toward the camera wearer from a slightly lower eye level, while the camera wearer holds a grey fabric garment or blanket within arm's reach (0.2 to 0.5 metres in front of the lens) that partially occludes the lower-left foreground in frame 1 and drops mostly below the frame in frame 2. Across frames 3 to 5, the camera wearer moves forward and approaches the seated man while lifting the grey fabric; by frame 3 the man is roughly 1.2 metres away with his lower torso occluded by the raised fabric, and in frame 4 the fabric passes immediately in front of the lens (less than 0.1 metres away), completely occluding the entire room and the man. In frame 5, the camera wearer is within arm's reach of the man at roughly 0.5 to 0.7 metres away, looking slightly down at his head and shoulders as he faces toward the front-right of the frame, while the grey fabric remains held along the bottom foreground edge occluding his torso."
+ },
+ "duration_seconds": 15.587559,
+ "usage": {
+  "input_tokens": 19620,
+  "output_tokens": 547,
+  "thinking_tokens": 93,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20167
+ },
+ "conversation_id": "4a68c028-8f3e-4f16-8e9e-ef4903f3f66a"
+}

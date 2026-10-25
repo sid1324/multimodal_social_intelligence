@@ -1,0 +1,12 @@
+{
+ "id": "f246429f-404e-4023-9b82-bfe6bf1e50cd_78-11",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a kitchen with a central island directly in front of and below the camera, wooden cabinets and appliances along the far wall, and a doorway on the right side of that wall. In the first two frames, food, a kettle, mugs, a phone, cords, bags, and vegetables cover the island within roughly 0.3\u20131 m of the camera wearer, while a partially visible person stands beyond the island about 1.5\u20132 m away. Across the third through fifth frames, the camera turns from looking down and left across the island to looking forward and right toward two people near the far counter, placing the island objects mostly out of view. A woman in green is initially left of center about 1.5\u20132 m away, then appears near the center about 1\u20131.5 m away facing and looking toward the camera; another person remains to her right near the cabinets, roughly 1\u20132 m from the camera and about 1\u20131.5 m from her, but is blurred and partly cut off. In the fourth frame, the camera wearer's raised hand is only a few centimetres from the lens and heavily occludes the center and upper part of the scene; the woman and the other person remain beyond arm's reach, while nearby island items in the first two frames are within the wearer's reach."
+ },
+ "duration_seconds": 16.7,
+ "usage": null,
+ "conversation_id": null
+}

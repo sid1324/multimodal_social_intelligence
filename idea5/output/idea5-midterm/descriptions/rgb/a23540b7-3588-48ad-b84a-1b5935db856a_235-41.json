@@ -1,0 +1,18 @@
+{
+ "id": "a23540b7-3588-48ad-b84a-1b5935db856a_235-41",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a straight, narrow paved path roughly 2 to 3 metres wide, bordered closely on both the left and right by dense bushes, tall grass, and overhanging trees beneath an overcast sky. In the first two frames, a tall lamppost stands on the left side of the path, approaching from roughly 15 to 20 metres ahead in frame 1 to about 3 to 5 metres ahead and extending out of the top of the frame in frame 2, before passing out of view behind the camera wearer by frame 3. Along the path in front of the camera wearer, two figures are visible at a distance in frame 3: a closer person on the right side of the path about 15 to 20 metres away and a second cyclist roughly 15 to 25 metres further behind them down the path. Between frames 3 and 4, the closer person moves past and out of view while the camera wearer advances between overhanging tree foliage on the left and right that comes within roughly 1 to 1.5 metres (near arm's reach) and is partially cropped by the side and top edges of the frame. By frames 4 and 5, the second cyclist approaches from roughly 25 to 30 metres ahead to about 12 to 15 metres ahead on the right side of the path, facing toward the camera wearer, while a second lamppost stands partially occluded by trees along the left edge of the path about 10 to 15 metres behind the cyclist."
+ },
+ "duration_seconds": 17.743292,
+ "usage": {
+  "input_tokens": 19512,
+  "output_tokens": 904,
+  "thinking_tokens": 515,
+  "cache_read_tokens": 14198,
+  "total_tokens": 20416
+ },
+ "conversation_id": "ee58c277-e546-466e-b872-df32dc6a1adf"
+}

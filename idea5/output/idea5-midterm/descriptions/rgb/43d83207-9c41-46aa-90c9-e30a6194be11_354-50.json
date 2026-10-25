@@ -1,0 +1,18 @@
+{
+ "id": "43d83207-9c41-46aa-90c9-e30a6194be11_354-50",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first frame, the camera looks down at a carpeted floor where the camera wearer's hands reach an item at the bottom right (under 0.5 metres away) while a person in a grey shirt leans down from the upper right (about 1 to 1.5 metres away) within arm's reach of the same item, and another person's feet appear partially out of view at the top left (around 2.5 metres away). In the second frame, the viewpoint pitches up to show a room with yellow walls, a closed wooden door on the right (about 2.5 metres away), a small table with laptops and a bottle on the left (about 2.5 to 3 metres away), and a person in a maroon shirt seated on a chair in the centre (about 2 to 2.5 metres away) facing left while turning his head toward the camera wearer, with the grey-shirted person partially visible at the bottom right edge. By the third frame, the camera wearer approaches the seated person to about 1.2 to 1.5 metres away, positioning him in the lower-left foreground as he continues facing left and looking directly toward the camera wearer, with the table and open laptop immediately behind his right arm within his reach and the door to the right at about 1.5 metres. In the fourth frame, the camera wearer steps closer (roughly 0.6 to 0.8 metres away) and moves behind the seated person's back and right shoulder, while the seated person turns his head left away from the camera wearer and partially occludes the table and left laptop. In the fifth frame, the camera wearer stands directly behind and above the seated person within arm's reach (about 0.4 to 0.6 metres away), looking down over the back of his head and shoulders\u2014which face forward and slightly left away from the camera\u2014toward the tabletop (about 0.8 metres away) where an open laptop, a glowing tablet, a black phone, and a spray bottle sit within the seated person's reach."
+ },
+ "duration_seconds": 26.449842,
+ "usage": {
+  "input_tokens": 19581,
+  "output_tokens": 1089,
+  "thinking_tokens": 579,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20670
+ },
+ "conversation_id": "0ce350d1-1a62-4695-acff-0b8fb2563101"
+}

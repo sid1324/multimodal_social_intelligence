@@ -1,0 +1,12 @@
+{
+ "id": "13a15553-2fdb-4d04-a7b4-2efc33538525_875-77",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a store aisle with long product shelves running across the foreground and midground, windows and wall signs behind them, and ceiling lights above. One man is about 1\u20132 metres in front of the camera wearer and within roughly 0.5 metre of the shelves; he faces mainly left toward the products, remains in side or rear profile, and does not clearly look toward the camera. Across the five frames, the viewpoint turns and shifts rightward along the shelves, causing the man to move from left-of-centre to the right edge and then out of view, while products farther right become visible. Bottles, jars, tubs, and packaged goods on the nearest shelf are approximately 0.5\u20132 metres from the camera, with some items near the right side within the camera wearer's arm's reach; the wearer's hand and forearm appear in the final two frames about 0.3\u20130.6 metre from the camera. Shelf edges and products partially occlude lower shelves, the man partly blocks products behind him in the first four frames, and many objects continue beyond the left and right image boundaries."
+ },
+ "duration_seconds": 12.0,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,12 @@
+{
+ "id": "624a6c0a-a4cb-4073-b501-48e4b6b679e4_1105-28",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands at a counter or workbench in a cluttered indoor workshop, with a man about 1\u20131.5 m ahead and slightly left; shelves, equipment, and stacked items extend several metres behind him, while a large gray machine or cabinet occupies the near right side. The man faces generally toward the camera wearer and appears to look in their direction in most frames, shifting from left-of-center to near center as the camera turns slightly right; he remains roughly the same distance away. A yellow vertical object stands between them near the counter, about 0.5\u20131 m from the camera wearer and within the man\u2019s arm\u2019s reach, while a wooden cabinet and small containers are directly behind and to the man\u2019s right. The camera wearer\u2019s hand and a clear glass container rise into the lower-right foreground during the middle and final frames, less than about 0.5 m from the camera and partly occluding the machine, counter, and the man\u2019s lower body. Across the five frames, the viewpoint pans or turns right and then steadies, the foreground hand briefly lowers or leaves view before returning, and the man makes small lateral and upper-body shifts without a clear approach or retreat."
+ },
+ "duration_seconds": 10.0,
+ "usage": null,
+ "conversation_id": null
+}

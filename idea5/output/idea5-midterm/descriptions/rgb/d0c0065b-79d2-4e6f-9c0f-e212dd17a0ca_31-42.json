@@ -1,0 +1,18 @@
+{
+ "id": "d0c0065b-79d2-4e6f-9c0f-e212dd17a0ca_31-42",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room with a tiled floor viewed from a high, downward-angled perspective where the camera wearer is seated on the floor with their orange-trousered legs and black-shoed left foot visible directly below at 0.2 to 0.5 metres. Immediately in front of and below the wearer (0.3 to 0.9 metres away) lies a flat brown wooden board with an upright white shelf divider along its far edge, while cardboard tubes rest to the upper left at 0.6 to 0.9 metres and a glass door or window sits behind the divider at about 1.0 to 1.2 metres. No other people are present, but a Siamese-patterned cat stands inside the narrow channel of the white divider about 0.8 to 1.1 metres in front and to the right of the wearer, facing rightward with its head angled slightly down toward the end of the divider and away from the camera wearer. Within the camera wearer's arm's reach (0.4 to 0.7 metres away) are the wooden board, piles of sawdust, small wooden strips, and a metal saw blade lying on the right side of the board about 0.2 to 0.3 metres from the wooden strip being manipulated by the wearer's right hand. Across the first four frames, the camera viewpoint remains steady while the wearer's left hand enters the upper-left corner in frames 2 and 3 to touch the cardboard tubes and their right hand sweeps a wooden strip across the board to push sawdust before reaching toward the saw blade in frame 5. Between frames 4 and 5, the camera wearer turns their head rightward and tilts slightly up, rotating the board and cat toward the upper-left of the frame, partially cutting off the left side of the board while bringing the right half of the room\u2014including a white floor cable at 1.0 metre and dark shelving at 1.5 to 2.0 metres\u2014into view."
+ },
+ "duration_seconds": 28.262574,
+ "usage": {
+  "input_tokens": 19558,
+  "output_tokens": 1050,
+  "thinking_tokens": 560,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20608
+ },
+ "conversation_id": "d5bf1ff8-c1f8-4326-bdfb-cf16b2f7d111"
+}

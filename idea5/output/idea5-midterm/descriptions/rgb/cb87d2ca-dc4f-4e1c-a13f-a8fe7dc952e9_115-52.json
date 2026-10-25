@@ -1,0 +1,18 @@
+{
+ "id": "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_115-52",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor carpeted room viewed looking sharply downward toward the brown carpet floor about 0.8 to 1.2 metres below the camera wearer, with a wooden furniture edge or doorway on the left in the early frames and a dark shelf unit on the right in the final frame. A medium-sized white-and-brown spotted dog (with long brown ears) is on the floor immediately below and in front of the camera wearer at roughly 0.5 to 1.2 metres distance throughout the sequence, staying within or just at the edge of the camera wearer's reach. In frame 1, the dog is on the lower right, partly cropped by the right frame edge, facing forward and slightly left away from the camera wearer; in frame 2, the dog is centered, facing away from the camera wearer with its head near the bottom edge and its raised tail near a second small light-colored dog or object about 1.5 metres ahead at the top-left edge. In frame 3, the dog is on the lower left facing toward the bottom-center while the camera wearer's right hand reaches down within 0.5 metres at the bottom-center near the dog's right ear. In frame 4, the camera wearer bends closer (floor ~0.6 metres away) with both plaid-sleeved arms reaching down to hold both sides of the dog's head and ears directly below the camera, while the dog faces toward the camera wearer over a small dark-and-blue object on the carpet beneath its chin. By frame 5, the camera wearer's hands have withdrawn out of view and the dog remains centered below at about 0.8 to 1.0 metres, oriented with its rear toward the upper left and its head extending toward the bottom-center frame edge alongside a black shelving unit about 0.8 metres to the right."
+ },
+ "duration_seconds": 18.051673,
+ "usage": {
+  "input_tokens": 19621,
+  "output_tokens": 616,
+  "thinking_tokens": 152,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20237
+ },
+ "conversation_id": "a947d13b-4bdb-4d5e-83d6-99b17ec528cf"
+}

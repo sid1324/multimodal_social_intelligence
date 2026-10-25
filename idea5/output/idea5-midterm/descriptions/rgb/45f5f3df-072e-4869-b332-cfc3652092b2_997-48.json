@@ -1,0 +1,12 @@
+{
+ "id": "45f5f3df-072e-4869-b332-cfc3652092b2_997-48",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated or crouched on sandy ground with both purple-clad legs directly below the camera, an orange reflective vest across the lap, and a light-gray metal panel about 0.3\u20130.6 m in front. Their hands and forearms remain within roughly 0.2\u20130.5 m of the camera, handling a looped blue cord above the lap; the cord moves from near the left knee toward the center and then closer to the upper-right foreground across the five frames. Small objects, including a white cup-like container, a yellow container, and thin red and yellow tools, lie on the ground beyond or beside the panel area, roughly 0.5\u20131.2 m away, with some intermittently cropped by the frame edges. A gray shoe or foot belonging to another person appears partly at the right edge in the first two frames, about 0.5\u20130.9 m from the camera wearer and to their front-right; the rest of that person is out of view, so facing direction and gaze are not visible. Across the strip, the camera wearer turns slightly right and raises the cord-holding hand closer to the camera, causing the hand and cord to increasingly occlude the upper-right scene while the panel, legs, vest, and ground objects remain at approximately the same distances."
+ },
+ "duration_seconds": 12.1,
+ "usage": null,
+ "conversation_id": null
+}

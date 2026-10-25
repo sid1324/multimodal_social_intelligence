@@ -1,0 +1,18 @@
+{
+ "id": "792d0000-7dcd-4e6c-a486-7befe397233d_917-53",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor urban street lined with mural-covered walls, buildings, and trees on the left, and a sidewalk on the right where a white and blue medical tent is set up. In the first two frames, the camera wearer looks ahead and to the left along the roadway, with a person in a white shirt and blue jeans standing about 2 to 3 metres ahead on the right facing away, a person in black standing about 3 to 4 metres ahead to their left facing the sidewalk, and a curly-haired person with a backpack entering on the immediate right within 1 metre. Across frames 2 to 5, the camera wearer turns rightward and advances toward the tent, bringing the curly-haired person directly in front and then to the left within arm's reach (under 1 metre, facing away and partly cropped by the lower-left frame edge) while the person in black passes on the left at 1.5 to 2 metres in frame 3 before exiting the view. Inside the tent on the right, roughly 1.5 to 3 metres from the camera wearer in frames 3 to 5, two seated staff members in white protective gowns and blue hairnets sit on the left and rear sides of a small table within arm's reach of papers and supplies, facing right and forward toward a seated person on the right side of the table who faces left toward them. None of the people look directly at the camera wearer, as the foreground pedestrians face toward the tent or down the sidewalk and the tent occupants focus on the table between them. A dark parked SUV is partially occluded behind the tent and foreground pedestrians at about 5 to 8 metres away in frames 3 and 4, while the tent walls partially occlude the seated occupants as the camera shifts further right in frame 5."
+ },
+ "duration_seconds": 11.965214,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 453,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20014
+ },
+ "conversation_id": "ebf89e8c-95d5-4000-9429-50a9bd64c896"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "95c0a226-5cb1-4380-af73-db2fcdbdbb76_174-41",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail space with a smooth grey floor and a white wall with multi-pane interior windows along the right side. In the first two frames, a man in a grey hoodie and tan pants sits about 1 to 1.5 metres in front of the camera wearer with the windowed wall directly behind him, facing the camera wearer while holding a dark patterned garment on a hanger that partially occludes his chest, with a white tablet on a low surface at the bottom right. Between frames 2 and 4, the camera wearer looks downward and turns slightly left, revealing a red plastic shopping basket within arm's reach (about 0.4 to 0.6 metres below and in front of the viewpoint) while only the seated man's legs and the patterned garment remain visible at the right edge of the frame about 1 metre away. In frames 3 and 4, a rack of hanging blue jeans stands about 1.2 to 1.5 metres directly ahead of the camera wearer (roughly 0.5 to 0.8 metres to the left of the seated man), and the lower legs of a second standing person in grey pants and sneakers are visible about 1.8 to 2 metres away to the left of the jeans, with their upper body cropped out above the top of the frame. In frame 5, the viewpoint tilts back up and right toward the seated man (1 to 1.5 metres away, looking downward toward his lap) and shows a rack of dark jeans about 1.2 metres away on the left, while a light purple garment held within arm's reach of the camera wearer (under 0.5 metres away) moves across the right foreground and partially occludes both the seated man and the window behind him."
+ },
+ "duration_seconds": 33.175006,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 1093,
+  "thinking_tokens": 651,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20715
+ },
+ "conversation_id": "38286fc5-27be-4e2d-9423-574c82b18cce"
+}

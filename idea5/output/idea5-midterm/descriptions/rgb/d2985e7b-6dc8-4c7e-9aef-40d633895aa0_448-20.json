@@ -1,0 +1,18 @@
+{
+ "id": "d2985e7b-6dc8-4c7e-9aef-40d633895aa0_448-20",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a close-up indoor view in front of a white-framed window that looks out onto trees and a parked car several metres below and beyond. Directly in front of the camera wearer, within arm's reach at roughly 0.3 to 0.6 metres, a glossy black silhouette cutout is mounted on the central vertical window frame. To the left of the black cutout, a green paper flower, a pink decoration below it, and shiny metallic streamers sit near the lower window pane about 0.1 to 0.3 metres from the cutout, while a string of blue and green triangular bunting hangs above them across the upper-left window frame. The camera wearer's right hand is visible at the bottom-right corner at about 0.2 to 0.4 metres distance, holding a dark strap or attachment on the right side of the black cutout; no other people are present in the scene. Several objects, including the camera wearer's hand, the lower portion of the black cutout, the pink decoration, and a white cup at the bottom-left edge, are partially cut off by the frame boundaries, and the glass reflects the indoor decorations. Across the five frames, the camera viewpoint shifts slightly downward and to the left while tilting marginally, bringing more of the blue bunting flag, pink decoration, and white cup into view on the left while the hand on the right moves slightly upward and outward."
+ },
+ "duration_seconds": 15.329984,
+ "usage": {
+  "input_tokens": 19624,
+  "output_tokens": 424,
+  "thinking_tokens": 59,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20048
+ },
+ "conversation_id": "84a6620d-d1c5-4568-86ad-b38799b2d537"
+}

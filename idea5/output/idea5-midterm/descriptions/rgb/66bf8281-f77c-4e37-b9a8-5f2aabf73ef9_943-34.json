@@ -1,0 +1,18 @@
+{
+ "id": "66bf8281-f77c-4e37-b9a8-5f2aabf73ef9_943-34",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands behind an L-shaped wooden checkout counter inside a shop, facing a person in a dark blue jacket standing across the counter roughly 0.8 to 1.2 metres in front. On the front counter within arm's reach (about 0.4 to 0.7 metres away) are a black cash register to the lower left, a flat promotional sign in the lower centre, and a red plastic shopping basket to the lower right, while a brown paper bag sits on the side counter section to the left about 1.0 to 1.3 metres away, and a glass pastry display case stands behind the person to the upper right at roughly 1.8 to 2.2 metres. In frame 1, the person leans forward and reaches their right hand across the counter to touch the cash register keypad while their head is cropped above the top edge of the frame and the counter occludes everyone's lower bodies below the waist. Across frames 2 and 3, the person steps back slightly to stand upright facing the camera wearer, resting their right hand on the counter edge in frame 3 while extending their left arm toward the red basket on the right, with their head still mostly out of view above the frame in frames 1 through 4. In frame 4, the camera wearer pans slightly right as the person turns their torso leftward toward the side counter and lifts the red basket leftward, leaving the basket mostly cropped out on the left edge. By frame 5, the red basket sits on the left side counter directly in front of the brown paper bag about 1.0 metre from the camera wearer, and the person stands to the right of the side counter with their head and glasses now visible, facing left toward the basket and looking downward rather than at the camera wearer."
+ },
+ "duration_seconds": 15.611221,
+ "usage": {
+  "input_tokens": 19613,
+  "output_tokens": 658,
+  "thinking_tokens": 213,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20271
+ },
+ "conversation_id": "f7f7497e-9374-49ab-acf8-2ecf62b2310c"
+}

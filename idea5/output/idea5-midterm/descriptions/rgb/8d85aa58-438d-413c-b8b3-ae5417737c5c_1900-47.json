@@ -1,0 +1,12 @@
+{
+ "id": "8d85aa58-438d-413c-b8b3-ae5417737c5c_1900-47",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a small room facing a desk or table, with a large monitor about 0.6\u20131.0 m ahead, curtained windows behind and to the left of it, and a wall or doorway on the right. In frame 1, one woman stands roughly 1\u20131.5 m away on the left/front side of the camera, facing and looking toward the camera wearer while holding a large cloth across her body; she is about 0.5\u20131 m left of the monitor, and the cloth\u2019s near edge appears within the camera wearer\u2019s arm\u2019s reach. In frame 2, the camera turns slightly right or the woman shifts rightward, placing the monitor near the center and leaving the woman partly occluded behind its right edge, with only her upper body and cloth visible. In frame 3, the woman is centered about 1\u20131.5 m ahead, still facing the camera wearer, while the monitor moves to the lower-left edge and is partly out of view; the cloth is gathered closer to her torso. In frame 4, a nearby hand or forearm passes very close to the lens and heavily occludes the center-right view, while the woman is only partly visible near the monitor and right wall. By frame 5, the camera has turned farther right toward the monitor, which fills much of the foreground about 0.5\u20130.8 m away; the woman is no longer visible, the left window remains behind the monitor, and a small hanging object at the upper-right is partly cut off by the frame."
+ },
+ "duration_seconds": 10.3,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_3041-68",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated indoors over a light-blue stool and a white towel on their lap (0.3 to 0.5 metres below the camera), looking downward at a tiled floor where a blue plastic basin sits about 0.7 to 0.9 metres ahead in front of them with pink sandals partially visible at its upper-right edge. Directly in front of and facing the camera wearer, a second person's lower legs extend downward from the top edge of the frame so their two feet\u2014wearing black flip-flops with purple straps and white toe spacers, spaced about 0.2 metres apart\u2014rest on the white towel within the camera wearer's immediate arm's reach (0.4 to 0.6 metres away). A third person's lower legs in black pants and dark green sneakers are visible on the floor about 0.8 to 1.2 metres away at the upper right, oriented leftward toward the basin, while the upper bodies, heads, and gazes of both other people remain completely out of view beyond the top and right frame boundaries. In frames 1 through 3, the camera wearer's left hand holds a small red bottle and their right hand holds a white brush cap directly against the toes of the foot on the right side of the towel, with the right hand drawing slightly back in frame 3. By frame 4, the viewpoint pulls back and tilts slightly upward to reveal more of the blue basin behind the calves as the camera wearer brings the cap to the bottle in their left hand and holds the right side of that foot with their right hand. In frame 5, the viewpoint shifts and rotates rightward as the person in front moves that foot upward and forward into the blue basin (about 0.7 metres away at the top left), leaving their other foot on the towel at the lower left while the camera wearer's right arm moves down onto their own black-clad right leg on the right side of the frame."
+ },
+ "duration_seconds": 25.607008,
+ "usage": {
+  "input_tokens": 19613,
+  "output_tokens": 1410,
+  "thinking_tokens": 931,
+  "cache_read_tokens": 14200,
+  "total_tokens": 21023
+ },
+ "conversation_id": "bfbe1616-7399-47fa-9b33-989e739acbf3"
+}

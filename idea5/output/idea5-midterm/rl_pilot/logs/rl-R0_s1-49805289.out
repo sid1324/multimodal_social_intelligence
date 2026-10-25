@@ -1,0 +1,117 @@
+GPU 0: NVIDIA L40S (UUID: GPU-7bfcd778-f3d6-363f-fab4-3f4ec2958810)
+arm R0 seed 1 steps 90
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 60.31it/s]
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/ocean/projects/cis260338p/sgupta31/rl_pilot/grpo_train.py:153: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  kl_sum += float(((kl * m).sum(1) / m.sum(1).clamp(min=1)).sum())
+{"step": 1, "reward": 0.7562499642372131, "r_norm": 0.7562500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.59375, "len": 14.4375, "kl": 0.0, "frac_flat": 0.75, "sec_gen": 15.9, "sec": 25.5}
+{"step": 2, "reward": 0.49062496423721313, "r_norm": 0.49062500000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.296875, "len": 14.375, "kl": 0.004637310004909523, "frac_flat": 0.75, "sec_gen": 15.4, "sec": 25.4}
+{"step": 3, "reward": 0.7093749642372131, "r_norm": 0.7093750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.609375, "len": 14.375, "kl": 0.0004929294900648529, "frac_flat": 0.875, "sec_gen": 17.0, "sec": 21.8}
+{"step": 4, "reward": 0.45156246423721313, "r_norm": 0.45156250000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.28125, "len": 14.0625, "kl": 0.00197785832954267, "frac_flat": 0.5, "sec_gen": 15.2, "sec": 34.0}
+{"step": 5, "reward": 0.49062496423721313, "r_norm": 0.49062500000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.390625, "len": 14.4375, "kl": 0.0004609006292639606, "frac_flat": 0.5, "sec_gen": 15.1, "sec": 34.2}
+{"step": 6, "reward": 0.5296874642372131, "r_norm": 0.5296875000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.375, "len": 14.4375, "kl": 0.00028090753147202996, "frac_flat": 0.25, "sec_gen": 15.1, "sec": 43.6}
+{"step": 7, "reward": 0.6624999642372131, "r_norm": 0.6625000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5625, "len": 14.6875, "kl": 0.0002127707234436116, "frac_flat": 0.75, "sec_gen": 15.1, "sec": 24.5}
+{"step": 8, "reward": 0.6937499642372131, "r_norm": 0.6937500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.53125, "len": 14.125, "kl": 0.00046540906147296557, "frac_flat": 0.625, "sec_gen": 15.5, "sec": 30.5}
+{"step": 9, "reward": 0.7249999642372131, "r_norm": 0.7250000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.609375, "len": 14.3125, "kl": 0.00034405395321357446, "frac_flat": 0.75, "sec_gen": 15.5, "sec": 25.6}
+{"step": 10, "reward": 0.36406248807907104, "r_norm": 0.3640625, "r_spatial": 0.0, "parsed": 0.984375, "joint": 0.265625, "len": 23.46875, "kl": 0.0024293662718264386, "frac_flat": 0.75, "sec_gen": 85.6, "sec": 100.8}
+{"step": 11, "reward": 0.7953124642372131, "r_norm": 0.7953125000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.6875, "len": 17.484375, "kl": 0.01875228061787008, "frac_flat": 0.625, "sec_gen": 47.9, "sec": 65.8}
+{"step": 12, "reward": 0.42812496423721313, "r_norm": 0.42812500000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.28125, "len": 14.3125, "kl": 0.00042100937434952357, "frac_flat": 0.5, "sec_gen": 14.8, "sec": 33.4}
+{"step": 13, "reward": 0.5921874642372131, "r_norm": 0.5921875000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.484375, "len": 14.0625, "kl": 0.009977815807360457, "frac_flat": 0.875, "sec_gen": 15.1, "sec": 20.1}
+{"step": 14, "reward": 0.6937499642372131, "r_norm": 0.6937500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.53125, "len": 16.0, "kl": 0.0018866108657675795, "frac_flat": 0.75, "sec_gen": 31.6, "sec": 43.1}
+{"step": 15, "reward": 0.7093749642372131, "r_norm": 0.7093750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.609375, "len": 14.3125, "kl": 0.00435385134187527, "frac_flat": 0.75, "sec_gen": 16.3, "sec": 27.0}
+{"step": 16, "reward": 0.7718749642372131, "r_norm": 0.7718750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.671875, "len": 14.125, "kl": 0.0006350906587613281, "frac_flat": 0.875, "sec_gen": 15.0, "sec": 19.6}
+{"step": 17, "reward": 0.7718749642372131, "r_norm": 0.7718750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.609375, "len": 14.5625, "kl": 0.012520733056589961, "frac_flat": 0.875, "sec_gen": 14.6, "sec": 19.2}
+{"step": 18, "reward": 0.6937499642372131, "r_norm": 0.6937500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.59375, "len": 14.75, "kl": 0.03833021562786598, "frac_flat": 0.75, "sec_gen": 15.1, "sec": 24.7}
+{"step": 19, "reward": 0.45937496423721313, "r_norm": 0.45937500000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.34375, "len": 14.1875, "kl": 0.00596465147100389, "frac_flat": 0.875, "sec_gen": 14.7, "sec": 19.4}
+{"step": 20, "reward": 0.7249999642372131, "r_norm": 0.7250000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.609375, "len": 14.5, "kl": 0.050649327124119736, "frac_flat": 0.5, "sec_gen": 15.3, "sec": 35.5}
+{"step": 21, "reward": 0.6703124642372131, "r_norm": 0.6703125000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5, "len": 14.375, "kl": 0.006699565667076968, "frac_flat": 0.625, "sec_gen": 15.0, "sec": 29.1}
+{"step": 22, "reward": 0.49843746423721313, "r_norm": 0.49843750000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.34375, "len": 14.25, "kl": 0.004148709767927509, "frac_flat": 0.25, "sec_gen": 15.2, "sec": 44.9}
+{"step": 23, "reward": 0.8499999642372131, "r_norm": 0.8500000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.75, "len": 14.5, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 14.5, "sec": 14.5}
+{"step": 24, "reward": 0.2718750238418579, "r_norm": 0.27187500000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.15625, "len": 14.1875, "kl": 0.006300882225332316, "frac_flat": 0.5, "sec_gen": 13.5, "sec": 30.0}
+{"step": 25, "reward": 0.6312499642372131, "r_norm": 0.6312500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.46875, "len": 14.1875, "kl": 0.006748197833076119, "frac_flat": 0.875, "sec_gen": 14.9, "sec": 19.6}
+{"step": 26, "reward": 0.5374999642372131, "r_norm": 0.5375000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.421875, "len": 14.25, "kl": 0.001523416503914632, "frac_flat": 0.75, "sec_gen": 15.1, "sec": 24.6}
+{"step": 27, "reward": 0.6312499642372131, "r_norm": 0.6312500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.515625, "len": 14.53125, "kl": 0.025274254265241325, "frac_flat": 0.75, "sec_gen": 14.7, "sec": 24.1}
+{"step": 28, "reward": 0.3500000238418579, "r_norm": 0.35000000000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.25, "len": 14.3125, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 14.9, "sec": 14.9}
+{"step": 29, "reward": 0.8499999642372131, "r_norm": 0.8500000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.625, "len": 14.0625, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 15.6, "sec": 15.6}
+{"step": 30, "reward": 0.44374996423721313, "r_norm": 0.44375000000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.28125, "len": 14.0625, "kl": 0.018343080764073722, "frac_flat": 0.625, "sec_gen": 15.8, "sec": 31.3}
+{"step": 31, "reward": 0.5999999642372131, "r_norm": 0.6000000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5, "len": 14.75, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 15.2, "sec": 15.2}
+{"step": 32, "reward": 0.7328124642372131, "r_norm": 0.7328125000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.53125, "len": 14.1875, "kl": 0.0025499346666038036, "frac_flat": 0.875, "sec_gen": 15.0, "sec": 19.7}
+{"step": 33, "reward": 0.6937499642372131, "r_norm": 0.6937500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.59375, "len": 14.4375, "kl": 0.20498296851292253, "frac_flat": 0.75, "sec_gen": 15.2, "sec": 24.9}
+{"step": 34, "reward": 0.3500000238418579, "r_norm": 0.35000000000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.125, "len": 14.125, "kl": 0.006401291202564607, "frac_flat": 0.75, "sec_gen": 14.9, "sec": 24.4}
+{"step": 35, "reward": 0.5296874642372131, "r_norm": 0.5296875000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.421875, "len": 14.125, "kl": 0.03582548004180808, "frac_flat": 0.75, "sec_gen": 15.3, "sec": 25.2}
+{"step": 36, "reward": 0.6624999642372131, "r_norm": 0.6625000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5, "len": 14.125, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 15.1, "sec": 15.1}
+{"step": 37, "reward": 0.8812499642372131, "r_norm": 0.8812500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.78125, "len": 14.1875, "kl": 0.0032956380327959778, "frac_flat": 0.875, "sec_gen": 15.1, "sec": 19.8}
+{"step": 38, "reward": 0.49843746423721313, "r_norm": 0.49843750000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.390625, "len": 14.375, "kl": 0.03550939846536494, "frac_flat": 0.75, "sec_gen": 15.0, "sec": 24.5}
+{"step": 39, "reward": 0.7249999642372131, "r_norm": 0.7250000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5625, "len": 14.125, "kl": 0.0012087731956853531, "frac_flat": 0.75, "sec_gen": 14.8, "sec": 24.2}
+{"step": 40, "reward": 0.43593746423721313, "r_norm": 0.43593750000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.296875, "len": 14.125, "kl": 0.005262574879452586, "frac_flat": 0.875, "sec_gen": 14.9, "sec": 19.6}
+{"step": 41, "reward": 0.8031249642372131, "r_norm": 0.8031250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.703125, "len": 14.125, "kl": 0.007729168748483062, "frac_flat": 0.875, "sec_gen": 15.1, "sec": 19.9}
+{"step": 42, "reward": 0.2562500238418579, "r_norm": 0.25625000000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.15625, "len": 14.125, "kl": 0.0004657953941205051, "frac_flat": 0.875, "sec_gen": 15.3, "sec": 20.4}
+{"step": 43, "reward": 0.7015624642372131, "r_norm": 0.7015625000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.546875, "len": 14.4375, "kl": 0.003723332061781548, "frac_flat": 0.75, "sec_gen": 14.8, "sec": 24.1}
+{"step": 44, "reward": 0.6546874642372131, "r_norm": 0.6546875000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.546875, "len": 14.125, "kl": 0.014796934884543589, "frac_flat": 0.75, "sec_gen": 14.5, "sec": 23.5}
+{"step": 45, "reward": 0.36562496423721313, "r_norm": 0.36562500000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.265625, "len": 14.3125, "kl": 0.018570255779195577, "frac_flat": 0.75, "sec_gen": 15.0, "sec": 24.7}
+{"step": 46, "reward": 0.5999999642372131, "r_norm": 0.6000000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5, "len": 14.1875, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 15.3, "sec": 15.3}
+{"step": 47, "reward": 0.48281246423721313, "r_norm": 0.48281250000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.328125, "len": 14.125, "kl": 0.04521525837481022, "frac_flat": 0.75, "sec_gen": 15.5, "sec": 25.8}
+{"step": 48, "reward": 0.7406249642372131, "r_norm": 0.7406250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.640625, "len": 14.3125, "kl": 0.08541157469153404, "frac_flat": 0.875, "sec_gen": 15.3, "sec": 20.2}
+{"step": 49, "reward": 0.8031249642372131, "r_norm": 0.8031250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.65625, "len": 14.3125, "kl": 0.0008628722644061781, "frac_flat": 0.875, "sec_gen": 15.2, "sec": 20.1}
+{"step": 50, "reward": 0.5999999642372131, "r_norm": 0.6000000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5, "len": 14.5, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 17.7, "sec": 17.7}
+/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/peft/utils/save_and_load.py:313: UserWarning: Could not find a config file in Qwen/Qwen3-VL-8B-Instruct - will assume that the vocabulary was not modified.
+  warnings.warn(
+{"step": 51, "reward": 0.7406249642372131, "r_norm": 0.7406250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.578125, "len": 14.125, "kl": 0.1209040756803006, "frac_flat": 0.75, "sec_gen": 14.9, "sec": 24.4}
+{"step": 52, "reward": 0.9046874642372131, "r_norm": 0.9046875000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.796875, "len": 14.375, "kl": 0.10778391050795715, "frac_flat": 0.625, "sec_gen": 15.0, "sec": 29.0}
+{"step": 53, "reward": 0.6312499642372131, "r_norm": 0.6312500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.53125, "len": 14.25, "kl": 0.13611145317554474, "frac_flat": 0.875, "sec_gen": 15.3, "sec": 20.4}
+{"step": 54, "reward": 0.6312499642372131, "r_norm": 0.6312500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.53125, "len": 14.3125, "kl": 0.11429478693753481, "frac_flat": 0.75, "sec_gen": 15.2, "sec": 25.1}
+{"step": 55, "reward": 1.084375023841858, "r_norm": 1.084375, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.984375, "len": 14.75, "kl": 0.19383777678012848, "frac_flat": 0.875, "sec_gen": 15.1, "sec": 19.9}
+{"step": 56, "reward": 0.7249999642372131, "r_norm": 0.7250000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.625, "len": 19.09375, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 67.0, "sec": 67.0}
+{"step": 57, "reward": 0.5687499642372131, "r_norm": 0.5687500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.4375, "len": 14.5, "kl": 0.09812719351612031, "frac_flat": 0.75, "sec_gen": 14.2, "sec": 23.3}
+{"step": 58, "reward": 0.6156249642372131, "r_norm": 0.6156250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.46875, "len": 15.625, "kl": 0.011125725034313897, "frac_flat": 0.625, "sec_gen": 31.5, "sec": 48.3}
+{"step": 59, "reward": 0.7093749642372131, "r_norm": 0.7093750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.609375, "len": 14.25, "kl": 0.016141447238624096, "frac_flat": 0.875, "sec_gen": 15.0, "sec": 19.8}
+{"step": 60, "reward": 0.7874999642372131, "r_norm": 0.7875000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.6875, "len": 14.3125, "kl": 0.03632122266571969, "frac_flat": 0.75, "sec_gen": 14.8, "sec": 24.1}
+{"step": 61, "reward": 0.9124999642372131, "r_norm": 0.9125000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.8125, "len": 14.4375, "kl": 0.011959807947278023, "frac_flat": 0.875, "sec_gen": 15.4, "sec": 20.5}
+{"step": 62, "reward": 0.5609374642372131, "r_norm": 0.5609375000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.453125, "len": 14.625, "kl": 0.0576315664620779, "frac_flat": 0.5, "sec_gen": 14.9, "sec": 33.9}
+{"step": 63, "reward": 0.5218749642372131, "r_norm": 0.5218750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.421875, "len": 14.3125, "kl": 0.0059596091741696, "frac_flat": 0.875, "sec_gen": 15.1, "sec": 20.0}
+{"step": 64, "reward": 0.8109374642372131, "r_norm": 0.8109375000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.703125, "len": 14.875, "kl": 0.18164456562590203, "frac_flat": 0.75, "sec_gen": 14.9, "sec": 24.2}
+{"step": 65, "reward": 0.7562499642372131, "r_norm": 0.7562500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.65625, "len": 14.5, "kl": 0.029519712552428246, "frac_flat": 0.875, "sec_gen": 15.0, "sec": 19.7}
+{"step": 66, "reward": 0.9437499642372131, "r_norm": 0.9437500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.765625, "len": 14.625, "kl": 0.03648542488614718, "frac_flat": 0.625, "sec_gen": 14.9, "sec": 28.9}
+{"step": 67, "reward": 0.9749999642372131, "r_norm": 0.9750000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.875, "len": 18.109375, "kl": 0.15168782960002622, "frac_flat": 0.625, "sec_gen": 56.4, "sec": 75.5}
+{"step": 68, "reward": 0.5453124642372131, "r_norm": 0.5453125000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.4375, "len": 14.3125, "kl": 0.17868148651056495, "frac_flat": 0.625, "sec_gen": 15.2, "sec": 29.2}
+{"step": 69, "reward": 0.7249999642372131, "r_norm": 0.7250000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.625, "len": 14.5625, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 15.2, "sec": 15.2}
+{"step": 70, "reward": 0.5531249642372131, "r_norm": 0.553125, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.375, "len": 14.6875, "kl": 0.04212925024330616, "frac_flat": 0.875, "sec_gen": 15.1, "sec": 19.8}
+{"step": 71, "reward": 0.5843749642372131, "r_norm": 0.5843750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.484375, "len": 14.4375, "kl": 0.035236015915870667, "frac_flat": 0.875, "sec_gen": 15.2, "sec": 20.1}
+{"step": 72, "reward": 0.8187499642372131, "r_norm": 0.8187500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.703125, "len": 14.625, "kl": 0.22700237979491553, "frac_flat": 0.625, "sec_gen": 14.5, "sec": 28.4}
+{"step": 73, "reward": 0.5687499642372131, "r_norm": 0.5687500000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.40625, "len": 14.5625, "kl": 0.0005212575197219849, "frac_flat": 0.875, "sec_gen": 15.0, "sec": 19.7}
+{"step": 74, "reward": 0.9203124642372131, "r_norm": 0.9203125000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.765625, "len": 14.3125, "kl": 0.004431565059348941, "frac_flat": 0.875, "sec_gen": 14.9, "sec": 19.7}
+{"step": 75, "reward": 0.8656249642372131, "r_norm": 0.8656250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.765625, "len": 14.3125, "kl": 0.08872468874324113, "frac_flat": 0.875, "sec_gen": 15.2, "sec": 20.3}
+{"step": 76, "reward": 0.5062499642372131, "r_norm": 0.50625, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.3125, "len": 14.25, "kl": 0.2525820806622505, "frac_flat": 0.75, "sec_gen": 15.1, "sec": 25.0}
+{"step": 77, "reward": 0.5921874642372131, "r_norm": 0.5921875000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.484375, "len": 14.125, "kl": 0.6676687300205231, "frac_flat": 0.875, "sec_gen": 14.9, "sec": 19.5}
+{"step": 78, "reward": 0.5453124642372131, "r_norm": 0.5453125000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.390625, "len": 14.25, "kl": 0.0005844554543728009, "frac_flat": 0.875, "sec_gen": 14.9, "sec": 19.5}
+{"step": 79, "reward": 0.44374996423721313, "r_norm": 0.44375000000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.28125, "len": 14.6875, "kl": 0.06920472346246243, "frac_flat": 0.875, "sec_gen": 14.9, "sec": 19.5}
+{"step": 80, "reward": 0.9281249642372131, "r_norm": 0.9281250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.765625, "len": 14.4375, "kl": 0.440856397151947, "frac_flat": 0.875, "sec_gen": 15.1, "sec": 19.9}
+{"step": 81, "reward": 0.7093749642372131, "r_norm": 0.7093750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.609375, "len": 14.0625, "kl": 0.010201428085565567, "frac_flat": 0.875, "sec_gen": 16.1, "sec": 21.3}
+{"step": 82, "reward": 0.6468749642372131, "r_norm": 0.6468750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.546875, "len": 14.25, "kl": 0.05041735455214772, "frac_flat": 0.625, "sec_gen": 14.9, "sec": 29.1}
+{"step": 83, "reward": 0.6234374642372131, "r_norm": 0.6234375000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5, "len": 14.25, "kl": 0.020542266429401934, "frac_flat": 0.75, "sec_gen": 15.3, "sec": 25.5}
+{"step": 84, "reward": 0.6781249642372131, "r_norm": 0.6781250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.515625, "len": 14.6875, "kl": 0.15214486047625542, "frac_flat": 0.875, "sec_gen": 15.3, "sec": 20.2}
+{"step": 85, "reward": 0.5999999642372131, "r_norm": 0.6000000000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.5, "len": 14.4375, "kl": 0.0, "frac_flat": 1.0, "sec_gen": 15.2, "sec": 15.2}
+{"step": 86, "reward": 0.7093749642372131, "r_norm": 0.7093750000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.609375, "len": 14.5, "kl": 0.0006076034478610381, "frac_flat": 0.75, "sec_gen": 14.9, "sec": 24.4}
+{"step": 87, "reward": 0.5453124642372131, "r_norm": 0.5453125, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.375, "len": 14.25, "kl": 0.05707831517793238, "frac_flat": 0.875, "sec_gen": 14.8, "sec": 19.3}
+{"step": 88, "reward": 0.6781249642372131, "r_norm": 0.6781250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.53125, "len": 14.4375, "kl": 0.35759349167346954, "frac_flat": 0.875, "sec_gen": 14.7, "sec": 19.4}
+{"step": 89, "reward": 0.49062496423721313, "r_norm": 0.49062500000000003, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.390625, "len": 14.0, "kl": 0.026839029043912888, "frac_flat": 0.875, "sec_gen": 14.2, "sec": 19.2}
+{"step": 90, "reward": 0.5531249642372131, "r_norm": 0.5531250000000001, "r_spatial": 0.0, "parsed": 1.0, "joint": 0.453125, "len": 14.0625, "kl": 0.06736185616318835, "frac_flat": 0.75, "sec_gen": 14.9, "sec": 24.5}
+TRAIN_DONE R0 adapters/R0_s1
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 60.04it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+16 of 200
+32 of 200
+48 of 200
+64 of 200
+80 of 200
+96 of 200
+112 of 200
+128 of 200
+144 of 200
+160 of 200
+176 of 200
+192 of 200
+200 of 200
+EVAL_DONE adapters/R0_s1 social parsed 200 / 200
+ARM_DONE R0_s1

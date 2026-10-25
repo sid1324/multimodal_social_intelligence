@@ -1,0 +1,18 @@
+{
+ "id": "19f2ea20-5041-4be2-bdc9-714473f16236_2706-11",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place outdoors on a high, shrub-covered mountain ridge with green hills extending hundreds of metres into the background on the left and dense bushes along the right. In the first four frames, the camera wearer's hands hold a smartphone at the bottom center about 0.3 to 0.4 metres in front of and below the viewpoint, within the wearer's grasp, while a person in a red jacket, blue jeans, patterned gloves, and a waist-tied green jacket stands about 1.5 to 2 metres away on the right. In frames 1 through 4, the person in the red jacket is partially cropped by the right frame edge and upper border, faces toward the camera wearer, and moves her right arm from her hip in frame 1 to an extended position toward the left in frame 2 before lowering it beside her leg in frames 3 and 4. In frame 5, the camera wearer turns to the right and lowers the smartphone out of view, centering the person in the red jacket at roughly 1.5 to 2 metres distance as she faces and looks toward the camera wearer with both gloved hands held slightly out near waist height. This rightward turn in frame 5 reveals a second person in dark clothing standing about 0.5 to 1 metre behind and to the right of the first person (roughly 2 to 2.5 metres from the camera wearer) facing rightward away from the camera, partially occluding a third person just behind them whose extended arm holds a phone within their own reach about 2.5 to 3 metres away."
+ },
+ "duration_seconds": 26.35297,
+ "usage": {
+  "input_tokens": 19614,
+  "output_tokens": 1215,
+  "thinking_tokens": 814,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20829
+ },
+ "conversation_id": "5e974181-6943-4a89-bf08-8bcfbd120523"
+}

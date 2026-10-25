@@ -1,0 +1,18 @@
+{
+ "id": "4ff2e551-1ccb-44ce-8b68-09666397f681_554-17",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor counter area where a wooden countertop sits directly in front of the camera wearer (~0.3\u20130.7 m away), with a glass pastry display case on a shelf behind and to the right (~1.2\u20131.8 m away) and an open hallway in the background to the left (~4\u20136 m away). A man in a dark blue jacket and white collared shirt stands directly in front of the camera wearer on the opposite side of the counter at roughly 0.8\u20131.0 m distance, flanked on the viewer's left (~0.3\u20130.5 m from him) by a brown paper bag (~0.8 m from the viewer) and a wire snack rack (~0.6\u20130.8 m away) and on the lower front-left by a dark jar and a black keypad terminal on the counter (~0.4\u20130.6 m away). The cash bills held in the camera wearer's own hands (~0.2\u20130.4 m in front), the keypad terminal, and the jar are within the camera wearer's arm's reach, while the counter edge, the keypad, and the brown paper bag are within the man's arm's reach, with both of his hands resting on the counter in frames 1\u20133. The man's torso faces the camera wearer throughout, though the top of his head and eyes are cropped out by the upper frame boundary in frames 1\u20133, before he turns his head to the viewer's left (away from the camera wearer) in frame 4 and turns back to face and look toward the camera wearer in frame 5. Across the five frames, the man remains at a steady distance while the camera tilts slightly upward and the camera wearer's hands rise from the lower edge into the central foreground to fan and separate paper bills, progressively occluding the keypad terminal and the man's lower torso and hands in frames 3\u20135, while the snack rack on the left and display case on the right remain partially cut off at the side edges."
+ },
+ "duration_seconds": 21.13975,
+ "usage": {
+  "input_tokens": 5379,
+  "output_tokens": 1246,
+  "thinking_tokens": 740,
+  "cache_read_tokens": 28416,
+  "total_tokens": 6625
+ },
+ "conversation_id": "720af54e-4837-434e-984a-9a82a53258e0"
+}

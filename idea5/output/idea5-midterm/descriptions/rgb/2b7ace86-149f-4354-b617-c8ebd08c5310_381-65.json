@@ -1,0 +1,18 @@
+{
+ "id": "2b7ace86-149f-4354-b617-c8ebd08c5310_381-65",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a store aisle lined with multi-tiered white pegboard shelves that angle from about 0.4\u20130.6 metres away in the right foreground to roughly 2.5\u20133.0 metres away toward the back left. The upper shelf holds open display boxes of snack bars (including orange, green, blue, and tan boxes), while the middle and lower shelves below it contain blue, yellow, and red boxes and cups, all within arm's reach of the camera wearer on the right. In frames 1 through 4, the camera wearer's right hand is partly visible at the bottom-right edge (about 0.4\u20130.5 metres away), reaching into the middle shelf and shifting slightly leftward from a white box in frame 1 to a dark blue box in frames 2 to 4 as the camera pans left. In frames 3 and 4, a white sheet of paper and a hand holding a small package enter the far-left edge of the frame at roughly 0.6\u20130.8 metres distance, largely cut off by the left frame boundary. By frame 5, the camera turns further left and retreats slightly along the aisle, revealing a woman on the left about 0.5\u20130.7 metres from the camera wearer and 0.3\u20130.5 metres in front of the shelves, holding white papers within her arm's reach. She is positioned to the left of the shelving unit, angled toward the right foreground, and faces downward toward the papers and lower shelves rather than looking at the camera wearer, while her lower body and left side remain out of view."
+ },
+ "duration_seconds": 33.058921,
+ "usage": {
+  "input_tokens": 19628,
+  "output_tokens": 954,
+  "thinking_tokens": 541,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20582
+ },
+ "conversation_id": "85ff2002-64c1-4b64-88f7-7f31ef81e4b5"
+}

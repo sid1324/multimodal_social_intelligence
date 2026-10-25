@@ -1,0 +1,18 @@
+{
+ "id": "daf5384b-ea5c-4cce-bb8a-540a360075bf_676-16",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor tiled patio viewed from a steep downward egocentric angle, showing the camera wearer's blue hoodie, feet, and right arm at the bottom of the frame, green bushes and a coiled yellow hose along the left edge, and a stationary masonry grill in front and to the left at roughly 1.0 to 1.5 metres distance. On the grill's wire rack are green vegetables with a metal handle extending toward the camera wearer (just beyond arm's reach at about 0.9 to 1.2 metres), while on the patio floor to the right of the grill sit an upright plastic bottle (about 1.3 metres away, 0.4 metres from the grill), a charcoal bag about 0.5 metres behind the bottle (~1.8 metres away), and a green umbrella stand base further right (~2.0 to 2.5 metres away, visible from frame 3 onward). Two other people are present further ahead on the patio, both partly out of view with their upper bodies and heads cropped above the top edge of the frame so their eye gaze cannot be seen, though their shadows cast onto the tiles indicate their standing postures. The first person, wearing dark trousers, stands roughly stationary behind the grill and charcoal bag about 2.3 to 2.8 metres in front of the camera wearer, oriented sideways and slightly toward the camera. Across frames 1 to 5, the camera wearer rotates their viewpoint and torso clockwise toward the right\u2014shifting the grill toward the bottom-left corner\u2014while a second person in blue jeans and a light shirt walks forward from the top-right (about 0.8 to 1.0 metre right of the first person), facing and approaching the camera wearer from roughly 3.0 metres in frame 3 to about 2.0 metres in frame 5 as the camera wearer extends their right arm forward toward them."
+ },
+ "duration_seconds": 45.554364,
+ "usage": {
+  "input_tokens": 5320,
+  "output_tokens": 1341,
+  "thinking_tokens": 873,
+  "cache_read_tokens": 28415,
+  "total_tokens": 6661
+ },
+ "conversation_id": "451026e7-0ccc-4533-9269-9835a0539154"
+}

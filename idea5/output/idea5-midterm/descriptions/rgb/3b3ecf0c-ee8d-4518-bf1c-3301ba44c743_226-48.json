@@ -1,0 +1,18 @@
+{
+ "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated in the driver's seat inside a car cabin, with the steering wheel, dashboard, and left side mirror within arm's reach (roughly 0.4 to 0.8 metres in front and to the left) and a rearview mirror mounted above and to the right of the windshield at roughly 0.6 metres. Through the windshield, a two-lane suburban road curves gently to the right and then straightens, flanked on the left by residential houses and trees about 20 to 60 metres away and on the right by a grassy strip and a paved multi-use path roughly 8 to 15 metres to the right of the roadway. The car interior roof and A-pillars frame the scene and partially occlude the sky and peripheral ground, while the lower dashboard and steering wheel remain partly cut off at the bottom edge of the frame, with the camera wearer's left hand visible gripping the top of the steering wheel. On the paved path to the right of the road, a pedestrian walking with a small dog is initially over 60 metres ahead in the first frame and approaches relative to the forward-moving vehicle across the five frames, reaching roughly 15 to 20 metres ahead and to the right by the final frame, where the rearview mirror partially occludes their upper body. As the vehicle advances along the curve from frame 1 to frame 5, a road sign on the right verge passes from about 30 metres ahead in frame 2 to out of view on the right after frame 3, while a left-turn lane with a painted white arrow appears on the roadway directly to the left in the final two frames."
+ },
+ "duration_seconds": 13.60795,
+ "usage": {
+  "input_tokens": 19617,
+  "output_tokens": 525,
+  "thinking_tokens": 106,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20142
+ },
+ "conversation_id": "a7b28009-ff56-409a-b20e-09b1f1af25c0"
+}

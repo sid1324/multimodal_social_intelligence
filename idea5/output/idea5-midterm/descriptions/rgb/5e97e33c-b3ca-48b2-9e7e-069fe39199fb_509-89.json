@@ -1,0 +1,18 @@
+{
+ "id": "5e97e33c-b3ca-48b2-9e7e-069fe39199fb_509-89",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a smooth concrete surface illuminated from above, viewed from a head-mounted camera angled sharply downward toward the ground roughly 1.5 metres below the camera wearer. In the first four frames, the camera wearer's own torso in a white shirt, black pants with white stripes, shoes, and lowered hands occupy the bottom center of the view, with a dark skateboard resting directly on the concrete at their feet. Across frames 1 and 2, the skateboard is positioned underneath the camera wearer's right foot, while in frames 3 and 4 the wearer steps slightly back so the upside-down board lies horizontally about 0.2 to 0.3 metres in front of their shoes and roughly 1.5 to 1.8 metres from the camera. Along the upper right corner of frames 1 through 4, a curved concrete boundary and the base of a metal grate are partially visible about 2.5 to 3 metres away. In the fifth frame, the viewpoint rotates to the left and tilts slightly upward, placing the skateboard under the wearer's right foot at the bottom right while bringing a second person in a white shirt, grey pants, and red shoes into view on the left at a distance of about 1.0 to 1.5 metres. This second person is within arm's reach of the camera wearer's extended left forearm, has their legs angled toward the camera wearer, and is partially occluded by the left frame boundary with their head and upper body out of view."
+ },
+ "duration_seconds": 15.923687,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 889,
+  "thinking_tokens": 502,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20458
+ },
+ "conversation_id": "0400c4b5-5c10-4304-a1bc-7f2a5a763a7c"
+}

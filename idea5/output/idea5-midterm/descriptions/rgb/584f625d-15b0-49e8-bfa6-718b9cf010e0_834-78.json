@@ -1,0 +1,18 @@
+{
+ "id": "584f625d-15b0-49e8-bfa6-718b9cf010e0_834-78",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living room centered on a patterned rectangular rug on the floor, bordered by a patterned sofa with cushions about 1 to 2 metres to the left, a dark coffee table under three wall paintings about 1.5 to 2.5 metres to the right, and a television on a dark stand flanked by shelves roughly 3.5 to 4 metres ahead in the first frame. A young child in a blue shirt sits on the rug below the standing camera wearer's viewpoint with legs outstretched, facing away toward the far TV stand and looking down at the floor rather than toward the camera wearer. On the rug within the child's arm's reach\u2014about 0.2 to 0.6 metres in front of and beside the child\u2014are shallow box lids, a white rectangular board, and scattered small puzzle pieces. Across the five frames, the camera wearer walks straight forward along the rug and tilts their gaze progressively downward, closing the distance to the child from roughly 2.5\u20133 metres in the first frame to about 0.5\u20130.8 metres directly behind and above the child in the final frame. By the fifth frame, the child and the nearby floor items are within or nearly within the camera wearer's arm's reach, while the child's head and torso occlude the rug immediately beneath them. As the camera wearer advances and pitches downward, the sofa on the left, the wall art on the right, and the television at the top edge move progressively out of view, while parts of the camera wearer's own arms and legs remain partially visible and cropped along the bottom frame edge."
+ },
+ "duration_seconds": 21.944996,
+ "usage": {
+  "input_tokens": 19511,
+  "output_tokens": 1120,
+  "thinking_tokens": 709,
+  "cache_read_tokens": 14197,
+  "total_tokens": 20631
+ },
+ "conversation_id": "80196ef0-eb35-4dad-bb3f-2101ce321230"
+}

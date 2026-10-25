@@ -1,0 +1,18 @@
+{
+ "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor bouldering gym with a wide blue padded floor mat in the foreground and angled grey, yellow, and blue climbing walls with colored holds about 4 to 6 metres ahead. Directly in front of the camera wearer, a person in grey sweatpants and a black shirt lies on their back on the mat with their feet extending to within 1 metre (arm's reach) of the camera wearer and their head about 2.5 metres away, holding a phone in both hands above their face while looking upward. To the left of the supine person, about 2.5 to 3.5 metres from the camera wearer and less than 0.5 metres from each other, two people sit on the mat\u2014one in a black hoodie facing away toward the climbing wall and one further left in a pink top who looks toward the camera wearer while holding up two fingers in frame 1 before turning forward toward the wall in frames 2 through 5. To the right of the supine person, about 2.5 to 3.5 metres away, two people in grey and brown shirts sit side by side on the mat facing the climbing wall, while further background figures stand or sit 5 to 8 metres away near a wooden bench on the far left and at the base of the climbing wall on the left and right. In frame 2, the camera wearer's left hand rises into view in the lower foreground within 0.5 metres, partially occluding the supine person's right ankle, while the supine person's lower legs are partly cropped at the bottom edge across all frames. From frames 1 to 3, the camera view pans slightly right and tilts up to reveal more of the ceiling and a standing person in black shorts entering on the far right edge in frame 4 (about 2 metres away, partially occluded by the frame boundary), who remains standing in right-profile on the mat in frame 5 while the left-side background bench moves out of view."
+ },
+ "duration_seconds": 45.057293,
+ "usage": {
+  "input_tokens": 19589,
+  "output_tokens": 714,
+  "thinking_tokens": 227,
+  "cache_read_tokens": 14214,
+  "total_tokens": 20303
+ },
+ "conversation_id": "b15a14b4-d7a7-46a0-82dd-0a3a57c957f9"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "1ce16a97-f614-4660-b21c-4205b33c8bab_1988-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an L-shaped kitchen featuring white upper cabinets above a blue tiled backsplash, a right-hand counter with a stovetop and range hood, a main back counter with a double sink, a microwave on its left end, an open dishwasher below, and a dining table with chairs about 3 to 4 metres away in the left background. In the first frame, the camera wearer stands within arm's reach (under 0.5 metres) of a white upper cabinet on the right while a man in a grey shirt and glasses stands about 1 metre away at the lower left, partially cropped by the frame edge, facing right and looking down rather than toward the camera wearer. In the second frame, the view shifts left to show the man in front of the camera wearer at roughly 0.8 to 1.0 metres, facing right toward the stovetop about 0.5 metres in front of him where he holds a dark pan within his arm's reach next to a kettle and red pot, while his torso partially occludes the corner counter behind him. By the third frame, the camera wearer moves past the man toward the main counter, leaving only the back of the man's shoulder visible at the far lower-right edge within 0.5 metres while bringing the double sink, open dishwasher door below, and microwave (about 0.8 metres left of the sink) into full view at 1.5 to 2.0 metres distance. Across the fourth and fifth frames, the man is completely out of view behind the camera wearer as the wearer approaches the sink, closing the distance from about 0.8 metres to under 0.5 metres so the faucet, sink basins, and a white bottle on the counter come within arm's reach while the microwave and upper cabinets are progressively cropped out at the left and top edges."
+ },
+ "duration_seconds": 17.003869,
+ "usage": {
+  "input_tokens": 19530,
+  "output_tokens": 1016,
+  "thinking_tokens": 560,
+  "cache_read_tokens": 14213,
+  "total_tokens": 20546
+ },
+ "conversation_id": "676136f2-c429-4f3f-8be6-c956a3e3f57c"
+}

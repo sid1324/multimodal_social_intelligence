@@ -1,0 +1,12 @@
+{
+ "id": "6b6fde45-51e9-4c60-8305-27e45883ee7b_270-11",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands beside a tiled floor area in front of a glass door or low window, with their forearms and hands visible about 0.3\u20130.6 m below and in front of the camera. A cat is roughly 0.8\u20131.2 m ahead and slightly right of the wearer, beside the glass; it begins facing mostly left toward the wearer, then turns toward the glass, and finally angles left again toward the approaching hand. On the floor to the left of the cat are a cylindrical scratching object, a light-blue elongated object, a round woven container, several small white dishes, and a cardboard tube, all approximately 0.7\u20131.5 m from the camera and within about 0.2\u20130.8 m of one another. The cat and the nearest floor objects are within the wearer's arm's reach when the wearer extends the right hand, while the woven container and far edge of the blue object remain farther left. Across the five frames, the camera shifts slightly right and closer to the cat as the right hand moves from near the wearer's body to within roughly 0.1\u20130.3 m of the cat; the cat steps closer to the glass, rises or stretches upward, and turns its head back left in the final frame. The wearer's arms partly occlude the lower center and lower right, some floor objects are cut off at the bottom and side edges, and the exterior beyond the glass is bright and only partly visible."
+ },
+ "duration_seconds": 10.9,
+ "usage": null,
+ "conversation_id": null
+}

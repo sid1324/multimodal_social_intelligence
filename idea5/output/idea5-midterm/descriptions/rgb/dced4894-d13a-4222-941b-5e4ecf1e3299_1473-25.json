@@ -1,0 +1,18 @@
+{
+ "id": "dced4894-d13a-4222-941b-5e4ecf1e3299_1473-25",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a large indoor warehouse with a high pitched corrugated metal roof supported by steel trusses, an open concrete floor, tall stacks of grey blocks on the left (about 6 to 10 metres away) and right (about 10 to 12 metres away), and a large dark roller door along the far wall roughly 15 to 20 metres ahead. Immediately in front of and below the camera wearer at 0.3 to 0.5 metres\u2014well within arm's reach\u2014is the top and back of a person's head wearing a head-mounted device, facing away from the camera wearer and partially cropped by the bottom edge of the frame. Near the far wall to the left of the dark door, about 15 to 20 metres away, two people (one in red sitting or crouching on a small cart and one standing in dark clothing within 1 to 2 metres of each other) are oriented sideways relative to the camera wearer and do not look toward the viewpoint. In frame 2, a right hand wearing a wrist band and ring rises within 0.2 to 0.4 metres of the lens to touch the foreground person's head-mounted rig, partially occluding the lower center of the view and the block stacks behind it. Across the five frames, the camera wearer's viewpoint tilts and pans: starting tilted left in frames 1 and 2, panning right and tilting upward in frames 3 and 4\u2014which brings a parked motorcycle beside the left block stack (about 7 metres away) and a third person in red plus a white structure near the right block stack (about 10 to 12 metres away) into view while the foreground head drops mostly below the bottom frame edge\u2014before panning back left in frame 5."
+ },
+ "duration_seconds": 66.698164,
+ "usage": {
+  "input_tokens": 19530,
+  "output_tokens": 1003,
+  "thinking_tokens": 553,
+  "cache_read_tokens": 14213,
+  "total_tokens": 20533
+ },
+ "conversation_id": "02a4c221-55a6-497c-a667-cc855b95b20b"
+}

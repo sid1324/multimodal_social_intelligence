@@ -1,0 +1,1 @@
+{"id": "02ca6897-bf08-4cfb-bbc7-7810dbf5cca2_2974-75", "cond": "maps_wrong", "model": "gemini", "action_position": 3, "justification_position": 2, "raw": "{\"action\": 3, \"justification\": 2}\n", "meta": {"status": "SUCCESS", "denied": null}, "seconds": 15.7, "attempts": 1}

@@ -1,0 +1,18 @@
+{
+ "id": "ad851441-1f15-467e-83d8-48c764e220a8_975-45",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first frame, the camera wearer looks down at a window with horizontal blinds on the left and a dark surface on the right holding a cylindrical candle and a partially visible smartphone screen at the bottom edge, all within arm's reach at about 0.3 to 0.5 metres. From the second to the fifth frame, the view pans right into a bedroom with no people present, bordered by a plain wall on the left, a patterned bed on the right, a green round floor cushion and white rug on the floor between them, and an open doorway and closet with hanging clothes in the background about 3 to 4.5 metres ahead. In the second and third frames, the green cushion lies on the floor to the lower left at roughly 1.2 to 2 metres, while a dog lies on the near corner of the bed about 0.5 to 1 metre to the right of the cushion and 1.2 to 1.8 metres from the camera wearer, facing left with its head turned toward the camera. By the fourth frame, the camera wearer steps forward and pitches downward so the green cushion and white rug are directly below at about 0.8 to 1.2 metres, while the bed and dog are mostly cut off beyond the right edge of the frame and the distant doorway and closet are cropped at the top. In the fifth frame, the camera turns right toward the bed, bringing the dog into the lower center-right at about 1 to 1.3 metres (near arm's reach) and revealing the full bed with pillows and a headboard 2 to 2.5 metres away on the upper right, while the green cushion drops out of view below the bottom-left edge."
+ },
+ "duration_seconds": 20.860141,
+ "usage": {
+  "input_tokens": 5381,
+  "output_tokens": 967,
+  "thinking_tokens": 536,
+  "cache_read_tokens": 28413,
+  "total_tokens": 6348
+ },
+ "conversation_id": "e4c0e2a2-74c8-4295-9983-4532b0476538"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor domestic room with a wooden floor and red rug in the foreground, a semi-circular table against a wall on the right, and an adjoining bright area with a sofa, a small wooden activity table, and glass doors on the left. In Frame 1, the camera wearer stands about 1.2 to 1.5 metres from the semi-circular table, which holds a laptop, an open notebook, papers, and a mug on its right side, while two chairs sit to the left and front of the table and a person reclines on the sofa about 2.5 to 3 metres away to the far left, mostly out of view. In Frame 2, the camera wearer steps forward to within 0.5 metres of the semi-circular table, looking down at its surface while extending their right hand into arm's reach of the mug, which causes the reclining person on the left to fall almost entirely out of the frame save for their feet. In Frame 3, the camera wearer grasps and lifts the mug with their right hand while turning their head and body counterclockwise toward the left, bringing the person reclining on the sofa\u2014who is about 2 to 2.5 metres away in the upper-left, facing toward their own lap and away from the camera wearer with a laptop on their legs and a phone in hand\u2014back into view beyond the chair with the blue towel. Across Frames 4 and 5, the camera wearer continues rotating left and walks forward toward the adjoining area, passing a grey refrigerator/appliance and vertical blinds on their immediate left (within 0.5 metres) and the small wooden toy table just ahead on the left (about 1 metre away). By Frame 5, the camera wearer is about 1.5 to 2 metres in front of the person on the sofa and extends their right arm forward to hold the mug out at chest height toward them, while the person on the sofa remains oriented toward the phone and laptop in their lap without looking up at the camera wearer, with the top of their head cropped out by the upper frame boundary."
+ },
+ "duration_seconds": 19.549334,
+ "usage": {
+  "input_tokens": 19570,
+  "output_tokens": 571,
+  "thinking_tokens": 58,
+  "cache_read_tokens": 14212,
+  "total_tokens": 20141
+ },
+ "conversation_id": "f59f128a-876c-4c03-b486-560f16d6d6e1"
+}

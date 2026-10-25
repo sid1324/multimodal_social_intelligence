@@ -1,0 +1,12 @@
+{
+ "id": "f488287d-ea74-4836-9ea4-e137ac6c8233_333-32",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands immediately beside a narrow concrete-topped wall or beam, about 0.2\u20130.6 m away, with a rusted rebar grid rising in front and extending along the right side; bare ground, scattered red bricks, stacked gray blocks, and a mortar pan lie around it. Another person is very close across the wall, roughly 0.5\u20131 m from the camera wearer, but only their dark-skinned arms, hands, and parts of their torso are visible; they face generally toward the wall and camera position, while their head and gaze remain out of frame. In the first two frames, the camera points down and left toward the mortar pan and wall top, with hands from both sides within arm's reach of the mortar, a gray block, and the wet concrete surface. By the middle frame, the viewpoint turns right along the rebar grid, which partly occludes the opposite side; the other person's hands and a gray block remain close on the far side, while stacked blocks sit about 0.5\u20131.5 m ahead and below. In the final two frames, the view continues rotating right and slightly downward, revealing more of the ground and brick piles behind the rebar; the nearby person shifts toward the right edge and becomes more cropped, while another partially visible body or legs appear low beyond the wall roughly 1\u20132 m away."
+ },
+ "duration_seconds": 11.6,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "449e14cf-f05e-42ac-bb7e-0ba87617f95a_582-28",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the five frames, the camera wearer moves from a dim hallway (about 1.5 to 2 metres outside an open doorway) through the threshold and into a compact bathroom. Inside the bathroom, a tiled shower alcove sits straight ahead to the left with a wall-mounted showerhead and caddy on the left wall, a curved rod with a bunched translucent curtain above, and a hanging mesh bag on the back wall, while a sink vanity topped by a large mirror and light fixture lines the right wall about 0.5 to 1 metre from the shower. In frame 1, the bathroom interior is ~2.5 to 3 metres away and largely occluded by the hallway walls and doorway frame, which come within arm's reach as the wearer crosses the threshold in frame 2. A small child is positioned at the sink counter on the lower right (about 1.5 metres from the wearer in frame 2, closing to about 0.5 to 1 metre by frames 4 and 5), with most of the child's body cut off by the bottom edge of the frame and only their head and upper torso visible directly and in the bottom of the mirror reflection. As the camera wearer approaches the vanity and turns slightly right across frames 3 to 5, the left wall of the shower passes out of view on the left, the shower curtain, sink, and child come within arm's reach, and the camera wearer's own reflection enters the mirror on the right facing toward the mirror and slightly downward toward the sink area."
+ },
+ "duration_seconds": 21.895517,
+ "usage": {
+  "input_tokens": 19624,
+  "output_tokens": 1162,
+  "thinking_tokens": 768,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20786
+ },
+ "conversation_id": "4ef3da5e-78dd-40a9-a76d-5559c35fc962"
+}

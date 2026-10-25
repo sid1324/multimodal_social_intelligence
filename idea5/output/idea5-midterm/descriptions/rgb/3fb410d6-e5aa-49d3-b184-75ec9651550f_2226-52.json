@@ -1,0 +1,12 @@
+{
+ "id": "3fb410d6-e5aa-49d3-b184-75ec9651550f_2226-52",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open, mostly level grassy area at night, bordered by rough ground and trees, with tall lights above the field. In frames 1\u20133, no people are clearly visible; a small red object appears about 5\u20138 m ahead and slightly right in frame 2, then leaves view as the camera turns across the grass. In frame 4, one person stands roughly 8\u201312 m ahead and slightly left of center, facing approximately toward the camera wearer, with a small red object near their feet. In frame 5, an adult in black is about 1\u20132 m ahead and slightly right, facing and looking toward the camera wearer while holding a yellow object; the person and object are just beyond the camera wearer\u2019s arm\u2019s reach, and the adult\u2019s lower legs are partly cropped by the bottom edge. Another person is about 10\u201315 m behind and left of that adult, while two golf carts sit farther behind them near the right edge, roughly 12\u201320 m from the camera; the close adult partly occludes the grass behind them. Across the strip, the viewpoint pans and advances from an empty section of grass toward the people, causing the nearest adult to enter from the right and rapidly grow larger while the earlier red object moves out of view."
+ },
+ "duration_seconds": 15.2,
+ "usage": null,
+ "conversation_id": null
+}

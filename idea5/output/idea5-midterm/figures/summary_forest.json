@@ -1,0 +1,247 @@
+[
+ [
+  "Embedding, zero-shot (n=199)",
+  "Masks + descriptions vs RGB + description (C5-C2)",
+  1.5075376884422111,
+  -2.5251256281406995,
+  6.030150753768844
+ ],
+ [
+  "Embedding, zero-shot (n=199)",
+  "Correct vs mismatched masks (C5-X1)",
+  4.522613065326633,
+  1.0050251256281406,
+  8.542713567839195
+ ],
+ [
+  "Embedding, zero-shot (n=199)",
+  "Masks vs RGB repeated (C5-X3)",
+  -2.512562814070352,
+  -6.532663316582915,
+  1.507537688442211
+ ],
+ [
+  "Embedding, low-rank scorer, CV (n=799)",
+  "Masks + descriptions vs RGB + description (C5-C2)",
+  2.6282853566958697,
+  0.37641154328732745,
+  4.779874213836479
+ ],
+ [
+  "Embedding, low-rank scorer, CV (n=799)",
+  "Correct vs mismatched masks (C5-X1)",
+  1.2515644555694618,
+  -0.8771929824561403,
+  3.3920664643974576
+ ],
+ [
+  "Embedding, low-rank scorer, CV (n=799)",
+  "Masks vs RGB repeated (C5-X3)",
+  2.127659574468085,
+  0.3731343283582089,
+  3.9754027985117886
+ ],
+ [
+  "Direct answering, Gemini 4 + GPT-5.6 + Qwen3-VL-32B",
+  "+ maps vs RGB",
+  3.4166666666666665,
+  0.9166666666666666,
+  5.916666666666667
+ ],
+ [
+  "Direct answering, Gemini 4 + GPT-5.6 + Qwen3-VL-32B",
+  "Correct vs mismatched maps",
+  -0.6666666666666666,
+  -3.3333333333333335,
+  1.8333333333333333
+ ],
+ [
+  "Direct answering, Gemini 4 + GPT-5.6 + Qwen3-VL-32B",
+  "+ maps vs RGB repeated",
+  2.8333333333333335,
+  0.4166666666666667,
+  5.25
+ ],
+ [
+  "Direct answering, Gemini 4 + GPT-5.6 + Qwen3-VL-32B",
+  "+ descriptions vs RGB",
+  -1.340033500837521,
+  -5.108877721943048,
+  2.3450586264656614
+ ],
+ [
+  "Direct answering, Gemini 4 + GPT-5.6 + Qwen3-VL-32B",
+  "Correct vs mismatched descriptions",
+  3.4338358458961475,
+  -0.6700167504187605,
+  7.45393634840871
+ ],
+ [
+  "Counterfactual: spatial facts reversed (text only)",
+  "GPT-5.6: reworded vs reversed",
+  2.512562814070352,
+  -1.256281407035176,
+  6.532663316582915
+ ],
+ [
+  "Counterfactual: spatial facts reversed (text only)",
+  "Gemini 4: reworded vs reversed",
+  3.0150753768844223,
+  -2.0100502512562812,
+  8.040201005025125
+ ],
+ [
+  "Counterfactual: spatial facts reversed (text only)",
+  "Qwen3-VL-32B: reworded vs reversed",
+  5.527638190954774,
+  1.0050251256281406,
+  10.552763819095476
+ ],
+ [
+  "Forced choice, \"None\" removed (GPT-5.6 + Qwen3-VL-32B)",
+  "+ maps vs RGB",
+  0.5,
+  -2.5,
+  3.5000000000000004
+ ],
+ [
+  "Forced choice, \"None\" removed (GPT-5.6 + Qwen3-VL-32B)",
+  "Correct vs mismatched maps",
+  0.0,
+  -3.0,
+  3.0
+ ],
+ [
+  "Non-spatial text control: dataset scene description (GPT, Qwen-32B)",
+  "+ scene description vs RGB",
+  -8.0,
+  -13.753124999999999,
+  -2.375
+ ],
+ [
+  "Non-spatial text control: dataset scene description (GPT, Qwen-32B)",
+  "Correct vs mismatched scene description",
+  13.5,
+  8.0,
+  19.0
+ ],
+ [
+  "Prompting: reason about space first",
+  "GPT-5.6 (n=200): spatial analysis vs generic step-by-step",
+  -2.5,
+  -8.0,
+  2.5
+ ],
+ [
+  "Prompting: reason about space first",
+  "Qwen3-VL-32B (n=100): spatial analysis vs generic step-by-step",
+  -4.0,
+  -13.0,
+  5.0
+ ],
+ [
+  "Published spatial fine-tunes vs their base (n=200)",
+  "SpatialLadder-3B vs Qwen2.5-VL-3B (paper: +23.5 spatial)",
+  -12.0,
+  -19.5,
+  -4.5
+ ],
+ [
+  "Published spatial fine-tunes vs their base (n=200)",
+  "MindCube-RL-3B vs Qwen2.5-VL-3B (paper: +23.5 MindCube)",
+  -5.5,
+  -13.5,
+  2.0
+ ],
+ [
+  "Published spatial fine-tunes vs their base (n=200)",
+  "SpaceR-7B vs Qwen2.5-VL-7B (paper: +11.2 VSI-Bench)",
+  -0.5,
+  -5.5,
+  4.5
+ ],
+ [
+  "Published spatial fine-tunes vs their base (n=200)",
+  "Spatial-SSRL-7B vs Qwen2.5-VL-7B (paper: +3.9 avg)",
+  1.5,
+  -3.0,
+  6.0
+ ],
+ [
+  "Fine-tuning Qwen3-VL-8B (2 seeds, n=400)",
+  "Spatial LoRA vs non-spatial LoRA",
+  -6.499999999999995,
+  -12.0,
+  -1.0000000000000009
+ ],
+ [
+  "Spatial LoRA x combined input, Qwen3-VL-8B (n=200)",
+  "Spatial LoRA + maps & descriptions vs base + RGB",
+  -9.750000000000004,
+  -16.499999999999996,
+  -3.2499999999999973
+ ],
+ [
+  "Spatial LoRA x combined input, Qwen3-VL-8B (n=200)",
+  "Base: + maps & descriptions vs RGB",
+  -4.499999999999993,
+  -10.000000000000004,
+  1.0000000000000009
+ ],
+ [
+  "Spatial LoRA x combined input, Qwen3-VL-8B (n=200)",
+  "Spatial LoRA vs base, both given maps & descriptions",
+  -5.250000000000011,
+  -10.999999999999998,
+  0.5000000000000004
+ ],
+ [
+  "RL (GRPO) Qwen3-VL-8B, 90 steps",
+  "Norm reward vs untrained (reference)",
+  8.250000000000002,
+  4.0000000000000036,
+  12.750000000000005
+ ],
+ [
+  "RL (GRPO) Qwen3-VL-8B, 90 steps",
+  "Untrained: spatial-first prompt vs plain",
+  -17.0,
+  -24.000000000000004,
+  -9.999999999999998
+ ],
+ [
+  "RL (GRPO) Qwen3-VL-8B, matched 40 steps",
+  "Spatial + norm reward vs norm reward",
+  -7.000000000000006,
+  -13.5,
+  -0.5000000000000004
+ ],
+ [
+  "RL (GRPO) Qwen3-VL-8B, matched 40 steps",
+  "Spatial format, norm reward vs norm reward",
+  -6.500000000000005,
+  -12.00000000000001,
+  -0.5000000000000004
+ ],
+ [
+  "RL (GRPO) Qwen3-VL-8B, matched 40 steps",
+  "Spatial reward vs spatial format only",
+  -0.5000000000000004,
+  -4.5000000000000036,
+  3.500000000000003
+ ],
+ [
+  "Pooled (random effects, midterm_meta.py)",
+  "All 10 spatial-specific contrasts",
+  0.19276942698722885,
+  -1.667499146389173,
+  2.053038000363631
+ ],
+ [
+  "Pooled (random effects, midterm_meta.py)",
+  "Effect on high- minus low-spatial-need items",
+  -1.3680632869083826,
+  -4.6003260622449655,
+  1.8641994884281998
+ ]
+]

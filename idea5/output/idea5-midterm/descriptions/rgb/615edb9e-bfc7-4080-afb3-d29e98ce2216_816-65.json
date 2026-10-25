@@ -1,0 +1,18 @@
+{
+ "id": "615edb9e-bfc7-4080-afb3-d29e98ce2216_816-65",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor two-lane asphalt roadway bordered on the left by a gravel median with tall double-headed streetlamps and an opposing roadway, and on the right by a curbed sidewalk, gravel patches, palm trees, streetlamps, waste bins, and light-colored buildings. No people are clearly visible in the immediate vicinity (only tiny indistinct figures over 50 metres away on the far left sidewalk), and no objects are within arm's reach of the camera wearer. In frame 1, the camera wearer is in the right lane about 2 metres from the right curb, with a palm tree and a building garage door 8 to 15 metres ahead on the right and a median streetlamp about 20 metres ahead on the left. Across the 5 frames, the camera wearer moves rapidly forward along the road while shifting slightly toward the dashed center line and tilting the camera counterclockwise. Consequently, the nearest right-side streetlamp and palm tree pass from about 8 to 10 metres ahead in frame 1 to about 3 to 5 metres on the right in frame 2 before moving behind the field of view in frame 3. Meanwhile, the streetlamp on the left median approaches from roughly 20 metres ahead in frame 1 to 12 metres in frame 3, 7 metres in frame 4, and about 3 metres to the left of the camera wearer in frame 5, while the next set of right-side palm trees and waste bins advances from roughly 35 metres away to about 10 to 15 metres ahead on the right, partially occluding the buildings behind them."
+ },
+ "duration_seconds": 12.584592,
+ "usage": {
+  "input_tokens": 5289,
+  "output_tokens": 413,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28420,
+  "total_tokens": 5702
+ },
+ "conversation_id": "3422a820-451a-4d14-aae2-80eb2315c892"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "fb92d350-9bf9-4b16-8a1f-7858de276226_603-23",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows an indoor workspace viewed from above where the camera wearer sits facing another person seated directly opposite in a chair with blue armrests, approximately 0.5 to 0.7 metres away across a narrow white lap tray resting between them. The seated person's head and upper chest are cropped out above the top edge of the frame, while their torso faces the camera wearer, their bare feet rest below the tray in a blue basin on the tiled floor between the camera wearer's black-trousered knees, their left hand rests on the right armrest, and their right hand lies palm-down on a white towel in the centre of the tray. All items on the ~0.6-metre-wide tray are within arm's reach of both people: on the left are a blue plastic caddy holding bottles and cotton (~0.4 to 0.5 metres from the camera wearer) and a pink bowl (~0.35 metres away), while on the right side of the towel lie a metal cuticle pusher, a pink nail file, and green-handled clippers (~0.3 to 0.4 metres away), with tiled steps visible in the background to the upper right (~1 to 1.5 metres away). In frames 1 to 3, the camera wearer extends both hands forward (~0.3 metres from their viewpoint) to hold the seated person's right thumb and index finger with their left hand while applying a black nail file held in their right hand, partially occluding the seated person's right fingers. In frame 4, the camera wearer's right hand moves roughly 0.15 metres to the right to place the black file down onto the towel next to the pink file while their left hand remains poised just above the seated person's right hand, and the camera viewpoint shifts slightly downward and to the right before tilting back left in frame 5. By frame 5, the camera wearer's right hand reaches ~0.35 metres forward-right to pick up the green-handled clippers while their left hand moves slightly left and opens just to the left of the seated person's stationary right hand, leaving the seated person's fingers unoccluded."
+ },
+ "duration_seconds": 15.390319,
+ "usage": {
+  "input_tokens": 19616,
+  "output_tokens": 656,
+  "thinking_tokens": 127,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20272
+ },
+ "conversation_id": "9dc5c3bf-0783-46e8-a59e-a7e17baceb81"
+}

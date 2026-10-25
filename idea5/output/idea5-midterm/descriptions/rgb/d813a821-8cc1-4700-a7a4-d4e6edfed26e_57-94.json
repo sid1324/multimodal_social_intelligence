@@ -1,0 +1,12 @@
+{
+ "id": "d813a821-8cc1-4700-a7a4-d4e6edfed26e_57-94",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "An open refrigerator is directly in front of the camera wearer, roughly 0.2\u20130.7 m away, with stacked shelves and containers inside; bottles and jars sit on the open door along the left side of the view, about 0.3\u20130.6 m from the wearer. No other person is visible, but the wearer\u2019s forearms and hands extend into the refrigerator, placing the upper shelf and front containers within arm\u2019s reach. Across frames 1\u20132, one hand is raised near the top shelf, above most of the food, while several containers partly occlude objects deeper inside. In frames 3\u20134, the viewpoint turns and dips to the right, shifting the refrigerator toward the left of the image as a hand moves downward toward the middle or lower shelf, approximately 0.3\u20130.5 m away. In frame 5, the view turns back toward the refrigerator and both arms are visible, with one hand near the upper shelf and the other near the middle shelf; the refrigerator\u2019s right edge and parts of the surrounding room remain partly out of view."
+ },
+ "duration_seconds": 11.8,
+ "usage": null,
+ "conversation_id": null
+}

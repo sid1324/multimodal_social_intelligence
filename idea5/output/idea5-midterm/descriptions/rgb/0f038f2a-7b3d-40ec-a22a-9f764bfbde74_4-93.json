@@ -1,0 +1,18 @@
+{
+ "id": "0f038f2a-7b3d-40ec-a22a-9f764bfbde74_4-93",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail space featuring a glass storefront wall and double doors on the left and background, a clothing rack with hanging garments in the foreground, a dark hooded mannequin near the window, and a glass display counter to the right. In the first frame, a person wearing a white shirt and grey jacket stands at the far left edge within arm's reach (about 0.5 to 1 metre from the camera wearer), mostly cut off by the left frame boundary, while the clothing rack is 1 to 2 metres in front of the camera wearer and partially occludes the lower half of the mannequin and storefront behind it (~3 to 4 metres away). Across frames 2 and 3, the camera wearer turns sharply rightward and tilts downward toward the glass counter (within 0.5 to 1 metre in frame 3), causing the person, rack, and storefront to pass out of view to the left while bringing a small stand and cord on the counter into the lower foreground. In frame 4, the camera pans rapidly back to the left past the dark clothing on the rack at close range (under 1 metre), with heavy motion blur and partial occlusion of the background. By frame 5, the camera completes its leftward turn to face the person in the white shirt and grey jacket now positioned on the left at roughly 0.8 to 1.2 metres away, with the glass doors, red floor bin, mannequin, and the edge of the clothing rack about 2 to 3.5 metres behind and to the right of that person. In this final frame, the person's body faces the camera wearer while their head and gaze are angled slightly downward toward the camera wearer's raised left hand, which is extended in the lower foreground within arm's reach of both individuals and partially occludes the person's lower chest."
+ },
+ "duration_seconds": 14.920519,
+ "usage": {
+  "input_tokens": 19574,
+  "output_tokens": 656,
+  "thinking_tokens": 202,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20230
+ },
+ "conversation_id": "d86bb4bd-0669-443a-93af-d47db5d37a4d"
+}

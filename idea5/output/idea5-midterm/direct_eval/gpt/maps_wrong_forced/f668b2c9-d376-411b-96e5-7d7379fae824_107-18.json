@@ -1,0 +1,1 @@
+{"id": "f668b2c9-d376-411b-96e5-7d7379fae824_107-18", "cond": "maps_wrong_forced", "model": "gpt", "action_position": 5, "justification_position": 1, "raw": "{\"action\":5,\"justification\":1}", "meta": {"returncode": 0}, "seconds": 18.1, "attempts": 1}

@@ -1,0 +1,12 @@
+{
+ "id": "102dc7b7-a8fb-419e-9a18-b679e7157d99_517-02",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a fenced backyard with a wooden deck beside a white house, a covered grill near the deck, a black bin farther ahead, and a small dog on the lawn. In frame 1, a woman is about 0.5\u20131 m to the camera wearer\u2019s left-front, facing roughly forward and downward rather than looking at the camera, while the dog is about 4\u20136 m ahead and several metres from her. In frame 2, the woman remains within arm\u2019s reach on the left and turns more away from the camera; the dog stays ahead on the lawn, partly aligned behind her. Across frames 3\u20134, the camera turns right toward the deck and approaches the covered grill to roughly 0.5\u20131.5 m, while the woman shifts to the right side, faces away, and becomes partly cut off by the frame edge; a finger or hand briefly occludes the lower centre of frame 3. By frame 5, the woman and dog are out of view, the grill is partly visible at the lower left within about 1 m, the house wall is close on the right, and the black bin stands roughly 3\u20135 m ahead near the fence."
+ },
+ "duration_seconds": 14.6,
+ "usage": null,
+ "conversation_id": null
+}

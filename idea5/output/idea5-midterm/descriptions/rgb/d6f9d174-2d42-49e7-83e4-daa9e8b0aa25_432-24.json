@@ -1,0 +1,18 @@
+{
+ "id": "d6f9d174-2d42-49e7-83e4-daa9e8b0aa25_432-24",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands immediately outside a glass storefront window bearing a red 'S' decal, looking into a retail clothing interior bordered by a white wall on the left and a large window at the back. No other people are present, though the top of a smartphone held by the camera wearer is visible at the bottom edge about 0.3 to 0.5 metres away, and the storefront glass is within arm's reach at less than 0.5 metres away. Just behind the glass, a foreground mannequin in a patterned dress and cardigan stands about 1 to 1.5 metres in front of and slightly left of the camera wearer, positioned immediately left of a low display table (about 1 metre away) holding grey shoes and ties. Deeper inside the room, a rolling clothing rack stands about 3 to 4 metres away on the right, and a second mannequin stands near the rear window about 5 to 6 metres away (roughly 2 metres behind and left of the rack), with both mannequins facing forward toward the camera wearer. The red window decal, surface reflections, and strands of the camera wearer's hair in the upper left partially occlude the foreground mannequin, while the frame borders cut off the smartphone at the bottom, the foreground mannequin's feet, and the right edges of the table and clothing rack. Across the five frames from left to right, the camera pitches slightly downward and shifts left, moving the foreground mannequin's head and the top of the rear mannequin out of the upper frame in the fourth and fifth frames while bringing more of the floor, the foreground mannequin's lower legs, and the wearer's hair into view."
+ },
+ "duration_seconds": 19.859584,
+ "usage": {
+  "input_tokens": 19570,
+  "output_tokens": 975,
+  "thinking_tokens": 562,
+  "cache_read_tokens": 14198,
+  "total_tokens": 20545
+ },
+ "conversation_id": "e5bb6aba-5054-40ea-b867-e3e4fefc0033"
+}

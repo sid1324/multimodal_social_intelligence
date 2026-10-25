@@ -1,0 +1,18 @@
+{
+ "id": "57e88d87-257e-434d-953e-6025367e99fe_448-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a tiled workspace containing multi-tiered metal racks stacked vertically with long wooden boards and cloths extending horizontally across the field of view. In the first two frames, a cloth-covered upper board sits within arm's reach (about 0.4 to 1.5 metres) directly in front of the camera wearer, with another shelf stacked immediately above it and the rack structure continuing to the left. In frame 2, a second person wearing a white apron, dark trousers, and light shoes stands roughly 1.5 to 2 metres away to the far left next to the opposite end of the rack, facing toward the rack's side with their head and upper torso cropped out of the top-left frame edge so it is not visible whether they look toward the camera wearer. Across frames 2 and 3, the camera wearer pitches their head downward and turns slightly right toward the lower tiers of the rack while the second person's lower legs and feet remain partially visible at the far-left edge before moving completely out of view by frame 4. In frames 4 and 5, the camera wearer steps closer (within 0.3 to 0.6 metres) to the lower shelves, brings their blue-gloved left hand into the bottom-center foreground to grasp the front edge of a lower board, and pulls that board outward toward themselves while the upper shelves partially occlude the deeper sections of the rack below."
+ },
+ "duration_seconds": 18.985949,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 647,
+  "thinking_tokens": 278,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20224
+ },
+ "conversation_id": "5ffca7f9-e68e-4b79-b3ea-8154b9c0e9c4"
+}

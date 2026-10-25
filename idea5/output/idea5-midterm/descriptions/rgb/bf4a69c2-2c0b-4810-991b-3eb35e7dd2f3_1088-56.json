@@ -1,0 +1,18 @@
+{
+ "id": "bf4a69c2-2c0b-4810-991b-3eb35e7dd2f3_1088-56",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor work area featuring a vertical metal grid cage or fence mounted atop a low concrete ledge, bordered by dirt ground with scattered bricks and an excavated trench visible through the grid. In frames 1, 2, and 5, another person wearing a patterned shirt and light-colored wrap stands on the dirt ground roughly 1.2 to 1.8 metres ahead and to the right of the camera wearer, positioned just outside the right face of the metal grid. That person faces left toward the metal grid in profile relative to the camera wearer, with their head cropped out of the top of the frame in frames 1 and 2 and their torso partially cut off by the right frame edge in frame 5, so they are not seen looking toward the camera wearer. The camera wearer's own hands are within immediate reach (0.3 to 0.5 metres in front and below eye level) holding a wire brush against the lower bars and vertical post of the metal grid in frames 1 through 4, while the other person's hands are within arm's reach of the upper grid bars about 1 metre away from the camera wearer's brush. A rough grey concrete block sits within arm's reach (about 0.4 metres) to the lower left of the camera wearer in frames 3 and 4, and the metal grid partially occludes the concrete base, trench, and background bricks behind it. Across the five frames, the camera wearer shifts viewpoint from looking down and rightward along the outside of the grid (frames 1 and 2), to turning left and leaning closer (about 0.4 metres) to face an adjacent section of the grid and the concrete block (frames 3 and 4), before turning back rightward and slightly upward in frame 5 as the other person remains beside the right section of the grid."
+ },
+ "duration_seconds": 15.368805,
+ "usage": {
+  "input_tokens": 19557,
+  "output_tokens": 552,
+  "thinking_tokens": 95,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20109
+ },
+ "conversation_id": "574816c9-35ab-4f77-a7eb-7a4aae844ced"
+}

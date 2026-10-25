@@ -1,0 +1,18 @@
+{
+ "id": "15f1a422-327d-4dab-b14d-7003544c5817_1304-02",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in an open-plan kitchen with a stainless-steel double-door refrigerator about 0.5 to 0.8 metres to the left of the camera wearer, a kitchen counter about 1.5 to 2 metres ahead on the right, and a living room with a couch, television, and Christmas tree roughly 5 to 8 metres away in the background. A person in a grey jacket and glasses stands immediately to the camera wearer's right at about 0.3 to 0.5 metres, partly cropped by the right frame edge, facing forward and downward toward a printed grocery flyer held within arm's reach at about 0.4 metres in front of the camera wearer. In frames 1 through 3, both the camera wearer's left hand and the nearby person's left hand hold and touch the flyer, while a second person in a dark shirt stands about 1.0 to 1.2 metres ahead and to the right beside the counter, partially occluded by the closer person and cropped at the top edge. Across frames 3 to 4, the camera wearer turns slightly leftward toward the refrigerator as the second person steps closer to about 0.8 to 1.0 metres, faces toward the left, and extends their right arm to grasp the right refrigerator handle within their arm's reach. In frame 5, the second person pulls the right refrigerator door open toward the right, looking into the exposed refrigerator shelves while the open door occludes the background living room and the first person on the right drops mostly out of view leaving only the flyer at the bottom."
+ },
+ "duration_seconds": 20.360067,
+ "usage": {
+  "input_tokens": 19620,
+  "output_tokens": 1045,
+  "thinking_tokens": 638,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20665
+ },
+ "conversation_id": "64ee4ca5-9a94-4642-b413-419bfa1b8820"
+}

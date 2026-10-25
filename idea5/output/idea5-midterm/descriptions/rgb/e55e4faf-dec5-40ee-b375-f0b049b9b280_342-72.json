@@ -1,0 +1,18 @@
+{
+ "id": "e55e4faf-dec5-40ee-b375-f0b049b9b280_342-72",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first three frames, the camera wearer looks downward at a round green floor cushion about 1.0 to 1.5 metres below the camera and within reach, which holds black, white, red, and green plush objects in its center and sits on a carpeted floor just left of a partially visible patterned bed (0.5 metres to the right). Across frames 1 to 3, the viewpoint rotates slightly counter-clockwise while remaining pitched down, keeping the left edge of the room and most of the bed out of view beyond the right frame boundary. In frames 4 and 5, the camera wearer pitches their head upward and turns rightward, bringing into view a bedroom with the unmade bed on the lower right (1.0 to 2.5 metres away, its nearest corner within arm's reach), an open closet containing a pet crate and hanging clothes straight ahead to the right (3.0 to 4.0 metres away), and a short hallway on the left leading to a brightly lit bathroom (4.0 to 5.0 metres away). No other people are present in the scene, while a black dog in the hallway about 3.0 to 3.5 metres ahead faces away from the camera wearer and retreats forward and leftward into the bathroom. Between frames 4 and 5, the camera steadies as the dog moves further through the bathroom doorway, leaving the front half of its body occluded behind the open door and left wall while the far right side of the bed and a floor lamp near the headboard remain partially cropped at the right edge of the frame."
+ },
+ "duration_seconds": 24.836293,
+ "usage": {
+  "input_tokens": 19575,
+  "output_tokens": 1061,
+  "thinking_tokens": 659,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20636
+ },
+ "conversation_id": "aa905bc6-2ad7-40aa-b577-b10825d1be05"
+}

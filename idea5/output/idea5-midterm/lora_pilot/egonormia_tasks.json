@@ -1,0 +1,3602 @@
+[
+ {
+  "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+  "image": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64_rgb.jpg",
+  "action_options": [
+   "Adjust the angle of your easel and share feedback on the other person's artwork.",
+   "Discuss the progress of the current project and inspect the surrounding area for potential hazards.",
+   "None of these actions is appropriate",
+   "Coordinate the timing of the next step in the process and confirm all preparations are complete.",
+   "Point out areas in need of correction and document them for follow-up."
+  ],
+  "justification_options": [
+   "Corrective feedback and documentation ensure project quality.",
+   "None of these justifications is appropriate",
+   "Teamwork necessitates progress updates and hazard identification.",
+   "Coordination and preparation are crucial for efficient teamwork.",
+   "Sharing feedback is a social norm in collaborative art settings."
+  ]
+ },
+ {
+  "id": "02ca6897-bf08-4cfb-bbc7-7810dbf5cca2_2974-75",
+  "image": "02ca6897-bf08-4cfb-bbc7-7810dbf5cca2_2974-75_rgb.jpg",
+  "action_options": [
+   "Excuse yourself politely and continue delivery.",
+   "Donate to the charity and then continue cycling.",
+   "Resume cycling after a brief conversation.",
+   "None of these actions is appropriate",
+   "Complete your report and then cycle away."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Resuming an activity after a brief interruption is generally efficient and courteous, unless other obligations supersede.",
+   "Contributing to a worthy cause is commendable, especially if it aligns with personal values and doesn't significantly disrupt other commitments.",
+   "Prioritizing professional duties and showing respect for others' time is usually the most appropriate course of action.",
+   "Completing assigned tasks before pursuing personal activities demonstrates responsibility and professionalism."
+  ]
+ },
+ {
+  "id": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+  "image": "03ca4970-374e-4901-9895-81f262c0da5c_817-27_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Resume the transaction with the cashier.",
+   "Discreetly end conversation and return to work.",
+   "Return to their examination, quietly.",
+   "Wait patiently for requested book retrieval."
+  ],
+  "justification_options": [
+   "Resuming the transaction demonstrates respect for the cashier's time and the established process.",
+   "Waiting patiently is courteous and respectful, acknowledging that the retrieval of a book may take time.",
+   "Returning to their examination quietly minimizes disruption to others and shows consideration for a shared learning environment.",
+   "None of these justifications is appropriate",
+   "Discreetly ending the conversation and returning to work maintains professionalism and productivity in a workplace setting."
+  ]
+ },
+ {
+  "id": "044a7a23-9305-4971-82ac-aa1a3dc154be_214-77",
+  "image": "044a7a23-9305-4971-82ac-aa1a3dc154be_214-77_rgb.jpg",
+  "action_options": [
+   "Recite the prayer aloud with the others.",
+   "None of these actions is appropriate",
+   "Maintain silence and focus on your breath.",
+   "Swear to uphold the oath alongside others.",
+   "Offer silent condolences to the deceased with the others."
+  ],
+  "justification_options": [
+   "Mindfulness and self-regulation can be valuable coping mechanisms in emotionally charged situations.",
+   "Respect for the deceased and those grieving is shown through quiet contemplation and shared sorrow.",
+   "Active participation in communal rituals is often considered respectful and unifying.",
+   "None of these justifications is appropriate",
+   "Shared commitment through oaths signifies unity and mutual responsibility."
+  ]
+ },
+ {
+  "id": "069c1058-881d-49da-b45d-b9f7e08fe932_2408-86",
+  "image": "069c1058-881d-49da-b45d-b9f7e08fe932_2408-86_rgb.jpg",
+  "action_options": [
+   "Carve intricate details into the surface of the wood with precision tools.",
+   "Cut the wood into smaller pieces using the tool.",
+   "Chop the logs into manageable sizes with a hand tool.",
+   "None of these actions is appropriate",
+   "Assemble the wooden pieces by fastening them together securely."
+  ],
+  "justification_options": [
+   "Effective log splitting for easier handling and transport.",
+   "None of these justifications is appropriate",
+   "Secure assembly ensures structural integrity and stability.",
+   "Efficient wood preparation for subsequent tasks.",
+   "Detailed work showcases skill and enhances the final product."
+  ]
+ },
+ {
+  "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+  "image": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Place each piece of wood carefully on the student's workbench.",
+   "Hand the person the next piece of wood.",
+   "Offer the person a modified piece of wood, suitable for their needs.",
+   "Pass the person the necessary wood element to continue the sculpture."
+  ],
+  "justification_options": [
+   "Facilitating the continuation of a task is a supportive and efficient approach.",
+   "Careful handling demonstrates respect for materials and the recipient's work.",
+   "None of these justifications is appropriate",
+   "Offering a solution demonstrates helpfulness and problem-solving skills.",
+   "Providing assistance directly and efficiently is generally preferred."
+  ]
+ },
+ {
+  "id": "072623e8-1889-4580-8175-ddc05a3dceb3_89-78",
+  "image": "072623e8-1889-4580-8175-ddc05a3dceb3_89-78_rgb.jpg",
+  "action_options": [
+   "Point out a wildlife sighting to the others.",
+   "Hand the person a tool.",
+   "None of these actions is appropriate",
+   "Pass the person a prepared ingredient.",
+   "Rinse sponges out in a container."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Providing assistance in a collaborative effort is efficient and supportive.",
+   "Sharing observations is a common way to foster camaraderie and shared experience.",
+   "This allows the sponges to stay clean and wet for the work required on the wall.",
+   "Assisting someone with a task is a common and helpful social behavior."
+  ]
+ },
+ {
+  "id": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98",
+  "image": "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Offer the person water and a ride to the nearest town.",
+   "Eat snacks while camping",
+   "Locate and collect resources for a potential emergency, such as water and parts.",
+   "Examine engine components for damage, noting observations."
+  ],
+  "justification_options": [
+   "It is important to maintain high energy levels while camping and participating In outdoor activities ",
+   "Diagnosing mechanical issues is a standard practice for responsible vehicle maintenance and safety.",
+   "Offering assistance to someone in need aligns with common social norms of helpfulness and compassion.",
+   "Preparing for potential emergencies demonstrates foresight and responsibility, reflecting preparedness as a valued social norm.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "087e11d0-5984-4365-989d-7365294ddaec_7351-39",
+  "image": "087e11d0-5984-4365-989d-7365294ddaec_7351-39_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Rinse your swimwear and leave it to dry.",
+   "Gather your belongings and leave the locker room.",
+   "Offer to help clean up the shared kitchen area.",
+   "Congratulate the cast members on a successful performance."
+  ],
+  "justification_options": [
+   "Showing appreciation for a performance is a common courtesy and respectful behavior.",
+   "None of these justifications is appropriate",
+   "Leaving wet swimwear can lead to mildew and unpleasant odors; rinsing and drying are hygienic practices.",
+   "Leaving personal belongings in shared spaces is generally inappropriate; responsible individuals gather their items.",
+   "Maintaining shared spaces requires collective effort; offering assistance reflects consideration for others."
+  ]
+ },
+ {
+  "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13",
+  "image": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13_rgb.jpg",
+  "action_options": [
+   "Observe pedestrian and vehicle traffic to ensure safe street crossings.",
+   "Confirm with the tour guide that everyone has arrived before proceeding.",
+   "Check their map and wait until all teammates have reached location.",
+   "Wait patiently for the walk signal before crossing the street.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "This behavior ensures coordination and prevents the team from becoming separated, demonstrating teamwork and efficiency.",
+   "This ensures inclusivity and prevents anyone from being left behind, reflecting a collaborative and considerate approach.",
+   "This behavior prioritizes safety and follows traffic laws, demonstrating responsible citizenship.",
+   "This proactive behavior mitigates risk and prevents accidents, showcasing responsible and attentive conduct."
+  ]
+ },
+ {
+  "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_3386-79",
+  "image": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_3386-79_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Walk carefully across the bridge with the group.",
+   "Note any cracks, corrosion, or other damage for report.",
+   "Point out key architectural features and historical facts.",
+   "Carefully use a crowbar and hammer to remove splintered wood."
+  ],
+  "justification_options": [
+   "Responsible citizenship involves reporting potential safety hazards to the relevant authorities.",
+   "Sharing knowledge and fostering appreciation for cultural heritage is a positive social contribution.",
+   "None of these justifications is appropriate",
+   "Group safety and cohesion are paramount when navigating potentially hazardous areas.",
+   "Addressing immediate safety concerns, such as removing trip hazards, takes precedence over other tasks."
+  ]
+ },
+ {
+  "id": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65",
+  "image": "10a848ed-f258-4930-abdd-1fd60b788abc_475-65_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Inspect the leash for damage before attaching it to the stray dog.",
+   "Put the leash into a collection bag with other found objects.",
+   "Pick up the leash and secure it to your dog\u2019s collar.",
+   "Place the leash on a table as part of organizing the training tools."
+  ],
+  "justification_options": [
+   "Ensuring the dog's safety and control is crucial during walks.",
+   "Organized tools are essential for efficient training sessions.",
+   "None of these justifications is appropriate",
+   "Following safety protocols for handling found items is important.",
+   "Inspecting for damage prevents injury to the stray dog."
+  ]
+ },
+ {
+  "id": "110f9870-6b6c-4a20-a3c8-8c2e29c53bb7_1386-55",
+  "image": "110f9870-6b6c-4a20-a3c8-8c2e29c53bb7_1386-55_rgb.jpg",
+  "action_options": [
+   "Sort the costumes by type and place them in a communal storage area.",
+   "None of these actions is appropriate",
+   "Roll the clothes tightly and pack them efficiently into the suitcase.",
+   "Hang the clothes on display racks and adjust their arrangement for better presentation.",
+   "Fold the clothes neatly and place them in their designated location."
+  ],
+  "justification_options": [
+   "Neatly folded clothes maintain order and respect the home.",
+   "Proper display enhances visual appeal and shows care for the clothes.",
+   "Organized storage promotes efficient access and prevents confusion.",
+   "Efficient packing maximizes space and ensures clothes arrive undamaged.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "11e56f1e-baef-4fe8-ad0f-a7ec8788ea3a_836-51",
+  "image": "11e56f1e-baef-4fe8-ad0f-a7ec8788ea3a_836-51_rgb.jpg",
+  "action_options": [
+   "Hold the item being repaired steady for the professional.",
+   "Sweep debris from the steps into a dustpan using a broom.",
+   "None of these actions is appropriate",
+   "Coordinate lifting and lowering the object step by step with the other person.",
+   "Hand over one of the tools to the other person."
+  ],
+  "justification_options": [
+   "Synchronized effort prevents accidents and ensures safety.",
+   "Assisting professionals ensures efficient and quality repairs.",
+   "None of these justifications is appropriate",
+   "Cooperation is key for efficient teamwork.",
+   "Maintaining cleanliness is a common courtesy and safety precaution."
+  ]
+ },
+ {
+  "id": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62",
+  "image": "1270f0e2-1bc0-4225-bf6e-3dd68c594c8b_1984-62_rgb.jpg",
+  "action_options": [
+   "Examine the brickwork for conformity to design specifications.",
+   "Ask the person about the progress of the bricklaying.",
+   "Offer assistance in moving bricks, improving efficiency.",
+   "Alert authorities about potential safety hazards.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Proactive communication fosters collaboration and ensures project success.",
+   "Adherence to specifications demonstrates professionalism and ensures quality workmanship.",
+   "Offering help promotes teamwork and efficiency, reflecting positive social interaction.",
+   "Prioritizing safety is a crucial social responsibility, preventing potential harm.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "1330508f-8168-4408-a4df-79f69fb87c83_1053-45",
+  "image": "1330508f-8168-4408-a4df-79f69fb87c83_1053-45_rgb.jpg",
+  "action_options": [
+   "Take the clothes briefly, fold them neatly, and return them to the person for display.",
+   "None of these actions is appropriate",
+   "Discuss the clothes with the person while suggesting how the items might fit into their personal style.",
+   "Hold the clothes neatly while waiting for the person to try on additional items.",
+   "Reorganize the clothes carefully to avoid them getting wrinkled or dirty in the crowded space."
+  ],
+  "justification_options": [
+   "Style advice enhances the shopping experience and customer satisfaction.",
+   "Maintaining neatness shows respect for the customer and their time.",
+   "None of these justifications is appropriate",
+   "Preventing wrinkles and dirt preserves the clothing's quality and value.",
+   "Efficient handling saves time and ensures a smooth transaction."
+  ]
+ },
+ {
+  "id": "13d7173f-e8d1-4124-a66b-2ae648da9dbd_510-46",
+  "image": "13d7173f-e8d1-4124-a66b-2ae648da9dbd_510-46_rgb.jpg",
+  "action_options": [
+   "Pick up leftover food from the floor and wipe the surface clean.",
+   "None of these actions is appropriate",
+   "Offer food to the baby using a spoon.",
+   "Place the food into a container inside the enclosure for the animal to access safely.",
+   "Cut food into smaller pieces and place it on the plate for the person to eat."
+  ],
+  "justification_options": [
+   "Cleaning up shows respect for the environment and hygiene.",
+   "Spoon-feeding is appropriate for babies' developmental stage.",
+   "Cutting food shows consideration for the other person's needs.",
+   "Safe food placement protects the animal and ensures proper feeding.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80",
+  "image": "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Wave goodbye to the group as you exit the building.",
+   "Ask if anyone wants to share a pastry before placing an order.",
+   "Confirm the names on the packages before handing them over.",
+   "Help one of the children choose an item from the display shelf."
+  ],
+  "justification_options": [
+   "Assisting children promotes kindness and good customer service.",
+   "Verifying order accuracy ensures correct delivery.",
+   "None of these justifications is appropriate",
+   "A polite farewell is standard social etiquette.",
+   "Sharing is courteous before making personal choices."
+  ]
+ },
+ {
+  "id": "1626db26-0c74-43d6-a5c2-c1a8fa7b1429_2450-13",
+  "image": "1626db26-0c74-43d6-a5c2-c1a8fa7b1429_2450-13_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Collect tickets from audience members, confirming their entry.",
+   "Provide feedback on the performances to actors, guiding improvements.",
+   "Observe the phone screen and whisper about its content to the person next to you.",
+   "Discuss the film with the person next to you, sharing thoughts about it."
+  ],
+  "justification_options": [
+   "Verifying tickets is a necessary responsibility for ticket inspectors to ensure the show runs smoothly.",
+   "As a director, interacting with actors to enhance their performance aligns with your role.",
+   "Engaging in conversation about a film is common in private screenings where criticism is welcomed.",
+   "Shared personal information should not be broadcast to others in public settings.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+  "image": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Chop vegetables for the stew.",
+   "Puree the vegetables to make them easier to eat.",
+   "Organize volunteers to assist with food preparation.",
+   "Plate the meals individually for service."
+  ],
+  "justification_options": [
+   "Effective teamwork optimizes resource utilization and ensures smooth operation.",
+   "Respectful presentation enhances the dining experience.",
+   "Efficient preparation is key to timely meal completion.",
+   "None of these justifications is appropriate",
+   "Adapting to dietary needs shows consideration and care."
+  ]
+ },
+ {
+  "id": "1acd2d5c-b0d4-4ec5-a54c-6a9c84cb11f6_776-54",
+  "image": "1acd2d5c-b0d4-4ec5-a54c-6a9c84cb11f6_776-54_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Sort through the boxes to locate essential items like clothing.",
+   "Leave the room and close the door behind you, looking away from the other person.",
+   "Remove the baby's diaper and dispose of it in the trash.",
+   "Clear the area and dispose of waste left by the children."
+  ],
+  "justification_options": [
+   "Unpacking boxes to find necessary items is a typical task when settling into a new home.",
+   "None of these justifications is appropriate",
+   "Cleaning up is expected in a classroom setting, especially after activities involving children.",
+   "Give others privacy when they are using the bathroom or changing clothes.",
+   "It is acceptable for parents to help their children with personal care tasks."
+  ]
+ },
+ {
+  "id": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65",
+  "image": "1bfac46e-f957-4495-9583-dbd7fa683225_823-65_rgb.jpg",
+  "action_options": [
+   "Hand the card to the person behind the counter to complete the transaction.",
+   "Present your documents to the person for inspection and wait for them to verify.",
+   "Take the item being handed to you by the person and confirm its condition.",
+   "Count the cash received from the person and provide any required change.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Following standard procedure ensures a smooth transaction.",
+   "None of these justifications is appropriate",
+   "Counting cash accurately is crucial for financial accuracy.",
+   "Presenting documents is essential for verification and compliance.",
+   "Verifying item condition is a standard practice to avoid disputes."
+  ]
+ },
+ {
+  "id": "1bfe3bec-79fd-4b1b-8738-4d313f3f79b9_47-86",
+  "image": "1bfe3bec-79fd-4b1b-8738-4d313f3f79b9_47-86_rgb.jpg",
+  "action_options": [
+   "Stand nearby and observe the cooking process without interfering.",
+   "Take the utensils out of the cabinet and place them onto the countertop.",
+   "Place the utensils neatly into the cabinet and close it.",
+   "None of these actions is appropriate",
+   "Sort the utensils by type and arrange them carefully inside the drawer."
+  ],
+  "justification_options": [
+   "Preparing utensils for use is a helpful and expected action.",
+   "Sorting utensils shows care and organization, improving efficiency.",
+   "Neatly storing utensils is generally expected after use.",
+   "Observing without interference shows respect for the cook's space.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "1f4a4d13-f083-4464-8c03-5e09f55e3f63_125-54",
+  "image": "1f4a4d13-f083-4464-8c03-5e09f55e3f63_125-54_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Carefully apply the bandage, ensuring the child is comfortable and their dignity is maintained.",
+   "Position the children for the photograph, ensuring their clothes are neat.",
+   "Dress the toddler quickly and quietly, while engaging other child with a toy.",
+   "Help the child put on their clothing, then facilitate playtime amongst children."
+  ],
+  "justification_options": [
+   "This action balances the needs of the individual child with the group dynamic, fostering cooperation and positive social interaction.",
+   "This action prioritizes efficiency and minimizes disruption, respecting the need for calm in potentially stressful situations.",
+   "None of these justifications is appropriate",
+   "This action prioritizes the child's comfort and well-being, showing care and respect for their physical and emotional state.",
+   "This action prioritizes presentation and aims for a positive, visually appealing outcome, adhering to social expectations for formal photographs."
+  ]
+ },
+ {
+  "id": "20525d50-586a-4792-bfdb-fd941ee64ea9_547-93",
+  "image": "20525d50-586a-4792-bfdb-fd941ee64ea9_547-93_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Check for any issues such as damage or cleanliness, noting observations.",
+   "Document all observed features, noting any damage or needed repairs.",
+   "Provide the person with an assessment of the item's value and condition.",
+   "Address the person's concerns and answer their questions about the apartment."
+  ],
+  "justification_options": [
+   "Providing an assessment is a standard practice for evaluating items and promotes fairness and transparency in transactions.",
+   "None of these justifications is appropriate",
+   "Checking for issues is a responsible and professional practice to ensure the safety and functionality of the property.",
+   "Addressing concerns and answering questions is a fundamental aspect of providing good customer service and building trust.",
+   "Thorough documentation protects all parties involved by providing a clear record of the property's condition."
+  ]
+ },
+ {
+  "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+  "image": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81_rgb.jpg",
+  "action_options": [
+   "Converse while eating ice cream",
+   "None of these actions is appropriate",
+   "Exchange business cards with the persons waiting nearby.",
+   "Offer the persons nearby a small gift.",
+   "Direct the clients towards specific points of interest."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Offering a small gift is a common gesture of goodwill and can foster positive social interactions.",
+   "Directing clients enhances efficiency and provides a helpful service, aligning with professional conduct.",
+   "Exchanging business cards is a standard practice for networking and establishing professional connections.",
+   "This allows the subject and others to relax and enjoy their time while learning information."
+  ]
+ },
+ {
+  "id": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16",
+  "image": "22653c79-369f-4a0d-a663-33a1da378fe0_245-16_rgb.jpg",
+  "action_options": [
+   "Help the person secure the tarp over their supplies.",
+   "Drape the tarp over branches to create a fort.",
+   "Spread the tarp evenly on the picnic blanket.",
+   "None of these actions is appropriate",
+   "Hold one side of the tarp taut while the person secures the opposite side."
+  ],
+  "justification_options": [
+   "Protecting belongings demonstrates responsibility and consideration.",
+   "Even distribution promotes fairness and prevents damage.",
+   "None of these justifications is appropriate",
+   "Creative problem-solving and resourcefulness are valued.",
+   "Cooperative teamwork is essential for efficient task completion."
+  ]
+ },
+ {
+  "id": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18",
+  "image": "22f68c6a-b8dd-44e6-b1fe-d4e619e72f59_662-18_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Carefully apply fertilizer, avoiding contact with rose leaves.",
+   "Apply medium meticulously to each orchid's root ball.",
+   "Spread the manure evenly around the base of each plant.",
+   "Mix the compost gently into the soil around each sapling."
+  ],
+  "justification_options": [
+   "Even distribution ensures optimal plant growth and prevents nutrient imbalances, reflecting responsible gardening practices.",
+   "Gentle mixing prevents damage to delicate roots and promotes healthy sapling establishment, demonstrating horticultural expertise.",
+   "Meticulous application protects the orchid's sensitive root system and promotes thriving growth, aligning with best practices for delicate plants.",
+   "None of these justifications is appropriate",
+   "Avoiding leaf burn is crucial for plant health, showcasing careful and knowledgeable plant care."
+  ]
+ },
+ {
+  "id": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_447-26",
+  "image": "23ac3708-df1d-4bb0-a4c7-b2a66855dccb_447-26_rgb.jpg",
+  "action_options": [
+   "Distribute candy equally among the children.",
+   "Present candy to the judge for evaluation.",
+   "Purchase candy for themselves and friends.",
+   "Supervise students while they select candy.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Sharing treats with friends is a common act of kindness and fosters positive social interaction.",
+   "Supervision ensures safety and order, especially when dealing with a large group and potentially valuable items.",
+   "Presenting one's work for evaluation is a standard procedure in many settings that requires objectivity and professionalism.",
+   "Fairness and equal distribution are important principles in ensuring everyone receives a similar portion.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "25ade38d-3e6b-4aa1-851d-7fbf791201c0_887-41",
+  "image": "25ade38d-3e6b-4aa1-851d-7fbf791201c0_887-41_rgb.jpg",
+  "action_options": [
+   "Gather the scattered items from the floor and place them where they belong.",
+   "Adjust your balance and carefully take the book from the shelf.",
+   "Pick up the item from the coffee table.",
+   "None of these actions is appropriate",
+   "Ask a person nearby to pass you the dish or utensil."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Maintaining balance is crucial for preventing injury.",
+   "Tidying up shows consideration for shared spaces.",
+   "Asking for help is socially acceptable when needed.",
+   "It's polite to pick up items yourself if within reach."
+  ]
+ },
+ {
+  "id": "262fd2ec-8eba-44d9-8082-4d0574f7a515_3060-97",
+  "image": "262fd2ec-8eba-44d9-8082-4d0574f7a515_3060-97_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Express gratitude for the care provided and assure continued support.",
+   "Gather belongings and quietly exit the classroom, acknowledging both persons.",
+   "Exchange business cards and schedule a follow-up meeting.",
+   "Offer a handshake and a brief farewell to both persons."
+  ],
+  "justification_options": [
+   "This action demonstrates politeness and respect, common social courtesies at the conclusion of an interaction.",
+   "This action prioritizes minimizing disruption and showing consideration for others present.",
+   "Expressing gratitude and offering support is a standard practice for showing appreciation and maintaining positive relationships.",
+   "None of these justifications is appropriate",
+   "This action is appropriate for formal settings where establishing future communication is important."
+  ]
+ },
+ {
+  "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+  "image": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69_rgb.jpg",
+  "action_options": [
+   "Greet the woman and continue walking.",
+   "Examine the dog for injuries and offer first aid.",
+   "None of these actions is appropriate",
+   "Accompany them on their patrol route.",
+   "Secure the dog safely to avoid an incident."
+  ],
+  "justification_options": [
+   "Greeting is a common social courtesy and continuing one's walk is generally unobtrusive.",
+   "Examining for injuries and providing first aid are acts of compassion and potentially life-saving interventions.",
+   "None of these justifications is appropriate",
+   "Securing a dog prevents potential harm to others and demonstrates responsible pet ownership.",
+   "Accompanying someone on patrol suggests cooperation and mutual support, which are socially valued."
+  ]
+ },
+ {
+  "id": "2b7ace86-149f-4354-b617-c8ebd08c5310_381-65",
+  "image": "2b7ace86-149f-4354-b617-c8ebd08c5310_381-65_rgb.jpg",
+  "action_options": [
+   "Ask the person for their grocery list input.",
+   "Discuss preferred produce qualities with the person.",
+   "Describe items and assist with online selection.",
+   "Engage the child with a game to maintain focus.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "This action respects the individual's autonomy and facilitates efficient task completion.",
+   "None of these justifications is appropriate",
+   "This action fosters a collaborative and respectful interaction, prioritizing the person's preferences.",
+   "This action provides assistance and support, reflecting a helpful and considerate approach.",
+   "This action prioritizes the well-being and engagement of the child, aligning with caregiving norms."
+  ]
+ },
+ {
+  "id": "2c9a2cb8-93fd-4932-bb76-60e80822b70b_782-07",
+  "image": "2c9a2cb8-93fd-4932-bb76-60e80822b70b_782-07_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Mark corrections in the notebook while discussing the details with the other person.",
+   "Draw a straight line using the ruler and pencil in the notebook.",
+   "Add finishing touches to the drawing and explain its purpose to the other person.",
+   "Show the notebook to the other person and ask them to review your work."
+  ],
+  "justification_options": [
+   "Collaboration improves work quality.",
+   "None of these justifications is appropriate",
+   "Presentation clarifies intent and purpose.",
+   "Following instructions is standard practice.",
+   "Corrections ensure accuracy and understanding."
+  ]
+ },
+ {
+  "id": "2d01625b-b7c4-41aa-989b-2d0b392d8b54_328-63",
+  "image": "2d01625b-b7c4-41aa-989b-2d0b392d8b54_328-63_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Accept the shirt and thank your friend.",
+   "Examine the shirt for damage and quote a repair price.",
+   "Offer a polite opinion on the shirt's style and fit.",
+   "Inquire about the shirt's history and potential value."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Inquiring about an item's history and value is appropriate when one suspects it may be an antique or collectible.",
+   "Offering a polite opinion is generally a kind and considerate action when someone is seeking feedback on an item of clothing.",
+   "Accepting a gift gracefully and expressing gratitude is a fundamental aspect of polite social interaction.",
+   "Examining for damage and quoting a repair price is the expected behavior in a commercial transaction or when assessing the value of a damaged item."
+  ]
+ },
+ {
+  "id": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41",
+  "image": "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Hand the person the next brick.",
+   "Gently lift one end of the chair for transport.",
+   "Point out a piece of trash for the person to collect.",
+   "Carefully pass the specimen to the person using two hands."
+  ],
+  "justification_options": [
+   "This demonstrates respect for delicate items and prevents damage.",
+   "This ensures safe and efficient transfer of materials.",
+   "None of these justifications is appropriate",
+   "This promotes a clean and tidy environment.",
+   "This demonstrates consideration and assists with a potentially strenuous task."
+  ]
+ },
+ {
+  "id": "2d1baacd-d82b-4e0c-9d85-b420fb9bde91_345-02",
+  "image": "2d1baacd-d82b-4e0c-9d85-b420fb9bde91_345-02_rgb.jpg",
+  "action_options": [
+   "Help steady the heavy object while continuing to walk alongside.",
+   "Highlight notable sights while guiding the way forward.",
+   "None of these actions is appropriate",
+   "Point to different places while clarifying the details of the project.",
+   "Walk at a matching pace and exchange words evenly."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Maintaining a shared pace and conversation shows mutual respect.",
+   "Pointing and clarifying details ensures effective project communication.",
+   "Helping with a heavy object demonstrates teamwork and consideration.",
+   "Highlighting sights enhances the experience and shows care for the companion."
+  ]
+ },
+ {
+  "id": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1502-69",
+  "image": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1502-69_rgb.jpg",
+  "action_options": [
+   "Blend the product smoothly onto the person's skin to create an even tone.",
+   "Apply the product evenly to each fingernail in sequence.",
+   "None of these actions is appropriate",
+   "Guide the person step-by-step on how to apply the paint to their object.",
+   "Remove debris delicately from the surface of the object without causing damage."
+  ],
+  "justification_options": [
+   "Delicate removal prevents damage to the object's surface.",
+   "Step-by-step guidance ensures proper painting technique.",
+   "Smooth blending ensures a natural-looking finish.",
+   "None of these justifications is appropriate",
+   "Even application prevents uneven nail polish."
+  ]
+ },
+ {
+  "id": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43",
+  "image": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1626-43_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Wipe the person's hand with a cloth to clean off excess dye.",
+   "Wipe the person's skin with a sterilized pad to remove any contaminants.",
+   "Wipe the person's nail with a cotton ball to remove excess polish.",
+   "Wipe the person's hand with a rag to remove grease."
+  ],
+  "justification_options": [
+   "Cleaning excess dye prevents staining and irritation.",
+   "None of these justifications is appropriate",
+   "Removing excess polish maintains nail hygiene and cleanliness.",
+   "Sterile pads ensure contaminant removal for infection prevention.",
+   "Removing grease promotes hand hygiene and prevents contamination."
+  ]
+ },
+ {
+  "id": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1872-88",
+  "image": "2dbdd409-0be0-447c-8ae8-3f107fe9af80_1872-88_rgb.jpg",
+  "action_options": [
+   "Check equipment for safety compliance, including sterilization procedures.",
+   "Replenish towels and other items to necessary levels.",
+   "Wait patiently for your appointment time to be called.",
+   "Unpack and organize the new skincare products.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Organizing new products ensures efficient and safe usage, reflecting responsible product handling.",
+   "Checking equipment for safety compliance prioritizes client well-being and adherence to professional standards, reflecting a commitment to safety and hygiene.",
+   "None of these justifications is appropriate",
+   "Replenishing supplies ensures the smooth and uninterrupted continuation of services, reflecting preparedness and professionalism.",
+   "Waiting patiently demonstrates respect for others' time and the established appointment system."
+  ]
+ },
+ {
+  "id": "2ec3c123-0a04-46d7-97d5-8b85b5e6d06f_432-01",
+  "image": "2ec3c123-0a04-46d7-97d5-8b85b5e6d06f_432-01_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Hand the package to the person and confirm its receipt.",
+   "Examine the furniture closely and take notes about its condition.",
+   "Place the gift on a table and thank the person for hosting you.",
+   "Take the product sample back into your possession and check it for any damage."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Professional assessment requires careful examination and note-taking.",
+   "Product integrity necessitates damage checks before acceptance.",
+   "Politeness dictates expressing gratitude to your host.",
+   "Proper delivery etiquette demands confirmation of receipt."
+  ]
+ },
+ {
+  "id": "3455a3f3-1657-46bb-ae42-52d16ec5ffaa_6236-63",
+  "image": "3455a3f3-1657-46bb-ae42-52d16ec5ffaa_6236-63_rgb.jpg",
+  "action_options": [
+   "Point out significant exhibits to the group.",
+   "Continue walking and engage in the conversation.",
+   "Introduce yourself and exchange business cards.",
+   "None of these actions is appropriate",
+   "Follow the instructor's instructions and focus on your breath."
+  ],
+  "justification_options": [
+   "Exchanging business cards is a standard professional courtesy for networking.",
+   "Following instructions and focusing on one's breath are crucial for maintaining order and respect in a guided activity.",
+   "Engaging in conversation while walking is a common and polite social interaction.",
+   "None of these justifications is appropriate",
+   "Pointing out significant exhibits is helpful and courteous to others in a group setting."
+  ]
+ },
+ {
+  "id": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21",
+  "image": "348f0f69-cd49-4c00-af91-f1765155e858_1127-21_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Bag the trimmed branches and place them neatly for collection by the property owner.",
+   "Sort the organic material into the correct bin for recycling or further processing.",
+   "Rake the grass clippings into a pile and dispose of them appropriately.",
+   "Gather the leaves into a container and transport them to the designated composting area."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Composting is an environmentally friendly practice.",
+   "Neatness and respect for property are important.",
+   "Proper waste disposal is a social responsibility.",
+   "Recycling promotes resource conservation."
+  ]
+ },
+ {
+  "id": "356661f5-767b-495d-95c7-03dcc46f85c6_1860-68",
+  "image": "356661f5-767b-495d-95c7-03dcc46f85c6_1860-68_rgb.jpg",
+  "action_options": [
+   "Continue riding the bicycle at a safe pace.",
+   "Place the package on their bicycle basket and continue delivery.",
+   "Alert the person to their presence, using a verbal greeting.",
+   "Wave and smile at the other child as they pass by.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "This action assumes consent and aims for efficiency, relying on common sense regarding package delivery.",
+   "A wave and smile are common friendly gestures that promote positive social interactions between individuals.",
+   "Maintaining a safe and predictable pace while cycling is generally courteous and avoids potential hazards.",
+   "None of these justifications is appropriate",
+   "A verbal greeting is a common and polite way to acknowledge another person's presence, fostering positive social interaction."
+  ]
+ },
+ {
+  "id": "356dd07e-8165-494c-9be8-b82d314bf88d_895-74",
+  "image": "356dd07e-8165-494c-9be8-b82d314bf88d_895-74_rgb.jpg",
+  "action_options": [
+   "Shelve the book according to its category and move to the next item.",
+   "Place the magazine back on the shelf and continue shopping.",
+   "Fold the map and point to a location on it while explaining the route.",
+   "Hand the brochure to the person and describe the features of the products.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Providing information about products aids customers and promotes good service.",
+   "Returning items to their proper place is courteous and maintains order.",
+   "Organizing books efficiently shows respect for the library and other patrons.",
+   "Explaining a route clearly demonstrates helpfulness and consideration.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "358e65ba-1ce0-46f6-a1b4-1c85569ef628_3143-38",
+  "image": "358e65ba-1ce0-46f6-a1b4-1c85569ef628_3143-38_rgb.jpg",
+  "action_options": [
+   "Examine the artwork with interest and ask polite questions.",
+   "Offer to help organize the photographs.",
+   "None of these actions is appropriate",
+   "Ask the person if you can help with those papers.",
+   "Review the documents carefully and offer feedback"
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Providing constructive feedback is a helpful and professional response when appropriate.",
+   "Showing genuine interest and engaging in polite conversation are standard social graces.",
+   "Offering assistance demonstrates kindness and willingness to be helpful.",
+   "Offering help is a common social courtesy when someone appears overwhelmed."
+  ]
+ },
+ {
+  "id": "3639ab8f-880a-45bd-b8a9-6ef6bdaad4ff_355-03",
+  "image": "3639ab8f-880a-45bd-b8a9-6ef6bdaad4ff_355-03_rgb.jpg",
+  "action_options": [
+   "Recommend waiting to hear back from the call before making a purchase decision.",
+   "None of these actions is appropriate",
+   "Compare the prices of clothing items displayed on the mobile phone and mention a possible discount to the person.",
+   "Point out the better quality and unique features of a clothing item and suggest considering these over pricing comparisons.",
+   "Ask the person to stop taking pictures and explain the store's policy regarding photography."
+  ],
+  "justification_options": [
+   "Enforcing store policy maintains order and respect for rules.",
+   "Highlighting quality and features is a helpful sales tactic.",
+   "Waiting for external information is prudent for major decisions.",
+   "None of these justifications is appropriate",
+   "Comparing prices and discounts is standard shopping practice."
+  ]
+ },
+ {
+  "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+  "image": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87_rgb.jpg",
+  "action_options": [
+   "Handle the painting carefully using cotton gloves.",
+   "Adjust the lighting equipment to the correct settings.",
+   "None of these actions is appropriate",
+   "Dust the antiques gently with a microfiber cloth.",
+   "Continue to look at videos on the phone."
+  ],
+  "justification_options": [
+   "Ensuring optimal functionality and safety is a standard professional practice.",
+   "None of these justifications is appropriate",
+   "This will allow the subject to remember milestones, enjoy their free time, and share a positive uplifting moment with others.",
+   "Preventing damage to valuable artifacts shows respect for cultural heritage and property.",
+   "Protecting valuable and delicate items demonstrates care and responsibility."
+  ]
+ },
+ {
+  "id": "38737402-19bd-4689-9e74-3af391b15feb_1338-80",
+  "image": "38737402-19bd-4689-9e74-3af391b15feb_1338-80_rgb.jpg",
+  "action_options": [
+   "Secure the dogs' leashes and guide them to designated areas.",
+   "Place the dogs on a table and begin the check-up process.",
+   "Place the dogs into separate kennels for a safe transition.",
+   "None of these actions is appropriate",
+   "Release the dogs' leashes and allow them to explore their home."
+  ],
+  "justification_options": [
+   "This action facilitates a controlled and efficient check-up process, prioritizing the animal's well-being and minimizing stress, showcasing a professional and caring approach.",
+   "None of these justifications is appropriate",
+   "This action prioritizes the dogs' well-being and allows for safe exploration within a familiar environment, respecting their need for freedom and agency.",
+   "This action prioritizes the safety and well-being of the dogs and minimizes the risk of conflict or stress during a transition, reflecting responsible animal handling.",
+   "This action ensures the safety and control of the dogs, preventing potential harm or disruption to the surrounding environment, aligning with responsible pet ownership."
+  ]
+ },
+ {
+  "id": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28",
+  "image": "38788778-0822-4c9c-b51e-5bce8a765a97_91-28_rgb.jpg",
+  "action_options": [
+   "Discuss which room should be cleaned first based on its condition.",
+   "Describe the layout of the apartment to highlight its selling points.",
+   "Point out any damage or wear that occurred during your tenancy.",
+   "None of these actions is appropriate",
+   "Comment on the view from one of the large windows while walking through the apartment."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Highlighting the view enhances the apartment's appeal to potential buyers.",
+   "Cleaning the dirtiest room first ensures efficiency and prioritizes hygiene.",
+   "Pointing out damage fulfills the tenant's responsibility for property condition.",
+   "Describing the layout effectively showcases the apartment's features."
+  ]
+ },
+ {
+  "id": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44",
+  "image": "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44_rgb.jpg",
+  "action_options": [
+   "Pick up an item from a store shelf to examine it more closely.",
+   "Test the handle of a store door to confirm that it is securely locked.",
+   "Run your hand along a surface to check for dust or residue.",
+   "Wave your hand through a beam of light to create shifting patterns.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Checking for cleanliness is a standard practice.",
+   "None of these justifications is appropriate",
+   "Playing with light is a harmless and common behavior.",
+   "It's common to inspect items before purchasing.",
+   "Ensuring safety is a responsible action."
+  ]
+ },
+ {
+  "id": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55",
+  "image": "38a8d256-8d63-4f28-8837-ebd80dcd10e7_227-55_rgb.jpg",
+  "action_options": [
+   "Push the mower forward to cut the grass evenly.",
+   "Gather the cut grass into bundles and place them in a pile.",
+   "Pick up fallen branches and stack them neatly by the curb.",
+   "Mark out the flowerbed area with stakes and string before clearing the space.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Removing branches improves curb appeal and avoids obstructing public walkways.",
+   "Neatly piling grass is cleaner and shows consideration for others.",
+   "Even grass cutting ensures a neat lawn, a common social expectation.",
+   "Planning prevents damage to existing plants; it's respectful of landscaping.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "38b56399-3b1c-421d-8a80-1e5f54fcd667_806-77",
+  "image": "38b56399-3b1c-421d-8a80-1e5f54fcd667_806-77_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Weld the pipe segments together to form the desired sculptural shape.",
+   "Attach the pipe sections to the cat tree frame for stability and support.",
+   "Connect the pipe to the sink, ensuring water tightness and proper drainage.",
+   "Securely fasten the pipe to the furniture using appropriate tools."
+  ],
+  "justification_options": [
+   "Securely fastening prevents accidents and damage, adhering to safety standards.",
+   "Attaching securely ensures stability and safety, preventing potential harm or damage to the cat tree and cat.",
+   "Connecting the pipe correctly ensures functionality and prevents leaks, meeting plumbing standards.",
+   "None of these justifications is appropriate",
+   "Welding is necessary for creating a permanent and aesthetically pleasing sculpture, respecting artistic integrity."
+  ]
+ },
+ {
+  "id": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27",
+  "image": "38b6d0fe-e317-47a1-8fa3-87e7a4a21183_375-27_rgb.jpg",
+  "action_options": [
+   "Administer first aid and place the dog in a secure carrier.",
+   "Maintain control of all dogs using separate leashes, avoid obstacles.",
+   "Photograph the dog\u2019s location and any identifying features.",
+   "None of these actions is appropriate",
+   "Keep the dog on its leash and walk on the cleared sidewalk."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "This prioritizes safety and responsible pet ownership when handling multiple animals.",
+   "This prioritizes animal welfare and responsible pet ownership in an emergency.",
+   "This aids in identification and return of a lost or missing animal, supporting responsible pet ownership.",
+   "This ensures public safety and respects the rights of others to feel safe and undisturbed."
+  ]
+ },
+ {
+  "id": "39a53568-d759-4f19-ac19-bc4ba29b5c17_726-07",
+  "image": "39a53568-d759-4f19-ac19-bc4ba29b5c17_726-07_rgb.jpg",
+  "action_options": [
+   "Coordinate with the person to lift the box together and load it onto the truck bed.",
+   "Adjust the position of the chair by sliding it across the floor to its new location.",
+   "None of these actions is appropriate",
+   "Detach the spokes from the bicycle wheel using appropriate tools.",
+   "Lift the tire carefully and place it on a rack for storage."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Smooth movement protects the floor and chair.",
+   "Using tools prevents damage to the wheel.",
+   "Proper tire handling prevents damage and injury.",
+   "Teamwork is efficient and prevents strain."
+  ]
+ },
+ {
+  "id": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48",
+  "image": "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Sip the tea and compliment the maker.",
+   "Hand the tea directly to the person and thank them for their help earlier.",
+   "Accept the tea from the host and wait for them to join you before starting a conversation.",
+   "Set the tea down gently on the table next to the person and check if they need anything else."
+  ],
+  "justification_options": [
+   "Accepting and waiting is polite and considerate.",
+   "Gentle placement shows respect and attentiveness.",
+   "Directly handing shows appreciation and gratitude.",
+   "None of these justifications is appropriate",
+   "Politeness dictates thanking those who have rendered service."
+  ]
+ },
+ {
+  "id": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48",
+  "image": "3b3ecf0c-ee8d-4518-bf1c-3301ba44c743_226-48_rgb.jpg",
+  "action_options": [
+   "Sound your horn gently to alert the person of your presence.",
+   "Continue driving at a safe speed and distance.",
+   "Slowly steer the float around the dog and person, maintaining a safe pace.",
+   "None of these actions is appropriate",
+   "Drive slowly through parking area, be mindful of pedestrians."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Maintaining a safe speed and distance is a fundamental principle of responsible driving, ensuring the safety of oneself and others.",
+   "Prioritizing the safety of others, especially vulnerable individuals, by carefully maneuvering around them is a socially responsible and considerate action.",
+   "A gentle horn alert is a courteous and non-aggressive way to communicate presence and avoid potential conflict.",
+   "Driving slowly and mindfully in a parking area demonstrates respect for pedestrians and reduces the risk of accidents, aligning with pedestrian safety norms."
+  ]
+ },
+ {
+  "id": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87",
+  "image": "3f712a5b-c1cf-4f2a-b0ab-ca0e2e4f0e3c_119-87_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Pick up a brick, dip it in water, and place it onto the wall.",
+   "Shape the clay into a smooth form using your hands and tools.",
+   "Stack a layer of cake carefully over the previous one.",
+   "Hand a block to the person collecting salvaged materials."
+  ],
+  "justification_options": [
+   "Cake layers must be stacked carefully.",
+   "None of these justifications is appropriate",
+   "Clay sculpting necessitates shaping the material.",
+   "Helping others is a social norm.",
+   "Building a wall requires placing bricks."
+  ]
+ },
+ {
+  "id": "407df63f-c7a8-4c18-aa0f-b8e6ae16a938_620-12",
+  "image": "407df63f-c7a8-4c18-aa0f-b8e6ae16a938_620-12_rgb.jpg",
+  "action_options": [
+   "Spread the frosting evenly across the top layer of the cake.",
+   "Scrub the graffiti off the wall using a cleaning solution.",
+   "Apply the paste evenly onto the surface of the bricks.",
+   "Shape the clay into a smooth layer on the sculpture's base.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Even application ensures proper adhesion and a professional finish.",
+   "Even frosting creates a visually appealing and evenly distributed sweetness.",
+   "Removing graffiti is a socially responsible action that maintains public cleanliness.",
+   "Smoothness is crucial for aesthetic appeal and structural integrity in sculpture."
+  ]
+ },
+ {
+  "id": "439cfa9c-ef6b-41ba-aa5d-2f40b195b374_1380-00",
+  "image": "439cfa9c-ef6b-41ba-aa5d-2f40b195b374_1380-00_rgb.jpg",
+  "action_options": [
+   "Use the heated nail to create holes in the plastic balls.",
+   "Explain how heat can affect materials and show safe handling of hot objects.",
+   "Shape the clay spheres by carving into them with a tool after warming their surface.",
+   "Patch up the soccer balls by applying adhesive and sealing any tears.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Repairing damaged goods is responsible and practical.",
+   "Careful shaping preserves the integrity of the clay.",
+   "Educational demonstrations promote safe practices.",
+   "None of these justifications is appropriate",
+   "Safety precautions are paramount when handling heated tools."
+  ]
+ },
+ {
+  "id": "43d83207-9c41-46aa-90c9-e30a6194be11_354-50",
+  "image": "43d83207-9c41-46aa-90c9-e30a6194be11_354-50_rgb.jpg",
+  "action_options": [
+   "Ask the student what concepts they struggle with to provide guidance.",
+   "Discuss the issue with a colleague to determine a solution.",
+   "None of these actions is appropriate",
+   "Record observations discreetly to maintain the flow of conversation.",
+   "Ask the person about where their back hurts, avoid looking at their screens without permission."
+  ],
+  "justification_options": [
+   "As an observer, taking notes subtly is standard to ensure discussions remain uninterrupted.",
+   "In a technical environment, collaboration is normative for troubleshooting.",
+   "As a tutor, it's appropriate to engage with the student to understand their needs.",
+   "None of these justifications is appropriate",
+   "Maintaining the confidentiality of study materials is essential for a student."
+  ]
+ },
+ {
+  "id": "46c3b557-dbda-4868-a9c8-43741d5815e1_288-99",
+  "image": "46c3b557-dbda-4868-a9c8-43741d5815e1_288-99_rgb.jpg",
+  "action_options": [
+   "Sprint to take the lead.",
+   "Ride in formation with the other cyclists.",
+   "Maintain a safe distance from the person.",
+   "Offer to help carry some of the packages.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Riding in formation is a common practice that promotes group cohesion and efficiency.",
+   "Sprinting to take the lead is a competitive action appropriate in certain contexts.",
+   "None of these justifications is appropriate",
+   "Offering help demonstrates kindness and teamwork, fostering positive social interaction.",
+   "Maintaining a safe distance is a fundamental safety precaution and shows consideration for others."
+  ]
+ },
+ {
+  "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+  "image": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62_rgb.jpg",
+  "action_options": [
+   "Join in the dancing and interact with their niece.",
+   "Ask questions of the trainer to demonstrate interest.",
+   "Continue observing the dancers and their dog.",
+   "Score the team's performance based on criteria provided.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Participating in shared activities can foster positive social interaction and create a welcoming atmosphere.",
+   "None of these justifications is appropriate",
+   "Maintaining a respectful distance while observing is generally polite and appropriate in public settings.",
+   "Following established procedures and offering objective evaluations is expected in many competitive or assessment contexts.",
+   "Demonstrating active engagement and curiosity is considered respectful and shows genuine interest in the subject matter."
+  ]
+ },
+ {
+  "id": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91",
+  "image": "48d7d009-425f-4d1a-a6a9-a4742bd0d9fe_2349-91_rgb.jpg",
+  "action_options": [
+   "Direct person A to the shallow end.",
+   "Hand person A the level.",
+   "Explain the lesson to person A.",
+   "Bring person A their check.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Guidance and safety are prioritized in appropriate settings.",
+   "None of these justifications is appropriate",
+   "Instruction and explanation are common in educational settings.",
+   "Financial transactions require appropriate handling.",
+   "Assisting someone is a generally accepted norm."
+  ]
+ },
+ {
+  "id": "490b4f30-9bb5-4bf2-966b-13d509b5709b_1247-51",
+  "image": "490b4f30-9bb5-4bf2-966b-13d509b5709b_1247-51_rgb.jpg",
+  "action_options": [
+   "Press the help button on the self-checkout machine and wait for assistance.",
+   "Scan the items and confirm the total before accepting payment from the person.",
+   "None of these actions is appropriate",
+   "Explain how to connect the terminal to the power source and demonstrate its functionality.",
+   "Insert the debit card into the terminal and follow the instructions on the screen."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Scanning and confirming ensures accurate payment.",
+   "Following instructions ensures a smooth transaction.",
+   "Demonstrating functionality is part of proper technical support.",
+   "Seeking help is appropriate when encountering difficulties."
+  ]
+ },
+ {
+  "id": "4930cced-9b84-464e-88ce-3990188efed6_1781-50",
+  "image": "4930cced-9b84-464e-88ce-3990188efed6_1781-50_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Briefly hand the dog to the friend to get ingredients.",
+   "Have the child help secure the dog's bed away from the workspace.",
+   "Ask the person to place the dog in another room.",
+   "Instruct the assistant to secure the dog\u2019s leash to a nearby chair."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "This involves the child in a safe and age-appropriate task, contributing to a family environment.",
+   "This secures the dog and prevents it from becoming a hazard or causing a disruption.",
+   "This is a temporary solution for a short period and requires minimal disruption.",
+   "This ensures the dog's safety and prevents it from interfering with the activity."
+  ]
+ },
+ {
+  "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+  "image": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50_rgb.jpg",
+  "action_options": [
+   "Offer to help complete the paperwork.",
+   "Offer to take notes during the meeting.",
+   "Share some of your food from a picnic basket.",
+   "Ask the people if they need assistance.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Offering to help with paperwork shows consideration and willingness to assist others.",
+   "Offering assistance is a common courtesy and demonstrates helpfulness.",
+   "Taking notes during a meeting is a practical way to contribute and ensure everyone is on the same page.",
+   "Sharing food fosters camaraderie and demonstrates generosity.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "4ac57aee-4ac0-457e-b9de-9419056e4bbd_295-55",
+  "image": "4ac57aee-4ac0-457e-b9de-9419056e4bbd_295-55_rgb.jpg",
+  "action_options": [
+   "Inspect the animals closely for signs of illness or injury and record observations.",
+   "Place the bowls on the floor for the dogs and organize items inside the refrigerator.",
+   "Use tools to distribute food safely into designated areas and prepare cleaning equipment.",
+   "None of these actions is appropriate",
+   "Collect leftover food from the ground and seal it in a secure container."
+  ],
+  "justification_options": [
+   "Safe food handling and hygiene are essential for responsible animal care.",
+   "None of these justifications is appropriate",
+   "Ensuring animal welfare is a social responsibility.",
+   "Preventing food waste and maintaining cleanliness is expected.",
+   "Animal health monitoring is crucial for responsible pet ownership."
+  ]
+ },
+ {
+  "id": "4bd37cff-a43b-4843-b0ff-06ecfe00017e_258-98",
+  "image": "4bd37cff-a43b-4843-b0ff-06ecfe00017e_258-98_rgb.jpg",
+  "action_options": [
+   "Place an order for a drink or food item by speaking to the person behind the counter.",
+   "Inspect surfaces and appliances behind the counter for compliance with regulations.",
+   "None of these actions is appropriate",
+   "Retrieve items from under the counter to refill the display case.",
+   "Hand over the package and ask for confirmation of receipt from the person behind the counter."
+  ],
+  "justification_options": [
+   "Maintaining stock is a worker's duty.",
+   "None of these justifications is appropriate",
+   "Confirming receipt is standard procedure.",
+   "Food safety regulations must be followed.",
+   "Customer service requires taking orders."
+  ]
+ },
+ {
+  "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+  "image": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03_rgb.jpg",
+  "action_options": [
+   "Politely inform the diner of their expired card and request alternative payment.",
+   "Grasp the cash with your fingers and ring up the customer's order.",
+   "Wait for the customer to set down the money, then take it.",
+   "None of these actions is appropriate",
+   "Verify the deposit and initiate anti-money laundering protocol."
+  ],
+  "justification_options": [
+   "This action fulfills the customer's request efficiently and provides a record of the transaction, adhering to standard business practice.",
+   "This action is a crucial step in complying with legal and ethical financial regulations.",
+   "None of these justifications is appropriate",
+   "This action understands the customer's intention, and waits for them to complete their action.",
+   "This action prioritizes customer service by informing them of an issue and offering a solution, while avoiding embarrassment."
+  ]
+ },
+ {
+  "id": "4c9777fc-1997-4dc8-a2d2-ea59c50b32f4_573-78",
+  "image": "4c9777fc-1997-4dc8-a2d2-ea59c50b32f4_573-78_rgb.jpg",
+  "action_options": [
+   "Guide the stroller into the community center.",
+   "Wheel the stroller to the emergency room entrance.",
+   "Enter the building with the stroller.",
+   "None of these actions is appropriate",
+   "Check the girl into daycare."
+  ],
+  "justification_options": [
+   "Guiding a stroller into a community center is a typical behavior in a shared public space, implying participation in community activities.",
+   "Entering a building with a stroller is a common and accepted way to navigate public spaces with young children.",
+   "None of these justifications is appropriate",
+   "Checking a child into daycare is a standard procedure for parents utilizing childcare services.",
+   "Wheeling a stroller to an emergency room entrance is a practical and often necessary action when a child requires urgent medical attention."
+  ]
+ },
+ {
+  "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+  "image": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56_rgb.jpg",
+  "action_options": [
+   "Disassemble the equipment carefully and place its parts into a designated storage container.",
+   "Inspect the suspension component visually and point out areas that may need repair.",
+   "Tie the rope securely to the cleat and ensure it will hold under tension.",
+   "None of these actions is appropriate",
+   "Tighten the turnbuckle until it is secure and check for further adjustments needed."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Secure knots are essential for load-bearing situations.",
+   "Organized disassembly ensures efficient maintenance.",
+   "Thorough inspection is crucial for safe operation.",
+   "Safety requires securing the turnbuckle properly."
+  ]
+ },
+ {
+  "id": "4f549225-e82e-4294-9379-4891e47725c7_1121-97",
+  "image": "4f549225-e82e-4294-9379-4891e47725c7_1121-97_rgb.jpg",
+  "action_options": [
+   "Fill the cracks in the pathway with the prepared material.",
+   "Point out areas of concern on the wall for documentation.",
+   "Shape the wet clay into the desired form on the sculpture.",
+   "Apply the mixture evenly onto the wall using your tools.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Pointing out concerns ensures proper documentation and future repairs.",
+   "None of these justifications is appropriate",
+   "Filling cracks maintains pathway integrity and safety.",
+   "Shaping is essential for creating the intended sculpture.",
+   "Even application ensures a uniform and professional finish."
+  ]
+ },
+ {
+  "id": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35",
+  "image": "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35_rgb.jpg",
+  "action_options": [
+   "Follow the guide\u2019s instructions to take photos only in designated areas.",
+   "Record detailed notes about the plant's characteristics and location.",
+   "Pull out invasive plants using appropriate tools.",
+   "Take a photograph of a plant along the trail.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Photographing plants helps with botanical studies and appreciation.",
+   "Respecting designated areas protects the environment and trail integrity.",
+   "Removing invasive plants preserves biodiversity and ecosystem health.",
+   "Detailed notes aid in plant identification and conservation efforts.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91",
+  "image": "502debb3-c5f1-4dba-b2d4-b191d40da77a_5606-91_rgb.jpg",
+  "action_options": [
+   "Excuse yourself and politely ask if they are about to exit the bus.",
+   "None of these actions is appropriate",
+   "Inquire about the exhibit, using a phrase like 'Is this piece...' to engage.",
+   "Hand the persons their mail and greet them politely.",
+   "Continue walking past the persons, maintaining a safe distance."
+  ],
+  "justification_options": [
+   "Politely inquiring about someone's intentions avoids potential conflict and promotes respectful communication.",
+   "Engaging in a polite and inquisitive manner is a common and acceptable way to initiate conversation in a museum-like setting.",
+   "Maintaining a safe distance is generally a socially acceptable and safe practice when encountering strangers in public spaces.",
+   "None of these justifications is appropriate",
+   "Offering assistance and showing politeness are generally considered positive social interactions."
+  ]
+ },
+ {
+  "id": "513f572f-6d1c-4a8a-8b57-9c1d0aa363f7_969-20",
+  "image": "513f572f-6d1c-4a8a-8b57-9c1d0aa363f7_969-20_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Open the sealed container and place it inside the drawer for demonstration purposes.",
+   "Empty the contents of the overflowing trash bin into a new bag.",
+   "Sweep dust from the garage floor into a pile.",
+   "Detach pieces from the furniture and arrange them neatly on the floor."
+  ],
+  "justification_options": [
+   "Overfilled trash bins are unsanitary and need to be emptied.",
+   "None of these justifications is appropriate",
+   "Following instructions for demonstration purposes is expected and normative.",
+   "Disassembling furniture for organization is a practical and neat solution.",
+   "Maintaining a clean garage is a common social norm."
+  ]
+ },
+ {
+  "id": "5315437a-2530-47e5-a0e4-4ac656c7cfa4_570-57",
+  "image": "5315437a-2530-47e5-a0e4-4ac656c7cfa4_570-57_rgb.jpg",
+  "action_options": [
+   "Direct person J to the park information center.",
+   "Ask person J for assistance moving the tractor.",
+   "None of these actions is appropriate",
+   "Signal to person J for safe passage through the road work zone.",
+   "Show person J the prize-winning vegetables."
+  ],
+  "justification_options": [
+   "Sharing achievements and positive experiences is a socially acceptable way to build relationships and create positive interactions.",
+   "Providing directions or guidance is a helpful and socially acceptable behavior that assists others in navigating unfamiliar areas.",
+   "None of these justifications is appropriate",
+   "Using signals to ensure safety and avoid potential hazards is a common practice that prioritizes the well-being of others.",
+   "Seeking assistance when needing help with a strenuous task is a common and accepted social practice."
+  ]
+ },
+ {
+  "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+  "image": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56_rgb.jpg",
+  "action_options": [
+   "Place the game pieces into their container and close the lid.",
+   "Explain how to take a turn by demonstrating the process step-by-step.",
+   "None of these actions is appropriate",
+   "Roll the dice and move your piece according to the result.",
+   "Pick up a toy block and describe its role in the story being created."
+  ],
+  "justification_options": [
+   "Following game rules is expected behavior.",
+   "Teaching others is a socially responsible act.",
+   "Creative play enhances imaginative skills.",
+   "None of these justifications is appropriate",
+   "Proper cleanup shows respect for shared resources."
+  ]
+ },
+ {
+  "id": "54a421d2-763e-4751-a6b4-54e3d6c46cc1_1361-15",
+  "image": "54a421d2-763e-4751-a6b4-54e3d6c46cc1_1361-15_rgb.jpg",
+  "action_options": [
+   "Offer to help the woman tidy up.",
+   "None of these actions is appropriate",
+   "Engage the child in play.",
+   "Quietly work at your computer.",
+   "Maintain quiet, comforting presence."
+  ],
+  "justification_options": [
+   "Engaging a child in play is a positive and supportive action that promotes interaction and well-being, aligning with social norms that encourage positive interactions with children.",
+   "Maintaining a quiet, comforting presence provides a sense of security and support without intruding, reflecting norms of respectful and empathetic behavior in potentially sensitive situations.",
+   "Focusing on one's work in a shared space can be a sign of respect for others, minimizing disruption and maximizing productivity. This respects the environment and the need to maintain focus.",
+   "Offering to help demonstrates consideration and willingness to assist someone who appears to need it, aligning with norms of helpfulness and community support.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "57467033-41ad-48f8-bc45-26f0b92a1b48_681-96",
+  "image": "57467033-41ad-48f8-bc45-26f0b92a1b48_681-96_rgb.jpg",
+  "action_options": [
+   "Pay the cashier for the purchased items.",
+   "Hand the teller local currency for an exchange of foreign currency.",
+   "None of these actions is appropriate",
+   "Provide identification and answer officer's questions.",
+   "Present the receipt and damaged item for a refund."
+  ],
+  "justification_options": [
+   "Paying for goods is the standard practice in commercial transactions; it fulfills the agreed-upon exchange and respects the seller's right to compensation.",
+   "Cooperating with law enforcement officers by providing identification and answering questions is a civic duty and often a legal requirement.",
+   "Exchanging currency at a bank or exchange service involves providing the local currency in return for foreign currency; this is the standard procedure for such transactions.",
+   "None of these justifications is appropriate",
+   "Returning a damaged item and presenting a receipt is the standard procedure for obtaining a refund or exchange, protecting both the consumer and the retailer."
+  ]
+ },
+ {
+  "id": "59976b3b-2328-47f2-a7b3-6f982497ed65_622-81",
+  "image": "59976b3b-2328-47f2-a7b3-6f982497ed65_622-81_rgb.jpg",
+  "action_options": [
+   "Finish handing off the black object to person X and wait for him to move away before applying plaster.",
+   "None of these actions is appropriate",
+   "Decorate the object using the tools handed over by the person.",
+   "Shape the material into the desired form held steady by the person.",
+   "Clean the designated area based on instructions given by the person."
+  ],
+  "justification_options": [
+   "Cleaning up after oneself is expected in most social situations.",
+   "Waiting for someone to move out of the way before starting a potentially messy task to avoid getting them dirty is basic social courtesy.",
+   "Helping shape an object as requested is helpful and polite.",
+   "Decorating as directed shows respect for the creator's vision.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77",
+  "image": "5ab334f2-ecc8-4a05-96f8-4320225379b2_214-77_rgb.jpg",
+  "action_options": [
+   "Help reunite the owner with their dog.",
+   "Toss the ball for the dog to fetch.",
+   "Present the dog for judging.",
+   "Examine the dog's teeth and gums.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "This action promotes positive interaction and exercise for the dog, aligning with responsible pet ownership.",
+   "This action upholds the standards and fairness of the judging process.",
+   "None of these justifications is appropriate",
+   "This action prioritizes the emotional well-being of both the dog and its owner, fulfilling a crucial social responsibility.",
+   "This action is a crucial part of veterinary care, ensuring the dog's health and well-being."
+  ]
+ },
+ {
+  "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+  "image": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42_rgb.jpg",
+  "action_options": [
+   "Offer the sample directly to the person and explain what it is.",
+   "Pick up the bouquet and pay for it at the counter.",
+   "Place the plate gently on the table and step back.",
+   "None of these actions is appropriate",
+   "Take the ice cream cone and thank the person."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Paying for purchases is a fundamental aspect of commerce.",
+   "Table manners demonstrate respect for the setting and others.",
+   "Offering information ensures informed consent and courtesy.",
+   "Politeness and gratitude are standard social norms."
+  ]
+ },
+ {
+  "id": "5cab806a-3794-4578-94f2-33c3093151d1_391-05",
+  "image": "5cab806a-3794-4578-94f2-33c3093151d1_391-05_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Offer to help the person arrange their sleeping bag.",
+   "Offer the person a glass of water from the cooler.",
+   "Offer to adjust the person's blankets.",
+   "Offer the person a pillow from the luggage."
+  ],
+  "justification_options": [
+   "Offering assistance with comfort items demonstrates care and consideration for someone's well-being.",
+   "Providing a pillow enhances comfort and shows attentiveness to the person's needs.",
+   "Offering water addresses potential dehydration and shows concern for the person's physical well-being.",
+   "Adjusting blankets helps ensure the person's comfort and warmth, indicating a willingness to assist.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "5d8dfcfe-93e4-465e-a548-44c1442ffa29_291-14",
+  "image": "5d8dfcfe-93e4-465e-a548-44c1442ffa29_291-14_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Coordinate costume choices with Person G and confirm with Y.",
+   "Encourage person Y to select a preferred item.",
+   "Ask person G for assistance with finding the right size.",
+   "Ask person G a question about their outfit."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Encouraging someone to choose a preferred item promotes their autonomy and preference, respecting individual choices.",
+   "Coordinating choices and confirming with others demonstrates respect for shared decisions and ensures everyone is on the same page.",
+   "Offering assistance is a helpful and considerate action, reflecting a willingness to collaborate and support others.",
+   "Asking about someone's outfit is a common and polite way to engage in conversation, showing interest and initiating interaction."
+  ]
+ },
+ {
+  "id": "5ed59c41-af9e-4368-a0ce-30d536d34895_1493-26",
+  "image": "5ed59c41-af9e-4368-a0ce-30d536d34895_1493-26_rgb.jpg",
+  "action_options": [
+   "Engage the baby in play with toys provided",
+   "Offer comforting words and the baby to the person.",
+   "None of these actions is appropriate",
+   "Place the baby in the stroller and walk.",
+   "Hand the baby to the person and chat."
+  ],
+  "justification_options": [
+   "This action prioritizes the baby's safety and allows for mobility, adhering to norms of responsible childcare.",
+   "None of these justifications is appropriate",
+   "This action prioritizes the baby's comfort and addresses potential distress, adhering to social norms of caregiving and emotional support.",
+   "This action prioritizes the baby's engagement and development, aligning with norms of nurturing and stimulating play.",
+   "This action facilitates social interaction, adhering to social norms of politeness and sharing responsibility."
+  ]
+ },
+ {
+  "id": "5f2d9e8b-6e0b-4e36-9f5b-d26bbe0a7c7c_1129-51",
+  "image": "5f2d9e8b-6e0b-4e36-9f5b-d26bbe0a7c7c_1129-51_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Hand the person the package and obtain their signature.",
+   "Place the report on the counter, ensuring it is easily accessible.",
+   "Ask the lady for assistance with locating a specific item.",
+   "Ask the person to cover their shift."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Placing the report in an accessible location ensures easy retrieval and demonstrates organizational efficiency.",
+   "Covering a shift is a common courtesy and ensures workplace functionality.",
+   "Obtaining a signature verifies package delivery and fulfills a contractual obligation.",
+   "Seeking assistance is a polite and efficient way to find a specific item."
+  ]
+ },
+ {
+  "id": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+  "image": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58_rgb.jpg",
+  "action_options": [
+   "Hold the pipe firmly, preventing rotation or vibration during grinding.",
+   "None of these actions is appropriate",
+   "Support the toy gently, keeping it in place for the child's work.",
+   "Support the artifact carefully, minimizing any pressure or shifting.",
+   "Steady the handrail, ensuring it remains stable and prevents movement."
+  ],
+  "justification_options": [
+   "This ensures the child's safety and facilitates their creative work.",
+   "This prevents damage to the object and ensures a clean, controlled process.",
+   "None of these justifications is appropriate",
+   "This ensures safety and prevents accidents by maintaining stability.",
+   "This preserves the integrity and value of the artifact, showing respect for its significance."
+  ]
+ },
+ {
+  "id": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_232-40",
+  "image": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_232-40_rgb.jpg",
+  "action_options": [
+   "Ask the instructor for assistance with a tricky joint.",
+   "Ask for a critique of their work from the director.",
+   "Suggest a different type of wood for the railing.",
+   "None of these actions is appropriate",
+   "Securely fasten the railing brackets to the staircase."
+  ],
+  "justification_options": [
+   "Suggesting alternatives demonstrates initiative and problem-solving skills, potentially leading to a better outcome.",
+   "Seeking help when encountering challenges demonstrates a proactive approach to problem-solving and a commitment to producing high-quality work.",
+   "None of these justifications is appropriate",
+   "Seeking feedback is crucial for professional growth and improvement; constructive criticism helps refine one's work.",
+   "Ensuring safety and structural integrity is a paramount concern in construction; securely fastening the railing is a necessary safety precaution."
+  ]
+ },
+ {
+  "id": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41",
+  "image": "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41_rgb.jpg",
+  "action_options": [
+   "Balance the object on the stack yourself while the person watches before stepping aside.",
+   "Pass the block firmly from your hand to the person\u2019s hand.",
+   "None of these actions is appropriate",
+   "Receive the object and gently place it on the stack.",
+   "Demonstrate how to place the object on the stack and hand it to the person carefully."
+  ],
+  "justification_options": [
+   "Firm handoffs show respect and ensure safe transfer.",
+   "Demonstrating proper technique promotes shared understanding and skill.",
+   "Gentle placement prioritizes object care and stack integrity.",
+   "Balancing shows confidence and mastery of the task.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "6395f964-0122-4f16-b036-337c28488504_1626-75",
+  "image": "6395f964-0122-4f16-b036-337c28488504_1626-75_rgb.jpg",
+  "action_options": [
+   "Assist persons with technical issues, guiding them through troubleshooting steps.",
+   "Assess each climber's technique, providing specific feedback and safety instruction.",
+   "Supervise children in the pool area ensuring safety and following regulations.",
+   "None of these actions is appropriate",
+   "Circulate among participants, offering assistance and encouragement as needed."
+  ],
+  "justification_options": [
+   "Supervising children and adhering to safety regulations is a crucial aspect of childcare and ensuring a safe environment, demonstrating responsibility and care for those under supervision.",
+   "None of these justifications is appropriate",
+   "Providing specific feedback and safety instruction is a standard practice for ensuring the well-being and skill development of participants in activities that involve inherent risks.",
+   "Offering assistance and encouragement fosters a supportive and inclusive environment, promoting participation and well-being and reflecting a commitment to the success and comfort of all involved.",
+   "Assisting users with technical problems and guiding them through troubleshooting steps showcases problem-solving skills and ensures that participants can access and benefit from resources and services."
+  ]
+ },
+ {
+  "id": "65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02",
+  "image": "65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Observe the scene rehearsal quietly.",
+   "Join the conversation with the two people.",
+   "Offer assistance with food preparation.",
+   "Contribute ideas to the project discussion."
+  ],
+  "justification_options": [
+   "Contributing ideas demonstrates engagement and collaboration, which are valued in group settings.",
+   "Offering assistance is a helpful and considerate action that fosters positive social interactions.",
+   "Joining an existing conversation is a common and polite way to integrate into a social setting.",
+   "Observing quietly shows respect for the performers and avoids disruption in a performance-based context.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "668962c9-ecae-4b8f-bdc1-a6aeab093d88_1333-29",
+  "image": "668962c9-ecae-4b8f-bdc1-a6aeab093d88_1333-29_rgb.jpg",
+  "action_options": [
+   "Direct their question to the doctor making notes, regarding the diagnosis.",
+   "Answer the interviewer's question directly.",
+   "Ask the focused-upon man a question about the item.",
+   "Express interest in the artwork by one owner, to both owners",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Direct engagement with the subject of inquiry is generally preferred over indirect methods.",
+   "Direct and concise responses are valued in professional settings and interviews.",
+   "Seeking clarification from the relevant expert ensures accuracy and informed decision-making.",
+   "Expressing shared interest fosters collaboration and positive social interaction.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "66bf8281-f77c-4e37-b9a8-5f2aabf73ef9_943-34",
+  "image": "66bf8281-f77c-4e37-b9a8-5f2aabf73ef9_943-34_rgb.jpg",
+  "action_options": [
+   "Take the cash from the person and provide them with the correct balance.",
+   "Hand over the cash to the person and accept the change.",
+   "Place the cash in a plastic bag and pass it through the window of the booth.",
+   "None of these actions is appropriate",
+   "Put the cash on the counter for the person to pick up and wait for their response."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "This method ensures hygiene and reduces contact.",
+   "Direct hand-to-hand exchange is the most common and efficient method.",
+   "This action ensures accurate and efficient transaction completion.",
+   "Maintaining a safe distance is prioritized in this context."
+  ]
+ },
+ {
+  "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+  "image": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25_rgb.jpg",
+  "action_options": [
+   "Shape the sand into a smooth surface using your hands or tools.",
+   "Rake the leaves into a pile and transfer them into the bin.",
+   "Clear the snow from one section of the driveway using a shovel.",
+   "Dig small holes for the flowers and place them carefully into the soil.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Snow removal ensures safe passage and neighborliness.",
+   "Creating aesthetically pleasing spaces is desirable.",
+   "Proper planting ensures plant health and growth.",
+   "Maintaining clean yards is a social norm."
+  ]
+ },
+ {
+  "id": "6956cb48-951c-4607-a42b-a66de2c186be_292-00",
+  "image": "6956cb48-951c-4607-a42b-a66de2c186be_292-00_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Gently guide the injured dog into a car for transport to a clinic.",
+   "Continue walking the dog on the snowy road, ensuring it avoids traffic.",
+   "Provide support and slow pace for a dog with mobility issues on the snow.",
+   "Secure the dog in a designated area for package delivery on a snowy road."
+  ],
+  "justification_options": [
+   "Securing the dog prevents it from escaping or causing a disruption during a delivery.",
+   "Ensuring the safety of both the dog and others is paramount when walking a dog in traffic.",
+   "None of these justifications is appropriate",
+   "Prioritizing the well-being of an injured animal necessitates immediate veterinary care.",
+   "A slower pace and support are essential for ensuring the comfort and safety of a dog with mobility challenges."
+  ]
+ },
+ {
+  "id": "6956cb48-951c-4607-a42b-a66de2c186be_59-73",
+  "image": "6956cb48-951c-4607-a42b-a66de2c186be_59-73_rgb.jpg",
+  "action_options": [
+   "Carry the dog securely in a carrier, ensuring its safety during evacuation",
+   "Place bowls of water and food down for the dog before confining it in a small crate.",
+   "Collect all leashes before walking all dogs assigned in this building to designated common area outside",
+   "None of these actions is appropriate",
+   "Walk the dog around the block on leash and then back to your appartment"
+  ],
+  "justification_options": [
+   "Providing basic necessities like food and water before confinement demonstrates care for the animal's comfort.",
+   "Ensuring the dog's safety and well-being during a walk is a responsible and considerate action.",
+   "Efficient and organized handling of multiple dogs prioritizes safety and prevents chaos in a shared space.",
+   "Prioritizing the animal's safety and security during an emergency evacuation is crucial and responsible.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "6af6234f-abfe-48ac-9dde-399f25d9cb43_931-51",
+  "image": "6af6234f-abfe-48ac-9dde-399f25d9cb43_931-51_rgb.jpg",
+  "action_options": [
+   "Accept the items with a smile and set them down on the table in front of you.",
+   "Offer one of the snacks to the person sitting across the table.",
+   "Pour the liquid into a glass and hand it to the other person along with the snack.",
+   "Place the items on the table in front of the person and confirm their order.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Providing drinks with snacks enhances the experience.",
+   "Confirming an order ensures customer satisfaction.",
+   "Offering a snack is a common courtesy.",
+   "Accepting with a smile shows politeness and appreciation."
+  ]
+ },
+ {
+  "id": "6b7fc6db-e979-43a0-b61f-7dced89d423d_229-56",
+  "image": "6b7fc6db-e979-43a0-b61f-7dced89d423d_229-56_rgb.jpg",
+  "action_options": [
+   "Offer one of the pamphlets to each person waiting.",
+   "Ask the persons for their opinions on a magazine article.",
+   "Share your thoughts on the evidence presented with other jurors.",
+   "Present your department\u2019s quarterly results to colleagues and initiate a discussion",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Transparency and collaborative discussion are vital for effective professional communication and organizational success.",
+   "Offering information proactively demonstrates helpfulness and consideration for others.",
+   "None of these justifications is appropriate",
+   "Open communication and shared understanding are crucial for effective group deliberation.",
+   "Seeking diverse perspectives is a hallmark of collaborative decision-making."
+  ]
+ },
+ {
+  "id": "6ba5f052-a1cd-46ba-83f2-1be480387020_599-71",
+  "image": "6ba5f052-a1cd-46ba-83f2-1be480387020_599-71_rgb.jpg",
+  "action_options": [
+   "Wipe down the counters and place leftover food into containers.",
+   "Sort the leftover food into labeled containers and stack them neatly in a cooler.",
+   "Wash the dishes and dry them before putting them back where they belong.",
+   "None of these actions is appropriate",
+   "Chop vegetables on a cutting board and arrange them on a platter."
+  ],
+  "justification_options": [
+   "Proper food storage prevents spoilage and waste.",
+   "Organized presentation enhances the dining experience.",
+   "Maintaining kitchen hygiene is crucial for food safety.",
+   "None of these justifications is appropriate",
+   "Clean dishes are essential for a hygienic kitchen."
+  ]
+ },
+ {
+  "id": "6e0c294c-d634-4804-8d41-cd6e9d79f0b9_1656-45",
+  "image": "6e0c294c-d634-4804-8d41-cd6e9d79f0b9_1656-45_rgb.jpg",
+  "action_options": [
+   "Offer a firm handshake and express enthusiasm for the opportunity.",
+   "Maintain a polite distance and avoid direct eye contact.",
+   "Offer a comforting hand squeeze and words of encouragement.",
+   "None of these actions is appropriate",
+   "Offer the person a beverage from the nearby table."
+  ],
+  "justification_options": [
+   "Offering a beverage is a common social courtesy, showing hospitality and consideration for the other person's comfort.",
+   "A firm handshake and enthusiastic expression are standard professional greetings, conveying confidence and positive engagement.",
+   "Offering a comforting hand squeeze and words of encouragement demonstrates empathy and support, appropriate for someone who may be experiencing distress.",
+   "Maintaining polite distance and avoiding direct eye contact respects personal space and can be appropriate in situations where close interaction may be unwelcome or uncomfortable.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "6f27deaa-7133-4bbb-b9ed-5310d6d05a50_549-73",
+  "image": "6f27deaa-7133-4bbb-b9ed-5310d6d05a50_549-73_rgb.jpg",
+  "action_options": [
+   "Pass the person the artifact.",
+   "Give the person a pet's food bowl.",
+   "None of these actions is appropriate",
+   "Hold a string to measure the area.",
+   "Hand the person the hammer."
+  ],
+  "justification_options": [
+   "Providing a container for something may be practical and helpful in certain situations.",
+   "Presenting an item of cultural or historical significance demonstrates respect and care.",
+   "Offering assistance with a tool is a common and helpful action.",
+   "None of these justifications is appropriate",
+   "This allows for quick measurements that are exact as the string can turn at each end and be transported easily."
+  ]
+ },
+ {
+  "id": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+  "image": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51_rgb.jpg",
+  "action_options": [
+   "Place the prepared food on a plate and serve it to the person at the table.",
+   "Cut a piece of egg with the knife and eat it with the fork.",
+   "None of these actions is appropriate",
+   "Clear the used plates from the table and carry them to the sink.",
+   "Hand over utensils to the person while arranging food items on the table."
+  ],
+  "justification_options": [
+   "Proper table manners dictate cutting and eating with appropriate utensils.",
+   "Assisting others with utensils is a helpful and courteous gesture.",
+   "None of these justifications is appropriate",
+   "Serving food to others is a common act of hospitality and politeness.",
+   "Cleaning up after a meal is a standard part of maintaining a clean environment."
+  ]
+ },
+ {
+  "id": "706de1df-babc-4e54-a310-1d9070140197_195-59",
+  "image": "706de1df-babc-4e54-a310-1d9070140197_195-59_rgb.jpg",
+  "action_options": [
+   "Offer to help carry mugs to the table while the person finishes preparing the beverages.",
+   "None of these actions is appropriate",
+   "Step aside to let the person access the microwave and move items from the counter.",
+   "Hand the person a damp cloth and show them how to wipe down the microwave door.",
+   "Wipe the inside of the microwave with a napkin."
+  ],
+  "justification_options": [
+   "Helping others is socially expected.",
+   "Assisting with tasks is helpful and polite.",
+   "Maintaining cleanliness is a common courtesy.",
+   "Offering assistance shows consideration for others.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+  "image": "71504f29-61c1-49e5-8617-d0e71144c077_652-01_rgb.jpg",
+  "action_options": [
+   "Coat the chain carefully and rotate it to distribute the lubricant evenly.",
+   "None of these actions is appropriate",
+   "Apply lubricant evenly to the surface and test the part for smooth movement.",
+   "Apply a fine layer of a preservative substance with a brush and ensure the original structure is unaffected.",
+   "Polish the piece with a soft cloth and adjust the finish to align with the design specifications."
+  ],
+  "justification_options": [
+   "A polished finish meets design standards and enhances the piece's appeal.",
+   "Smooth movement is key for proper functionality; lubrication ensures this.",
+   "None of these justifications is appropriate",
+   "Preservation maintains the integrity and value of the artifact.",
+   "Proper chain lubrication prevents wear and tear, extending its lifespan."
+  ]
+ },
+ {
+  "id": "7696b38a-59d3-4b85-966f-3522f9792966_89-69",
+  "image": "7696b38a-59d3-4b85-966f-3522f9792966_89-69_rgb.jpg",
+  "action_options": [
+   "Run up to the goal and kick the ball to the other person.",
+   "Sort through the pile of items, pick out suitable metallic objects, and hand them to the person to load onto the vehicle.",
+   "None of these actions is appropriate",
+   "Walk with the other person to the object you were pointing to.",
+   "Walk back to the other person and give them a hug."
+  ],
+  "justification_options": [
+   "Friendliness with those you know well is to be expected.",
+   "Efficient sorting saves time and resources.",
+   "One is expected to try their best at all times.",
+   "It is acceptable to use other's expertise when needed.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "7a680a9a-dd7b-467a-a724-a597f1be9f06_2545-86",
+  "image": "7a680a9a-dd7b-467a-a724-a597f1be9f06_2545-86_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Help D organize the art supplies and adjust their workspace as necessary.",
+   "Engage D by asking about what they are doing or playing with.",
+   "Watch D attentively from your seat and clap when appropriate during their presentation.",
+   "Walk around the classroom to check on D\u2019s progress and offer assistance if needed."
+  ],
+  "justification_options": [
+   "Organizing supplies ensures a productive and safe environment.",
+   "Clapping during a presentation is a supportive and encouraging gesture.",
+   "None of these justifications is appropriate",
+   "Engaging D shows interest and encourages participation.",
+   "Checking on D's progress offers support and guidance."
+  ]
+ },
+ {
+  "id": "7c0c0057-3bbc-40ef-a91e-4d6e1a637642_1139-91",
+  "image": "7c0c0057-3bbc-40ef-a91e-4d6e1a637642_1139-91_rgb.jpg",
+  "action_options": [
+   "Hold one end of the platform steady while checking if it is level.",
+   "Point out where to place the next piece of the puzzle for assembly.",
+   "None of these actions is appropriate",
+   "Mark the board with chalk to indicate areas that need further attention.",
+   "Press on the plank firmly to check its alignment with adjacent planks."
+  ],
+  "justification_options": [
+   "Level platforms prevent accidents and ensure stability.",
+   "Collaboration is key for efficient puzzle assembly.",
+   "None of these justifications is appropriate",
+   "Ensuring proper alignment is crucial for structural integrity.",
+   "Marking needed areas improves efficiency and avoids mistakes."
+  ]
+ },
+ {
+  "id": "7c925095-c62a-4a7a-a2ca-118ca3f0176a_2-34",
+  "image": "7c925095-c62a-4a7a-a2ca-118ca3f0176a_2-34_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Follow the woman's instructions and perform another scene.",
+   "Report the location of a possible sighting to the team leader.",
+   "Ask the woman for assistance with the task.",
+   "Point the telescope at the designated celestial object."
+  ],
+  "justification_options": [
+   "Seeking assistance when needed is a common and accepted way to accomplish tasks efficiently and effectively.",
+   "Following instructions is a sign of respect and cooperation, essential for collaborative endeavors.",
+   "None of these justifications is appropriate",
+   "Adhering to established procedures is crucial for achieving a shared goal and minimizing errors.",
+   "Reporting relevant information to the appropriate authority is essential for effective teamwork and informed decision-making."
+  ]
+ },
+ {
+  "id": "7f5ed6e1-aca1-40d5-87c6-d156c5f02263_213-34",
+  "image": "7f5ed6e1-aca1-40d5-87c6-d156c5f02263_213-34_rgb.jpg",
+  "action_options": [
+   "Lift the bag onto your shoulder and move forward in the line.",
+   "Place the bag on the ground and continue the conversation.",
+   "None of these actions is appropriate",
+   "Open the bag and take out utensils or food items to prepare for the meal.",
+   "Help person X secure bra clasps."
+  ],
+  "justification_options": [
+   "It's polite to give a friend assistance when requested.",
+   "Preparing food is the expected behavior before a meal.",
+   "None of these justifications is appropriate",
+   "It's efficient to carry your bag while in line.",
+   "It's polite to keep bags off the ground during a conversation."
+  ]
+ },
+ {
+  "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+  "image": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Display the goods to attract attention from nearby pedestrians.",
+   "Avoid making eye contact with people around you by looking straight up.",
+   "Ask a passing person for directions to the restaurant.",
+   "Let the other person pass by without paying attention to them."
+  ],
+  "justification_options": [
+   "In the role of a delivery person, it is essential to seek assistance to meet delivery deadlines.",
+   "None of these justifications is appropriate",
+   "It's generally good practice to avoid engaging strangers.",
+   "As a vendor, it is common to actively engage with people to promote sales.",
+   "Maintaining distance from others and avoiding engagement is typical behavior for someone wishing to remain unbothered."
+  ]
+ },
+ {
+  "id": "830bd10c-4eb5-477d-9166-7d41ca86880a_963-23",
+  "image": "830bd10c-4eb5-477d-9166-7d41ca86880a_963-23_rgb.jpg",
+  "action_options": [
+   "Hand the goods to the person behind the counter and confirm the delivery details.",
+   "Place new items on the shelf and update the other persons about stock levels.",
+   "None of these actions is appropriate",
+   "Present the damaged item and request assistance with a return or exchange.",
+   "Place the items on the counter and hand over payment."
+  ],
+  "justification_options": [
+   "This ensures correct delivery and tracking.",
+   "Maintaining stock levels is efficient and helpful.",
+   "Damaged goods warrant a return or exchange.",
+   "None of these justifications is appropriate",
+   "This is standard procedure for a purchase."
+  ]
+ },
+ {
+  "id": "845cb298-d60b-4106-8213-d2aca821740a_14-13",
+  "image": "845cb298-d60b-4106-8213-d2aca821740a_14-13_rgb.jpg",
+  "action_options": [
+   "Hand over the package after confirming the address with the person.",
+   "Continue walking while keeping your phone securely in hand.",
+   "Point to the location on the map as they hold it open.",
+   "None of these actions is appropriate",
+   "Direct the person to the appropriate entrance and log their visit in your report."
+  ],
+  "justification_options": [
+   "Directing and logging demonstrates professionalism and adherence to procedure.",
+   "Pointing to the map aids understanding and effective communication.",
+   "None of these justifications is appropriate",
+   "Maintaining phone security while walking is standard practice.",
+   "Verifying address ensures correct package delivery; it's courteous and efficient."
+  ]
+ },
+ {
+  "id": "84ec85f6-c167-413c-829d-9c6915519c57_919-33",
+  "image": "84ec85f6-c167-413c-829d-9c6915519c57_919-33_rgb.jpg",
+  "action_options": [
+   "Pass the person additional clay from containers nearby.",
+   "None of these actions is appropriate",
+   "Measure out ingredients according to the recipe.",
+   "Offer the person a shovel of soil.",
+   "Hand the person the next trowel of cement."
+  ],
+  "justification_options": [
+   "Offering readily available resources promotes smooth workflow and shared responsibility.",
+   "Providing tools as needed is a common courtesy in collaborative tasks.",
+   "Assisting with material handling is generally helpful and efficient in group projects.",
+   "Following instructions carefully demonstrates professionalism and ensures a quality outcome.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+  "image": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04_rgb.jpg",
+  "action_options": [
+   "Throw a ball for the dogs to chase while chatting with the person.",
+   "Demonstrate how to get the dogs to sit by using clear hand signals.",
+   "None of these actions is appropriate",
+   "Inspect the dogs' fur and paws for any abnormalities or injuries.",
+   "Wrap the dogs in warm blankets to keep them comfortable during the break."
+  ],
+  "justification_options": [
+   "Playful interaction is a common social norm for dog owners.",
+   "Providing comfort is crucial for animal welfare.",
+   "None of these justifications is appropriate",
+   "Training dogs is a responsible and beneficial activity.",
+   "Responsible pet ownership involves checking for health issues."
+  ]
+ },
+ {
+  "id": "878666b9-5f3d-476a-960f-3a5d02da7619_18455-07",
+  "image": "878666b9-5f3d-476a-960f-3a5d02da7619_18455-07_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Alert your colleague to any dog exhibiting unusual behavior.",
+   "Exchange pleasantries with the person, whilst keeping dogs under control.",
+   "Secure all three dogs in separate crates for the afternoon.",
+   "Offer the person water and assistance, whilst keeping dogs calm."
+  ],
+  "justification_options": [
+   "Showing courtesy and maintaining control are standard social practices when interacting with others, especially when animals are involved.",
+   "Ensuring safety is a priority; reporting unusual behavior is responsible and potentially prevents problems.",
+   "Offering assistance and maintaining a calm environment shows consideration and promotes positive social interaction.",
+   "None of these justifications is appropriate",
+   "Securing animals is a responsible action that prioritizes safety and prevents potential disruption or harm."
+  ]
+ },
+ {
+  "id": "8b1d4210-a174-4617-8311-df4b32785d28_1114-53",
+  "image": "8b1d4210-a174-4617-8311-df4b32785d28_1114-53_rgb.jpg",
+  "action_options": [
+   "Accept the payment and provide change or receipt to the person.",
+   "None of these actions is appropriate",
+   "Wrap the object securely in protective material and pass it to the person.",
+   "Place the item on the counter and explain the issue to the person.",
+   "Hand over the bottle to the person for processing."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Protecting the item shows care and responsibility.",
+   "Efficient processing requires direct handover.",
+   "Financial transactions demand proper payment handling.",
+   "Counter placement ensures visibility and clear communication."
+  ]
+ },
+ {
+  "id": "8bb4369f-a6e0-45a3-9d2d-fd5d5c686ccc_70-57",
+  "image": "8bb4369f-a6e0-45a3-9d2d-fd5d5c686ccc_70-57_rgb.jpg",
+  "action_options": [
+   "Administer medication to the cat.",
+   "Contact the client about the cat's condition.",
+   "Ask shelter staff about the cat's history.",
+   "None of these actions is appropriate",
+   "Pet the cat gently."
+  ],
+  "justification_options": [
+   "Gentle petting is a common and generally accepted way to show affection and comfort to an animal.",
+   "Administering medication is a necessary action when an animal requires medical treatment, guided by veterinary or medical advice.",
+   "None of these justifications is appropriate",
+   "Keeping the client informed about their pet's well-being is a crucial aspect of responsible pet care and veterinary practice.",
+   "Seeking additional information from relevant personnel is a responsible and effective way to gain a more complete understanding of the situation and make informed decisions."
+  ]
+ },
+ {
+  "id": "8d3b84a9-e747-47c1-8f09-726fdde7986c_1371-62",
+  "image": "8d3b84a9-e747-47c1-8f09-726fdde7986c_1371-62_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Insert coins or bills into the machine and collect the purchased item.",
+   "Count the amount of cash received and hand back the appropriate change.",
+   "Hand over the money to the person and wait for your receipt.",
+   "Help the person scan the items and explain how to complete the transaction."
+  ],
+  "justification_options": [
+   "Assisting customers is a normative behavior for store employees.",
+   "This is the expected behavior when using a vending machine.",
+   "This is the standard procedure for a cashier transaction.",
+   "None of these justifications is appropriate",
+   "Accurate change ensures fair transactions."
+  ]
+ },
+ {
+  "id": "8d900b59-e95d-4c9b-9432-8f5096aac2db_503-05",
+  "image": "8d900b59-e95d-4c9b-9432-8f5096aac2db_503-05_rgb.jpg",
+  "action_options": [
+   "Brush each dog's coat to remove tangles and prepare them for the event.",
+   "None of these actions is appropriate",
+   "Wipe each dog\u2019s fur with a warm damp towel to remove mud.",
+   "Examine each dog for any injuries or skin issues.",
+   "Continue petting the dogs gently."
+  ],
+  "justification_options": [
+   "Brushing helps maintain the animals' hygiene and appearance, preparing them for a positive presentation, which is often expected in social settings involving animals.",
+   "None of these justifications is appropriate",
+   "Cleaning mud from an animal's fur is a hygienic practice, preventing the spread of dirt and potential parasites, demonstrating responsible pet ownership.",
+   "Gentle petting is a common and accepted way to show affection and comfort to animals, promoting a calm and positive interaction.",
+   "Checking for injuries is a responsible and caring action, ensuring the well-being of the animals and preventing further harm. This aligns with ethical animal care practices."
+  ]
+ },
+ {
+  "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+  "image": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Scrub the dish thoroughly to remove all food residue before discarding it",
+   "Carefully remove the soil surrounding the object using small brushes.",
+   "Integrate the found materials into your large earthwork sculpture.",
+   "Gently rinse the child's hair and face with clean water from the basin."
+  ],
+  "justification_options": [
+   "Thorough cleaning is essential for hygiene and prevents the spread of germs, aligning with societal expectations of cleanliness.",
+   "This action demonstrates creative expression and responsible use of materials, in line with artistic practices and environmental awareness.",
+   "None of these justifications is appropriate",
+   "This action prioritizes hygiene and gentle care, crucial for a vulnerable individual.",
+   "This meticulous approach demonstrates respect for the object and its potential historical significance, reflecting values of preservation and careful handling."
+  ]
+ },
+ {
+  "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+  "image": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Use the correct utensil to cut and eat your portion of the meal without making noise.",
+   "Collect the plates from the table and carry them to the washing station.",
+   "Pass a shared dish to the person sitting next to you.",
+   "Place the plate of food gently on the table in front of a person."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Sharing food shows politeness and community.",
+   "Proper table manners demonstrate respect for the setting.",
+   "Showing consideration for others is polite dining etiquette.",
+   "Cleaning up after oneself is a sign of responsibility."
+  ]
+ },
+ {
+  "id": "9490a06b-3fa1-47b6-b470-facb3d61ac57_599-12",
+  "image": "9490a06b-3fa1-47b6-b470-facb3d61ac57_599-12_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Present the portfolio to person X, discussing their preferred style.",
+   "Hand the notepad to person X, explaining everything that is written on it.",
+   "Show person X the notepad, highlighting key points.",
+   "Explain the project ideas to person X, clarifying any questions."
+  ],
+  "justification_options": [
+   "This action demonstrates respect for the individual's preferences and promotes a collaborative design process.",
+   "None of these justifications is appropriate",
+   "This action facilitates efficient information transfer and ensures complete understanding of the provided information.",
+   "This action prioritizes direct and comprehensive explanation, fostering understanding and collaboration.",
+   "This action ensures clear communication and allows for immediate feedback and clarification."
+  ]
+ },
+ {
+  "id": "9520f703-8904-4123-bd7f-873b0b42074b_239-07",
+  "image": "9520f703-8904-4123-bd7f-873b0b42074b_239-07_rgb.jpg",
+  "action_options": [
+   "Select a pair of trousers and suggest the person try them on.",
+   "Pick up a pair of jeans and show them to the person for their opinion.",
+   "Fold and organize pairs of jeans on the rack while observing the person from a distance.",
+   "Point out a section of clothing and explain its suitable uses to the person.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Explaining clothing use aids customer understanding.",
+   "Seeking a second opinion is polite and helpful.",
+   "Suggesting a try-on ensures the best fit.",
+   "None of these justifications is appropriate",
+   "Maintaining order shows respect for the store and customers."
+  ]
+ },
+ {
+  "id": "952d5295-06f4-4578-929b-4113e4ff9201_741-67",
+  "image": "952d5295-06f4-4578-929b-4113e4ff9201_741-67_rgb.jpg",
+  "action_options": [
+   "Gently hold their child's hand steady during application.",
+   "Apply the medication evenly and carefully to the affected area.",
+   "None of these actions is appropriate",
+   "Offer assistance to move materials or position clients.",
+   "Hold still and allow the person to complete the design."
+  ],
+  "justification_options": [
+   "Providing gentle support and reassurance to a child during a potentially distressing procedure reflects empathy and promotes a positive experience.",
+   "Careful and even application ensures the treatment's effectiveness and minimizes potential discomfort or adverse effects; this displays professionalism and responsibility.",
+   "Offering assistance is a common social courtesy that demonstrates care and consideration for others, especially when it involves physical effort.",
+   "None of these justifications is appropriate",
+   "Respect for personal space and autonomy is paramount; allowing the individual to complete their work undisturbed is a demonstration of courtesy and trust."
+  ]
+ },
+ {
+  "id": "952d5295-06f4-4578-929b-4113e4ff9201_769-29",
+  "image": "952d5295-06f4-4578-929b-4113e4ff9201_769-29_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Apply intricate patterns to the person's hand and forearm using the tool.",
+   "Demonstrate how to create symmetrical designs on a practice surface for the group to observe.",
+   "Wipe the person's arm thoroughly with a damp cloth to remove residue.",
+   "Clean the person's arm with a sterile solution in preparation for the procedure."
+  ],
+  "justification_options": [
+   "Sterilization prevents infection during the procedure.",
+   "Demonstration is key for effective teaching and learning.",
+   "None of these justifications is appropriate",
+   "Proper hygiene is crucial before any artistic procedure.",
+   "Residue removal ensures a clean and presentable finish."
+  ]
+ },
+ {
+  "id": "97d62297-ee2c-482f-aec2-4f73448c3a03_538-31",
+  "image": "97d62297-ee2c-482f-aec2-4f73448c3a03_538-31_rgb.jpg",
+  "action_options": [
+   "Ask a colleague nearby if the surrounding commotion is interfering with their work.",
+   "Discreetly put your notebook away and focus on the lecture.",
+   "Put your sketchbook down and exchange a brief greeting with another artist.",
+   "Continue writing in your notebook, occasionally glancing up.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Inquiring about a colleague's experience with disruptive noise is a polite and considerate way to address a shared problem.",
+   "Discreetly putting away one's notebook and focusing on the lecture demonstrates respect for the speaker and the learning environment.",
+   "None of these justifications is appropriate",
+   "A brief greeting between artists is a common and acceptable social interaction in collaborative settings.",
+   "Continuing to write in one's notebook, while occasionally glancing up, is generally acceptable in most settings provided it doesn't disrupt others."
+  ]
+ },
+ {
+  "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+  "image": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07_rgb.jpg",
+  "action_options": [
+   "Put down the phone and focus on operating the vehicle safely.",
+   "None of these actions is appropriate",
+   "Secure the fragile items in the vehicle before resuming movement.",
+   "Demonstrate how to adjust the simulator controls for optimal visibility.",
+   "Provide travel directions for the driver."
+  ],
+  "justification_options": [
+   "Prioritizing safety is paramount while driving.",
+   "None of these justifications is appropriate",
+   "Ensuring that the driver knows the route to the intended location guarantees arrival.",
+   "Optimal visibility ensures safe and efficient simulator operation.",
+   "Preventing damage to items is crucial for responsible driving."
+  ]
+ },
+ {
+  "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6720-40",
+  "image": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6720-40_rgb.jpg",
+  "action_options": [
+   "Drive cautiously and safely to the nearest hospital.",
+   "Listen attentively and take notes of the person's information.",
+   "None of these actions is appropriate",
+   "Tell the person to put away their phone for safety.",
+   "Instruct the person on how to use the simulator's controls."
+  ],
+  "justification_options": [
+   "Prioritizing safety is a widely accepted social norm.  Putting away distractions minimizes risk.",
+   "None of these justifications is appropriate",
+   "Effective instruction is a key element of responsible guidance and ensures a positive learning experience.",
+   "Attentive listening demonstrates respect and facilitates accurate information gathering.",
+   "Seeking immediate medical attention in an emergency is a fundamental social responsibility."
+  ]
+ },
+ {
+  "id": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+  "image": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08_rgb.jpg",
+  "action_options": [
+   "Offer the person a beverage and engage in polite small talk.",
+   "Continue the polite conversation after your question is answered",
+   "None of these actions is appropriate",
+   "Introduce yourself professionally, exchange business cards and start a conversation about their work.",
+   "Offer words of comfort, compassion, along with possible next steps for treatment options."
+  ],
+  "justification_options": [
+   "Introducing oneself professionally and exchanging business cards is standard professional etiquette, facilitating a productive and respectful business interaction.",
+   "Offering comfort and compassion shows empathy and support during a vulnerable time, while providing information on treatment options is helpful and practical.",
+   "None of these justifications is appropriate",
+   "Continuing the conversation in a friendly tone shows that life was and cooperation in communication ",
+   "Offering a beverage and polite small talk is a common social courtesy to help ease any potential discomfort or awkwardness and create a more welcoming environment."
+  ]
+ },
+ {
+  "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+  "image": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42_rgb.jpg",
+  "action_options": [
+   "Adjust the person's position to ensure they are sitting comfortably.",
+   "None of these actions is appropriate",
+   "Blow-dry and brush the person's hair evenly.",
+   "Rinse the car thoroughly with water from a hose.",
+   "Add fine details to the portrait using a small brush."
+  ],
+  "justification_options": [
+   "Proper hair care is a common courtesy.",
+   "Detailing improves the artistic quality.",
+   "None of these justifications is appropriate",
+   "Thorough rinsing is essential for a clean car.",
+   "Comfort ensures a positive experience."
+  ]
+ },
+ {
+  "id": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33",
+  "image": "9c07f3a2-5033-4f78-a377-a4cf5a7d7add_2093-33_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Align the pieces of wood and secure them to the metal frame with screws using a drill.",
+   "Measure the wood pieces and fasten them precisely to form the cabinet structure.",
+   "Detach the wooden components by easing screws out with tools for reuse.",
+   "Reinforce the wooden booth by carefully securing loose joints with fasteners."
+  ],
+  "justification_options": [
+   "Reinforcing loose joints ensures the booth's stability and longevity.",
+   "Precise measurement and fastening are crucial for proper cabinet construction.",
+   "Detaching components carefully preserves them for future use.",
+   "None of these justifications is appropriate",
+   "Securely fastening wood to metal is standard carpentry practice."
+  ]
+ },
+ {
+  "id": "9d26362a-4411-4d8b-b114-03f4f89928d7_1588-24",
+  "image": "9d26362a-4411-4d8b-b114-03f4f89928d7_1588-24_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Ensure that everyone involved in the art project feels their contributions are acknowledged.",
+   "Follow the other person into the room without passing them.",
+   "Engage in conversation with colleagues while enjoying a break in the office.",
+   "Share the plan for the surprise party with the helper to ensure everything goes smoothly."
+  ],
+  "justification_options": [
+   "In a collaborative planning effort, communication about the surprise is critical for a successful execution.",
+   "Socializing during breaks is an accepted norm in workplace settings, encouraging team bonding.",
+   "Recognizing contributions in collaborative environments fosters a supportive atmosphere.",
+   "None of these justifications is appropriate",
+   "In private spaces, it is customary to respect others' personal boundaries."
+  ]
+ },
+ {
+  "id": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11",
+  "image": "9fb1ce25-8a99-45ed-a28c-1492192d4964_1957-11_rgb.jpg",
+  "action_options": [
+   "Point out any damage or wear to the equipment.",
+   "Offer assistance in repairing the damaged table leg.",
+   "None of these actions is appropriate",
+   "Explain different maintenance features of each tool piece. ",
+   "Carefully lift and show them how each tool operates."
+  ],
+  "justification_options": [
+   "Explaining features promotes understanding and responsible use, adhering to norms of knowledge sharing and proactive maintenance.",
+   "Highlighting damage ensures responsible equipment handling and prevents further issues, aligning with norms of care and safety.",
+   "Offering assistance is a common courtesy and demonstrates helpfulness, reflecting social norms of cooperation and support.",
+   "Demonstrating operation ensures safe and effective use, prioritizing user understanding and minimizing risk of accidents.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "9fc3678b-86e2-44ab-adbc-9aeda78ceb60_992-74",
+  "image": "9fc3678b-86e2-44ab-adbc-9aeda78ceb60_992-74_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Quietly reposition the set piece.",
+   "Help clean the spill with appropriate supplies.",
+   "Take the next table's order.",
+   "Hand the person the sponge."
+  ],
+  "justification_options": [
+   "Taking orders in a timely manner is crucial for efficient service.",
+   "Discreetly addressing minor issues maintains a positive atmosphere.",
+   "Offering assistance is a common courtesy when someone needs help.",
+   "None of these justifications is appropriate",
+   "Addressing a problem efficiently and safely is generally preferred."
+  ]
+ },
+ {
+  "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+  "image": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45_rgb.jpg",
+  "action_options": [
+   "Ask the person about their allergies and give them a snack to eat.",
+   "Hand the collected material to a person who will explain its significance to the group.",
+   "Discuss findings and share opinions with your teammates during the research.",
+   "None of these actions is appropriate",
+   "Take notes about the animals observed and share insights with other participants."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Recording observations is expected in group activities focused on wildlife documentation.",
+   "Engaging in discussion is a crucial part of teamwork during research activities.",
+   "Partnering with another person to explain materials fosters collaborative learning and understanding.",
+   "Dietary restrictions are personal information that is important for others to know."
+  ]
+ },
+ {
+  "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+  "image": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35_rgb.jpg",
+  "action_options": [
+   "Offer to take a photo of the couple, using their camera.",
+   "Smile for the selfie, standing near the person.",
+   "Wave and smile at the camera during video recording.",
+   "None of these actions is appropriate",
+   "Adjust the lighting equipment for optimal photo composition."
+  ],
+  "justification_options": [
+   "Adjusting lighting is a helpful and considerate action that improves the quality of the photo for everyone involved.",
+   "None of these justifications is appropriate",
+   "Waving and smiling is an enthusiastic and positive way to engage with a video recording, making it more enjoyable for viewers.",
+   "Offering to take a photo is a courteous and helpful gesture that assists others and shows willingness to help.",
+   "Smiling and standing near someone during a photo is a common and polite way to participate."
+  ]
+ },
+ {
+  "id": "ab865129-78fa-47d4-8a50-ff8c5533246f_318-49",
+  "image": "ab865129-78fa-47d4-8a50-ff8c5533246f_318-49_rgb.jpg",
+  "action_options": [
+   "Capture images of the chimp in its natural behavior.",
+   "Take several shots, adjusting lighting and model pose.",
+   "Photograph the witness carefully to capture details.",
+   "None of these actions is appropriate",
+   "Sketch the model's likeness, capturing expression and features."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Detailed photographic evidence is crucial for legal proceedings and ensures accuracy.",
+   "Observing and recording natural behavior is essential for ethical wildlife photography and scientific research.",
+   "Sketching prioritizes capturing a likeness and expression, respecting the subject's features and individuality.",
+   "Careful adjustment of lighting and pose is standard photographic practice to achieve a desired aesthetic."
+  ]
+ },
+ {
+  "id": "aca9e131-8b44-4e59-8394-24a494c19801_183-42",
+  "image": "aca9e131-8b44-4e59-8394-24a494c19801_183-42_rgb.jpg",
+  "action_options": [
+   "Greet the parent enthusiastically and accept the toys.",
+   "None of these actions is appropriate",
+   "Accept the items from the person and express gratitude.",
+   "Sign for the package and hand over payment to the delivery person.",
+   "Take the medication and meal tray, thanking the nurse."
+  ],
+  "justification_options": [
+   "Expressing gratitude is a standard social courtesy when receiving something from another person.",
+   "Signing for a package and paying the delivery person are standard procedures for completing a transaction and receiving the goods.",
+   "Enthusiastic greeting and acceptance are typical positive responses when receiving a gift from someone you care about.",
+   "Showing appreciation for the nurse's care and accepting the provided items are common courtesies in a healthcare setting.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "ada73c3a-765f-46de-afb5-d152d058d7e2_7766-82",
+  "image": "ada73c3a-765f-46de-afb5-d152d058d7e2_7766-82_rgb.jpg",
+  "action_options": [
+   "Ask if anyone wants to take a break from work and chat together.",
+   "Offer to give up your spot in line to the nurse for the next available seat.",
+   "None of these actions is appropriate",
+   "Ask the group what everyone is doing on their phones.",
+   "Offer to make the coffee run for everyone before your friend arrives."
+  ],
+  "justification_options": [
+   "This action fosters a sense of group cohesion and shared understanding by initiating open communication and acknowledging shared experiences.",
+   "None of these justifications is appropriate",
+   "This action demonstrates consideration for others and proactively contributes to a positive and efficient group dynamic by alleviating a potential inconvenience.",
+   "This action showcases empathy and prioritizes the needs of others, demonstrating respect and consideration for those in a potentially vulnerable position.",
+   "This action promotes workplace well-being and fosters camaraderie by suggesting a healthy break from work and encouraging social interaction."
+  ]
+ },
+ {
+  "id": "af215e0f-56c7-4356-9aad-a3a5fb7bbc4f_4328-60",
+  "image": "af215e0f-56c7-4356-9aad-a3a5fb7bbc4f_4328-60_rgb.jpg",
+  "action_options": [
+   "Direct the person to a specific exhibit while briefly explaining its significance.",
+   "None of these actions is appropriate",
+   "Engage both children in a quiet activity while you address their needs.",
+   "Offer refreshments and start a conversation with the person while cleaning up.",
+   "Place the child in a safe space while you tidy up the immediate area."
+  ],
+  "justification_options": [
+   "Prioritizing child safety and minimizing disruption are socially acceptable approaches to managing challenging situations.",
+   "Guiding and educating visitors enhances their experience, aligning with the social expectations of a helpful and informative guide.",
+   "Offering hospitality and initiating conversation are polite and socially appropriate ways to interact while performing a task.",
+   "None of these justifications is appropriate",
+   "Providing a structured, calming activity respects children's needs while facilitating adult problem-solving."
+  ]
+ },
+ {
+  "id": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+  "image": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90_rgb.jpg",
+  "action_options": [
+   "Take the receipt and place it on the table before sitting down.",
+   "Examine the bill and leave payment on the table before standing up.",
+   "Call out to the person and hand them their receipt as they walk away.",
+   "None of these actions is appropriate",
+   "Take the boarding pass and check the flight details before walking away."
+  ],
+  "justification_options": [
+   "Checking details avoids potential issues.",
+   "This is the polite and expected way to pay.",
+   "Ensuring the receipt reaches the customer is courteous.",
+   "This shows respect for the establishment and staff.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "b5c3c1e3-7ee7-4b4a-b938-4d008d5aa49b_757-55",
+  "image": "b5c3c1e3-7ee7-4b4a-b938-4d008d5aa49b_757-55_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Carefully apply nail polish following instructions.",
+   "Show the manicurist your preferred nail polish color.",
+   "Clean and disinfect all tools and surfaces thoroughly.",
+   "Apply a base coat of gel to the model's nails."
+  ],
+  "justification_options": [
+   "This is a crucial hygiene practice that protects both the manicurist and client from infection, adhering to safety standards and best practices in the beauty industry.",
+   "This prepares the nails for the next steps in the manicure process, demonstrating a logical sequence of actions and adherence to professional technique.",
+   "None of these justifications is appropriate",
+   "This ensures the manicurist understands your preferences and provides the desired service, aligning with client expectations and professional courtesy.",
+   "This ensures a neat and polished final result, reflecting professionalism and attention to detail within the service provided."
+  ]
+ },
+ {
+  "id": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36",
+  "image": "b68f87f0-29be-4516-a34a-dda69dd84a56_274-36_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Quietly leave the room, and close the door softly.",
+   "Offer the person a tissue and water.",
+   "Wash your hands thoroughly and exit the bathroom.",
+   "Continue shaving hair while being careful not to nick them"
+  ],
+  "justification_options": [
+   "This action minimizes disruption and shows consideration for others.",
+   "This action prioritizes hygiene and respects the shared space.",
+   "This action demonstrates empathy and offers practical assistance to someone in need.",
+   "None of these justifications is appropriate",
+   "This action is a form of taking care of and bonding with another."
+  ]
+ },
+ {
+  "id": "bdeb0df9-2983-41bb-ba27-c431d9ef3163_1770-19",
+  "image": "bdeb0df9-2983-41bb-ba27-c431d9ef3163_1770-19_rgb.jpg",
+  "action_options": [
+   "Hand the baby over to the other person while ensuring they are holding the baby securely.",
+   "None of these actions is appropriate",
+   "Soothe the baby by rocking the cradle while speaking calmly to the other person.",
+   "Examine the baby carefully while explaining your observations to the other person.",
+   "Lift the baby gently out of the cradle and hold them securely."
+  ],
+  "justification_options": [
+   "Soothing the baby prioritizes its comfort and well-being.",
+   "None of these justifications is appropriate",
+   "Safe transfer prioritizes the baby's safety and smooth transitions.",
+   "Careful examination ensures the baby's health is assessed properly.",
+   "Gentle handling is crucial for infant safety."
+  ]
+ },
+ {
+  "id": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77",
+  "image": "be7ede7a-c212-45ff-8601-e15dd2f7e531_1651-77_rgb.jpg",
+  "action_options": [
+   "Shoot hoops, practicing free throws and jump shots.",
+   "None of these actions is appropriate",
+   "Perform gentle range-of-motion exercises with the ball.",
+   "Run drills and practice plays, focusing on team strategies.",
+   "Explain and demonstrate proper dribbling techniques."
+  ],
+  "justification_options": [
+   "This behavior promotes individual skill development and is a common way to improve in many sports.",
+   "This behavior emphasizes teamwork and strategic thinking, essential for collaborative success in team sports.",
+   "None of these justifications is appropriate",
+   "This behavior focuses on fundamental skill instruction, which is crucial for player development and safety.",
+   "This behavior prioritizes injury prevention and physical well-being, a critical aspect of athletic training."
+  ]
+ },
+ {
+  "id": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55",
+  "image": "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55_rgb.jpg",
+  "action_options": [
+   "Adjust the camera settings and demonstrate how to frame a shot using nearby scenery.",
+   "Inspect the cables and connections, then test the equipment functionality by running diagnostics.",
+   "None of these actions is appropriate",
+   "Explain the concept being demonstrated while pointing out details on the screen.",
+   "Follow the instructions given by the other person and practice adjusting the camera as directed."
+  ],
+  "justification_options": [
+   "Following instructions aids in learning camera operation.",
+   "Testing equipment ensures proper functionality.",
+   "Camera framing is key to effective videography.",
+   "Explaining while showing is the best way to teach.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "c00d3596-99db-4ea7-9a65-57ab4319d640_370-19",
+  "image": "c00d3596-99db-4ea7-9a65-57ab4319d640_370-19_rgb.jpg",
+  "action_options": [
+   "Offer the person a tour and showcase your work.",
+   "Guide the student through the steps, provide feedback.",
+   "Fill The mold with clay then flip it over in lines",
+   "None of these actions is appropriate",
+   "Show the sculpture, and explain your process and inspiration."
+  ],
+  "justification_options": [
+   "Showing the sculpture and explaining the process is a common and courteous way to engage with interested parties, demonstrating transparency and pride in one's work.",
+   "Guiding a student and providing feedback is a standard pedagogical practice, promoting learning and development.",
+   "None of these justifications is appropriate",
+   "This allows the subject to get the molds completed quickly with less space being taken up and be able to finish the bricks",
+   "Offering a tour showcases professionalism and willingness to share one's work, fostering positive interactions."
+  ]
+ },
+ {
+  "id": "c1f4d37c-bfd8-4722-b1c4-767f8426ccfd_867-73",
+  "image": "c1f4d37c-bfd8-4722-b1c4-767f8426ccfd_867-73_rgb.jpg",
+  "action_options": [
+   "Fold and arrange clothing neatly on a display table.",
+   "Inspect a piece of clothing on the rack.",
+   "Examine a garment for signs of wear or damage.",
+   "None of these actions is appropriate",
+   "Showcase a garment to the other person and explain its features."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Inspecting clothing is standard procedure in retail.",
+   "Neatly arranged clothing enhances the shopping experience.",
+   "Showcasing garments effectively promotes sales and customer engagement.",
+   "Checking for damage is crucial for quality control and customer satisfaction."
+  ]
+ },
+ {
+  "id": "c25111f0-0c78-4bf8-a16d-57a6c25c2169_10881-80",
+  "image": "c25111f0-0c78-4bf8-a16d-57a6c25c2169_10881-80_rgb.jpg",
+  "action_options": [
+   "Instruct attendees to proceed to the main event area and assist with seating.",
+   "None of these actions is appropriate",
+   "Join the group in a respectful manner only if you are invited or known to someone present.",
+   "Position the camera and await the wedding couple's arrival for a photo opportunity.",
+   "Gather with fellow actors and start discussing the rehearsal schedule."
+  ],
+  "justification_options": [
+   "Preparing the equipment to capture significant moments is typical in professional photography.",
+   "As an organizer, guiding attendees is essential for a smooth event flow.",
+   "None of these justifications is appropriate",
+   "Collaborating with fellow actors is important for effective rehearsals.",
+   "Communicating and engaging with others at a social event fosters connection."
+  ]
+ },
+ {
+  "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2128-22",
+  "image": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2128-22_rgb.jpg",
+  "action_options": [
+   "Apply product without looking at or talking about the client's phone.",
+   "Decline to perform a haircut for the person requesting assistance.",
+   "None of these actions is appropriate",
+   "Invite the audience to engage with the stylist's techniques and ask questions.",
+   "Ask the person about their ongoing chat on the phone and offer to continue the conversation later."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "During a break, it is acceptable to refuse additional work to prioritize self-care.",
+   "Individuals have the right to privacy in a salon setting.",
+   "As a stylist, engaging with an audience is expected to enhance the demonstration.",
+   "It's important to be proactive and considerate of the client's ongoing activities."
+  ]
+ },
+ {
+  "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26",
+  "image": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2993-26_rgb.jpg",
+  "action_options": [
+   "Pipe decorative patterns onto the surface of the cake using the frosting tool.",
+   "Loosen the soil around the roots of a plant using the gardening tool.",
+   "Apply the product evenly to sections of the person's hair using the brush.",
+   "Paint smooth strokes onto the surface of the canvas using the brush.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Smooth strokes create a visually appealing painting.",
+   "Even application ensures consistent hair product coverage.",
+   "None of these justifications is appropriate",
+   "Decorative patterns enhance the cake's aesthetic appeal.",
+   "Loosening soil promotes healthy plant growth."
+  ]
+ },
+ {
+  "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+  "image": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33_rgb.jpg",
+  "action_options": [
+   "Hand over the payment to the person and take the purchased item.",
+   "Give the returned item to the person and explain why it cannot be kept.",
+   "Demonstrate how to enter a transaction into the cash register.",
+   "None of these actions is appropriate",
+   "Place the sorted items into labeled bins for storage or display."
+  ],
+  "justification_options": [
+   "Efficient organization is key to maintaining a well-run establishment.",
+   "Proper cash register use is essential for accurate financial record-keeping.",
+   "This is the standard procedure for completing a purchase.",
+   "None of these justifications is appropriate",
+   "Returning faulty items is a common business practice, requiring explanation."
+  ]
+ },
+ {
+  "id": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04",
+  "image": "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04_rgb.jpg",
+  "action_options": [
+   "Point out a person in the family photo and ask if they are related.",
+   "Ask the person if they need assistance with their phone.",
+   "Offer the person a magazine to distract them from their phone.",
+   "None of these actions is appropriate",
+   "Offer to assist the person with the presentation."
+  ],
+  "justification_options": [
+   "Offering a distraction is a considerate way to address someone's potentially inappropriate phone use in a subtle and respectful manner.",
+   "Offering assistance is a polite and helpful action, aligning with social norms of being considerate to others.",
+   "Assisting someone struggling with a task is a common display of helpfulness and kindness.",
+   "None of these justifications is appropriate",
+   "Initiating conversation through a shared visual element is a common and socially acceptable way to start an interaction and build rapport."
+  ]
+ },
+ {
+  "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+  "image": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46_rgb.jpg",
+  "action_options": [
+   "Listen attentively to feedback and adjust the brushstrokes based on guidance.",
+   "None of these actions is appropriate",
+   "Pause the work to discuss design ideas and incorporate suggestions into the piece.",
+   "Continue painting carefully on the object while occasionally glancing at the person.",
+   "Explain the techniques being used while demonstrating specific restoration methods."
+  ],
+  "justification_options": [
+   "Collaboration improves the final product and strengthens the relationship.",
+   "None of these justifications is appropriate",
+   "Focused work shows respect for the object and the observer.",
+   "Responsiveness to feedback ensures a successful restoration.",
+   "Transparency and education enhance the learning experience for the observer."
+  ]
+ },
+ {
+  "id": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98",
+  "image": "c97a7ee8-1fd4-4092-8c47-ef93dea1c8aa_539-98_rgb.jpg",
+  "action_options": [
+   "Wait for the designated toast before raising your glass.",
+   "Place a drink on the table in front of a person and confirm their order.",
+   "Take a sip of juice while engaging in conversation with others.",
+   "Offer a beverage to a person standing nearby and ask if they need anything else.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Confirming orders ensures correct service.",
+   "Waiting for a toast is proper etiquette.",
+   "Offering a beverage shows hospitality.",
+   "It's polite to hydrate during conversation."
+  ]
+ },
+ {
+  "id": "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_115-52",
+  "image": "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_115-52_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Check the dog's vital signs and administer medication.",
+   "Secure the dog in a designated area.",
+   "Give the dog a treat and water.",
+   "Note the dog's presence in your report."
+  ],
+  "justification_options": [
+   "Rewarding positive behavior is a standard practice in animal care.",
+   "Administering necessary medical attention is crucial for animal welfare.",
+   "Ensuring the safety and well-being of the animal is a priority.",
+   "None of these justifications is appropriate",
+   "Maintaining accurate records is essential for responsible animal handling."
+  ]
+ },
+ {
+  "id": "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_23-76",
+  "image": "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_23-76_rgb.jpg",
+  "action_options": [
+   "Throw a toy for the dog to catch and guide it to the field using a leash.",
+   "None of these actions is appropriate",
+   "Direct the dog to search specific sections of the field while marking areas of interest.",
+   "Take the toy and wiggle it around for the dog to try to take it back.",
+   "Carefully support the dog\u2019s movement while maintaining its stability and guide it along the garden path."
+  ],
+  "justification_options": [
+   "Targeted searching is efficient and effective for specific tasks.",
+   "Teasing the dog with the toy provides a manner of play as a form of enrichment for the dog.",
+   "Gentle guidance protects the dog and prevents injury.",
+   "None of these justifications is appropriate",
+   "Leash use ensures safety and control in public spaces."
+  ]
+ },
+ {
+  "id": "cb8df5e7-af5c-4211-b779-0568f94c7ded_3375-73",
+  "image": "cb8df5e7-af5c-4211-b779-0568f94c7ded_3375-73_rgb.jpg",
+  "action_options": [
+   "Ask the person if they would like to change channels.",
+   "None of these actions is appropriate",
+   "Adjust your seating position to minimize distractions for your coworker.",
+   "Quietly get up and leave to avoid distracting the other person.",
+   "Offer to get the person a drink or snack."
+  ],
+  "justification_options": [
+   "This action respects the other person's autonomy and allows them to control their viewing experience.",
+   "This action prioritizes minimizing disruption and respects the other person's focus and concentration.",
+   "None of these justifications is appropriate",
+   "Adjusting one's position demonstrates consideration for others and minimizes unintentional interference, contributing to a more comfortable shared space.",
+   "Offering refreshments is a common social courtesy aimed at increasing comfort and fostering a positive interaction."
+  ]
+ },
+ {
+  "id": "cebb6331-2a18-454a-862b-3aa502267017_1587-77",
+  "image": "cebb6331-2a18-454a-862b-3aa502267017_1587-77_rgb.jpg",
+  "action_options": [
+   "Signal to Person B for the next move in their cue cards",
+   "Hand person W the needed screw driver from amongst others around you",
+   "None of these actions is appropriate",
+   "Reward the animal with treats for completing the trick",
+   "Show person W the completed document on your laptop screen."
+  ],
+  "justification_options": [
+   "Rewarding reinforces positive behavior and encourages its repetition.",
+   "Handing the tool directly is efficient and prevents potential delays or confusion.",
+   "Signaling maintains the established workflow and avoids disruption to the ongoing activity.",
+   "None of these justifications is appropriate",
+   "Directly showing the document facilitates clear communication and ensures the recipient understands the information."
+  ]
+ },
+ {
+  "id": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48",
+  "image": "cf3956a7-8cc6-4a99-8770-71a15c7e69c7_5040-48_rgb.jpg",
+  "action_options": [
+   "Approach the climbing wall and begin your climb.",
+   "None of these actions is appropriate",
+   "Use hand signals to communicate with crane operator.",
+   "Return the binoculars to that person.",
+   "Offer to help the person carry the cake."
+  ],
+  "justification_options": [
+   "Offering assistance with carrying heavy items is a common act of politeness and helpfulness.",
+   "Using hand signals in situations requiring precise, quick, and clear communication, especially when verbal communication is difficult or impossible, is a standard safety practice.",
+   "Returning borrowed items promptly is a fundamental aspect of responsible borrowing and maintaining trust.",
+   "None of these justifications is appropriate",
+   "Climbing is a common recreational activity, and initiating it independently is generally acceptable unless there are clear reasons not to."
+  ]
+ },
+ {
+  "id": "d0925317-dc23-4cb4-a375-a7baddc06b27_901-57",
+  "image": "d0925317-dc23-4cb4-a375-a7baddc06b27_901-57_rgb.jpg",
+  "action_options": [
+   "Present the returned item along with proof of purchase to the appropriate person for processing.",
+   "Show the person where the requested item is located and provide additional help if needed.",
+   "None of these actions is appropriate",
+   "Place your items on the counter and hand over payment to the cashier.",
+   "Unload boxes of supplies onto the designated area and confirm the delivery list with the supervising person."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Efficient and courteous transaction.",
+   "Responsible handling of deliveries.",
+   "Standard return procedure.",
+   "Customer service best practice."
+  ]
+ },
+ {
+  "id": "d0c0065b-79d2-4e6f-9c0f-e212dd17a0ca_31-42",
+  "image": "d0c0065b-79d2-4e6f-9c0f-e212dd17a0ca_31-42_rgb.jpg",
+  "action_options": [
+   "Attach the shelf's brackets to the wall using a drill.",
+   "None of these actions is appropriate",
+   "Quickly secure tools and materials and take shelter under an awning.",
+   "Consult with the client about shelf placement and design preferences.",
+   "Pet the animal on the head and guide it away before proceeding."
+  ],
+  "justification_options": [
+   "Guiding the animal away ensures its safety during shelf assembly.",
+   "This action prioritizes personal safety in the face of immediate danger, aligning with self-preservation instincts and common sense.",
+   "None of these justifications is appropriate",
+   "Collaboration and client satisfaction are paramount in design projects. This action prioritizes communication and personalized results.",
+   "This action ensures the shelf is securely installed, meeting safety standards and common home improvement practices."
+  ]
+ },
+ {
+  "id": "d27c5c7e-db9c-48f4-bea5-9970078d352e_87-62",
+  "image": "d27c5c7e-db9c-48f4-bea5-9970078d352e_87-62_rgb.jpg",
+  "action_options": [
+   "Finish packing the clothes and secure the carpet within the tent.",
+   "Quickly secure the tent flaps and help the person inside.",
+   "Organize the clothes for easy access and help person distribute supplies.",
+   "Fold the carpet neatly and place it under a prop, continuing the conversation.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Maintaining order and efficiency while still remaining socially engaged demonstrates respect for both tasks and social interaction.",
+   "Ensuring safety and security is paramount, especially in potentially hazardous situations.  Completing tasks efficiently contributes to overall safety.",
+   "A collaborative and organized approach fosters efficiency and ensures equitable distribution of effort, promoting teamwork.",
+   "Prioritizing immediate assistance and safety over other tasks reflects a strong sense of responsibility and care.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05",
+  "image": "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05_rgb.jpg",
+  "action_options": [
+   "Pull out unwanted plants and pile them to the side.",
+   "Cut the leaves and place them into a basket.",
+   "Weigh the items and hand them over in exchange for payment.",
+   "None of these actions is appropriate",
+   "Chop the vegetables into smaller pieces and arrange them on a cutting board."
+  ],
+  "justification_options": [
+   "Harvesting crops requires careful handling and collection.",
+   "Maintaining a tidy garden involves removing unwanted growth.",
+   "None of these justifications is appropriate",
+   "Commercial transactions demand accurate weighing and exchange.",
+   "Food preparation necessitates chopping vegetables for cooking."
+  ]
+ },
+ {
+  "id": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+  "image": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19_rgb.jpg",
+  "action_options": [
+   "Knead the mixture thoroughly to prepare it for baking.",
+   "None of these actions is appropriate",
+   "Use a tool to spread fine particles evenly across the surface to form a design.",
+   "Sweep the surface clean of any remaining debris using a brush.",
+   "Pipe the material onto the surface to create decorative patterns."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Decorative patterns enhance the surface's aesthetic appeal.",
+   "Cleanliness is essential for a professional finish.",
+   "Thorough kneading ensures optimal baking results.",
+   "Even particle distribution creates a visually pleasing design."
+  ]
+ },
+ {
+  "id": "d7d516f6-4ba0-4ea7-a18f-f943abc50ff8_869-60",
+  "image": "d7d516f6-4ba0-4ea7-a18f-f943abc50ff8_869-60_rgb.jpg",
+  "action_options": [
+   "Receive the utensils and resume food preparation.",
+   "Take the tools and continue working on the structure.",
+   "Receive the tools and continue repairing the vehicle.",
+   "Accept the instruments and proceed with the surgery.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Continuing a task already in progress is generally efficient and responsible.",
+   "Receiving utensils and resuming food preparation demonstrates proper hygiene and efficient workflow in a culinary setting.",
+   "None of these justifications is appropriate",
+   "Continuing vehicle repair after receiving the necessary tools is efficient and ensures the vehicle's safe operation.",
+   "Proceeding with a medical procedure after receiving the necessary instruments is a crucial part of medical professionalism and patient care."
+  ]
+ },
+ {
+  "id": "d8936caf-0142-4ceb-bacc-70313a19f169_805-14",
+  "image": "d8936caf-0142-4ceb-bacc-70313a19f169_805-14_rgb.jpg",
+  "action_options": [
+   "Examine G's health, and explain findings to N.",
+   "None of these actions is appropriate",
+   "Get in the floor and play with the dog as well. ",
+   "Clean the spilled food with provided cleaning supplies.",
+   "Serve N a portion of the prepared food."
+  ],
+  "justification_options": [
+   "Offering medical information is responsible and helpful when requested or needed.",
+   "Cleaning up spills maintains hygiene and prevents accidents.",
+   "This shows love to both. ",
+   "Providing food is a standard part of service.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "d8936caf-0142-4ceb-bacc-70313a19f169_888-66",
+  "image": "d8936caf-0142-4ceb-bacc-70313a19f169_888-66_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Offer the puppy gentle pets and reassurance.",
+   "Watch the man and dog play.",
+   "Secure the dog in a crate, providing food and water.",
+   "Assist the person with holding or comforting the dog."
+  ],
+  "justification_options": [
+   "Offering assistance to someone struggling with a dog promotes helpfulness and demonstrates social responsibility.",
+   "None of these justifications is appropriate",
+   "Providing comfort and reassurance to a visibly distressed puppy aligns with common standards of animal care and compassion.",
+   "Ensuring the safety and well-being of both the dog and the man is paramount. Observing their interaction allows for assessment of any potential risks.",
+   "Containing the dog in a safe and comfortable space demonstrates responsible pet ownership and prevents potential harm or disruption."
+  ]
+ },
+ {
+  "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+  "image": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83_rgb.jpg",
+  "action_options": [
+   "Present your business proposal to the client and colleagues.",
+   "Engage in friendly conversation with each person at market stall.",
+   "None of these actions is appropriate",
+   "Ask the factory workers about the egg production process.",
+   "Assess each candidate's baking skills and experience level."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Thorough assessment is a crucial step in selecting qualified personnel for a job, aligning with fair and effective hiring practices.",
+   "Gathering firsthand information directly from those involved is a standard practice for understanding a process.",
+   "Friendly engagement fosters positive relationships and contributes to a pleasant and productive market environment.",
+   "Presenting a proposal is a conventional and expected way to formally communicate business ideas and seek approval."
+  ]
+ },
+ {
+  "id": "dd0aa717-59d8-4d8a-9f11-21be827fb184_1260-03",
+  "image": "dd0aa717-59d8-4d8a-9f11-21be827fb184_1260-03_rgb.jpg",
+  "action_options": [
+   "Smile and look at the camera.",
+   "Pose naturally for the wedding photo.",
+   "Strike a pose for the professional photo.",
+   "None of these actions is appropriate",
+   "Move away from the restricted area."
+  ],
+  "justification_options": [
+   "Moving from a restricted area shows respect for rules and boundaries, ensuring safety and order.",
+   "Smiling and looking at the camera is a common and polite response during photography, showing engagement and cooperation.",
+   "Striking a pose is expected and often requested in professional photography settings, resulting in a high-quality, polished image.",
+   "None of these justifications is appropriate",
+   "Posing naturally conveys comfort and ease, making for a more authentic and memorable photograph."
+  ]
+ },
+ {
+  "id": "dd508a2a-1ea7-43d2-805a-8080eeae9985_1035-99",
+  "image": "dd508a2a-1ea7-43d2-805a-8080eeae9985_1035-99_rgb.jpg",
+  "action_options": [
+   "Recite the prayer aloud with the group.",
+   "Follow the director's instructions and embody your assigned role.",
+   "Maintain silence and focus on your breath.",
+   "None of these actions is appropriate",
+   "Share your thoughts and feelings openly with the group."
+  ],
+  "justification_options": [
+   "This action demonstrates respect for authority and collaborative contribution, adhering to norms of group cohesion and task completion.",
+   "This action fosters a sense of community and shared experience, aligning with the norms of collective participation.",
+   "None of these justifications is appropriate",
+   "This action prioritizes individual introspection and respect for others' space, reflecting norms of mindful engagement.",
+   "This action promotes vulnerability and emotional connection, in line with norms of open communication and support."
+  ]
+ },
+ {
+  "id": "dd508a2a-1ea7-43d2-805a-8080eeae9985_36-14",
+  "image": "dd508a2a-1ea7-43d2-805a-8080eeae9985_36-14_rgb.jpg",
+  "action_options": [
+   "Place the banana in a designated bowl of shared fruit.",
+   "Peel the banana and use it as a comedic prop.",
+   "None of these actions is appropriate",
+   "Place the banana on the altar as an offering.",
+   "Inspect the banana for bruises and place it in the enclosure."
+  ],
+  "justification_options": [
+   "This action demonstrates respect for a higher power and adherence to established ritual practices.",
+   "This action prioritizes the well-being and safety of the subject, aligning with caretaking norms.",
+   "This action promotes sharing and communal harmony, reflecting social norms of cooperation and generosity.",
+   "This action prioritizes entertainment and amusement, adhering to norms of lightheartedness and social engagement.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+  "image": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Help customers read the menu by offering suggestions and clarifying items.",
+   "Raise your hand and call to order another full round for the table.",
+   "Record your friends while they are filming their content.",
+   "Place the phone in front, play the video for the person and ask them their opinion."
+  ],
+  "justification_options": [
+   "As a waiter, offering assistance to customers aligns with the norm of providing good service.",
+   "Generosity and assertiveness are highly valued in wide social contexts.",
+   "Recording others while they create content is typical, as participants often expect to be filmed.",
+   "None of these justifications is appropriate",
+   "It's not a violation of your privacy to share domain-relevant content."
+  ]
+ },
+ {
+  "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+  "image": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Hold onto garments as they sway in the wind and ask for help from the other person to secure them.",
+   "Arrange the clothing neatly on racks and coordinate with the other person about placement.",
+   "Inspect the texture of the material and sketch possible design ideas together.",
+   "Take photos of specific items and discuss them with the other person."
+  ],
+  "justification_options": [
+   "Shared design exploration fosters creativity.",
+   "None of these justifications is appropriate",
+   "Collaboration enhances the photo-taking experience.",
+   "Teamwork ensures garment safety and security.",
+   "Efficient organization streamlines the workflow."
+  ]
+ },
+ {
+  "id": "e21a6f09-3df0-4bfb-a23b-47a1866aadf1_511-16",
+  "image": "e21a6f09-3df0-4bfb-a23b-47a1866aadf1_511-16_rgb.jpg",
+  "action_options": [
+   "Demonstrate proper throwing technique with underhand motion.",
+   "None of these actions is appropriate",
+   "Throw the ball to a person, aiming for their glove.",
+   "Lightly toss the ball to a child, ensuring a safe landing.",
+   "Roll the ball gently to a person on the ground."
+  ],
+  "justification_options": [
+   "This action prioritizes both accuracy and safety, demonstrating consideration for the recipient's skill and expectations.",
+   "None of these justifications is appropriate",
+   "This action prioritizes teaching and demonstrating correct technique, making it suitable for instructional settings.",
+   "This action minimizes risk of injury and shows respect for the person's current situation.",
+   "This action shows care and consideration for the child's safety and ability."
+  ]
+ },
+ {
+  "id": "e6f1accd-e18d-43ec-b854-e7633b15cbf7_1189-37",
+  "image": "e6f1accd-e18d-43ec-b854-e7633b15cbf7_1189-37_rgb.jpg",
+  "action_options": [
+   "Wash the bowl with soapy water and rinse it thoroughly.",
+   "Shape the clay into a smooth ball and place it onto the wheel.",
+   "Transfer prepared ingredients to the boiling pot to cook.",
+   "Transfer the prepared dough to a tray and cover it with a cloth to let it rest.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Resting dough improves texture and consistency of baked goods.",
+   "Shaping clay correctly is crucial for pottery wheel work.",
+   "Adding the ingredients to the pot allows them to cook properly.",
+   "None of these justifications is appropriate",
+   "Cleaning is essential for hygiene and maintaining equipment."
+  ]
+ },
+ {
+  "id": "e70f4b34-432f-47dc-834f-5bc6bd67dc62_166-47",
+  "image": "e70f4b34-432f-47dc-834f-5bc6bd67dc62_166-47_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Apply the material delicately onto the surface to highlight intricate design details.",
+   "Patch the material over the damaged section, smoothing it to match the surrounding surface.",
+   "Remove loose material from the wall before securing it with reinforcements.",
+   "Spread the mixture evenly along the mortar joints while engaging in conversation."
+  ],
+  "justification_options": [
+   "Delicate application preserves the design's integrity and enhances its beauty.",
+   "Removing loose material prepares the surface for secure reinforcement.",
+   "Patching damaged sections maintains structural integrity and aesthetics.",
+   "Even application ensures a professional finish and avoids unevenness.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "e9343bd2-cd48-4abe-902a-3d3f6a0b51d8_1810-91",
+  "image": "e9343bd2-cd48-4abe-902a-3d3f6a0b51d8_1810-91_rgb.jpg",
+  "action_options": [
+   "Carefully lift the toddler from the highchair and place them on the floor.",
+   "Gently remove the child actor and set them on a designated spot, after ensuring safety.",
+   "None of these actions is appropriate",
+   "Assist the person to stand from their chair using a transfer belt.",
+   "Securely buckle the child into a wheelchair before moving them from the highchair."
+  ],
+  "justification_options": [
+   "This action prioritizes the safety and security of the child, preventing falls and injuries during transportation.",
+   "This action prioritizes the child's safety and well-being by ensuring a controlled and gentle transfer.",
+   "None of these justifications is appropriate",
+   "This action prioritizes the child's safety and comfort by ensuring a controlled and gentle transition, while also being mindful of their potential needs.",
+   "This action prioritizes the safety and dignity of the individual being assisted, utilizing appropriate assistive devices."
+  ]
+ },
+ {
+  "id": "e9957d35-9c4d-44cc-b3b6-267dfa13841a_896-74",
+  "image": "e9957d35-9c4d-44cc-b3b6-267dfa13841a_896-74_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Place your order with the person.",
+   "Present your application to the person.",
+   "Deposit the collected trash into the bin.",
+   "Purchase a beach pass from the person."
+  ],
+  "justification_options": [
+   "This action fulfills a contractual obligation and supports local businesses.",
+   "None of these justifications is appropriate",
+   "This action completes a transaction and respects the agreed-upon process.",
+   "This action maintains cleanliness and demonstrates civic responsibility.",
+   "This action follows established procedure and demonstrates commitment."
+  ]
+ },
+ {
+  "id": "e9e0f26d-3005-436a-a70f-7d99977808c8_1690-81",
+  "image": "e9e0f26d-3005-436a-a70f-7d99977808c8_1690-81_rgb.jpg",
+  "action_options": [
+   "Gently toss the toy to the child.",
+   "Repeatedly throw the medicine ball against a wall.",
+   "None of these actions is appropriate",
+   "Throw the baseball to the person.",
+   "Throw the frisbee to the person, keeping it away from the dog."
+  ],
+  "justification_options": [
+   "Gently tossing a toy to a child demonstrates care and consideration for their safety and well-being.",
+   "None of these justifications is appropriate",
+   "Repeatedly throwing a heavy object against a wall could be considered reckless and potentially damaging to property or dangerous to others.",
+   "Throwing a baseball is a common and generally accepted way to engage in a game or friendly interaction.",
+   "Throwing a frisbee requires skill and coordination, and keeping it away from the dog shows consideration for the animal's safety and prevents potential harm."
+  ]
+ },
+ {
+  "id": "eaa560d5-6432-4030-a03a-b6ba512e621d_61-64",
+  "image": "eaa560d5-6432-4030-a03a-b6ba512e621d_61-64_rgb.jpg",
+  "action_options": [
+   "Assist woman K with her daily medications and vital signs.",
+   "Offer woman K a cup of tea and some freshly baked cookies.",
+   "None of these actions is appropriate",
+   "Split the cost of groceries and discuss upcoming household bills.",
+   "Clean the kitchen counters and wipe down all surfaces."
+  ],
+  "justification_options": [
+   "Cleaning the kitchen is a common household chore reflecting cleanliness, hygiene, and shared responsibility in a shared living space.",
+   "Assisting with medications and vital signs demonstrates care and responsibility, particularly if one has a duty of care or is providing support to someone vulnerable.",
+   "Splitting costs and discussing bills is a practical and responsible way to manage shared finances and household responsibilities in a shared living situation.",
+   "Offering tea and cookies is a common social courtesy, showing hospitality and kindness towards a guest or someone in need of comfort.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1223-78",
+  "image": "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1223-78_rgb.jpg",
+  "action_options": [
+   "Help the child choose nail polish colors.",
+   "None of these actions is appropriate",
+   "Assist the person in applying nail polish.",
+   "Show students how to file their nails correctly.",
+   "Apply a clear top coat to the client's nails."
+  ],
+  "justification_options": [
+   "Assisting someone with nail polish application is a helpful and considerate act, showing support and promoting inclusivity.",
+   "None of these justifications is appropriate",
+   "Demonstrating proper nail filing techniques ensures safety and promotes healthy nail care practices, a key aspect of responsible instruction.",
+   "Applying a top coat protects the manicure and enhances its longevity, a common courtesy in professional nail services.",
+   "Helping a child choose nail polish colors fosters creativity and self-expression, while also providing guidance within appropriate boundaries."
+  ]
+ },
+ {
+  "id": "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1624-37",
+  "image": "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1624-37_rgb.jpg",
+  "action_options": [
+   "Apply a top coat of clear polish to the client's nails.",
+   "Demonstrate the proper technique to the apprentice.",
+   "Explain to the other students the specific steps in the process.",
+   "None of these actions is appropriate",
+   "Point out areas for improvement in the home's cleanliness to Woman D."
+  ],
+  "justification_options": [
+   "Effective teaching involves clear explanations and detailed instructions to ensure student understanding.",
+   "Maintaining professional standards and client satisfaction requires a polished final product.",
+   "None of these justifications is appropriate",
+   "Providing constructive feedback is crucial for maintaining a clean and comfortable environment.",
+   "Training and mentoring are essential for skill development and knowledge transfer within a professional setting."
+  ]
+ },
+ {
+  "id": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40",
+  "image": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_1465-40_rgb.jpg",
+  "action_options": [
+   "Offer to join the next badminton game.",
+   "Ask about their favorite aspect of the board game.",
+   "Ask about the progress of their project and if you can assist.",
+   "None of these actions is appropriate",
+   "Compliment their juggling skills and ask a question about technique."
+  ],
+  "justification_options": [
+   "A compliment followed by a question is a polite and engaging way to show appreciation and learn more.",
+   "Offering to join a game is a common way to express interest and build camaraderie.",
+   "Showing interest in someone's hobbies demonstrates respect and encourages conversation.",
+   "Offering assistance on a project is a helpful and supportive action that strengthens professional relationships.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_148-23",
+  "image": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_148-23_rgb.jpg",
+  "action_options": [
+   "Offer refreshments to person X, Y and Z.",
+   "Return the shuttlecock to person Z across the net.",
+   "Coordinate with person X, Y and Z on the team-building exercise.",
+   "Strategize with person X about the next point against person Z and Y.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Returning a shuttlecock is a common courtesy in badminton, ensuring fair play and a positive game experience.",
+   "Offering refreshments is a common social courtesy, promoting a friendly and welcoming atmosphere.",
+   "Strategic planning is a typical behavior in competitive games, aiming for improved performance and teamwork.",
+   "Coordination is essential for successful team-building activities, ensuring everyone participates and contributes effectively.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "ec85a806-d47f-4555-8c4c-20f59927e580_1424-09",
+  "image": "ec85a806-d47f-4555-8c4c-20f59927e580_1424-09_rgb.jpg",
+  "action_options": [
+   "Gently gather the bird eggs; document each location and nest type.",
+   "None of these actions is appropriate",
+   "Race to find the most valuable egg species among all teams.",
+   "Crack three large free-range brown speckled farm fresh organic and separate yolks from whites.",
+   "Carefully collect the eggs into baskets, checking for cracks."
+  ],
+  "justification_options": [
+   "This action is inappropriate and violates norms of fair play and ethical competition; prioritizing winning over respect for wildlife is unacceptable.",
+   "This action is focused on a specific culinary task, aligning with the norms of food preparation and culinary practice.",
+   "This emphasizes meticulous documentation and responsible collection, aligning with scientific ethics and environmental stewardship.",
+   "None of these justifications is appropriate",
+   "This prioritizes careful handling and preservation of the eggs, reflecting respect for the natural environment and potential life within."
+  ]
+ },
+ {
+  "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+  "image": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Remove the defective item and set it aside for further inspection.",
+   "Lift the box carefully and position it securely on the rack.",
+   "Place the next carton onto the cart in coordination with the other workers.",
+   "Hand the package to the person checking the list for verification."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Careful handling prevents damage to goods and workplace safety.",
+   "Teamwork and efficiency are paramount in warehouse operations.",
+   "Verification ensures accuracy and prevents errors in the process.",
+   "Identifying and removing defects maintains product quality."
+  ]
+ },
+ {
+  "id": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18",
+  "image": "edaf03e3-3021-4140-8434-dc9e744ae492_178-18_rgb.jpg",
+  "action_options": [
+   "Pick out a few pieces of charcoal and hand them to your fellow artist.",
+   "Sketch the ceiling's pattern onto a notebook, focusing on its design features.",
+   "None of these actions is appropriate",
+   "Note the condition of a visible crack in the ceiling and document it in a report.",
+   "Grab a few screws and take them back to the workbench."
+  ],
+  "justification_options": [
+   "Do not monopolize shared resources.",
+   "Sketching aids in design planning and communication.",
+   "Documenting damage is standard procedure for reporting.",
+   "None of these justifications is appropriate",
+   "Sharing materials is a common practice among artists."
+  ]
+ },
+ {
+  "id": "ee1eea29-aaad-41a4-b299-c72ed26c9da5_801-68",
+  "image": "ee1eea29-aaad-41a4-b299-c72ed26c9da5_801-68_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Dismount the bicycle and walk it carefully through the crowded area to avoid collisions.",
+   "Maintain a steady pace while keeping a safe distance from the person ahead.",
+   "Check the locks on several bicycles to ensure they are secure.",
+   "Stop at regular intervals to inspect the surface of the path for cracks or debris."
+  ],
+  "justification_options": [
+   "Checking locks is a responsible and preventative measure against theft.",
+   "Safety and preventing collisions necessitates dismounting in crowded areas.",
+   "None of these justifications is appropriate",
+   "Maintaining a safe distance and steady pace is crucial for courteous cycling.",
+   "Regular inspection ensures a safe ride and prevents accidents."
+  ]
+ },
+ {
+  "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+  "image": "f576f1bf-5433-488b-8833-8320f087e72b_48-29_rgb.jpg",
+  "action_options": [
+   "Trim branches of the plant evenly to encourage healthy growth.",
+   "Place saplings into carefully prepared soil to ensure they take root.",
+   "Snip stems at an angle to prepare them for assembling into an arrangement.",
+   "Cut specific parts of the plant and store them to preserve for later studies.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "Trimming encourages plant health, a socially valued outcome.",
+   "Preserving plant parts for study is a key scientific practice.",
+   "Planting saplings correctly ensures their survival and growth.",
+   "Angled snips are standard for professional arrangements.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "f58900c3-5747-447c-9fa2-04c608e7f40a_18-07",
+  "image": "f58900c3-5747-447c-9fa2-04c608e7f40a_18-07_rgb.jpg",
+  "action_options": [
+   "Check the schedule on the phone and confirm the next task with a coworker.",
+   "None of these actions is appropriate",
+   "Inspect the work being done and make notes about compliance with regulations.",
+   "Scan the items into the inventory system and verify the count with the other workers.",
+   "Provide step-by-step verbal guidance to the trainees while monitoring their progress."
+  ],
+  "justification_options": [
+   "Accurate inventory is crucial for operational efficiency and accountability.",
+   "Regulatory compliance is a key aspect of responsible work practices.",
+   "Training and guidance are vital for skill development and safety.",
+   "Teamwork and communication are essential for efficient task completion.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "f668b2c9-d376-411b-96e5-7d7379fae824_107-18",
+  "image": "f668b2c9-d376-411b-96e5-7d7379fae824_107-18_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Distract the toddler with another toy while quickly picking up the dropped item.",
+   "Carefully retrieve the artifact using gloves and appropriate tools. ",
+   "Instruct the student to retrieve the pen from the floor, and resume the lesson.",
+   "Ask the person to pick up the item from the floor."
+  ],
+  "justification_options": [
+   "This action directly addresses the issue while maintaining respectful communication.",
+   "None of these justifications is appropriate",
+   "This action prioritizes the preservation and careful handling of the item.",
+   "This action prioritizes the safety and well-being of the child while resolving the situation efficiently.",
+   "This action prioritizes resuming the educational activity while addressing the immediate problem."
+  ]
+ },
+ {
+  "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+  "image": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64_rgb.jpg",
+  "action_options": [
+   "None of these actions is appropriate",
+   "Adjust your grip on the table and coordinate movement through the doorway.",
+   "Lift the timber together and carry it to the designated location.",
+   "Lift the wood by themselves steadily.",
+   "Place the boxes down carefully in the dry section of the storage area."
+  ],
+  "justification_options": [
+   "Synchronized movement prevents damage and injury.",
+   "Protecting goods from damage is standard warehouse practice.",
+   "This ensures the wood is moved to its proper place in a steady and efficient manner.",
+   "None of these justifications is appropriate",
+   "Teamwork ensures efficient and safe timber handling."
+  ]
+ },
+ {
+  "id": "facdbd7a-da79-48bd-9bb0-c866f675699b_1484-63",
+  "image": "facdbd7a-da79-48bd-9bb0-c866f675699b_1484-63_rgb.jpg",
+  "action_options": [
+   "Request the cashier for permission to use the restroom before proceeding.",
+   "None of these actions is appropriate",
+   "Help another employee count the cash register after closing.",
+   "Check the prices of items on your phone while waiting in line.",
+   "Engage the cashier in a conversation to divert attention."
+  ],
+  "justification_options": [
+   "As an undercover shoplifter, creating distraction would be a typical tactic in such a situation.",
+   "Cashiers should efficiently assist customers to maintain a smooth flow of service.",
+   "Employees should collaborate to ensure accurate financial handling during their duties.",
+   "As a customer, it's normative to use your phone to compare product prices or check details.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "fb92d350-9bf9-4b16-8a1f-7858de276226_2438-10",
+  "image": "fb92d350-9bf9-4b16-8a1f-7858de276226_2438-10_rgb.jpg",
+  "action_options": [
+   "Use the towel to dry the foot and prepare it for the next step of the service.",
+   "Gently clean the foot with the cloth to remove dirt and protect the wound.",
+   "None of these actions is appropriate",
+   "Wipe away sand from the foot with the fabric to prepare it for footwear.",
+   "Hold the foot steady as it is wiped, ensuring it is clean for the equipment."
+  ],
+  "justification_options": [
+   "Protecting wounds is a key aspect of proper care.",
+   "Cleanliness is essential before putting on footwear.",
+   "Maintaining stability ensures a thorough cleaning.",
+   "Proper hygiene is crucial for foot care.",
+   "None of these justifications is appropriate"
+  ]
+ },
+ {
+  "id": "fb92d350-9bf9-4b16-8a1f-7858de276226_32-25",
+  "image": "fb92d350-9bf9-4b16-8a1f-7858de276226_32-25_rgb.jpg",
+  "action_options": [
+   "Apply a coat of nail polish to the client's toenails.",
+   "Assess the patient's foot for any signs of injury or infection.",
+   "Photograph and document the details of the footprint for analysis.",
+   "Refine the clay model's arch using sculpting tools.",
+   "None of these actions is appropriate"
+  ],
+  "justification_options": [
+   "This is a common practice in artistic sculpting, aimed at achieving the desired aesthetic and refining the piece.",
+   "This is a standard procedure in providing a professional nail care service, ensuring client satisfaction and hygiene.",
+   "This is a crucial step in providing responsible and ethical medical care, prioritizing patient well-being and safety.",
+   "None of these justifications is appropriate",
+   "This is a standard practice in forensic science and other fields requiring detailed record-keeping, supporting accurate analysis and future reference."
+  ]
+ },
+ {
+  "id": "fb92d350-9bf9-4b16-8a1f-7858de276226_603-23",
+  "image": "fb92d350-9bf9-4b16-8a1f-7858de276226_603-23_rgb.jpg",
+  "action_options": [
+   "Wash the person's hands thoroughly with soap and water.",
+   "None of these actions is appropriate",
+   "Gently hold the person's hand steady while removing distractions.",
+   "Position your hand so the other person can access it easily and trim your nails.",
+   "Trim the person's fingernails evenly using appropriate tools."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Offering nail trimming demonstrates helpfulness.",
+   "Handwashing prevents the spread of germs.",
+   "Maintaining hygiene is a basic social norm.",
+   "Gentle handling shows respect and care."
+  ]
+ },
+ {
+  "id": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13",
+  "image": "fcc14fe4-35e1-4854-b368-4541ae7bcf58_1063-13_rgb.jpg",
+  "action_options": [
+   "Order food from person X, stating your preference.",
+   "None of these actions is appropriate",
+   "Accept the offered assistance from person X.",
+   "Ask Person X which type of seashell is their favorite",
+   "Ask person X clarifying questions about the lesson."
+  ],
+  "justification_options": [
+   "None of these justifications is appropriate",
+   "Ordering food and stating preferences is standard practice to ensure satisfaction and avoid misunderstandings.",
+   "Clarifying questions demonstrate engagement and ensure understanding, promoting effective learning.",
+   "Asking demonstrates an engagement that will show interest in Person X and their preferences.",
+   "Accepting assistance is generally polite and helpful unless there's a reason not to."
+  ]
+ },
+ {
+  "id": "fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_3041-68",
+  "image": "fd2ae8b4-b683-4c4b-935c-78b4dadbdbf8_3041-68_rgb.jpg",
+  "action_options": [
+   "Assist the student with the assignment, appropriately.",
+   "Continue the pedicure, maintaining professional demeanor.",
+   "None of these actions is appropriate",
+   "Offer the woman another drink, discreetly.",
+   "Maintain surveillance of the pool, ensuring safety."
+  ],
+  "justification_options": [
+   "Providing appropriate assistance fosters a positive learning environment and supports educational goals.",
+   "None of these justifications is appropriate",
+   "Offering a beverage enhances customer experience and demonstrates attentiveness.",
+   "Maintaining professionalism and client focus is crucial in a service-oriented role.",
+   "Ensuring safety is a priority and a responsibility in situations involving potential risks."
+  ]
+ }
+]

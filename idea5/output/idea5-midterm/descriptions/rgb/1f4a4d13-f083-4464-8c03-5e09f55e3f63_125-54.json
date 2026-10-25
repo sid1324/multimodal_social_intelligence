@@ -1,0 +1,18 @@
+{
+ "id": "1f4a4d13-f083-4464-8c03-5e09f55e3f63_125-54",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a bedroom containing a low floor mattress on the left-center (extending from about 0.5 m to 3.0 m in front of the camera wearer), a toy-filled playpen immediately to the right of the mattress (about 1.5 m to 2.5 m away), and a white plastic drawer unit against the back wall (about 3.0 m to 3.5 m away). On the left side of the mattress lies a bunched light-blue comforter with a dark rectangular tablet (about 1.0 m to 1.4 m away) and a yellow-and-red toy (about 1.3 m to 1.7 m away) resting on top of it, situated to the viewer's left of a young child. In frame 1, the camera wearer is slightly further back with a higher, wider view that shows an open doorway in the far right background (about 4 m to 5 m away) and only the top of the child's head at the bottom center-left. From frame 2 to frame 5, the camera wearer moves closer to the mattress edge and angles the viewpoint downward as the child climbs onto the near front edge of the bed (about 0.6 m to 0.9 m directly in front of and below the camera wearer), turning their body and head to face toward the camera wearer while propping their hands on the mattress. In the later frames, the child and the near edge of the mattress and blanket are within arm's reach of the camera wearer, while the blue comforter, tablet, and yellow-and-red toy are within arm's reach to the child's right. As the viewpoint shifts closer and slightly leftward across the five frames, the playpen and far-right room area are progressively cropped out at the right border, while a second person's limbs on the floor to the left of the mattress (about 0.8 m to 1.2 m away) and the child's lower legs remain partially cut off by the bottom-left and bottom frame edges."
+ },
+ "duration_seconds": 21.657515,
+ "usage": {
+  "input_tokens": 19624,
+  "output_tokens": 1219,
+  "thinking_tokens": 706,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20843
+ },
+ "conversation_id": "78642c43-e259-4517-9a26-0ee712ee176c"
+}

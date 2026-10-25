@@ -1,0 +1,1 @@
+{"id": "e70f4b34-432f-47dc-834f-5bc6bd67dc62_166-47", "cond": "maps", "model": "gemini", "action_position": 1, "justification_position": 5, "raw": "{\"action\": 1, \"justification\": 5}\n", "meta": {"status": "SUCCESS", "denied": null}, "seconds": 13.2, "attempts": 1}

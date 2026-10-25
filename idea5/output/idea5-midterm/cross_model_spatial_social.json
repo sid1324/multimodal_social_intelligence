@@ -1,0 +1,2580 @@
+{
+  "description": "Published spatial-benchmark scores vs EgoNormia (Video setting, Both = action+justification correct). No model was evaluated for this file. Compiled 2026-10-25.",
+  "egonormia_source": "EgoNormia, arXiv 2502.20490v5, Table 1 (Video Models rows) and Appendix F Table 5; https://arxiv.org/html/2502.20490v5",
+  "excluded_models": {
+    "InternVL 2.5": "size not stated anywhere in the paper (1B-78B exist); spatial scores differ by size",
+    "Llama 3.2": "size not stated (11B or 90B Vision); paper calls it an outlier (<10% on every task)",
+    "QwQ-32B": "text-only reasoning LLM; no published image/video spatial-benchmark scores",
+    "Gemini 2.0 Thinking": "exact variant unspecified; no spatial score in the sources used except 3DSRBench paper (n<5 there)"
+  },
+  "benchmark_sources": {
+    "OC BLINK (circular)": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "BLINK_circular Overall (%)"
+    },
+    "OC 3DSRBench (circular+flip)": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "3DSRBench_circular Overall (%)"
+    },
+    "OC LEGO-Puzzles (circular)": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "LEGO_circular Overall (%)"
+    },
+    "OC MMSI-Bench (circular)": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "MMSIBench_circular Overall (%)"
+    },
+    "OC Spatial457": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "Spatial457 Overall (%)"
+    },
+    "OC BLINK (vanilla)": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "BLINK Overall (%)"
+    },
+    "OC 3DSRBench (vanilla)": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "3DSRBench Overall (%)"
+    },
+    "OC LEGO-Puzzles (vanilla)": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "LEGO Overall (%)"
+    },
+    "OC MMSI-Bench (vanilla)": {
+      "source": "OpenCompass Spatial Leaderboard: http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "MMSIBench Overall (%)"
+    },
+    "OC BLINK-spatial subset (derived)": {
+      "source": "Derived: mean of BLINK Multi-view_Reasoning, Relative_Depth, Spatial_Relation (vanilla) from http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "mean of 3 subtask accuracies (%)"
+    },
+    "OC spatial composite (derived)": {
+      "source": "Derived: mean of the 4 circular MCQ columns above, http://opencompass.openxlab.space/assets/SpatialLB.json (data behind https://huggingface.co/spaces/opencompass/openlmm_spatial_leaderboard), snapshot time 20250815133921",
+      "metric": "mean (%)"
+    },
+    "OmniSpatial-test": {
+      "source": "OmniSpatial, arXiv 2506.03135v3, Table 2 (Evaluation on OmniSpatial-test, Avg.); https://arxiv.org/html/2506.03135v3",
+      "metric": "Avg. accuracy (%), mean of 5 runs"
+    },
+    "MMSI-Bench (paper)": {
+      "source": "MMSI-Bench, arXiv 2505.23764v3, Table 3 (Avg.); Claude-3.5-Sonnet from Table 11 (MMSI-Bench column); https://arxiv.org/html/2505.23764v3",
+      "metric": "Avg. accuracy (%)"
+    },
+    "VSI-Bench": {
+      "source": "VSI-Bench: arXiv 2412.14171v2 Figure 6 (main results table) for GPT-4o/Gemini-1.5; Cambrian-S arXiv 2511.04670v1 (same group) Table 5 for Gemini-2.5 Pro and Table 1 for Gemini-2.5-Flash",
+      "metric": "Avg. (%)"
+    },
+    "VSI-Bench + Qwen2.5-VL-72B (third-party)": {
+      "source": "VSI-Bench: arXiv 2412.14171v2 Figure 6 (main results table) for GPT-4o/Gemini-1.5; Cambrian-S arXiv 2511.04670v1 (same group) Table 5 for Gemini-2.5 Pro and Table 1 for Gemini-2.5-Flash; Qwen2.5-VL-72B from Spatial-MLLM arXiv 2505.23747v2 Table 1 (16 frames, micro avg)",
+      "metric": "Avg. (%)"
+    },
+    "BLINK (OpenVLM board, original snapshots)": {
+      "source": "OpenCompass OpenVLM leaderboard: http://opencompass.openxlab.space/assets/OpenVLM.json (data behind the OpenCompass OpenVLM leaderboard), snapshot time 20250917132916",
+      "metric": "BLINK Overall (%)"
+    }
+  },
+  "control_sources": {
+    "MMMU (val)": {
+      "source": "OpenCompass OpenVLM leaderboard: http://opencompass.openxlab.space/assets/OpenVLM.json (data behind the OpenCompass OpenVLM leaderboard), snapshot time 20250917132916",
+      "metric": "MMMU_VAL Overall"
+    },
+    "MMBench-EN v1.1 (test)": {
+      "source": "OpenCompass OpenVLM leaderboard: http://opencompass.openxlab.space/assets/OpenVLM.json (data behind the OpenCompass OpenVLM leaderboard), snapshot time 20250917132916",
+      "metric": "MMBench_TEST_EN_V11 Overall"
+    }
+  },
+  "benchmarks_checked_but_under_5_overlapping_models": {
+    "SITE (arXiv 2505.05456v2 Table 4)": "GPT-4o 37.8, Gemini-1.5-Pro 32.5 only (InternVL-2.5 sizes ambiguous)",
+    "SPAR-Bench (arXiv 2503.22976v7 Table 4)": "full set: GPT-4o 38.11, GPT-4.1 41.60, Qwen2.5-VL-72B 37.01; Claude-3.7 only on tiny set (21.77)",
+    "3DSRBench paper (arXiv 2412.07825v4 Table 2)": "GPT-4o 44.2, Claude-3.5V-Sonnet 48.2, Gemini-2.0-Flash 49.8 (n=3); OpenCompass board used instead",
+    "SAT (arXiv 2412.07755v3 Table 3)": "Gemini-1.5 Flash/Pro only among EgoNormia models (GPT-4V not GPT-4o)",
+    "CV-Bench (Cambrian-1 / SAT Table 4)": "Gemini-1.5 Flash/Pro only among EgoNormia models",
+    "BLINK original paper (arXiv 2404.12390v4 Table 1)": "GPT-4o only; OpenCompass boards used instead",
+    "EASI holistic eval (arXiv 2508.13142v5 Table 3)": "Gemini-2.5-pro-2025-06 and Qwen2.5-VL-72B only",
+    "MindCube / ViewSpatial / SpatialScore": "<5 overlapping models"
+  },
+  "partial_correlation_note": "Control = OpenCompass OpenVLM MMMU_VAL (primary) and MMBench_TEST_EN_V11 (secondary), same VLMEvalKit evaluator and same model snapshots as the spatial board. Gemini 2.5 Flash and o4-mini have no OpenVLM entry, so they drop out of partial correlations. Partial r is the correlation of OLS residuals after regressing both variables on the control; p from t with df=n-3. Partial Spearman = same on ranks.",
+  "table": [
+    {
+      "model": "Gemini 2.5 Pro",
+      "egonormia_full_both": 53.9,
+      "egonormia_verified_both": 64.7,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 61.4,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 51.1,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 49.3,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 18.3,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 71.8,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 64.3,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 67.6,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 37.6,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 74.8,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OC spatial composite (derived)": {
+        "value": 45.03,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "OmniSpatial-test": {
+        "value": 55.19,
+        "source_model": "Gemini-2.5-pro-preview-05-06"
+      },
+      "MMSI-Bench (paper)": {
+        "value": 36.9,
+        "source_model": "Gemini-2.5-Pro (Table 3)"
+      },
+      "VSI-Bench": {
+        "value": 51.5,
+        "source_model": "Gemini-2.5 Pro (Cambrian-S Table 5/6)"
+      },
+      "VSI-Bench + Qwen2.5-VL-72B (third-party)": {
+        "value": 51.5,
+        "source_model": "Gemini-2.5 Pro (Cambrian-S Table 5/6)"
+      },
+      "control: MMMU (val)": {
+        "value": 74.7,
+        "source_model": "Gemini-2.5-Pro"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 88.5,
+        "source_model": "Gemini-2.5-Pro"
+      }
+    },
+    {
+      "model": "Gemini 2.5 Flash",
+      "egonormia_full_both": 50.3,
+      "egonormia_verified_both": 54.0,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 55.0,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 45.6,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 36.8,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 10.2,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC Spatial457": {
+        "value": 52.9,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 66.6,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 61.5,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 57.3,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 33.1,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 72.2,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OC spatial composite (derived)": {
+        "value": 36.9,
+        "source_model": "Gemini-2.5-Flash"
+      },
+      "OmniSpatial-test": {
+        "value": 52.12,
+        "source_model": "Gemini-2.5-flash-preview-05-20 (non-thinking row)"
+      },
+      "VSI-Bench": {
+        "value": 45.7,
+        "source_model": "Gemini-2.5-Flash (Cambrian-S Table 1)"
+      },
+      "VSI-Bench + Qwen2.5-VL-72B (third-party)": {
+        "value": 45.7,
+        "source_model": "Gemini-2.5-Flash (Cambrian-S Table 1)"
+      }
+    },
+    {
+      "model": "o4-mini",
+      "egonormia_full_both": 50.0,
+      "egonormia_verified_both": 58.3,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OmniSpatial-test": {
+        "value": 52.77,
+        "source_model": "o4-mini-2025-04-16"
+      }
+    },
+    {
+      "model": "GPT-4.1",
+      "egonormia_full_both": 49.8,
+      "egonormia_verified_both": 46.4,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 57.5,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 47.2,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 43.8,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 13.6,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC Spatial457": {
+        "value": 57.2,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 68.0,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 59.2,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 59.3,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 32.5,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 72.1,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OC spatial composite (derived)": {
+        "value": 40.52,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "OmniSpatial-test": {
+        "value": 51.78,
+        "source_model": "GPT-4.1-2025-04-14"
+      },
+      "MMSI-Bench (paper)": {
+        "value": 30.9,
+        "source_model": "GPT-4.1 (Table 3)"
+      },
+      "BLINK (OpenVLM board, original snapshots)": {
+        "value": 68.5,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "control: MMMU (val)": {
+        "value": 74.0,
+        "source_model": "GPT-4.1-20250414"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 86.9,
+        "source_model": "GPT-4.1-20250414"
+      }
+    },
+    {
+      "model": "Gemini 1.5 Pro",
+      "egonormia_full_both": 45.3,
+      "egonormia_verified_both": 49.0,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 48.7,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 40.9,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 31.1,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 12.3,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC Spatial457": {
+        "value": 53.1,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 63.8,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 55.6,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 52.1,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 29.2,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 71.4,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "OC spatial composite (derived)": {
+        "value": 33.25,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "VSI-Bench": {
+        "value": 45.4,
+        "source_model": "Gemini-1.5 Pro (VSI-Bench Fig. 6)"
+      },
+      "VSI-Bench + Qwen2.5-VL-72B (third-party)": {
+        "value": 45.4,
+        "source_model": "Gemini-1.5 Pro (VSI-Bench Fig. 6)"
+      },
+      "BLINK (OpenVLM board, original snapshots)": {
+        "value": 59.1,
+        "source_model": "Gemini-1.5-Pro"
+      },
+      "control: MMMU (val)": {
+        "value": 68.6,
+        "source_model": "Gemini-1.5-Pro-002"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 84.4,
+        "source_model": "Gemini-1.5-Pro-002"
+      }
+    },
+    {
+      "model": "Gemini 2.0 Thinking",
+      "egonormia_full_both": 42.7,
+      "egonormia_verified_both": 50.0,
+      "egonormia_table": "Table 5",
+      "excluded_from_correlations": "exact variant unspecified; no spatial score in the sources used except 3DSRBench paper (n<5 there)"
+    },
+    {
+      "model": "Gemini 1.5 Flash",
+      "egonormia_full_both": 41.7,
+      "egonormia_verified_both": 48.0,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 42.3,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 35.6,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 22.8,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 8.3,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC Spatial457": {
+        "value": 50.9,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 59.2,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 53.0,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 43.7,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 31.2,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 69.27,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "OC spatial composite (derived)": {
+        "value": 27.25,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "VSI-Bench": {
+        "value": 42.1,
+        "source_model": "Gemini-1.5 Flash (VSI-Bench Fig. 6)"
+      },
+      "VSI-Bench + Qwen2.5-VL-72B (third-party)": {
+        "value": 42.1,
+        "source_model": "Gemini-1.5 Flash (VSI-Bench Fig. 6)"
+      },
+      "BLINK (OpenVLM board, original snapshots)": {
+        "value": 57.7,
+        "source_model": "Gemini-1.5-Flash"
+      },
+      "control: MMMU (val)": {
+        "value": 60.7,
+        "source_model": "Gemini-1.5-Flash-002"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 81.6,
+        "source_model": "Gemini-1.5-Flash-002"
+      }
+    },
+    {
+      "model": "Qwen2.5-VL-72B",
+      "egonormia_full_both": 41.5,
+      "egonormia_verified_both": 47.0,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 53.4,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 48.3,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 38.4,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 17.2,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC Spatial457": {
+        "value": 53.8,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 61.7,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 57.5,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 52.4,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 31.5,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 71.93,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OC spatial composite (derived)": {
+        "value": 39.32,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "OmniSpatial-test": {
+        "value": 47.85,
+        "source_model": "Qwen-VL2.5-72B"
+      },
+      "MMSI-Bench (paper)": {
+        "value": 30.7,
+        "source_model": "Qwen2.5-VL-72B (Table 3)"
+      },
+      "VSI-Bench + Qwen2.5-VL-72B (third-party)": {
+        "value": 37.0,
+        "source_model": "Qwen2.5-VL-72B (Spatial-MLLM Table 1)"
+      },
+      "BLINK (OpenVLM board, original snapshots)": {
+        "value": 63.2,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "control: MMMU (val)": {
+        "value": 68.2,
+        "source_model": "Qwen2.5-VL-72B"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 88.3,
+        "source_model": "Qwen2.5-VL-72B"
+      }
+    },
+    {
+      "model": "GPT-4o",
+      "egonormia_full_both": 39.8,
+      "egonormia_verified_both": 45.5,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 56.4,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 46.9,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 40.3,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 14.5,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC Spatial457": {
+        "value": 53.0,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 67.4,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 60.3,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 56.5,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 32.1,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 73.37,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OC spatial composite (derived)": {
+        "value": 39.52,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "OmniSpatial-test": {
+        "value": 47.81,
+        "source_model": "GPT-4o-2024-11-20"
+      },
+      "MMSI-Bench (paper)": {
+        "value": 30.3,
+        "source_model": "GPT-4o (Table 3)"
+      },
+      "VSI-Bench": {
+        "value": 34.0,
+        "source_model": "GPT-4o (VSI-Bench Fig. 6)"
+      },
+      "VSI-Bench + Qwen2.5-VL-72B (third-party)": {
+        "value": 34.0,
+        "source_model": "GPT-4o (VSI-Bench Fig. 6)"
+      },
+      "BLINK (OpenVLM board, original snapshots)": {
+        "value": 68.0,
+        "source_model": "GPT-4o (0513, detail-high)"
+      },
+      "control: MMMU (val)": {
+        "value": 70.7,
+        "source_model": "GPT-4o (1120, detail-high)"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 84.8,
+        "source_model": "GPT-4o (1120, detail-high)"
+      }
+    },
+    {
+      "model": "Gemini 2.0 Flash",
+      "egonormia_full_both": 38.9,
+      "egonormia_verified_both": 47.5,
+      "egonormia_table": "Table 5",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 53.8,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 37.6,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 35.3,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 12.5,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC Spatial457": {
+        "value": 53.2,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 63.9,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 56.8,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 53.9,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 31.2,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 66.67,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OC spatial composite (derived)": {
+        "value": 34.8,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "OmniSpatial-test": {
+        "value": 48.4,
+        "source_model": "Gemini-2.0-flash-exp"
+      },
+      "control: MMMU (val)": {
+        "value": 69.9,
+        "source_model": "Gemini-2.0-Flash"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 70.4,
+        "source_model": "Gemini-2.0-Flash"
+      }
+    },
+    {
+      "model": "QwQ-32B",
+      "egonormia_full_both": 37.8,
+      "egonormia_verified_both": 37.5,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": "text-only reasoning LLM; no published image/video spatial-benchmark scores"
+    },
+    {
+      "model": "Claude 3.7 Sonnet",
+      "egonormia_full_both": 35.2,
+      "egonormia_verified_both": 33.3,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 41.9,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 39.8,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 35.4,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 13.0,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC Spatial457": {
+        "value": 49.3,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 57.1,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 55.2,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 55.2,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 28.8,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 67.43,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OC spatial composite (derived)": {
+        "value": 32.52,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "OmniSpatial-test": {
+        "value": 47.53,
+        "source_model": "Claude-3-7-sonnet-20250219 (non-thinking row)"
+      },
+      "MMSI-Bench (paper)": {
+        "value": 30.2,
+        "source_model": "Claude-3.7-Sonnet (Table 3; GitHub README lists it as --Thinking)"
+      },
+      "BLINK (OpenVLM board, original snapshots)": {
+        "value": 56.6,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "control: MMMU (val)": {
+        "value": 71.0,
+        "source_model": "Claude3.7-Sonnet"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 79.8,
+        "source_model": "Claude3.7-Sonnet"
+      }
+    },
+    {
+      "model": "Claude 3.5 Sonnet",
+      "egonormia_full_both": 25.5,
+      "egonormia_verified_both": 22.7,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": null,
+      "OC BLINK (circular)": {
+        "value": 42.1,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC 3DSRBench (circular+flip)": {
+        "value": 41.2,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC LEGO-Puzzles (circular)": {
+        "value": 36.0,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC MMSI-Bench (circular)": {
+        "value": 14.4,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC Spatial457": {
+        "value": 49.1,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC BLINK (vanilla)": {
+        "value": 55.2,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC 3DSRBench (vanilla)": {
+        "value": 54.9,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC LEGO-Puzzles (vanilla)": {
+        "value": 54.5,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC MMSI-Bench (vanilla)": {
+        "value": 31.3,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC BLINK-spatial subset (derived)": {
+        "value": 64.53,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OC spatial composite (derived)": {
+        "value": 33.43,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "OmniSpatial-test": {
+        "value": 46.86,
+        "source_model": "Claude-3-5-sonnet-20241022"
+      },
+      "MMSI-Bench (paper)": {
+        "value": 31.3,
+        "source_model": "Claude-3.5-Sonnet (Table 11)"
+      },
+      "BLINK (OpenVLM board, original snapshots)": {
+        "value": 28.2,
+        "source_model": "Claude3.5-Sonnet"
+      },
+      "control: MMMU (val)": {
+        "value": 66.4,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      },
+      "control: MMBench-EN v1.1 (test)": {
+        "value": 80.9,
+        "source_model": "Claude3.5-Sonnet-20241022"
+      }
+    },
+    {
+      "model": "InternVL 2.5",
+      "egonormia_full_both": 15.1,
+      "egonormia_verified_both": 13.0,
+      "egonormia_table": "Table 1",
+      "excluded_from_correlations": "size not stated anywhere in the paper (1B-78B exist); spatial scores differ by size"
+    },
+    {
+      "model": "Llama 3.2",
+      "egonormia_full_both": 2.2,
+      "egonormia_verified_both": 4.0,
+      "egonormia_table": "Table 5",
+      "excluded_from_correlations": "size not stated (11B or 90B Vision); paper calls it an outlier (<10% on every task)"
+    }
+  ],
+  "correlations": {
+    "OC BLINK (circular)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.738,
+        "pearson_p": 0.0147,
+        "spearman_rho": 0.697,
+        "spearman_p": 0.0251,
+        "pearson_perm_p": 0.0127,
+        "spearman_perm_p": 0.0309,
+        "spearman_leave_one_out_range": [
+          0.583,
+          0.817
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.663,
+          "spearman_rho": 0.6,
+          "spearman_p": 0.0876
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.744,
+        "pearson_p": 0.0137,
+        "spearman_rho": 0.467,
+        "spearman_p": 0.1739,
+        "pearson_perm_p": 0.0088,
+        "spearman_perm_p": 0.1783,
+        "spearman_leave_one_out_range": [
+          0.267,
+          0.6
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.675,
+          "spearman_rho": 0.283,
+          "spearman_p": 0.46
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.731,
+        "zero_order_spearman_same_models": 0.683,
+        "spatial_vs_control_pearson": 0.728,
+        "partial_pearson_r": 0.632,
+        "partial_pearson_p": 0.093,
+        "partial_spearman_rho": 0.605,
+        "partial_spearman_p": 0.1119
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.731,
+        "zero_order_spearman_same_models": 0.683,
+        "spatial_vs_control_pearson": 0.379,
+        "partial_pearson_r": 0.675,
+        "partial_pearson_p": 0.066,
+        "partial_spearman_rho": 0.372,
+        "partial_spearman_p": 0.3644
+      }
+    },
+    "OC 3DSRBench (circular+flip)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.534,
+        "pearson_p": 0.1121,
+        "spearman_rho": 0.479,
+        "spearman_p": 0.1615,
+        "pearson_perm_p": 0.1115,
+        "spearman_perm_p": 0.1671,
+        "spearman_leave_one_out_range": [
+          0.283,
+          0.633
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.61,
+          "spearman_rho": 0.517,
+          "spearman_p": 0.1544
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.45,
+        "pearson_p": 0.192,
+        "spearman_rho": 0.139,
+        "spearman_p": 0.7009,
+        "pearson_perm_p": 0.198,
+        "spearman_perm_p": 0.7087,
+        "spearman_leave_one_out_range": [
+          -0.183,
+          0.283
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.497,
+          "spearman_rho": 0.133,
+          "spearman_p": 0.7324
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.519,
+        "zero_order_spearman_same_models": 0.45,
+        "spatial_vs_control_pearson": 0.696,
+        "partial_pearson_r": 0.29,
+        "partial_pearson_p": 0.4853,
+        "partial_spearman_rho": 0.315,
+        "partial_spearman_p": 0.4473
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.519,
+        "zero_order_spearman_same_models": 0.45,
+        "spatial_vs_control_pearson": 0.772,
+        "partial_pearson_r": 0.231,
+        "partial_pearson_p": 0.5822,
+        "partial_spearman_rho": -0.606,
+        "partial_spearman_p": 0.1112
+      }
+    },
+    "OC LEGO-Puzzles (circular)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.393,
+        "pearson_p": 0.2616,
+        "spearman_rho": 0.394,
+        "spearman_p": 0.26,
+        "pearson_perm_p": 0.2545,
+        "spearman_perm_p": 0.2631,
+        "spearman_leave_one_out_range": [
+          0.167,
+          0.533
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.512,
+          "spearman_rho": 0.4,
+          "spearman_p": 0.2861
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.315,
+        "pearson_p": 0.3757,
+        "spearman_rho": 0.006,
+        "spearman_p": 0.9867,
+        "pearson_perm_p": 0.3648,
+        "spearman_perm_p": 1.0,
+        "spearman_leave_one_out_range": [
+          -0.367,
+          0.15
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.409,
+          "spearman_rho": -0.05,
+          "spearman_p": 0.8984
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.421,
+        "zero_order_spearman_same_models": 0.333,
+        "spatial_vs_control_pearson": 0.899,
+        "partial_pearson_r": -0.037,
+        "partial_pearson_p": 0.9305,
+        "partial_spearman_rho": 0.081,
+        "partial_spearman_p": 0.8479
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.421,
+        "zero_order_spearman_same_models": 0.333,
+        "spatial_vs_control_pearson": 0.435,
+        "partial_pearson_r": 0.257,
+        "partial_pearson_p": 0.5392,
+        "partial_spearman_rho": -0.406,
+        "partial_spearman_p": 0.3186
+      }
+    },
+    "OC MMSI-Bench (circular)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.072,
+        "pearson_p": 0.8437,
+        "spearman_rho": -0.042,
+        "spearman_p": 0.9074,
+        "pearson_perm_p": 0.843,
+        "spearman_perm_p": 0.9179,
+        "spearman_leave_one_out_range": [
+          -0.433,
+          0.117
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.219,
+          "spearman_rho": 0.05,
+          "spearman_p": 0.8984
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.121,
+        "pearson_p": 0.7385,
+        "spearman_rho": -0.236,
+        "spearman_p": 0.5109,
+        "pearson_perm_p": 0.7519,
+        "spearman_perm_p": 0.5139,
+        "spearman_leave_one_out_range": [
+          -0.7,
+          -0.1
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.298,
+          "spearman_rho": -0.2,
+          "spearman_p": 0.6059
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.235,
+        "zero_order_spearman_same_models": 0.117,
+        "spatial_vs_control_pearson": 0.668,
+        "partial_pearson_r": -0.135,
+        "partial_pearson_p": 0.7494,
+        "partial_spearman_rho": -0.069,
+        "partial_spearman_p": 0.8718
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.235,
+        "zero_order_spearman_same_models": 0.117,
+        "spatial_vs_control_pearson": 0.508,
+        "partial_pearson_r": -0.032,
+        "partial_pearson_p": 0.9405,
+        "partial_spearman_rho": -0.778,
+        "partial_spearman_p": 0.0231
+      }
+    },
+    "OC Spatial457": {
+      "vs_full_both": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.77,
+        "pearson_p": 0.0153,
+        "spearman_rho": 0.483,
+        "spearman_p": 0.1875,
+        "pearson_perm_p": 0.0179,
+        "spearman_perm_p": 0.1948,
+        "spearman_leave_one_out_range": [
+          0.262,
+          0.69
+        ],
+        "without_claude35": {
+          "n": 8,
+          "pearson_r": 0.68,
+          "spearman_rho": 0.262,
+          "spearman_p": 0.5309
+        }
+      },
+      "vs_verified_both": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.658,
+        "pearson_p": 0.054,
+        "spearman_rho": 0.3,
+        "spearman_p": 0.4328,
+        "pearson_perm_p": 0.0644,
+        "spearman_perm_p": 0.4376,
+        "spearman_leave_one_out_range": [
+          0.0,
+          0.452
+        ],
+        "without_claude35": {
+          "n": 8,
+          "pearson_r": 0.483,
+          "spearman_rho": 0.0,
+          "spearman_p": 1.0
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 8,
+        "models": [
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 5,
+        "zero_order_pearson_same_models": 0.839,
+        "zero_order_spearman_same_models": 0.69,
+        "spatial_vs_control_pearson": 0.538,
+        "partial_pearson_r": 0.846,
+        "partial_pearson_p": 0.0164,
+        "partial_spearman_rho": 0.695,
+        "partial_spearman_p": 0.083
+      },
+      "partial_controlling_MMBench": {
+        "n": 8,
+        "models": [
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 5,
+        "zero_order_pearson_same_models": 0.839,
+        "zero_order_spearman_same_models": 0.69,
+        "spatial_vs_control_pearson": 0.361,
+        "partial_pearson_r": 0.813,
+        "partial_pearson_p": 0.0262,
+        "partial_spearman_rho": 0.514,
+        "partial_spearman_p": 0.2379
+      }
+    },
+    "OC BLINK (vanilla)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.858,
+        "pearson_p": 0.0015,
+        "spearman_rho": 0.733,
+        "spearman_p": 0.0158,
+        "pearson_perm_p": 0.0015,
+        "spearman_perm_p": 0.0205,
+        "spearman_leave_one_out_range": [
+          0.633,
+          0.867
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.791,
+          "spearman_rho": 0.633,
+          "spearman_p": 0.0671
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.844,
+        "pearson_p": 0.0021,
+        "spearman_rho": 0.515,
+        "spearman_p": 0.1276,
+        "pearson_perm_p": 0.0015,
+        "spearman_perm_p": 0.1341,
+        "spearman_leave_one_out_range": [
+          0.333,
+          0.667
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.77,
+          "spearman_rho": 0.333,
+          "spearman_p": 0.3807
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.856,
+        "zero_order_spearman_same_models": 0.733,
+        "spatial_vs_control_pearson": 0.681,
+        "partial_pearson_r": 0.821,
+        "partial_pearson_p": 0.0125,
+        "partial_spearman_rho": 0.699,
+        "partial_spearman_p": 0.0538
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.856,
+        "zero_order_spearman_same_models": 0.733,
+        "spatial_vs_control_pearson": 0.407,
+        "partial_pearson_r": 0.825,
+        "partial_pearson_p": 0.0118,
+        "partial_spearman_rho": 0.535,
+        "partial_spearman_p": 0.1714
+      }
+    },
+    "OC 3DSRBench (vanilla)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.683,
+        "pearson_p": 0.0294,
+        "spearman_rho": 0.648,
+        "spearman_p": 0.0425,
+        "pearson_perm_p": 0.0288,
+        "spearman_perm_p": 0.0492,
+        "spearman_leave_one_out_range": [
+          0.517,
+          0.833
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.703,
+          "spearman_rho": 0.6,
+          "spearman_p": 0.0876
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.665,
+        "pearson_p": 0.0358,
+        "spearman_rho": 0.455,
+        "spearman_p": 0.1869,
+        "pearson_perm_p": 0.0354,
+        "spearman_perm_p": 0.1912,
+        "spearman_leave_one_out_range": [
+          0.25,
+          0.667
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.683,
+          "spearman_rho": 0.35,
+          "spearman_p": 0.3558
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.637,
+        "zero_order_spearman_same_models": 0.517,
+        "spatial_vs_control_pearson": 0.803,
+        "partial_pearson_r": 0.477,
+        "partial_pearson_p": 0.2319,
+        "partial_spearman_rho": 0.357,
+        "partial_spearman_p": 0.3847
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.637,
+        "zero_order_spearman_same_models": 0.517,
+        "spatial_vs_control_pearson": 0.482,
+        "partial_pearson_r": 0.52,
+        "partial_pearson_p": 0.187,
+        "partial_spearman_rho": -0.018,
+        "partial_spearman_p": 0.9669
+      }
+    },
+    "OC LEGO-Puzzles (vanilla)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.454,
+        "pearson_p": 0.1872,
+        "spearman_rho": 0.406,
+        "spearman_p": 0.2443,
+        "pearson_perm_p": 0.174,
+        "spearman_perm_p": 0.2467,
+        "spearman_leave_one_out_range": [
+          0.183,
+          0.533
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.601,
+          "spearman_rho": 0.467,
+          "spearman_p": 0.2054
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.375,
+        "pearson_p": 0.2854,
+        "spearman_rho": 0.067,
+        "spearman_p": 0.8548,
+        "pearson_perm_p": 0.2806,
+        "spearman_perm_p": 0.8659,
+        "spearman_leave_one_out_range": [
+          -0.283,
+          0.183
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.498,
+          "spearman_rho": 0.083,
+          "spearman_p": 0.8312
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.443,
+        "zero_order_spearman_same_models": 0.2,
+        "spatial_vs_control_pearson": 0.907,
+        "partial_pearson_r": 0.012,
+        "partial_pearson_p": 0.9766,
+        "partial_spearman_rho": -0.321,
+        "partial_spearman_p": 0.4385
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.443,
+        "zero_order_spearman_same_models": 0.2,
+        "spatial_vs_control_pearson": 0.352,
+        "partial_pearson_r": 0.328,
+        "partial_pearson_p": 0.4282,
+        "partial_spearman_rho": -0.143,
+        "partial_spearman_p": 0.7351
+      }
+    },
+    "OC MMSI-Bench (vanilla)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.593,
+        "pearson_p": 0.0708,
+        "spearman_rho": 0.644,
+        "spearman_p": 0.0443,
+        "pearson_perm_p": 0.0802,
+        "spearman_perm_p": 0.0503,
+        "spearman_leave_one_out_range": [
+          0.51,
+          0.778
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.763,
+          "spearman_rho": 0.745,
+          "spearman_p": 0.0213
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.649,
+        "pearson_p": 0.0424,
+        "spearman_rho": 0.365,
+        "spearman_p": 0.3001,
+        "pearson_perm_p": 0.0609,
+        "spearman_perm_p": 0.299,
+        "spearman_leave_one_out_range": [
+          0.126,
+          0.494
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.859,
+          "spearman_rho": 0.444,
+          "spearman_p": 0.2318
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.575,
+        "zero_order_spearman_same_models": 0.51,
+        "spatial_vs_control_pearson": 0.453,
+        "partial_pearson_r": 0.455,
+        "partial_pearson_p": 0.2567,
+        "partial_spearman_rho": 0.408,
+        "partial_spearman_p": 0.3161
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.575,
+        "zero_order_spearman_same_models": 0.51,
+        "spatial_vs_control_pearson": 0.43,
+        "partial_pearson_r": 0.458,
+        "partial_pearson_p": 0.2538,
+        "partial_spearman_rho": -0.176,
+        "partial_spearman_p": 0.6762
+      }
+    },
+    "OC BLINK-spatial subset (derived)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.845,
+        "pearson_p": 0.0021,
+        "spearman_rho": 0.77,
+        "spearman_p": 0.0092,
+        "pearson_perm_p": 0.002,
+        "spearman_perm_p": 0.0128,
+        "spearman_leave_one_out_range": [
+          0.683,
+          0.933
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.729,
+          "spearman_rho": 0.683,
+          "spearman_p": 0.0424
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.809,
+        "pearson_p": 0.0046,
+        "spearman_rho": 0.503,
+        "spearman_p": 0.1383,
+        "pearson_perm_p": 0.0032,
+        "spearman_perm_p": 0.1459,
+        "spearman_leave_one_out_range": [
+          0.317,
+          0.683
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.66,
+          "spearman_rho": 0.317,
+          "spearman_p": 0.4064
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.845,
+        "zero_order_spearman_same_models": 0.767,
+        "spatial_vs_control_pearson": 0.466,
+        "partial_pearson_r": 0.8,
+        "partial_pearson_p": 0.0171,
+        "partial_spearman_rho": 0.716,
+        "partial_spearman_p": 0.0456
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.845,
+        "zero_order_spearman_same_models": 0.767,
+        "spatial_vs_control_pearson": 0.756,
+        "partial_pearson_r": 0.817,
+        "partial_pearson_p": 0.0134,
+        "partial_spearman_rho": 0.336,
+        "partial_spearman_p": 0.4159
+      }
+    },
+    "OC spatial composite (derived)": {
+      "vs_full_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.542,
+        "pearson_p": 0.1059,
+        "spearman_rho": 0.491,
+        "spearman_p": 0.1497,
+        "pearson_perm_p": 0.1057,
+        "spearman_perm_p": 0.156,
+        "spearman_leave_one_out_range": [
+          0.3,
+          0.65
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.582,
+          "spearman_rho": 0.5,
+          "spearman_p": 0.1705
+        }
+      },
+      "vs_verified_both": {
+        "n": 10,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.502,
+        "pearson_p": 0.139,
+        "spearman_rho": 0.188,
+        "spearman_p": 0.6032,
+        "pearson_perm_p": 0.1339,
+        "spearman_perm_p": 0.6071,
+        "spearman_leave_one_out_range": [
+          -0.117,
+          0.367
+        ],
+        "without_claude35": {
+          "n": 9,
+          "pearson_r": 0.532,
+          "spearman_rho": 0.117,
+          "spearman_p": 0.765
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.561,
+        "zero_order_spearman_same_models": 0.467,
+        "spatial_vs_control_pearson": 0.831,
+        "partial_pearson_r": 0.327,
+        "partial_pearson_p": 0.4293,
+        "partial_spearman_rho": 0.293,
+        "partial_spearman_p": 0.4816
+      },
+      "partial_controlling_MMBench": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 6,
+        "zero_order_pearson_same_models": 0.561,
+        "zero_order_spearman_same_models": 0.467,
+        "spatial_vs_control_pearson": 0.545,
+        "partial_pearson_r": 0.393,
+        "partial_pearson_p": 0.3355,
+        "partial_spearman_rho": -0.123,
+        "partial_spearman_p": 0.7708
+      }
+    },
+    "OmniSpatial-test": {
+      "vs_full_both": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "o4-mini",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 2.0 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.902,
+        "pearson_p": 0.0009,
+        "spearman_rho": 0.933,
+        "spearman_p": 0.0002,
+        "pearson_perm_p": 0.0014,
+        "spearman_perm_p": 0.0007,
+        "spearman_leave_one_out_range": [
+          0.905,
+          0.976
+        ],
+        "without_claude35": {
+          "n": 8,
+          "pearson_r": 0.957,
+          "spearman_rho": 0.905,
+          "spearman_p": 0.002
+        }
+      },
+      "vs_verified_both": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "o4-mini",
+          "Gemini 2.5 Flash",
+          "GPT-4.1",
+          "Gemini 2.0 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.836,
+        "pearson_p": 0.005,
+        "spearman_rho": 0.95,
+        "spearman_p": 0.0001,
+        "pearson_perm_p": 0.0024,
+        "spearman_perm_p": 0.0004,
+        "spearman_leave_one_out_range": [
+          0.929,
+          1.0
+        ],
+        "without_claude35": {
+          "n": 8,
+          "pearson_r": 0.855,
+          "spearman_rho": 0.929,
+          "spearman_p": 0.0009
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 7,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 2.0 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 4,
+        "zero_order_pearson_same_models": 0.878,
+        "zero_order_spearman_same_models": 0.893,
+        "spatial_vs_control_pearson": 0.858,
+        "partial_pearson_r": 0.501,
+        "partial_pearson_p": 0.3118,
+        "partial_spearman_rho": 0.801,
+        "partial_spearman_p": 0.0552
+      },
+      "partial_controlling_MMBench": {
+        "n": 7,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 2.0 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 4,
+        "zero_order_pearson_same_models": 0.878,
+        "zero_order_spearman_same_models": 0.893,
+        "spatial_vs_control_pearson": 0.459,
+        "partial_pearson_r": 0.842,
+        "partial_pearson_p": 0.0353,
+        "partial_spearman_rho": 0.94,
+        "partial_spearman_p": 0.0052
+      }
+    },
+    "MMSI-Bench (paper)": {
+      "vs_full_both": {
+        "n": 6,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.581,
+        "pearson_p": 0.2265,
+        "spearman_rho": 0.429,
+        "spearman_p": 0.3965,
+        "pearson_perm_p": 0.2714,
+        "spearman_perm_p": 0.4176,
+        "spearman_leave_one_out_range": [
+          0.0,
+          1.0
+        ],
+        "without_claude35": {
+          "n": 5,
+          "pearson_r": 0.782,
+          "spearman_rho": 1.0,
+          "spearman_p": 0.0
+        }
+      },
+      "vs_verified_both": {
+        "n": 6,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.685,
+        "pearson_p": 0.1328,
+        "spearman_rho": 0.371,
+        "spearman_p": 0.4685,
+        "pearson_perm_p": 0.2114,
+        "spearman_perm_p": 0.4958,
+        "spearman_leave_one_out_range": [
+          -0.1,
+          0.9
+        ],
+        "without_claude35": {
+          "n": 5,
+          "pearson_r": 0.895,
+          "spearman_rho": 0.9,
+          "spearman_p": 0.0374
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 6,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 3,
+        "zero_order_pearson_same_models": 0.581,
+        "zero_order_spearman_same_models": 0.429,
+        "spatial_vs_control_pearson": 0.531,
+        "partial_pearson_r": 0.283,
+        "partial_pearson_p": 0.6446,
+        "partial_spearman_rho": 0.44,
+        "partial_spearman_p": 0.4585
+      },
+      "partial_controlling_MMBench": {
+        "n": 6,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 3,
+        "zero_order_pearson_same_models": 0.581,
+        "zero_order_spearman_same_models": 0.429,
+        "spatial_vs_control_pearson": 0.479,
+        "partial_pearson_r": 0.375,
+        "partial_pearson_p": 0.5339,
+        "partial_spearman_rho": -0.277,
+        "partial_spearman_p": 0.6519
+      }
+    },
+    "VSI-Bench": {
+      "vs_full_both": {
+        "n": 5,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "GPT-4o"
+        ],
+        "pearson_r": 0.903,
+        "pearson_p": 0.0359,
+        "spearman_rho": 1.0,
+        "spearman_p": 0.0,
+        "pearson_perm_p": 0.0251,
+        "spearman_perm_p": 0.0172,
+        "spearman_leave_one_out_range": [
+          1.0,
+          1.0
+        ]
+      },
+      "vs_verified_both": {
+        "n": 5,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "GPT-4o"
+        ],
+        "pearson_r": 0.857,
+        "pearson_p": 0.0638,
+        "spearman_rho": 1.0,
+        "spearman_p": 0.0,
+        "pearson_perm_p": 0.0911,
+        "spearman_perm_p": 0.0172,
+        "spearman_leave_one_out_range": [
+          1.0,
+          1.0
+        ]
+      },
+      "partial_controlling_MMMU": {
+        "n": 4,
+        "note": "fewer than 5 models with control score"
+      },
+      "partial_controlling_MMBench": {
+        "n": 4,
+        "note": "fewer than 5 models with control score"
+      }
+    },
+    "VSI-Bench + Qwen2.5-VL-72B (third-party)": {
+      "vs_full_both": {
+        "n": 6,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "GPT-4o",
+          "Qwen2.5-VL-72B"
+        ],
+        "pearson_r": 0.913,
+        "pearson_p": 0.0111,
+        "spearman_rho": 1.0,
+        "spearman_p": 0.0,
+        "pearson_perm_p": 0.0054,
+        "spearman_perm_p": 0.0027,
+        "spearman_leave_one_out_range": [
+          1.0,
+          1.0
+        ]
+      },
+      "vs_verified_both": {
+        "n": 6,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 2.5 Flash",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "GPT-4o",
+          "Qwen2.5-VL-72B"
+        ],
+        "pearson_r": 0.866,
+        "pearson_p": 0.0256,
+        "spearman_rho": 1.0,
+        "spearman_p": 0.0,
+        "pearson_perm_p": 0.0067,
+        "spearman_perm_p": 0.0027,
+        "spearman_leave_one_out_range": [
+          1.0,
+          1.0
+        ]
+      },
+      "partial_controlling_MMMU": {
+        "n": 5,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "GPT-4o",
+          "Qwen2.5-VL-72B"
+        ],
+        "df": 2,
+        "zero_order_pearson_same_models": 0.924,
+        "zero_order_spearman_same_models": 1.0,
+        "spatial_vs_control_pearson": 0.3,
+        "partial_pearson_r": 0.982,
+        "partial_pearson_p": 0.0183,
+        "partial_spearman_rho": 1.0,
+        "partial_spearman_p": 0.0
+      },
+      "partial_controlling_MMBench": {
+        "n": 5,
+        "models": [
+          "Gemini 2.5 Pro",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "GPT-4o",
+          "Qwen2.5-VL-72B"
+        ],
+        "df": 2,
+        "zero_order_pearson_same_models": 0.924,
+        "zero_order_spearman_same_models": 1.0,
+        "spatial_vs_control_pearson": 0.199,
+        "partial_pearson_r": 0.973,
+        "partial_pearson_p": 0.0268,
+        "partial_spearman_rho": 1.0,
+        "partial_spearman_p": 0.0
+      }
+    },
+    "BLINK (OpenVLM board, original snapshots)": {
+      "vs_full_both": {
+        "n": 7,
+        "models": [
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.864,
+        "pearson_p": 0.0121,
+        "spearman_rho": 0.679,
+        "spearman_p": 0.0938,
+        "pearson_perm_p": 0.0242,
+        "spearman_perm_p": 0.1094,
+        "spearman_leave_one_out_range": [
+          0.486,
+          0.829
+        ],
+        "without_claude35": {
+          "n": 6,
+          "pearson_r": 0.504,
+          "spearman_rho": 0.486,
+          "spearman_p": 0.3287
+        }
+      },
+      "vs_verified_both": {
+        "n": 7,
+        "models": [
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.858,
+        "pearson_p": 0.0134,
+        "spearman_rho": 0.357,
+        "spearman_p": 0.4316,
+        "pearson_perm_p": 0.0458,
+        "spearman_perm_p": 0.4442,
+        "spearman_leave_one_out_range": [
+          -0.029,
+          0.543
+        ],
+        "without_claude35": {
+          "n": 6,
+          "pearson_r": 0.353,
+          "spearman_rho": -0.029,
+          "spearman_p": 0.9572
+        }
+      },
+      "partial_controlling_MMMU": {
+        "n": 7,
+        "models": [
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 4,
+        "zero_order_pearson_same_models": 0.864,
+        "zero_order_spearman_same_models": 0.679,
+        "spatial_vs_control_pearson": 0.403,
+        "partial_pearson_r": 0.852,
+        "partial_pearson_p": 0.0313,
+        "partial_spearman_rho": 0.666,
+        "partial_spearman_p": 0.1486
+      },
+      "partial_controlling_MMBench": {
+        "n": 7,
+        "models": [
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "df": 4,
+        "zero_order_pearson_same_models": 0.864,
+        "zero_order_spearman_same_models": 0.679,
+        "spatial_vs_control_pearson": 0.611,
+        "partial_pearson_r": 0.775,
+        "partial_pearson_p": 0.07,
+        "partial_spearman_rho": 0.447,
+        "partial_spearman_p": 0.3746
+      }
+    }
+  },
+  "control_vs_egonormia": {
+    "MMMU (val)": {
+      "vs_full_both": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.484,
+        "pearson_p": 0.1873,
+        "spearman_rho": 0.4,
+        "spearman_p": 0.2861,
+        "pearson_perm_p": 0.1805,
+        "spearman_perm_p": 0.2912,
+        "spearman_leave_one_out_range": [
+          0.143,
+          0.571
+        ],
+        "without_claude35": {
+          "n": 8,
+          "pearson_r": 0.438,
+          "spearman_rho": 0.262,
+          "spearman_p": 0.5309
+        }
+      },
+      "vs_verified_both": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.335,
+        "pearson_p": 0.3785,
+        "spearman_rho": 0.1,
+        "spearman_p": 0.798,
+        "pearson_perm_p": 0.3645,
+        "spearman_perm_p": 0.8101,
+        "spearman_leave_one_out_range": [
+          -0.286,
+          0.31
+        ],
+        "without_claude35": {
+          "n": 8,
+          "pearson_r": 0.216,
+          "spearman_rho": -0.143,
+          "spearman_p": 0.7358
+        }
+      }
+    },
+    "MMBench-EN v1.1 (test)": {
+      "vs_full_both": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.509,
+        "pearson_p": 0.1618,
+        "spearman_rho": 0.75,
+        "spearman_p": 0.0199,
+        "pearson_perm_p": 0.168,
+        "spearman_perm_p": 0.0257,
+        "spearman_leave_one_out_range": [
+          0.643,
+          0.833
+        ],
+        "without_claude35": {
+          "n": 8,
+          "pearson_r": 0.604,
+          "spearman_rho": 0.714,
+          "spearman_p": 0.0465
+        }
+      },
+      "vs_verified_both": {
+        "n": 9,
+        "models": [
+          "Gemini 2.5 Pro",
+          "GPT-4.1",
+          "Gemini 1.5 Pro",
+          "Gemini 1.5 Flash",
+          "Qwen2.5-VL-72B",
+          "GPT-4o",
+          "Gemini 2.0 Flash",
+          "Claude 3.7 Sonnet",
+          "Claude 3.5 Sonnet"
+        ],
+        "pearson_r": 0.346,
+        "pearson_p": 0.3621,
+        "spearman_rho": 0.383,
+        "spearman_p": 0.3085,
+        "pearson_perm_p": 0.3343,
+        "spearman_perm_p": 0.3131,
+        "spearman_leave_one_out_range": [
+          0.119,
+          0.619
+        ],
+        "without_claude35": {
+          "n": 8,
+          "pearson_r": 0.368,
+          "spearman_rho": 0.262,
+          "spearman_p": 0.5309
+        }
+      }
+    }
+  }
+}

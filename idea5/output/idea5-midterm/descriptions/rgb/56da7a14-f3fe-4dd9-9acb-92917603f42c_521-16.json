@@ -1,0 +1,18 @@
+{
+ "id": "56da7a14-f3fe-4dd9-9acb-92917603f42c_521-16",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room with a window along the back-left wall, a white open shelving unit and a broom with a dustpan against the back-right wall about 2 to 2.5 metres from the camera wearer, and a dark stool near the left wall about 1.5 to 2 metres away. Directly in front of the camera wearer at roughly 0.4 to 0.7 metres is a white coat hanging on a dark chair back (frames 1 to 4), while banknotes held in the camera wearer's hands are partially visible at the bottom foreground within 0.3 metres. Standing just behind and to the left of the white coat at roughly 0.8 to 1.2 metres from the camera wearer is a person in a dark blue shirt and blue jeans, positioned about 1 to 1.5 metres in front of the window and shelving unit. Both the white coat and the banknotes are within arm's reach of the camera wearer and the other person, whose hands reach the top of the coat and hanger in frames 2 and 4. In frames 1 through 4, the white coat heavily occludes the lower torso and right side of the person behind it, while the person's upper torso and head are cropped out of the top of the frame. By frame 5, the camera tilts upward as the person steps slightly right and closer (to about 0.7 to 1 metre away) to face the camera wearer directly with their torso and both hands in clear view, while their head above the chin remains cropped out at the top edge and the white coat drops below the bottom edge."
+ },
+ "duration_seconds": 28.065471,
+ "usage": {
+  "input_tokens": 5380,
+  "output_tokens": 659,
+  "thinking_tokens": 242,
+  "cache_read_tokens": 28414,
+  "total_tokens": 6039
+ },
+ "conversation_id": "e250e12b-58d9-45a6-9be6-f431ff0e8193"
+}

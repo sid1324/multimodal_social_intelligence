@@ -1,0 +1,12 @@
+{
+ "id": "14a3d52a-e66c-4a4c-8f71-d86f7199993c_10-64",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show a compact living room as the camera turns steadily to the right, shifting the view from a green chaise and window-side table toward a sofa, television/fireplace area, radiator, and a second table. No people are visible; the chaise holds patterned and dark cushions, with an orange cushion partly occluded among them. The chaise is roughly 1\u20132 m in front of the wearer, while the sofa, tan chair, television, and fireplace are about 2\u20133 m away and separated from one another by roughly 0.5\u20131.5 m. The windows and radiator remain along the far wall, above and behind the low tables; the tan chair sits in front of that wall, and the television is left of the sofa before sliding out of view during the rightward turn. In the final frames, the radiator is directly ahead at about 1\u20132 m, while a low table with cups, paper rolls, and an open illustrated book or laptop enters at the lower right within roughly 0.5\u20131 m and may be within arm's reach. Objects at the left progressively leave the frame, while the right-hand table and its contents become larger and less occluded as the camera turns toward them."
+ },
+ "duration_seconds": 13.2,
+ "usage": null,
+ "conversation_id": null
+}

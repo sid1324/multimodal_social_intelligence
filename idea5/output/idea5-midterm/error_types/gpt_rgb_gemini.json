@@ -1,0 +1,254 @@
+{
+ "02ca6897-bf08-4cfb-bbc7-7810dbf5cca2_2974-75": {
+  "cause": "perception",
+  "reason": "The model misread the ongoing activity as making a professional delivery rather than casual recreational cycling, even though both options essentially describe politely wrapping up a brief interaction and continuing down the road."
+ },
+ "069c1058-881d-49da-b45d-b9f7e08fe932_475-96": {
+  "cause": "ambiguous",
+  "reason": "The chosen action and justification are virtually synonymous with the correct answer, both describing handing over the next piece of wood to efficiently assist the person's task."
+ },
+ "072623e8-1889-4580-8175-ddc05a3dceb3_89-78": {
+  "cause": "ambiguous",
+  "reason": "The frames only show the camera wearer turning toward the supplies on the ground while a coworker gestures toward them, making handing over a tool just as plausible as rinsing sponges in a container."
+ },
+ "083b7556-9dff-40e2-9fad-bef3f82dbf37_635-98": {
+  "cause": "perception",
+  "reason": "The model misread a group of companions eating snacks by their gear-loaded truck at a campsite as a stranded stranger in need of water and a ride."
+ },
+ "0b530687-26d8-4c9d-9771-c758ecd2ecbf_14604-13": {
+  "cause": "ambiguous",
+  "reason": "While waiting at the crosswalk for a red pedestrian light, observing vehicle and pedestrian traffic to ensure a safe crossing is equally appropriate and overlaps directly with waiting to cross."
+ },
+ "1330508f-8168-4408-a4df-79f69fb87c83_1053-45": {
+  "cause": "norm",
+  "reason": "The model recognized the retail interaction involving clothes and a customer, but prioritized an awkward and socially inappropriate action of taking the customer's items to fold them rather than engaging in helpful conversation and style advice."
+ },
+ "13d7173f-e8d1-4124-a66b-2ae648da9dbd_510-46": {
+  "cause": "ambiguous",
+  "reason": "The frames mostly show the camera wearer turning in a kitchen by a refrigerator with only the top edge of a baby seat barely visible at the bottom of the final frame and no food or spoon in sight, making it defensible to conclude that none of the listed feeding actions applies."
+ },
+ "146a4b4b-96a5-4d8f-a5b1-78dbb6ee5edf_9999-80": {
+  "cause": "perception",
+  "reason": "The model misread the activity under way, assuming the camera wearer is exiting the building when the frames actually show them approaching the storefront entrance from outside."
+ },
+ "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54": {
+  "cause": "perception",
+  "reason": "The model misidentified the stage of the activity and objects present, hallucinating vegetable preparation for a stew when the food is already cooked at the camp stove and a person is standing by with a dish ready to be served."
+ },
+ "1bfac46e-f957-4495-9583-dbd7fa683225_823-65": {
+  "cause": "perception",
+  "reason": "The model misidentified the card being passed during a reception desk check-in or payment transaction as a purchased item whose physical condition needed to be inspected."
+ },
+ "1f4a4d13-f083-4464-8c03-5e09f55e3f63_125-54": {
+  "cause": "ambiguous",
+  "reason": "Both options accurately recognize the camera wearer dressing the toddler on the bed with another child nearby, and helping the child dress before facilitating playtime is equally defensible from the visual frames."
+ },
+ "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69": {
+  "cause": "perception",
+  "reason": "The model failed to detect the woman present in the park scene and consequently rejected the options involving greeting her in favor of 'None of these actions is appropriate'."
+ },
+ "2d13c92e-f43f-40f2-b603-cb749e5fee70_2243-41": {
+  "cause": "perception",
+  "reason": "The model misidentified the masonry and bricklaying scene as someone transporting a chair, whereas the camera wearer is actually doing brickwork alongside another worker."
+ },
+ "356661f5-767b-495d-95c7-03dcc46f85c6_1860-68": {
+  "cause": "spatial",
+  "reason": "The child on the sidewalk was already passed at the beginning of the clip and the other cyclist is far away in the parking lot facing away, so neither is passing by at a distance or orientation suitable for waving and smiling."
+ },
+ "356dd07e-8165-494c-9be8-b82d314bf88d_895-74": {
+  "cause": "perception",
+  "reason": "The model misidentified the camera wearer's role and activity as a salesperson handing out product brochures to a customer rather than a shopper browsing in a store."
+ },
+ "358e65ba-1ce0-46f6-a1b4-1c85569ef628_3143-38": {
+  "cause": "ambiguous",
+  "reason": "No artwork or social interaction is visible in the provided frames\u2014only a distant silhouetted figure across the room\u2014making 'None of these actions is appropriate' a defensible choice."
+ },
+ "38788778-0822-4c9c-b51e-5bce8a765a97_91-28": {
+  "cause": "ambiguous",
+  "reason": "The frames show the camera wearer handing a coffee cup and takeout bag to another person in what appears to be an office hallway rather than giving an apartment tour, making 'None of these actions is appropriate' a defensible choice."
+ },
+ "38a66acf-33c8-4ed5-b814-7322087b2e21_2113-44": {
+  "cause": "ambiguous",
+  "reason": "The camera wearer is standing in an open commercial plaza with no store shelf nearby, making 'None of these actions is appropriate' a completely defensible choice from the frames."
+ },
+ "3ae05e5a-f724-41e8-9000-90b7dd31379b_288-48": {
+  "cause": "ambiguous",
+  "reason": "In the frames, the camera wearer picks up the mug of tea from the table and carries it over toward the person seated on the couch, making the chosen action of serving the tea and setting it down next to them entirely defensible."
+ },
+ "46c3b557-dbda-4868-a9c8-43741d5815e1_288-99": {
+  "cause": "spatial",
+  "reason": "The model failed to recognize that the camera wearer is closing in to near-collision distance with the stationary bicycle on a narrow path rather than riding at a safe spacing alongside moving cyclists."
+ },
+ "470499d1-e015-4d45-a858-ca3e9566085e_2490-62": {
+  "cause": "ambiguous",
+  "reason": "The camera wearer is standing directly within the circle of dancers as the girl in yellow approaches closely, making joining in and interacting just as defensible from the frames as continuing to watch."
+ },
+ "490b4f30-9bb5-4bf2-966b-13d509b5709b_1247-51": {
+  "cause": "perception",
+  "reason": "The model misidentified the camera wearer's role at the counter as the cashier scanning items rather than the customer making a payment."
+ },
+ "4930cced-9b84-464e-88ce-3990188efed6_1781-50": {
+  "cause": "ambiguous",
+  "reason": "No dog is clearly visible in the kitchen or interfering with the cooking in these frames, and the other person is already far down the hallway in another room, making 'None of these actions is appropriate' defensible from the visual evidence."
+ },
+ "4ac57aee-4ac0-457e-b9de-9419056e4bbd_295-55": {
+  "cause": "ambiguous",
+  "reason": "The frames only show the camera wearer looking at a pantry shelf and walking into a hallway, with no dogs, bowls, or refrigerator visible, making 'None of these actions is appropriate' a defensible choice."
+ },
+ "500be78a-0a13-44c5-8bc6-bafaa9b94354_17-35": {
+  "cause": "norm",
+  "reason": "The model over-prioritized a generic rule-compliance and environmental norm about restricted photo areas instead of recognizing that simply photographing plants along the open trail is benign and appropriate."
+ },
+ "54a421d2-763e-4751-a6b4-54e3d6c46cc1_1361-15": {
+  "cause": "ambiguous",
+  "reason": "The dimly lit, quiet room and the child lying on the floor at the very end of the clip make maintaining a quiet, comforting presence just as defensible as initiating play from the frames alone."
+ },
+ "5ed59c41-af9e-4368-a0ce-30d536d34895_1493-26": {
+  "cause": "ambiguous",
+  "reason": "No baby is visible in the frames and the camera wearer's hands are empty while adjusting the stroller in a garage storage area, making it defensible to reject the action of placing a baby in the stroller."
+ },
+ "62abef54-29ef-43ec-ba1d-43496d986e89_2257-41": {
+  "cause": "perception",
+  "reason": "The model misread the activity's direction, thinking the camera wearer is receiving the block to stack it when the wearer actually picked up the block and is handing it to the other person."
+ },
+ "65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02": {
+  "cause": "perception",
+  "reason": "The model misidentified a casual conversation among people seated around a coffee table in a studio waiting area as an ongoing scene rehearsal."
+ },
+ "6956cb48-951c-4607-a42b-a66de2c186be_292-00": {
+  "cause": "perception",
+  "reason": "The model misinterprets a healthy dog pausing and sniffing in the snow as a dog suffering from mobility issues."
+ },
+ "6b7fc6db-e979-43a0-b61f-7dced89d423d_229-56": {
+  "cause": "perception",
+  "reason": "The model mistook the pages of a single magazine being flipped through for a stack of pamphlets and misread the casual table interaction as people waiting."
+ },
+ "6ba5f052-a1cd-46ba-83f2-1be480387020_599-71": {
+  "cause": "ambiguous",
+  "reason": "The frames show people sitting at a table playing a card game rather than cooking or cleaning a kitchen counter, making 'None of these actions is appropriate' completely defensible."
+ },
+ "6e0c294c-d634-4804-8d41-cd6e9d79f0b9_1656-45": {
+  "cause": "ambiguous",
+  "reason": "The camera wearer and the other person are actively taking turns playing Connect Four with no beverages visible in the frames, making 'None of these actions is appropriate' a defensible choice over offering a drink mid-game."
+ },
+ "706de1df-babc-4e54-a310-1d9070140197_195-59": {
+  "cause": "perception",
+  "reason": "The model misidentified the ongoing activity in the kitchen, assuming the other person is preparing beverages in mugs rather than recognizing the microwave interaction."
+ },
+ "7c925095-c62a-4a7a-a2ca-118ca3f0176a_2-34": {
+  "cause": "perception",
+  "reason": "The model misread the dark outdoor scene and the wearer's hand gestures as a search or patrol mission rather than an everyday task involving the woman and cart nearby."
+ },
+ "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40": {
+  "cause": "perception",
+  "reason": "The model misidentified the camera wearer as a street vendor operating the nearby roadside cart rather than a pedestrian or bystander standing next to a parked motorcycle."
+ },
+ "84ec85f6-c167-413c-829d-9c6915519c57_919-33": {
+  "cause": "ambiguous",
+  "reason": "The model selected the exact same action as the ground truth and provided a nearly synonymous, equally valid justification for assisting a coworker with materials during collaborative masonry work."
+ },
+ "8d3b84a9-e747-47c1-8f09-726fdde7986c_1371-62": {
+  "cause": "perception",
+  "reason": "The model misidentified the camera wearer as the cashier rather than the customer, failing to see that the woman across the counter is operating the open cash register and reaching out to receive payment from the camera wearer."
+ },
+ "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83": {
+  "cause": "perception",
+  "reason": "The model misread the ongoing activity as diners sharing food during a meal, whereas the camera wearer is actually standing beside the table clearing used plates, glasses, and utensils after the meal."
+ },
+ "952d5295-06f4-4578-929b-4113e4ff9201_769-29": {
+  "cause": "ambiguous",
+  "reason": "The model picked the right action, and rejecting 'Proper hygiene is crucial before any artistic procedure' as the reason to apply henna patterns is defensible because hygiene justifies cleaning the skin beforehand rather than drawing the patterns themselves."
+ },
+ "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07": {
+  "cause": "perception",
+  "reason": "The model mistakenly assumed the camera wearer is driving and holding a phone, whereas the steering wheel on the left shows the wearer is actually a front-seat passenger."
+ },
+ "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45": {
+  "cause": "perception",
+  "reason": "The model misidentified the wrapped snack bar being handed to the hiker as collected field material."
+ },
+ "a5e74924-6083-4618-b830-f528c5199ed9_5985-35": {
+  "cause": "ambiguous",
+  "reason": "From the frames alone, where the two people ahead briefly stop and raise a phone in the final frame, offering to take their photo is just as plausible and defensible as waving for a video recording."
+ },
+ "ada73c3a-765f-46de-afb5-d152d058d7e2_7766-82": {
+  "cause": "ambiguous",
+  "reason": "From the silent video frames alone, where the camera wearer is unpacking a bag and the person in blue is already holding up their phone screen to show them something, it is not visually determined that the camera wearer must specifically ask the group what everyone is doing on their phones."
+ },
+ "af215e0f-56c7-4356-9aad-a3a5fb7bbc4f_4328-60": {
+  "cause": "ambiguous",
+  "reason": "The person in the cluttered room is a young child approaching the camera wearer, making placing the child in a safe space while tidying up a completely reasonable and defensible choice alongside interacting with them."
+ },
+ "af43394e-d24c-40c2-b03a-f3cdff888370_762-90": {
+  "cause": "perception",
+  "reason": "The model misinterprets the ongoing activity and social roles as a cashier needing to call out to a departing customer, when in fact the camera wearer is approaching a table where the other person is standing right in front of them."
+ },
+ "be82ebf1-5feb-4c1b-a71a-f668e3a17726_27-55": {
+  "cause": "perception",
+  "reason": "The model misread the activity underway, mistaking the seated person's brief adjustment of their own head-mounted camera while working on a laptop for a lesson instructing the camera wearer on how to adjust a camera."
+ },
+ "c6b5d782-d267-410e-8566-f7fe5d4a78a9_2700-04": {
+  "cause": "ambiguous",
+  "reason": "No other person or phone problem is clearly visible in the frames (only a hand briefly appears at the bottom-right corner), making it defensible to conclude that none of the social interaction actions is appropriate."
+ },
+ "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_115-52": {
+  "cause": "norm",
+  "reason": "The model correctly identified the interaction with the dog but over-prioritized a generic safety and containment norm over rewarding the dog's positive play behavior in a safe indoor setting."
+ },
+ "cb8df5e7-af5c-4211-b779-0568f94c7ded_3375-73": {
+  "cause": "ambiguous",
+  "reason": "From the silent frames showing the camera wearer eating with a drink on the table while the other person stands watching the TV, offering refreshments is just as plausible and socially appropriate as asking if they want to change the channel."
+ },
+ "d0925317-dc23-4cb4-a375-a7baddc06b27_901-57": {
+  "cause": "perception",
+  "reason": "The model misidentified the camera wearer's role and activity as a store employee assisting a customer rather than a shopper selecting a baked item to purchase at the counter."
+ },
+ "d7480d27-f607-4a5a-8c31-9d299f70a4b8_406-05": {
+  "cause": "perception",
+  "reason": "The model misidentified the gardening activity and objects in the scene, mistaking sorting and removing unwanted weeds next to a small metal dish for cutting crops into a basket."
+ },
+ "d8936caf-0142-4ceb-bacc-70313a19f169_888-66": {
+  "cause": "perception",
+  "reason": "The model misinterprets a playful interaction between the dog and the man on the floor as the dog being visibly distressed."
+ },
+ "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83": {
+  "cause": "ambiguous",
+  "reason": "The frames depict thousands of egg trays laid out to dry outside a production facility alongside a worker rather than a typical market stall, making asking about the egg or tray production process completely defensible from the visual context."
+ },
+ "dd508a2a-1ea7-43d2-805a-8080eeae9985_1035-99": {
+  "cause": "perception",
+  "reason": "The model misidentified a religious prayer ritual in front of a shrine as a theatrical rehearsal or acting scene with a director."
+ },
+ "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23": {
+  "cause": "perception",
+  "reason": "The model misidentified the ongoing activity as organizing clothing racks inside a store, failing to see that the camera wearer is standing outside a storefront display window holding a smartphone."
+ },
+ "e9343bd2-cd48-4abe-902a-3d3f6a0b51d8_1810-91": {
+  "cause": "ambiguous",
+  "reason": "The chosen action is identical to the correct action, and the chosen justification conveys essentially the same reasoning regarding a safe, controlled, and gentle transfer of the toddler."
+ },
+ "e9957d35-9c4d-44cc-b3b6-267dfa13841a_896-74": {
+  "cause": "ambiguous",
+  "reason": "The model selected the exact same action, and its justification of completing a transaction and respecting the agreed-upon process is at least as reasonable and defensible from the frames as fulfilling a contractual obligation and supporting local businesses."
+ },
+ "eaa560d5-6432-4030-a03a-b6ba512e621d_61-64": {
+  "cause": "ambiguous",
+  "reason": "The camera wearer is seated in a living room shelling peas into a tray on their lap with no kitchen counters in sight, making the rejection of cleaning kitchen counters completely defensible from the frames."
+ },
+ "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1223-78": {
+  "cause": "perception",
+  "reason": "The model failed to recognize that the camera wearer is a nail technician actively filing a client's nails during a professional manicure rather than a bystander helping someone apply their own nail polish."
+ },
+ "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48": {
+  "cause": "ambiguous",
+  "reason": "Both options describe essentially the same action of placing the item onto the wheeled rack/cart with generic workplace justifications, making the chosen answer equally defensible from the frames."
+ },
+ "facdbd7a-da79-48bd-9bb0-c866f675699b_1484-63": {
+  "cause": "perception",
+  "reason": "The model misread the ongoing activity as waiting in line to check prices on a phone, whereas the camera wearer is already directly at the counter interacting with the cashier with no line in front of them."
+ },
+ "fb92d350-9bf9-4b16-8a1f-7858de276226_603-23": {
+  "cause": "ambiguous",
+  "reason": "The model selected the exact same nail-trimming action, and justifying trimming another person's nails as helpfulness is just as defensible from the manicure frames as citing general hygiene."
+ }
+}

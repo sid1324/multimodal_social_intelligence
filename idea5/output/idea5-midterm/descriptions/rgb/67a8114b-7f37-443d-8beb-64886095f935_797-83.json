@@ -1,0 +1,18 @@
+{
+ "id": "67a8114b-7f37-443d-8beb-64886095f935_797-83",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor river environment where rippling water fills the lower third of the view from roughly 0.5 metres below the camera wearer out to a forested shoreline and hills approximately 100 to 300 metres ahead and to the right. Tall overhanging trees stand along the near left riverbank roughly 4 to 10 metres to the left, with their branches extending above the water and partially occluding the distant treeline on the left side. In the first frame, a bare knee and the arm and side of a person are partially visible at the bottom-right corner about 0.5 to 1 metre away\u2014within arm's reach of the camera wearer\u2014while the rest of their body is cropped out by the frame boundary and no face or gaze direction is visible. Between the first and second frames, the camera tilts upward and turns slightly leftward, causing the person at the bottom right to drop completely out of view while bringing the left-bank tree trunks and canopy more prominently into the left side of the frame. Across the third through fifth frames, the camera wearer moves slowly forward along the water and rotates slightly back toward the right as a light-blue watercraft or tube edge and a dark strap or limb progressively enter the bottom-right corner within 0.5 metres."
+ },
+ "duration_seconds": 26.50666,
+ "usage": {
+  "input_tokens": 19620,
+  "output_tokens": 836,
+  "thinking_tokens": 499,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20456
+ },
+ "conversation_id": "667f6ec0-537e-487c-b887-d0ebd7570aa8"
+}

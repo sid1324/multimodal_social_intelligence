@@ -1,0 +1,18 @@
+{
+ "id": "98fcbc28-9542-4f3c-9a03-73af08fb989d_1063-08",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor breakroom or micro-kitchen adjacent to a dark-walled hallway featuring a red-circle mural on the left, a wooden checkout counter with snack racks in the center, and stocked shelving, a round table with chairs, beverage coolers, and coffee stations further inside to the right. A man in a dark shirt and tan pants stands behind the wooden counter near the hallway entrance, initially hidden in frame 1 before appearing about 4 to 5 metres away in frame 2 and narrowing to roughly 1.5 to 2 metres on the right by frame 5 as the camera wearer approaches. In frame 3, as the camera wearer passes a doorway partition and turns left toward the hallway, white snack shelves and a blue recycling bin come within or near arm's reach (about 0.8 to 1.5 metres away on the left) while partially occluding the interior of the room. Throughout frames 2 to 5, the standing man faces rightward toward the counter and a second person\u2014whose arm and torso are mostly occluded behind the counter and display case\u2014and never looks toward the camera wearer. The counter, snack racks, and a black trash bin next to the doorway are within arm's reach of the standing man, while the round table and chairs sit about 2 to 3 metres to his right inside the room. Across the five frames, the camera wearer walks forward and turns left from the room's exterior approach into the hallway alongside the counter, bringing the blue bins on the left and the man at the counter on the right into close proximity while the deeper kitchen area moves out of view to the right."
+ },
+ "duration_seconds": 14.432899,
+ "usage": {
+  "input_tokens": 19634,
+  "output_tokens": 511,
+  "thinking_tokens": 96,
+  "cache_read_tokens": 14215,
+  "total_tokens": 20145
+ },
+ "conversation_id": "664e7524-5c3d-4eb3-813b-3a9d6c79d3b9"
+}

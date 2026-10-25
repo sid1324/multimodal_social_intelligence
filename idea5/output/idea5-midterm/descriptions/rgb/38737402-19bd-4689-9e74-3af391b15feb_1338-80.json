@@ -1,0 +1,18 @@
+{
+ "id": "38737402-19bd-4689-9e74-3af391b15feb_1338-80",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor stairwell landing with dark green flooring, enclosed by light-colored walls on the left, right, and front, leading through an open doorway into an adjacent hallway. In Frame 1, the camera wearer is at the top of a short flight of stairs with a grey-sleeved right arm raised within immediate reach on the right edge, while the open doorway and its yellow-brown door propped open on the left are roughly 3 to 4 metres ahead. A vertical white pipe runs along the front-right corner of the landing, about 0.5 to 1 metre to the right of the doorway, and no other people are visible in the scene. Across Frames 2 through 4, the camera wearer walks forward across the landing toward the doorway, reducing the distance to the threshold from about 3 metres in Frame 2 to roughly 2 metres in Frame 3 and under 1 metre (within arm's reach) in Frame 4. In Frame 4, as the viewpoint pitches upward and approaches the doorway, a wall-mounted red fire alarm pull station and a white sign above it come into view on the wall immediately to the right of the doorframe, while the interior wall of the next hallway is visible about 2 metres ahead through the opening. By Frame 5, the camera wearer passes through the doorway and turns left into the hallway, bringing the interior light-colored wall directly in front at roughly 1 to 1.5 metres away while a reddish door or wall section appears partially on the far left."
+ },
+ "duration_seconds": 14.696909,
+ "usage": {
+  "input_tokens": 19574,
+  "output_tokens": 448,
+  "thinking_tokens": 58,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20022
+ },
+ "conversation_id": "da8819a5-cf63-4ed0-bc54-a55d1d4d9018"
+}

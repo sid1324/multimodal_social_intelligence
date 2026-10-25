@@ -1,0 +1,18 @@
+{
+ "id": "449763d0-a924-40a4-8830-01e7028f9428_3059-66",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor covered entryway leading into a building lobby through a wide blue-framed glass facade with central automatic sliding doors. In the first frame, the glass facade and closed sliding doors are roughly 5 to 6 metres directly in front of the camera wearer, with a white decorative planter and green plant about 4 metres away on the far left and another potted plant partially visible in the bottom right corner. As the camera wearer walks straight ahead across the five frames, the distance to the entrance decreases from about 5.5 metres in frame 1 to roughly 3 metres in frame 3, 1.5 metres in frame 4, and within arm's reach (under 1 metre) at the open doorway threshold in frame 5. In frames 1 through 4, the reflective glass panes largely occlude the interior while showing outdoor reflections of palm trees and individuals walking behind the camera wearer, with an overhead motion sensor centered just above the door frame. In frame 5, the two central glass doors slide open to the left and right, revealing an indoor reception lobby under a ceiling sign reading 'SAFAA GOLF CLUB' where three people are standing roughly 3 to 6 metres ahead of the camera wearer. Inside the lobby in frame 5, one person in black stands centered about 3.5 metres ahead facing away toward a reception desk, a second person in a white shirt stands to the right about 3 metres away facing left toward the counter, and a third person in grey walks roughly 5.5 metres away on the left facing away from the camera wearer, with potted plants and a small sign stand positioned between them."
+ },
+ "duration_seconds": 54.733831,
+ "usage": {
+  "input_tokens": 19564,
+  "output_tokens": 502,
+  "thinking_tokens": 90,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20066
+ },
+ "conversation_id": "c03c8aa2-eb71-4a36-9157-2bbe4f4c9721"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "a12f0a2e-e066-4b65-8603-6754bb73e196_30-04",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is immediately beside and above a drum kit, looking downward at several drums and cymbals roughly 0.3-1.2 m away. A large bright lamp or lighted object remains partly cut off along the lower-left edge, about 0.2-0.5 m from the camera, while furniture and framed wall items are visible approximately 1.5-3 m beyond the kit. A person is partly visible on the far side of the drums, mostly occluded by cymbals and drum shells and roughly 1-2 m from the camera wearer; their face and gaze direction are not visible. The camera wearer\u2019s forearm and hand enter from the lower-central area and extend forward over the nearer drums, placing the hand within arm\u2019s reach of the central drum surfaces and cymbals. From left to right, the viewpoint shifts and turns slightly rightward over the kit while the arm reaches farther forward and then changes position; the drum kit and distant person remain at broadly similar distances, with their apparent lateral positions changing mainly because of the camera movement."
+ },
+ "duration_seconds": 10.5,
+ "usage": null,
+ "conversation_id": null
+}

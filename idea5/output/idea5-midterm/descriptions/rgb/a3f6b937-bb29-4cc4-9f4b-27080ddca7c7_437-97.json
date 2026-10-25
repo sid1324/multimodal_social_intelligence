@@ -1,0 +1,18 @@
+{
+ "id": "a3f6b937-bb29-4cc4-9f4b-27080ddca7c7_437-97",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen workspace where the camera wearer stands facing a wall-mounted white cabinet, a white wall with an electrical switch and outlet, and a sink area along a counter below. No other people are present in the scene, though the camera wearer's right hand is briefly visible in the second frame reaching toward the sink at about 0.3 to 0.5 metres distance, and a dark object or hair at the lower-left foreground partially occludes the bottom-left corner in the fourth and fifth frames. Directly in front of the camera wearer at roughly 0.4 to 0.8 metres are two upper cabinet doors with brass knobs above a sink ledge holding a faucet, a yellow sponge, a tall purple bottle, a blue-capped dish soap bottle, and a cluster of spray bottles and spice jars further to the right. To the left of the faucet, roughly 0.2 to 0.3 metres away from the sponge and bottles, sits a stack of dishes including a white bowl, with all of these counter and cabinet items within easy arm's reach (under 0.8 metres) of the camera wearer. Many items on the lower counter, the sink basin, and the upper half of the cabinets are partially cut off by the bottom, top, and right edges of the field of view, while the bottles on the right partially occlude one another. Across the five frames, the camera wearer approaches and leans downward and rightward toward the right side of the sink, causing the left cabinet doors and sunlit wall on the far left to exit the view while bringing the wall outlet, yellow sponge, and right-side bottles closer (to about 0.3 to 0.5 metres) and tilted sharply in the frame."
+ },
+ "duration_seconds": 13.247028,
+ "usage": {
+  "input_tokens": 19620,
+  "output_tokens": 521,
+  "thinking_tokens": 87,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20141
+ },
+ "conversation_id": "6991964d-9c82-49ab-9b32-39432f0bcda4"
+}

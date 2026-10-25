@@ -1,0 +1,18 @@
+{
+ "id": "98334b78-967f-4980-ba86-56d34b4aaf2e_1109-83",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail or caf\u00e9 space separated by an overhead partition wall into a foreground seating area with a dark round table and a brighter background store area containing shelving units and produce bins roughly 4 to 8 metres away. In Frame 1, the camera wearer is seated at the round table (within arm's reach, ~0.3\u20130.8 m away) with an open magazine at the bottom edge, a person in a black shirt and glasses seated to the front-left at ~0.8 m facing and looking toward the wearer (partly cropped at the left and top), a second person standing ~3.5 m ahead in the store area, and a third person in a plaid shirt standing ~1.5 m to the front-right (mostly cropped out except for their torso and legs). In Frame 2, the camera pitches sharply upward and pans slightly right, cutting off the table and placing the overhead ceiling grid and linear lights in the upper half of the view while the seated person (~0.8 m, bottom-left, looking at the wearer) and the standing person in a patterned top (~3.5 m, center-left, facing right) remain visible below. In Frame 3, as the view pans further right and tilts slightly down, a fourth person in a dark shirt appears ~4.5 m away in the middle of the store facing left with raised hands, standing ~1.5 m in front of the patterned-top person who faces them, while the plaid-shirted person (~1.2 m away on the far right, facing away into the store) and a display column partially occlude the right side of the background. Across Frames 4 and 5, the camera pitches higher toward the ceiling and turns left, causing all four people to drop completely out of the lower frame boundary except for a blurred raised hand entering within arm's reach (~0.5 m) at the bottom-center of Frame 5."
+ },
+ "duration_seconds": 17.136409,
+ "usage": {
+  "input_tokens": 19582,
+  "output_tokens": 737,
+  "thinking_tokens": 256,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20319
+ },
+ "conversation_id": "fbe38a5b-8e4e-4747-b322-4484c50f61c7"
+}

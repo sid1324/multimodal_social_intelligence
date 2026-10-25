@@ -1,0 +1,18 @@
+{
+ "id": "c25111f0-0c78-4bf8-a16d-57a6c25c2169_10881-80",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a wide, enclosed staircase bordered by tall beige walls with black handrails on both sides, a circular chandelier high overhead in the first two frames, and a large open doorway at the top landing roughly 6 to 8 metres ahead where several distant pedestrians stand. Immediately in front of the camera wearer at 0.5 to 1.5 metres\u2014within arm's reach\u2014walk a man in a white shirt on the left, a woman in a black top in the center, and two companions on the far right, all spaced less than a metre apart laterally. Further up and in front of them, roughly 2.5 to 4.5 metres from the camera wearer and spaced 0.5 to 1 metre apart across the steps, four people ascend from left to right: a woman in a dark floral dress, a woman in a light long dress, a man in a grey shirt with a shoulder bag, and a man in a dark shirt carrying a green bag within arm's reach of the right handrail. Nearly all individuals face away up the staircase, except the woman in the floral dress on the left and the man carrying the green bag on the right, who turn their heads sideways and backward toward the camera wearer's direction in frames 2 through 5. Across the five frames, everyone moves forward and upward up the stairs while the camera wearer approaches closer to the woman in the black top (to within 1 metre directly behind her by frame 5), causing the close companions on the left and right to move out of the lateral edges of the view and the upper bodies of the four people higher on the stairs to be progressively cropped by the top edge of the frame and partly occluded by the woman in black."
+ },
+ "duration_seconds": 33.226565,
+ "usage": {
+  "input_tokens": 19583,
+  "output_tokens": 988,
+  "thinking_tokens": 559,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20571
+ },
+ "conversation_id": "7549a6a9-e007-40c0-9461-6376a5fa3c90"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "b9b65293-fec8-494e-81e7-c4496aafba6f_1524-26",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated indoors in front of a two-tiered glass coffee table extending roughly 0.3 to 1.2 metres ahead, with a white floor shelf and brown box against a wall about 2.5 to 3.0 metres away in the background. On the left side of the table, a green mug sits on the lower glass tier about 0.3\u20130.4 metres away within the camera wearer's arm's reach, while three plastic water bottles, a blue soda can, and a textured silver vase sit on the upper tier at 0.6\u20130.9 metres, and a second green mug sits on the far right corner about 1.0\u20131.2 metres away (roughly 0.6 metres to the right of the bottles). A second person is seated in an armchair on the right at roughly 0.9 to 1.2 metres from the camera wearer, facing leftward toward the table and camera wearer with their hands resting near their knees within arm's reach of the far green mug and right table edge. This seated person's head and upper torso are out of view above the upper-right frame boundary\u2014making it impossible to see whether they look at the camera wearer\u2014while the silver vase is partly cut off on the left edge and the blue can and rear water bottle are partially occluded behind the two front water bottles. Across frames 1 to 4, the viewpoint and seated person remain nearly stationary while the camera wearer fans playing cards at the bottom center (0.2\u20130.3 metres away), and in frame 5 the camera tilts slightly upward and rightward as a third person's arms extend from the bottom-right foreground to about 0.5\u20130.7 metres away, holding a fan of cards just below the seated person's hands within their reach while the camera wearer's left hand touches a card stack on the lower table tier."
+ },
+ "duration_seconds": 25.378989,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 1367,
+  "thinking_tokens": 895,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20944
+ },
+ "conversation_id": "24e9be68-2517-4b02-b20b-bfba42600014"
+}

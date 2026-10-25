@@ -1,0 +1,18 @@
+{
+ "id": "ee708878-5d10-4bf3-bd8a-6d72d5cceca6_570-90",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail space featuring a white wall with a mounted mirror and small shelf on the left, large windows along the front wall, two parallel clothing racks in the center and right, and a black slatted wall display in the right background. In the first two frames, a garment on a black hanger is held within the camera wearer's arm's reach at about 0.3 to 0.5 metres in the lower foreground, partially occluding a 'Flash Sale' sign at 0.6 to 0.8 metres on the left, while a wall mirror and small white shelf sit 1.5 to 2 metres ahead and a mannequin stands 2 to 2.5 metres away on the right in front of the window. In the third frame, the camera wearer turns clockwise to the right, shifting the mannequin to the left side of the view at about 2 metres distance and bringing a central clothing rack into view at 1.2 to 1.8 metres ahead on the right, with the held garment remaining partly visible at the bottom edge. Across the fourth and fifth frames, the camera continues panning right past the first clothing rack (now 1.5 metres to the left) to reveal a person in an orange shirt and dark glasses standing 1.2 to 1.5 metres in front of the camera wearer, positioned about 0.8 to 1 metre from the left rack and in front of a dark wall display roughly 3 to 3.5 metres away. This person's torso is angled toward a second clothing rack within her arm's reach (0.3 to 0.5 metres to her left, on the right side of the frame), while her head is turned to face and look toward the camera wearer, and her lower body is cut off by the bottom frame boundary and partially occluded by a grey garment held within the camera wearer's reach (0.3 to 0.4 metres) in the lower-right corner of the final frame."
+ },
+ "duration_seconds": 20.407845000000002,
+ "usage": {
+  "input_tokens": 19626,
+  "output_tokens": 1113,
+  "thinking_tokens": 622,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20739
+ },
+ "conversation_id": "99f69506-776c-4b80-b844-4cfacc187367"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "d0aedb4e-82cc-406a-a395-3573049a49ee_4319-84",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is at the edge of a shallow dirt trench, with a bare bent leg filling the lower-right foreground and dry ground extending across the upper background. Another person is within about 0.2\u20130.5 m: their forearm reaches in from the left and their hand rests on the camera wearer\u2019s knee, moving slightly rightward along the knee across the five frames. A hard-hatted person in red and yellow clothing is crouched roughly 0.5\u20131 m in front-left of the camera wearer, below the upper ground level, facing mostly right and downward rather than toward the camera; they are substantially occluded by the close arm and leg. A pair of sandals lies on the raised ground behind and above the crouched person, roughly 1\u20132 m from the camera wearer and about 0.5\u20131 m from that person. Across the strip, the viewpoint and scene remain nearly fixed while the foreground arm extends farther to the right and the crouched person shifts slightly rightward in the frame; additional body parts at the extreme left and lower edges remain only partly visible."
+ },
+ "duration_seconds": 10.6,
+ "usage": null,
+ "conversation_id": null
+}

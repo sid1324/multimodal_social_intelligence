@@ -1,0 +1,18 @@
+{
+ "id": "81fff27c-97c0-483a-ad42-47fa947977a9_456-39",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor tiled plaza bordered by a curved glass-and-metal railing on one side and a building with a green wall on the other, viewed from an inverted (upside-down) head-mounted camera perspective. In the first two frames, the camera points downward toward the ground where a person in a white shirt, black pants, and black cap sits about 1.5 to 2 metres away with legs extended, reaching both hands toward their own feet (within their own arm's reach), positioned directly beside a large oval white bench and a smaller round white stool-like block about 0.5 metres apart. At the bottom edge of frames 1 and 2, the lower legs of several standing people are partially visible about 3 to 4 metres away, mostly cut off by the frame boundary. Across frames 3 to 5, the camera tilts upward and rotates toward the building while the camera wearer moves backward, bringing a standing woman in a white shirt, red skirt/shorts over black leggings, and curly hair into view at roughly 1.5 to 2 metres in frame 3, clip-occluded at the top-right edge within 1 metre in frame 4, and retreating to about 2.5 to 3 metres in frame 5 with her hands on her hips facing toward the camera wearer. Behind and beside her in frames 3 through 5, a group of 4 to 6 other people stand spaced roughly 1 to 3 metres from one another and 3 to 6 metres from the camera wearer near the bench and green wall, with most facing generally toward the camera wearer while nothing remains within the camera wearer's own arm's reach."
+ },
+ "duration_seconds": 17.013669,
+ "usage": {
+  "input_tokens": 19623,
+  "output_tokens": 810,
+  "thinking_tokens": 382,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20433
+ },
+ "conversation_id": "eedc4b50-761b-4592-ac15-704508590b2b"
+}

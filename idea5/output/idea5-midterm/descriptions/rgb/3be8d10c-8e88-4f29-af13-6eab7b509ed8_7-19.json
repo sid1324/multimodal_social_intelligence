@@ -1,0 +1,18 @@
+{
+ "id": "3be8d10c-8e88-4f29-af13-6eab7b509ed8_7-19",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an unfinished brick and concrete construction area featuring a rough ground covered with empty sacks on the left, a vertical brick wall within 0.5 to 1.0 metres on the right, a low brick ledge ahead, and a diagonal wooden pole extending from near the camera wearer's lower left up to the ledge. In the first three frames, the camera wearer looks downward while advancing forward alongside the right-hand brick wall, with the camera wearer's clothing and orange-gloved right hand visible within 0.3 to 0.6 metres at the bottom of the frame as the low brick ledge and a dark round pan resting on top of it approach from roughly 2.0 metres to 1.0 metre ahead. In the fourth frame, the viewpoint tilts slightly upward as the camera wearer gets within 0.8 to 1.2 metres of the ledge and pan on the left, revealing a shaded interior floor behind the ledge where a second person's lower legs and sandals stand about 1.5 to 2.0 metres away, with their upper body cropped out at the top edge. By the fifth frame, the camera wearer is within 0.3 to 0.8 metres of this second person, who stands directly in front facing the camera wearer and bends forward over a wide pan of grey mortar located 0.2 to 0.5 metres away in the lower-left foreground. Both the mortar pan and the second person's hands\u2014one holding an orange-handled tool near the pan's far rim about 0.6 metres away and the other reaching down within 0.2 to 0.3 metres in the foreground\u2014are within arm's reach of both individuals, while the second person's head remains out of view above the top frame boundary and their left arm partially occludes the mortar and the camera wearer's gloved hand below."
+ },
+ "duration_seconds": 22.402005,
+ "usage": {
+  "input_tokens": 5373,
+  "output_tokens": 1238,
+  "thinking_tokens": 771,
+  "cache_read_tokens": 28413,
+  "total_tokens": 6611
+ },
+ "conversation_id": "40ddd536-b8b8-4531-bf5d-96f2491b26b7"
+}

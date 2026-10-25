@@ -1,0 +1,12 @@
+{
+ "id": "6baa673a-0cc6-4da2-a481-877de0d2faa5_1148-60",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a furnished room, with a Christmas tree and low cabinet along the left/front wall, a green play mat and toys across the central floor, a window ahead, and a doorway opening into another room on the right. A nearby person wearing dark trousers stands directly in front of the camera, roughly 0.3\u20130.8 m away, with their legs and lower torso filling much of the view and their upper body mostly above or outside the frame; the camera wearer\u2019s raised hands are within arm\u2019s reach of this person and intermittently touch or pass beside their legs. A second person is visible only in some frames through the doorway, approximately 3\u20135 m from the camera wearer and about 3\u20134 m from the nearer person; they face generally into the room and sideways toward the camera wearer, although their gaze is unclear. The nearby person heavily occludes the middle of frames 1\u20132, shifts toward the right and slightly farther away in frame 3, then crosses close in front again in frame 4 before moving mostly out of view by frame 5. As the camera turns rightward across the strip, the tree and cabinet move from near center-left toward the far left, while the doorway, window, play mat, chairs, and floor area become more exposed; several toys and furniture edges remain partly cut off at the image boundaries."
+ },
+ "duration_seconds": 11.2,
+ "usage": null,
+ "conversation_id": null
+}

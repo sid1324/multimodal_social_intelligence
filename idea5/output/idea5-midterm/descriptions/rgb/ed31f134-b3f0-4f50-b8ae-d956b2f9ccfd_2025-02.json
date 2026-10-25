@@ -1,0 +1,18 @@
+{
+ "id": "ed31f134-b3f0-4f50-b8ae-d956b2f9ccfd_2025-02",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living room viewed from a low seating position, featuring dark armchairs on the left (1.5 to 3 metres away), a low dark coffee table in the right foreground (within 1 metre and arm's reach of the camera wearer), and a light-coloured sofa in the background (about 3 to 4 metres away) in front of curtained windows. A standing person in a white long-sleeved shirt and dark patterned shorts is in the immediate foreground, roughly 0.8 to 1.5 metres in front of the camera wearer, positioned between the left armchairs and the right coffee table with their lower legs cropped by the bottom frame edge. In frames 1 to 3, this standing person bends forward and to the right over the coffee table within arm's reach of its surface while facing right and away from the camera wearer, largely occluding the background sofa and a third person seated on it. On the left, about 2.5 to 3 metres from the camera wearer and 1.5 to 2 metres to the left of the standing person, a seated person in an orange top reclines in a dark armchair facing right toward the coffee table and slightly toward the camera wearer, with a pair of sandals on the floor just below their outstretched legs. In frame 4, the standing person straightens up and steps slightly back and left (to about 1.5 metres away), holding a small object in their left hand while extending their right hand into arm's reach of the background seated person's outstretched right hand, revealing that third person sitting about 3 metres away facing forward toward the camera wearer behind the coffee table. In frame 5, the standing person moves closer to the camera wearer again (under 1 metre away), partially occluding the left seated person's legs and the background sofa while their head is cropped at the top edge of the frame."
+ },
+ "duration_seconds": 13.829956,
+ "usage": {
+  "input_tokens": 19563,
+  "output_tokens": 558,
+  "thinking_tokens": 90,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20121
+ },
+ "conversation_id": "8b429328-74f7-45a6-8cd0-ec4b74a13eae"
+}

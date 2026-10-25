@@ -1,0 +1,18 @@
+{
+ "id": "a2f25985-0589-42ca-af57-58930079dfb9_7290-57",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor locker room featuring a low square wooden bench in the center, grey metal lockers along the right and back walls, and a doorway on the left that opens to a half-wall separating the space from a blue-matted climbing area 5 to 8 metres away. In frame 1, the camera wearer stands in the doorway with a wooden slatted door on the immediate left and a person in a white jersey ('JAMES 10') bent forward at the bottom right within 1 metre (arm's reach), facing away and partly cut off at the frame's edge. Ahead on the left (initially 3 to 4 metres away), a person in a white t-shirt sits on the far corner of the wooden bench facing right and downward toward their feet, with a dark garment resting on the bench within their arm's reach. To the right of the bench (1 to 1.5 metres from the seated person and initially 2.5 to 3.5 metres from the camera wearer), a person in a black t-shirt stands facing the right-wall lockers while holding a dark blue item, and a person in a green shirt stands about 1 metre further back facing the rear lockers. Across the five frames, the camera wearer walks forward about 2 metres into the room, causing the doorway and the bent-over person in the white jersey to pass behind and out of view by frame 2, while revealing several people standing 5 to 8 metres away beyond the half-wall in frames 3 and 4. By frame 5, the camera wearer is within 1 to 1.5 metres of the wooden bench, the seated person (cropped at the head), and the standing person in black (within arm's reach at the bottom right), while the person in green remains 2 to 2.5 metres ahead at the upper right holding a jacket; none of the people look toward the camera wearer except for a brief glance from the person in black in frame 2."
+ },
+ "duration_seconds": 13.77392,
+ "usage": {
+  "input_tokens": 19555,
+  "output_tokens": 495,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20050
+ },
+ "conversation_id": "e7e956de-756b-4016-addf-18e73ea8001b"
+}

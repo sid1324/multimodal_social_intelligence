@@ -1,0 +1,18 @@
+{
+ "id": "e70f4b34-432f-47dc-834f-5bc6bd67dc62_166-47",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor construction space with unpainted brick walls, a doorway and window openings on the right, and piles of sand, mortar, sacks, and bricks scattered across the floor below. The camera wearer is positioned on an elevated scaffold or platform roughly 2 to 3 metres above the ground floor, with an exposed brick wall immediately to their right within 0.5 metres. Below and to the left of the camera wearer, at a distance of about 2.5 to 3 metres, a person in light blue clothing stands on the ground floor next to a mortar pile, surrounded by several round metal pans, buckets, and a shovel within their arm's reach, while another person wearing a cap and red shirt is partially visible at the bottom edge directly below the camera wearer in the first and fifth frames. In frames 1 through 3, the person in light blue faces downward toward the mortar and pans on the floor\u2014partially out of view at the left edge in frame 2 as the camera turns slightly right toward the brick wall\u2014before turning upward to face and look directly toward the camera wearer in frame 4 while lifting a dark round pan. Across frames 4 and 5, the lifted pan approaches upward toward the camera wearer from roughly 2 metres away to within about 0.8 metres, occluding most of the person below in frame 5 as the camera wearer's left hand extends forward into the lower-left foreground within arm's reach of the pan."
+ },
+ "duration_seconds": 19.971293,
+ "usage": {
+  "input_tokens": 19562,
+  "output_tokens": 470,
+  "thinking_tokens": 92,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20032
+ },
+ "conversation_id": "d948221d-d366-4ad0-a213-a6932cddf37a"
+}

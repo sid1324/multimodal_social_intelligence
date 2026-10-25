@@ -1,0 +1,12 @@
+{
+ "id": "f5bdefb3-f57c-4270-bf31-7939ecd45c86_1815-24",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A narrow, wet soil path runs forward between dense rows of rose bushes, with red and pink flowers extending from below camera level to roughly chest height. One adult in a green shirt and dark shorts stands about 1\u20132 m ahead, initially near the center-right and later occupying the right side at roughly 0.5\u20131 m; the person is partly cropped above the shoulders in every frame. The person faces mostly away from or across the camera wearer rather than directly toward them, and their head and gaze are not visible. Rose stems and flowers lie within arm\u2019s reach on both sides of the camera wearer and also beside the person, while the person and nearby bushes increasingly occlude the path and plants on the right. Across the five frames, the camera wearer moves forward and slightly right toward the person, who shifts from farther ahead to very close on the right and turns somewhat sideways; in the final frame, the camera wearer\u2019s hand enters at the lower right within reach of a rose stem and the person\u2019s blue-handled object."
+ },
+ "duration_seconds": 9.8,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,12 @@
+{
+ "id": "ea5bb387-a22a-4b49-8aa5-35cbf0d3563d_205-22",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a cramped indoor area viewed downward, with a light-colored counter or ledge on the right and dark furniture or walls around a seated or reclining person roughly 0.3\u20131 m in front of the camera. This person wears a white shirt and beige trousers; their torso and legs occupy the left and center of the first three frames, while their head and parts of their limbs are intermittently cropped or hidden by darkness and foreground arms. A second person is only partly visible through close arms and hands about 0.2\u20130.6 m from the camera, and a bright pink handheld object moves from the right side toward the center; these hands and the object are within arm\u2019s reach of both the camera wearer and the nearby person. On the right-side surface, a white paper roll and several small dark objects sit about 0.5\u20131 m away and within arm\u2019s reach of the nearby hands; they remain close together, generally less than about 0.5 m apart. Across the five frames, the camera turns and shifts rightward and downward: the white-shirted body moves out of the main view, the counter and pink object become more prominent, and by the last frame the top of a dark-haired person\u2019s head fills the lower foreground about 0.2\u20130.4 m away, facing away or downward rather than looking toward the camera."
+ },
+ "duration_seconds": 12.6,
+ "usage": null,
+ "conversation_id": null
+}

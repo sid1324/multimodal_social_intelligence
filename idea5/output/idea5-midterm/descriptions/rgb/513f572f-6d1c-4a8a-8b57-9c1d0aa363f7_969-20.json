@@ -1,0 +1,18 @@
+{
+ "id": "513f572f-6d1c-4a8a-8b57-9c1d0aa363f7_969-20",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands on a ladder or elevated surface looking sharply downward at a concrete floor inside a small corner area bordered by a white drawer unit and open closet with a Bounty package on the left (about 1 to 1.5 metres away), a white door in front, and a painted brick wall with a doorway threshold on the right (1.5 to 2 metres away). Directly below the camera wearer (within 0.5 to 1.5 metres and within arm's reach) is a first person wearing a black shirt and work gloves who faces forward toward the corner and looks down at the floor while holding a long red-handled floor scraper or broom. To the right of this person, about 1.5 to 2 metres below and to the right of the camera wearer (roughly 0.5 to 1 metre from the first person), stands a second person in a grey shirt and dark pants whose head and upper torso are partly out of view at the right frame edge. A red-and-black power drill rests on the floor near the base of the brick wall about 1.8 metres away, initially to the right of the open white door and later partially occluded behind the door as it swings toward the wall. In frames 1 and 2, the first person reaches out with their left hand to push the white door from the left side across the corner toward the right brick wall while holding the red handle in their right hand, as the second person faces left toward the workspace. Across frames 3 to 5, the door remains swung open toward the right wall, the first person grips the red handle with both hands to push and pull the scraper across the floor below them, and the second person steps slightly back and turns their body toward the doorway on the right."
+ },
+ "duration_seconds": 12.981228,
+ "usage": {
+  "input_tokens": 19405,
+  "output_tokens": 483,
+  "thinking_tokens": 38,
+  "cache_read_tokens": 14316,
+  "total_tokens": 19888
+ },
+ "conversation_id": "9f0e3301-30b4-418a-aa00-cb73b0d11444"
+}

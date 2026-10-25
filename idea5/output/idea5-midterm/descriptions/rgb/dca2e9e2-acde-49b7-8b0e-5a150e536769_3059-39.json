@@ -1,0 +1,18 @@
+{
+ "id": "dca2e9e2-acde-49b7-8b0e-5a150e536769_3059-39",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a kitchen lined with upper wooden cabinets, a tiled backsplash, lower countertops, a white four-burner electric stove beneath a white range hood, and a white refrigerator further down the wall to the right. In the first two frames, wooden upper cabinets sit roughly 0.3 to 0.5 metres in front of the camera wearer, partially occluding the counter below where outstretched arms in a light-sleeved shirt\u2014with the rest of the body out of view below the bottom frame edge and no other people present in the room\u2014reach within arm's reach (about 0.5 to 0.7 metres away) toward a white plate and vertical paper towel holder to the left of a knife block and white kettle. In the third frame, the camera wearer turns rightward to face the stove about 0.8 to 1.2 metres ahead, revealing bottles on the left counter, the refrigerator about 2.5 to 3.0 metres away to the right, and a distant counter with a microwave roughly 4.5 metres away in the background. On the stovetop within arm's reach, a frying pan with food and a black spatula rest on the front-left burner about 0.3 metres in front of and to the left of a second pan and spoon on the back-right burner, with a glowing blue rectangular device propped against the stove's rear panel between them and a white plate of food, a dark pot lid, and packaged bread spaced 0.2 to 0.4 metres apart on the right countertop. From the third to the fourth frame, the camera wearer approaches to within 0.5 to 0.7 metres of the stove so its front burners fill the lower foreground while the refrigerator moves out of view to the right, before turning slightly right and retreating slightly in the fifth frame so the left half of the stove is cut off by the left frame edge and the right counter, refrigerator, and distant chairs on the far right return to view."
+ },
+ "duration_seconds": 24.026019,
+ "usage": {
+  "input_tokens": 19524,
+  "output_tokens": 1383,
+  "thinking_tokens": 896,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20907
+ },
+ "conversation_id": "d736af14-82f6-4d2c-b02f-d5ae668d4323"
+}

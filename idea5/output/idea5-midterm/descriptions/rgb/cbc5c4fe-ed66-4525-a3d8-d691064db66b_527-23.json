@@ -1,0 +1,18 @@
+{
+ "id": "cbc5c4fe-ed66-4525-a3d8-d691064db66b_527-23",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail space with a smooth grey floor, viewed from a steep downward angle as the camera wearer stands and pivots. In the first frame, the bottom of a white-framed mirror on a white wall is roughly 1.5 to 2 metres ahead, flanked on the left by a black metal stand and on the right by a low white display shelf holding grey shoes and dark ties about 1.5 metres away, with a mannequin's black trouser leg and white shoe just to the right of the shelf. Directly below at 0.3 to 0.5 metres and within arm's reach, the wearer's hands hold dark folded clothing above a red plastic shopping basket resting near their feet, while a black metal rack base sits on the floor to the lower right at about 0.6 to 0.8 metres. No other people are visible in the scene, and the upper portions of the mirror, wall, mannequin, and clothing rack are cropped out of the top and right edges of the field of view. Across the five frames, the camera wearer turns clockwise (to the right) and tilts further downward toward the floor, causing the mirror, white display shelf, and mannequin foot to sweep leftward and exit the top-left and top-right edges of the view by the fourth and fifth frames. Throughout this rotation, the red basket and folded dark garments remain directly in front of and below the wearer within arm's reach (0.3 to 0.5 metres), with the garments placed atop the basket by the final frame alongside the base of the black metal rack on the right."
+ },
+ "duration_seconds": 13.1443,
+ "usage": {
+  "input_tokens": 5415,
+  "output_tokens": 460,
+  "thinking_tokens": 54,
+  "cache_read_tokens": 28369,
+  "total_tokens": 5875
+ },
+ "conversation_id": "fd8e8d46-3434-4072-944d-0df60831d05a"
+}

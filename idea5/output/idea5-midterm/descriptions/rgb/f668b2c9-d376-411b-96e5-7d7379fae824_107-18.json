@@ -1,0 +1,18 @@
+{
+ "id": "f668b2c9-d376-411b-96e5-7d7379fae824_107-18",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a cluttered indoor room with light walls, two windows on adjacent walls, a round dark table in the lower foreground about 0.5 to 1 metre away within the camera wearer's arm's reach, a blue storage bin topped with a black box about 2.5 to 3 metres away against the wall, a white crib piled with items about 2 to 2.5 metres away, and a green shelf unit holding packaged goods along the left wall about 1 to 1.5 metres away. In frames 1 and 2, a standing child in a light blue top is roughly 1 to 1.5 metres in front of and slightly right of the camera wearer, facing away and toward the crib without looking at the camera wearer, within arm's reach of the crib and a white plastic bin to their right. Between frames 2 and 5, the camera wearer turns sharply to the left (counter-clockwise), causing the crib and standing child to exit the right side of the view while bringing the left wall, the green shelf, and a corner wheelchair into view on the left and center. By frames 4 and 5, the blue storage bin has shifted to the right background and two other children appear in the lower-left foreground within 0.3 to 1 metre of the camera wearer (within arm's reach) and about 0.3 metres from each other. One of these children sits in a dark chair below camera level about 0.8 to 1 metre away, facing right toward the round table within their arm's reach, while the closer child's head at the bottom-left edge (about 0.3 to 0.5 metres away) faces away to the right and partially occludes the seated child; neither looks toward the camera wearer. Throughout the sequence, the foreground children and round table are partially cropped by the bottom frame boundary, and motion blur during the rapid leftward turn in frames 3 and 4 obscures fine details."
+ },
+ "duration_seconds": 21.701816,
+ "usage": {
+  "input_tokens": 19584,
+  "output_tokens": 1045,
+  "thinking_tokens": 554,
+  "cache_read_tokens": 14210,
+  "total_tokens": 20629
+ },
+ "conversation_id": "d368a93c-9a22-4b02-84c8-b8600faae17c"
+}

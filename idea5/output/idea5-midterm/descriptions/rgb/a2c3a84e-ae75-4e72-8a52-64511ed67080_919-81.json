@@ -1,0 +1,18 @@
+{
+ "id": "a2c3a84e-ae75-4e72-8a52-64511ed67080_919-81",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living room with a round wooden coffee table directly in front of and below the camera wearer (roughly 0.5\u20131.2 metres away), a grey tufted armchair and matching loveseat to the front-left (about 1.5\u20133.5 metres away), and a dark media console with a TV and gaming console against the far wall below windows to the front-right (about 3.5\u20134.5 metres away). On the coffee table within or near the camera wearer's arm's reach are two teal mugs (one on the near right at about 0.5 metres and one on the left at about 0.8 metres), a small beige vase in the centre, and two board game boxes ('Sorry!' and another box) on the far side of the tabletop about 1.0\u20131.2 metres away. A person wearing glasses is seated immediately to the camera wearer's left (about 0.6\u20130.9 metres away), holding a smartphone in both hands just above the left edge of the table and within arm's reach of the left teal mug. This person's torso and head are oriented toward the right/front-right and pitched downward toward the smartphone in their hands, never looking toward the camera wearer. In frames 1 and 2, the person on the left is mostly cropped out of the left frame edge with only their arms, hands, and phone visible (the left hand raised in frame 1 and lowered to the phone in frame 2), where their body partially occludes the near tufted armchair. Across frames 3 to 5, the camera wearer turns and tilts their head slightly leftward and upward, bringing the seated person's head and upper torso progressively further into view on the left while shifting the right-side mug and lower tabletop partly out of the bottom-right frame."
+ },
+ "duration_seconds": 15.666192,
+ "usage": {
+  "input_tokens": 5406,
+  "output_tokens": 520,
+  "thinking_tokens": 58,
+  "cache_read_tokens": 28415,
+  "total_tokens": 5926
+ },
+ "conversation_id": "5da187cc-cda2-40a5-b14f-28eb8d9f22f5"
+}

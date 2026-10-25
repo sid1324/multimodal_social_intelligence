@@ -1,0 +1,18 @@
+{
+ "id": "7836e736-ef0a-40ed-9b77-b4c12a08b236_3090-06",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows the corner of an indoor room viewed from a low, reclining egocentric perspective, featuring a left wall that meets an adjacent right wall and a ceiling corner above. Mounted on the left wall roughly 2.0 to 2.5 metres in front of and above the camera wearer is an illuminated flat-screen television, with a white electrical switchboard about 0.2 metres to its left and a black speaker unit mounted directly below the switchboard. Higher up near the corner at roughly 2.5 to 3.0 metres distance, a short hook rack is mounted on the left wall above the right side of the television and a longer row of hooks is mounted higher on the right wall, while vertical conduit piping and hanging wires run above and below the electronics. No other people's faces or torsos are visible, so no one is facing or looking toward the camera wearer, though a pair of bare feet and the corner of a patterned bed cover appear at the bottom right foreground approximately 1.0 to 1.5 metres away. The bed surface in the lower foreground is near the limit of the camera wearer's reach while all wall fixtures are out of reach, and the rest of the bed, floor, and legs connected to the feet are occluded by the lower frame boundary. Across the five frames from left to right, the camera viewpoint remains nearly stationary with a slight upward tilt in the fifth frame, while the feet at the bottom edge shift slightly and one foot raises higher in the final frame."
+ },
+ "duration_seconds": 23.394546,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 921,
+  "thinking_tokens": 537,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20490
+ },
+ "conversation_id": "46761b94-3607-427e-b6e8-8d1b6699da76"
+}

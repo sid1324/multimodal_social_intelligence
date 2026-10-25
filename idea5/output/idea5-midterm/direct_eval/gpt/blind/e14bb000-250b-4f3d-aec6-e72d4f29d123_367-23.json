@@ -1,0 +1,1 @@
+{"id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23", "cond": "blind", "model": "gpt", "action_position": 1, "justification_position": 2, "raw": "{\"action\": 1, \"justification\": 2}", "meta": {"returncode": 0}, "seconds": 5.2, "attempts": 1}

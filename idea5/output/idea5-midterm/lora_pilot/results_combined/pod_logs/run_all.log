@@ -1,0 +1,254 @@
++ export HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false
++ HF_HUB_OFFLINE=1
++ TOKENIZERS_PARALLELISM=false
++ python eval_combined.py base rgb results/base_rgb.json --batch 8
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 60.73it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+8 3 s 18.1GB
+16 6 s 18.1GB
+24 8 s 18.1GB
+32 11 s 18.1GB
+40 13 s 18.1GB
+48 15 s 18.1GB
+56 17 s 18.1GB
+64 18 s 18.1GB
+72 20 s 18.1GB
+80 21 s 18.1GB
+88 23 s 18.1GB
+96 24 s 18.1GB
+104 26 s 18.1GB
+112 28 s 18.1GB
+120 29 s 18.1GB
+128 32 s 18.1GB
+136 34 s 18.1GB
+144 36 s 18.1GB
+152 37 s 18.1GB
+160 39 s 18.1GB
+168 41 s 18.1GB
+176 43 s 18.1GB
+184 45 s 18.1GB
+192 46 s 18.1GB
+200 48 s 18.1GB
+DONE base rgb parsed 200 / 200
++ python eval_combined.py base combined results/base_combined.json --batch 4
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 87.92it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+4 5 s 20.5GB
+8 8 s 20.6GB
+12 11 s 20.6GB
+16 15 s 20.6GB
+20 18 s 20.6GB
+24 21 s 20.6GB
+28 24 s 20.6GB
+32 28 s 20.6GB
+36 32 s 20.6GB
+40 35 s 20.6GB
+44 38 s 20.6GB
+48 41 s 20.6GB
+52 44 s 20.6GB
+56 47 s 20.6GB
+60 51 s 20.7GB
+64 54 s 20.7GB
+68 58 s 20.7GB
+72 61 s 20.7GB
+76 65 s 20.7GB
+80 68 s 20.7GB
+84 71 s 20.7GB
+88 74 s 20.7GB
+92 78 s 20.7GB
+96 81 s 20.7GB
+100 84 s 20.7GB
+104 87 s 20.7GB
+108 90 s 20.7GB
+112 94 s 20.7GB
+116 97 s 20.7GB
+120 100 s 20.7GB
+124 102 s 20.7GB
+128 105 s 20.7GB
+132 109 s 20.7GB
+136 112 s 20.7GB
+140 115 s 20.7GB
+144 118 s 20.7GB
+148 121 s 20.7GB
+152 123 s 20.7GB
+156 128 s 20.7GB
+160 131 s 20.7GB
+164 135 s 20.7GB
+168 138 s 20.7GB
+172 141 s 20.7GB
+176 145 s 20.7GB
+180 148 s 20.7GB
+184 151 s 20.7GB
+188 154 s 20.7GB
+192 158 s 20.7GB
+196 161 s 20.7GB
+200 164 s 20.7GB
+DONE base combined parsed 200 / 200
++ python eval_combined.py adapters/spatial combined results/spatial_s0_combined.json --batch 4
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 68.41it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+4 6 s 22.0GB
+8 10 s 22.1GB
+12 14 s 22.1GB
+16 17 s 22.1GB
+20 21 s 22.1GB
+24 24 s 22.1GB
+28 28 s 22.1GB
+32 32 s 22.1GB
+36 36 s 22.1GB
+40 40 s 22.1GB
+44 44 s 22.1GB
+48 48 s 22.1GB
+52 52 s 22.1GB
+56 56 s 22.1GB
+60 60 s 22.3GB
+64 64 s 22.3GB
+68 68 s 22.3GB
+72 72 s 22.3GB
+76 77 s 22.3GB
+80 80 s 22.3GB
+84 84 s 22.3GB
+88 89 s 22.3GB
+92 93 s 22.3GB
+96 97 s 22.3GB
+100 101 s 22.3GB
+104 105 s 22.3GB
+108 108 s 22.3GB
+112 112 s 22.3GB
+116 116 s 22.3GB
+120 120 s 22.3GB
+124 124 s 22.3GB
+128 128 s 22.3GB
+132 132 s 22.3GB
+136 136 s 22.3GB
+140 139 s 22.3GB
+144 144 s 22.3GB
+148 148 s 22.3GB
+152 151 s 22.3GB
+156 155 s 22.3GB
+160 160 s 22.3GB
+164 164 s 22.3GB
+168 168 s 22.3GB
+172 172 s 22.3GB
+176 176 s 22.3GB
+180 181 s 22.3GB
+184 185 s 22.3GB
+188 189 s 22.3GB
+192 193 s 22.3GB
+196 197 s 22.3GB
+200 201 s 22.3GB
+DONE adapters/spatial combined parsed 200 / 200
++ python eval_combined.py adapters/spatial_s2 combined results/spatial_s2_combined.json --batch 4
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 66.82it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+4 5 s 22.0GB
+8 9 s 22.1GB
+12 13 s 22.1GB
+16 17 s 22.1GB
+20 20 s 22.1GB
+24 24 s 22.1GB
+28 28 s 22.1GB
+32 32 s 22.1GB
+36 37 s 22.1GB
+40 41 s 22.1GB
+44 46 s 22.1GB
+48 50 s 22.1GB
+52 54 s 22.1GB
+56 58 s 22.1GB
+60 63 s 22.3GB
+64 67 s 22.3GB
+68 71 s 22.3GB
+72 75 s 22.3GB
+76 80 s 22.3GB
+80 84 s 22.3GB
+84 88 s 22.3GB
+88 93 s 22.3GB
+92 97 s 22.3GB
+96 101 s 22.3GB
+100 105 s 22.3GB
+104 109 s 22.3GB
+108 113 s 22.3GB
+112 118 s 22.3GB
+116 122 s 22.3GB
+120 127 s 22.3GB
+124 131 s 22.3GB
+128 135 s 22.3GB
+132 140 s 22.3GB
+136 145 s 22.3GB
+140 148 s 22.3GB
+144 153 s 22.3GB
+148 157 s 22.3GB
+152 161 s 22.3GB
+156 165 s 22.3GB
+160 170 s 22.3GB
+164 175 s 22.3GB
+168 180 s 22.3GB
+172 185 s 22.3GB
+176 189 s 22.3GB
+180 193 s 22.3GB
+184 198 s 22.3GB
+188 202 s 22.3GB
+192 207 s 22.3GB
+196 211 s 22.3GB
+200 216 s 22.3GB
+DONE adapters/spatial_s2 combined parsed 200 / 200
++ python eval_combined.py adapters/spatial rgb results/spatial_s0_rgb.json --batch 8
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 65.89it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+8 3 s 18.8GB
+16 5 s 18.8GB
+24 8 s 18.8GB
+32 10 s 18.8GB
+40 12 s 18.8GB
+48 14 s 18.8GB
+56 16 s 18.8GB
+64 19 s 18.8GB
+72 21 s 18.8GB
+80 23 s 18.8GB
+88 26 s 18.8GB
+96 28 s 18.8GB
+104 30 s 18.8GB
+112 33 s 18.8GB
+120 35 s 18.8GB
+128 37 s 18.8GB
+136 39 s 18.8GB
+144 42 s 18.8GB
+152 44 s 18.8GB
+160 46 s 18.8GB
+168 48 s 18.8GB
+176 50 s 18.8GB
+184 53 s 18.9GB
+192 55 s 18.9GB
+200 58 s 18.9GB
+DONE adapters/spatial rgb parsed 200 / 200
++ python eval_combined.py adapters/spatial_s2 rgb results/spatial_s2_rgb.json --batch 8
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 66.85it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+8 3 s 18.8GB
+16 5 s 18.8GB
+24 7 s 18.8GB
+32 9 s 18.8GB
+40 11 s 18.8GB
+48 13 s 18.8GB
+56 16 s 18.8GB
+64 18 s 18.8GB
+72 20 s 18.8GB
+80 23 s 18.8GB
+88 25 s 18.8GB
+96 27 s 18.8GB
+104 29 s 18.8GB
+112 31 s 18.8GB
+120 33 s 18.8GB
+128 36 s 18.8GB
+136 38 s 18.8GB
+144 40 s 18.8GB
+152 42 s 18.8GB
+160 44 s 18.8GB
+168 46 s 18.8GB
+176 48 s 18.8GB
+184 50 s 18.9GB
+192 53 s 18.9GB
+200 55 s 18.9GB
+DONE adapters/spatial_s2 rgb parsed 200 / 200
++ echo ALL_DONE
+ALL_DONE

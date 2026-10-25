@@ -1,0 +1,18 @@
+{
+ "id": "ec85a806-d47f-4555-8c4c-20f59927e580_1424-09",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a large paved outdoor yard featuring extensive rows of white moulded trays laid out on the ground to the left, a distant green-roofed building over 30 metres away in the background, and a multi-tiered wheeled metal rack cart holding blue plastic sheets in the immediate foreground. In the first frame, the metal rack cart is directly in front of the camera wearer within arm's reach at about 0.3 to 1.5 metres, partially occluding another rack cart roughly 3 to 5 metres behind it. In the second frame, the camera wearer turns left and tilts downward to reveal their own outstretched left hand in the lower foreground, a person in black clothing standing about 2 to 2.5 metres ahead to the left facing toward the camera wearer with their head cropped out by the top edge of the frame and their left hand within arm's reach of the blue sheets on the cart's far end, and a seated person in red about 4 to 5 metres away behind the cart. Across the third and fourth frames, the camera wearer turns slightly right to face the side of the rack cart at 0.5 to 1.5 metres while the person in black approaches to within 0.8 to 1.2 metres on the far left\u2014heavily cropped by the left frame boundary with only their arm and torso visible\u2014and the seated person in red remains partially occluded behind the metal grid roughly 3.5 to 4.5 metres away. In the fifth frame, the camera wearer turns sharply rightward toward the open paved area on the right side of the cart, bringing a vertical metal handle on the ground within 0.8 metres into view while a third person in a white top and red lower garment stands about 3 to 4 metres away in profile facing left toward the racks, partially occluded by the right edge of the foreground metal frame."
+ },
+ "duration_seconds": 46.139442,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 763,
+  "thinking_tokens": 300,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20324
+ },
+ "conversation_id": "dfe96912-d92b-4369-bc56-371db83a8b59"
+}

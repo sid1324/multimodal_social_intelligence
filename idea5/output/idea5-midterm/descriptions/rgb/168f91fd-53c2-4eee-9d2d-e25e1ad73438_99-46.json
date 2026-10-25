@@ -1,0 +1,18 @@
+{
+ "id": "168f91fd-53c2-4eee-9d2d-e25e1ad73438_99-46",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living area with a carpeted floor, white walls, a hallway entrance, a wooden table against a blue brick wall on the left, and a dark sofa beneath framed wall art on the right. In the first frame, the camera wearer holds a blue garment within arm's reach (about 0.3 to 0.5 metres ahead and partly cut off by the bottom edge of the view), while an orange cat stands on the wooden table about 1.5 metres to the left facing right, and two small bowls rest on the floor about 2.5 metres ahead near the hallway. Across the second, third, and fourth frames, the camera wearer rotates clockwise to the right to face the dark sofa roughly 1.5 to 2 metres in front of them, while continuing to hold and manipulate the blue cloth in the lower foreground within arm's reach. A patterned green-and-yellow pillow sits on the left end of the sofa about 1.5 metres away, separated by roughly 1.5 metres from a floor lamp and small side table at the far right end of the sofa (about 2.5 metres from the wearer), with several framed pictures hanging on the wall above the sofa. In the fifth frame, the camera wearer turns counterclockwise back toward the hallway and tilts their viewpoint upward toward the recessed ceiling lights, revealing a woman standing in the hallway about 3 to 3.5 metres ahead who faces and looks toward the camera wearer, with her lower legs cropped out by the bottom frame edge and a dark sliding door positioned to the right about 2.5 metres away."
+ },
+ "duration_seconds": 29.618086,
+ "usage": {
+  "input_tokens": 5420,
+  "output_tokens": 1043,
+  "thinking_tokens": 636,
+  "cache_read_tokens": 28413,
+  "total_tokens": 6463
+ },
+ "conversation_id": "ec31b097-5a20-4153-8cd2-d194e2f309d4"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "38b56399-3b1c-421d-8a80-1e5f54fcd667_806-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor tiled floor next to a low glass door or window with curtains on the right in frames 1\u20134 and directly ahead in frame 5, with no other people present besides the camera wearer and a Siamese cat. In frames 1\u20134, the camera wearer looks down at their own two hands held within arm's reach about 0.3\u20130.5 metres in front of the viewpoint, gripping red-and-black pliers and a white cylindrical tube above a rectangular wooden tray sitting on the floor about 1.0\u20131.5 metres below. Scattered on the tiled floor within 0.8\u20131.5 metres around the wooden tray are two orange-handled screwdrivers to the lower left, a white rod and hand tools near the bottom edge, a vertical scratching post to the right of the tray, and cardboard tubes and a small hacksaw further ahead (1.5\u20132.0 metres away). The camera wearer's forearms partially occlude the edges of the wooden tray beneath them, and in frames 1\u20134 the window, curtain, and surrounding tools are partly cut off at the frame borders. Across frames 2\u20134, the cat enters from the bottom right behind the right arm and moves onto its hind legs by the scratching post and window (about 1.2\u20131.5 metres from the camera wearer), facing away toward the glass and never looking at the camera wearer. Between frames 4 and 5, the camera wearer pitches and turns their head upward and to the right while lowering their arms toward the bottom left, shifting the wooden tray to the lower-left corner and centering the standing cat and frosted glass door about 1.2\u20131.8 metres ahead."
+ },
+ "duration_seconds": 14.335707,
+ "usage": {
+  "input_tokens": 19511,
+  "output_tokens": 452,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 14196,
+  "total_tokens": 19963
+ },
+ "conversation_id": "a01bbbdc-bd17-47ee-9b82-ce9c589c59fb"
+}

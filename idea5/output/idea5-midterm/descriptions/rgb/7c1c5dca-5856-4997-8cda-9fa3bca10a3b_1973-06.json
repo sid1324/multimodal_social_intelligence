@@ -1,0 +1,18 @@
+{
+ "id": "7c1c5dca-5856-4997-8cda-9fa3bca10a3b_1973-06",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor work area viewed from a downward-angled egocentric perspective above dirt and stone ground, with a raised platform and wooden post appearing on the left in the later frames. Directly in front of and below the camera wearer, extending from roughly 0.3 to 1.2 metres away, is a large rectangular glass pane with frosted striped borders that both the camera wearer and a second person hold within arm's reach. The second person stands opposite the glass to the upper right, approximately 1.0 to 1.5 metres from the camera wearer, with their body oriented toward the glass and the camera wearer while holding the far right edge with both hands. The second person's head and upper torso are out of view beyond the top-right edge of the frame, and in the second frame another person's sandaled feet are briefly visible at the bottom-right corner about 1.2 metres away. The reflective, blue-tinted glass surface partially occludes the ground below, the second person's legs, and the camera wearer's hands underneath it. Across the five frames, the pair shifts the glass sheet leftward and slightly closer to the raised structure on the left as the camera wearer moves their hands from gripping the near lower-left edge in frames one and two to supporting the underside of the glass with open palms in frames three through five."
+ },
+ "duration_seconds": 29.963765,
+ "usage": {
+  "input_tokens": 19519,
+  "output_tokens": 933,
+  "thinking_tokens": 579,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20452
+ },
+ "conversation_id": "268f02ad-7634-474b-a321-fb666197c460"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "31818126-5e0f-4b01-b532-1514587bceec_1514-30",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is inside a vehicle, with the dashboard and windshield directly in front, the roof and rear-view mirror above, and a seated person roughly 0.5\u20131 m ahead on the left in the driver\u2019s position. A dark blue vehicle is outside the left-front side, approximately 1\u20133 m away, while a low commercial building, trees, and a parking sign are farther ahead across the lot, roughly 10\u201330 m from the camera. The seated person faces mostly forward and slightly right, with their head seen from behind or in profile, and does not clearly look toward the camera wearer; in the middle frames one hand extends toward the center-right dashboard area, which is within their arm\u2019s reach. The windshield frame, roof pillars, dashboard, mirror, and the person\u2019s head and torso partially occlude the exterior, while portions of the cabin and outside vehicles are cut off at the left, right, top, and bottom edges. From left to right in time, the viewpoint turns from the left-side window and nearby blue vehicle toward the front windshield, briefly shifts around the seated person and center dashboard, and ends facing more forward-right; the main people and objects show little clear approach or retreat."
+ },
+ "duration_seconds": 10.2,
+ "usage": null,
+ "conversation_id": null
+}

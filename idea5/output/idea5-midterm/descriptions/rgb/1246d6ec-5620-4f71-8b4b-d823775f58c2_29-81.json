@@ -1,0 +1,18 @@
+{
+ "id": "1246d6ec-5620-4f71-8b4b-d823775f58c2_29-81",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor dining room featuring a recessed ceiling with a chandelier roughly 1.5 to 2 metres overhead and ahead, a curtained window on the far wall about 3.5 to 4.5 metres in front, a red armchair and floor lamp in the far-left corner about 3 to 4 metres away, and an open kitchen pass-through along the left wall about 2.5 to 4 metres away. Directly in front of and below the camera wearer is a dining table with a checkered tablecloth extending from about 0.3 to 1.2 metres away, with a foreground tissue box within the camera wearer's arm's reach at roughly 0.5 metres. A man in a grey sleeveless shirt sits at the table on the front left about 0.6 to 0.9 metres from the camera wearer, and a child in a white shirt sits across the table near the center about 1.2 to 1.5 metres from the camera wearer and roughly 1.0 to 1.2 metres to the right of the man. Plates of food, woven placemats, and a cup on the table are within arm's reach of the child and the man, who holds a fork near the table in the second frame; both the man and the child face generally toward the camera wearer and the table, though the man turns his head downward toward his food in the fifth frame. Across the five frames, the camera wearer's viewpoint pans right and tilts slightly downward from the first frame\u2014where the table, the child, and the man's torso are out of view below the bottom edge while the kitchen opening is fully visible\u2014to the second through fifth frames, where the table and child remain in view while the kitchen pass-through and the left side of the man's body are progressively cropped out at the left frame boundary."
+ },
+ "duration_seconds": 25.721748,
+ "usage": {
+  "input_tokens": 5304,
+  "output_tokens": 978,
+  "thinking_tokens": 515,
+  "cache_read_tokens": 28419,
+  "total_tokens": 6282
+ },
+ "conversation_id": "b6b8fc52-2c12-428c-96f8-dc5db26e4e16"
+}

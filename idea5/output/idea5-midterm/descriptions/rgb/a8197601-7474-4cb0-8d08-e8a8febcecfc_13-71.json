@@ -1,0 +1,18 @@
+{
+ "id": "a8197601-7474-4cb0-8d08-e8a8febcecfc_13-71",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor tiled walkway and raised entryway porch bordered on the right by a large green bush (about 1.5 to 2.5 metres away in the first two frames) and on the left by a house wall featuring a window, a dark doorway, and a portable basketball hoop with potted plants at its base. In frames 1 to 3, a child in a blue shirt, red shorts, and a green helmet walks away from the camera wearer along the narrow tiled corridor, retreating from roughly 2 metres in front of the wearer to about 4.5 metres away near a dark door in the background. Along the left wall of that corridor, two bicycles and a scooter are parked about 3 to 4 metres from the wearer, coming within arm's reach of the retreating child by frames 2 and 3 while the child faces away from the camera. Across frames 3 to 5, the camera wearer turns roughly 90 degrees to the left toward the raised porch steps, shifting the basketball hoop (about 2 to 2.5 metres away) and parked bicycles from the left side of the view to the right, where the first child becomes almost completely cut off at the right frame edge in frame 4 and exits the view by frame 5. As the camera turns left in frame 4, a second child's lower legs appear at the far left edge in front of the open dark glass doorway, about 2 metres away. In frame 5, this second child, wearing a blue-and-red striped shirt and dark shorts, stands on the porch about 1 to 1.5 metres in front of and slightly below the camera wearer, facing and looking upward toward the wearer while holding a pink-and-black bottle in their right hand and a green helmet in their left hand, with the camera wearer's left hand extending into the bottom-left foreground within arm's reach and a third person faintly visible and mostly occluded behind the dark glass door."
+ },
+ "duration_seconds": 18.947096,
+ "usage": {
+  "input_tokens": 19563,
+  "output_tokens": 735,
+  "thinking_tokens": 250,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20298
+ },
+ "conversation_id": "88695d71-b278-4435-8fe4-51ea9cc991a1"
+}

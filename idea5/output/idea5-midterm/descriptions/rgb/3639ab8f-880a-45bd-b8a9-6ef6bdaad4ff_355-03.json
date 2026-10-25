@@ -1,0 +1,18 @@
+{
+ "id": "3639ab8f-880a-45bd-b8a9-6ef6bdaad4ff_355-03",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands in front of a glass storefront window marked with large red \"SALE\" lettering, holding a smartphone in the lower-center foreground about 0.3 to 0.5 metres away, with both the phone and the glass pane (roughly 0.4 to 0.6 metres ahead) within arm's reach. Immediately behind the glass at 0.6 to 1.2 metres is a low display table holding belts, ties, shoes, and accessories, flanked on the left at 1.5 to 2.5 metres by two mannequins and a \"Flash Sale 25% off\" sign, and on the right at 1.5 to 3.5 metres by clothing racks in front of a rear window and mirror 4 to 5 metres away. In frames 1 and 2, the viewpoint is steady facing the left side of the display, then pans rightward in frames 3 and 4 to center on the right half of the foreground table (where boots and tan shoes sit behind the red letter \"L\") and the closer clothing racks, moving the mannequins and sign out of the left side of the frame. During frame 3, a second person wearing a dark mask appears in the lower-left foreground about 0.4 to 0.7 metres to the camera wearer's left\u2014within arm's reach of the camera wearer, the smartphone, and the glass\u2014facing rightward toward the phone screen rather than looking at the camera wearer. By frame 5, the viewpoint turns back leftward to its initial angle while the second person remains at the far left edge about 0.4 to 0.6 metres away, angled downward and rightward toward the phone, with most of their head and body cropped out by the left frame boundary and partially occluding the left table edge, while the held smartphone and red window letters partially occlude the merchandise behind them throughout the sequence."
+ },
+ "duration_seconds": 22.840539,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 1224,
+  "thinking_tokens": 753,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20801
+ },
+ "conversation_id": "b6b0ac8b-884a-4413-a11e-bd01f3ebfe8c"
+}

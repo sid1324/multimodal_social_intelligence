@@ -1,0 +1,18 @@
+{
+ "id": "dfe44f90-17f9-43eb-adf4-da35f15002ed_825-32",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer looks steeply downward at a floor-level workspace where their own lower body, draped in patterned orange fabric, occupies the bottom half of the frame about 0.3 to 0.6 metres below the camera, with their bare right foot extending forward near the centre-right. Roughly 0.6 to 0.8 metres ahead and below in the upper-right quadrant rests a shallow white circular tray containing small dark seeds or grains, while grey embroidered fabric and floral cloth lie on the floor to the left about 0.5 to 0.8 metres away. The camera wearer's right arm, wearing red and white bangles, reaches forward from the right side into the tray within arm's reach, touching a small wooden stick and the grains. In the upper-right corner, roughly 0.7 to 0.9 metres from the camera and less than 0.2 metres from the wearer's right hand, a second person's hand and wrist with bangles and yellow clothing reach into the opposite edge of the same tray, with the rest of both people's bodies out of view beyond the frame edges and the camera wearer's forearm partially occluding their own foot and the lower rim of the tray. Across the five frames, the camera viewpoint pans slightly to the left between the first and second frames\u2014bringing more of the tray and the second person's hand into view\u2014and then remains nearly stationary as both hands make small movements over the tray without either person approaching or retreating."
+ },
+ "duration_seconds": 12.96285,
+ "usage": {
+  "input_tokens": 19514,
+  "output_tokens": 387,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14213,
+  "total_tokens": 19901
+ },
+ "conversation_id": "5719c1f1-5465-4f25-a8c2-59a303c94dd8"
+}

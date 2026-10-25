@@ -1,0 +1,18 @@
+{
+ "id": "2d01625b-b7c4-41aa-989b-2d0b392d8b54_328-63",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place inside a retail room featuring a black horizontal clothing rack with hung garments and circular size dividers in the immediate foreground, backed by large glass windows with red circular decals, a doorway on the left, a white wall pillar on the right, and ceiling lights overhead. In Frame 1, the clothing rack is roughly 1.0 to 1.5 metres in front of the camera wearer, partially occluding two white mannequins standing about 2.5 to 3.5 metres away near the right pillar in front of the window. In Frames 2 and 3, the camera wearer turns their head to the left and tilts slightly upward, bringing the doorway, a white counter on the far left (about 2.5 to 3 metres away), and the left end of the rack (about 0.8 to 1.2 metres away) into view while the right side of the rack moves out of frame. In Frame 3, a person in dark clothing is visible behind the left end of the rack at roughly 2 to 3 metres distance, facing away from the camera wearer and occluded below the head and shoulders by the hanging clothes. In Frame 4, the camera wearer turns back to the right and steps closer so the rack is within arm's reach at about 0.5 to 0.8 metres in front, with the two mannequins visible again behind the rack on the right. In Frame 5, the camera wearer pans left once more while remaining within arm's reach (about 0.5 to 0.8 metres) of the rack's upper bar and hangers, which cut across the lower half of the view and occlude the body of the dark-clad person standing about 2 metres away near the window behind the rack."
+ },
+ "duration_seconds": 40.519911,
+ "usage": {
+  "input_tokens": 19620,
+  "output_tokens": 1130,
+  "thinking_tokens": 688,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20750
+ },
+ "conversation_id": "24a45350-e1d9-4bd2-a8cf-3bc1abc91b3e"
+}

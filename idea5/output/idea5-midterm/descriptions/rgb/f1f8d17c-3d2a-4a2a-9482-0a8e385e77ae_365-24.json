@@ -1,0 +1,12 @@
+{
+ "id": "f1f8d17c-3d2a-4a2a-9482-0a8e385e77ae_365-24",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is positioned directly over a black-and-yellow wheeled machine, with its black upper housing about 0.2\u20130.5 m ahead and below the camera and a large gray tire with a yellow hub about 0.5\u20130.9 m to the right-front. The wearer\u2019s forearms and hands extend into the lower center and right side, remaining within arm\u2019s reach of the machine\u2019s exposed fittings and nearby hand tools, while parts of the wearer\u2019s torso and arms occlude the lower foreground. Another person stands roughly 1\u20132 m in front of the wearer, visible mainly by their legs and shoes beyond the machine; their upper body and face are out of frame, so their facing direction and gaze cannot be determined. A red pedestal-like object stands behind the machine near the center-left, roughly 0.8\u20131.2 m away, and cardboard boxes and additional legs or partial bodies appear at the far right edge, partly cut off and about 1\u20132 m from the wearer. Across the five frames, the viewpoint shifts and turns slightly to the right, bringing the tire and right-side floor area more centrally into view while the machine remains close and the standing person stays at a similar distance; in the final frame, the wearer\u2019s right arm lifts upward and becomes more prominent along the right edge."
+ },
+ "duration_seconds": 10.4,
+ "usage": null,
+ "conversation_id": null
+}

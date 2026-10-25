@@ -1,0 +1,18 @@
+{
+ "id": "f5ac654b-8f39-427b-856f-4a9a2d4a3020_9-20",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow galley kitchen with a doorway at the far end leading into an adjacent room. In Frame 1, the camera wearer faces the right-side kitchen wall at a distance of about 0.6 to 1.0 metres from a white stove, countertop with a pan and kettle, a black microwave on a shelf, upper wooden cabinets above, and a white refrigerator to the left at roughly 1.5 metres, all within or near arm's reach. In Frames 2 and 3, the camera wearer turns left toward the doorway, bringing a bald, bearded man wearing glasses and a black shirt into view on the left at roughly 0.5 to 0.7 metres away\u2014well within arm's reach\u2014standing beside a left-side counter and upper wooden cabinet, while the white refrigerator shifts to the right side of the frame about 1.2 metres away. The bearded man faces toward his left (toward the camera wearer and the stove side of the kitchen) and looks directly at the camera wearer in Frame 3, while a second person in a red top is visible far behind him through the doorway in the distant room at roughly 5 to 6 metres away, facing toward the kitchen and partially occluded by the doorframe. In Frames 4 and 5, the camera wearer turns further left and tilts upward toward the left-side upper wooden cabinet doors at less than 0.4 metres away (within immediate reach), while the bearded man's head and glasses temple remain at the far left edge of the frame at less than 0.3 metres, mostly cropped out of view and partially occluding the left side of the cabinet."
+ },
+ "duration_seconds": 16.260844,
+ "usage": {
+  "input_tokens": 5412,
+  "output_tokens": 659,
+  "thinking_tokens": 241,
+  "cache_read_tokens": 28405,
+  "total_tokens": 6071
+ },
+ "conversation_id": "c5356fd3-fabe-4c98-a472-cec089bc162b"
+}

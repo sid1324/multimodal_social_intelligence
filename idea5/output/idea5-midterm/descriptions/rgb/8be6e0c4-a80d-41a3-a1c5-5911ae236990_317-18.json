@@ -1,0 +1,12 @@
+{
+ "id": "8be6e0c4-a80d-41a3-a1c5-5911ae236990_317-18",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show a living room, with bright windows along the far wall, a television displaying a fire near the wall, a tall decorated tree to the left, and tables and seating occupying the center and right side. In frame 1, a blurred person is about 1\u20132 m in front-right of the camera wearer and partly cut off, while the tree and television are roughly 3\u20135 m ahead; nearby furniture at the bottom edge is within about 1 m and partly out of view. As the camera turns right through frames 2\u20133, the foreground person moves out of view, and a seated person in blue becomes visible about 2\u20133 m ahead-right, facing mostly away from the camera toward the room\u2019s center. In frame 4, the seated person remains around 2\u20133 m ahead-right, while another person appears farther right near the windows at roughly 3\u20134 m; furniture and foreground blur intermittently occlude their lower bodies. By frame 5, two people occupy the right half: one seated about 2\u20133 m away facing leftward or away from the camera, and one standing near the far-right edge about 2\u20133 m away, partly cropped and oriented generally toward the seated person rather than directly toward the camera; they are approximately 1 m apart."
+ },
+ "duration_seconds": 12.8,
+ "usage": null,
+ "conversation_id": null
+}

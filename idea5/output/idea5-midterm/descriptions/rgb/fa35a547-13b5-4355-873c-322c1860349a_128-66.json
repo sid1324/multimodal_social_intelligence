@@ -1,0 +1,18 @@
+{
+ "id": "fa35a547-13b5-4355-873c-322c1860349a_128-66",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first three frames, the camera wearer stands facing a dark kitchen countertop within arm's reach (roughly 0.4\u20130.9 metres away) bounded by a wall on the right, a corner pillar at the back left, and a metal sink at the bottom left. On the counter from left to right are a green cloth and spray bottle by the sink (~0.6 metres away), a paper towel roll in a metal holder (~0.8 metres away), a cylindrical canister (~0.7 metres away), a black coffee maker against the right wall (~0.8 metres away), a closed white produce bag in the middle (~0.6 metres away), two small clusters of yellow lemons on the right (~0.6\u20130.7 metres away), and a pink-trimmed mesh bag of green beans in the near foreground (~0.3\u20130.4 metres away) held open by the camera wearer's two hands. A second person stands immediately to the camera wearer's right (~0.5\u20130.7 metres away), largely out of frame except for their left forearm and hand resting on the right edge of the counter in frames 1\u20133, and their dark torso on the far right in frame 4. In frame 4, the camera wearer turns rightward and looks down past the right edge of the counter, shifting the counter and its contents toward the left edge of the view and revealing a black-and-white dog on the floor below (~1.0\u20131.2 metres away) next to a cardboard box and a trash can (~1.2\u20131.5 metres away) along the right wall. By frame 5, the camera wearer bends down closer to the floor alongside the wooden cabinet doors under the counter on the left (~0.5\u20130.8 metres away), placing both the camera wearer's right hand and the second person's extended left arm within arm's reach (~0.4\u20130.6 metres) above the dog's back and head while the dog faces right toward the wall corner."
+ },
+ "duration_seconds": 11.904458,
+ "usage": {
+  "input_tokens": 19621,
+  "output_tokens": 564,
+  "thinking_tokens": 58,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20185
+ },
+ "conversation_id": "ce9ab836-237b-49c8-99ea-63a0c9c5b737"
+}

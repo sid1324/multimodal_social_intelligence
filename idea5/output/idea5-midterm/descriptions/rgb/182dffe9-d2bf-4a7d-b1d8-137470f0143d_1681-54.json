@@ -1,0 +1,18 @@
+{
+ "id": "182dffe9-d2bf-4a7d-b1d8-137470f0143d_1681-54",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor desert campsite on sandy ground with a metal picnic table in the immediate foreground, a group of people seated in a circle 2 to 5 metres ahead, and rocky hills in the distant background. Directly in front of the camera wearer within arm's reach (0.5 to 1 metre away) is a metal mesh picnic table holding an open camp stove, a blue water bottle on the left, and plastic bags and gear on the right. In frames 1 and 2, the camera wearer looks downward toward the table while a person in a bright blue shirt sits on a dark cooler about 1.5 to 2 metres ahead with their back turned, partially occluding a circle of three seated people 3 to 5 metres away in folding chairs, and the lower legs of a standing person are partly visible at the top left about 3.5 metres away. In frame 3, the camera pitches up and pans slightly left, bringing the standing person (3.5 metres ahead on the left, facing right and holding a small item within their reach) and a distant blue tent (about 10 to 12 metres away) into full view, while the seated group remains on the right facing inward toward each other and away from the camera wearer. Across frames 4 and 5, the camera wearer pans significantly to the right as the blue-shirted person and seated group shift to the far left edge of the frame and become partially cropped out of view. This rightward turn reveals another person standing on the right about 1 metre away\u2014within arm's reach of the right end of the picnic table\u2014wearing a dark shirt and baseball cap, facing left in profile toward the table and looking down at an object held in their hands rather than at the camera wearer."
+ },
+ "duration_seconds": 34.042278,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 532,
+  "thinking_tokens": 89,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20154
+ },
+ "conversation_id": "22077349-2a0d-47ee-86f9-43f29ebcebf7"
+}

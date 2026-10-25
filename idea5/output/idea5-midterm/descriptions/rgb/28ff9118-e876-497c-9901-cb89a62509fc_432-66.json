@@ -1,0 +1,18 @@
+{
+ "id": "28ff9118-e876-497c-9901-cb89a62509fc_432-66",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living area featuring two facing beige couches about 2 to 2.5 metres apart, a television on a dark stand at the far wall between them, yellow curtains along the right wall, and bookshelves and a brown chair with a black bag on the right in the initial frame. In the first frame, a seated woman on the right-hand couch is roughly 4.5 to 5 metres ahead and to the left of the camera wearer, while the brown chair is about 2.5 metres ahead on the right and a yellow package held in the camera wearer's hand is at the bottom within arm's reach. The woman sits at the near end of the right-hand couch facing left toward the opposite couch while turning her head and gaze toward the camera wearer, with an orange pillow on her lap and a phone held in her left hand within her arm's reach. Across the five frames, the camera wearer walks forward and turns slightly leftward into the space between the two couches, causing the bookshelves and brown chair to pass out of view on the right while a small white rolling cart at the near end of the left couch enters and then exits the left edge of the frame. As the camera wearer approaches, the distance to the seated woman decreases from roughly 4.5 metres in frame 1 to about 3.5 metres in frame 2, 2.5 metres in frame 3, 1.5 metres in frame 4, and under 1 metre in frame 5. By the fourth and fifth frames, the camera wearer extends the yellow package forward and down toward the woman, bringing it within arm's reach of both people as she looks down at the package and places her right hand on it above her lap."
+ },
+ "duration_seconds": 12.116225,
+ "usage": {
+  "input_tokens": 19523,
+  "output_tokens": 458,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 14206,
+  "total_tokens": 19981
+ },
+ "conversation_id": "b64a5e79-0ffe-4425-bcfc-55d1f47c0667"
+}

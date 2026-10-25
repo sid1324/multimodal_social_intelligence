@@ -1,0 +1,12 @@
+{
+ "id": "e18a43a4-1e7b-4478-bc7f-16cb55a8ac16_875-97",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is on a narrow sidewalk bordered by deep snowbanks, with a residential street roughly 6\u201310 m ahead or to the left and houses about 20\u201340 m away across it. Several cars are visible along the street, generally 12\u201330 m from the camera wearer and separated from one another by several metres; no people are visible in any frame. Large tree trunks stand close to the viewpoint, about 1\u20133 m away, appearing on the left in frames 1\u20132, near the lower-left edge in frame 3, and on the right in frame 5; the nearest trunks are beyond normal arm's reach. The sidewalk continues forward between the snowbanks, while portions of the path, trees, parked cars, and houses are intermittently occluded by the snowbanks, close trunks, and frame edges. Across the five frames, the viewpoint turns and tilts from looking diagonally across the street to looking more directly down the sidewalk, then back across the street, making the nearby trunks sweep from left to right while the distant houses and cars shift oppositely in the image."
+ },
+ "duration_seconds": 14.3,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,12 @@
+{
+ "id": "64049385-6855-4eed-8b3c-ce3e8d704008_1157-10",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer faces a long service counter spanning the foreground, with an open kitchen, metal hood, appliances, and wall-mounted screens behind it; the counter closes from roughly 2\u20133 m away in frame 1 to about 0.5\u20131 m away in frame 5. A worker behind the counter remains in front of the camera wearer, initially about 3 m away and left of center, then appears near center and about 1\u20131.5 m away as the wearer approaches; the worker faces generally toward the camera and appears to look toward it in the later frames. The worker holds a white plastic bag in front of and below their torso, and by frames 4\u20135 the bag extends across the counter to within the camera wearer\u2019s arm\u2019s reach while remaining within the worker\u2019s reach. A second person is partly visible farther behind the counter near the left side in the first frames, while another dark-clothed figure is intermittently visible near the back-right work area about 3\u20135 m from the camera and several metres from the nearer worker. Across the sequence, the camera moves forward and slightly right, causing the near worker and bag to enlarge and shift toward center-left, while the counter edge rises in the view and increasingly occludes the worker\u2019s lower body; peripheral tables, chairs, and portions of the kitchen move partly out of frame."
+ },
+ "duration_seconds": 11.5,
+ "usage": null,
+ "conversation_id": null
+}

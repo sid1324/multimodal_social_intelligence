@@ -1,0 +1,18 @@
+{
+ "id": "95f2caf6-c6f5-4471-9763-2957e248eb58_503-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in an indoor climbing gym featuring thick blue floor mats beneath angled climbing walls in the background and a narrow unpadded walkway in the immediate foreground. In the first two frames, a man in a white soccer jersey ('Fly Emirates' on the front, 'JAMES 10' on the back) stands within arm's reach about 1 to 1.5 metres directly in front of the camera wearer, facing and looking generally toward the wearer's right, while a seated man in a white t-shirt and grey pants sits on the blue mat edge about 2 metres away to the front-right. Further back on the blue mat, approximately 2.5 to 5 metres to the left and rear-left, a man in a brown hoodie and white pants walks toward the foreground while two other people stand near the climbing wall, and a woman in a striped shirt stands partially cropped at the far left edge about 1 to 1.5 metres away facing the mat. In frame 3, the camera wearer turns rightward and pitches slightly downward, bringing the soccer-jersey man to the left foreground at about 1 metre away, revealing the seated man centered on the mat about 2 metres ahead, and showing a person in a dark shirt standing at the far right edge about 1.5 metres away. Across frames 4 and 5, the camera wearer rotates left and moves into a tight cluster of people on the walkway while the man in the white soccer jersey turns completely around with his back to the camera at less than 1 metre distance (well within arm's reach), temporarily occluding much of the mid-ground in frame 4. By frame 5, the soccer-jersey man stands on the left facing away, a person in a dark jacket over a red shirt stands centrally facing the camera wearer at about 1 metre away within arm's reach, and the woman in the striped shirt stands to the right at about 1.2 metres facing away toward the blue mat, with all foreground individuals cropped below the knees or waist by the frame edges."
+ },
+ "duration_seconds": 30.476596,
+ "usage": {
+  "input_tokens": 19616,
+  "output_tokens": 722,
+  "thinking_tokens": 220,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20338
+ },
+ "conversation_id": "2ff16a07-ffe2-4f81-83c2-5da0e9ebe0e5"
+}

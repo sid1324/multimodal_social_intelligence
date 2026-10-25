@@ -1,0 +1,58 @@
+{
+ "spatialladder3b-qwen25vl3b:rgb": {
+  "diff": -12.0,
+  "lo": -19.5,
+  "hi": -4.5,
+  "p": 0.0031560602510210594,
+  "n": 200
+ },
+ "spatialladder3b-qwen25vl3b:rgb_forced": {
+  "diff": -11.5,
+  "lo": -18.5,
+  "hi": -4.5,
+  "p": 0.0021901868838920535,
+  "n": 200
+ },
+ "mindcube3b-qwen25vl3b:rgb": {
+  "diff": -5.5,
+  "lo": -13.5,
+  "hi": 2.0,
+  "p": 0.20003136851310313,
+  "n": 200
+ },
+ "mindcube3b-qwen25vl3b:rgb_forced": {
+  "diff": -3.0,
+  "lo": -9.0,
+  "hi": 2.5,
+  "p": 0.4050322461407632,
+  "n": 200
+ },
+ "spacer7b-qwen25vl7b:rgb": {
+  "diff": -0.5,
+  "lo": -5.5,
+  "hi": 4.5,
+  "p": 1.0,
+  "n": 200
+ },
+ "spacer7b-qwen25vl7b:rgb_forced": {
+  "diff": -0.5,
+  "lo": -6.0,
+  "hi": 5.0,
+  "p": 1.0,
+  "n": 200
+ },
+ "spatialssrl7b-qwen25vl7b:rgb": {
+  "diff": 1.5,
+  "lo": -3.0,
+  "hi": 6.0,
+  "p": 0.6636238098144531,
+  "n": 200
+ },
+ "spatialssrl7b-qwen25vl7b:rgb_forced": {
+  "diff": 5.5,
+  "lo": 1.0,
+  "hi": 10.5,
+  "p": 0.03468966484069824,
+  "n": 200
+ }
+}

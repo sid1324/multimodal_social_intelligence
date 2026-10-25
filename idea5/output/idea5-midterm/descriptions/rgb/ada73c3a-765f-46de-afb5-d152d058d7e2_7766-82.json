@@ -1,0 +1,18 @@
+{
+ "id": "ada73c3a-765f-46de-afb5-d152d058d7e2_7766-82",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor lounge with a dark brown floor, a white rug, a glass coffee table roughly 2.5 to 3 metres in front of the seated camera wearer, and a rear wall with a painting on the left and windows on the right about 4.5 to 5 metres away. Directly in front of the camera wearer within arm's reach (0.4 to 0.7 metres away) is a large open pink patterned tote bag resting on a dark couch or seat between the camera wearer's raised left foot in a hiking boot on the lower left and a small open black case on the lower right. A standing person in a blue jacket and dark pants is positioned about 1.8 to 2.2 metres directly ahead in front of the coffee table, facing the camera wearer with their head cropped out above the top edge of the frame while holding a smartphone within their own arm's reach. Another seated person is partially visible at the far right edge about 1 to 1.5 metres away\u2014about 1.5 metres to the right of the standing person\u2014facing left and holding a phone, while a third person's lower legs and shoes appear partially in view at the far left edge about 2.5 to 3 metres away. Across the five frames, the camera wearer's right arm extends upward toward the standing person in frame 1, grasps the right rim of the pink bag in frame 2 as the camera tilts downward to bring the bag closer and crop out the standing person above the knees, then lowers through frame 3 and retreats mostly out of the bottom frame by frames 4 and 5. Meanwhile, as the camera tilts back up in frames 3 to 5, the standing person remains in place facing forward and turns their smartphone in their left hand in frame 5 so its screen faces directly toward the camera wearer."
+ },
+ "duration_seconds": 15.741892,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 750,
+  "thinking_tokens": 288,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20329
+ },
+ "conversation_id": "955185f2-b37d-4740-938d-f7e631ce93f3"
+}

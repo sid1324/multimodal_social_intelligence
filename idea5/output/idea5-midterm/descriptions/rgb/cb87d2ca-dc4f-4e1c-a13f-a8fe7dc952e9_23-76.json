@@ -1,0 +1,18 @@
+{
+ "id": "cb87d2ca-dc4f-4e1c-a13f-a8fe7dc952e9_23-76",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living area with grey carpet, a green wall on the far left, a wooden cabinet with shelving on the left-to-center background, and a black hearth and fireplace immediately to the right of the cabinet. In the first frame, the cabinet and fireplace are roughly 1.5 to 2.5 metres in front of the camera wearer, while a medium-sized white and brown dog stands on the floor below the viewpoint about 1 to 1.5 metres away, facing toward the camera wearer with its head near the bottom center edge. A small book or magazine lies on the carpet directly in front of the cabinet's open lower shelf, about 0.5 metres to the left of the dog, and a green toy lies on the floor further to the right in the middle frame. Across the second and third frames, the camera wearer pitches downward and approaches or leans closer to the floor (bringing the cabinet base within 1 to 1.5 metres), while the dog turns and circles in front of the camera wearer within roughly 0.5 to 1 metre, facing away and to the left in the second and third frames before turning back toward the camera wearer in the fourth frame. In the fourth frame, the dog approaches to within arm's reach (under 0.6 metres) at the lower right, looking directly up toward the camera wearer with its lower body partly cropped by the bottom frame edge. By the fifth frame, the dog moves slightly back to about 0.8 to 1.2 metres in front of the camera wearer and crouches low on the carpet facing left, while the camera wearer's bare toes become partly visible at the bottom right edge and the upper portions of the cabinet and fireplace remain cropped out of view at the top."
+ },
+ "duration_seconds": 14.168873,
+ "usage": {
+  "input_tokens": 19573,
+  "output_tokens": 512,
+  "thinking_tokens": 71,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20085
+ },
+ "conversation_id": "9daa15f5-640d-4544-9abc-dece17664b8b"
+}

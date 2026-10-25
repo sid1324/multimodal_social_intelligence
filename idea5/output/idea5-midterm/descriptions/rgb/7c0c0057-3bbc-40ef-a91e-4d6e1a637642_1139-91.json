@@ -1,0 +1,18 @@
+{
+ "id": "7c0c0057-3bbc-40ef-a91e-4d6e1a637642_1139-91",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor floor workspace viewed directly downward from the camera wearer, who is kneeling on a floor partly covered with dark wood-grain laminate planks over a dark speckled underlayment, bordered by white walls and a doorway. The camera wearer's own torso, knees, and outstretched arms are in the lower foreground, with their hands resting on the floor about 0.5 to 0.7 metres below the head-mounted camera and spaced roughly 0.3 to 0.5 metres apart. In the first three frames, the wearer faces a white wall corner directly ahead (about 0.6 to 0.8 metres away) with a metal putty knife lying on the planks between and slightly ahead of their hands, within arm's reach at roughly 0.6 metres from the camera. Between frames 2 and 5, the camera wearer rotates clockwise by roughly 90 degrees and shifts backward/rightward onto the unplanked underlayment section while repositioning their hands closer to their knees along the exposed plank edges. By frame 5, the putty knife lies further to the left (about 0.8 metres away), a red-and-black tool and a hand tool rest on the underlayment to the far right (about 0.8 to 1.0 metre away), and a second person's hand and lower leg appear partially in view at the top right edge, roughly 1.0 to 1.2 metres in front of the wearer. Most of the second person's body, the upper walls, and the surrounding room are outside the downward-angled field of view, while the wearer's torso and arms partially occlude the floor directly beneath them."
+ },
+ "duration_seconds": 14.994725,
+ "usage": {
+  "input_tokens": 19514,
+  "output_tokens": 445,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 14199,
+  "total_tokens": 19959
+ },
+ "conversation_id": "5339aab9-1dea-46f0-9836-b96136ffac6a"
+}

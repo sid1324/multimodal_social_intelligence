@@ -1,0 +1,18 @@
+{
+ "id": "4c6f009a-f0ca-4557-8723-4111761e0a9a_879-68",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place inside an enclosed elevator cabin with a light-colored paneled wall directly ahead, a vertical metallic control panel with buttons and an illuminated floor display on the left side of that wall, and a dark reflective wall with a horizontal handrail and a blue sign along the right side. A woman in a white shirt and blue jeans stands in the far-right corner roughly 1.5 to 2.0 metres in front of the camera wearer, positioned immediately beside the right-hand wall (where her reflection appears to her right) and about 0.6 to 0.8 metres to the right of the vertical control panel. She faces and looks toward the camera wearer with her hands clasped below her waist, while her body partially occludes the rear corner and the far end of the right handrail. The rear wall, corner handrail, and elevator button panel are within or near the woman's arm's reach, whereas the woman is beyond the camera wearer's arm's reach and only the nearer section of the right wall and handrail is close to the camera wearer. The lower legs of the woman, the floor, and the lower portion of the blue sign on the right are cut off by the bottom edge of the frame. Across the five frames, the camera wearer turns and shifts slightly leftward and backward between frames 1 and 3\u2014causing the woman to shift from left-of-center to right-of-center in the view and bringing the left control panel and far-left doorframe into sight\u2014before both the camera wearer and the woman remain stationary in frames 3 through 5."
+ },
+ "duration_seconds": 24.249452,
+ "usage": {
+  "input_tokens": 19516,
+  "output_tokens": 1019,
+  "thinking_tokens": 619,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20535
+ },
+ "conversation_id": "d6d46ad9-5bfd-4f5a-a28c-2c2d8062937d"
+}

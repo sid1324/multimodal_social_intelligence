@@ -1,0 +1,18 @@
+{
+ "id": "53bab63b-b6fa-494c-9dc7-c3fe61f234de_999-56",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor clearing featuring a wooden picnic table immediately in front of the camera wearer, bordered behind by a curved gravel path and grass roughly 3 to 10 metres away, and a dense line of tall trees about 15 to 30 metres in the background. Directly across the table at a distance of approximately 1.0 to 1.2 metres sits a person wearing a blue headband and glasses, facing toward the camera wearer with their head angled downward toward the tabletop and their right hand resting against their chin. In the first frame, several objects rest on the table within arm's reach (0.3 to 0.8 metres) of both the camera wearer and the seated person: an orange cylindrical cup and lid on the left, several small white dice near the center-left, and a cluster of a yellow notepad, pen, smartphone, dark case, blue water bottle, and hat about 0.2 to 0.6 metres to the right. The tabletop occludes the seated person's lower body, while the person's torso and head occlude the section of the gravel path directly behind them. Between the first and third frames, the camera wearer tilts their head upward and holds that higher pitch through the fifth frame, bringing the upper tree canopy and sky into view while shifting the tabletop, the objects on it, and the seated person's arms and lower torso out of view below the bottom edge of the frame."
+ },
+ "duration_seconds": 36.689408,
+ "usage": {
+  "input_tokens": 19624,
+  "output_tokens": 1047,
+  "thinking_tokens": 673,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20671
+ },
+ "conversation_id": "68955212-e02b-415a-9d53-3a4161e1fdfc"
+}

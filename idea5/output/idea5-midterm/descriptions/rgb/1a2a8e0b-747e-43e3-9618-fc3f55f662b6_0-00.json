@@ -1,0 +1,18 @@
+{
+ "id": "1a2a8e0b-747e-43e3-9618-fc3f55f662b6_0-00",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen with a counter and double sink beneath a window on the left-to-center wall, upper wooden cabinets above, a stove with cookware and an overhanging dark cabinet on the right, and an adjacent hallway with an open white door roughly 2 to 3 metres to the right. A person in a dark shirt stands in front of the counter between the sink and the stove, roughly 1.5 to 2 metres in front of and slightly to the left of the camera wearer, while the overhanging right cabinet and stove edge are within the camera wearer's arm's reach at about 0.4 to 0.8 metres. Across the visible kitchen frames, the person faces rightward and slightly away toward the counter and blender, looking down at the workspace and never looking toward the camera wearer. The stove burners, pans, kettle, paper towel roll, and blender sit within the other person's arm's reach (0.3 to 0.6 metres in front of them), while the dark upper cabinet on the right occludes part of the right wall and the lower edge of the frame cuts off both people's lower bodies. Across the five frames, the camera wearer turns their head sharply to the right in frames 2 and 3\u2014panning past the overhanging cabinet to bring the right-side stove kettle and the hallway door into view while the person moves out of frame to the left\u2014before turning back leftward in frames 4 and 5 to face the kitchen at a slightly closer distance (about 1.2 to 1.5 metres from the person), revealing more of the stove top, frying pan, and kettle in the lower right foreground."
+ },
+ "duration_seconds": 17.683793,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 727,
+  "thinking_tokens": 306,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20304
+ },
+ "conversation_id": "44ad5426-509f-4e80-8d07-641145adb9e9"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "b9fd76c5-1f9b-4d82-b9ee-2e0615561765_364-29",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor paved roadway intersection at dusk with a white-striped crosswalk ahead, bordered by curbed medians, small trees, tall streetlamps about 10 to 30 metres away, and low-rise buildings further in the background at roughly 50 to 100 metres. A single person wearing a yellow shirt is positioned very close to the camera wearer at approximately 0.5 to 1 metre away, within arm's reach, while all background structures and poles are well out of reach. Only this person's head and upper shoulders are visible above the bottom edge of the frame, with the rest of their body cropped out of view below, and their head partially occludes the curb and road immediately behind them. Throughout all five frames, the person faces forward and slightly to the left in profile, looking ahead and slightly downward along the road rather than toward the camera wearer. Across the first three frames, the person is in the lower-left foreground while the camera points rightward toward the roadside trees and buildings. In the fourth and fifth frames, the camera wearer turns their head to the left to face the crosswalk and road ahead, shifting the person into the lower-right foreground as both move forward onto the crosswalk."
+ },
+ "duration_seconds": 12.782925,
+ "usage": {
+  "input_tokens": 5306,
+  "output_tokens": 375,
+  "thinking_tokens": 47,
+  "cache_read_tokens": 28412,
+  "total_tokens": 5681
+ },
+ "conversation_id": "987b42ca-62e6-4cf0-ace1-01aba499534d"
+}

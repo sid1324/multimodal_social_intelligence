@@ -1,0 +1,18 @@
+{
+ "id": "864618d9-cc17-4e90-8c64-7a1e4ba23d17_294-04",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open, fenced dirt or gravel dog park bordered by bare trees in the background, about 20 to 30 metres ahead and to the left. In the first two frames, three dogs are roughly 6 to 15 metres in front of the camera wearer\u2014a black-and-tan dog in the centre-right, a white dog slightly behind and to its left, and a black-and-white dog further left\u2014while several people stand near the perimeter fence 15 to 25 metres away facing into the enclosure. A person in a red hat is partially visible at the far left edge of the frame within 1 metre of the camera wearer in frames 2 and 4, mostly cut off by the field of view. Across frames 1 to 3, the camera pitches downward toward the ground as the black-and-tan dog runs directly toward the camera wearer, closing the distance from about 10 metres to about 1.5 metres before passing out of the bottom of the view. Meanwhile, the white dog approaches from about 12 metres away in the upper-left of frame 3 to about 3 metres in front of the camera wearer in frame 4, facing and looking toward the camera wearer while the black-and-white dog remains about 8 metres behind it to the left. By frame 5, the camera looks sharply down at the ground where the white dog is at the lower-left within 1 to 1.5 metres\u2014just entering arm's reach next to the camera wearer's outstretched left arm and a yellow leash at the bottom edge\u2014while the distant fence and people are completely out of view above the frame."
+ },
+ "duration_seconds": 14.755454,
+ "usage": {
+  "input_tokens": 19582,
+  "output_tokens": 500,
+  "thinking_tokens": 74,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20082
+ },
+ "conversation_id": "177b0f58-5017-41f9-bd1e-c7d1e174dd9f"
+}

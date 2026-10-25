@@ -1,0 +1,18 @@
+{
+ "id": "3c9ce1b1-9eaa-4e3d-9ebb-91f9d904178e_1420-03",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor, night-lit golf driving range where the camera wearer stands at a hitting bay with an open grass field to the left and a row of bays delineated by yellow dividers extending straight ahead. Directly below and in front of the camera wearer (about 1 to 1.5 metres away, within reach of the held golf club) is a green hitting mat holding a teed white golf ball, bordered at its front edge (about 1.5 to 2 metres away) by a black ball tray, a grey divider, a blue basket of balls on the front-right corner, and three spare clubs lying on the grass just to the right (about 0.3 to 0.5 metres from the mat). Beyond a yellow lane marker roughly 3 to 4 metres ahead, another person stands on a second green mat about 8 to 10 metres directly in front of the camera wearer, with a standing golf bag on the grass about 3 to 4 metres to that person's right (roughly 9 to 11 metres ahead-right of the camera wearer) and more distant bags and figures 15 to 30 metres further down the line. The person 8 to 10 metres ahead has their back turned to the camera wearer, faces right toward the driving field while holding a club within their own arm's reach, and never looks toward the camera wearer. In the first frame, the camera is pitched sharply downward toward the wearer's own legs stepping backward off the mat, keeping the forward bays entirely out of view; across frames 2 through 5, the viewpoint pitches up to face down the bay line (dipping slightly in frame 4 so the person ahead is cropped out at the top edge, after being partially cropped at the waist in frame 2) while the wearer brings both hands together on the club, lifts the clubhead high in front of the view in frame 3, and lowers it onto the mat behind the teed ball in frames 4 and 5 without either person approaching or retreating."
+ },
+ "duration_seconds": 24.373955,
+ "usage": {
+  "input_tokens": 19558,
+  "output_tokens": 1325,
+  "thinking_tokens": 825,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20883
+ },
+ "conversation_id": "f37cfd7b-8bdf-4380-a5ca-37f427a4f3a6"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "bb04b03d-ae0d-416a-8c4c-b2325edec070_287-86",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show an indoor entrance area opening onto a tiled driveway, with a low table near the doorway, chairs and water containers farther inside, and parked cars outside. In the first two frames, another person is partly visible about 0.5\u20131 m in front-right of the camera wearer, with only an arm and torso seen; their hand reaches leftward to a tray or placemat on the table, which is within arm\u2019s reach of both people. As the camera wearer turns right across frames 2\u20134, the table and person move out of view to the left, while a wall-mounted fan, nearby chair, doorway edge, and bright exterior sweep from the center toward the left; several indoor objects are partially occluded by furniture, the wall, or frame boundaries. In frames 3\u20134, the doorway and wall are within roughly 0.5\u20131 m, and the exterior is initially overexposed, obscuring objects beyond it. By frame 5, the camera faces outside: a silver car is about 1\u20132 m ahead-left, a red car is roughly 3\u20135 m ahead-right, and several distant people stand about 8\u201315 m away near the building, too small to determine whether they look toward the camera."
+ },
+ "duration_seconds": 10.1,
+ "usage": null,
+ "conversation_id": null
+}

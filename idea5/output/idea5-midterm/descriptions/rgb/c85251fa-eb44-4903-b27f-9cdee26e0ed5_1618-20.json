@@ -1,0 +1,18 @@
+{
+ "id": "c85251fa-eb44-4903-b27f-9cdee26e0ed5_1618-20",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor residential street flanked by houses, parked vehicles, utility poles, and trees on both sides, with an elongated puddle along the left edge of the road ahead and overhead power lines and tree foliage above. In front of the camera wearer, two pedestrians walk side by side along the left-center of the road\u2014one on the left in a white sleeveless top and shorts and one on the right in a yellow t-shirt and white pants\u2014separated from each other by about 1 metre, while a white SUV is parked on the right roadside and a white sedan is parked on the left roadside. Both pedestrians face away from the camera wearer down the street and never turn or look toward the camera wearer across the sequence. Across the five frames, the camera wearer moves rapidly forward down the road, approaching the two pedestrians from roughly 25\u201330 metres away in the first frame to about 4\u20135 metres directly behind them in the fifth frame. As the camera wearer advances, the parked white SUV on the right passes from about 15 metres ahead in frame 1 to partially out of view on the right in frame 2, and the parked white sedan on the left, utility poles, and signage pass from roughly 15\u201320 metres ahead in frame 1 to behind the field of view after frame 4. Throughout all five frames, nothing is within arm's reach of the camera wearer, while the two pedestrians remain within arm's reach of each other as low-hanging tree branches overhead partially occlude the upper right sky in the final frame."
+ },
+ "duration_seconds": 14.627435,
+ "usage": {
+  "input_tokens": 5322,
+  "output_tokens": 603,
+  "thinking_tokens": 205,
+  "cache_read_tokens": 28412,
+  "total_tokens": 5925
+ },
+ "conversation_id": "46efeb6a-c385-4a46-9a88-0b9632a5227e"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "ed027cb2-5b92-4de2-ab58-69d42325ef15_1281-72",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor clothing retail space with a grey floor, a glass-paned entrance door on the left, a clothing rack in the immediate foreground, and a slatted display wall with a vertical mirror on the right. In the first two frames, a metal rack holding blue jeans and a white fluffy garment is directly in front of the camera wearer within arm's reach at about 0.4 to 0.8 metres, while the edge of a person in a burgundy top is partially visible at the bottom-left edge of Frame 1. In Frame 3, the camera pitches up and pans slightly left as a person in a black hooded jacket stands about 1.5 to 2.5 metres ahead in front of the glass doors, facing away from the camera wearer and partially occluded from the waist down by the clothing rack. In Frame 4, the camera wearer turns sharply to the right, bringing a person with brown hair in a burgundy top into the immediate right foreground at roughly 0.4 to 0.6 metres (within arm's reach), facing away toward the slatted display wall and mirror located about 2.5 to 3 metres ahead. On that wall, a grey top hangs above dark trousers to the left of the mirror, and the mirror reflects people standing in the room. By Frame 5, the person in the burgundy top moves almost entirely out of the right edge of the frame, leaving an unobstructed view of the display wall, a small low white shelf with shoes on the left at about 2 to 2.5 metres, and the top of the clothing rack at the bottom edge within 0.5 metres."
+ },
+ "duration_seconds": 47.289698,
+ "usage": {
+  "input_tokens": 5409,
+  "output_tokens": 505,
+  "thinking_tokens": 91,
+  "cache_read_tokens": 28420,
+  "total_tokens": 5914
+ },
+ "conversation_id": "6d8be5c0-f327-4c92-9c4d-d1c9e6bcf4d3"
+}

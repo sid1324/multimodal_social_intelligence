@@ -1,0 +1,18 @@
+{
+ "id": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_1607-58",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor stone staircase bordered by white walls, a brown door on a landing about 1.5 to 2 metres ahead to the right, and a tubular stainless-steel handrail with vertical posts positioned directly in front of the camera wearer within 0.3 to 0.6 metres. In frames 1 through 4, the camera wearer's extended left hand grips the inclined upper handrail at about 0.4 metres distance while their right hand holds a small yellow spirit level against a vertical baluster post just below the rail, with the wearer's torso and legs out of view below the bottom edge. In frames 1 to 4, a second person standing lower down the stairs to the left is almost entirely occluded and out of the frame, with only their left hand visible gripping the lower section of the handrail about 0.8 to 1.0 metre below and to the left of the camera wearer. Behind the foreground handrail and vertical posts, three ascending stone steps are visible on the left at roughly 0.8 to 1.5 metres distance, partially occluded by the metal railing. Between frames 4 and 5, the camera wearer turns their head sharply to the left and slightly upward while shifting their left arm across the bottom-right foreground, bringing the lower stairwell and the second person fully into view as the brown door on the right moves out of frame. In frame 5, this man in a yellow plaid shirt stands on the lower stairs about 1.2 to 1.5 metres away to the left and below the camera wearer, facing toward the camera wearer's position while looking slightly downward, with his left hand resting on the handrail end within his arm's reach and his right hand holding an angle grinder at his side."
+ },
+ "duration_seconds": 13.886205,
+ "usage": {
+  "input_tokens": 19560,
+  "output_tokens": 594,
+  "thinking_tokens": 156,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20154
+ },
+ "conversation_id": "e67fbaf4-ac61-4343-9dd5-531256c30930"
+}

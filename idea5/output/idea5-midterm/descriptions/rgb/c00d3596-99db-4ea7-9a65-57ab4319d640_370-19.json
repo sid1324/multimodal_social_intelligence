@@ -1,0 +1,18 @@
+{
+ "id": "c00d3596-99db-4ea7-9a65-57ab4319d640_370-19",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor dirt yard where flat rows and columns of molded clay bricks stamped with 'SUV' cover the ground in front of the camera wearer from roughly 0.5 metres out to 5 metres away, bordered on the left by a vertical wall of stacked bricks about 0.5 to 1.5 metres away. Within arm's reach at the bottom foreground (0.3 to 0.6 metres away), the camera wearer's two hands hold a rectangular brick mold above the dirt floor, while a bicycle and the lower legs of a distant person standing beside it are partly visible near the top edge about 4 to 5 metres ahead. In frames 1 and 2, the wearer looks downward across the brick grid with the mold resting on the ground at the bottom edge, partly cropped out of view, and the stacked brick wall extending along the upper left. In frame 3, the viewpoint pitches further downward and closer to the ground as both hands lift and invert the mold about 0.4 metres in front of the wearer, depositing a new brick onto the front end of the left-most ground column in frame 4 while the hands draw the mold back to the bottom edge. By frame 5, the camera wearer turns their head and gaze toward the right and slightly upward, rotating the left-hand brick wall and the wearer's hands completely out of view while bringing open dirt ground on the right and the lower wheels of the bicycle and adjacent person's feet at the top-left into view."
+ },
+ "duration_seconds": 28.033703,
+ "usage": {
+  "input_tokens": 19523,
+  "output_tokens": 1145,
+  "thinking_tokens": 757,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20668
+ },
+ "conversation_id": "e02f9a28-0dd2-4370-a4a6-b7d7348e6f73"
+}

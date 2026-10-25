@@ -1,0 +1,18 @@
+{
+ "id": "5c9b85ea-24a9-4bfd-8ac2-4ca6f9090231_3247-42",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open-front ice cream stall bordered by a front counter with clear display cases and topping jars in the foreground, a back wall with wooden upper cabinets, shelving, and overhead menu boards above a stainless steel sink and blenders on the left, and an adjacent outdoor walkway visible on the far right in the first frame. In the first frame, the camera wearer stands near the right end of the counter within arm's reach (0.5\u20131.0 m) of the glass display case, while a worker in a cap and mask stands about 2 m away behind the counter facing right and looking down with their lower body occluded by the counter, and a distant pedestrian on the right walkway is about 8\u201310 m away facing away alongside a partially visible person at the far right edge about 2 m away. Across the second and third frames, the camera wearer moves leftward along the exterior of the counter and pans left, cropping out the outdoor walkway and bringing the back-left sink and blenders (about 2\u20132.5 m away) into full view, while the worker turns toward the camera wearer and becomes partially occluded behind the tall clear display case at about 1.5\u20131.8 m distance. In the fourth frame, the worker steps leftward into the gap between the glass display case on the right and the sink counter on the left, approaching to about 1.2\u20131.5 m while facing and looking toward the camera wearer and holding a cup of pink ice cream in their right hand. By the fifth frame, the worker leans forward to about 0.8\u20131.0 m directly in front of the camera wearer, extending the cup into the shared arm's-reach space where the camera wearer's right hand enters the lower foreground to grasp it, with the worker's lower body and the rest of the camera wearer's body occluded below the bottom edge of the frame."
+ },
+ "duration_seconds": 29.771972,
+ "usage": {
+  "input_tokens": 19632,
+  "output_tokens": 1325,
+  "thinking_tokens": 852,
+  "cache_read_tokens": 14213,
+  "total_tokens": 20957
+ },
+ "conversation_id": "26261554-d134-44f1-885b-822c4ba5440f"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "9e08a7b1-eb04-4d11-bb0b-f4cd42f0a819_3434-14",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The downward-angled egocentric view shows an open reddish-brown brick-paved floor with the camera wearer's striped-shirted torso, patterned pants, and shoes at the bottom center (0 to 0.6 m away). A person in a dark top, maroon leggings, and red shoes stands roughly 0.8 to 1.2 metres to the front-right, angled inward toward the space in front of the camera wearer while holding a clear green-capped bottle and a dark object within their own grasp and near the outer limit of the camera wearer's right-arm reach. To the front-left, roughly 0.8 to 1.2 metres from the camera wearer and 1.5 to 2.0 metres from the person on the right, stands a second person in white sweatpants and white sneakers whose feet point inward toward the camera wearer, while a third person's feet appear 3 to 4 metres ahead at the top-right edge in the first two frames before moving out of view. Because of the steep downward camera pitch, the heads and upper bodies of the surrounding people are cropped out of the frame, preventing direct observation of their faces or gaze directions, and the person on the left is completely out of the field of view in frame 3 as the camera turns slightly right. Across the five frames, the camera wearer raises both hands from waist level (frames 1-2) up into the upper foreground within 0.3 to 0.5 metres of the lens (frame 3) before lowering them back toward chest and waist height (frames 4-5), while the two flanking people remain at roughly constant distances as the viewpoint shifts slightly right and then back left."
+ },
+ "duration_seconds": 16.308909,
+ "usage": {
+  "input_tokens": 19462,
+  "output_tokens": 909,
+  "thinking_tokens": 481,
+  "cache_read_tokens": 14320,
+  "total_tokens": 20371
+ },
+ "conversation_id": "3f5d176e-9641-4ccd-b3a4-ff128865f157"
+}

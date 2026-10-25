@@ -1,0 +1,12 @@
+{
+ "id": "235b49d2-b59c-4079-81cc-ad9c01dbd2df_22-56",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a workshop with a large yellow machine in front of the camera wearer, a tool-covered bench along the left side, shelves and equipment around the perimeter, and an open concrete-floor area between them. In the first frame, the yellow machine is roughly 1.5\u20132 m ahead-left, the bench is about 0.5\u20131 m to the left, and another person is partly visible near the far side of the machine about 2\u20133 m away, facing generally away or sideways and not visibly looking toward the camera wearer. Across the five frames, the camera wearer approaches the machine until its front mechanism is within roughly 0.3\u20130.6 m and arm's reach, while the viewpoint turns progressively right and downward so the machine fills more of the upper and central view. The camera wearer's orange-gloved hands move from the lower foreground toward the machine, holding red-handled tools, with the hands about 0.3\u20130.7 m from the camera and close together over the machine by the middle frames. A wooden board and black hose lie across the upper portion of the machine, while metal brackets, wheels, and controls overlap and partly occlude one another; the machine and frame edges also increasingly hide the distant person and much of the left-side bench."
+ },
+ "duration_seconds": 12.3,
+ "usage": null,
+ "conversation_id": null
+}

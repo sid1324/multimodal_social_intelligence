@@ -1,0 +1,18 @@
+{
+ "id": "7acd59a8-ed64-4a99-a469-3d5529a4098a_270-66",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a grocery aisle alongside a multi-tiered white shelving unit located about 0.4 to 2.0 metres in front of and to the right of the camera wearer. On the upper shelf near eye level (0.5 to 1.0 metres away), coffee filters, a red Folgers canister, and blue microwavable pasta cups sit spaced 0.1 to 0.2 metres apart from left to right, while the middle shelf below holds boxed pasta, purple DaVinci gnocchi boxes, Wish-Bone dressing bottles, and yellow mustard bottles above a bottom shelf of cracker boxes. Within arm's reach in the lower foreground (0.3 to 0.5 metres away), a right hand with painted blue fingernails enters from the right\u2014with the rest of the arm and body out of view\u2014holding a purple DaVinci potato gnocchi box that partially occludes the middle and lower shelves behind it. Across frames 1 to 3, the viewpoint shifts slightly upward and closer to the upper shelf while the hand tilts the purple box to expose its back panel. In frames 4 and 5, the camera turns leftward and tilts downward, bringing a red shopping basket and a left hand in a dark sleeve into view at the bottom left (0.3 to 0.5 metres away, within arm's reach) to grasp the opposite side of the box about 0.2 metres from the right hand, while glass-door coolers appear in the background 4 to 6 metres ahead."
+ },
+ "duration_seconds": 21.056589,
+ "usage": {
+  "input_tokens": 19625,
+  "output_tokens": 1073,
+  "thinking_tokens": 683,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20698
+ },
+ "conversation_id": "b6ef26bc-123d-4a8e-a6a4-409b647b882e"
+}

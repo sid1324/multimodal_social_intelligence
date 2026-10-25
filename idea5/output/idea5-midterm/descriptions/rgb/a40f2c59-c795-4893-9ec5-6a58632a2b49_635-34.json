@@ -1,0 +1,12 @@
+{
+ "id": "a40f2c59-c795-4893-9ec5-6a58632a2b49_635-34",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is inside a small bus, looking forward along a narrow aisle bordered by rows of high-backed seats, with windows and a bright building exterior on the right. A man in a white shirt and dark trousers moves from roughly 3\u20134 m ahead near the right side of the aisle to less than 1 m in front-right of the camera; he generally faces the camera wearer and appears to look toward them in the later frames. Another person is visible about 3\u20134 m ahead on the left in the first frame, partly hidden by seat backs and then largely or completely out of view. The nearest seat backs are within arm\u2019s reach of the camera wearer, while the approaching man comes within arm\u2019s reach only in the final frame; nearby seats are also within his reach throughout. Across the five frames, the white-shirted man approaches along the aisle with slight body turns, grows progressively larger, and becomes partly cropped by the right edge, while the seats and bus interior remain fixed."
+ },
+ "duration_seconds": 11.0,
+ "usage": null,
+ "conversation_id": null
+}

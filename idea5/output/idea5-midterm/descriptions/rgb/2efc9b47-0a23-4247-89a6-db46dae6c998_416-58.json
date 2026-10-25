@@ -1,0 +1,18 @@
+{
+ "id": "2efc9b47-0a23-4247-89a6-db46dae6c998_416-58",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor construction site viewed steeply from above, featuring a narrow brick wall running diagonally through the center with a shaded gap containing loose red bricks and a second brick wall to its left (1 to 2 metres away) and sunlit dirt ground scattered with rocks and thin metal rods to its right (2 to 3 metres below). Directly in front of and below the camera wearer within arm's reach (0.4 to 0.8 metres away) are a round green basin filled with grey mortar on the lower left and the top edge of the brick wall immediately adjacent to it on the right, while the camera wearer's own right hand holding a metal trowel is 0.4 to 0.7 metres away. No complete people or faces are visible facing toward or away from the camera wearer, though the camera wearer's red shirt, blue jeans, and foot appear partially at the bottom edge in frames 3 and 5, and an orange-gloved hand or object protrudes partly into view at the far-left edge about 1 metre away in frame 2. The mortar basin, the trowel, and the top course of the brick wall remain within the camera wearer's arm's reach throughout the sequence, whereas the loose bricks and rocks on the ground below are out of reach and the mortar basin is partly cropped by the lower-left frame border in frames 1, 3, and 5. Across the five frames, the camera viewpoint shifts slightly left in frame 2 and rotates slightly counter-clockwise by frame 5, while the camera wearer's right hand moves the trowel from inside the mortar basin in frames 1 and 2, outward to the right onto the top of the brick wall in frame 3, back into the basin in frame 4, and out to the wall again in frame 5."
+ },
+ "duration_seconds": 22.456085,
+ "usage": {
+  "input_tokens": 19516,
+  "output_tokens": 1272,
+  "thinking_tokens": 820,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20788
+ },
+ "conversation_id": "fe3b9947-34a3-4d50-b1bc-3b6c927dc5d6"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "81fb9f8f-be18-4833-a899-4fbcef82a634_2169-64",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer looks downward at a floor workspace where three circular metal containers sit closely grouped within 0.1 to 0.2 metres of one another: a foreground tray with yellow filling and a spoon about 0.4 to 0.6 metres directly in front, a bowl with white dough about 0.6 to 0.8 metres away to the middle-right, and a plate holding three shaped dumplings and tongs about 0.8 to 1.0 metres ahead in the upper-center, with a lit hearth opening visible roughly 1.1 metres away in the upper-left. Partial views of people appear around the perimeter\u2014a person in red fabric along the left edge about 0.4 to 0.6 metres away, an additional reaching arm entering from the left in the first two frames, and another person's hands at the upper-right edge about 1.0 to 1.2 metres away behind the upper plate and dough bowl. Because all participants are cropped by the left, bottom, and top-right frame boundaries, their heads and torsos are out of view and it is not visible whether anyone looks toward the camera wearer, though their forearms and hands are oriented inward toward the central containers. The foreground yellow tray, the right-side dough bowl, and the upper dumpling plate are all within arm's reach of the camera wearer and the surrounding seated individuals, while the upper-right person's hands remain just above the upper plate holding a small piece of dough. In frame 1, an outstretched right arm from the left reaches across to the right-side dough bowl and partially occludes the foreground tray and the left person's hand, then retreats leftward across frame 2 and exits the view by frame 3. From frames 3 through 5, the scene layout and camera position remain steady as the two remaining hands on the left converge above the upper-left rim of the foreground tray, about 0.5 metres from the camera wearer, holding a small round dough ball."
+ },
+ "duration_seconds": 31.302175,
+ "usage": {
+  "input_tokens": 19560,
+  "output_tokens": 1772,
+  "thinking_tokens": 1280,
+  "cache_read_tokens": 14200,
+  "total_tokens": 21332
+ },
+ "conversation_id": "c2abfa37-8e35-410b-ab14-cc41f55cbc5e"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "2ac65951-49b0-4629-981e-edc34b8cdb0f_1091-69",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor park featuring a paved asphalt path flanked by grass lawns, with no other people present in any of the five frames. In the first frame, a black lamppost stands on the left edge about 2 metres from the camera wearer, while a white fence and houses sit 20 to 40 metres away across the left lawn, and a tree, a small sign post, and a picnic table lie ahead along the path between 10 and 20 metres away. Further in the background to the right of the tree, a playground structure and a red-roofed pavilion are positioned roughly 25 to 35 metres ahead, partially occluded by the tree and a row of bushes. Across the five frames, the camera wearer moves rapidly forward along the path\u2014possibly riding or running\u2014passing the lamppost completely after the first frame and passing the small right-hand sign post by the fourth frame. As the camera wearer advances and pitches slightly downward and rightward in the final two frames, the tree shifts to the upper left about 4 to 6 metres away while the maroon picnic table on its concrete pad approaches on the right from roughly 18 metres in the first frame to about 3 metres in the fifth frame. Nothing is within arm's reach of the camera wearer throughout the sequence, though the paved path surface lies directly below and the sign post and picnic table pass within a few metres on the right."
+ },
+ "duration_seconds": 19.330448,
+ "usage": {
+  "input_tokens": 19630,
+  "output_tokens": 579,
+  "thinking_tokens": 212,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20209
+ },
+ "conversation_id": "978cb75d-2ce3-45a2-b358-f7c3325f5746"
+}

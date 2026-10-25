@@ -1,0 +1,18 @@
+{
+ "id": "2a97736a-4fff-4753-84de-e6586a5603cc_2711-38",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor paved area at night with a lit building roughly 15 to 25 metres ahead in the background and distant lights scattered to the left and right. Directly in front of the camera wearer, at a distance of about 0.4 to 0.6 metres in the first four frames, stands a person wearing a dark shirt and a red-and-white helmet who faces away from the camera wearer and never looks toward them. Within arm's reach, the camera wearer's gloved hands extend forward to hold a glowing red light against the upper back and collar of the person in front, while a bicycle is positioned below and to the right of that person, roughly 1 to 1.5 metres from the camera wearer and within arm's reach of the person. The person's head and torso in the center foreground partially occlude the paved ground and the background building, while the person's lower body, the lower portion of the bicycle, and the base of the camera wearer's arms are cropped out of view at the bottom of the frame. Across the five frames, both of the camera wearer's hands remain at the person's upper back through frame 3, the right hand drops out of view in frame 4, and by frame 5 the separation increases to about 0.8 to 1.0 metre with the camera wearer's extended left hand touching the person's left shoulder, the person raising their right hand to their helmet, and more of the bicycle's seat and frame coming into view on the lower right."
+ },
+ "duration_seconds": 18.456836,
+ "usage": {
+  "input_tokens": 19521,
+  "output_tokens": 1092,
+  "thinking_tokens": 690,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20613
+ },
+ "conversation_id": "f736e7fd-dc25-4b9a-bec9-3ee8e3b63595"
+}

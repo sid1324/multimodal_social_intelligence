@@ -1,0 +1,1 @@
+{"step": 90, "args": {"arm": "R0", "out": "adapters/R0_s1", "steps": 90, "seed": 1, "prompts": 8, "group": 8, "lr": 1e-05, "beta": 0.04, "max_new": 384, "micro": 4, "save_every": 50}, "stopped_early": false}

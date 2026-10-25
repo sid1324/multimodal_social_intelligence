@@ -1,0 +1,18 @@
+{
+ "id": "b71166c2-c723-4f91-89b7-3a484e14079e_1586-58",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows an indoor room where a light-colored vertical wall meets a grey ceiling along a horizontal upper crease directly in front of and above the camera wearer at roughly 0.4 to 0.7 metres distance. No other people are present in the scene, and the camera wearer faces the upper section of the wall with the wall corner to the left (about 0.6 to 0.8 metres away) and the top-left corner of a window frame with blinds to the lower right (about 0.5 to 0.7 metres away). The camera wearer's right arm extends upward from the bottom edge into the lower-center and right foreground, holding a paintbrush at roughly 0.4 to 0.5 metres from the viewpoint. The wall surface, ceiling crease, paintbrush, and upper window trim are all within arm's reach of the camera wearer. The wearer's hand and paintbrush partially occlude the small patch of wall directly behind them, while the rest of the camera wearer's body below the forearm, the lower window, and the room to the left of the corner are mostly out of view (except in frame 5, where a sliver of an adjacent dark doorway or room appears at the far lower left). Across the 5 frames, the camera viewpoint shifts slightly rightward and pans up from frames 1 to 4 while the right hand moves the paintbrush horizontally along the upper wall near the ceiling line, before the camera turns leftward and tilts downward in frame 5 as the hand reaches higher toward the left side of the crease."
+ },
+ "duration_seconds": 12.791605,
+ "usage": {
+  "input_tokens": 19563,
+  "output_tokens": 455,
+  "thinking_tokens": 59,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20018
+ },
+ "conversation_id": "8704326c-757a-41d9-be55-6114ec5ca964"
+}

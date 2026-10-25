@@ -1,0 +1,18 @@
+{
+ "id": "9fc3678b-86e2-44ab-adbc-9aeda78ceb60_992-74",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an unfinished indoor room with plastered grey walls, a high ceiling, and an elevated bamboo scaffolding platform bridging the space above a sunlit floor below. In frames 1, 2, and 5, the camera wearer looks upward toward the scaffolding roughly 2.5 to 4 metres away and above, where a man in a patterned shirt, blue jeans, and cap stands on the central bamboo poles facing and looking toward the camera wearer while holding a small yellow tool, and a second person in a pink shirt and jeans stands about 1.5 to 2 metres to his right (closer to the foreground on the right edge, roughly 2 metres from the camera wearer) facing away toward the right wall and partly cropped by the right frame boundary. On the lower-left bamboo poles about 1 to 1.5 metres in front of the camera wearer rests a plastering float, while in frame 2 a rectangular block is mid-air just to the right of the central man, and in frame 5 the yellow tool is mid-air just above his raised hands within his arm's reach. In frame 3, the camera wearer pitches their head sharply downward to look at the floor and lower scaffolding directly in front and below, where a black rectangular bucket, a mortar pan on the right, and a white circular pan sit within arm's reach (about 0.5 to 1.5 metres away), and a blue basin lies on the floor further ahead (about 2 to 2.5 metres away) alongside the camera wearer's cast shadow. In frame 4, the camera wearer tilts their head back up toward the underside and front edge of the bamboo scaffolding roughly 1 to 3 metres ahead and above (with the blue basin still visible below on the left and the upper room obscured in dark shadow), before returning in frame 5 to the upward view of the man on the scaffolding."
+ },
+ "duration_seconds": 16.712527,
+ "usage": {
+  "input_tokens": 19519,
+  "output_tokens": 527,
+  "thinking_tokens": 59,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20046
+ },
+ "conversation_id": "c0e6d294-a90d-4f3a-bc3a-22937577bee5"
+}

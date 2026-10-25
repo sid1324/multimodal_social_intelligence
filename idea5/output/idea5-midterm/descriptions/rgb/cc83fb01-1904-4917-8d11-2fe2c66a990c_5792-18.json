@@ -1,0 +1,12 @@
+{
+ "id": "cc83fb01-1904-4917-8d11-2fe2c66a990c_5792-18",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, a woman stands directly in front of the camera wearer at roughly 0.3\u20130.6 m, leaning close enough that her face, upper torso, and hands are partly cropped; she faces and generally looks toward the camera through glasses, with a mask covering her lower face in most frames. Another person stands about 1\u20132 m behind her on the left, facing roughly toward the camera, but is partly occluded by the foreground woman and partly cut off at the top and left edges. A parked scooter or motorcycle is immediately behind and to the woman\u2019s right, roughly 0.7\u20131.5 m from the camera wearer, while parked cars and the curb lie farther back on the right at approximately 2\u20135 m. The woman\u2019s hands and forearms remain within the camera wearer\u2019s arm\u2019s reach near the bottom center, and the scooter is within her arm\u2019s reach on her right; her body blocks much of the central background. From frames 1\u20134 she stays close and shifts slightly across the center while tilting or turning her head, then in frame 5 she moves toward the right side and turns partly sideways, exposing more of the person and street behind her while remaining very near the camera."
+ },
+ "duration_seconds": 12.8,
+ "usage": null,
+ "conversation_id": null
+}
