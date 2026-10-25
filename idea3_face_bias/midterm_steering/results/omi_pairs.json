@@ -1,0 +1,4060 @@
+{
+ "rule": {
+  "gap": 15,
+  "null_gap": 3,
+  "calipers": {
+   "happy": 5,
+   "age": 8,
+   "gender": 15
+  },
+  "same_race": true
+ },
+ "trust_pairs": [
+  {
+   "high": "118",
+   "low": "710",
+   "diff": {
+    "trustworthy": 23.9,
+    "happy": 0.1,
+    "age": 0.3,
+    "gender": 1.8,
+    "attractive": 14.1,
+    "dominant": 13.0
+   }
+  },
+  {
+   "high": "400",
+   "low": "216",
+   "diff": {
+    "trustworthy": 16.8,
+    "happy": 0.9,
+    "age": 0.3,
+    "gender": 0.4,
+    "attractive": -6.9,
+    "dominant": -7.2
+   }
+  },
+  {
+   "high": "851",
+   "low": "979",
+   "diff": {
+    "trustworthy": 16.1,
+    "happy": 0.9,
+    "age": -0.2,
+    "gender": 1.5,
+    "attractive": -7.5,
+    "dominant": -7.1
+   }
+  },
+  {
+   "high": "131",
+   "low": "369",
+   "diff": {
+    "trustworthy": 19.6,
+    "happy": -0.0,
+    "age": -2.3,
+    "gender": 0.2,
+    "attractive": -2.0,
+    "dominant": 3.1
+   }
+  },
+  {
+   "high": "537",
+   "low": "6",
+   "diff": {
+    "trustworthy": 16.6,
+    "happy": 0.1,
+    "age": -0.8,
+    "gender": 2.9,
+    "attractive": 19.5,
+    "dominant": 9.1
+   }
+  },
+  {
+   "high": "543",
+   "low": "900",
+   "diff": {
+    "trustworthy": 16.0,
+    "happy": -1.4,
+    "age": 0.6,
+    "gender": 1.1,
+    "attractive": -1.1,
+    "dominant": -11.7
+   }
+  },
+  {
+   "high": "586",
+   "low": "942",
+   "diff": {
+    "trustworthy": 22.1,
+    "happy": -1.0,
+    "age": 0.5,
+    "gender": 2.6,
+    "attractive": 19.4,
+    "dominant": 10.1
+   }
+  },
+  {
+   "high": "119",
+   "low": "611",
+   "diff": {
+    "trustworthy": 16.9,
+    "happy": 0.6,
+    "age": 2.3,
+    "gender": -0.5,
+    "attractive": -12.1,
+    "dominant": 3.6
+   }
+  },
+  {
+   "high": "61",
+   "low": "262",
+   "diff": {
+    "trustworthy": 15.0,
+    "happy": 1.9,
+    "age": 0.4,
+    "gender": 1.1,
+    "attractive": -6.7,
+    "dominant": 0.3
+   }
+  },
+  {
+   "high": "625",
+   "low": "517",
+   "diff": {
+    "trustworthy": 15.7,
+    "happy": -1.4,
+    "age": 1.6,
+    "gender": 0.6,
+    "attractive": -0.6,
+    "dominant": -7.1
+   }
+  },
+  {
+   "high": "335",
+   "low": "63",
+   "diff": {
+    "trustworthy": 16.5,
+    "happy": 1.1,
+    "age": 2.3,
+    "gender": -0.5,
+    "attractive": 8.5,
+    "dominant": -12.8
+   }
+  },
+  {
+   "high": "767",
+   "low": "763",
+   "diff": {
+    "trustworthy": 18.0,
+    "happy": -0.7,
+    "age": 2.0,
+    "gender": -2.2,
+    "attractive": 5.6,
+    "dominant": -4.3
+   }
+  },
+  {
+   "high": "381",
+   "low": "521",
+   "diff": {
+    "trustworthy": 15.3,
+    "happy": 0.1,
+    "age": 3.8,
+    "gender": -1.0,
+    "attractive": -18.1,
+    "dominant": -7.4
+   }
+  },
+  {
+   "high": "582",
+   "low": "608",
+   "diff": {
+    "trustworthy": 16.7,
+    "happy": -0.0,
+    "age": 3.2,
+    "gender": 2.3,
+    "attractive": -2.6,
+    "dominant": -9.5
+   }
+  },
+  {
+   "high": "447",
+   "low": "287",
+   "diff": {
+    "trustworthy": 15.0,
+    "happy": 0.4,
+    "age": 3.9,
+    "gender": -0.4,
+    "attractive": 1.4,
+    "dominant": -8.9
+   }
+  },
+  {
+   "high": "186",
+   "low": "903",
+   "diff": {
+    "trustworthy": 16.6,
+    "happy": -2.2,
+    "age": 1.1,
+    "gender": 0.4,
+    "attractive": 2.9,
+    "dominant": -3.9
+   }
+  },
+  {
+   "high": "880",
+   "low": "553",
+   "diff": {
+    "trustworthy": 18.2,
+    "happy": 0.1,
+    "age": -2.8,
+    "gender": -3.6,
+    "attractive": 27.7,
+    "dominant": 8.6
+   }
+  },
+  {
+   "high": "588",
+   "low": "764",
+   "diff": {
+    "trustworthy": 15.1,
+    "happy": 1.1,
+    "age": 0.8,
+    "gender": 4.5,
+    "attractive": 10.8,
+    "dominant": 10.9
+   }
+  },
+  {
+   "high": "860",
+   "low": "920",
+   "diff": {
+    "trustworthy": 21.1,
+    "happy": 0.6,
+    "age": -1.8,
+    "gender": -4.3,
+    "attractive": 21.3,
+    "dominant": -7.2
+   }
+  },
+  {
+   "high": "94",
+   "low": "814",
+   "diff": {
+    "trustworthy": 15.3,
+    "happy": 1.0,
+    "age": -0.2,
+    "gender": 7.3,
+    "attractive": 30.1,
+    "dominant": 27.7
+   }
+  },
+  {
+   "high": "653",
+   "low": "391",
+   "diff": {
+    "trustworthy": 19.8,
+    "happy": 2.3,
+    "age": 1.8,
+    "gender": 0.3,
+    "attractive": 12.0,
+    "dominant": 3.6
+   }
+  },
+  {
+   "high": "683",
+   "low": "775",
+   "diff": {
+    "trustworthy": 16.6,
+    "happy": -2.0,
+    "age": 1.3,
+    "gender": 3.4,
+    "attractive": 16.5,
+    "dominant": 3.7
+   }
+  },
+  {
+   "high": "832",
+   "low": "145",
+   "diff": {
+    "trustworthy": 15.8,
+    "happy": -1.4,
+    "age": 2.3,
+    "gender": -3.3,
+    "attractive": 0.2,
+    "dominant": -8.4
+   }
+  },
+  {
+   "high": "514",
+   "low": "616",
+   "diff": {
+    "trustworthy": 15.5,
+    "happy": 1.0,
+    "age": -3.0,
+    "gender": -3.3,
+    "attractive": 17.2,
+    "dominant": -7.3
+   }
+  },
+  {
+   "high": "97",
+   "low": "956",
+   "diff": {
+    "trustworthy": 16.7,
+    "happy": 0.4,
+    "age": -0.6,
+    "gender": -10.2,
+    "attractive": 14.8,
+    "dominant": 6.2
+   }
+  },
+  {
+   "high": "47",
+   "low": "214",
+   "diff": {
+    "trustworthy": 15.5,
+    "happy": 1.8,
+    "age": -3.2,
+    "gender": -1.9,
+    "attractive": 6.6,
+    "dominant": -0.3
+   }
+  },
+  {
+   "high": "881",
+   "low": "328",
+   "diff": {
+    "trustworthy": 16.8,
+    "happy": 1.5,
+    "age": -4.2,
+    "gender": -1.0,
+    "attractive": 13.6,
+    "dominant": -8.1
+   }
+  },
+  {
+   "high": "983",
+   "low": "26",
+   "diff": {
+    "trustworthy": 15.2,
+    "happy": 2.1,
+    "age": 3.2,
+    "gender": 1.7,
+    "attractive": 2.3,
+    "dominant": -2.9
+   }
+  },
+  {
+   "high": "994",
+   "low": "552",
+   "diff": {
+    "trustworthy": 15.4,
+    "happy": 1.0,
+    "age": -4.4,
+    "gender": 2.7,
+    "attractive": -0.6,
+    "dominant": -9.4
+   }
+  },
+  {
+   "high": "154",
+   "low": "138",
+   "diff": {
+    "trustworthy": 16.1,
+    "happy": -0.5,
+    "age": 4.3,
+    "gender": -4.5,
+    "attractive": -3.3,
+    "dominant": -4.4
+   }
+  },
+  {
+   "high": "483",
+   "low": "41",
+   "diff": {
+    "trustworthy": 17.0,
+    "happy": -1.9,
+    "age": -1.4,
+    "gender": -5.9,
+    "attractive": 16.6,
+    "dominant": -5.0
+   }
+  },
+  {
+   "high": "19",
+   "low": "269",
+   "diff": {
+    "trustworthy": 18.4,
+    "happy": 1.4,
+    "age": -2.1,
+    "gender": -7.0,
+    "attractive": 20.0,
+    "dominant": 15.3
+   }
+  },
+  {
+   "high": "662",
+   "low": "823",
+   "diff": {
+    "trustworthy": 16.3,
+    "happy": 3.5,
+    "age": -2.7,
+    "gender": -1.2,
+    "attractive": -7.0,
+    "dominant": 1.4
+   }
+  },
+  {
+   "high": "782",
+   "low": "730",
+   "diff": {
+    "trustworthy": 16.1,
+    "happy": -1.5,
+    "age": -6.5,
+    "gender": -1.1,
+    "attractive": 21.0,
+    "dominant": -4.1
+   }
+  },
+  {
+   "high": "592",
+   "low": "909",
+   "diff": {
+    "trustworthy": 16.8,
+    "happy": -0.5,
+    "age": 5.1,
+    "gender": 6.9,
+    "attractive": 0.9,
+    "dominant": 5.6
+   }
+  },
+  {
+   "high": "929",
+   "low": "252",
+   "diff": {
+    "trustworthy": 15.6,
+    "happy": 2.2,
+    "age": -4.9,
+    "gender": 2.5,
+    "attractive": -6.0,
+    "dominant": 0.3
+   }
+  },
+  {
+   "high": "137",
+   "low": "697",
+   "diff": {
+    "trustworthy": 19.2,
+    "happy": -0.9,
+    "age": -5.2,
+    "gender": 6.2,
+    "attractive": -1.2,
+    "dominant": -8.9
+   }
+  },
+  {
+   "high": "143",
+   "low": "829",
+   "diff": {
+    "trustworthy": 17.3,
+    "happy": -1.7,
+    "age": 0.5,
+    "gender": 12.7,
+    "attractive": -15.0,
+    "dominant": -8.4
+   }
+  },
+  {
+   "high": "237",
+   "low": "66",
+   "diff": {
+    "trustworthy": 19.4,
+    "happy": 0.2,
+    "age": 4.4,
+    "gender": -11.0,
+    "attractive": 14.6,
+    "dominant": 0.2
+   }
+  },
+  {
+   "high": "209",
+   "low": "409",
+   "diff": {
+    "trustworthy": 21.3,
+    "happy": 3.2,
+    "age": 0.9,
+    "gender": -10.2,
+    "attractive": 14.8,
+    "dominant": -5.3
+   }
+  },
+  {
+   "high": "718",
+   "low": "175",
+   "diff": {
+    "trustworthy": 18.6,
+    "happy": 2.7,
+    "age": -4.9,
+    "gender": -4.5,
+    "attractive": -3.8,
+    "dominant": -43.4
+   }
+  },
+  {
+   "high": "246",
+   "low": "380",
+   "diff": {
+    "trustworthy": 15.3,
+    "happy": 0.9,
+    "age": 6.5,
+    "gender": 8.5,
+    "attractive": -1.9,
+    "dominant": 5.8
+   }
+  },
+  {
+   "high": "692",
+   "low": "980",
+   "diff": {
+    "trustworthy": 15.2,
+    "happy": 2.4,
+    "age": -3.9,
+    "gender": 10.9,
+    "attractive": 25.0,
+    "dominant": 7.6
+   }
+  },
+  {
+   "high": "508",
+   "low": "492",
+   "diff": {
+    "trustworthy": 15.9,
+    "happy": 4.3,
+    "age": -5.3,
+    "gender": 2.8,
+    "attractive": 6.3,
+    "dominant": -10.3
+   }
+  },
+  {
+   "high": "419",
+   "low": "120",
+   "diff": {
+    "trustworthy": 22.6,
+    "happy": 1.9,
+    "age": -5.8,
+    "gender": -11.1,
+    "attractive": -3.4,
+    "dominant": -18.2
+   }
+  },
+  {
+   "high": "963",
+   "low": "535",
+   "diff": {
+    "trustworthy": 15.2,
+    "happy": 4.1,
+    "age": -2.0,
+    "gender": 12.2,
+    "attractive": -9.3,
+    "dominant": 2.9
+   }
+  },
+  {
+   "high": "257",
+   "low": "172",
+   "diff": {
+    "trustworthy": 20.3,
+    "happy": 2.7,
+    "age": -7.7,
+    "gender": 8.3,
+    "attractive": 13.5,
+    "dominant": -11.8
+   }
+  },
+  {
+   "high": "562",
+   "low": "254",
+   "diff": {
+    "trustworthy": 16.6,
+    "happy": 2.1,
+    "age": -7.7,
+    "gender": -10.3,
+    "attractive": 7.0,
+    "dominant": -2.0
+   }
+  },
+  {
+   "high": "422",
+   "low": "222",
+   "diff": {
+    "trustworthy": 18.0,
+    "happy": 4.6,
+    "age": 3.2,
+    "gender": 11.9,
+    "attractive": -5.9,
+    "dominant": 12.2
+   }
+  },
+  {
+   "high": "656",
+   "low": "35",
+   "diff": {
+    "trustworthy": 16.8,
+    "happy": 4.8,
+    "age": -5.9,
+    "gender": -6.7,
+    "attractive": 0.7,
+    "dominant": -13.7
+   }
+  },
+  {
+   "high": "241",
+   "low": "311",
+   "diff": {
+    "trustworthy": 15.4,
+    "happy": 3.6,
+    "age": -6.0,
+    "gender": -14.1,
+    "attractive": 26.8,
+    "dominant": -1.9
+   }
+  },
+  {
+   "high": "853",
+   "low": "580",
+   "diff": {
+    "trustworthy": 16.0,
+    "happy": 4.9,
+    "age": -7.7,
+    "gender": -9.8,
+    "attractive": 4.5,
+    "dominant": -11.7
+   }
+  }
+ ],
+ "null_pairs": [
+  {
+   "a": "504",
+   "b": "978",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": -0.1,
+    "age": 0.3,
+    "gender": 0.2,
+    "attractive": 8.5,
+    "dominant": -4.1
+   }
+  },
+  {
+   "a": "776",
+   "b": "371",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": 0.2,
+    "age": 0.6,
+    "gender": -0.3,
+    "attractive": -7.8,
+    "dominant": 9.7
+   }
+  },
+  {
+   "a": "450",
+   "b": "404",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": -0.4,
+    "age": 0.1,
+    "gender": -1.5,
+    "attractive": 7.6,
+    "dominant": 6.3
+   }
+  },
+  {
+   "a": "640",
+   "b": "811",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": -0.2,
+    "age": 0.1,
+    "gender": 2.7,
+    "attractive": 10.8,
+    "dominant": -10.9
+   }
+  },
+  {
+   "a": "785",
+   "b": "100",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": -0.2,
+    "age": -1.0,
+    "gender": -1.5,
+    "attractive": 2.0,
+    "dominant": -5.5
+   }
+  },
+  {
+   "a": "795",
+   "b": "136",
+   "diff": {
+    "trustworthy": 3.0,
+    "happy": 0.5,
+    "age": -0.1,
+    "gender": 2.8,
+    "attractive": -2.4,
+    "dominant": 4.9
+   }
+  },
+  {
+   "a": "955",
+   "b": "879",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": -0.9,
+    "age": -0.3,
+    "gender": -1.2,
+    "attractive": -2.2,
+    "dominant": 8.3
+   }
+  },
+  {
+   "a": "928",
+   "b": "743",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": 0.9,
+    "age": 0.6,
+    "gender": -0.5,
+    "attractive": 10.3,
+    "dominant": -5.3
+   }
+  },
+  {
+   "a": "650",
+   "b": "353",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": -0.2,
+    "age": -0.1,
+    "gender": -3.7,
+    "attractive": -4.6,
+    "dominant": -7.9
+   }
+  },
+  {
+   "a": "189",
+   "b": "646",
+   "diff": {
+    "trustworthy": 0.0,
+    "happy": 1.1,
+    "age": -0.3,
+    "gender": -0.5,
+    "attractive": 5.8,
+    "dominant": -8.7
+   }
+  },
+  {
+   "a": "228",
+   "b": "926",
+   "diff": {
+    "trustworthy": 2.6,
+    "happy": -0.6,
+    "age": 0.4,
+    "gender": -2.0,
+    "attractive": 2.2,
+    "dominant": -0.6
+   }
+  },
+  {
+   "a": "678",
+   "b": "618",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": -1.0,
+    "age": -0.7,
+    "gender": -0.6,
+    "attractive": 21.2,
+    "dominant": 12.0
+   }
+  },
+  {
+   "a": "236",
+   "b": "177",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": -0.3,
+    "age": -0.3,
+    "gender": -3.5,
+    "attractive": 5.0,
+    "dominant": 4.0
+   }
+  },
+  {
+   "a": "843",
+   "b": "219",
+   "diff": {
+    "trustworthy": 2.6,
+    "happy": -1.3,
+    "age": 0.1,
+    "gender": 0.8,
+    "attractive": 4.5,
+    "dominant": 16.3
+   }
+  },
+  {
+   "a": "989",
+   "b": "736",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": -0.1,
+    "age": 1.5,
+    "gender": -2.0,
+    "attractive": -27.7,
+    "dominant": -9.2
+   }
+  },
+  {
+   "a": "406",
+   "b": "425",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": 0.5,
+    "age": -1.2,
+    "gender": -1.3,
+    "attractive": 8.0,
+    "dominant": -1.3
+   }
+  },
+  {
+   "a": "740",
+   "b": "770",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": -0.9,
+    "age": -0.8,
+    "gender": 0.9,
+    "attractive": 1.7,
+    "dominant": -6.9
+   }
+  },
+  {
+   "a": "438",
+   "b": "538",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -0.9,
+    "age": -1.0,
+    "gender": 0.5,
+    "attractive": -10.2,
+    "dominant": -4.1
+   }
+  },
+  {
+   "a": "719",
+   "b": "304",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": -0.9,
+    "age": -1.1,
+    "gender": -0.7,
+    "attractive": 1.0,
+    "dominant": -5.0
+   }
+  },
+  {
+   "a": "804",
+   "b": "783",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": -1.5,
+    "age": -0.2,
+    "gender": -0.6,
+    "attractive": -0.3,
+    "dominant": 8.7
+   }
+  },
+  {
+   "a": "666",
+   "b": "557",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": -0.2,
+    "age": 1.9,
+    "gender": 1.2,
+    "attractive": -5.8,
+    "dominant": 15.1
+   }
+  },
+  {
+   "a": "195",
+   "b": "601",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": -0.1,
+    "age": 1.7,
+    "gender": 1.9,
+    "attractive": -1.2,
+    "dominant": -2.7
+   }
+  },
+  {
+   "a": "57",
+   "b": "769",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": 1.2,
+    "age": -0.2,
+    "gender": -1.4,
+    "attractive": 10.0,
+    "dominant": 7.2
+   }
+  },
+  {
+   "a": "343",
+   "b": "489",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": 1.5,
+    "age": -0.1,
+    "gender": -0.9,
+    "attractive": -3.3,
+    "dominant": -2.5
+   }
+  },
+  {
+   "a": "554",
+   "b": "99",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": -0.8,
+    "age": -1.4,
+    "gender": 0.6,
+    "attractive": 8.6,
+    "dominant": -6.4
+   }
+  },
+  {
+   "a": "816",
+   "b": "995",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": -0.3,
+    "age": -0.5,
+    "gender": 3.6,
+    "attractive": -0.1,
+    "dominant": -5.1
+   }
+  },
+  {
+   "a": "147",
+   "b": "766",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": 0.4,
+    "age": 0.5,
+    "gender": -3.6,
+    "attractive": -4.7,
+    "dominant": -7.2
+   }
+  },
+  {
+   "a": "533",
+   "b": "714",
+   "diff": {
+    "trustworthy": 2.0,
+    "happy": -1.2,
+    "age": -0.5,
+    "gender": 1.1,
+    "attractive": 2.1,
+    "dominant": -0.0
+   }
+  },
+  {
+   "a": "405",
+   "b": "468",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": 0.2,
+    "age": 0.6,
+    "gender": -4.1,
+    "attractive": 11.5,
+    "dominant": 9.5
+   }
+  },
+  {
+   "a": "312",
+   "b": "798",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": 0.5,
+    "age": 0.6,
+    "gender": 3.3,
+    "attractive": 2.8,
+    "dominant": 0.0
+   }
+  },
+  {
+   "a": "295",
+   "b": "364",
+   "diff": {
+    "trustworthy": 1.1,
+    "happy": 0.0,
+    "age": -2.1,
+    "gender": 2.0,
+    "attractive": 11.2,
+    "dominant": -3.3
+   }
+  },
+  {
+   "a": "595",
+   "b": "277",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": -0.2,
+    "age": 2.5,
+    "gender": 0.8,
+    "attractive": -22.5,
+    "dominant": 1.3
+   }
+  },
+  {
+   "a": "841",
+   "b": "484",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": 1.5,
+    "age": -0.7,
+    "gender": -0.4,
+    "attractive": 4.7,
+    "dominant": 3.6
+   }
+  },
+  {
+   "a": "742",
+   "b": "479",
+   "diff": {
+    "trustworthy": 2.9,
+    "happy": -1.9,
+    "age": -0.2,
+    "gender": 0.2,
+    "attractive": 2.6,
+    "dominant": 5.6
+   }
+  },
+  {
+   "a": "561",
+   "b": "684",
+   "diff": {
+    "trustworthy": 1.1,
+    "happy": -1.2,
+    "age": -1.2,
+    "gender": -0.4,
+    "attractive": 2.2,
+    "dominant": -13.0
+   }
+  },
+  {
+   "a": "478",
+   "b": "931",
+   "diff": {
+    "trustworthy": 1.4,
+    "happy": 1.6,
+    "age": 0.3,
+    "gender": -1.1,
+    "attractive": -5.5,
+    "dominant": -6.1
+   }
+  },
+  {
+   "a": "974",
+   "b": "911",
+   "diff": {
+    "trustworthy": 3.0,
+    "happy": 0.1,
+    "age": 2.1,
+    "gender": -2.4,
+    "attractive": 7.3,
+    "dominant": 14.1
+   }
+  },
+  {
+   "a": "58",
+   "b": "245",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": 0.3,
+    "age": 1.9,
+    "gender": 2.1,
+    "attractive": 0.8,
+    "dominant": 14.9
+   }
+  },
+  {
+   "a": "370",
+   "b": "13",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": -0.3,
+    "age": 2.5,
+    "gender": -1.0,
+    "attractive": 17.4,
+    "dominant": -6.9
+   }
+  },
+  {
+   "a": "124",
+   "b": "122",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": 1.6,
+    "age": 1.0,
+    "gender": 0.1,
+    "attractive": 10.6,
+    "dominant": 0.4
+   }
+  },
+  {
+   "a": "723",
+   "b": "874",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": 0.2,
+    "age": 1.3,
+    "gender": -3.7,
+    "attractive": -11.6,
+    "dominant": -1.6
+   }
+  },
+  {
+   "a": "96",
+   "b": "132",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": 0.7,
+    "age": 2.4,
+    "gender": -0.5,
+    "attractive": -20.5,
+    "dominant": -8.2
+   }
+  },
+  {
+   "a": "728",
+   "b": "559",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": 0.5,
+    "age": -0.3,
+    "gender": -5.1,
+    "attractive": 3.7,
+    "dominant": 8.4
+   }
+  },
+  {
+   "a": "648",
+   "b": "647",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": -1.6,
+    "age": 1.3,
+    "gender": -0.1,
+    "attractive": 4.8,
+    "dominant": 4.5
+   }
+  },
+  {
+   "a": "856",
+   "b": "698",
+   "diff": {
+    "trustworthy": 1.0,
+    "happy": 0.8,
+    "age": -1.1,
+    "gender": 3.1,
+    "attractive": 5.8,
+    "dominant": -6.3
+   }
+  },
+  {
+   "a": "503",
+   "b": "892",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": -0.0,
+    "age": 3.7,
+    "gender": -0.4,
+    "attractive": 15.7,
+    "dominant": 13.4
+   }
+  },
+  {
+   "a": "505",
+   "b": "244",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": 0.5,
+    "age": -0.9,
+    "gender": 4.3,
+    "attractive": 12.4,
+    "dominant": 8.3
+   }
+  },
+  {
+   "a": "630",
+   "b": "307",
+   "diff": {
+    "trustworthy": 0.0,
+    "happy": -0.6,
+    "age": 2.1,
+    "gender": -1.6,
+    "attractive": 2.9,
+    "dominant": -1.6
+   }
+  },
+  {
+   "a": "779",
+   "b": "815",
+   "diff": {
+    "trustworthy": 1.8,
+    "happy": -1.4,
+    "age": 1.3,
+    "gender": -0.8,
+    "attractive": -17.2,
+    "dominant": -11.5
+   }
+  },
+  {
+   "a": "412",
+   "b": "855",
+   "diff": {
+    "trustworthy": 1.7,
+    "happy": -1.2,
+    "age": 1.7,
+    "gender": -0.8,
+    "attractive": -24.4,
+    "dominant": -11.4
+   }
+  },
+  {
+   "a": "934",
+   "b": "796",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": 1.3,
+    "age": -1.3,
+    "gender": 1.4,
+    "attractive": 2.8,
+    "dominant": 0.8
+   }
+  },
+  {
+   "a": "745",
+   "b": "609",
+   "diff": {
+    "trustworthy": 0.3,
+    "happy": 0.9,
+    "age": -1.0,
+    "gender": 3.3,
+    "attractive": 18.1,
+    "dominant": 4.3
+   }
+  },
+  {
+   "a": "904",
+   "b": "467",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": -0.1,
+    "age": -3.8,
+    "gender": -0.3,
+    "attractive": 17.2,
+    "dominant": 7.5
+   }
+  },
+  {
+   "a": "945",
+   "b": "826",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": -1.7,
+    "age": -1.3,
+    "gender": 0.6,
+    "attractive": 8.7,
+    "dominant": 7.4
+   }
+  },
+  {
+   "a": "970",
+   "b": "872",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": -0.5,
+    "age": -3.5,
+    "gender": -0.0,
+    "attractive": 19.6,
+    "dominant": 15.5
+   }
+  },
+  {
+   "a": "999",
+   "b": "741",
+   "diff": {
+    "trustworthy": 1.8,
+    "happy": -0.9,
+    "age": 2.8,
+    "gender": -0.2,
+    "attractive": 3.3,
+    "dominant": -1.2
+   }
+  },
+  {
+   "a": "8",
+   "b": "687",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": -0.4,
+    "age": -3.4,
+    "gender": 0.5,
+    "attractive": -6.3,
+    "dominant": 4.9
+   }
+  },
+  {
+   "a": "465",
+   "b": "130",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": 0.5,
+    "age": -1.1,
+    "gender": -4.5,
+    "attractive": 8.7,
+    "dominant": 4.2
+   }
+  },
+  {
+   "a": "827",
+   "b": "935",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": -0.1,
+    "age": 2.1,
+    "gender": 4.0,
+    "attractive": -0.8,
+    "dominant": -1.5
+   }
+  },
+  {
+   "a": "954",
+   "b": "401",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": -2.6,
+    "age": -0.1,
+    "gender": 0.1,
+    "attractive": 12.3,
+    "dominant": 3.6
+   }
+  },
+  {
+   "a": "424",
+   "b": "480",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": -0.2,
+    "age": 4.0,
+    "gender": 0.3,
+    "attractive": -7.1,
+    "dominant": -2.0
+   }
+  },
+  {
+   "a": "217",
+   "b": "587",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": -1.6,
+    "age": -0.7,
+    "gender": -2.2,
+    "attractive": -7.8,
+    "dominant": 2.0
+   }
+  },
+  {
+   "a": "961",
+   "b": "475",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 0.7,
+    "age": 2.6,
+    "gender": -1.2,
+    "attractive": 8.7,
+    "dominant": 10.9
+   }
+  },
+  {
+   "a": "367",
+   "b": "907",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -1.1,
+    "age": 1.2,
+    "gender": -3.0,
+    "attractive": 7.2,
+    "dominant": 4.7
+   }
+  },
+  {
+   "a": "930",
+   "b": "84",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": 0.5,
+    "age": 2.9,
+    "gender": 1.6,
+    "attractive": -0.1,
+    "dominant": 14.8
+   }
+  },
+  {
+   "a": "192",
+   "b": "313",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": 0.2,
+    "age": 1.2,
+    "gender": -5.8,
+    "attractive": -21.4,
+    "dominant": -17.5
+   }
+  },
+  {
+   "a": "927",
+   "b": "959",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": 0.0,
+    "age": -2.4,
+    "gender": 4.0,
+    "attractive": 3.9,
+    "dominant": 6.6
+   }
+  },
+  {
+   "a": "969",
+   "b": "916",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 1.8,
+    "age": 0.7,
+    "gender": 1.7,
+    "attractive": 1.8,
+    "dominant": -2.6
+   }
+  },
+  {
+   "a": "591",
+   "b": "986",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 0.5,
+    "age": 3.8,
+    "gender": -0.0,
+    "attractive": -15.8,
+    "dominant": 6.2
+   }
+  },
+  {
+   "a": "462",
+   "b": "267",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": 0.5,
+    "age": 3.0,
+    "gender": -1.5,
+    "attractive": 9.1,
+    "dominant": 10.0
+   }
+  },
+  {
+   "a": "105",
+   "b": "260",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": 1.4,
+    "age": 1.1,
+    "gender": 2.4,
+    "attractive": -5.2,
+    "dominant": -2.3
+   }
+  },
+  {
+   "a": "790",
+   "b": "685",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": -0.4,
+    "age": -3.6,
+    "gender": -0.7,
+    "attractive": -4.2,
+    "dominant": 1.4
+   }
+  },
+  {
+   "a": "213",
+   "b": "991",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -1.6,
+    "age": 1.8,
+    "gender": -0.7,
+    "attractive": -1.0,
+    "dominant": -18.3
+   }
+  },
+  {
+   "a": "842",
+   "b": "393",
+   "diff": {
+    "trustworthy": 2.6,
+    "happy": 1.0,
+    "age": 2.3,
+    "gender": 1.4,
+    "attractive": 25.8,
+    "dominant": 9.1
+   }
+  },
+  {
+   "a": "527",
+   "b": "360",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": -0.3,
+    "age": 2.3,
+    "gender": -3.5,
+    "attractive": 0.9,
+    "dominant": -3.0
+   }
+  },
+  {
+   "a": "153",
+   "b": "925",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": -1.7,
+    "age": -1.3,
+    "gender": 1.3,
+    "attractive": -7.0,
+    "dominant": -11.3
+   }
+  },
+  {
+   "a": "575",
+   "b": "303",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": 0.2,
+    "age": 2.6,
+    "gender": 3.4,
+    "attractive": 1.6,
+    "dominant": -9.8
+   }
+  },
+  {
+   "a": "349",
+   "b": "583",
+   "diff": {
+    "trustworthy": 1.4,
+    "happy": -1.3,
+    "age": 1.7,
+    "gender": -1.9,
+    "attractive": -12.5,
+    "dominant": -8.0
+   }
+  },
+  {
+   "a": "472",
+   "b": "139",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": 0.8,
+    "age": 3.5,
+    "gender": 0.1,
+    "attractive": 14.6,
+    "dominant": 17.3
+   }
+  },
+  {
+   "a": "889",
+   "b": "202",
+   "diff": {
+    "trustworthy": 1.1,
+    "happy": -2.3,
+    "age": 0.6,
+    "gender": -1.3,
+    "attractive": 7.3,
+    "dominant": 4.4
+   }
+  },
+  {
+   "a": "283",
+   "b": "300",
+   "diff": {
+    "trustworthy": 0.3,
+    "happy": -2.0,
+    "age": -1.7,
+    "gender": 0.4,
+    "attractive": -4.2,
+    "dominant": -1.2
+   }
+  },
+  {
+   "a": "103",
+   "b": "142",
+   "diff": {
+    "trustworthy": 1.1,
+    "happy": 0.6,
+    "age": -2.2,
+    "gender": 3.4,
+    "attractive": -1.6,
+    "dominant": -3.4
+   }
+  },
+  {
+   "a": "198",
+   "b": "43",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": -0.8,
+    "age": 2.7,
+    "gender": -1.8,
+    "attractive": 2.8,
+    "dominant": -8.5
+   }
+  },
+  {
+   "a": "456",
+   "b": "720",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": -1.8,
+    "age": -1.9,
+    "gender": -0.5,
+    "attractive": -9.4,
+    "dominant": -13.1
+   }
+  },
+  {
+   "a": "950",
+   "b": "965",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": 0.6,
+    "age": -1.0,
+    "gender": -5.8,
+    "attractive": 6.6,
+    "dominant": 3.4
+   }
+  },
+  {
+   "a": "532",
+   "b": "721",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": -0.4,
+    "age": -4.3,
+    "gender": -0.3,
+    "attractive": 11.8,
+    "dominant": -3.6
+   }
+  },
+  {
+   "a": "709",
+   "b": "568",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": 0.2,
+    "age": -3.0,
+    "gender": -3.6,
+    "attractive": -5.0,
+    "dominant": 4.0
+   }
+  },
+  {
+   "a": "86",
+   "b": "665",
+   "diff": {
+    "trustworthy": 1.8,
+    "happy": -1.4,
+    "age": -2.6,
+    "gender": 0.7,
+    "attractive": -3.8,
+    "dominant": -8.6
+   }
+  },
+  {
+   "a": "291",
+   "b": "315",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": -2.9,
+    "age": -0.0,
+    "gender": 1.3,
+    "attractive": -27.1,
+    "dominant": -21.6
+   }
+  },
+  {
+   "a": "645",
+   "b": "939",
+   "diff": {
+    "trustworthy": 2.0,
+    "happy": -0.3,
+    "age": -1.4,
+    "gender": 6.4,
+    "attractive": -13.2,
+    "dominant": -2.1
+   }
+  },
+  {
+   "a": "37",
+   "b": "60",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": 2.2,
+    "age": -1.4,
+    "gender": -1.0,
+    "attractive": 6.2,
+    "dominant": -1.7
+   }
+  },
+  {
+   "a": "128",
+   "b": "32",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": -2.6,
+    "age": 1.2,
+    "gender": -0.1,
+    "attractive": 8.0,
+    "dominant": 4.3
+   }
+  },
+  {
+   "a": "539",
+   "b": "374",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": 1.2,
+    "age": 0.4,
+    "gender": -5.7,
+    "attractive": 4.8,
+    "dominant": 3.0
+   }
+  },
+  {
+   "a": "984",
+   "b": "658",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": -1.2,
+    "age": -3.2,
+    "gender": -0.7,
+    "attractive": -7.9,
+    "dominant": -3.7
+   }
+  },
+  {
+   "a": "206",
+   "b": "191",
+   "diff": {
+    "trustworthy": 1.2,
+    "happy": 0.7,
+    "age": 1.0,
+    "gender": -6.2,
+    "attractive": 2.7,
+    "dominant": -4.7
+   }
+  },
+  {
+   "a": "261",
+   "b": "264",
+   "diff": {
+    "trustworthy": 1.4,
+    "happy": -0.1,
+    "age": 4.1,
+    "gender": -2.3,
+    "attractive": 1.8,
+    "dominant": 5.5
+   }
+  },
+  {
+   "a": "160",
+   "b": "290",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": -1.1,
+    "age": 2.2,
+    "gender": 2.8,
+    "attractive": 0.5,
+    "dominant": -2.6
+   }
+  },
+  {
+   "a": "513",
+   "b": "803",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": 2.0,
+    "age": 2.2,
+    "gender": 0.5,
+    "attractive": 1.9,
+    "dominant": -2.9
+   }
+  },
+  {
+   "a": "273",
+   "b": "346",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": 3.1,
+    "age": 0.4,
+    "gender": 0.4,
+    "attractive": -16.0,
+    "dominant": -9.2
+   }
+  },
+  {
+   "a": "40",
+   "b": "977",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": -0.7,
+    "age": -3.5,
+    "gender": -2.0,
+    "attractive": 5.1,
+    "dominant": 5.8
+   }
+  },
+  {
+   "a": "127",
+   "b": "73",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": -3.2,
+    "age": -0.5,
+    "gender": 0.1,
+    "attractive": 7.8,
+    "dominant": 2.8
+   }
+  },
+  {
+   "a": "296",
+   "b": "458",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": -0.7,
+    "age": 4.2,
+    "gender": 0.8,
+    "attractive": 12.0,
+    "dominant": 1.9
+   }
+  },
+  {
+   "a": "510",
+   "b": "908",
+   "diff": {
+    "trustworthy": 2.9,
+    "happy": 2.3,
+    "age": 0.4,
+    "gender": 3.3,
+    "attractive": 20.6,
+    "dominant": 5.2
+   }
+  },
+  {
+   "a": "839",
+   "b": "375",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": 3.4,
+    "age": -0.5,
+    "gender": 0.0,
+    "attractive": -6.1,
+    "dominant": -4.8
+   }
+  },
+  {
+   "a": "318",
+   "b": "525",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": -2.5,
+    "age": 0.7,
+    "gender": -2.1,
+    "attractive": 20.0,
+    "dominant": 7.2
+   }
+  },
+  {
+   "a": "570",
+   "b": "444",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": 1.2,
+    "age": -1.9,
+    "gender": -3.9,
+    "attractive": 23.6,
+    "dominant": -6.7
+   }
+  },
+  {
+   "a": "332",
+   "b": "885",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": -0.4,
+    "age": -1.8,
+    "gender": 6.5,
+    "attractive": -5.2,
+    "dominant": -10.5
+   }
+  },
+  {
+   "a": "896",
+   "b": "748",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": -0.3,
+    "age": 2.8,
+    "gender": 5.1,
+    "attractive": -5.4,
+    "dominant": 3.5
+   }
+  },
+  {
+   "a": "135",
+   "b": "1000",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": 1.4,
+    "age": -1.7,
+    "gender": -4.0,
+    "attractive": 0.1,
+    "dominant": -9.6
+   }
+  },
+  {
+   "a": "518",
+   "b": "24",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": -1.6,
+    "age": -1.3,
+    "gender": 4.3,
+    "attractive": 0.2,
+    "dominant": -21.7
+   }
+  },
+  {
+   "a": "93",
+   "b": "168",
+   "diff": {
+    "trustworthy": 2.0,
+    "happy": 2.6,
+    "age": -1.4,
+    "gender": 1.0,
+    "attractive": -4.0,
+    "dominant": 1.7
+   }
+  },
+  {
+   "a": "722",
+   "b": "732",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": 1.7,
+    "age": 1.2,
+    "gender": 4.4,
+    "attractive": -0.7,
+    "dominant": 0.4
+   }
+  },
+  {
+   "a": "602",
+   "b": "596",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": -3.2,
+    "age": -0.6,
+    "gender": -1.0,
+    "attractive": 18.9,
+    "dominant": 14.0
+   }
+  },
+  {
+   "a": "862",
+   "b": "162",
+   "diff": {
+    "trustworthy": 1.8,
+    "happy": 1.3,
+    "age": -1.7,
+    "gender": -4.6,
+    "attractive": -24.3,
+    "dominant": -8.0
+   }
+  },
+  {
+   "a": "891",
+   "b": "651",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": 0.2,
+    "age": -5.5,
+    "gender": -0.8,
+    "attractive": -21.7,
+    "dominant": -16.4
+   }
+  },
+  {
+   "a": "7",
+   "b": "780",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": -0.5,
+    "age": -3.5,
+    "gender": -3.8,
+    "attractive": -4.6,
+    "dominant": 2.6
+   }
+  },
+  {
+   "a": "606",
+   "b": "183",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -2.5,
+    "age": 0.5,
+    "gender": 3.5,
+    "attractive": -18.1,
+    "dominant": 3.2
+   }
+  },
+  {
+   "a": "210",
+   "b": "115",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": -0.8,
+    "age": -1.6,
+    "gender": 6.6,
+    "attractive": -1.7,
+    "dominant": -1.6
+   }
+  },
+  {
+   "a": "471",
+   "b": "248",
+   "diff": {
+    "trustworthy": 1.2,
+    "happy": -1.8,
+    "age": 2.5,
+    "gender": 2.1,
+    "attractive": -2.5,
+    "dominant": 4.6
+   }
+  },
+  {
+   "a": "161",
+   "b": "771",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": 1.1,
+    "age": 4.3,
+    "gender": 0.7,
+    "attractive": -1.8,
+    "dominant": -0.7
+   }
+  },
+  {
+   "a": "305",
+   "b": "840",
+   "diff": {
+    "trustworthy": 2.0,
+    "happy": 3.7,
+    "age": -0.3,
+    "gender": -0.6,
+    "attractive": 0.1,
+    "dominant": 2.4
+   }
+  },
+  {
+   "a": "693",
+   "b": "761",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": -1.9,
+    "age": -1.5,
+    "gender": 3.9,
+    "attractive": 13.6,
+    "dominant": -6.1
+   }
+  },
+  {
+   "a": "759",
+   "b": "29",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": 1.0,
+    "age": 3.8,
+    "gender": -2.2,
+    "attractive": 6.7,
+    "dominant": -7.5
+   }
+  },
+  {
+   "a": "203",
+   "b": "182",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": -1.9,
+    "age": -3.3,
+    "gender": 0.5,
+    "attractive": 9.3,
+    "dominant": 8.1
+   }
+  },
+  {
+   "a": "686",
+   "b": "563",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": -0.3,
+    "age": 2.2,
+    "gender": 7.4,
+    "attractive": -10.6,
+    "dominant": -10.0
+   }
+  },
+  {
+   "a": "151",
+   "b": "148",
+   "diff": {
+    "trustworthy": 1.7,
+    "happy": -0.1,
+    "age": 4.0,
+    "gender": 4.9,
+    "attractive": -15.0,
+    "dominant": 5.2
+   }
+  },
+  {
+   "a": "433",
+   "b": "502",
+   "diff": {
+    "trustworthy": 0.3,
+    "happy": 0.3,
+    "age": -2.0,
+    "gender": -7.9,
+    "attractive": 18.7,
+    "dominant": 7.8
+   }
+  },
+  {
+   "a": "495",
+   "b": "446",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": -1.5,
+    "age": -1.1,
+    "gender": -6.1,
+    "attractive": 12.9,
+    "dominant": 5.2
+   }
+  },
+  {
+   "a": "38",
+   "b": "774",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": -3.3,
+    "age": 1.2,
+    "gender": 0.7,
+    "attractive": -4.1,
+    "dominant": 2.6
+   }
+  },
+  {
+   "a": "126",
+   "b": "581",
+   "diff": {
+    "trustworthy": 1.2,
+    "happy": -0.0,
+    "age": -6.0,
+    "gender": 1.6,
+    "attractive": 5.9,
+    "dominant": -9.2
+   }
+  },
+  {
+   "a": "87",
+   "b": "445",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": -0.2,
+    "age": -6.5,
+    "gender": -0.1,
+    "attractive": -15.1,
+    "dominant": -6.1
+   }
+  },
+  {
+   "a": "546",
+   "b": "454",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": 0.7,
+    "age": 0.7,
+    "gender": 9.7,
+    "attractive": -12.0,
+    "dominant": -4.0
+   }
+  },
+  {
+   "a": "239",
+   "b": "199",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": 1.6,
+    "age": -3.4,
+    "gender": -2.0,
+    "attractive": 12.4,
+    "dominant": 7.5
+   }
+  },
+  {
+   "a": "440",
+   "b": "243",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": -1.7,
+    "age": 0.3,
+    "gender": 7.5,
+    "attractive": -22.9,
+    "dominant": -7.1
+   }
+  },
+  {
+   "a": "664",
+   "b": "857",
+   "diff": {
+    "trustworthy": 2.6,
+    "happy": -2.2,
+    "age": 0.9,
+    "gender": 4.9,
+    "attractive": -5.6,
+    "dominant": 1.4
+   }
+  },
+  {
+   "a": "992",
+   "b": "624",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": 2.0,
+    "age": -0.5,
+    "gender": -6.2,
+    "attractive": -16.8,
+    "dominant": 14.4
+   }
+  },
+  {
+   "a": "699",
+   "b": "439",
+   "diff": {
+    "trustworthy": 1.0,
+    "happy": -3.4,
+    "age": -0.9,
+    "gender": 1.5,
+    "attractive": 10.6,
+    "dominant": 6.5
+   }
+  },
+  {
+   "a": "337",
+   "b": "516",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 1.2,
+    "age": 2.7,
+    "gender": 4.5,
+    "attractive": -10.6,
+    "dominant": 3.5
+   }
+  },
+  {
+   "a": "859",
+   "b": "755",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": 0.4,
+    "age": -2.7,
+    "gender": 7.2,
+    "attractive": -2.0,
+    "dominant": -0.0
+   }
+  },
+  {
+   "a": "661",
+   "b": "848",
+   "diff": {
+    "trustworthy": 2.1,
+    "happy": 1.5,
+    "age": 2.4,
+    "gender": -4.5,
+    "attractive": -1.3,
+    "dominant": 9.3
+   }
+  },
+  {
+   "a": "359",
+   "b": "81",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": 1.0,
+    "age": 2.3,
+    "gender": 6.0,
+    "attractive": 1.1,
+    "dominant": 3.9
+   }
+  },
+  {
+   "a": "831",
+   "b": "910",
+   "diff": {
+    "trustworthy": 1.0,
+    "happy": 1.2,
+    "age": 1.1,
+    "gender": -7.9,
+    "attractive": -1.6,
+    "dominant": -16.8
+   }
+  },
+  {
+   "a": "933",
+   "b": "605",
+   "diff": {
+    "trustworthy": 0.5,
+    "happy": 3.0,
+    "age": -0.4,
+    "gender": 3.9,
+    "attractive": -18.5,
+    "dominant": -8.6
+   }
+  },
+  {
+   "a": "705",
+   "b": "968",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": 1.4,
+    "age": 2.5,
+    "gender": -4.8,
+    "attractive": -1.0,
+    "dominant": -12.9
+   }
+  },
+  {
+   "a": "837",
+   "b": "676",
+   "diff": {
+    "trustworthy": 1.7,
+    "happy": 0.5,
+    "age": 6.3,
+    "gender": 0.5,
+    "attractive": 12.2,
+    "dominant": -13.5
+   }
+  },
+  {
+   "a": "556",
+   "b": "464",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": 1.8,
+    "age": -1.7,
+    "gender": -5.4,
+    "attractive": 3.4,
+    "dominant": -5.0
+   }
+  },
+  {
+   "a": "163",
+   "b": "125",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": -3.5,
+    "age": -1.8,
+    "gender": 0.0,
+    "attractive": -3.7,
+    "dominant": -5.6
+   }
+  },
+  {
+   "a": "946",
+   "b": "838",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": 0.1,
+    "age": 1.6,
+    "gender": 10.7,
+    "attractive": -13.5,
+    "dominant": -5.1
+   }
+  },
+  {
+   "a": "79",
+   "b": "797",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": -0.5,
+    "age": 4.5,
+    "gender": 4.2,
+    "attractive": -3.0,
+    "dominant": 10.8
+   }
+  },
+  {
+   "a": "975",
+   "b": "457",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": 0.6,
+    "age": 3.6,
+    "gender": 5.6,
+    "attractive": -2.2,
+    "dominant": 4.0
+   }
+  },
+  {
+   "a": "758",
+   "b": "68",
+   "diff": {
+    "trustworthy": 1.1,
+    "happy": 2.4,
+    "age": 0.0,
+    "gender": 7.1,
+    "attractive": 17.3,
+    "dominant": 17.1
+   }
+  },
+  {
+   "a": "526",
+   "b": "338",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": 3.8,
+    "age": 1.4,
+    "gender": 0.3,
+    "attractive": -6.1,
+    "dominant": 4.8
+   }
+  },
+  {
+   "a": "280",
+   "b": "25",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": 2.0,
+    "age": -0.7,
+    "gender": 7.3,
+    "attractive": 7.6,
+    "dominant": -6.8
+   }
+  },
+  {
+   "a": "897",
+   "b": "509",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": -1.6,
+    "age": -3.8,
+    "gender": -2.6,
+    "attractive": -0.2,
+    "dominant": -11.4
+   }
+  },
+  {
+   "a": "18",
+   "b": "390",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": 1.0,
+    "age": -4.9,
+    "gender": -2.4,
+    "attractive": -3.8,
+    "dominant": 3.4
+   }
+  },
+  {
+   "a": "342",
+   "b": "67",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": 0.3,
+    "age": 5.3,
+    "gender": -3.9,
+    "attractive": -21.2,
+    "dominant": -20.8
+   }
+  },
+  {
+   "a": "649",
+   "b": "731",
+   "diff": {
+    "trustworthy": 2.9,
+    "happy": 0.8,
+    "age": 5.0,
+    "gender": 2.8,
+    "attractive": 1.7,
+    "dominant": -3.8
+   }
+  },
+  {
+   "a": "579",
+   "b": "852",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 0.7,
+    "age": 2.6,
+    "gender": 7.8,
+    "attractive": 9.3,
+    "dominant": 6.1
+   }
+  },
+  {
+   "a": "294",
+   "b": "869",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": 4.2,
+    "age": -0.9,
+    "gender": 0.7,
+    "attractive": -7.7,
+    "dominant": 2.7
+   }
+  },
+  {
+   "a": "747",
+   "b": "327",
+   "diff": {
+    "trustworthy": 2.1,
+    "happy": 1.0,
+    "age": -4.1,
+    "gender": 4.2,
+    "attractive": -8.7,
+    "dominant": -9.9
+   }
+  },
+  {
+   "a": "431",
+   "b": "263",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": 2.9,
+    "age": -0.6,
+    "gender": -5.0,
+    "attractive": -25.3,
+    "dominant": -14.2
+   }
+  },
+  {
+   "a": "737",
+   "b": "512",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": 1.4,
+    "age": 3.8,
+    "gender": 3.8,
+    "attractive": -2.2,
+    "dominant": -6.4
+   }
+  },
+  {
+   "a": "17",
+   "b": "402",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": 0.7,
+    "age": -6.6,
+    "gender": 0.5,
+    "attractive": -3.2,
+    "dominant": -4.1
+   }
+  },
+  {
+   "a": "813",
+   "b": "738",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": 0.8,
+    "age": 1.7,
+    "gender": -9.4,
+    "attractive": 22.9,
+    "dominant": -2.4
+   }
+  },
+  {
+   "a": "875",
+   "b": "48",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": -3.8,
+    "age": -0.4,
+    "gender": -3.1,
+    "attractive": 15.6,
+    "dominant": -2.9
+   }
+  },
+  {
+   "a": "437",
+   "b": "70",
+   "diff": {
+    "trustworthy": 2.0,
+    "happy": -2.2,
+    "age": -3.3,
+    "gender": 2.2,
+    "attractive": -10.9,
+    "dominant": -12.7
+   }
+  },
+  {
+   "a": "545",
+   "b": "330",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": 0.3,
+    "age": -7.6,
+    "gender": 0.4,
+    "attractive": -2.7,
+    "dominant": -11.5
+   }
+  },
+  {
+   "a": "323",
+   "b": "812",
+   "diff": {
+    "trustworthy": 2.6,
+    "happy": -2.7,
+    "age": 0.9,
+    "gender": -6.0,
+    "attractive": 2.2,
+    "dominant": 7.5
+   }
+  },
+  {
+   "a": "542",
+   "b": "398",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 3.9,
+    "age": 0.8,
+    "gender": -2.7,
+    "attractive": 6.7,
+    "dominant": -7.6
+   }
+  },
+  {
+   "a": "800",
+   "b": "820",
+   "diff": {
+    "trustworthy": 1.4,
+    "happy": 2.2,
+    "age": -0.4,
+    "gender": -8.8,
+    "attractive": 13.7,
+    "dominant": 13.3
+   }
+  },
+  {
+   "a": "957",
+   "b": "3",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": 3.2,
+    "age": -3.1,
+    "gender": 0.7,
+    "attractive": -9.5,
+    "dominant": -12.0
+   }
+  },
+  {
+   "a": "225",
+   "b": "258",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -2.1,
+    "age": 3.7,
+    "gender": -3.0,
+    "attractive": 15.8,
+    "dominant": 5.2
+   }
+  },
+  {
+   "a": "835",
+   "b": "899",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": -2.1,
+    "age": 4.6,
+    "gender": -1.4,
+    "attractive": -1.5,
+    "dominant": -8.2
+   }
+  },
+  {
+   "a": "23",
+   "b": "190",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -2.5,
+    "age": -1.9,
+    "gender": -5.2,
+    "attractive": -4.3,
+    "dominant": 9.5
+   }
+  },
+  {
+   "a": "271",
+   "b": "388",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": -2.7,
+    "age": 1.7,
+    "gender": -5.0,
+    "attractive": 11.0,
+    "dominant": 4.8
+   }
+  },
+  {
+   "a": "888",
+   "b": "918",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -3.3,
+    "age": -0.6,
+    "gender": 5.4,
+    "attractive": 5.8,
+    "dominant": 10.1
+   }
+  },
+  {
+   "a": "157",
+   "b": "98",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": 3.2,
+    "age": 1.7,
+    "gender": -3.7,
+    "attractive": 6.5,
+    "dominant": 7.8
+   }
+  },
+  {
+   "a": "368",
+   "b": "416",
+   "diff": {
+    "trustworthy": 2.0,
+    "happy": -0.6,
+    "age": -5.5,
+    "gender": -4.3,
+    "attractive": 9.0,
+    "dominant": 0.9
+   }
+  },
+  {
+   "a": "593",
+   "b": "712",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": 3.3,
+    "age": -1.7,
+    "gender": -3.3,
+    "attractive": 8.3,
+    "dominant": 12.5
+   }
+  },
+  {
+   "a": "850",
+   "b": "52",
+   "diff": {
+    "trustworthy": 3.0,
+    "happy": 2.2,
+    "age": -2.6,
+    "gender": 5.0,
+    "attractive": -4.7,
+    "dominant": -1.9
+   }
+  },
+  {
+   "a": "230",
+   "b": "215",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": -1.6,
+    "age": -1.3,
+    "gender": 9.3,
+    "attractive": 27.7,
+    "dominant": 15.0
+   }
+  },
+  {
+   "a": "253",
+   "b": "893",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": 2.7,
+    "age": 2.8,
+    "gender": 3.5,
+    "attractive": -13.6,
+    "dominant": -15.2
+   }
+  },
+  {
+   "a": "420",
+   "b": "914",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 1.6,
+    "age": 1.1,
+    "gender": -9.7,
+    "attractive": -6.3,
+    "dominant": 4.5
+   }
+  },
+  {
+   "a": "83",
+   "b": "652",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": 2.2,
+    "age": 4.9,
+    "gender": -0.9,
+    "attractive": -7.4,
+    "dominant": 5.4
+   }
+  },
+  {
+   "a": "990",
+   "b": "286",
+   "diff": {
+    "trustworthy": 0.5,
+    "happy": 1.7,
+    "age": -0.6,
+    "gender": -10.5,
+    "attractive": -5.3,
+    "dominant": 8.6
+   }
+  },
+  {
+   "a": "325",
+   "b": "696",
+   "diff": {
+    "trustworthy": 1.8,
+    "happy": 4.0,
+    "age": 2.2,
+    "gender": -0.7,
+    "attractive": 19.0,
+    "dominant": 13.0
+   }
+  },
+  {
+   "a": "704",
+   "b": "528",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": -2.8,
+    "age": -3.3,
+    "gender": 2.3,
+    "attractive": -4.2,
+    "dominant": -7.0
+   }
+  },
+  {
+   "a": "435",
+   "b": "574",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": -2.1,
+    "age": 0.4,
+    "gender": -9.7,
+    "attractive": 3.2,
+    "dominant": 1.0
+   }
+  },
+  {
+   "a": "834",
+   "b": "75",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": -2.5,
+    "age": 2.1,
+    "gender": 5.5,
+    "attractive": -2.6,
+    "dominant": 0.5
+   }
+  },
+  {
+   "a": "411",
+   "b": "36",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": -2.3,
+    "age": -0.3,
+    "gender": -9.4,
+    "attractive": 0.2,
+    "dominant": -4.8
+   }
+  },
+  {
+   "a": "520",
+   "b": "733",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": 1.1,
+    "age": -0.9,
+    "gender": -12.0,
+    "attractive": 0.8,
+    "dominant": -2.7
+   }
+  },
+  {
+   "a": "150",
+   "b": "413",
+   "diff": {
+    "trustworthy": 1.4,
+    "happy": 1.0,
+    "age": 6.3,
+    "gender": 2.2,
+    "attractive": -10.0,
+    "dominant": -0.7
+   }
+  },
+  {
+   "a": "5",
+   "b": "384",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": 4.1,
+    "age": 2.1,
+    "gender": -1.0,
+    "attractive": -14.9,
+    "dominant": 16.0
+   }
+  },
+  {
+   "a": "281",
+   "b": "807",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": 2.7,
+    "age": 3.1,
+    "gender": 3.4,
+    "attractive": 7.2,
+    "dominant": 15.3
+   }
+  },
+  {
+   "a": "92",
+   "b": "878",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": -3.8,
+    "age": 2.0,
+    "gender": -2.3,
+    "attractive": 23.2,
+    "dominant": 8.4
+   }
+  },
+  {
+   "a": "808",
+   "b": "777",
+   "diff": {
+    "trustworthy": 3.0,
+    "happy": -0.7,
+    "age": 4.3,
+    "gender": 7.7,
+    "attractive": 13.9,
+    "dominant": 12.5
+   }
+  },
+  {
+   "a": "626",
+   "b": "901",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": -0.8,
+    "age": -7.5,
+    "gender": 1.4,
+    "attractive": 7.8,
+    "dominant": -5.1
+   }
+  },
+  {
+   "a": "442",
+   "b": "735",
+   "diff": {
+    "trustworthy": 0.5,
+    "happy": -4.7,
+    "age": -1.0,
+    "gender": -2.0,
+    "attractive": 4.5,
+    "dominant": -2.8
+   }
+  },
+  {
+   "a": "861",
+   "b": "805",
+   "diff": {
+    "trustworthy": 2.9,
+    "happy": -0.3,
+    "age": 3.2,
+    "gender": -11.2,
+    "attractive": -9.2,
+    "dominant": 4.1
+   }
+  },
+  {
+   "a": "981",
+   "b": "144",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": 1.8,
+    "age": -3.2,
+    "gender": -6.6,
+    "attractive": 14.0,
+    "dominant": 6.7
+   }
+  },
+  {
+   "a": "958",
+   "b": "288",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": 1.8,
+    "age": 3.2,
+    "gender": 6.6,
+    "attractive": -0.6,
+    "dominant": -3.6
+   }
+  },
+  {
+   "a": "223",
+   "b": "773",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": 3.9,
+    "age": -1.3,
+    "gender": -3.9,
+    "attractive": 2.8,
+    "dominant": -8.9
+   }
+  },
+  {
+   "a": "541",
+   "b": "635",
+   "diff": {
+    "trustworthy": 1.5,
+    "happy": -1.1,
+    "age": 6.4,
+    "gender": -3.1,
+    "attractive": 5.1,
+    "dominant": 1.3
+   }
+  },
+  {
+   "a": "351",
+   "b": "378",
+   "diff": {
+    "trustworthy": 1.1,
+    "happy": 4.5,
+    "age": -1.2,
+    "gender": 2.7,
+    "attractive": 13.0,
+    "dominant": -4.4
+   }
+  },
+  {
+   "a": "452",
+   "b": "499",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": -4.3,
+    "age": 0.4,
+    "gender": -4.9,
+    "attractive": -6.4,
+    "dominant": -4.8
+   }
+  },
+  {
+   "a": "938",
+   "b": "905",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": 4.0,
+    "age": -2.6,
+    "gender": -1.6,
+    "attractive": -1.6,
+    "dominant": 7.1
+   }
+  },
+  {
+   "a": "488",
+   "b": "753",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": -2.1,
+    "age": -3.9,
+    "gender": 4.8,
+    "attractive": 7.9,
+    "dominant": -9.5
+   }
+  },
+  {
+   "a": "455",
+   "b": "34",
+   "diff": {
+    "trustworthy": 2.0,
+    "happy": -1.7,
+    "age": 5.1,
+    "gender": 3.9,
+    "attractive": -2.6,
+    "dominant": -5.8
+   }
+  },
+  {
+   "a": "235",
+   "b": "724",
+   "diff": {
+    "trustworthy": 0.2,
+    "happy": 2.4,
+    "age": -1.7,
+    "gender": -8.5,
+    "attractive": 12.6,
+    "dominant": 2.0
+   }
+  },
+  {
+   "a": "993",
+   "b": "329",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": 1.5,
+    "age": 0.5,
+    "gender": -13.4,
+    "attractive": -15.3,
+    "dominant": 6.0
+   }
+  },
+  {
+   "a": "884",
+   "b": "793",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": -0.6,
+    "age": 7.1,
+    "gender": 3.9,
+    "attractive": 4.7,
+    "dominant": 3.7
+   }
+  },
+  {
+   "a": "207",
+   "b": "870",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": -4.6,
+    "age": -2.7,
+    "gender": -0.3,
+    "attractive": -11.6,
+    "dominant": 0.3
+   }
+  },
+  {
+   "a": "988",
+   "b": "490",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": 2.9,
+    "age": 4.7,
+    "gender": -1.5,
+    "attractive": 1.7,
+    "dominant": -3.0
+   }
+  },
+  {
+   "a": "365",
+   "b": "379",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": 1.5,
+    "age": -3.8,
+    "gender": 7.6,
+    "attractive": -12.1,
+    "dominant": 2.0
+   }
+  },
+  {
+   "a": "336",
+   "b": "506",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": -1.2,
+    "age": -1.0,
+    "gender": 14.1,
+    "attractive": -6.0,
+    "dominant": 4.7
+   }
+  },
+  {
+   "a": "339",
+   "b": "282",
+   "diff": {
+    "trustworthy": 0.5,
+    "happy": 2.4,
+    "age": 4.8,
+    "gender": -3.5,
+    "attractive": 0.8,
+    "dominant": -5.9
+   }
+  },
+  {
+   "a": "14",
+   "b": "847",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": 0.7,
+    "age": -7.0,
+    "gender": 4.5,
+    "attractive": 17.8,
+    "dominant": 12.1
+   }
+  },
+  {
+   "a": "344",
+   "b": "882",
+   "diff": {
+    "trustworthy": 1.0,
+    "happy": -1.3,
+    "age": 0.5,
+    "gender": -14.8,
+    "attractive": 11.0,
+    "dominant": -2.3
+   }
+  },
+  {
+   "a": "511",
+   "b": "494",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": -1.4,
+    "age": -3.0,
+    "gender": 9.7,
+    "attractive": 0.7,
+    "dominant": 0.6
+   }
+  },
+  {
+   "a": "623",
+   "b": "866",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": -4.0,
+    "age": 3.4,
+    "gender": -1.5,
+    "attractive": 13.3,
+    "dominant": -4.3
+   }
+  },
+  {
+   "a": "534",
+   "b": "469",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": 0.4,
+    "age": 8.0,
+    "gender": 3.6,
+    "attractive": -6.3,
+    "dominant": -0.5
+   }
+  },
+  {
+   "a": "59",
+   "b": "430",
+   "diff": {
+    "trustworthy": 0.3,
+    "happy": -3.7,
+    "age": 0.8,
+    "gender": 7.2,
+    "attractive": 1.5,
+    "dominant": 4.0
+   }
+  },
+  {
+   "a": "159",
+   "b": "104",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 4.9,
+    "age": -2.6,
+    "gender": -0.4,
+    "attractive": 16.9,
+    "dominant": 4.5
+   }
+  },
+  {
+   "a": "922",
+   "b": "82",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": -2.5,
+    "age": 4.4,
+    "gender": 4.5,
+    "attractive": 1.1,
+    "dominant": -10.7
+   }
+  },
+  {
+   "a": "463",
+   "b": "407",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": -3.0,
+    "age": 4.7,
+    "gender": 2.5,
+    "attractive": 13.5,
+    "dominant": 8.9
+   }
+  },
+  {
+   "a": "178",
+   "b": "21",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": 4.9,
+    "age": -1.2,
+    "gender": -3.4,
+    "attractive": 12.5,
+    "dominant": -6.1
+   }
+  },
+  {
+   "a": "902",
+   "b": "316",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": 4.2,
+    "age": 4.2,
+    "gender": 0.2,
+    "attractive": -21.3,
+    "dominant": 1.9
+   }
+  },
+  {
+   "a": "395",
+   "b": "491",
+   "diff": {
+    "trustworthy": 1.7,
+    "happy": 0.7,
+    "age": -5.8,
+    "gender": -8.1,
+    "attractive": -5.4,
+    "dominant": -6.4
+   }
+  },
+  {
+   "a": "619",
+   "b": "62",
+   "diff": {
+    "trustworthy": 2.9,
+    "happy": -1.0,
+    "age": -7.1,
+    "gender": -4.9,
+    "attractive": -3.8,
+    "dominant": -17.4
+   }
+  },
+  {
+   "a": "449",
+   "b": "660",
+   "diff": {
+    "trustworthy": 0.1,
+    "happy": 2.0,
+    "age": 0.9,
+    "gender": -13.7,
+    "attractive": -1.5,
+    "dominant": 6.7
+   }
+  },
+  {
+   "a": "247",
+   "b": "176",
+   "diff": {
+    "trustworthy": 1.7,
+    "happy": -1.7,
+    "age": -6.1,
+    "gender": -4.7,
+    "attractive": 15.3,
+    "dominant": -9.2
+   }
+  },
+  {
+   "a": "867",
+   "b": "701",
+   "diff": {
+    "trustworthy": 2.9,
+    "happy": -1.3,
+    "age": -6.1,
+    "gender": 6.4,
+    "attractive": 1.0,
+    "dominant": -10.8
+   }
+  },
+  {
+   "a": "887",
+   "b": "476",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": -3.6,
+    "age": -0.4,
+    "gender": 10.5,
+    "attractive": -3.1,
+    "dominant": 1.6
+   }
+  },
+  {
+   "a": "519",
+   "b": "297",
+   "diff": {
+    "trustworthy": 1.1,
+    "happy": -4.7,
+    "age": -2.7,
+    "gender": 2.8,
+    "attractive": -6.6,
+    "dominant": -0.4
+   }
+  },
+  {
+   "a": "752",
+   "b": "486",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 1.7,
+    "age": -5.7,
+    "gender": 6.2,
+    "attractive": 1.4,
+    "dominant": 0.3
+   }
+  },
+  {
+   "a": "64",
+   "b": "27",
+   "diff": {
+    "trustworthy": 0.5,
+    "happy": -4.8,
+    "age": 2.3,
+    "gender": -3.5,
+    "attractive": 12.3,
+    "dominant": 7.2
+   }
+  },
+  {
+   "a": "372",
+   "b": "71",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": -2.5,
+    "age": 5.2,
+    "gender": -5.1,
+    "attractive": 10.0,
+    "dominant": -2.1
+   }
+  },
+  {
+   "a": "558",
+   "b": "448",
+   "diff": {
+    "trustworthy": 1.2,
+    "happy": -1.2,
+    "age": -4.3,
+    "gender": -10.8,
+    "attractive": -8.0,
+    "dominant": -1.0
+   }
+  },
+  {
+   "a": "382",
+   "b": "355",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": 0.1,
+    "age": 4.5,
+    "gender": 13.9,
+    "attractive": -12.5,
+    "dominant": -2.6
+   }
+  },
+  {
+   "a": "459",
+   "b": "341",
+   "diff": {
+    "trustworthy": 2.1,
+    "happy": 1.1,
+    "age": -5.0,
+    "gender": -10.1,
+    "attractive": 3.2,
+    "dominant": -6.8
+   }
+  },
+  {
+   "a": "101",
+   "b": "292",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": -2.3,
+    "age": 6.3,
+    "gender": -4.3,
+    "attractive": -6.7,
+    "dominant": -8.9
+   }
+  },
+  {
+   "a": "417",
+   "b": "679",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -3.3,
+    "age": -6.7,
+    "gender": -0.8,
+    "attractive": 2.5,
+    "dominant": -2.4
+   }
+  },
+  {
+   "a": "331",
+   "b": "573",
+   "diff": {
+    "trustworthy": 1.4,
+    "happy": -2.3,
+    "age": -4.3,
+    "gender": -8.5,
+    "attractive": -3.6,
+    "dominant": -16.6
+   }
+  },
+  {
+   "a": "33",
+   "b": "786",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -3.4,
+    "age": -3.9,
+    "gender": 5.8,
+    "attractive": -0.6,
+    "dominant": 1.0
+   }
+  },
+  {
+   "a": "347",
+   "b": "801",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": -4.5,
+    "age": 2.8,
+    "gender": -4.5,
+    "attractive": -3.6,
+    "dominant": 7.0
+   }
+  },
+  {
+   "a": "426",
+   "b": "868",
+   "diff": {
+    "trustworthy": 0.0,
+    "happy": 2.5,
+    "age": 6.2,
+    "gender": 4.5,
+    "attractive": 4.4,
+    "dominant": -4.8
+   }
+  },
+  {
+   "a": "301",
+   "b": "560",
+   "diff": {
+    "trustworthy": 0.5,
+    "happy": -1.6,
+    "age": -6.4,
+    "gender": 6.9,
+    "attractive": 8.7,
+    "dominant": -1.1
+   }
+  },
+  {
+   "a": "821",
+   "b": "865",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": -2.7,
+    "age": -2.8,
+    "gender": -10.4,
+    "attractive": 19.1,
+    "dominant": 8.3
+   }
+  },
+  {
+   "a": "397",
+   "b": "194",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": 2.8,
+    "age": -1.6,
+    "gender": -12.4,
+    "attractive": -6.6,
+    "dominant": 5.5
+   }
+  },
+  {
+   "a": "279",
+   "b": "967",
+   "diff": {
+    "trustworthy": 1.2,
+    "happy": 4.3,
+    "age": -5.5,
+    "gender": 1.3,
+    "attractive": 7.8,
+    "dominant": 0.9
+   }
+  },
+  {
+   "a": "242",
+   "b": "474",
+   "diff": {
+    "trustworthy": 0.8,
+    "happy": 2.2,
+    "age": 5.8,
+    "gender": -7.1,
+    "attractive": 2.8,
+    "dominant": 4.7
+   }
+  },
+  {
+   "a": "408",
+   "b": "481",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": -3.9,
+    "age": 2.4,
+    "gender": -8.6,
+    "attractive": 7.9,
+    "dominant": 7.8
+   }
+  },
+  {
+   "a": "249",
+   "b": "637",
+   "diff": {
+    "trustworthy": 1.8,
+    "happy": -4.1,
+    "age": 0.5,
+    "gender": -11.7,
+    "attractive": 16.2,
+    "dominant": 0.3
+   }
+  },
+  {
+   "a": "565",
+   "b": "682",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": -1.1,
+    "age": -6.6,
+    "gender": 9.8,
+    "attractive": -5.4,
+    "dominant": -14.0
+   }
+  },
+  {
+   "a": "91",
+   "b": "180",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": -2.5,
+    "age": -6.3,
+    "gender": -6.5,
+    "attractive": -7.8,
+    "dominant": -9.8
+   }
+  },
+  {
+   "a": "864",
+   "b": "772",
+   "diff": {
+    "trustworthy": 2.2,
+    "happy": 3.9,
+    "age": -5.6,
+    "gender": 3.6,
+    "attractive": -6.1,
+    "dominant": -28.3
+   }
+  },
+  {
+   "a": "4",
+   "b": "713",
+   "diff": {
+    "trustworthy": 1.4,
+    "happy": 4.8,
+    "age": -5.7,
+    "gender": -0.9,
+    "attractive": -1.0,
+    "dominant": -3.5
+   }
+  },
+  {
+   "a": "284",
+   "b": "166",
+   "diff": {
+    "trustworthy": 1.4,
+    "happy": 4.5,
+    "age": -6.6,
+    "gender": 0.1,
+    "attractive": 19.9,
+    "dominant": -9.8
+   }
+  },
+  {
+   "a": "548",
+   "b": "972",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 1.9,
+    "age": 6.1,
+    "gender": -9.2,
+    "attractive": -7.7,
+    "dominant": 1.4
+   }
+  },
+  {
+   "a": "749",
+   "b": "746",
+   "diff": {
+    "trustworthy": 2.8,
+    "happy": 4.8,
+    "age": 2.8,
+    "gender": 6.9,
+    "attractive": 6.4,
+    "dominant": 0.8
+   }
+  },
+  {
+   "a": "497",
+   "b": "819",
+   "diff": {
+    "trustworthy": 1.7,
+    "happy": -4.2,
+    "age": -3.8,
+    "gender": -6.8,
+    "attractive": 4.0,
+    "dominant": -9.9
+   }
+  },
+  {
+   "a": "971",
+   "b": "668",
+   "diff": {
+    "trustworthy": 2.4,
+    "happy": 5.0,
+    "age": 5.5,
+    "gender": 1.2,
+    "attractive": 5.1,
+    "dominant": 15.3
+   }
+  },
+  {
+   "a": "594",
+   "b": "461",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": 2.0,
+    "age": -7.9,
+    "gender": 5.6,
+    "attractive": 5.8,
+    "dominant": -6.9
+   }
+  },
+  {
+   "a": "717",
+   "b": "95",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": -1.5,
+    "age": -6.6,
+    "gender": 10.0,
+    "attractive": 9.3,
+    "dominant": 5.9
+   }
+  },
+  {
+   "a": "80",
+   "b": "863",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": 5.0,
+    "age": 5.6,
+    "gender": 1.5,
+    "attractive": 1.7,
+    "dominant": 4.2
+   }
+  },
+  {
+   "a": "501",
+   "b": "179",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": 3.7,
+    "age": -6.2,
+    "gender": -4.2,
+    "attractive": 21.6,
+    "dominant": 1.7
+   }
+  },
+  {
+   "a": "383",
+   "b": "477",
+   "diff": {
+    "trustworthy": 1.8,
+    "happy": -2.7,
+    "age": 6.4,
+    "gender": 6.9,
+    "attractive": 8.8,
+    "dominant": 7.1
+   }
+  },
+  {
+   "a": "373",
+   "b": "549",
+   "diff": {
+    "trustworthy": 0.9,
+    "happy": -4.6,
+    "age": -7.2,
+    "gender": -0.6,
+    "attractive": 11.0,
+    "dominant": 3.6
+   }
+  },
+  {
+   "a": "102",
+   "b": "806",
+   "diff": {
+    "trustworthy": 1.9,
+    "happy": 3.8,
+    "age": 6.0,
+    "gender": 5.8,
+    "attractive": -5.4,
+    "dominant": -2.3
+   }
+  },
+  {
+   "a": "895",
+   "b": "65",
+   "diff": {
+    "trustworthy": 2.6,
+    "happy": 2.9,
+    "age": 7.7,
+    "gender": 5.4,
+    "attractive": -12.7,
+    "dominant": -14.2
+   }
+  },
+  {
+   "a": "681",
+   "b": "212",
+   "diff": {
+    "trustworthy": 0.7,
+    "happy": -4.0,
+    "age": -2.4,
+    "gender": 12.6,
+    "attractive": -6.1,
+    "dominant": -2.4
+   }
+  },
+  {
+   "a": "522",
+   "b": "689",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -2.7,
+    "age": 4.5,
+    "gender": 12.7,
+    "attractive": -3.3,
+    "dominant": -2.1
+   }
+  },
+  {
+   "a": "577",
+   "b": "567",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": 3.7,
+    "age": 7.8,
+    "gender": 3.5,
+    "attractive": 6.8,
+    "dominant": 12.1
+   }
+  },
+  {
+   "a": "432",
+   "b": "354",
+   "diff": {
+    "trustworthy": 2.7,
+    "happy": -4.3,
+    "age": -7.0,
+    "gender": 3.6,
+    "attractive": -23.4,
+    "dominant": -18.1
+   }
+  },
+  {
+   "a": "46",
+   "b": "256",
+   "diff": {
+    "trustworthy": 2.6,
+    "happy": -3.2,
+    "age": 3.7,
+    "gender": 13.1,
+    "attractive": 5.5,
+    "dominant": 16.2
+   }
+  },
+  {
+   "a": "825",
+   "b": "233",
+   "diff": {
+    "trustworthy": 1.3,
+    "happy": 4.9,
+    "age": -5.3,
+    "gender": -5.0,
+    "attractive": 0.7,
+    "dominant": -1.9
+   }
+  },
+  {
+   "a": "117",
+   "b": "333",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -4.8,
+    "age": 3.2,
+    "gender": 9.6,
+    "attractive": 2.2,
+    "dominant": 0.7
+   }
+  },
+  {
+   "a": "496",
+   "b": "487",
+   "diff": {
+    "trustworthy": 2.3,
+    "happy": -3.7,
+    "age": 4.1,
+    "gender": -11.3,
+    "attractive": -13.2,
+    "dominant": 4.1
+   }
+  },
+  {
+   "a": "960",
+   "b": "694",
+   "diff": {
+    "trustworthy": 1.6,
+    "happy": -4.5,
+    "age": -6.1,
+    "gender": -6.3,
+    "attractive": 10.1,
+    "dominant": -14.0
+   }
+  },
+  {
+   "a": "578",
+   "b": "948",
+   "diff": {
+    "trustworthy": 2.5,
+    "happy": 4.9,
+    "age": -6.0,
+    "gender": 5.5,
+    "attractive": 5.0,
+    "dominant": -17.9
+   }
+  },
+  {
+   "a": "854",
+   "b": "106",
+   "diff": {
+    "trustworthy": 1.0,
+    "happy": 4.1,
+    "age": 7.8,
+    "gender": 4.8,
+    "attractive": -8.7,
+    "dominant": -10.2
+   }
+  },
+  {
+   "a": "387",
+   "b": "74",
+   "diff": {
+    "trustworthy": 2.0,
+    "happy": -3.8,
+    "age": 7.1,
+    "gender": -7.5,
+    "attractive": 5.7,
+    "dominant": 3.1
+   }
+  },
+  {
+   "a": "362",
+   "b": "363",
+   "diff": {
+    "trustworthy": 0.6,
+    "happy": -3.4,
+    "age": 5.6,
+    "gender": 12.7,
+    "attractive": -9.1,
+    "dominant": 13.3
+   }
+  },
+  {
+   "a": "727",
+   "b": "443",
+   "diff": {
+    "trustworthy": 0.4,
+    "happy": 4.5,
+    "age": 3.7,
+    "gender": -13.2,
+    "attractive": -3.3,
+    "dominant": -11.0
+   }
+  },
+  {
+   "a": "399",
+   "b": "11",
+   "diff": {
+    "trustworthy": 1.7,
+    "happy": 4.6,
+    "age": -3.4,
+    "gender": -13.7,
+    "attractive": 4.3,
+    "dominant": -21.8
+   }
+  }
+ ]
+}
