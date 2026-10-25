@@ -1,0 +1,18 @@
+{
+ "id": "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1223-78",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer looks down at a narrow rectangular white manicure table roughly 0.4 to 0.6 metres in front of and below the viewpoint, set over a tiled floor. Directly across the table, about 0.6 to 0.8 metres away, another person sits in a blue chair facing toward the camera wearer, with their head and upper torso cropped out of the top of the frame and their legs partially occluded beneath the tabletop. On the table, all within arm's reach (0.3 to 0.6 metres) of both the camera wearer and the seated person, a white towel sits in the centre flanked on the left by a spray bottle, a small white jar with its lid, and small manicure containers (about 0.1 to 0.3 metres left of the towel), and on the right by blue-handled scissors, a manicure brush, and a plastic organizer box with a roll of gold forms (about 0.1 to 0.3 metres right of the towel), while a black phone rests on the chair arm further to the upper left at roughly 0.7 metres. The seated person's right forearm and hand extend forward onto the central towel to about 0.4 metres from the camera wearer, while their left hand remains resting near the upper-right edge of the towel about 0.25 metres to the right of their right hand. Across the five frames, the camera wearer's left hand holds the fingers of the other person's right hand steady at the near edge of the table while the camera wearer's right hand moves a pink-and-white nail file back and forth across those fingertips\u2014angled diagonally showing its pink side in frames 1, 4, and 5, and rotated horizontally showing its white edge in frames 2 and 3\u2014while the overall camera viewpoint, furniture, and surrounding items remain stationary."
+ },
+ "duration_seconds": 12.470606,
+ "usage": {
+  "input_tokens": 5368,
+  "output_tokens": 638,
+  "thinking_tokens": 171,
+  "cache_read_tokens": 28418,
+  "total_tokens": 6006
+ },
+ "conversation_id": "ec0acb94-4a95-4112-a396-b8661cf92f4e"
+}

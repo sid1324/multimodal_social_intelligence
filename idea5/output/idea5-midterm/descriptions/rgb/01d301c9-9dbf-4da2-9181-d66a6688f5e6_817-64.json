@@ -1,0 +1,18 @@
+{
+ "id": "01d301c9-9dbf-4da2-9181-d66a6688f5e6_817-64",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an elevated outdoor rooftop construction site featuring a concrete parapet wall on the left (2 to 3 metres away), a grid of lashed wooden scaffolding poles in the foreground (0.5 to 3 metres ahead), piles of sand, bricks, sacks, and metal basins across the central floor (2 to 5 metres away), and a brick structure with a blue drum in the background (6 to 8 metres away). Two people are present to the front-right of the camera wearer: a man in a white shirt standing among the scaffolding poles roughly 2.5 to 3 metres away, and a woman in a pink garment standing about 3 metres further back near the blue drum (5.5 to 6 metres from the wearer). The nearest wooden scaffolding poles and a hand-held trowel visible at the bottom-right of the third frame (0.3 to 0.5 metres away) are within the camera wearer's arm's reach, while the right-side scaffolding poles are within the man's reach (which he grasps in the fifth frame) and the blue drum and brick wall are within the woman's reach. Both individuals generally face toward the camera wearer's direction, with the man looking directly at the camera wearer in the fifth frame while the woman angles slightly toward the left doorway. In the first three frames, the camera tilts downward so the man on the right edge is mostly cropped out of view and the woman is partially cut off at the top-right in frame three; the camera then pans left and upward in the fourth frame\u2014moving both people completely out of view on the right\u2014before panning right in the fifth frame to bring both back into view at stable distances, partially occluded by the foreground wooden poles."
+ },
+ "duration_seconds": 21.721129,
+ "usage": {
+  "input_tokens": 19509,
+  "output_tokens": 1280,
+  "thinking_tokens": 847,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20789
+ },
+ "conversation_id": "6bd60bd2-cba9-4c7f-922d-b5c5432d0fcf"
+}

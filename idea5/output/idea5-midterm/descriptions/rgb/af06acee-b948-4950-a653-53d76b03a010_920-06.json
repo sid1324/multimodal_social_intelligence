@@ -1,0 +1,18 @@
+{
+ "id": "af06acee-b948-4950-a653-53d76b03a010_920-06",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor campus-like intersection featuring a wide concrete sidewalk on the left bordered by a low stone retaining wall, a grassy slope, and trees, with a paved roadway and a green-painted bike lane curve to the right. In the first frame, the camera wearer is stepping onto the sidewalk near a black post base about 1.5 metres to the front-left, while a silver SUV on the road to the right approaches from roughly 6 to 8 metres away, facing toward the front-right of the camera wearer. A second short black post with a white sign stands on the sidewalk curb edge ahead, roughly 7 to 8 metres away in the first frame, and a distant pedestrian is visible further down the sidewalk at more than 20 metres away. Across frames 1 to 3, the camera wearer pitches their head upward and walks forward along the sidewalk while the silver SUV drives past to the right, coming within about 2.5 to 3 metres in frame 2 before its rear end exits the right edge of the frame in frame 3. By frames 4 and 5, the SUV has completely passed behind the field of view, and the camera wearer advances to within roughly 2 to 3 metres of the second curb-side post on the right and 6 to 8 metres of the lamppost and street sign ahead. Throughout all five frames, no person or object is within immediate arm's reach of the camera wearer, though the first black post in frame 1 is just beyond reach to the left."
+ },
+ "duration_seconds": 12.743746,
+ "usage": {
+  "input_tokens": 19614,
+  "output_tokens": 472,
+  "thinking_tokens": 81,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20086
+ },
+ "conversation_id": "0febb39b-9838-4d12-8a37-e69d1b7d7dd5"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "0d08f503-89df-4dd8-a238-4e1749d2fe22_5-63",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor garage with a concrete floor, a white door and storage shelves along the back wall roughly 4 to 5 metres away, a green riding lawnmower to the back right, and an open garage door on the left side visible in the final frame. In the first two frames, the camera wearer looks down at a wooden shelving unit on a drop cloth to the right within arm's reach (about 0.5 to 1 metre away), while two wooden drawers, a floor lamp with purple shades, and a plastic jug sit on the floor to the left about 1.5 to 2 metres away, and another cabinet stands further back at 3 metres. In frame 1, a person in a light blue shirt stands immediately to the right within 0.5 metres, mostly cropped out of the right edge and partially occluding the wooden shelving unit, before moving out of view in frame 2 as the camera tilts further down. Across frames 3 to 5, the camera wearer raises their gaze and turns leftward while moving around the wooden shelving unit, which remains in the lower foreground within arm's reach (about 0.5 to 1 metre away). The person in the light blue shirt and safety glasses reappears on the left in frame 3 at about 1 metre away, facing right toward the shelving unit and away from the camera wearer, and remains within arm's reach of the shelving unit's far side through frame 5. As the camera wearer rotates to face the open garage door in frames 4 and 5, the other person shifts from the left side of the frame to the center behind the horizontal top of the wooden unit, angled slightly toward the camera wearer while looking down at the wood surface."
+ },
+ "duration_seconds": 13.269205,
+ "usage": {
+  "input_tokens": 19620,
+  "output_tokens": 527,
+  "thinking_tokens": 93,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20147
+ },
+ "conversation_id": "4e44f688-1eb4-4c0a-9c98-01b5e360ada9"
+}

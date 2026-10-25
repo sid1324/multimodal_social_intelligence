@@ -1,0 +1,18 @@
+{
+ "id": "2ec3c123-0a04-46d7-97d5-8b85b5e6d06f_432-01",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a tiled entryway directly in front of a closed wooden double door with metal grilles and a central latch, located roughly 0.8 to 1.2 metres ahead of the camera wearer, with a low cabinet to the right (about 0.6 to 1.0 metres away) that has dark sandals on its top surface and single slippers on the floor below it. Looking steeply downward, the camera wearer's lower legs, white shoes, and left hand holding a phone are visible at the bottom edge, while a green net is partially in view in the lower right corner of the first two frames. Across frames 1 to 3, the camera wearer steps slightly closer to within about 0.6 metres of the door and extends their right arm forward to reach and grasp the central metal bolt, which is within arm's reach alongside the cabinet to their right. In frame 4, the camera wearer lowers their arm and steps back slightly to roughly 1.0 metre from the threshold. By frame 5, the wooden double doors swing inward to the left and right, revealing a second person standing directly in the doorway about 1.0 to 1.2 metres in front of the camera wearer and within arm's reach of both door leaves. This second person faces directly toward the camera wearer with their hands holding the inner edges of the open doors, while their head and upper shoulders are cut off by the top edge of the frame and their lower legs are partially occluded by the doorway threshold and the camera wearer's raised right hand."
+ },
+ "duration_seconds": 14.616994,
+ "usage": {
+  "input_tokens": 19559,
+  "output_tokens": 488,
+  "thinking_tokens": 95,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20047
+ },
+ "conversation_id": "27031fe1-6274-4779-aa46-9c495fb0fe16"
+}

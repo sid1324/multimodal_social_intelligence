@@ -1,0 +1,18 @@
+{
+ "id": "83f18213-f8f8-44fa-b9ce-104c6ddbcd57_1657-94",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living room with a recessed ceiling holding a central chandelier above, a large curtained window along the back-left wall, a light-colored sofa in front of the window, and a television on a dark stand against the right wall about 3 to 4 metres away. In the first frame, a large upright decorative picture board stands on the left about 2 to 2.5 metres from the camera wearer, while a woman in a dark sleeveless top stands to its right in front of the sofa about 2.5 to 3 metres away, facing and looking toward the camera wearer while holding a small green-and-white object within her hands. Across the five frames, the camera wearer moves forward and turns slightly rightward while the woman simultaneously walks forward toward the camera wearer, reducing the distance between them from roughly 3 metres in frame 1 to about 0.8 to 1 metre\u2014within arm's reach\u2014by frame 5. As they approach each other, the large upright board shifts to the far left and is mostly cropped out of view in frames 3 and 4 before reappearing angled on the left in frame 5 within arm's reach (under 1 metre) of both the camera wearer and the woman. The woman's lower body is progressively occluded by the bottom edge of the frame until only her head, shoulders, and the raised green-and-white object in her hand are visible in the lower foreground of frames 4 and 5, partially occluding the sofa behind her. Meanwhile, the television and dark stand on the right enter the field of view in frame 2 and remain visible in the background about 2.5 to 3.5 metres to the right and behind the woman."
+ },
+ "duration_seconds": 13.158899,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 518,
+  "thinking_tokens": 82,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20079
+ },
+ "conversation_id": "3569ab12-b3fe-4e20-baa9-3b20b4ba1c0f"
+}

@@ -1,0 +1,1 @@
+{"id": "110f9870-6b6c-4a20-a3c8-8c2e29c53bb7_1386-55", "cond": "desc_only_flip", "model": "gemini", "action_position": 2, "justification_position": 5, "raw": "{\"action\": 2, \"justification\": 5}\n", "meta": {"status": "SUCCESS", "denied": null}, "seconds": 19.3, "attempts": 1}

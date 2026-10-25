@@ -1,0 +1,18 @@
+{
+ "id": "d0396c77-6ecc-4d9f-bda1-af051699d0cf_1049-41",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor unfinished brick-and-plaster construction space featuring two vertical red-brick columns, grey plastered walls on the left, a dirt-covered floor below, and an elevated bamboo-and-board scaffolding plank spanning between the columns about 1.8 to 2.2 metres above the floor. In Frame 1, the camera wearer looks straight down at a circular grey mortar pan filled with soil or mortar held in both hands within arm's reach (~0.4 m away), with a rectangular container on the ground to the upper left (~0.8 m away). Across Frames 2 to 4, the camera wearer tilts their view upward and approaches the scaffolding, reducing the horizontal distance from roughly 2.5 metres in Frame 2 to about 1.5 metres in Frame 3 and under 1 metre in Frame 4. Standing on top of the elevated scaffolding plank is another person in light-coloured trousers whose upper body and head are largely cut off by the top frame edge or occluded by the right-hand brick column and, in Frame 5, by the raised pan; this person faces generally toward the scaffolding edge and camera wearer, with a second shallow pan resting on the plank directly in front of their feet (~0.2 m away from them) and a plastering float further left on the poles. By Frame 5, the camera wearer stands directly beneath the scaffolding between the two brick columns (within 0.3 to 0.5 metres of each column) and extends both arms upward to lift the mortar pan overhead to the level of the plank, bringing the pan within arm's reach of both the camera wearer and the person above whose hands reach down toward its rim."
+ },
+ "duration_seconds": 13.782821,
+ "usage": {
+  "input_tokens": 5291,
+  "output_tokens": 428,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28431,
+  "total_tokens": 5719
+ },
+ "conversation_id": "76f0d648-2b92-433e-bc0a-4326a0c5f0b5"
+}

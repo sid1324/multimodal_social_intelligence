@@ -1,0 +1,18 @@
+{
+ "id": "949b2e8a-83f9-4b89-b29b-9e8d81600dd8_2981-03",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first three frames, the camera wearer looks straight down at a round green basin filled with dry chaff and grain resting inside the opening of a large white woven sack on straw-covered ground about 0.5 to 1 metre below head level. Both the basin and the sack are within the camera wearer's arm's reach, with the wearer's left hand holding the lower-left rim and right hand moving from the center of the basin in frame 1 to grasp its upper-right rim by frame 3, while the wearer's bare feet are partly visible at the bottom edge of frame 3 just behind the basin. In frame 4, the camera wearer lifts the green basin closer to the torso and turns rightward as the view tilts up slightly, revealing a second open white sack filled with grain directly to the left of the first sack, about 1 to 1.5 metres away and separated from each other by less than 0.3 metres. By frame 5, the camera wearer's head tilts upward and turns further to the right to reveal the broader outdoor layout: a straw-and-mud embankment slopes down in front of the wearer toward a flooded pond or paddy field starting roughly 4 to 5 metres ahead on the upper right. The two white sacks sit on the ground to the bottom left at about 1.5 to 2 metres distance while the held green basin is partly out of view at the bottom right corner, and a white bucket and a small yellow container lie on the muddy bank about 2.5 to 3.5 metres ahead. In the upper right of frame 5, a person in a blue shirt stands ankle-deep in the water roughly 8 to 12 metres away from the camera wearer and about 5 to 7 metres beyond the bucket, facing left in profile with their head angled downward toward an object held within their own arm's reach rather than looking toward the camera wearer."
+ },
+ "duration_seconds": 12.649262,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 574,
+  "thinking_tokens": 97,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20143
+ },
+ "conversation_id": "951097a0-a649-49cb-99a0-43755c2790e7"
+}

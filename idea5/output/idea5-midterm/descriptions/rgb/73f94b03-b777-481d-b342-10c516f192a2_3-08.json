@@ -1,0 +1,18 @@
+{
+ "id": "73f94b03-b777-481d-b342-10c516f192a2_3-08",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room with a foreground table, a wall on the right featuring a curtained window and an upper wall-mounted shelf, and a wide archway on the left leading into an adjoining living room. In the first two frames, a person in a dark beanie sits at the table to the right about 1 to 1.5 metres from the camera wearer, with their lower body occluded by the table and bottom frame edge, while a white chair back and tabletop items in the lower-left foreground lie within about 0.5 to 1 metre (arm's reach) of both the camera wearer and the seated person. Behind the seated person at roughly 2 to 2.5 metres are potted plants on stools in front of the window and a small green side table about 1 metre to the plants' left, with the wall shelf mounted above and behind the person at roughly 1.5 to 2 metres. In frames 1 and 2, the seated person faces slightly right and downward toward the table rather than looking at the camera wearer, touching their eyewear within arm's reach in the first frame before lowering their hands toward the tabletop in the second. Across frames 3 to 5, the camera wearer turns rapidly to the left and tilts upward\u2014bringing a glowing ceiling light fixture about 1 to 1.5 metres overhead into view in frame 4\u2014which moves the seated person and right wall completely out of frame to the right while revealing the adjacent living room 4 to 7 metres away, where a sofa, floor lamp, ceiling fan, and two bookshelves flanking a brightly lit window are arranged."
+ },
+ "duration_seconds": 25.993615,
+ "usage": {
+  "input_tokens": 5408,
+  "output_tokens": 982,
+  "thinking_tokens": 572,
+  "cache_read_tokens": 28417,
+  "total_tokens": 6390
+ },
+ "conversation_id": "d4f1d29f-a88c-4616-ae9d-ca253ed660cc"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "620d3087-c6fb-4b08-bb6a-4dc4ede3b994_232-40",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands on an unfinished interior staircase looking downward into a bright ground-floor entryway with white walls, a tiled floor, an open doorway, and a window in the background about 4 to 6 metres away. Directly below and within arm's reach (0.5 to 1.5 metres) are concrete steps, a vertical metal baluster post on the step below, and a sloped stainless-steel handrail on the left, while the ascending upper flight of stairs and an overhanging landing wall sit immediately to the right. A person in a yellow plaid shirt and dark trousers stands at the base of the stairs to the lower left, roughly 1.5 to 2.5 metres below and in front of the camera wearer, positioned within arm's reach of the bottom stair post and surrounding floor debris. Across the tiled floor below, about 2 to 4 metres from the wearer and 0.5 to 2 metres from the standing person, lie scattered construction materials including cardboard, electrical cords, a handheld power tool, bags, and bundles of long metal pipes and orange-wrapped rods to the right. The standing person faces toward the stairs and looks upward toward the camera wearer in frame 1 and toward the upper right in frame 4, while his head and upper torso are cropped out by the left frame edge in frames 2 and 5 and completely out of view in frame 3 as the camera pans right toward the overhanging stairwell wall and then pans back left."
+ },
+ "duration_seconds": 11.394595,
+ "usage": {
+  "input_tokens": 19523,
+  "output_tokens": 450,
+  "thinking_tokens": 72,
+  "cache_read_tokens": 14207,
+  "total_tokens": 19973
+ },
+ "conversation_id": "112e739e-b4b1-4509-959d-cfecf5092349"
+}

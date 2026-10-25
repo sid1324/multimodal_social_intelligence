@@ -1,0 +1,18 @@
+{
+ "id": "c92cfd96-21ca-4b52-a56a-6345fbf57de0_233-46",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated and looking straight down at a workspace surface about 0.4 to 0.7 metres below their head, with a bare floor visible about 1.0 to 1.2 metres down on the far right and no other people present in the scene. Directly in front of the wearer at roughly 0.4 to 0.5 metres is a small rectangular canvas or board resting on newspaper, with a small bottle immediately to its right (about 0.05 metres away) and Paintbrushes on the far left edge. Just beyond the canvas at about 0.5 to 0.6 metres is an upright tablet screen facing the camera wearer, flanked by white-capped jars to its left, a yellow tray of supplies partly out of view above/behind it, and an open box of paint tubes about 0.05 metres to its right. All of these tabletop items are within the camera wearer's arm's reach, while a box and dark object on the lower floor to the bottom right (roughly 0.9 to 1.1 metres away) are just outside immediate reach. The camera wearer's left forearm extends from the bottom left to hold the upper-left corner of the canvas and partially occludes the newspaper and lower edge of the tablet, while the right hand holds a paintbrush over the right side of the canvas and partially occludes its surface. Across the five frames, the scene layout and camera viewpoint shift slightly downward and to the left between frames 1 and 2 before remaining nearly static, while the wearer's right hand makes small lateral adjustments of a few centimetres with the brush tip near the lettering on the canvas."
+ },
+ "duration_seconds": 15.794642,
+ "usage": {
+  "input_tokens": 19569,
+  "output_tokens": 686,
+  "thinking_tokens": 264,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20255
+ },
+ "conversation_id": "98c53e5d-4273-447d-ab50-7467b2f0fbc0"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "6395f964-0122-4f16-b036-337c28488504_1626-75",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor climbing gym featuring a tightly packed group of about seven people standing immediately in front of the camera wearer, an elevated mezzanine balcony with one standing person roughly 7 to 9 metres away and 3 metres above on the upper left, a yellow numbered wall section 4 to 6 metres to the left, and a large grey overhanging climbing wall with colorful holds 3 to 5 metres away on the upper right. Within the foreground group, a person in a teal shirt stands 0.4 to 0.6 metres directly ahead and slightly left, another person wearing a black head-strap is 0.2 to 0.3 metres away on the immediate right, and five others in maroon sleeveless, grey, patterned, and dark shirts stand 0.8 to 1.5 metres away in a tight circle spaced less than 0.5 metres apart. The teal-shirted person, the person on the immediate right, and several outstretched arms at chest height are within arm's reach of the camera wearer, while all members of the group are within arm's reach of one another with their extended arms overlapping in the center. In frame 1, the teal-shirted person faces away and slightly left while the surrounding people face inward toward the group's center\u2014with those on the far side facing generally toward the camera wearer\u2014and the close foreground figures heavily occlude the torsos of the people behind them while the right-side person is partly cropped by the right frame edge. Across frames 2 and 3, the teal-shirted person turns their head and torso toward the left and shifts closer to about 0.3 to 0.4 metres while the person on the right moves to within 0.2 metres, increasingly occluding the middle ground. In frames 4 and 5, the camera tilts upward and shifts behind the person wearing the black head-strap\u2014whose head now occupies the lower-center foreground 0.2 to 0.3 metres away\u2014causing most of the group's bodies to drop out of view below the bottom edge of the frame while revealing the ceiling lights and the grey climbing wall above."
+ },
+ "duration_seconds": 25.72272,
+ "usage": {
+  "input_tokens": 19581,
+  "output_tokens": 1465,
+  "thinking_tokens": 945,
+  "cache_read_tokens": 14209,
+  "total_tokens": 21046
+ },
+ "conversation_id": "01194b8f-971d-4de8-8574-44d181b6b502"
+}

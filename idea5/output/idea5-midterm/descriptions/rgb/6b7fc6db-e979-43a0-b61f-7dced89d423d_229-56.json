@@ -1,0 +1,18 @@
+{
+ "id": "6b7fc6db-e979-43a0-b61f-7dced89d423d_229-56",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail or cafe area with a checkout counter and display shelves on one side, illuminated display cases and drink refrigerators along the back wall about 2.5 to 4 metres away, and small round black tables with chairs in the floor space between them. Throughout the first four frames, the camera wearer holds an open booklet in both hands within arm's reach (about 0.3 to 0.5 metres in front and below eye level), while the wearer's lower body and parts of the surrounding tables and chairs remain cropped at the frame edges. In Frame 1, the camera wearer faces a wooden counter with snack racks roughly 1.5 to 2 metres ahead; in Frame 2, the viewpoint turns toward a small round table about 0.8 to 1.2 metres away where a woman in a black shirt and green lanyard stands about 1.2 to 1.5 metres ahead on the right, facing and looking toward the camera wearer with a bottle and a red basket on the table between them within her arm's reach. In Frames 3 and 4, the camera wearer turns right toward an exit door and potted plant (about 3 to 4 metres away) and then back toward another round table and grey chair 1 to 2 metres ahead, causing the woman to be completely out of view in Frame 3 and almost entirely cropped at the far left edge in Frame 4. By Frame 5, the camera wearer has turned back to and approached the round table (now within 0.5 to 0.8 metres, with a bottle on its left side and open booklets near the bottom edge within arm's reach), while the woman stands about 0.8 to 1.0 metre away on the opposite side of the table, leaning forward with her body facing the table and camera wearer, looking downward toward the right side of the table, holding a booklet in her right hand and extending her left arm within reach of the camera wearer's hands."
+ },
+ "duration_seconds": 14.418978,
+ "usage": {
+  "input_tokens": 19575,
+  "output_tokens": 693,
+  "thinking_tokens": 203,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20268
+ },
+ "conversation_id": "e297416a-f25b-4a0f-8867-9531bd2d899d"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "0d5f2917-e0bd-47cb-b887-1c14c69568f9_848-84",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands in a workshop looking steeply downward at a concrete floor, with their own torso, feet, and both hands visible in the lower foreground. Directly in front of the camera wearer's right side within 0.5 metres\u2014well within arm's reach\u2014is a round black trash bin holding dark plastic parts and a flattened white-and-red cardboard box that the wearer's right hand pushes into the bin across all five frames, while a small cardboard box with a black ring sits just behind the bin to the right. Immediately ahead of the bin at roughly 1.0 to 1.5 metres is a green lawn mower, with a black case, small tires, and red equipment\u7d041.0 to 1.5 metres to the right (partly cut off by the right frame edge), and a black crate, yellow-and-orange power equipment, and a black stand positioned 1.0 to 2.5 metres to the left. About 2.5 to 3.5 metres ahead and to the left, across 1.5 to 2.0 metres of open floor from the green mower, a second person in dark blue shirt and shorts stands near brown floor mats and red tool cabinets. Across the five frames, the camera wearer remains stationary while panning their view slightly rightward from frame 1 to frame 3 and back leftward by frame 5, causing objects along the left, right, and top edges to shift in and out of view. Meanwhile, the second person\u2014whose upper body is partly occluded by the top frame border in frames 1 through 3 and who never looks toward the camera wearer\u2014crouches down facing left in frame 4 to reach a brown mat on the floor and lifts the mat within their arm's reach in frame 5."
+ },
+ "duration_seconds": 21.691734,
+ "usage": {
+  "input_tokens": 5320,
+  "output_tokens": 1026,
+  "thinking_tokens": 579,
+  "cache_read_tokens": 28411,
+  "total_tokens": 6346
+ },
+ "conversation_id": "b8e161a7-f026-4b38-829f-2cb8994b7d35"
+}

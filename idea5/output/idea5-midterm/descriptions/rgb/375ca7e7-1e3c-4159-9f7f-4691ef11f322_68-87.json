@@ -1,0 +1,18 @@
+{
+ "id": "375ca7e7-1e3c-4159-9f7f-4691ef11f322_68-87",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands at a kitchen counter looking downward at a workspace within arm's reach (0.3 to 0.7 metres ahead), where a speckled mat holds a small green packet, bagged yellow potatoes, bagged lettuce, and bagged dark greens arranged from left to right about 0.05 to 0.15 metres apart. Directly behind the mat at 0.6 to 0.7 metres sit a two-tier wooden spice rack on the left, an upright smartphone in front of the rack, and a recipe sheet propped against dark boards to the right, flanked by a wooden knife block and a rectangular carton 0.4 to 0.6 metres to the left and a black glass stovetop 0.5 to 0.8 metres to the right. Across frames 1 to 4, the wearer's hands stay within arm's reach as the right hand moves from the potatoes (frame 1) onto the bagged greens (frames 2 to 4), while the left hand shifts from the far-left carton to the potatoes (frame 2), reaches up to the knife block (frame 3), and draws a knife partly past the left frame boundary (frame 4). In frame 5, the camera wearer turns rightward so the spice rack and knife block exit the left edge, the potatoes, lettuce, phone, and recipe sheet shift into the lower-left corner partly out of view, and the wearer's right hand holds a large chef's knife above the counter between the greens and the centered stovetop about 0.4 metres away. This rightward turn reveals a second barefoot person standing 1.0 to 1.5 metres to the front-right (whose foot was only partly visible at the bottom-right edge of frame 1), facing the right-hand counter away from the camera wearer with their upper body cropped out of view and their right hand reaching a green cloth and cutting board beside a canister and second phone."
+ },
+ "duration_seconds": 35.57769,
+ "usage": {
+  "input_tokens": 19522,
+  "output_tokens": 1462,
+  "thinking_tokens": 982,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20984
+ },
+ "conversation_id": "4eb0b91e-660e-45b0-8f49-a178b02719ad"
+}

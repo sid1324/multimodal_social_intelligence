@@ -1,0 +1,18 @@
+{
+ "id": "706de1df-babc-4e54-a310-1d9070140197_195-59",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first frame, the camera wearer looks down a narrow interior passage toward a living area 4 to 6 metres ahead containing a tan armchair and a black bench, while a multi-tiered wire shelving unit stands 1 to 1.5 metres away on the left opposite a window within 1 metre on the right. Across the second and third frames, the camera wearer moves forward and turns slightly toward the wire rack, bringing its upper shelf of stacked plates and bowls (at or just above eye level) and its lower shelf of fruit, bread, and bottles (below eye level) within arm's reach at 0.3 to 0.8 metres, while the background living room is mostly cropped or occluded on the far left. In the fourth frame, the camera wearer rotates clockwise to the right, placing the window within 0.5 to 1 metre on the left, a dark alcove 1 to 2 metres straight ahead, and a stacked washer-dryer unit partly visible on the right edge about 1.5 to 2 metres away. By the fifth frame, the camera wearer has turned further right to face a kitchen where a refrigerator stands 1.5 to 2 metres away on the left (partly occluded by a doorframe) and a stove, cabinetry, and sink beneath a window sit 3 to 4 metres ahead. To the right of the sink in the fifth frame, about 2 to 3 metres from the camera wearer, a person stands facing front-left with their head angled downward toward items held within their own arm's reach rather than looking at the camera wearer, while their lower body is occluded by a clutter-filled foreground counter surface roughly 1 metre in front of the camera wearer."
+ },
+ "duration_seconds": 33.286492,
+ "usage": {
+  "input_tokens": 19572,
+  "output_tokens": 994,
+  "thinking_tokens": 565,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20566
+ },
+ "conversation_id": "469521a8-d615-4ce4-9c55-feddc33f28a4"
+}

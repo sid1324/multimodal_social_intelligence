@@ -1,0 +1,18 @@
+{
+ "id": "42d72164-8f4a-49e4-8b95-b3ad423ba65b_81-84",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor hair-washing station with a tiled floor, textured white walls, a wooden doorway in the upper background, an empty black chair on the lower left, and a white shampoo basin on the lower right. The camera wearer stands directly behind and above the basin, looking downward at a reclined person seated in the washing chair with their head resting in the basin about 0.4 to 0.5 metres in front of and below the camera, and their feet extending diagonally toward the upper left about 1.2 to 1.5 metres away. The reclined person faces upward toward the ceiling and slightly toward the camera wearer (with their eyes closed in frame 3 and face blurred or pixelated in the other frames), holding a white bag on their lap with interlaced hands while wearing a light-blue towel around their neck. The person's head, hair, and the white basin with its metal spray hose are all within arm's reach of the camera wearer, whose extended hands touch and manipulate the person's hair and the spray hose across the sequence, occasionally occluding parts of the person's head and the basin. In frame 3, a second person briefly enters the upper-left background about 1.8 to 2.0 metres from the camera wearer and roughly 1.0 metre from the seated person's feet, partially cropped by the top edge of the frame while holding a small blue caddy within their reach. Across the five frames, the camera wearer's viewpoint shifts and rotates slightly clockwise toward the right, bringing more of the white basin into the right foreground while the empty black chair on the left moves further out of view."
+ },
+ "duration_seconds": 15.639714,
+ "usage": {
+  "input_tokens": 19555,
+  "output_tokens": 416,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14199,
+  "total_tokens": 19971
+ },
+ "conversation_id": "4d58fe07-22db-4e2d-80c3-caced6a24aee"
+}

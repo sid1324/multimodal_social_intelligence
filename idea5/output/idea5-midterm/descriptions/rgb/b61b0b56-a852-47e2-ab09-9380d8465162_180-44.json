@@ -1,0 +1,12 @@
+{
+ "id": "b61b0b56-a852-47e2-ab09-9380d8465162_180-44",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, a small rock-lined pond lies roughly 1\u20132 m in front of the camera wearer, with large flat stone slabs forming a low cover or crossing at the pond\u2019s near-left edge and a curved wooden bridge or railing rising on the right. The slabs and nearby rocks are within about 0.5\u20131.5 m of the wearer, while the water, opposite bank, brush, and trees extend farther ahead; the railing partly occludes the right side of the pond. No other person is visible, although the camera wearer\u2019s hand briefly appears at the bottom edge in frame 2 and again beside the railing in frame 5, within arm\u2019s reach of it. A light-colored dog enters partly from behind the right-hand railing in frame 3, about 1\u20132 m from the camera, becomes more visible at the lower right in frame 4, and is closest in frame 5 at roughly 0.5\u20131 m; it faces generally toward and slightly left of the camera wearer, with parts of its body repeatedly cropped or hidden by the railing and frame edge. Over the sequence, the viewpoint shifts or turns slightly right along the pond, making the railing occupy more of the center-right foreground while the stone cover remains ahead-left and the dog approaches from the right."
+ },
+ "duration_seconds": 12.0,
+ "usage": null,
+ "conversation_id": null
+}

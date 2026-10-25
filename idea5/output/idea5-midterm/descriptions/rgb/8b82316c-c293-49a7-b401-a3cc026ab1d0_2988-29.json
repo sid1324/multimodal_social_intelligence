@@ -1,0 +1,18 @@
+{
+ "id": "8b82316c-c293-49a7-b401-a3cc026ab1d0_2988-29",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor dining room where the camera wearer sits at a wooden table covered in the foreground by a white gridded cutting mat (about 0.3 to 0.7 metres away). Seated directly to the right and slightly across the table, roughly 0.6 to 0.8 metres from the camera wearer, is an older person wearing glasses and a dark purple cardigan whose torso and head are partially cropped by the right and top frame edges; she faces toward the left-foreground and looks downward at the mat rather than at the camera wearer. On the mat in front of both people, well within arm's reach (0.3 to 0.5 metres away), are a partially assembled purple-and-black toy bus structure on the lower right, loose small plastic building pieces scattered to its left, and an open instruction booklet just behind the structure under the other person's arms. Further back on the table to the left and center (about 0.7 to 1.2 metres away, near the limit of or just beyond immediate arm's reach) sit clear plastic bags of parts, a pen on white paper, an upright open brown cardboard box about 0.2 metres to the right of the larger plastic bag, and stacked boxes, while wooden chairs and a cabinet stand in the background roughly 2 to 4 metres behind the table. Across the five frames, the camera wearer's viewpoint shifts slightly upward and to the left while the other person's right hand picks up a black flat building piece from the mat in frames 1 and 2, lifts it above the toy structure in frame 3, and lowers it onto the top of the structure in frames 4 and 5. Meanwhile, the camera wearer's left hand remains partly visible at the bottom edge holding the base of the toy, and in frame 5 the camera wearer's right hand enters from the lower right to reach the top of the structure alongside both of the other person's hands, partially occluding the instruction booklet and the right side of the toy."
+ },
+ "duration_seconds": 18.936459,
+ "usage": {
+  "input_tokens": 19634,
+  "output_tokens": 719,
+  "thinking_tokens": 219,
+  "cache_read_tokens": 14215,
+  "total_tokens": 20353
+ },
+ "conversation_id": "0f899948-b8f7-4643-968d-7734030e492f"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "4ca97ff8-bc2a-462b-b4c9-b1a878564bea_94-99",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a wide indoor mall corridor, with storefronts and display cabinets along the sides, tiled flooring below, and ceiling lights above. In frame 1, several people stand or walk roughly 4\u20138 m ahead and to the left, while walls, a digital display, and bins are about 2\u20135 m ahead; some people are partly cut off by the left edge. Across frames 2\u20133, the camera turns downward and slightly right toward the open floor, and a woman in a striped top and pink trousers enters from the front-right at about 1\u20132 m, with her upper body partly outside the top edge. In frame 4, the woman is roughly 0.5\u20131 m in front-right of the camera, facing generally toward it and appearing to look toward the wearer, while distant pedestrians remain about 5\u201310 m ahead near the corridor entrance. By frame 5, she has approached to within arm's reach on the right, her torso and head are heavily cropped, and a spotted object she holds occupies the lower-right foreground only a few tenths of a metre from the camera; her body also occludes much of the right side of the corridor."
+ },
+ "duration_seconds": 11.1,
+ "usage": null,
+ "conversation_id": null
+}

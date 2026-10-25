@@ -1,0 +1,18 @@
+{
+ "id": "600e392c-4be6-4b8b-bef8-e789ce3d8915_7199-73",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor lounge where the camera wearer is seated on the near side of the room, with their grey-clad legs visible at the bottom center and a white rug with a glass coffee table (holding a small plant and magazines) located roughly 2 to 2.5 metres ahead to the right. Immediately to the camera wearer's left at about 0.3 to 0.5 metres (within arm's reach) sits a person wearing a white mask and head strap who faces forward-right toward a grey backpack within their reach on their lap, partially occluding another seated person in black pants about 1 to 1.5 metres to the left. Across the room at roughly 3.5 to 4.5 metres ahead and to the left, two people sit about 0.3 to 0.5 metres apart on a brown leather couch\u2014one in a cyan top on the left with items in their lap, and one in grey on the right holding an object near their face\u2014both facing generally toward the camera wearer's side of the room, with a tall potted plant standing to the left of the couch. Across frames 1 to 4, the camera wearer turns their head progressively to the right, shifting the far couch toward the left edge, cropping out the adjacent masked person on the left by frame 4, and revealing a window on the far right wall (~4 metres away) as well as part of another person holding an open book within 0.5 metres at the bottom right corner. In frame 5, the camera wearer rotates their view back to the left, bringing the adjacent masked person\u2014whose right hand has moved onto their left forearm over the backpack\u2014and the far-left potted plant back into the frame while the right-side window and person on the right move out of view."
+ },
+ "duration_seconds": 25.126289,
+ "usage": {
+  "input_tokens": 5378,
+  "output_tokens": 1333,
+  "thinking_tokens": 880,
+  "cache_read_tokens": 28416,
+  "total_tokens": 6711
+ },
+ "conversation_id": "a7425179-804e-421d-8338-a4167befe02e"
+}

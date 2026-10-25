@@ -1,0 +1,18 @@
+{
+ "id": "2dfec7b6-c8b0-4cd0-baf6-4a963aed1d6a_1906-66",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place on an open grassy athletic field bordered roughly 40 to 80 metres away by a perimeter fence, a flagpole, tall stadium light poles, and a line of trees under a partly cloudy sky, with no other people visible in any frame. In the first frame, the camera is pitched sharply upward toward the sky, capturing a small ball airborne in the upper-center view about 2 to 4 metres above and in front of the camera wearer while the ground is out of view below the frame and only the tops of light poles and trees appear along the bottom edge. In the second and third frames, the camera tilts down toward the field as the wearer approaches the ball lying on the grass, which moves from the lower-left foreground at roughly 4 to 6 metres away in frame 2 to the bottom-center edge at about 1.5 to 2.5 metres away in frame 3, still outside arm's reach. In the fourth frame, the camera pitches straight down at the turf roughly 0.5 to 1.5 metres below\u2014bringing the ground within arm's reach\u2014showing a patch of weeds at the center and the camera wearer's own shadow along the left edge while the horizon and ball are out of view. In the fifth frame, the camera tilts back up toward the sky as the wearer turns, leaving most of the field out of view below the frame except for distant trees, light poles, and a sliver of the field edge along the bottom-left and bottom-right corners."
+ },
+ "duration_seconds": 18.511375,
+ "usage": {
+  "input_tokens": 5365,
+  "output_tokens": 988,
+  "thinking_tokens": 595,
+  "cache_read_tokens": 28430,
+  "total_tokens": 6353
+ },
+ "conversation_id": "0544a216-db95-4737-b754-7890669f4458"
+}

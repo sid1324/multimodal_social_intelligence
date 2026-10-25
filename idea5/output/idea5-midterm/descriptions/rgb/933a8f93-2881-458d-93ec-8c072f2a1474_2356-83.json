@@ -1,0 +1,18 @@
+{
+ "id": "933a8f93-2881-458d-93ec-8c072f2a1474_2356-83",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a crowded restaurant with a long dark table extending directly in front of the camera wearer from about 0.3 metres to 3 metres away, bordered by a patterned counter wall roughly 1.2 to 1.5 metres to the right. A person in a beige jacket wearing a mask sits immediately to the front-left at about 0.5 to 0.7 metres facing right across the table, while a man in a grey T-shirt with a red bag on his lap sits to the front-right at about 1.0 to 1.2 metres facing left and slightly toward the camera wearer. Further down the table between 1.5 and 3.0 metres away, several other diners sit on both the left and right sides facing inward toward each other, with their lower bodies occluded by the tabletop and the upper heads of the closer diners partially cropped by the top edge of the frame. Within arm's reach of the camera wearer (0.3 to 0.7 metres) on the near tabletop are a food plate, a smartphone, a green napkin holder, condiment bowls, utensils, dark bottles, and a cleared black plate with napkins on the near right, while a dessert glass sits about 1.0 metre away within reach of the man in the grey shirt. In frames 1 to 3, a standing person's arms reach in from the right edge at about 0.4 to 0.6 metres\u2014partially occluding the man in the grey shirt\u2014to lift the black plate and a glass mason jar off the table before retreating out of view to the right. Across the five frames, the camera wearer turns their head rightward and shifts slightly backward, moving the left-side diners progressively out of the left frame edge while bringing the right-side counter, floor, and the camera wearer's own raised hands (at 0.3 metres holding a small object in frame 5) into view, as the man in the grey shirt shifts his gaze downward toward a phone held in his hands."
+ },
+ "duration_seconds": 14.169461,
+ "usage": {
+  "input_tokens": 5411,
+  "output_tokens": 593,
+  "thinking_tokens": 96,
+  "cache_read_tokens": 28428,
+  "total_tokens": 6004
+ },
+ "conversation_id": "960fc34a-02c7-482c-939c-9618813e1731"
+}

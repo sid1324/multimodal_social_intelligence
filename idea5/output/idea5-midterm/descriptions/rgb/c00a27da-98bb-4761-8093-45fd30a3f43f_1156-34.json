@@ -1,0 +1,18 @@
+{
+ "id": "c00a27da-98bb-4761-8093-45fd30a3f43f_1156-34",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor plowed dirt field viewed from the elevated seat of a blue tractor, with the tractor's hood, dashboard, and steering wheel positioned directly in front of and below the camera wearer. The steering wheel and dashboard controls are within arm's reach at roughly 0.4 to 0.6 metres away, while the blue hood extends about 1.5 to 2 metres ahead on the left, a vertical exhaust pipe and a rectangular side mirror mounted on an arm sit roughly 1 to 1.2 metres ahead toward the center-left, and a blue rear fender with a black grab handle and canopy support bar sits about 0.5 to 0.8 metres to the lower right. In the side mirror, the reflection of the camera wearer's torso and head is visible facing forward, while a second person in light-colored clothing stands out in the open field roughly 15 to 25 metres ahead and to the right of the tractor, facing away or sideways in the distance without looking toward the camera wearer. Across the 5 frames from left to right, the camera wearer's head turns slightly from facing along the tractor's hood toward the right side of the field, causing the left side of the hood and steering wheel to become increasingly cropped out of the left edge of the frame while the right fender and overhead canopy post come further into view on the right. Meanwhile, the distant person in the field shifts from being partially cropped at the top edge in frames 1, 3, and 4 (and out of view in frame 2) to being more fully visible in the upper-right background of frame 5 as the tractor moves forward and the camera angles slightly upward and right. Throughout the sequence, the tractor body partially occludes the ground immediately beneath and ahead of the vehicle, and only the camera wearer's hands gripping the lower-left or lower-right rim of the steering wheel are intermittently visible at the bottom left of the frame."
+ },
+ "duration_seconds": 24.674619,
+ "usage": {
+  "input_tokens": 19518,
+  "output_tokens": 690,
+  "thinking_tokens": 208,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20208
+ },
+ "conversation_id": "44b964b2-e1f2-4b01-beef-cc877828614b"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "68150eb1-47cd-4617-953a-0afdf67b2adb_2839-25",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor landscaped area viewed from a downward-angled head-mounted camera, featuring a border of large boulders on mulch and dirt to the left and in front, bordered by a grassy lawn to the right. In the first frame, the camera wearer bends forward with their right hand resting on a large boulder about 0.5 metres ahead and their left arm extending forward, while a grey plastic trash bin sits on the ground immediately below their left side within 0.5 metres. Across frames two through four, the camera wearer steps back and turns slightly rightward toward the grass, grasping the rim of the grey bin with their left hand in frames two and three and then lifting and holding it with both hands directly in front of their torso at about 0.3 to 0.5 metres in frame four. Beginning in the second frame and becoming clearer in frames three through five, a second person stands on the grass to the right at a distance of roughly 1.0 to 1.5 metres from the camera wearer and about 1.0 metre from the boulders, holding a long-handled garden tool or rake. The second person is largely out of the upper-right frame boundary, with only their tan-trousered legs, feet, and hands holding the tool shaft visible as they face generally toward the camera wearer and the boulders. In the fifth frame, the grey bin rests upright on the ground below and slightly left of the camera wearer within 0.5 metres, while the camera wearer reaches their right arm forward and upward to grasp the wooden handle of the tool within arm's reach of both people."
+ },
+ "duration_seconds": 14.156266,
+ "usage": {
+  "input_tokens": 19557,
+  "output_tokens": 496,
+  "thinking_tokens": 91,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20053
+ },
+ "conversation_id": "721aa2aa-0dda-4c4b-a8f5-297910e8db2b"
+}

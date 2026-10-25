@@ -1,0 +1,18 @@
+{
+ "id": "5d8dfcfe-93e4-465e-a548-44c1442ffa29_291-14",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place inside a retail clothing store where the camera wearer holds a smartphone in both hands at the bottom center, about 0.3 to 0.4 m away and within direct reach, beside a clothing rack of hanging sweaters and jeans extending from 0.5 to 1.5 m on the right. To the front-left of the camera wearer, a man in a brown shirt, blue jeans, and tan shoes stands about 1.2 to 1.5 m away and roughly 0.5 m to the left of the jeans on the rack, placing the rack within arm's reach of both him and the camera wearer. In frames 1 through 4, the camera points downward toward the floor and smartphone, cropping the man above the waist or chest as he pivots counterclockwise from facing right in frame 1 to facing directly toward the camera wearer by frame 2 while stepping slightly closer. During these first four frames, the held smartphone and the camera wearer's hands partially occlude the floor in the immediate foreground, while the upper half of the room and the man's head remain out of view above the top frame edge. In frame 5, the camera tilts upward to eye level, cutting off the man's lower body below the chest and the lower part of the rack while revealing his head facing and looking toward the camera wearer at about 1.2 m on the left, a slatted wall 2.5 m behind him, and a second person in dark clothing facing away about 2.5 to 3 m away near a doorway on the back right, partly occluded by the top of the clothing rack."
+ },
+ "duration_seconds": 31.504273,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 1501,
+  "thinking_tokens": 1087,
+  "cache_read_tokens": 14205,
+  "total_tokens": 21079
+ },
+ "conversation_id": "9b9e0d3e-68f4-4c7f-8e6c-52cfbee4fc81"
+}

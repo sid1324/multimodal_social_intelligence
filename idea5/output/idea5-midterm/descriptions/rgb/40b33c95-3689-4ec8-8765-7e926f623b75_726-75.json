@@ -1,0 +1,12 @@
+{
+ "id": "40b33c95-3689-4ec8-8765-7e926f623b75_726-75",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera looks downward at a tightly grouped scene on bedding or mats, with a red-sweatered person about 0.3\u20130.7 m in front of the wearer, a striped-shirt person roughly 0.7\u20131.2 m away beyond them, and a green-scarfed person at a similar distance to the striped person\u2019s right. A black smartphone lies on the striped-shirt person\u2019s upper torso, while cushions, blankets, and partially visible legs surround the group; several bodies continue outside the top and side edges. The red-sweatered person\u2019s back and shoulders occupy much of the lower center and partly occlude the other two people, and their right arm extends across the scene within arm\u2019s reach of both the camera wearer and the striped-shirt person. The striped-shirt person is reclined facing generally upward and toward the camera\u2019s side of the group, with their face becoming visible in the last frame, while the green-scarfed person remains reclined beside them with their head near the striped person\u2019s shoulder and does not clearly look toward the camera. Across the five frames, the camera and red-sweatered person shift and rotate slightly to the right, revealing more of the striped-shirt person\u2019s face and the green-scarfed person while the red-sweatered arm moves farther across the upper-right part of the view."
+ },
+ "duration_seconds": 16.0,
+ "usage": null,
+ "conversation_id": null
+}

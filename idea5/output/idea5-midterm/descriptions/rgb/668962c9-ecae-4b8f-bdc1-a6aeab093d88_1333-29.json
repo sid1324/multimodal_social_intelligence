@@ -1,0 +1,18 @@
+{
+ "id": "668962c9-ecae-4b8f-bdc1-a6aeab093d88_1333-29",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail or storage space with large windows along the back wall (roughly 2.5 to 3.5 metres behind the foreground), ceiling lights overhead, a clothing rack on the left, and a white display shelf on the right. In the first two frames, a bearded man wearing a dark cap, glasses, and a fur-collared grey top stands in front of and slightly to the left of the camera wearer at a distance of roughly 1.5 to 2 metres, facing directly toward and looking at the camera wearer. In frame 1, the camera wearer holds a smartphone within arm's reach (about 0.3 to 0.4 metres in front of the lens and slightly below eye level), which partially occludes the man's left shoulder and chest before dropping out of view in frame 2. Across frames 3 to 5, the distance between the camera wearer and the man decreases rapidly from about 1.2 metres in frame 3 to within arm's reach at roughly 0.4 to 0.5 metres in frames 4 and 5, while the clothing rack about 0.5 metres behind his right side moves mostly out of the left edge of the frame. As the gap closes, the man turns his body and head about 45 to 60 degrees to his left (toward the right side of the frame) and tilts his gaze downward away from the camera wearer toward a smartphone held in his own hands about 0.3 metres in front of his chest. In the final two frames, the man's lower torso is cropped below the bottom edge of the view, and in frame 5 the camera wearer's smartphone rises back into the lower foreground about 0.3 metres from the camera, partially occluding the man's chest and hands."
+ },
+ "duration_seconds": 20.824194,
+ "usage": {
+  "input_tokens": 19624,
+  "output_tokens": 697,
+  "thinking_tokens": 243,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20321
+ },
+ "conversation_id": "6a6349f5-74fe-4d04-8cbb-f9e00c6ff7a3"
+}

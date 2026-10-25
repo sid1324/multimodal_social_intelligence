@@ -1,0 +1,18 @@
+{
+ "id": "f26eb8a6-2ac4-4aa4-a500-1e738d8c8b13_1596-52",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a kitchen viewed from a downward-tilted head-mounted camera, with a white countertop and double-basin sink directly in front of the camera wearer at roughly 0.3 to 0.8 metres distance. On the counter from left to right are a stovetop with a metal pot (about 0.9 to 1.2 metres away), a wooden cutting board with raw chicken pieces and a knife (0.5 to 0.7 metres away), a large metal bowl filled with raw chicken drumsticks on the left edge of the sink (0.4 to 0.6 metres away), a dark pot containing stalks inside the left sink basin (0.5 metres away), and a smaller pot in the right sink basin under a faucet (0.4 to 0.6 metres away). Below and to the left of the camera wearer, another person wearing pink patterned pyjamas and yellow slippers stands on the tiled floor about 0.5 to 1.0 metre away, holding a smartphone within their own arm's reach and facing toward the counter and phone rather than looking at the camera wearer. The cutting board, large bowl of chicken, sink basins, and faucet are all within arm's reach of the camera wearer, whose arms extend forward into the frame. Across the five frames, the camera wearer's left hand moves from the cutting board and metal bowl on the left (frames 1\u20132) toward the right sink basin to join their right hand (frames 3\u20134), while the camera viewpoint pans slightly right and then turns leftward in frame 5. As the camera turns left in the final frame, the right sink basin becomes mostly cut off at the right edge while the person in pink pyjamas, previously partly occluded and cut off at the bottom-left corner in frames 1\u20134, comes into fuller view standing to the left beside a small dark stool and microwave."
+ },
+ "duration_seconds": 15.890849,
+ "usage": {
+  "input_tokens": 19565,
+  "output_tokens": 533,
+  "thinking_tokens": 60,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20098
+ },
+ "conversation_id": "88985b08-2eef-4de9-898b-5e52778343dc"
+}

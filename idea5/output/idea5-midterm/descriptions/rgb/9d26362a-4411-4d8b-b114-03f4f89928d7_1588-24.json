@@ -1,0 +1,18 @@
+{
+ "id": "9d26362a-4411-4d8b-b114-03f4f89928d7_1588-24",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first frame, the camera wearer stands in a garage or utility room facing a closed beige door about 3 to 4 metres ahead, with a utility sink and mirror to its left, a white refrigerator immediately to its right (about 2.5 to 3 metres away), a scooter handle on the floor 1 metre ahead, a table edge within arm's reach (0.5 to 1 metre) on the lower right, and a hanging dark garment within arm's reach (0.3 to 0.6 metres) occluding the left foreground. In the second frame, the camera wearer turns sharply left while tilting downward, bringing a plant-covered central table into view 1.5 to 2.5 metres to the right and a person in dark clothing about 3 to 4 metres ahead on the left, facing away and partly cropped by the top edge of the frame. By the third frame, the camera wearer faces down an aisle between the plant-covered table on the left (1 to 2.5 metres away) and a right-hand wall with a red tool cabinet (1.5 to 2 metres to the right) leading toward a closed white garage door 6 to 8 metres ahead. In this third frame, the person is 3 to 4 metres ahead on the right, about 1.5 metres across the aisle from the plant table, facing away and to the right toward an interior doorway with their right hand within arm's reach of the door and not looking at the camera wearer. Across the fourth and fifth frames, the camera wearer walks forward and turns right into the doorway as the person steps through ahead of them: in frame four the person is 1.5 to 2 metres away on the right and partially occluded by the wall and doorframe, and in frame five the open white paneled door is within the camera wearer's arm's reach (0.4 to 0.8 metres ahead on the left), occluding most of the adjacent dark room while the person's dark silhouette remains 1 to 2 metres ahead in the narrow gap between the door and the right doorframe."
+ },
+ "duration_seconds": 42.035928,
+ "usage": {
+  "input_tokens": 19582,
+  "output_tokens": 1355,
+  "thinking_tokens": 837,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20937
+ },
+ "conversation_id": "13c344aa-c0d6-4058-a539-95670c926efa"
+}

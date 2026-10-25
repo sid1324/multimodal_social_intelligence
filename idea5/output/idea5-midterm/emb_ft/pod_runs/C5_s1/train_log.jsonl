@@ -1,0 +1,3 @@
+{"step": 1, "epoch": 0, "loss": 2.783046618103981, "train_joint": 0.25, "tokens": 2952, "sec_per_item": 6.46, "mem_gb": 18.0}
+{"step": 2, "epoch": 0, "loss": 4.062751770019531, "train_joint": 0.25, "tokens": 3603, "sec_per_item": 6.64, "mem_gb": 18.4}
+{"step": 3, "epoch": 0, "loss": 2.5527982488274574, "train_joint": 0.375, "tokens": 3411, "sec_per_item": 5.97, "mem_gb": 18.4}

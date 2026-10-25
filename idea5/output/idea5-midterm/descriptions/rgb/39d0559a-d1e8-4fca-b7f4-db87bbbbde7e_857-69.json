@@ -1,0 +1,18 @@
+{
+ "id": "39d0559a-d1e8-4fca-b7f4-db87bbbbde7e_857-69",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first three frames, the camera wearer stands inside a roadside food stall behind a metal cooking counter with an unlit burner directly in front at waist level (about 0.4\u20130.6 metres away), looking outward toward a paved sidewalk and street. Two men stand side-by-side outside the stall about 1.8 to 2.5 metres in front of the camera wearer and roughly 0.4 metres apart\u2014one on the left in a peach t-shirt next to a beverage cooler and blue drum, and one on the right in a black polo shirt and white trousers\u2014both facing and looking toward the camera wearer while partially occluded from the mid-thighs or knees down by the counter. In frames 2 and 3, the camera wearer's right arm reaches up and forward to grasp a vertical metal frame post within arm's reach (about 0.3\u20130.5 metres away) on the right side of the view. Between frames 3 and 4, the camera wearer turns sharply to the left (counter-clockwise) and tilts their gaze downward toward the interior of the stall, bringing the unlit burner to the bottom-right corner and revealing a second burner to its left holding a large wok of bubbling oil about 0.7\u20131.0 metres away, flanked by smaller metal pots. Across frames 4 and 5, a third man in an orange open shirt over a white undershirt stands inside the stall about 0.8\u20131.2 metres to the front-left of the camera wearer, facing right toward the stove with his head cropped out of the top of the frame. This third man holds a metal bowl and long-handled ladle within his arm's reach just left of the frying wok, and in frame 5 he moves the bowl and ladle lower and closer to the camera wearer (to about 0.6\u20130.8 metres away) as the camera wearer's left hand enters the bottom-left foreground within 0.4 metres."
+ },
+ "duration_seconds": 15.540667,
+ "usage": {
+  "input_tokens": 5308,
+  "output_tokens": 507,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 28414,
+  "total_tokens": 5815
+ },
+ "conversation_id": "5fa97fba-73ce-4766-8c39-611646964ae3"
+}

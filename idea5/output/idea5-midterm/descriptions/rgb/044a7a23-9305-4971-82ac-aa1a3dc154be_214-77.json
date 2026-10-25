@@ -1,0 +1,18 @@
+{
+ "id": "044a7a23-9305-4971-82ac-aa1a3dc154be_214-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a corner of an indoor room with a multi-tiered wall shelf on the left wall about 1.5 to 2.5 metres ahead of the camera wearer and a barred window on the right wall about 1.5 to 2.5 metres away. Three shirtless men wearing dark lower garments are present: one man stands in the foreground left about 0.8 to 1.2 metres in front of the camera wearer, a second man stands at the far right edge about 0.8 to 1.2 metres away, and a third man stands further back near the corner between the shelf and the window about 1.8 to 2.2 metres from the camera wearer and roughly 1.0 to 1.5 metres from the other two men. The foreground-left man faces away and slightly right toward the shelf while holding a small open booklet within his arm's reach, the far-right man faces left in profile, the rear man faces left toward the shelf while holding a plate of red flowers in his left hand within arm's reach of the shelf's framed picture and lit lamps, and none of the men look toward the camera wearer. The foreground-left and far-right men are within arm's reach of the camera wearer, with both cropped below the chest or waist by the bottom frame edge, the far-right man's head and torso largely out of view on the right edge in frames 2, 4, and 5, and the foreground-left man's body partially occluding the lower left portion of the shelf and a hanging red bag behind him. Across the five frames, the camera wearer's viewpoint shifts slightly left and right\u2014bringing more of the barred window and the far-right man's face into view in frames 1 and 3 and more of the left wall with a hanging blue bag into view in frames 2, 4, and 5\u2014while the rear man retracts his extended right arm from the shelf shelf-level in frames 1\u20133 back to the plate in his left hand in frames 4\u20135, and the far-right man extends his hands slightly forward in frame 5."
+ },
+ "duration_seconds": 15.058657,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 763,
+  "thinking_tokens": 233,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20283
+ },
+ "conversation_id": "173bd2ed-2533-42b9-81c4-0916eda22864"
+}

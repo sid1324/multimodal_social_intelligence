@@ -1,0 +1,18 @@
+{
+ "id": "0b530687-26d8-4c9d-9771-c758ecd2ecbf_3386-79",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an elevated dirt and root-covered outdoor trail flanked by green foliage on the left and a wooden staircase descending to the lower right. In the first three frames, the camera wearer looks downward toward the ground where a person in a black jacket with white sleeve stripes stands within arm's reach (about 0.3 to 0.5 metres) to the immediate front-left, holding the camera wearer's extended left hand at the bottom of the frame. About 1 to 1.5 metres ahead and slightly left of center, a second person carrying a grey backpack and a tied grey jacket faces away toward the trail ahead, while a third person in dark clothing stands roughly 1.5 to 2 metres ahead to the right near the top of the stairs. Further down the wooden stairs in the upper right of frames 2 and 3, a fourth person in a bright blue jacket stands about 3 to 4 metres away and below the camera wearer's level, facing away down the steps. Across frames 1 to 3, the person with the grey backpack and the person in dark clothing step slightly forward along the trail while the person in the black jacket remains beside the camera wearer with their head cropped out of the upper-left frame edge. In frames 4 and 5, the camera wearer turns and tilts their head leftward and upward, bringing the person in the black jacket (wearing a pink mask and glasses, blurred in frame 5) directly into the left-center foreground at about 0.4 metres, facing and looking directly toward the camera wearer, while a fifth person's arm and blue shoe become partially visible immediately behind them on the far left edge and the person with the grey backpack shifts to the right side of the view at about 1.5 metres."
+ },
+ "duration_seconds": 12.983579,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 464,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20043
+ },
+ "conversation_id": "9890d9c0-b84c-4941-895e-4af1fc2d4082"
+}

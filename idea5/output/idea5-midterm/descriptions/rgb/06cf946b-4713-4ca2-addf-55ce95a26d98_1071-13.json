@@ -1,0 +1,18 @@
+{
+ "id": "06cf946b-4713-4ca2-addf-55ce95a26d98_1071-13",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first three frames, the camera wearer sits on a patterned red rug over a tiled floor looking downward, with their own left knee and hands at the bottom of the view (0.3 to 0.5 metres away) holding pomegranate over a small bowl within immediate arm's reach. Spread across the rug in front of the wearer are a metal platter of peels to the left (0.6 metres), a small orange plate in the centre (0.7 metres), a pink phone case (0.9 metres), and a metal pan near the far edge of the rug (1.2 metres), all within reach of the seated group. On the right side of frames 1 to 3 (about 0.8 to 1.0 metre from the wearer), a person in dark blue clothing sits facing left toward the centre of the rug with their head and upper torso cropped out above the frame, while on the far top-left (1.0 to 1.2 metres away, roughly 1.2 metres across from the right person) only the legs, hands, and blue bowl of a second seated person are partly visible. Across frames 4 and 5, the camera wearer turns and tilts their head upward and to the left, moving their own hands, the central bowl, and the person on the right out of view while bringing the person on the left fully into the foreground alongside the wider room. This person\u2014a woman in glasses and a black shirt sitting cross-legged 1.0 to 1.2 metres in front of the wearer with the blue bowl in her hands and a dark tablet case on the floor just behind her left leg\u2014 has her torso angled toward the wearer while her head and gaze remain directed to her left past the wearer, with a sofa 2.5 to 3.5 metres behind her against a pink wall and a curtained doorway 4 to 5 metres away in the upper right background."
+ },
+ "duration_seconds": 23.487413,
+ "usage": {
+  "input_tokens": 19513,
+  "output_tokens": 1269,
+  "thinking_tokens": 794,
+  "cache_read_tokens": 14198,
+  "total_tokens": 20782
+ },
+ "conversation_id": "ac373f39-0cd2-4d63-b4a3-dd85ab1cd5db"
+}

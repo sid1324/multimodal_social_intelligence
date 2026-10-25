@@ -1,0 +1,18 @@
+{
+ "id": "e14bb000-250b-4f3d-aec6-e72d4f29d123_367-23",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place inside a retail store in front of a glass display or mirror partition angled from the lower left toward the upper center-right, with a wooden doorway behind the partition on the right. In the lower center, within arm's reach at about 0.3 to 0.4 metres in front of and below the camera wearer's viewpoint, a white-bezeled smartphone is held tilted toward the camera wearer with its bottom portion cropped out of frame. On the right side, within arm's reach at roughly 0.4 to 0.7 metres from the camera wearer and about 0.2 to 0.4 metres to the right of the smartphone, stands a person in a patterned top and green lanyard whose head and lower body are cropped out above and below the frame, preventing visibility of their gaze. Beyond the glass partition to the left and center, roughly 1.0 to 2.0 metres from the camera wearer, a rectangular marble-topped table holds a coiled black belt on the front left, a blue knit beret in the center, a white textured scarf on the right, tan ankle boots behind the beret, and tall dark brown boots at the rear left, while a mannequin leg display and a red floor basket sit just behind the table's right edge at about 2.0 to 2.5 metres away. In the first frame, the person on the right stands closer (around 0.4 metres) with their torso turned mostly sideways toward the left, occluding the background doorway. From the second through fifth frames, the person steps slightly back and right to about 0.6 metres before edging slightly inward to about 0.5 metres while rotating their torso to face more toward the front-left, as the camera tilts slightly downward to reveal more of the smartphone screen."
+ },
+ "duration_seconds": 21.929276,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 1115,
+  "thinking_tokens": 665,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20737
+ },
+ "conversation_id": "1854b10d-b5f2-493b-a58f-b7058f281fdf"
+}

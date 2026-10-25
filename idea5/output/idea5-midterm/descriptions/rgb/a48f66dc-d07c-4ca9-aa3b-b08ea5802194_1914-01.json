@@ -1,0 +1,12 @@
+{
+ "id": "a48f66dc-d07c-4ca9-aa3b-b08ea5802194_1914-01",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated or standing immediately beside a dark rectangular table, with both hands about 0.2\u20130.4 m in front of the camera and the tabletop roughly 0.4\u20130.8 m away and below chest level. Across the table, a woman sits about 1\u20131.5 m in front and slightly right of the camera wearer, facing generally toward the camera but looking downward or to her side rather than directly at it; another person is only partly visible at the far left edge, roughly 1\u20131.5 m away. On the table are several small light-colored rectangular cards or papers, glasses, and dish-like objects, spaced about 0.2\u20130.8 m apart; the nearer items are within the camera wearer's arm's reach, while items near the woman are within hers. The camera wearer's hands dominate and partly occlude the center-lower scene, while the table edges, both people's lower bodies, and portions of the left-side person remain out of view. Across the five frames, the camera wearer repeatedly brings the hands together near the center and shifts them slightly right, while the viewpoint turns modestly right; the woman remains seated at a similar distance, and no clear approach or retreat by either visible person occurs."
+ },
+ "duration_seconds": 10.5,
+ "usage": null,
+ "conversation_id": null
+}

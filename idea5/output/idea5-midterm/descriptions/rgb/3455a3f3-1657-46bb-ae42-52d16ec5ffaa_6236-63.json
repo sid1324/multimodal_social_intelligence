@@ -1,0 +1,18 @@
+{
+ "id": "3455a3f3-1657-46bb-ae42-52d16ec5ffaa_6236-63",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor covered walkway along glass-fronted storefronts on the left and a parking lot with parked cars on the right at night. Two companions stand within arm's reach (roughly 1 to 1.5 metres) in front of the camera wearer: a person in a red shirt and backpack on the left and a person in a black top with crossed arms to their right, separated from each other by about 0.5 to 1 metre and both facing and looking toward the camera wearer. Further down the walkway behind the companions, about 5 to 8 metres away, two pedestrians stand near the glass doors in frames 1 to 3 before walking away from the camera wearer in frames 4 and 5, while two other people stand near a white parked car about 3 to 4 metres to the right in frame 4. In frame 1, the red-shirted companion is partly cut off by the left edge while the black-topped companion is centered; in frame 2, the camera wearer turns left to center the red-shirted companion next to the storefront window, leaving the black-topped companion on the right edge. In frames 3 and 4, the camera wearer turns right toward the walkway and parking lot, causing the red-shirted companion to leave the left field of view and the black-topped companion to be mostly cropped on the far left edge in frame 4 while the parked cars and people on the right come into view. By frame 5, the camera wearer turns back to the left, bringing the black-topped companion back to the center and the red-shirted companion's right shoulder and arm back into view on the lower-left edge at roughly 1 metre."
+ },
+ "duration_seconds": 14.767206,
+ "usage": {
+  "input_tokens": 5422,
+  "output_tokens": 529,
+  "thinking_tokens": 96,
+  "cache_read_tokens": 28425,
+  "total_tokens": 5951
+ },
+ "conversation_id": "f4425280-3fd7-4c77-b859-2847c9c1170c"
+}

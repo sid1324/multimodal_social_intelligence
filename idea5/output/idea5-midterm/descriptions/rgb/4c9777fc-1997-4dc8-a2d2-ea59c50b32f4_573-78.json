@@ -1,0 +1,18 @@
+{
+ "id": "4c9777fc-1997-4dc8-a2d2-ea59c50b32f4_573-78",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor brick-paved courtyard with a tan building and colonnade roughly 8 to 20 metres away on the upper right and a low planter wall with greenery about 12 to 15 metres away in the upper center-left. Directly in front of and below the camera wearer, at roughly 0.5 to 0.8 metres distance in the lower-right foreground, a young child sits in a blue patterned stroller whose handles angle upward toward the right. The child's body is oriented toward the lower-left, facing away from the stroller handles, and the child looks downward and to the left toward the camera wearer's hand rather than up at the camera wearer's viewpoint. The stroller, the child, and a small pink cup containing green food held at 0.3 to 0.5 metres in the camera wearer's left hand are all within the camera wearer's arm's reach, and the cup is about 0.2 to 0.3 metres from the child, within the child's arm's reach. The lower frame of the stroller and the child's legs are cropped out by the bottom edge throughout, while the upper roofs of the background buildings are cut off at the top edge. Across the five frames from left to right, the camera viewpoint shifts slightly downward and back by about 0.1 to 0.2 metres to reveal the child's upper torso and arms, while the camera wearer's hand holding the pink cup enters the bottom-left foreground in frames four and five as the child turns their head toward the cup and extends their right hand slightly toward it."
+ },
+ "duration_seconds": 22.235487,
+ "usage": {
+  "input_tokens": 19559,
+  "output_tokens": 1162,
+  "thinking_tokens": 748,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20721
+ },
+ "conversation_id": "191f1df3-6b17-4f5d-a8da-e80569a4c3cc"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "bb2297d3-91b7-4ec4-b39b-cc64694929db_412-95",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands at a doorway between a kitchen area on the left and a carpeted living space ahead, with a white stove and partition wall on the immediate left within arm's reach at roughly 0.4 to 0.6 metres. Further into the room, a couch edge and metal floor bowl sit to the left at about 2 to 2.5 metres, a floor cushion and window lie to the right at 2.5 to 3 metres, a television resting on two wooden crates stands in the center-right at roughly 3 metres (about 1.5 metres in front of a low brown bed against the far wall at 4.5 metres), and no other people are present. In the immediate foreground within arm's reach, the camera wearer's right hand holds a small yellow piece of food about 0.3 to 0.5 metres from the lens, positioned above and slightly to the right of a black, white, and tan dog located 0.6 to 1 metre in front of and below the camera wearer. In the first three frames, the hand stays low in the bottom-right foreground while the dog is almost entirely cropped out below the bottom edge of the frame, with the stove, couch, and window also partially cut off by the left and right frame borders and the television partly occluding the bed behind it. Across frames four and five, the camera wearer pans slightly rightward\u2014pushing most of the stove out of view on the left\u2014and lifts their right arm high into the upper-right foreground, while the dog rises into view in the lower center facing the camera wearer with its head and gaze tilted sharply upward toward the raised hand."
+ },
+ "duration_seconds": 23.437714,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 1154,
+  "thinking_tokens": 732,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20731
+ },
+ "conversation_id": "95ea3245-e4de-4a3a-8c24-a09e3cc25381"
+}

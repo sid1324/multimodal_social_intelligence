@@ -1,0 +1,18 @@
+{
+ "id": "261edec2-f089-4a74-b25f-ddf32c92f90c_1105-51",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated in the front left (driver's) seat of a car looking forward through the windshield down a paved two-lane road lined with walls, trees, and lampposts on both sides. Directly above and in front of the wearer within arm's reach (roughly 0.2 to 0.5 metres away) is the car's overhead sun visor bearing a warning label, with the A-pillar to the left, the dashboard below (about 0.5 to 0.8 metres away), and the rearview mirror to the right (about 0.5 metres away, partially cropped out of the right edge in frames 2 through 4). Outside on the road ahead, two pedestrians are crossing a marked crosswalk from right to left while facing toward the left side of the road and away from the camera wearer, staying roughly 1 to 2 metres apart from each other. Across the five frames, the car moves forward and slows as the distance between the camera wearer and the two pedestrians decreases from roughly 35\u201340 metres in frame 1 to about 12\u201315 metres in frame 5, while the pedestrians progress from the middle of the road to the left lane. The upper portion of the outdoor scene is occluded throughout by the overhead sun visor and roof liner, and in frame 5 the camera wearer's raised left hand with spread fingers enters the lower-middle foreground about 0.3 to 0.4 metres in front of the wearer, partially occluding the dashboard and the road just ahead of the crosswalk."
+ },
+ "duration_seconds": 13.968552,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 455,
+  "thinking_tokens": 58,
+  "cache_read_tokens": 14205,
+  "total_tokens": 19975
+ },
+ "conversation_id": "9b865609-aeaa-46c7-8809-eb027d5a5708"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "134d9865-d9ee-47e5-a121-589a26c6b3ba_1573-53",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a shallow, rocky river bordered by distant tree-lined hills over 50 metres away, viewed by a camera wearer seated in a light-blue inflatable tube. In the first two frames, the camera points downward at the wearer's outstretched legs and feet in blue-strapped sandals about 0.5 to 0.8 metres ahead, with the inflatable tube and a brown bottle in its right cupholder within the wearer's arm's reach at 0.5 metres. A narrow rock ledge cuts diagonally through the water 1 to 2 metres in front and to the right, while a blue-and-white floating cooler sits about 2 metres away on the far side of the ledge, partially cut off by the right edge of the frame. In the third frame, the camera tilts upward and turns left toward the open river rapids and hills, moving the wearer's body, tube, and nearby cooler completely below and to the right of the field of view. Across the fourth and fifth frames, the camera tilts slightly back down and turns right, bringing the rock ledge, the floating cooler about 2 metres ahead, and a second person seated in another light-blue tube about 1.5 metres to the right into view. This second person is partly cut off by the right frame edge in the fourth frame before appearing more fully in the fifth frame, positioned about 0.5 to 1 metre right of the cooler\u2014which is within their arm's reach along with their own tube\u2014while facing and looking generally toward the camera wearer and the water between them."
+ },
+ "duration_seconds": 22.371723,
+ "usage": {
+  "input_tokens": 19583,
+  "output_tokens": 1148,
+  "thinking_tokens": 746,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20731
+ },
+ "conversation_id": "71320d79-eae3-4af3-9668-e88d2b8956d4"
+}

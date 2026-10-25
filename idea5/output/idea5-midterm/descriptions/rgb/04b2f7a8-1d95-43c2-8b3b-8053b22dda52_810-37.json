@@ -1,0 +1,18 @@
+{
+ "id": "04b2f7a8-1d95-43c2-8b3b-8053b22dda52_810-37",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor yard seen from a high downward-angled egocentric viewpoint, with the camera wearer standing directly above and in front of a large rounded green bush about 0.3 to 0.8 metres away. No other people are present; only the camera wearer's grey-shirted torso, both forearms, and hands are visible at the bottom of the frame, with the lower body occluded beneath the torso and the brick house wall, windows, curved concrete walkway, and a small white yard sign partly visible in the upper-left background roughly 1.5 to 4 metres away. Directly in front of the camera wearer and within arm's reach (about 0.3 to 0.6 metres from the camera), both hands hold the red-and-white handles of long metal hedge shears positioned above the central vertical cleft of the bush, while a smaller shrub sits immediately to the left of the main bush and sunlit grass and mulch lie to the left and right below. The bush partially occludes the ground beneath it, and the upper portion of the brick house and the surrounding yard extend out of view beyond the top and side frame edges. Across the 5 frames from left to right, the camera wearer's viewpoint shifts slightly forward and rotates subtly counterclockwise while the hands bring the shear handles from about 0.15 metres apart in frames 1 through 3 to nearly touching in frames 4 and 5, closing the blades into the top centre of the bush."
+ },
+ "duration_seconds": 16.868381,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 638,
+  "thinking_tokens": 258,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20199
+ },
+ "conversation_id": "35fbfb27-a5a2-4b3c-b055-f58b7967fe38"
+}

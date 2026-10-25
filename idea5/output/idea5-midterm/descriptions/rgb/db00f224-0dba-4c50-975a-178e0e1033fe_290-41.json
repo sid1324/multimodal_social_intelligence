@@ -1,0 +1,18 @@
+{
+ "id": "db00f224-0dba-4c50-975a-178e0e1033fe_290-41",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor carpeted living room viewed from a standing height, featuring a white sofa (~3\u20134 m ahead to the right) flanked by a wooden side table (~3 m ahead) and a hallway extending into the background on the upper left (~4\u20136 m away). To the right of the open floor space, a rectangular coffee table sits atop a patterned rug (~2.5\u20133.5 m away), while a small grey ottoman is partially visible in the bottom-right foreground (~1\u20131.5 m away) and an acoustic guitar or ukulele rests among dark bags and clutter on the left (~1.5\u20132.5 m away). In frames 1 through 3, a brown-and-white dog stands on the carpet ~1.5\u20132 m directly in front of the camera wearer, facing forward and looking up toward the wearer, with a small toy on the floor just ahead of its paws (~1.2\u20131.5 m away). The standing dog partially occludes a dark cat lying on the floor behind it (~2.5 m from the wearer) next to a blue cloth and other scattered items about 0.5 m from the side table. In frame 2, the camera wearer's blurred hands briefly enter the bottom edge of the view within 0.3 m, and between frames 3 and 5 the dog walks forward toward the wearer\u2014dropping out of view in frame 4 before the top of its head reappears at the bottom-left edge in frame 5 within arm's reach (<0.5 m)\u2014which leaves the reclining cat and the toy on the floor (~1.2\u20132.5 m ahead) completely unoccluded. No people other than the camera wearer are visible, and the right-side window, bottom-right ottoman, and left-side clutter remain partially cut off by the frame boundaries throughout the sequence."
+ },
+ "duration_seconds": 37.448631,
+ "usage": {
+  "input_tokens": 5383,
+  "output_tokens": 1049,
+  "thinking_tokens": 581,
+  "cache_read_tokens": 28413,
+  "total_tokens": 6432
+ },
+ "conversation_id": "5962cfa9-e7e9-471d-b373-1a6d8431d538"
+}

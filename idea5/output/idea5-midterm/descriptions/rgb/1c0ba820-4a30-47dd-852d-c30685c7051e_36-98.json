@@ -1,0 +1,18 @@
+{
+ "id": "1c0ba820-4a30-47dd-852d-c30685c7051e_36-98",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a dimly lit indoor hallway that opens into a brighter living room at the far right end. In the first frame, the camera wearer's own two arms and hands extend downward into the bottom-left and bottom-center foreground within 0.3 to 0.5 metres (well within arm's reach), holding a light-colored garment near the floor while dark surrounding walls or another person's torso heavily occlude the right and upper portions of the view. Across the second, third, and fourth frames, a person wearing a light-colored (white/yellowish) puffy jacket and dark lower clothing is directly in front of the camera wearer at very close range (roughly 0.1 to 0.4 metres, within arm's reach), with their torso and raised right arm filling the upper-left and center of the frame and their head cropped above the top edge so their gaze is not visible. In frame three, the back or side of this puffy jacket moves to less than 0.2 metres from the lens, nearly completely occluding the hallway behind it, before shifting slightly left and away in frame four as the person turns and moves past the camera wearer. By the fifth frame, the person has moved completely out of view (except for a small dark shape or foot at the bottom center about 0.5 metres away), revealing an unobstructed view down the carpeted hallway. In this final frame, an interior wall corner and a closed brown door on the left are roughly 1.5 to 2.5 metres ahead, while the hallway leads forward and slightly right to a brightly lit living room containing a dark sofa against the right wall about 6 to 8 metres away."
+ },
+ "duration_seconds": 19.018401,
+ "usage": {
+  "input_tokens": 19612,
+  "output_tokens": 523,
+  "thinking_tokens": 97,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20135
+ },
+ "conversation_id": "6dad6a64-b364-4288-badc-1361b19cfb5a"
+}

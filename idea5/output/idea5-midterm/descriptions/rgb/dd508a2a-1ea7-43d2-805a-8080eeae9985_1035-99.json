@@ -1,0 +1,18 @@
+{
+ "id": "dd508a2a-1ea7-43d2-805a-8080eeae9985_1035-99",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a small room with a stone-tiled floor, a recessed wall shelf on the left containing framed pictures and brass lamps, a small lit bowl on the floor in front of the shelf, and an open doorway on the right. Two shirtless men wearing dark lower garments and necklaces stand side by side\u2014less than 0.5 metres apart\u2014in front of the back wall to the right of the shelf, initially positioned about 1.5 to 2 metres in front of the camera wearer with their torsos facing toward the camera while their heads remain cropped above the top edge of the frame throughout the sequence, leaving their gaze direction out of view. Across the five frames from left to right, the camera wearer moves steadily forward and tilts downward toward the two men, closing the distance from roughly 1.8 metres in the first frame to 1.2 metres in the second, 0.7 metres in the third, and less than 0.5 metres in the fourth and fifth frames, while the wall shelf and floor bowl pass out of the left side of the view. While nothing is within the camera wearer's arm's reach in the first two frames, both standing men enter arm's reach by the third frame, and in the fourth frame the left man raises his left hand close to the lens while an outstretched right arm wearing an orange wristband reaches from the lower left to touch the right man's right arm, with another person's hands and white garment partially visible at the bottom right edge. By the fifth frame, the downward-angled view shows only the lower torsos and legs of the two standing men within 0.4 metres, with the right man's hands clasped in front of his waist, the left man partially occluded by the left frame boundary, the camera wearer's own foot visible at the bottom center, and a bare right arm reaching up from the lower right to contact the left man's waist."
+ },
+ "duration_seconds": 32.34885,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 1300,
+  "thinking_tokens": 829,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20820
+ },
+ "conversation_id": "72c0f592-f413-4ca5-aa2e-c3810bc4397f"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "65f4949e-e8fe-4b77-972e-35d368ca546a_1165-75",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is beneath or beside dense evergreen branches, facing a nearby deer on a dark, uneven dirt slope, with a bright grassy rise and scattered trees farther behind it. No people are visible; the deer remains roughly 2\u20134 metres in front of the camera, oriented toward the left side of the scene and not looking directly at the camera wearer. Low branches and foliage partly occlude the deer\u2019s legs and underside, while dark tree trunks or branches frame the top and sides and extend partly out of view. The closest foliage appears within arm\u2019s reach of the camera wearer, but the deer and all background objects are beyond arm\u2019s reach. Across the five frames, the deer walks gradually leftward relative to the ground while staying at a similar distance, and the shifting viewpoint keeps it near the middle of each frame without any clear turn toward or away from the camera."
+ },
+ "duration_seconds": 9.8,
+ "usage": null,
+ "conversation_id": null
+}

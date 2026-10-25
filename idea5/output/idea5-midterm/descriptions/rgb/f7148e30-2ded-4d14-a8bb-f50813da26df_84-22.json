@@ -1,0 +1,18 @@
+{
+ "id": "f7148e30-2ded-4d14-a8bb-f50813da26df_84-22",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living area with yellow walls and a textured white ceiling, connected on the left via a wide open archway to an adjacent dining space that has a multi-pane window on its far wall. In frame 1, a seated or standing person with long hair is visible in the lower-left foreground about 2.5 to 3 metres from the camera wearer in front of the archway, facing roughly toward the camera wearer with their lower body cropped out of the bottom of the frame, while a dining table with objects on it sits about 3.5 to 4 metres away behind them to the left. As the camera wearer turns their head to the right across frames 2 and 3, the person and archway move out of view to the left, revealing the main living room wall to the right with a large four-pane window about 3 to 4 metres away, a dark sofa positioned directly below the window, two dark armchairs to the left of the sofa about 3.5 to 4.5 metres away, and an end table with a cylindrical lampshade within arm's reach of the sofa's right armrest at about 2.5 to 3 metres distance. In frame 3, a door with a narrow vertical glass pane is also visible further to the right of the window and lamp at roughly 3 to 3.5 metres away, while the lampshade partially occludes the lower-right pane of the living room window. Across frames 4 and 5, the camera wearer pans back to the left, sweeping past the window, sofa, and armchairs until returning in frame 5 to the original orientation facing the archway and the person about 2.5 to 3 metres away. Throughout all five frames, the camera viewpoint is angled slightly upward so the ceiling occupies the upper third of the view, the lower portions of the furniture and the person are cut off by the bottom frame edge, and nothing is within immediate arm's reach of the camera wearer."
+ },
+ "duration_seconds": 13.938155,
+ "usage": {
+  "input_tokens": 5422,
+  "output_tokens": 624,
+  "thinking_tokens": 141,
+  "cache_read_tokens": 28419,
+  "total_tokens": 6046
+ },
+ "conversation_id": "1ef15605-d0df-4292-9612-9e277f58699c"
+}

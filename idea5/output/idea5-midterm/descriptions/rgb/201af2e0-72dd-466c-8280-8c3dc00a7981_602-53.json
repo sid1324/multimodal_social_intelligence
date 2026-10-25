@@ -1,0 +1,18 @@
+{
+ "id": "201af2e0-72dd-466c-8280-8c3dc00a7981_602-53",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen featuring a wooden island countertop directly in front of the camera wearer, with a sink, dishwasher, stove, and overhead microwave along the left wall (2 to 3.5 metres away), an open doorway in the background (3 to 5 metres away), and tall white cabinets along the right wall. Across the five frames, the camera wearer rotates their view clockwise to the right and tilts downward toward the island, shifting the left-side kitchen appliances out of view while bringing the island's surface and a person seated on its right side into full view by frames 4 and 5. At the near end of the island, within arm's reach of the camera wearer (0.3 to 0.6 metres away), are a foil-lined baking sheet partially cut off by the bottom frame edge, a small knife, and a cylindrical container, while stacked white rectangular platters and a dark logoed bottle sit near the centre (0.6 to 0.9 metres away, about 0.3 to 0.5 metres beyond the sheet) and a white fruit bowl rests at the far left corner (1.3 to 1.5 metres away). A person in a white shirt is seated at the right side of the island about 1.2 to 1.5 metres from the camera wearer, initially out of view in frame 1 and partially clipped at the right edge in frames 2 and 3, with their lower body occluded beneath the countertop and tall cabinets roughly 1 metre behind them. The seated person faces left toward the island with a small bowl, a white tumbler, and a smartphone within their arm's reach (0.2 to 0.5 metres in front of them), looking down at the bowl in frame 4 before raising their head to look toward the camera wearer in frame 5."
+ },
+ "duration_seconds": 22.514780000000002,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 1295,
+  "thinking_tokens": 839,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20874
+ },
+ "conversation_id": "9c90b5b6-9493-406c-9916-4b6eb15af378"
+}

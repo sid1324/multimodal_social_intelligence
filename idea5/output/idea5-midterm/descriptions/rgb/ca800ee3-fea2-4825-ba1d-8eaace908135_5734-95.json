@@ -1,0 +1,18 @@
+{
+ "id": "ca800ee3-fea2-4825-ba1d-8eaace908135_5734-95",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer is positioned elevated against a blue indoor climbing wall roughly 0.3 to 0.5 metres in front of them, with beige, grey, green, red, and orange climbing holds and volumes within arm's reach. In frame 1, the wearer's right arm reaches down toward a lower orange hold while another person is partially visible at the bottom-right edge about 1.5 metres below, and in frame 2 the wearer's left hand grips a lower-left red hold while their raised right leg in the lower-right foreground partially occludes the person below. By frame 3, the camera pitches steeply downward and turns leftward, showing the wearer's upturned left arm dominating the left foreground, their bent right leg below, and the blue padded floor mat roughly 2.5 to 3 metres underneath. In frame 4, the viewpoint rotates further left to face the expansive blue floor mat, revealing a person in a white shirt standing beside a smaller rectangular mat on the far left about 4 metres away, and three people in dark and blue clothing standing 0.5 to 1 metre apart along the wall's base in the upper center about 3.5 to 4 metres away, all facing toward the mat with their heads cropped out by the top edge of the frame. In frame 5, as the wearer drops closer to the floor (roughly 1.5 to 2.5 metres above the mat), the person in the black star-logo shirt steps forward toward the camera wearer to a distance of about 2 metres with their right arm outstretched in front of their torso, while the other bystanders remain stationary 1 to 2 metres to their left and right along the base of the wall."
+ },
+ "duration_seconds": 20.926686,
+ "usage": {
+  "input_tokens": 5378,
+  "output_tokens": 1245,
+  "thinking_tokens": 805,
+  "cache_read_tokens": 28403,
+  "total_tokens": 6623
+ },
+ "conversation_id": "ee9f62d1-e0f8-42de-8362-138820b5eba3"
+}

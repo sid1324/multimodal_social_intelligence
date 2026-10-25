@@ -1,0 +1,12 @@
+{
+ "id": "a4375d98-e295-4e7d-a718-d8af066e3d57_1708-23",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A green wheeled bin or work surface occupies the near center in all five frames, about 0.3\u20130.8 m from the camera wearer, with metal brackets, a red marker, a spray can, small parts, and a red cloth on or just above it. The camera wearer\u2019s torso and forearms fill the lower foreground, with both hands within arm\u2019s reach of the surface; the red cloth and a small metal object move between the hands near the center-right, roughly 0.3\u20130.6 m away. One other person, wearing a black shirt and tan shorts, stands on the far side of the green surface about 1\u20131.5 m from the camera wearer and roughly 0.5\u20131 m from the objects on the surface; their body generally faces toward the camera wearer, but their head is cropped out so their gaze is unknown. A blue tarp lies to the left and rear of the surface, while rows of large mechanical components run along the far and right edges, partly occluded by the bin, people, and frame boundaries. Across the five frames, the camera viewpoint turns progressively to the right and slightly forward, shifting the other person from the upper-right/center toward the far right and then mostly out of view, while the cloth and hands rise and move rightward closer to the camera before settling near the right side of the surface."
+ },
+ "duration_seconds": 13.8,
+ "usage": null,
+ "conversation_id": null
+}

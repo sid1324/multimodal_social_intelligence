@@ -1,0 +1,18 @@
+{
+ "id": "fc201765-9b2e-4bb3-8ca0-84bd1732fd40_335-09",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor construction area directly beside a smooth grey concrete wall within 0.3 to 1.0 metres in front of the camera wearer, bordered below by rough dirt and brick rubble. In the first two frames, the camera wearer faces the wall and turns slightly right, shifting a thin white vertical pipe on the far left (about 1.5 metres away) out of view while bringing a thicker white vertical pipe on the right within arm's reach (about 0.4 metres away). In frames 3 and 4, the camera tilts downward toward the ground at the base of the wall, revealing two round basins holding wet mortar about 0.5 to 0.8 metres below and in front of the wearer, directly beside the lower end of the thick white pipe on the right. The camera wearer's right hand enters the bottom of frame 3 to grip the rim of the central mortar basin, and in frame 4 lifts the basin closer to the body while a green bucket rim becomes partly visible at the bottom right corner and the second basin on the bottom left is largely cut off by the frame edge. In frame 5, the camera tilts up and turns right toward the building corner (about 1.0 metre away), where two vertical metal conduits run along the wall and a man in a pink shirt stands on the right about 1.2 to 1.5 metres from the camera wearer. The man in the pink shirt is within arm's reach of the wall corner, has his lower legs occluded by the bottom edge of the frame, faces angled toward the left, and looks downward toward the ground in front of the camera wearer rather than at the camera wearer's face."
+ },
+ "duration_seconds": 14.336324,
+ "usage": {
+  "input_tokens": 19523,
+  "output_tokens": 499,
+  "thinking_tokens": 72,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20022
+ },
+ "conversation_id": "6a153f48-99df-4d36-ba32-1e13f545d4bc"
+}

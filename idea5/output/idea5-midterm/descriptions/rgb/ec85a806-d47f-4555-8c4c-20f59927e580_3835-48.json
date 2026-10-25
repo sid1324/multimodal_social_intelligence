@@ -1,0 +1,18 @@
+{
+ "id": "ec85a806-d47f-4555-8c4c-20f59927e580_3835-48",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor stone-paved yard covered in rows of grey molded egg trays on the ground to the left and center, with a wheeled multi-tiered metal rack holding blue boards and trays to the right and a green building roughly 25 to 35 metres in the background. Within arm's reach at the bottom foreground (about 0.3 to 0.6 metres below and in front of the viewpoint), the camera wearer holds a flat blue board carrying egg trays that is partly cropped by the lower frame edge. In the first frame, the wheeled rack is 1 to 2 metres to the right (partly out of view on the right edge), a person in a red shirt stands 4 to 5 metres ahead facing and looking toward the camera wearer within arm's reach of the rack, and a person in a black shirt stands 5 to 6 metres ahead and about 1.5 to 2 metres left of the person in red, bending over the ground trays facing left with a blue board in his hands. Across the second and third frames, the viewpoint turns left and tilts downward toward the ground trays 1 to 6 metres away, moving the rack and the person in red out of view to the right while leaving only the legs and board of the person in black briefly visible at the upper-right edge in frame two. In the fourth frame, the viewpoint pitches straight down to show the camera wearer's hands gripping the tray-laden blue board about 0.4 metres away above their feet and partially occluding the pavement below, before tilting back up and turning right in the fifth frame to show the held blue board now empty at the bottom-center while the person in black stands upright 4 to 5 metres ahead facing the camera wearer with a blue board in hand, slightly in front of and about 1 metre left of the person in red who also faces the camera wearer beside the rack."
+ },
+ "duration_seconds": 24.019561,
+ "usage": {
+  "input_tokens": 19525,
+  "output_tokens": 1382,
+  "thinking_tokens": 910,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20907
+ },
+ "conversation_id": "43c02824-ed6b-443d-b17e-84f92f1ddb74"
+}

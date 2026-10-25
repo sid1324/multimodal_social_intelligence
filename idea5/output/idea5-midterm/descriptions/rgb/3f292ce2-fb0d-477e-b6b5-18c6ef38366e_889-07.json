@@ -1,0 +1,18 @@
+{
+ "id": "3f292ce2-fb0d-477e-b6b5-18c6ef38366e_889-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an elevated construction space bounded by interior walls within 0.5 to 1.5 metres on the left and right, an overhead beam above, a horizontal grid of metal scaffolding poles directly below and in front (1 to 2.5 metres away), and a large wall opening leading to an outdoor ground area with dirt piles and a parked motorcycle roughly 10 to 15 metres away in the background. Two people are present: a person in a dark reddish-brown shirt on the left scaffolding poles roughly 0.8 to 1.5 metres in front of and to the left of the camera wearer, and a second person in a yellow plaid shirt standing lower down outside the opening about 3.5 to 4.5 metres in front of the camera wearer and 2.5 to 3.5 metres ahead of the first person. The person in the dark shirt faces away from the camera wearer toward the exterior opening throughout all five frames, whereas the person in the yellow shirt faces toward the building and looks up toward the camera wearer and the scaffolding (except in the third frame, where their head tilts downward). In the first frame, the person in the dark shirt is bent low in the lower-left foreground within arm's reach of the camera wearer and the left wall, with their lower body clipped by the bottom frame edge, while the person in the yellow shirt holds a dark block near shoulder height within their own arm's reach. In the second frame, the person in the dark shirt stands upright\u2014occluding the left portion of the outdoor view with the top of their head clipped by the upper frame edge\u2014as the person in the yellow shirt tosses the block forward toward the scaffolding and the shadow of the camera wearer's raised right arm appears on the poles below. From the third through the fifth frames, the person in the dark shirt steps slightly farther forward along the left scaffolding poles to about 1.5 metres from the camera wearer while holding a block in their right hand down at their side, and the person in the yellow shirt remains stationary outside at roughly 4 metres distance."
+ },
+ "duration_seconds": 36.601237,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 1440,
+  "thinking_tokens": 931,
+  "cache_read_tokens": 14203,
+  "total_tokens": 21001
+ },
+ "conversation_id": "64b9ab1e-4927-4ea2-a081-04536ee3ffb9"
+}

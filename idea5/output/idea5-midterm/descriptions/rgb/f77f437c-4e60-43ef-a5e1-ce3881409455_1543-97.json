@@ -1,0 +1,12 @@
+{
+ "id": "f77f437c-4e60-43ef-a5e1-ce3881409455_1543-97",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is beside a rectangular table, with a gray sofa behind the table on the left, a low dark cabinet and large windows roughly 2\u20134 m ahead, and a patterned rug beneath the furniture. One person sits across the table about 0.7\u20131.2 m in front and slightly right of the camera, facing generally toward the wearer while looking mostly down or sideways; their torso and head are partly cropped or darkened in several frames. The tabletop holds an open dark box near the center, a blue-green bag to its right, a white plate or circular object farther right, and several small cups or containers, all about 0.3\u20131.0 m from the wearer and within arm's reach of at least one person. The wearer's hands appear at the lower edge in several frames, while the other person's hands remain above the near-right or central table area; hands and nearby objects intermittently occlude one another. Across the five frames, the viewpoint sweeps slightly right and closer to the seated person in frame 4, then shifts leftward again in frame 5, causing the person to move from the far-right edge toward center-right and back while the table objects slide oppositely in the image. Parts of another dark-clothed body or limb are cut off at the extreme left edge in some frames, and the seated person's head is partly out of view in the middle frames before becoming more visible near the right side."
+ },
+ "duration_seconds": 11.2,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "b5c3c1e3-7ee7-4b4a-b938-4d008d5aa49b_757-55",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an overhead egocentric view looking down in a salon with a wooden floor, where the seated camera wearer has their legs extended forward above a white foot basin and black footrest about 0.5 to 0.8 metres ahead, and their right arm resting on a towel-draped armrest on the right. A person in black clothing sits to the forward-right at roughly 0.5 to 0.7 metres from the camera wearer, positioned about 0.3 metres to the right of the foot basin and 1.0 to 1.5 metres from two low stools and another footrest further ahead on the left and center-left. Within the camera wearer's immediate reach are a fanned set of nail color swatches held in their left hand over their lap (about 0.3 to 0.4 metres below the camera) and their own right hand resting on the grey towel at a similar distance. The person on the right is within arm's reach of the camera wearer's right hand, the grey towel, and small manicure tools (clippers and a yellow file) resting on the armrest, and faces leftward and downward toward the armrest rather than looking up at the camera wearer. The right edge of the frame partially cuts off the second person's head, back, and lower body, while the nail swatches partially occlude the camera wearer's black-trousered legs and the person's right arm briefly overlaps the camera wearer's right fingers. Across the five frames, the camera wearer's viewpoint shifts slightly upward in the second frame before steadying, while the person on the right holds the camera wearer's right hand in frames 1 through 4 before releasing it, sitting slightly back, and bringing both of their own hands together over the right side of the towel in frame 5."
+ },
+ "duration_seconds": 14.626509,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 669,
+  "thinking_tokens": 218,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20248
+ },
+ "conversation_id": "33268136-2f41-448c-b84b-63eed8d52678"
+}

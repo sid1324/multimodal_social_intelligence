@@ -1,0 +1,18 @@
+{
+ "id": "5c3be03c-07a5-4427-a2fe-449f16e8017b_787-88",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room where the camera wearer is seated at a round table covered in art supplies, looking down at a dog painting directly in front of them at a distance of about 0.3 to 0.5 metres. Within the camera wearer's immediate arm's reach (0.2 to 0.8 metres) on the tabletop are the painting, a pen held in their right hand, a reference photo and smartphone to the left, a white paint palette to the right, and two water jars, a paper towel roll, a bag of markers, and a circular brush carousel slightly further forward (0.5 to 0.9 metres away). Just below the left edge of the table is a tiered rolling cart about 0.6 metres away, and in frames 1 through 3, a second person is barely visible in the far upper-left background before stepping closer in frame 4 along the left edge of the frame at roughly 1.2 to 1.5 metres away, largely cropped out except for their legs, torso, and hand holding cash. By frame 5, the camera wearer turns their head up and to the left, bringing the table into the lower-right corner while revealing the standing person to the left at about 1.2 to 1.5 metres away, facing toward the camera wearer and extending their left hand holding paper bills to within roughly 0.8 to 1.0 metre of the wearer. Across the five frames, the camera wearer's left hand enters the view in frame 4 to hold the pen cap alongside their right hand, while the standing person approaches from the background on the left and stops beside the table with the cash within their own arm's reach and nearly within reach of the camera wearer."
+ },
+ "duration_seconds": 33.127825,
+ "usage": {
+  "input_tokens": 19547,
+  "output_tokens": 495,
+  "thinking_tokens": 56,
+  "cache_read_tokens": 14193,
+  "total_tokens": 20042
+ },
+ "conversation_id": "9e69ea43-e4bb-4ccb-9ddb-e776acd77700"
+}

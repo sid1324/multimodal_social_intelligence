@@ -1,0 +1,18 @@
+{
+ "id": "287c98fa-f0a4-4944-b798-bcae618258d3_1087-69",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen with a cluttered table or counter in the foreground on the right, wooden cabinets and a counter along the left and back walls roughly 3 to 4 metres away, a dark refrigerator in the back right corner about 3 metres away, and an illuminated ceiling fan overhead. In frame 1, the camera wearer faces a beige right-hand wall and the cluttered foreground surface within arm's reach (about 0.4 to 0.8 metres away), where the wearer's right hand holds a small dark object at the bottom right near plastic cups, bottles, and bags, while a person is mostly out of view on the far left edge. Across frames 2 to 5, the camera wearer turns leftward to face the open kitchen as a woman in a reddish-brown top and dark-framed glasses stands in front of the wearer, approaching from roughly 2 metres away in frame 2 to about 1.2 to 1.5 metres away in frames 4 and 5. The woman faces the camera wearer while holding and manipulating a small light-colored object between both hands within her own arm's reach at chest level, looking slightly downward at her hands in frames 3 and 4 before angling her head more toward the camera wearer in frame 5. In frames 4 and 5, the top of a child's head and a white highchair tray become partially visible at the bottom left, roughly 0.8 to 1 metre in front of and below the camera wearer and about 0.5 metres to the left of the standing woman, while clear plastic food containers sit within arm's reach on the foreground counter to the bottom right. Throughout the sequence, the woman's torso partially occludes the cabinetry and refrigerator behind her, and the lower bodies of the woman, the child, and the foreground furniture are cut off by the bottom frame boundary."
+ },
+ "duration_seconds": 13.277066,
+ "usage": {
+  "input_tokens": 5367,
+  "output_tokens": 679,
+  "thinking_tokens": 212,
+  "cache_read_tokens": 28426,
+  "total_tokens": 6046
+ },
+ "conversation_id": "9131c207-0f75-4037-96c6-fa047781b8ab"
+}

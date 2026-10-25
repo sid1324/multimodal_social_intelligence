@@ -1,0 +1,18 @@
+{
+ "id": "d3de44fb-a6e8-4815-b28f-798de4bfd7eb_1337-08",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a metalworking workshop with a tiled floor that opens onto a covered outdoor entryway ahead, bordered by a long multi-tiered storage rack of metal pipes and orange-wrapped bundles along the right wall about 1.5 to 3 metres away and plastic jugs, a clay pot, and a pedestal fan along the left side about 1.5 to 3 metres away. On the floor directly in front of the camera wearer are two groups of orange-wrapped metal bars separated by about 0.8 metres: one pile to the front-right at 1 to 1.5 metres distance, and another pile directly ahead within arm's reach (0.5 to 1.2 metres) where the wearer's yellow-sleeved left arm extends to place bare metal bars onto the stack in the second and third frames. Beyond the floor piles, two corded angle grinders rest on the floor about 2 to 2.5 metres away\u2014one near the right rack and another near a flat square plate and the base of the pedestal fan on the left. Across the five frames, the camera wearer turns Counterclockwise from facing the right-side storage rack in frame 1, to looking down at the floor piles in frames 2 and 3, and finally pitching upward in frames 4 and 5 to face the open doorway. In the doorway about 3.5 to 4.5 metres ahead, a standing man in a white shirt and dark pants\u2014whose legs are cropped at the top edge in frame 2 and occluded in frame 3\u2014faces away from the camera wearer while partially occluded on his left by the pedestal fan, and bends slightly forward by frame 5. About 1 to 1.5 metres to the right of the standing man (roughly 4.5 to 5 metres from the wearer), a second person crouches on the ground facing right with floor materials within arm's reach, while in frame 5 a third person comes into view outside about 5 to 6 metres away to the left of the standing man, facing inward."
+ },
+ "duration_seconds": 25.763189,
+ "usage": {
+  "input_tokens": 19515,
+  "output_tokens": 1207,
+  "thinking_tokens": 707,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20722
+ },
+ "conversation_id": "b37696ca-2fd8-4a6f-a853-64ffe1f43e56"
+}

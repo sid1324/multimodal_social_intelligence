@@ -1,0 +1,18 @@
+{
+ "id": "5b0225e8-b81b-42fe-aa08-b0732b46c8bd_381-48",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor desert campsite bordered by tall rocky mesas in the background, featuring a small blue tent about 10 to 15 metres to the left in the early frames and a central picnic table surrounded by camping gear, bags, and food items. In the first two frames, a person in a maroon hoodie with a yellow armband stands roughly 3 to 4 metres ahead on the right, facing away and toward the right where another person in a grey jacket stands about 0.5 to 1 metre further away alongside the table. Across the sequence, the camera wearer turns rightward and walks forward toward the picnic table, shifting the tent out of view to the left while bringing the table, a parked silver car 5 to 8 metres to the right, and a person walking away near the car into view. In frames 3 and 4, a person in a light-coloured jacket and dark cap appears in the immediate right foreground within 1 metre of the camera wearer, facing left toward the table and partially cut off by the right frame edge. By the fifth frame, the camera wearer has approached and tilted downward toward the near end of the picnic table, bringing the cooler, bags of produce, foil box, cans, and adjacent backpacks within arm's reach (under 1 metre). At the same time, the person in the maroon hoodie stands immediately to the left of the table within 1.5 metres of the camera wearer, with their upper body and head cropped out by the top-left edge of the frame while table items remain within their arm's reach."
+ },
+ "duration_seconds": 18.512068,
+ "usage": {
+  "input_tokens": 19616,
+  "output_tokens": 495,
+  "thinking_tokens": 96,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20111
+ },
+ "conversation_id": "6269780d-ccc6-49e3-bca1-9ef631ae1d54"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "1a9a07d5-70ad-4e18-9740-66ea985a527b_945-60",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor climbing area with a black climbing wall directly in front of the camera wearer, covered with holds and projecting red, yellow, white, and blue climbing volumes; blue floor mats run along the base below the wall. In the first three frames, the wall is roughly 1\u20133 m ahead, while an adult in a maroon shirt and climbing harness is partly visible near the lower-left edge, about 1\u20132 m from the camera wearer and close to the wall. By the fourth frame, the adult is centered about 0.5\u20131 m away, below the camera viewpoint, facing generally toward the camera wearer with their head angled slightly sideways; their lower body is partly occluded by the frame edge. In the fifth frame, the adult moves even closer to within roughly 0.3\u20130.7 m and fills much of the left and central foreground, placing their torso and harness within the camera wearer\u2019s arm\u2019s reach while the wall remains behind them. Across the strip, the camera turns and/or moves rightward along the wall, shifting the large climbing volumes out of view to the left and revealing more numbered wall sections to the right, while the adult changes from peripheral and partially out of view to close and prominent."
+ },
+ "duration_seconds": 9.5,
+ "usage": null,
+ "conversation_id": null
+}

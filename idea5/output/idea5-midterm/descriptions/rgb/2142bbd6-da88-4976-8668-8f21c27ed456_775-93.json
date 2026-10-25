@@ -1,0 +1,12 @@
+{
+ "id": "2142bbd6-da88-4976-8668-8f21c27ed456_775-93",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera is tilted downward and rotates across the strip, showing the wearer\u2019s red-clad torso and arms within about 0.2\u20130.5 m, with a rough floor, a concrete wall or column, and an open framed area farther away. A person in tan patterned clothing is crouched or seated roughly 0.8\u20131.5 m in front of the wearer, generally facing toward them, although their face is partly obscured by headgear, hands, and the frame edges. A second person in high-visibility yellow-green clothing is only partly visible near the periphery, about 1.5\u20133 m away and roughly 1\u20132 m from the tan-clad person; their facing direction and gaze are not clearly visible. A yellow measuring tape or line runs diagonally across the floor within about 0.5\u20131.5 m of the wearer and passes near the tan-clad person, while the wearer\u2019s own arms and torso occlude much of the central and lower view. From frames 1 through 5, the camera turns clockwise and slightly shifts toward the tan-clad person, moving that person from upper-left/center toward the right side while the high-visibility person changes from a partial edge view to a partial upper-left view; no large approach or retreat is evident."
+ },
+ "duration_seconds": 15.1,
+ "usage": null,
+ "conversation_id": null
+}

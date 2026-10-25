@@ -1,0 +1,18 @@
+{
+ "id": "a5bd4711-275b-4bbf-96fe-37553e5d3e93_1659-18",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor dirt and grass area bordered by a wooden fence and road in the background (roughly 8 to 15 metres away), featuring two large boulders on the ground about 2 to 3.5 metres ahead and a silver car with an open trunk on the right at about 0.8 to 1.5 metres. Two people are present: a person in a dark grey shirt and cap who stays within arm's reach (0.3 to 0.8 metres) of the camera wearer, and a second person in a plaid shirt and grey shorts standing about 2 to 3 metres away and roughly 2 metres to the left of the first person and the car. Between the boulders and the camera wearer, about 1 to 2.5 metres away and below eye level on the ground, lie backpacks, coiled red and tan climbing ropes, a blue-and-white box, and shoes, with the nearest bags and the grey-shirted person within or near the camera wearer's arm's reach. The plaid-shirted person faces generally toward the camera wearer's direction while looking down at gear held within their arm's reach rather than at the camera wearer, whereas the grey-shirted person faces away from the camera wearer toward the open trunk, where a blue container inside is within their arm's reach. In frame 1, the grey-shirted person's back is directly in front of the lens and occludes nearly the entire scene; in frames 2 and 3, they shift to the bottom-right edge (partially out of view) while the plaid-shirted person's head and upper torso are cropped out at the top edge. Across frames 4 and 5, the camera wearer turns rightward from the ground gear and plaid-shirted person (who passes out of view to the left) toward the rear of the car, where the grey-shirted person leans forward into the open trunk and occludes its left interior."
+ },
+ "duration_seconds": 27.737921,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 1435,
+  "thinking_tokens": 949,
+  "cache_read_tokens": 14209,
+  "total_tokens": 21015
+ },
+ "conversation_id": "4c3b46a6-a690-4210-802f-d2b1c148e144"
+}

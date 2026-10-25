@@ -1,0 +1,18 @@
+{
+ "id": "969866a7-2393-4bca-851a-885ddd7f627d_2446-72",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor paved walkway at night, bordered on the left by a light-colored building with tall arched colonnades, doorway openings, low planted garden beds, and short blue bollard lights. No people are visible anywhere in the scene, and no objects are within arm's reach of the camera wearer across any of the five frames. In Frame 1, the camera wearer looks down the walkway with a building pillar on the right edge about 3 metres away and an arched colonnade on the left roughly 6 to 15 metres ahead. In Frames 2 and 3, the viewpoint pans sharply to the left toward a recessed courtyard and garden bed located 4 to 8 metres away, bordered by blue bollard lights spaced about 4 to 5 metres apart, a tree trunk, a dark lamp post, and a small white-and-dark cat standing on the pavement about 5 metres ahead on the left in Frame 3. Behind the garden bed, about 8 to 10 metres from the camera wearer, the building facade features a large window on the left and an arched doorway on the right. In Frames 4 and 5, the camera wearer turns back toward the right and moves forward along the main walkway, bringing a circular manhole cover on the ground from about 3.5 metres ahead on the right in Frame 4 to about 2.5 metres ahead on the left in Frame 5, while the arched pillars pass on the left at 3 to 6 metres and a row of distant blue bollard lights extends 15 to 25 metres ahead."
+ },
+ "duration_seconds": 18.463827,
+ "usage": {
+  "input_tokens": 5290,
+  "output_tokens": 406,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28420,
+  "total_tokens": 5696
+ },
+ "conversation_id": "8e957a41-0de2-4a3f-9138-fcd8de539e7b"
+}

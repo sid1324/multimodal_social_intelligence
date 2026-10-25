@@ -1,0 +1,12 @@
+{
+ "id": "f374039b-7f08-4dc3-af64-4e9ff61db531_425-13",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer looks downward into a narrow outdoor work area, with stacked wooden or corrugated pieces along the left, scattered blocks and bags on the ground, and low concrete borders enclosing reddish soil ahead and to the right. A single person in a striped shirt and dark trousers enters from ahead-right, initially about 2\u20133 m away, then remains roughly 1\u20132 m in front of and slightly right of the camera wearer; no other people are visible. The person generally faces toward the camera wearer, though their head is mostly cropped out, so whether they look at the camera cannot be determined; by the last frame their torso and right arm are very close, approximately 0.5\u20131 m away and within the camera wearer's arm's reach. A shallow round pan lies near the person's feet and within their reach, while a rectangular hand tool is held near their torso in the final frame; a dark mound or container is partly visible at the extreme right edge. Across the five frames, the camera turns and moves rightward and closer to the person, causing the left-side stacks and central debris to recede from view while the person, tool, low wall, and right-edge mound become larger and partly occlude the background."
+ },
+ "duration_seconds": 12.2,
+ "usage": null,
+ "conversation_id": null
+}

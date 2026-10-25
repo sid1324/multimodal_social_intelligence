@@ -1,0 +1,18 @@
+{
+ "id": "8bb4369f-a6e0-45a3-9d2d-fd5d5c686ccc_70-57",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor corner containing a white quilted mattress below a window on the upper left and a horizontal metal pole spanning diagonally from the window corner toward the upper right, with no other people present. In frame 1, the camera wearer faces the window about 1.2 to 1.5 metres away while holding white cloth at the bottom edge of the view within 0.4 metres. Across frames 2 through 5, the viewpoint tilts downward and shifts closer to the mattress and pole, bringing the mattress surface and a grey cylindrical object with a blue cap hanging from the pole by a yellow string to within 0.5 to 0.8 metres in front of the wearer. In frames 3, 4, and 5, the camera wearer's hands enter the lower-left foreground at 0.3 to 0.5 metres distance, touching a small white cat in frame 3 and resting on dark fabric on the mattress in frame 5 just left of the hanging cylinder. Everything on the mattress and the hanging cylinder are within arm's reach of the camera wearer from frame 2 onward, while the window moves completely out of the upper field of view by frame 3 and the wearer's arms remain partially cropped by the bottom frame edge."
+ },
+ "duration_seconds": 10.406411,
+ "usage": {
+  "input_tokens": 19508,
+  "output_tokens": 337,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14208,
+  "total_tokens": 19845
+ },
+ "conversation_id": "ce4621c3-b3a6-43d1-90cb-03b34181248c"
+}

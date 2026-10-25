@@ -1,0 +1,18 @@
+{
+ "id": "3a53bfdc-daf7-4bbc-bb9f-af449021d237_1629-28",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated at a curved light-grey table extending 0.3 to 1.0 metres in front of and below eye level, inside a room with a long desk and desktop monitor 3.5 to 4.5 metres straight ahead and a wooden double door about 4 metres away to the front-right. On the table surface within arm's reach of the camera wearer sit two open laptops about 0.4 to 0.6 metres away and 0.1 metres apart\u2014a black laptop directly in front-left and a silver laptop to its right\u2014flanked by a partially cut-off tablet 0.2 metres to the left of the black laptop and a white mask 0.2 metres to the right of the silver laptop. At the right frame boundary, about 0.6 to 0.8 metres from the camera wearer and 0.4 metres right of the silver laptop, a person in a pink shirt is partly out of view with their left hand reaching onto the silver laptop's trackpad below its screen, while their body partially occludes a second seated person immediately beside them (0.2 metres further away, at 0.8 to 1.0 metres from the camera wearer) whose forearms rest on the table edge. The person in the pink shirt faces forward-left toward the laptop screens rather than looking toward the camera wearer, and at the upper-left frame boundary about 2.5 to 3.5 metres behind the near table, a third person in a blue shirt is mostly cut off by the left edge while facing right. Across the five frames, neither the people nor the objects approach or retreat, as the camera wearer's right hand remains on the black laptop's lower deck\u2014briefly lifting two fingers in the fourth frame before lowering them in the fifth\u2014while the viewpoint turns slightly leftward, shifting the right-side person slightly further out of view and revealing slightly more of the person in blue on the far left."
+ },
+ "duration_seconds": 58.381916,
+ "usage": {
+  "input_tokens": 19587,
+  "output_tokens": 2289,
+  "thinking_tokens": 1800,
+  "cache_read_tokens": 14213,
+  "total_tokens": 21876
+ },
+ "conversation_id": "4a8a4b8a-435a-40da-9292-0218e9708522"
+}

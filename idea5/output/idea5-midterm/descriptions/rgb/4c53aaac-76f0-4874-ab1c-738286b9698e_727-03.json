@@ -1,0 +1,18 @@
+{
+ "id": "4c53aaac-76f0-4874-ab1c-738286b9698e_727-03",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands behind a black L-shaped service counter looking downward at the countertop roughly 0.4 to 0.8 metres away. Within arm's reach on the counter, arranged from left to right, are a white touchscreen POS terminal facing the wearer, a small black receipt printer and smartphone, a metal container of wrapped straws, a pump bottle and closed laptop on a lower right section, and a bouquet of pink and red flowers about 1.0 metre away on the far right. Across the counter in the first two frames, about 1.0 to 1.5 metres in front of the camera wearer, stand a person in a dark blue shirt on the left and a person in a beige shirt about 0.4 metres to their right, both torsos facing the counter and the wearer while their heads are cropped out above the top edge of the frame. From frame 1 to frame 5, the camera viewpoint pitches further down and shifts slightly left toward the POS terminal, bringing green-lit equipment under the counter on the lower left into view while moving the flower bouquet and most of the two people's torsos out of the top and right edges of the frame. In frame 3, an arm from across the counter extends forward to about 0.6 metres from the wearer to meet the wearer's extended right hand beside the terminal, retreats out of view in frame 4 as both of the wearer's hands hold paper bills about 0.4 metres away in front of the terminal base, and reaches back in above the screen in frame 5 to within 0.5 metres of the wearer, partially occluding the top of the monitor while the wearer's open right hand rises beneath it."
+ },
+ "duration_seconds": 25.080757,
+ "usage": {
+  "input_tokens": 19611,
+  "output_tokens": 1193,
+  "thinking_tokens": 766,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20804
+ },
+ "conversation_id": "bdec0bb8-0c10-4d26-b1fb-2c5704a5c88f"
+}

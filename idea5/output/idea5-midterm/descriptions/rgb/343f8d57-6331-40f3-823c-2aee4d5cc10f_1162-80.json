@@ -1,0 +1,18 @@
+{
+ "id": "343f8d57-6331-40f3-823c-2aee4d5cc10f_1162-80",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in an indoor room facing a plain wall about 0.5 to 1.5 metres in front of the camera wearer, bordered by a low wooden ledge on the far left and a white doorway on the far right. Below eye level in the foreground sits a dark container holding a protruding guitar neck, a white mask-like item, grey fabric, and two upright books, with a brown paper bag positioned about 0.3 to 0.5 metres to its right near the doorway. In the first frame, the camera wearer is within arm's reach (about 0.4 to 0.7 metres) of the left side of the container in the lower-left foreground, while the doorway and right side of the container are out of view. Across frames two and three, the camera retreats and tilts upward so the wall fills the centre of view at about 1.0 to 1.5 metres distance, leaving the container mostly cropped out along the bottom edge while briefly revealing the doorway and paper bag on the right in frame two and the low ledge on the far left in frame three. In frame four, the viewpoint tilts downward to show the container and upright books about 0.8 to 1.0 metres away in the lower foreground as a person's side enters the far right edge. By frame five, the camera pans right to reveal a standing man in a striped shirt about 0.8 to 1.2 metres away in front of the doorway, facing forward and slightly left toward the camera wearer's direction with the top of his head and eyes cropped out of the upper frame and the paper bag and container within his arm's reach below him."
+ },
+ "duration_seconds": 21.952481,
+ "usage": {
+  "input_tokens": 5364,
+  "output_tokens": 1109,
+  "thinking_tokens": 685,
+  "cache_read_tokens": 28425,
+  "total_tokens": 6473
+ },
+ "conversation_id": "e32954a5-c88e-470f-958c-cb58d9ca666e"
+}

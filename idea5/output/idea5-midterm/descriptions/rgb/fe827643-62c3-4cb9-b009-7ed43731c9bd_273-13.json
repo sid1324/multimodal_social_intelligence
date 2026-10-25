@@ -1,0 +1,18 @@
+{
+ "id": "fe827643-62c3-4cb9-b009-7ed43731c9bd_273-13",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow indoor retail aisle lined with display shelves and wall racks on the right (about 0.7 to 1.5 metres from the camera wearer) and additional merchandise racks and bright storefront windows in the background to the left and ahead (2 to 4 metres away). A person wearing a tan fleece-lined coat over a purple hoodie stands in the left foreground roughly 0.6 to 0.9 metres in front of the camera wearer and about 0.3 to 0.5 metres left of the right-hand shelving. Both the person and the lower display shelves of books, cards, and small figurines on the right are within arm's reach of the camera wearer, while the small pink object held in the person's hands and the adjacent shelves are within the person's own reach. Across frames 1 to 3, the person stands in right profile facing the right-hand shelves and looking down at the held object without looking toward the camera wearer, while their head is partly cut off by the top frame edge in frame 1 and their lower body is out of view below the bottom edge across all frames. In frame 4, the person turns their head and torso slightly left toward the camera wearer, looks in the camera wearer's direction, and raises their right hand closer to the camera (about 0.5 metres away), before turning back toward the right-hand shelves in frame 5 as the camera wearer's viewpoint pitches slightly upward and shifts right. Throughout the sequence, the person's body in the left foreground partially occludes the lower-left aisle floor and background racks behind them."
+ },
+ "duration_seconds": 14.806153,
+ "usage": {
+  "input_tokens": 19582,
+  "output_tokens": 633,
+  "thinking_tokens": 221,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20215
+ },
+ "conversation_id": "274d1631-8d30-4a61-9ace-b9d073624d59"
+}

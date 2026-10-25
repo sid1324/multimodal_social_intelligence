@@ -1,0 +1,12 @@
+{
+ "id": "324ec8a1-3bd1-46b6-9abb-a824e53c0879_1801-82",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera points steeply downward at a stovetop/work surface, with the camera wearer\u2019s floral-clad torso filling the lower centre and a round pan roughly 0.4\u20130.7 m ahead and slightly left. The wearer\u2019s right forearm extends from the lower-right toward the pan, placing the hand and metal utensil within arm\u2019s reach and above the pan; no other person or face is clearly visible, so gaze direction cannot be determined. A bright round dish or lid lies partly out of view at the far left, a dark ridged rectangular surface sits immediately in front of the wearer, and small orange and metallic items are partially cropped along the upper edge. The torso and arm occlude much of the lower work area, while the pan and surrounding counter are cut off by the top border. Across the five frames, the wearer remains at approximately the same distance and orientation while the right hand and utensil shift around the pan from left-centre toward the right, consistent with lateral/circular arm motion rather than bodily approach or retreat."
+ },
+ "duration_seconds": 12.1,
+ "usage": null,
+ "conversation_id": null
+}

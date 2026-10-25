@@ -1,0 +1,12 @@
+{
+ "id": "cfc42371-cd58-48df-8bc5-f2fb29a6091e_1191-27",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a small tiled indoor room with metal appliances or cabinets along the left side and a white laundry basket about 1\u20131.5 m in front of the camera, slightly right of center. A tan-and-white dog remains very close to the camera, roughly 0.2\u20130.8 m away, with its head and back repeatedly occupying the lower foreground and partly extending out of frame. Across the five frames, the dog shifts from the lower left toward the lower center and right, briefly approaches so its face fills more of the foreground, then turns and moves slightly farther ahead. The dog generally faces toward or across the camera wearer's position, and in several frames its visible eye and muzzle are oriented toward the camera. The basket stays behind the dog, typically about 0.5\u20131 m from it, while the dog and nearby lower foreground are within the camera wearer's arm's reach; a small portion of another nearby figure or limb appears intermittently at the extreme lower-right edge and is mostly out of view."
+ },
+ "duration_seconds": 10.3,
+ "usage": null,
+ "conversation_id": null
+}

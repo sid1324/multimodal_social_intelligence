@@ -1,0 +1,18 @@
+{
+ "id": "3d98a5d2-a34b-499e-98f2-9195f300394a_3004-17",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living area viewed from a seated or low position, with an open book in the lower foreground within arm's reach (about 0.3 to 0.5 metres away) and a glass-topped coffee table directly ahead at roughly 0.8 to 1.2 metres, holding a tall silver textured cylindrical vase on its left side. To the left, at about 1.2 to 1.8 metres from the camera wearer, a grey armchair with patterned cushions sits in front of a standing person dressed in black. Across the first four frames, this person stands roughly 2.0 to 2.5 metres away in the upper-left, facing generally toward the right/front with their torso and head cropped out above the top edge of the frame and their lower legs partially occluded by the armchair and silver vase. Beyond the coffee table, about 2.5 to 3.5 metres away in the background, a white shelving unit topped with a television and gold garland sits against a windowed wall, flanked on its left by a tall potted grass plant positioned roughly 1 metre to the right of the standing person. In the fourth frame, the open book drops downward and mostly out of view at the bottom edge, revealing a white game controller on the table surface, while in the fifth frame the camera pitches sharply upward and pans slightly left. This upward camera rotation brings the large background windows and the standing person's upper body and head into view on the left at about 2.0 to 2.5 metres away\u2014showing them turned slightly away and not looking at the camera wearer\u2014while the foreground table, vase, and armchair drop below the bottom edge of the frame."
+ },
+ "duration_seconds": 18.238294,
+ "usage": {
+  "input_tokens": 19628,
+  "output_tokens": 537,
+  "thinking_tokens": 111,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20165
+ },
+ "conversation_id": "52e77198-2774-4a2f-9b6f-b301005aa021"
+}

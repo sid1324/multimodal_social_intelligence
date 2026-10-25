@@ -1,0 +1,18 @@
+{
+ "id": "929a6fbb-3fda-45af-95bf-144d851761f4_1114-91",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room viewed from beside the foot of a bed that extends from roughly 0.3 to 1.8 metres in front of and to the left of the camera wearer, with wooden closet doors on the back wall about 2.5 to 3.5 metres ahead and a brightly lit glass tank on a dark stand about 1.5 to 2.5 metres away on the right. No other people are present, but a dark cat stands on the left side of the mattress near a small yellow pillow (about 1.2 to 1.5 metres away) and a smaller lit enclosure positioned just behind the bed (about 2.0 to 2.5 metres away). On the near surface of the bed, within arm's reach at roughly 0.3 to 1.0 metres from the camera wearer, lie a dark smartphone, red and black cables, and a white power adapter, while a Pile of white cloth and a cardboard box topped with a large black object sit on the floor near the right corner of the bed and closet about 2.0 to 3.0 metres away. In the first two frames, the cat is about 1.5 to 1.8 metres away near the far-left corner of the bed, facing left and partially occluding the small rear tank. Across frames 3 to 5, the cat turns toward the foreground and walks forward along the left side of the mattress\u2014passing just in front of the yellow pillow and about 0.3 metres to the left of the smartphone\u2014until it is roughly 0.6 to 0.8 metres from the camera wearer (within arm's reach) and facing toward the camera wearer, while the camera viewpoint rotates slightly leftward so that the large tank on the right moves mostly out of view."
+ },
+ "duration_seconds": 22.68682,
+ "usage": {
+  "input_tokens": 19623,
+  "output_tokens": 1160,
+  "thinking_tokens": 707,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20783
+ },
+ "conversation_id": "a28e61b6-57f3-4bd3-ac0b-148a2803a805"
+}

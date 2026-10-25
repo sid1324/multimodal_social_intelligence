@@ -1,0 +1,18 @@
+{
+ "id": "8b1d4210-a174-4617-8311-df4b32785d28_1114-53",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor store checkout area where a counter separates the camera wearer from a man in a blue polo shirt standing 1.0 to 1.5 metres ahead on the right, with a partitioned doorway behind him leading to a wider room on the left containing shelves and produce racks 3 to 7 metres away. In the immediate foreground, a red shopping basket sits 0.4 to 0.6 metres away at the bottom right within arm's reach of both the camera wearer and the man, while a black register terminal at 0.8 to 1.0 metres on the lower left and an upright brown paper bag 1.2 to 1.5 metres away rest on the counter, about 0.4 to 0.6 metres apart from each other. The lower bodies of the man and the counter structures are occluded by the basket, counter surface, and bottom frame edges, and in frame 2 a second person in a plaid shirt appears on the far left edge about 2.5 to 3.0 metres away, facing away from the camera and partly cut off by the left border. In frames 1 and 2, the man in the blue shirt is 1.0 to 1.2 metres away, facing slightly left and looking down toward the register and a small box held in his left hand while his right hand reaches the register keys. In frame 3 he turns in profile toward his right (left in the image) at about 1.3 to 1.5 metres away to hold the box above the brown bag, and in frame 4 he leans slightly forward with both hands reaching into and around the bag while looking down at it. By frame 5, the man turns his head and torso back toward the camera wearer at roughly 1.3 metres away, looking downward toward a green bottle held by the camera wearer's right hand, which enters the lower-right foreground at 0.3 to 0.5 metres away within reach of the man's extended left hand."
+ },
+ "duration_seconds": 25.128872,
+ "usage": {
+  "input_tokens": 5370,
+  "output_tokens": 1401,
+  "thinking_tokens": 903,
+  "cache_read_tokens": 28420,
+  "total_tokens": 6771
+ },
+ "conversation_id": "50ef89a7-134e-49d9-8bdb-34ec36d69e89"
+}

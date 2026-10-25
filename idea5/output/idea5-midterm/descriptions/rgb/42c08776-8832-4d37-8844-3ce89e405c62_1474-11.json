@@ -1,0 +1,12 @@
+{
+ "id": "42c08776-8832-4d37-8844-3ce89e405c62_1474-11",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer moves along a wide indoor aisle, with counters and refrigerated display cases on the left, low merchandise shelves near the centre, and a wall or shelving edge close on the right. A man in a red shirt is initially about 6\u20138 m ahead and slightly left of centre, facing generally toward the camera wearer; across the five frames he approaches or is approached until he is roughly 1 m away, shifts to the right side of the view, and becomes partly cropped and motion-blurred. Several other people remain farther away, approximately 4\u201310 m ahead around or behind the counters; most are separated from the red-shirted man by about 3\u20137 m, and at least one appears to face toward the aisle while clear eye direction is not visible. The nearest shelves and the right-side wall edge are within roughly 1\u20132 m of the camera wearer, while the distant counters, refrigerators, and people are outside arm's reach; the red-shirted man enters approximate arm's reach only in the final frame. Shelving intermittently occludes the lower bodies of the distant people, and the close man increasingly blocks the central-right background as he grows larger in the image."
+ },
+ "duration_seconds": 10.4,
+ "usage": null,
+ "conversation_id": null
+}

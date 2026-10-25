@@ -1,0 +1,18 @@
+{
+ "id": "3dbe950d-163c-40a4-9590-494748e1dd39_6666-20",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor entrance hall featuring tall arched glass doorways and security gates along the wall ahead and to the left, a small table holding a potted plant and a box to the left of the central doorway, and a tall wall-mounted kiosk with a low step stool on the right. Directly in front of the camera wearer at roughly 0.4 to 0.6 metres\u2014within the camera wearer's arm's reach\u2014stands a person in a grey hoodie and dark cap whose lower body is cropped below the bottom edge and whose head and shoulders occlude the central doorway in the first three frames. About 2 to 2.5 metres ahead near the central doorway and white counter, a person in a maroon top holds a sign within their arm's reach while standing roughly 1 to 1.5 metres to the left of another person in blue jeans who faces and stands within arm's reach of the right-hand kiosk (about 2.5 to 3 metres from the camera wearer). To the left in the first two frames, a person in a dark shirt stands 1.5 to 2 metres away facing inward toward the right, while two figures in dark clothing stand 4 to 6 metres away beside the far-left security gate and counter. Across the five frames, the camera view pans slightly rightward as the left-foreground person exits the left edge of the frame (with only an arm reappearing at the bottom-left in frame 5), the person in the maroon top turns from facing away in frame 1 to facing toward the camera wearer in frames 3 through 5, and the foreground person in the grey hoodie shifts slightly left and turns their head rightward into profile in frames 4 and 5, uncovering the central gate behind them."
+ },
+ "duration_seconds": 35.023488,
+ "usage": {
+  "input_tokens": 19576,
+  "output_tokens": 1323,
+  "thinking_tokens": 885,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20899
+ },
+ "conversation_id": "9829269e-e958-46c1-aeb2-b710a66200ef"
+}

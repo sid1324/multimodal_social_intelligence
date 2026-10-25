@@ -1,0 +1,12 @@
+{
+ "id": "dc16fb2a-7caf-41f4-b2a3-d2ff8cd38255_65-68",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, a harmonium and an open book are directly in front of and below the camera wearer, roughly 0.3\u20130.7 m away and within arm\u2019s reach; the wearer\u2019s hands extend onto the keys and the book\u2019s left edge. A low bed or cushioned bench lies along the right side about 0.5\u20131.5 m away, while bottles and small objects stand near the far wall approximately 1.5\u20132.5 m ahead and slightly left of center. In frames 1\u20134, no other person\u2019s face is clearly visible, and the room layout remains nearly fixed while the wearer\u2019s right hand shifts gradually rightward across the keyboard. By frame 5, another person wearing red passes extremely close in front of the camera from the center-left toward the right, approximately 0.2\u20130.6 m away, with their torso facing roughly rightward and their head mostly above or outside the frame. This person heavily occludes the harmonium, book, and central room, while a blue-screened device becomes partly visible at the lower-right edge; the person\u2019s face and gaze remain out of view."
+ },
+ "duration_seconds": 9.4,
+ "usage": null,
+ "conversation_id": null
+}

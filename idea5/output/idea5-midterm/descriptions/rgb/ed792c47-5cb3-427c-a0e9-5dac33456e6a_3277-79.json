@@ -1,0 +1,18 @@
+{
+ "id": "ed792c47-5cb3-427c-a0e9-5dac33456e6a_3277-79",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor plowed agricultural field divided by a narrow dirt path running from the bottom foreground toward the upper-left background, flanked on both sides by rows of dark soil containing black drip-irrigation tubes and small green seedlings. At the bottom edge of the frame, within 0.3 to 0.5 metres and inside arm's reach, the camera wearer's own hands hold a small translucent object, remaining partially cropped at the bottom across all five frames. In frame 1, a yellow-and-red backpack sprayer sits upright on the right border of the path about 1.5 to 2 metres ahead of the camera wearer, while a person in dark clothing stands further along the path in the upper left, roughly 6 to 8 metres away and about 5 to 6 metres beyond the sprayer, with their upper body cropped out by the top edge. As the camera wearer moves forward along the path in frames 2 and 3, the sprayer shifts closer and exits the lower-right edge of the view (within 1 metre in frame 2) while a puddle of water in the soil to the right passes from roughly 3 metres ahead down to 1.5 metres to the right, and the person in dark clothing approaches to about 3 to 4 metres away in frame 3, facing toward the camera wearer with their head still cropped out at the top. In frame 4, the camera pans right toward the irrigated soil rows so that both the path and the approaching person are completely out of view to the left, leaving only the parallel irrigation lines extending from 1 metre to over 10 metres ahead and the wearer's right hand in the foreground. In frame 5, the camera turns back toward the path as the person in dark clothing passes immediately to the camera wearer's left within arm's reach (about 0.5 to 1 metre away), angled forward and slightly left with their head, right side, and upper torso cropped out by the left edge of the frame."
+ },
+ "duration_seconds": 14.201606,
+ "usage": {
+  "input_tokens": 19524,
+  "output_tokens": 540,
+  "thinking_tokens": 47,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20064
+ },
+ "conversation_id": "2cbb435f-3c09-435f-b9b3-2da96e81a5cc"
+}

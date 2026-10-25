@@ -1,0 +1,18 @@
+{
+ "id": "fb92d350-9bf9-4b16-8a1f-7858de276226_2438-10",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer sits looking downward at a tiled floor with a white towel across their lap (0.2 to 0.4 metres below the camera) and a low white-and-cyan rectangular platform with a black oval cutout directly in front of them at 0.5 to 0.7 metres. Another person sits opposite on a cyan seat roughly 0.6 to 1.0 metres away, facing toward the camera wearer, though only their lower legs in dark trousers and bare feet with white toe separators are visible near the top of the frame while their upper body and head remain out of view above the upper edge. This second person's feet are spaced about 0.3 to 0.4 metres apart on either side of the black cutout, while a rack of upright bottles sits on the floor to the right of the platform (about 0.8 to 1.0 metres from the camera wearer and 0.2 metres from the platform). In frame 1, the camera wearer holds a plastic-lined blue oval basin in both hands about 0.5 metres away directly above the platform, occluding the platform's right side and the other person's left foot, before turning rightward across frames 2 and 3 to place the basin onto the floor to the right of the platform at about 0.6 to 0.8 metres distance. Across frames 4 and 5, the camera wearer turns back toward the center-left\u2014bringing a white side table at 0.3 to 0.5 metres on the far left holding a blue basket, a yellow bottle, and hand tools into view\u2014and lifts the white towel with both hands to 0.3 to 0.4 metres in front of the camera, where the raised cloth partially occludes the platform and the floor basin. Throughout the sequence, the towel, blue basin, platform, the other person's feet, and the left-side tool table all remain within arm's reach (under 0.8 metres) of the camera wearer."
+ },
+ "duration_seconds": 23.756005000000002,
+ "usage": {
+  "input_tokens": 19609,
+  "output_tokens": 1472,
+  "thinking_tokens": 975,
+  "cache_read_tokens": 14196,
+  "total_tokens": 21081
+ },
+ "conversation_id": "d0fe1d0d-5cba-4343-b8c6-ae3aee51f3ba"
+}

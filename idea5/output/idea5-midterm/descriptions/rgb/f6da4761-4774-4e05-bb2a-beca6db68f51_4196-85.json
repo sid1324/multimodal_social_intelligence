@@ -1,0 +1,12 @@
+{
+ "id": "f6da4761-4774-4e05-bb2a-beca6db68f51_4196-85",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show a small outdoor construction area bordered by low masonry walls, with a house along the rear-right side and soil, rubble, blocks, bricks, buckets, and tools spread across the ground. In the first frame, a purple-shirted person is partly cut off at the far left about 1\u20132 m away, a light-shirted person stands beyond the wall roughly 2\u20133 m ahead, and the camera wearer\u2019s hand holds a green container within arm\u2019s reach over the wall; both people are only partly visible and neither clearly looks toward the camera. As the viewpoint turns right, a seated person in a tan shirt appears about 3\u20135 m ahead beside stacked gray blocks, facing mostly right and downward, with a white bucket within their arm\u2019s reach and the stacks about 1 m from them. In the middle frames, the purple-shirted person passes very close, roughly 0.5\u20131.5 m in front-left of the camera, with their head partly or fully above the image boundary and their body angled away toward the right; the low wall runs diagonally between the camera and the seated person and partly occludes the ground beyond it. In the final frames, the camera continues rotating right and slightly away from the nearby person, revealing more of the house, red brick piles, gray block stacks, and a blue-gray bucket about 1\u20132 m ahead-right, while the seated person remains several metres away and becomes partly occluded by the wall and materials."
+ },
+ "duration_seconds": 14.4,
+ "usage": null,
+ "conversation_id": null
+}

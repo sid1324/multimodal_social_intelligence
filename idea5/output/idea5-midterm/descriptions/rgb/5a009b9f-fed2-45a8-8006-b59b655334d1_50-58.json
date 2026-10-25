@@ -1,0 +1,12 @@
+{
+ "id": "5a009b9f-fed2-45a8-8006-b59b655334d1_50-58",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open desert valley with a dirt track running ahead between low shrubs, steep rock walls in the background, and a dark overhang or helmet edge occluding the upper part of every frame. In frame 1, one person is partly cut off at the far left about 4\u20136 m away, while a white vehicle is roughly 20\u201330 m ahead and a large bush occupies the foreground about 2\u20134 m in front. By frame 2, the camera has turned right and another person appears about 3\u20135 m away near the lower-right area, seen mostly side-on and not looking directly toward the camera, with the cliff rising behind them. Frames 3 and 4 continue the rightward turn along the track: several white vehicles remain approximately 15\u201335 m ahead, shrubs intermittently occlude their lower portions, and a small cluster of people and dark equipment or a vehicle enters from the right at roughly 8\u201315 m. In frame 5, the cluster is nearer the center-left at about 6\u201310 m, with several people close to one another within roughly 1\u20132 m and facing in mixed directions, while another white vehicle remains farther right at about 20\u201330 m; nothing visible is within the camera wearer's arm's reach."
+ },
+ "duration_seconds": 10.6,
+ "usage": null,
+ "conversation_id": null
+}

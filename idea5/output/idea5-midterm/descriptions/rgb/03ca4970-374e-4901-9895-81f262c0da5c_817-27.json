@@ -1,0 +1,18 @@
+{
+ "id": "03ca4970-374e-4901-9895-81f262c0da5c_817-27",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail or cafe counter area where the camera wearer stands immediately in front of a checkout counter (about 0.3 to 0.5 metres away), with a red shopping basket containing a bag of Lay's chips and packaged items resting on the counter to the lower right within the camera wearer's arm's reach. In the first frame, a woman with long dark hair stands behind the counter roughly 0.8 to 1.0 metre in front of the camera wearer, facing forward and looking downward toward the counter where a brown paper bag, snack boxes, and register sit within her arm's reach, while a white door is roughly 2.0 to 2.5 metres behind her. In the second and third frames, the camera wearer turns their head to the right and pitches downward, shifting the woman out of the left edge of the frame and bringing into view a lit glass food display case on a side counter about 1.2 to 1.8 metres away, with black chairs between the counters and a red wall poster further back at about 2.5 to 3.0 metres. In the fourth and fifth frames, the camera wearer pans back toward the left while looking down at the counter, where their right hand enters the lower-right foreground at roughly 0.3 to 0.4 metres to hold a white packaged item inside the red basket, adjacent to a blue box of snacks and foil-wrapped items on the counter surface to the left. Simultaneously, the woman behind the counter steps slightly closer to about 0.6 to 0.8 metres in front of the camera wearer with her head cropped out of the top of the frame, facing the counter and extending both hands downward within arm's reach of the counter items and the red basket while the glass display case remains partially visible on the far right."
+ },
+ "duration_seconds": 21.221972,
+ "usage": {
+  "input_tokens": 19613,
+  "output_tokens": 592,
+  "thinking_tokens": 133,
+  "cache_read_tokens": 14198,
+  "total_tokens": 20205
+ },
+ "conversation_id": "acc68bfa-b7af-4fc4-b331-85ea794b1a42"
+}

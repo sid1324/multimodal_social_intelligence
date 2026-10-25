@@ -1,0 +1,18 @@
+{
+ "id": "0619c3d0-aebe-4414-b977-f2027271b267_279-15",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene begins in an indoor corridor with an exposed ceiling, three side-by-side recycling and trash bins against the central wall about 2 to 3 metres ahead, and an open glass-paneled doorway on the left leading into a sunlit room with large windows along its far wall. In the first frame, a person in a red hoodie wearing glasses stands on the right within arm's reach at roughly 0.5 to 1 metre from the camera wearer, facing left in profile with a hand raised to their glasses and not looking at the camera wearer, while their lower body is cropped out by the bottom edge of the frame. About 4 to 5 metres down the corridor to the right, and roughly 3.5 to 4 metres behind the person in red, a second person in a dark hoodie stands near a glass wall facing sideways and away from the camera wearer. Across the five frames, the camera wearer turns left and advances toward the doorway into the sunlit room, causing the person in red to exit the right edge of the frame by the second frame and both people along with the corridor and bins to pass completely out of view to the right by the third and fourth frames. As the camera wearer approaches the room entrance in frames three through five, the open glass door shifts to the right side of the view to within arm's reach (about 0.8 to 1.2 metres away), partially occluding a leaning mirror and yellow ball behind it, while an angled exercise bench in the center-right of the room (about 2.5 to 3.5 metres away) and white shelving units beneath the windows roughly 2 metres behind the bench (4.5 to 5.5 metres from the camera wearer) come into clear view."
+ },
+ "duration_seconds": 25.372831,
+ "usage": {
+  "input_tokens": 5364,
+  "output_tokens": 1245,
+  "thinking_tokens": 809,
+  "cache_read_tokens": 28426,
+  "total_tokens": 6609
+ },
+ "conversation_id": "7600e357-70bd-425b-b251-57181598b913"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "20c165c7-6d47-4264-8e62-9f1e643a4d03_2858-81",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor stone-paved plaza bordered by a tall stone church facade on the left/front-left (about 10 to 25 metres away) and a colonnaded building in the distant right background (over 50 metres away), with vendor carts under blue and multicolored umbrellas on the steps 3 to 12 metres ahead. Across the 5 frames, the camera wearer pitches their head downward from looking up at the church facade in frame 1 to looking directly at a tight circle of about seven people standing 0.5 to 3 metres in front of them in frames 2 through 5. Directly in front of the camera wearer and within arm's reach (about 0.5 to 0.8 metres away) is a woman in a white top wearing a head-mounted strap, flanked immediately to her left (0.4 metres away, about 0.8 to 1.0 metre from the camera wearer) by a woman in a blue denim jacket, both holding small food cups within their own arm's reach and facing away and slightly right relative to the camera wearer. Because the woman in the white top stands very close in the foreground, her head and torso partially occlude a man in a burgundy jacket under the blue umbrella about 2 to 2.5 metres ahead and the lower bodies of the people behind her, while the lower legs of the foreground women are cut off below the bottom frame edge. To the right of the woman in white, four men\u2014wearing an olive jacket, a black hooded jacket, a green shirt-jacket, and a maroon sweater\u2014stand in an arc about 1.2 to 3 metres from the camera wearer and 0.5 to 1 metre from one another, facing inward toward the group and generally toward the camera wearer and the foreground women. Across frames 2 to 5, the camera wearer shifts slightly closer and pans slightly right while the woman in the denim jacket turns her head toward the woman in white, and the man in the maroon sweater on the far right (about 1 metre away, holding a cone in frame 4) remains partly cropped by the right edge of the frame."
+ },
+ "duration_seconds": 13.794715,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 627,
+  "thinking_tokens": 101,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20249
+ },
+ "conversation_id": "6a86b7de-e772-48db-a754-1d689e1dfc31"
+}

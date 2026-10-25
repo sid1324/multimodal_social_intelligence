@@ -1,0 +1,18 @@
+{
+ "id": "4ac57aee-4ac0-457e-b9de-9419056e4bbd_295-55",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor pantry or utility alcove connected to a hallway with yellow walls and brown wooden doors, and no other people are present. In the first frame, the camera wearer stands inside the doorway facing a corner wall about 1 m ahead, with a hallway door visible about 2 m away through the doorway on the left and the top of a stacked white trash bag barely visible at the bottom edge. Across frames 2 and 3, the camera wearer turns rightward to face a black wire shelving unit 0.5 to 0.8 m away\u2014well within arm's reach\u2014holding food containers including two red-lidded peanut butter jars, boxes, and clear jars, while stacked white plastic bags topped with a dark red item sit in the corner 0.8 m to the left of the shelves beneath a wall switch. Several items on the middle shelf partially occlude cans and boxes behind them, and the lower and upper tiers of the shelving unit extend out of the top and bottom edges of the frame. In frame 4, the camera wearer turns back to the left, shifting the wire rack to the far right edge of the view and bringing the corner bags (about 1 m away) and the open doorway on the left back into view. By frame 5, the camera wearer exits through the doorway and turns left to face down the corridor, placing two closed brown doors along the left wall at roughly 1 m and 2.5 m distance and an open room further ahead at about 5 to 6 m."
+ },
+ "duration_seconds": 15.515336,
+ "usage": {
+  "input_tokens": 19587,
+  "output_tokens": 414,
+  "thinking_tokens": 18,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20001
+ },
+ "conversation_id": "01fcd771-7514-4118-915f-c159f0e681b2"
+}

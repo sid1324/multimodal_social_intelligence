@@ -1,0 +1,18 @@
+{
+ "id": "1626db26-0c74-43d6-a5c2-c1a8fa7b1429_2450-13",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a sloped auditorium or theater lined with rows of red cushioned seats extending from the foreground to the far background on the right, while a yellow and red wall borders the left aisle. Directly in front and to the left of the camera wearer, at a distance of roughly 0.5 to 0.8 metres, a seated person in a black jacket and yellow shirt holds a smartphone with both hands at waist-to-chest height, within arm's reach of both themselves and the camera wearer. About 1.5 to 2 metres behind and slightly above the foreground person along the left wall, a second seated person wearing a blue mask faces forward toward the right, while several other seated individuals are partially visible 5 to 10 metres away in the upper-right rows. In frames 1 through 4, the foreground person's head is blurred and angled downward toward the smartphone, which is held vertically with its screen facing upward and toward the camera wearer, while the person's lower legs and adjacent seat bottoms are partly cropped at the bottom edge of the frame and the row of seats ahead is partially occluded by the foreground person's body and arms. In the fifth frame, the camera shifts slightly up and to the left as the foreground person turns their masked face upward to look directly toward the camera wearer while rotating the smartphone horizontally in their left hand and lowering their right hand slightly."
+ },
+ "duration_seconds": 12.622674,
+ "usage": {
+  "input_tokens": 19583,
+  "output_tokens": 578,
+  "thinking_tokens": 216,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20161
+ },
+ "conversation_id": "1243973b-59e3-4e2c-be49-3c9b43d82657"
+}

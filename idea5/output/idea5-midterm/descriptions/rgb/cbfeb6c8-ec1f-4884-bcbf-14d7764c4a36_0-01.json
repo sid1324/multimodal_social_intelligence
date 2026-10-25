@@ -1,0 +1,18 @@
+{
+ "id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36_0-01",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated at a wooden desk cubicle looking almost straight down, with their torso, lap, and both arms visible in the lower foreground about 0.3 to 0.5 metres below the head-mounted camera. Directly in front of the wearer and well within arm's reach (roughly 0.4 to 0.6 metres away) rests an open printed book on the left half of the desk and an open spiral-bound notebook angled over the right half of the book, with wooden cubicle partitions bordering the left and right edges of the desk. The camera wearer's left fingertips rest on the lower edge of the spiral notebook while their right hand holds a blue pen against the left page of the notebook, partially occluding the underlying text, while the notebook itself occludes the right side of the book beneath it. To the immediate left of the camera wearer (about 0.4 to 0.5 metres away), a second person is seated beside the desk facing forward in the same direction as the wearer and not looking toward the camera, with only their dark pleated skirt/trousers in the lower-left corner and, in the first frame, their right hand extending from the left edge at desk level within arm's reach of the book. Between the first and second frames, the adjacent person's hand retreats completely out of view to the left, while from the second through fifth frames the camera wearer's head, hands, and desk items remain nearly stationary with only minute shifts of the pen tip along the page."
+ },
+ "duration_seconds": 17.48219,
+ "usage": {
+  "input_tokens": 19564,
+  "output_tokens": 628,
+  "thinking_tokens": 238,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20192
+ },
+ "conversation_id": "dc922c0c-ae00-4b5f-a291-54b8f8243fb7"
+}

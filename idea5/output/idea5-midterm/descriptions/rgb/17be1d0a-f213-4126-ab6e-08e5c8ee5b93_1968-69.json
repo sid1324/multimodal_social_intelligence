@@ -1,0 +1,18 @@
+{
+ "id": "17be1d0a-f213-4126-ab6e-08e5c8ee5b93_1968-69",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a tiled-floor hair salon viewed from a standing camera wearer looking steeply downward and forward at a seated woman directly in front and below them at roughly 0.4 to 0.8 metres distance. The woman sits in a black salon chair facing toward the right of the frame with her head tilted downward toward a red-cased tablet or phone held in her hands about 0.3 metres in front of her chest, looking away from the camera wearer throughout all five frames. Within the camera wearer's immediate arm's reach (0.2 to 0.5 metres), the wearer's left hand holds a black hairdryer and their right hand holds a round yellow-and-black hairbrush against a section of the woman's long hair, while pink hair clips rest on the top of her head. Further away in the background (roughly 1.5 to 3.0 metres ahead and to the left and right), another black salon chair, white storage cabinets, and a small decorative structure to the upper left are partially visible and cut off by the top and side frame boundaries. Across the five frames, the woman and the salon furniture remain stationary relative to the camera wearer, while the wearer's hands move significantly: in frames 1 and 2, the left hand holds the hairdryer high at the upper left above the brush at the lower left, partially occluding the back of the woman's head; in frame 3, both hands drop lower and closer together as the right hand repositions the brush near her right shoulder; and in frames 4 and 5, the left hand raises the hairdryer back to the upper left while the right hand pulls the brush and hair strand downward to the left."
+ },
+ "duration_seconds": 51.319811,
+ "usage": {
+  "input_tokens": 19628,
+  "output_tokens": 751,
+  "thinking_tokens": 319,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20379
+ },
+ "conversation_id": "59970918-3a00-4507-ad72-54cee6590698"
+}

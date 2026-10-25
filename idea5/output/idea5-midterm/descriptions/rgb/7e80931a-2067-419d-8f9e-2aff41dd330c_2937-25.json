@@ -1,0 +1,12 @@
+{
+ "id": "7e80931a-2067-419d-8f9e-2aff41dd330c_2937-25",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands about 0.3\u20130.6 m from an L-shaped kitchen counter, with a black cooktop and pans initially to the left and a white work surface directly in front. A checkered dish towel lies across the near counter within arm\u2019s reach, while bottles and a fruit plate holding bananas and orange-colored fruit sit roughly 0.6\u20131.0 m ahead near the blue-tiled backsplash; these objects are about 0.2\u20130.5 m from one another. Only the camera wearer is visible, through their hands and forearms, which reach forward to grasp, lift, and bunch the towel; no other person or face is present. Across the first three frames, the viewpoint remains aimed mostly downward and forward as the towel moves closer to the camera and changes from spread flat to raised and folded. In the last two frames, the wearer turns right, shifting the cooktop toward the left-middle of view and bringing the counter corner, fruit, bottles, and a horizontal cabinet or drawer handle into the right and lower foreground. Parts of the counter, cabinetry, and the wearer\u2019s arms are cut off by the frame edges throughout, while the raised towel briefly occludes portions of the work surface and lower cooktop area."
+ },
+ "duration_seconds": 10.1,
+ "usage": null,
+ "conversation_id": null
+}

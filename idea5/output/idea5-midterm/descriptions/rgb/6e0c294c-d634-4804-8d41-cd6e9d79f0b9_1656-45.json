@@ -1,0 +1,18 @@
+{
+ "id": "6e0c294c-d634-4804-8d41-cd6e9d79f0b9_1656-45",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in an indoor room with an exposed ceiling grid above, a light-colored couch with cushions about 1.2 to 1.5 metres in front of the camera wearer, a lamp partly visible on the right edge at about 1.5 metres, and a back wall with a dark door roughly 4 to 5 metres away on the right. A woman in a green quilted jacket and dark glasses sits centrally on the couch about 1.0 to 1.2 metres directly in front of the camera wearer, facing toward the camera wearer while angling her head and gaze slightly downward toward a vertical blue game grid positioned between them at roughly 0.5 to 0.7 metres from the camera. The blue game grid is within arm's reach of both the camera wearer and the woman, and its lower portion, supporting surface, and the woman's lower body are cropped below the bottom edge of the frame while the board itself occludes the lower center of the woman's torso. Across frames 1 to 4, the camera tilts slightly downward to reveal more of the upper rows of the blue grid while the woman leans slightly forward from about 1.2 metres to 1.0 metre in frame 3, raising her right hand holding a yellow disc just above the left side of the grid before lowering her right arm to the left of the board in frame 4. In frame 5, the woman retreats slightly back onto the couch with both arms lowered behind the board, while the camera wearer's own left arm and hand enter from the lower-left foreground at about 0.3 to 0.5 metres holding a red disc above the upper-left edge of the grid, partially occluding the left couch cushion and the woman's right side."
+ },
+ "duration_seconds": 33.089502,
+ "usage": {
+  "input_tokens": 5406,
+  "output_tokens": 1325,
+  "thinking_tokens": 883,
+  "cache_read_tokens": 28425,
+  "total_tokens": 6731
+ },
+ "conversation_id": "b9c36d7d-44e6-463a-bb91-2e4953d22c2b"
+}

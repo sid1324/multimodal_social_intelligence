@@ -1,0 +1,18 @@
+{
+ "id": "af43394e-d24c-40c2-b03a-f3cdff888370_762-90",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor store or cafe area featuring glass-door beverage coolers along the left wall, a white partition wall with a poster in the center, a small round black table in front of the partition, and retail snack shelves 4 to 6 metres away in the background on the right. In frame 1, a seated woman in the immediate foreground (about 1.2 metres away, facing right) sits in front of the round table, while a person in a dark jacket and beanie sits on a chair to the left of the table (about 3.5 metres away, facing right) and a man in a red-and-black plaid shirt stands to the right of the table (about 3 metres away, about 1 metre from the seated person). On top of the round table\u2014within arm's reach of both the standing man and the seated person in the beanie\u2014sit an upright brown paper grocery bag holding an egg carton and a box, two bottles, a small package, and a white paper. Across the five frames, the camera wearer walks forward roughly 2 metres toward the table and tilts the view downward while turning slightly right, passing the coolers and the foreground seated woman (who leaves the bottom of the frame after frame 2) and revealing the background shelves to the right of the partition from frame 3 onward. The seated person in the beanie looks down at a handheld object in frames 2 and 4 and raises a hand toward the standing man in frame 3 before exiting the left side of the view by frame 5. Meanwhile, the standing man in plaid turns his torso from facing left to facing the approaching camera wearer while looking down at the paper bag, his head cropped out of the top edge in frames 4 and 5 as the camera wearer comes within 1 metre and extends a right hand holding a small white slip of paper directly over the open top of the bag within arm's reach."
+ },
+ "duration_seconds": 23.662719,
+ "usage": {
+  "input_tokens": 5364,
+  "output_tokens": 1286,
+  "thinking_tokens": 815,
+  "cache_read_tokens": 28426,
+  "total_tokens": 6650
+ },
+ "conversation_id": "3f0b3531-0a88-404f-8b40-8ee1207a4479"
+}

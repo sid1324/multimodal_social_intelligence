@@ -1,0 +1,12 @@
+{
+ "id": "08e65366-36a3-4146-bec6-043286cedf16_741-63",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the five frames, the camera wearer moves and turns right from a store aisle toward a checkout counter, with shelving and merchandise initially about 1\u20134 m ahead and a white-walled counter area becoming centered about 1\u20132 m ahead. In the first frame, a man is partly cut off at the far left about 1\u20132 m away, facing generally right rather than toward the camera, while two more distant people are partly occluded by shelves roughly 3\u20136 m ahead. From the second frame onward, a dark-haired woman appears behind the counter about 2\u20133 m away, left of center and facing generally toward the camera area, while another person stands farther back near the right-side corridor about 4\u20136 m away and faces roughly left or forward. The counter, register, and nearby displayed goods draw closer and shift from the right side toward the center-left, ending roughly 1\u20132 m from the camera and near or just beyond the camera wearer\u2019s arm\u2019s reach; the woman remains within arm\u2019s reach of the counter and register. Over time, the left-side man and most aisle shelving pass out of view, the woman becomes less occluded by the counter equipment, and the rear person remains partly occluded by walls, fixtures, and the frame edge; overhead lights and exposed ceiling structures remain several metres above everyone."
+ },
+ "duration_seconds": 11.1,
+ "usage": null,
+ "conversation_id": null
+}

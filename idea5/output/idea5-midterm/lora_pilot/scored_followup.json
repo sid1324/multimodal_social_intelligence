@@ -1,0 +1,340 @@
+{
+ "arms": {
+  "base": {
+   "sat_static": 0.796,
+   "joint": 0.605,
+   "action": 0.635,
+   "justification": 0.625,
+   "consistent_count": 186,
+   "n": 200
+  },
+  "spatial_s0": {
+   "sat_static": 0.89,
+   "joint": 0.525,
+   "action": 0.63,
+   "justification": 0.595,
+   "consistent_count": 153,
+   "n": 200
+  },
+  "control_s0": {
+   "sat_static": 0.788,
+   "joint": 0.615,
+   "action": 0.665,
+   "justification": 0.625,
+   "consistent_count": 183,
+   "n": 200
+  },
+  "spatial_s2": {
+   "sat_static": 0.886,
+   "joint": 0.595,
+   "action": 0.64,
+   "justification": 0.625,
+   "consistent_count": 177,
+   "n": 200
+  },
+  "control_s2": {
+   "sat_static": 0.788,
+   "joint": 0.635,
+   "action": 0.675,
+   "justification": 0.65,
+   "consistent_count": 181,
+   "n": 200
+  },
+  "color_s0": {
+   "sat_static": 0.73,
+   "joint": 0.355,
+   "action": 0.37,
+   "justification": 0.38,
+   "consistent_count": 189,
+   "n": 200
+  }
+ },
+ "two_seed_means": {
+  "spatial": {
+   "sat_static": 0.888,
+   "joint": 0.56,
+   "action": 0.635,
+   "justification": 0.61,
+   "consistent_count": 165.0
+  },
+  "control": {
+   "sat_static": 0.788,
+   "joint": 0.625,
+   "action": 0.67,
+   "justification": 0.6375,
+   "consistent_count": 182.0
+  }
+ },
+ "contrasts": {
+  "spatial-control": {
+   "joint": {
+    "pairs": 2,
+    "n": 400,
+    "acc_a": 0.56,
+    "acc_b": 0.625,
+    "diff": -0.06499999999999995,
+    "ci95": [
+     -0.12,
+     -0.010000000000000009
+    ],
+    "fixed": 24,
+    "broken": 50,
+    "p_mcnemar_exact": 0.00337223333414807
+   },
+   "consistent": {
+    "pairs": 2,
+    "n": 400,
+    "acc_a": 0.825,
+    "acc_b": 0.91,
+    "diff": -0.08500000000000008,
+    "ci95": [
+     -0.12749999999999995,
+     -0.04249999999999998
+    ],
+    "fixed": 10,
+    "broken": 44,
+    "p_mcnemar_exact": 3.3856859533720747e-06
+   },
+   "per_seed_joint": [
+    {
+     "pairs": 1,
+     "n": 200,
+     "acc_a": 0.525,
+     "acc_b": 0.615,
+     "diff": -0.08999999999999997,
+     "ci95": [
+      -0.15000000000000002,
+      -0.030000000000000027
+     ],
+     "fixed": 11,
+     "broken": 29,
+     "p_mcnemar_exact": 0.006426576095691416
+    },
+    {
+     "pairs": 1,
+     "n": 200,
+     "acc_a": 0.595,
+     "acc_b": 0.635,
+     "diff": -0.040000000000000036,
+     "ci95": [
+      -0.09500000000000008,
+      0.015000000000000013
+     ],
+     "fixed": 13,
+     "broken": 21,
+     "p_mcnemar_exact": 0.22948101302608848
+    }
+   ]
+  },
+  "spatial-color": {
+   "joint": {
+    "pairs": 2,
+    "n": 400,
+    "acc_a": 0.56,
+    "acc_b": 0.355,
+    "diff": 0.20500000000000007,
+    "ci95": [
+     0.1325,
+     0.27499999999999997
+    ],
+    "fixed": 106,
+    "broken": 24,
+    "p_mcnemar_exact": 1.7154342149303736e-13
+   },
+   "consistent": {
+    "pairs": 2,
+    "n": 400,
+    "acc_a": 0.825,
+    "acc_b": 0.945,
+    "diff": -0.12,
+    "ci95": [
+     -0.16749999999999998,
+     -0.07499999999999996
+    ],
+    "fixed": 8,
+    "broken": 56,
+    "p_mcnemar_exact": 5.562672242319724e-10
+   },
+   "per_seed_joint": [
+    {
+     "pairs": 1,
+     "n": 200,
+     "acc_a": 0.525,
+     "acc_b": 0.355,
+     "diff": 0.17000000000000004,
+     "ci95": [
+      0.09500000000000003,
+      0.24499999999999994
+     ],
+     "fixed": 48,
+     "broken": 14,
+     "p_mcnemar_exact": 1.7428522601631996e-05
+    },
+    {
+     "pairs": 1,
+     "n": 200,
+     "acc_a": 0.595,
+     "acc_b": 0.355,
+     "diff": 0.24,
+     "ci95": [
+      0.16500000000000004,
+      0.31499999999999995
+     ],
+     "fixed": 58,
+     "broken": 10,
+     "p_mcnemar_exact": 2.361627111046021e-09
+    }
+   ]
+  },
+  "color-base": {
+   "joint": {
+    "pairs": 1,
+    "n": 200,
+    "acc_a": 0.355,
+    "acc_b": 0.605,
+    "diff": -0.25,
+    "ci95": [
+     -0.31999999999999995,
+     -0.18000000000000005
+    ],
+    "fixed": 5,
+    "broken": 55,
+    "p_mcnemar_exact": 1.0382663478969434e-11
+   },
+   "consistent": {
+    "pairs": 1,
+    "n": 200,
+    "acc_a": 0.945,
+    "acc_b": 0.93,
+    "diff": 0.014999999999999902,
+    "ci95": [
+     -0.02499999999999991,
+     0.05499999999999994
+    ],
+    "fixed": 9,
+    "broken": 6,
+    "p_mcnemar_exact": 0.6072387695312499
+   }
+  },
+  "control-base": {
+   "joint": {
+    "pairs": 2,
+    "n": 400,
+    "acc_a": 0.625,
+    "acc_b": 0.605,
+    "diff": 0.020000000000000018,
+    "ci95": [
+     -0.01750000000000007,
+     0.05999999999999994
+    ],
+    "fixed": 22,
+    "broken": 14,
+    "p_mcnemar_exact": 0.24298495403490966
+   },
+   "consistent": {
+    "pairs": 2,
+    "n": 400,
+    "acc_a": 0.91,
+    "acc_b": 0.93,
+    "diff": -0.020000000000000018,
+    "ci95": [
+     -0.0525000000000001,
+     0.012499999999999956
+    ],
+    "fixed": 9,
+    "broken": 17,
+    "p_mcnemar_exact": 0.16863754391670227
+   },
+   "per_seed_joint": [
+    {
+     "pairs": 1,
+     "n": 200,
+     "acc_a": 0.615,
+     "acc_b": 0.605,
+     "diff": 0.010000000000000009,
+     "ci95": [
+      -0.03500000000000003,
+      0.05500000000000005
+     ],
+     "fixed": 12,
+     "broken": 10,
+     "p_mcnemar_exact": 0.8318119049072266
+    },
+    {
+     "pairs": 1,
+     "n": 200,
+     "acc_a": 0.635,
+     "acc_b": 0.605,
+     "diff": 0.030000000000000027,
+     "ci95": [
+      -0.0050000000000000044,
+      0.06500000000000006
+     ],
+     "fixed": 10,
+     "broken": 4,
+     "p_mcnemar_exact": 0.1795654296875
+    }
+   ]
+  },
+  "spatial-base": {
+   "joint": {
+    "pairs": 2,
+    "n": 400,
+    "acc_a": 0.56,
+    "acc_b": 0.605,
+    "diff": -0.04499999999999993,
+    "ci95": [
+     -0.09750000000000003,
+     0.007500000000000062
+    ],
+    "fixed": 27,
+    "broken": 45,
+    "p_mcnemar_exact": 0.04437092000802569
+   },
+   "consistent": {
+    "pairs": 2,
+    "n": 400,
+    "acc_a": 0.825,
+    "acc_b": 0.93,
+    "diff": -0.1050000000000001,
+    "ci95": [
+     -0.1499999999999999,
+     -0.0625
+    ],
+    "fixed": 7,
+    "broken": 49,
+    "p_mcnemar_exact": 7.455210310203242e-09
+   },
+   "per_seed_joint": [
+    {
+     "pairs": 1,
+     "n": 200,
+     "acc_a": 0.525,
+     "acc_b": 0.605,
+     "diff": -0.07999999999999996,
+     "ci95": [
+      -0.14,
+      -0.019999999999999962
+     ],
+     "fixed": 13,
+     "broken": 29,
+     "p_mcnemar_exact": 0.019520472782460274
+    },
+    {
+     "pairs": 1,
+     "n": 200,
+     "acc_a": 0.595,
+     "acc_b": 0.605,
+     "diff": -0.010000000000000009,
+     "ci95": [
+      -0.06499999999999995,
+      0.040000000000000036
+     ],
+     "fixed": 14,
+     "broken": 16,
+     "p_mcnemar_exact": 0.8555355519056321
+    }
+   ]
+  }
+ }
+}

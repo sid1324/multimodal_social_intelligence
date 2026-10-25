@@ -1,0 +1,18 @@
+{
+ "id": "f8c9dee9-a82f-46e8-9cd5-9380e197ac25_28-43",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, a hand and fingers directly in front of the lens (within 0.05 metres and well within the camera wearer's arm's reach) almost completely occlude the scene, leaving only a sliver of a white wall and vertical frame visible at the bottom right of the second frame. From the third through fifth frames, the hand moves out of view to reveal an indoor corridor or room with a glass-enclosed booth or doorway on the right (about 1 to 1.5 metres ahead), a dark vertical wall column in the middle-left (about 1.5 to 2 metres away), and a large interior window or mirror further left showing a bright room with a bed roughly 4 to 6 metres away. A blonde woman stands to the left of the camera wearer at roughly 1 to 1.5 metres distance, facing right in profile and looking down at a smartphone held in both of her hands rather than toward the camera wearer. Just in front of and below the woman, within her arm's reach and roughly 0.3 to 0.8 metres from her, are a black trash bin against the wall, a white chair, and a small dark side table holding tissues, bottles, and papers, all located to the left of the dark wall column. Across frames three to five, the camera wearer turns slightly rightward and advances toward the glass booth on the right, causing the woman, the chair, and the small table to shift progressively toward the lower-left edge of the frame until the woman's head and torso and the lower furniture are mostly cropped out of view."
+ },
+ "duration_seconds": 17.092071,
+ "usage": {
+  "input_tokens": 19607,
+  "output_tokens": 666,
+  "thinking_tokens": 259,
+  "cache_read_tokens": 14196,
+  "total_tokens": 20273
+ },
+ "conversation_id": "df33fe2a-07b0-47fe-bd4b-c61dc8ad60b8"
+}

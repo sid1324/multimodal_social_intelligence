@@ -1,0 +1,12 @@
+{
+ "id": "41c32675-1cc9-47f2-82e5-5ef1eacb720b_92-49",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a dim indoor space beside a yellow tiled wall, with dark vertical wall or doorway edges dividing the background and a nearby person occupying much of the foreground. Across the five frames, the person remains approximately 0.3\u20130.8 m in front of the camera, mostly centered or left of center, with their head above their torso and their face heavily blurred by motion. The person\u2019s body and face shift laterally from left toward right while turning, but their gaze direction relative to the camera cannot be determined reliably. A small bright red or pink object appears near the lower-left edge in the earlier frames, while small green or yellow objects appear intermittently near the lower center or right; these are likely within about 1 m of the camera but are partly occluded. The foreground person is within the camera wearer\u2019s arm\u2019s reach and repeatedly blocks the central background, while the wall and dark openings become more visible on the right as the person moves across the view. Several portions of the person, especially the lower body and sides, extend outside the frame throughout, and no other person is clearly distinguishable."
+ },
+ "duration_seconds": 9.4,
+ "usage": null,
+ "conversation_id": null
+}

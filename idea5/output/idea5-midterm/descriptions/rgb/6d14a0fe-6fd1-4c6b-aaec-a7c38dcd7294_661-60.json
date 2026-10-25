@@ -1,0 +1,12 @@
+{
+ "id": "6d14a0fe-6fd1-4c6b-aaec-a7c38dcd7294_661-60",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands at a checkout counter, with a woman consistently about 0.8\u20131.5 m in front across or beside the counter; glass partitions and doorways are behind her, while snack displays and equipment occupy the left and right edges. In frame 1, the woman is front-right with her head angled down and away from the camera, while a snack rack is roughly 1\u20132 m to the left and the counter edge is within the wearer\u2019s arm\u2019s reach. In frames 2 and 3, she shifts toward the center and appears slightly closer, turning her torso partly across the wearer\u2019s view; motion blur and foreground counter objects partially occlude her lower body and hands. In frame 4, she is farther right and partly hidden by a large red tray and countertop equipment within roughly 0.5 m of the camera, while a tall heated display stands behind and to her left. In frame 5, the view has turned right toward a keypad/register, and the woman stands about 1 m ahead facing generally toward the counter rather than directly at the camera, with her hands and the register within her arm\u2019s reach and the far-right equipment partly out of frame."
+ },
+ "duration_seconds": 17.6,
+ "usage": null,
+ "conversation_id": null
+}

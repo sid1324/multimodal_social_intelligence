@@ -1,0 +1,18 @@
+{
+ "id": "46c3b557-dbda-4868-a9c8-43741d5815e1_288-99",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow outdoor paved path bordered by a wall on the left and dirt and foliage on the right, viewed from a steep downward angle as the camera wearer rides a black bicycle. Directly below and in front of the camera wearer, at about 0.4 to 0.6 metres and held within both hands, are the black bicycle's handlebars, silver bell, frame, and front wheel, with the wearer's knees and blue shorts partly visible at the bottom edge. Ahead and to the right is a second, red bicycle carrying two people positioned less than half a metre from each other: a front rider in a white patterned dress holding the handlebars and a rear passenger in blue pants and a white top seated on the back carrier. In the first three frames, the red bicycle is roughly 2 to 3 metres ahead and to the right, facing away in the same forward direction with only its rear wheel and the riders' lower bodies visible at the upper-right edge while their upper bodies are cropped out of view. Across frames 4 and 5, the camera wearer approaches and pulls alongside the left side of the red bicycle at a distance of 0.5 to 1 metre\u2014bringing the red bicycle and its front rider within arm's reach on the right\u2014while steering the black handlebars slightly leftward as both riders on the red bicycle continue facing forward with their heads out of view above the frame."
+ },
+ "duration_seconds": 19.885781,
+ "usage": {
+  "input_tokens": 19558,
+  "output_tokens": 935,
+  "thinking_tokens": 574,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20493
+ },
+ "conversation_id": "d7946dfb-f445-4e10-8a30-5e4d4968f1b5"
+}

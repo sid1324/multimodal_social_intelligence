@@ -1,0 +1,18 @@
+{
+ "id": "c20e2722-11e5-4181-960c-305cfcd7cfec_183-32",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor commercial parking lot with a wide asphalt driving lane bordered by a yellow-curbed sidewalk and building storefront on the left, and landscaped islands with trees and rows of parked cars 15 to 40 metres away on the right. In the first frame, the camera wearer looks down the lane with the storefront 3 to 6 metres to the left and a blurred person on the sidewalk in the lower-left foreground about 1 to 1.5 metres away, near arm's reach and facing away down the walkway. In the second frame, the viewpoint pitches downward and rotates right to face the cracked asphalt ground immediately below and 1 to 6 metres ahead, with distant parked cars at the upper right. By the third frame, the camera raises and turns right toward the lot as a dark SUV approaches from right to left in the lane about 5 to 7 metres in front, while a companion's torso and legs are partially visible at the bottom-right edge within 1 to 2 metres and distant pedestrians stand near cars 25 to 30 metres away. In the fourth frame, the camera turns left toward the storefront again as the dark SUV passes 3 to 5 metres to the right with its rear half occluded by the right frame boundary. In the fifth frame, the camera pans right as the SUV retreats down the lane to the left at a distance of about 7 to 10 metres, with its rear facing the camera wearer and nothing remaining within arm's reach."
+ },
+ "duration_seconds": 24.955887,
+ "usage": {
+  "input_tokens": 19586,
+  "output_tokens": 999,
+  "thinking_tokens": 611,
+  "cache_read_tokens": 14213,
+  "total_tokens": 20585
+ },
+ "conversation_id": "12509f96-602a-4590-a2c4-0127c842553d"
+}

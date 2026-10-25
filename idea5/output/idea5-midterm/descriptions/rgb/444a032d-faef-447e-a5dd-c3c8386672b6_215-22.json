@@ -1,0 +1,12 @@
+{
+ "id": "444a032d-faef-447e-a5dd-c3c8386672b6_215-22",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is immediately beside a vertical tan rock face, which fills most of the forward view at roughly 0.3\u20131 m, with both forearms and hands extending upward in front of the camera within arm\u2019s reach. A second person is partly visible near the upper-right/upper-center edge, mainly by their lower legs and shoes, standing about 1\u20132 m in front of the wearer and facing generally toward the rock rather than looking toward the camera. A pile of clothing or bags and a coiled blue rope lie on a ledge to the left, about 0.5\u20131.5 m from the wearer and roughly 1\u20132 m left of the second person; several blue ropes run vertically between the wearer, the person, and the rock. Across the five frames, the wearer\u2019s raised hands and a purple sling or strap move from the right side toward the center and then back toward the right, while remaining close to the rock. The viewpoint shifts slightly rightward along the wall, causing the gear pile to become more leftward and partly leave the frame, while the second person\u2019s legs remain near the upper edge and are intermittently occluded by the wearer\u2019s arms and ropes."
+ },
+ "duration_seconds": 9.8,
+ "usage": null,
+ "conversation_id": null
+}

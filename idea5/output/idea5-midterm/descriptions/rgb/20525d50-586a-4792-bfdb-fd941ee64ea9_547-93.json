@@ -1,0 +1,18 @@
+{
+ "id": "20525d50-586a-4792-bfdb-fd941ee64ea9_547-93",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a bedroom with a bed topped by multiple white pillows against a right-hand wall, three framed pictures mounted above the headboard, a multi-pane window along the adjacent wall, and bedside lamps near the corners. In frames 1 and 2, the head of the bed and pillows are in the right foreground about 1 to 1.5 metres from the camera wearer, with a bedside lamp between the bed and the window on the left at roughly 2 to 2.5 metres and the lower portion of the bed partially cropped out of view. Across frames 2, 3, and 4, the camera wearer pitches upward and pans right along the wall about 1 to 2 metres away, bringing the three framed pictures into the upper view and a lit lamp to the right of the headboard into the lower-right foreground within roughly 1 to 1.5 metres (near arm's reach) while the bed and left window move partly or completely out of frame. In frame 5, the camera wearer turns back to face the wide window directly in front at about 2.5 to 3 metres, with an unlit lamp at the lower right and a small potted plant on the windowsill. In this final frame, a man in a blue shirt and glasses stands on the far left just in front of the window at roughly 2.5 metres from the camera wearer and about 2 metres left of the right-hand wall, facing and looking slightly right toward the camera wearer with his lower body cropped below the frame and the window windowsill within his arm's reach."
+ },
+ "duration_seconds": 11.853673,
+ "usage": {
+  "input_tokens": 19616,
+  "output_tokens": 492,
+  "thinking_tokens": 91,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20108
+ },
+ "conversation_id": "5ff81eae-9600-4b2a-9292-ace68a0a1d47"
+}

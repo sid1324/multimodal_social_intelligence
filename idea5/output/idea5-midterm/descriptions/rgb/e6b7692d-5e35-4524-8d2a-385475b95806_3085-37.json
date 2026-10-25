@@ -1,0 +1,12 @@
+{
+ "id": "e6b7692d-5e35-4524-8d2a-385475b95806_3085-37",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is on a paved area beside a roadway and striped crosswalk, with streetlights and low posts ahead and a white vehicle roughly 8\u201315 m away in the background. In the first frame, a striped-shirt adult stands about 2\u20133 m ahead-left and a child in a light shirt stands about 1\u20131.5 m ahead-right; they are roughly 1.5\u20132 m apart, with both oriented generally toward the camera wearer. Across the second and third frames, the wearer turns or shifts right, moving the adult from near center to the upper-right while the child remains low and close in front, about 1 m away and within the wearer\u2019s arm\u2019s reach or just beyond it; the child is also within roughly 1\u20132 m of the adult. The child turns between facing the wearer and facing leftward, while the adult stays mostly facing the wearer and is partly cut off at the top in the third frame. In the fourth frame the adult is out of view and the child is centered about 1\u20132 m ahead, while by the fifth frame the child is out of view and only part of the adult appears at the far right edge; the road, crosswalk, and distant lights shift leftward across the strip as the viewpoint turns right."
+ },
+ "duration_seconds": 11.8,
+ "usage": null,
+ "conversation_id": null
+}

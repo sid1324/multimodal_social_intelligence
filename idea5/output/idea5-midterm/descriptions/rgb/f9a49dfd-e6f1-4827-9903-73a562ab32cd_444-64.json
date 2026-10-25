@@ -1,0 +1,18 @@
+{
+ "id": "f9a49dfd-e6f1-4827-9903-73a562ab32cd_444-64",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor concrete work area seen from a downward-angled egocentric viewpoint, with no other people present. Directly in front of and below the camera wearer, within arm's reach at about 0.3 to 0.5 metres from the chest, is a long wooden plank held by the wearer's gloved hands and resting over blue metal sawhorse supports and another stacked plank that extend roughly 2 to 3 metres forward. To the left at approximately 1 to 2.5 metres are additional wooden boards lying flat on the concrete, blue sawhorse legs, and a white strip along the ground, while to the right at about 1.2 to 2 metres is a wheeled tool stand beside stacked dark siding or trim materials along the right edge. Several objects\u2014including the far ends of the long wooden planks at the top, the wheeled tool stand on the right, the blue sawhorse legs on the left, and the camera wearer's arms and torso at the bottom\u2014are partially out of the frame, and the top plank partially occludes the underlying boards and blue support frame beneath it. Across the five frames, the camera wearer's head and torso turn slightly counterclockwise from facing diagonally right in the first frame to facing aligned with the length of the plank in frames two through five. At the same time, the wearer's left gloved hand shifts along the left edge of the plank while sliding and adjusting the top board slightly leftward and backward relative to the underlying plank."
+ },
+ "duration_seconds": 13.552294,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 429,
+  "thinking_tokens": 46,
+  "cache_read_tokens": 14204,
+  "total_tokens": 19949
+ },
+ "conversation_id": "ffbee243-db7e-4e01-940c-2a208d8890f2"
+}

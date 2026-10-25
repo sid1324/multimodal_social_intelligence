@@ -1,0 +1,18 @@
+{
+ "id": "6f37694e-26b8-4dc6-9942-567e1e912cda_452-75",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open-plan indoor dining and living area featuring a kitchen cabinet and counter at the far left/bottom edge in Frame 1, a dining table with a water bottle and dark chairs under a hanging pendant lamp on the left, a wall partition with framed art behind the table, and a dimly lit living room ahead and to the right with white couches, decorative vases, and an illuminated television against the right wall. No people are physically present in the room (apart from figures displayed on the television screen), so nobody is facing or looking toward the camera wearer. In Frame 1, a kitchen counter with paper towels and flowers is within arm's reach (under 1 m) to the bottom right, the dining table and pendant lamp are about 2 to 2.5 m ahead on the left, and the living room sofas and television are roughly 4 to 6 m away and 2 to 3 m to the right of the dining set. From Frames 1 to 3, the camera wearer walks forward and slightly left to approach the dining area, bringing the dining table, water bottle, and dark chairs within arm's reach (0.5 to 1.2 m below and in front) while the pendant lamp moves directly overhead and the living room shifts mostly out of view to the right. Across Frames 4 and 5, the camera wearer turns rightward and advances past the dining table\u2014which drops behind and out of view while the pendant lamp passes overhead in Frame 4 and exits Frame 5\u2014ending about 2.5 to 4 m from the living room couches on the left and the television and decorative stands on the right. Throughout the sequence, lower furniture legs and the floor are partially occluded by the foreground table and chairs or cropped by the bottom frame edge, while the television is partially occluded by a tall pink decorative object on a table directly in front of it."
+ },
+ "duration_seconds": 19.914123,
+ "usage": {
+  "input_tokens": 5416,
+  "output_tokens": 880,
+  "thinking_tokens": 416,
+  "cache_read_tokens": 28417,
+  "total_tokens": 6296
+ },
+ "conversation_id": "4f32c86b-b64a-4066-a4c2-c1487767b6bf"
+}

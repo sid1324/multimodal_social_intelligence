@@ -1,0 +1,18 @@
+{
+ "id": "8d900b59-e95d-4c9b-9432-8f5096aac2db_503-05",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living room containing dark leather sofas positioned directly in front of large bright windows, a table lamp against a yellow wall to the right, and a medium-sized dog, with no people visible in any frame. In the first two frames, the camera wearer looks from a shadowed area toward a window and the silhouette of a sofa roughly 1 to 2 metres ahead, with a small part of a light-colored object or pet barely visible at the bottom edge of frame 1 within arm's reach (about 0.5 to 1 metre away) and a lamp dimly visible on the far right of frame 2. In frame 3, the camera turns right and faces a two-cushion dark leather loveseat about 0.8 to 1.2 metres in front of the wearer\u2014placing the front of the couch and the brown dog lying across its cushions within arm's reach\u2014while a lit table lamp stands about 1.5 to 2 metres away to the right of the armrest. The dog lies horizontally on the seat cushions with its head positioned toward the lower center-left and its hind legs stretched to the right, partially cropped by the bottom edge of the frame. Across frames 4 and 5, the camera tilts upward and pans left with a clockwise roll, bringing the upper back cushions of the main dark leather sofa (roughly 0.8 to 1.5 metres away, within arm's reach) and the three-panel window directly behind and above it into the center of view. During these final two frames, the lower seating area and floor drop completely out of view below the bottom edge, and the lamp is mostly cut off at the bottom right corner of frame 4 before disappearing in frame 5."
+ },
+ "duration_seconds": 21.759609,
+ "usage": {
+  "input_tokens": 19613,
+  "output_tokens": 1066,
+  "thinking_tokens": 630,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20679
+ },
+ "conversation_id": "f6db69cf-62e8-43eb-b6a7-fea12b8d5967"
+}

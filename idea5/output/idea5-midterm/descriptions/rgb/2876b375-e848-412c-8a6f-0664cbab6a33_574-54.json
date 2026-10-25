@@ -1,0 +1,18 @@
+{
+ "id": "2876b375-e848-412c-8a6f-0664cbab6a33_574-54",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor checkout area with a glass storefront and double doors about 3 to 4 metres ahead, a green wall with a mounted fire extinguisher to the far left, and a counter with a transparent partition separating the camera wearer from a standing man in a red shirt and light blue mask. In the first two frames, the camera wearer stands about 1.2 to 1.5 metres from the man, who is positioned to the front-right behind the partition, facing forward and slightly left while looking down and then toward the left in frame 2. Between them on the counter, about 0.8 to 1.2 metres from the camera wearer and within the man's arm's reach, sit a monitor, keyboard, receipt printer, hand sanitizer bottle on the left, and blue plastic bags on the right. Across frames 3 to 5, the camera wearer moves forward and shifts slightly right, closing the distance to the counter and the man to roughly 0.7 to 1.0 metre while turning the viewpoint slightly rightward to bring a glass display shelf on the right into view. As the camera wearer approaches, the vertical frame of the transparent partition passes across the man's face in frame 3 (partially occluding him) before moving to the right of him in frames 4 and 5, where the man faces the camera wearer, looks directly toward the camera, rests his right hand on the counter edge near the keyboard, and extends his gloved left hand above the blue bags within arm's reach of both people. The lower portion of the counter and the man's legs remain occluded below the bottom edge of the frame and behind the counter throughout the sequence."
+ },
+ "duration_seconds": 17.225023,
+ "usage": {
+  "input_tokens": 5306,
+  "output_tokens": 514,
+  "thinking_tokens": 92,
+  "cache_read_tokens": 28419,
+  "total_tokens": 5820
+ },
+ "conversation_id": "1478b27b-27c2-4bd0-b92d-21abfa09e7f0"
+}

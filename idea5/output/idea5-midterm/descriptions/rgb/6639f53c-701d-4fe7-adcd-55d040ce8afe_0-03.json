@@ -1,0 +1,12 @@
+{
+ "id": "6639f53c-701d-4fe7-adcd-55d040ce8afe_0-03",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands in a compact kitchen facing a person about 1\u20131.5 m ahead, with a stove/oven roughly 0.5\u20131 m to the left, counters and a sink behind the person, and a radiator about 0.5\u20131 m to the right. The person is upright between the stove and sink, initially angled slightly toward the left side of the scene and looking downward, then turns to face the camera wearer and appears to look toward them in the middle and later frames. The person\u2019s hands remain near their torso or face and within their own arm\u2019s reach; the stove edge and nearby counter are also within their reach, while the camera wearer\u2019s hands enter their own arm\u2019s-reach area in the fifth frame. The stove partly leaves the left edge, the radiator and cloths are partly cut off at the right and bottom edges, and strong window light behind the person obscures some facial detail. Across the five frames, the person shifts slightly rightward and becomes more front-facing without a clear large change in distance, while the camera wearer\u2019s hands rise into the lower foreground and partially occlude the person and kitchen in the final frame."
+ },
+ "duration_seconds": 12.5,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,12 @@
+{
+ "id": "fab481c0-842c-4536-9126-9dc375464685_728-84",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A checkout counter fills the foreground, with a touchscreen about 0.5\u20130.8 m in front of the camera wearer, a receipt printer to its left, and a payment terminal roughly 0.3\u20130.5 m to its right. A woman stands across the counter about 1\u20131.5 m away, initially visible only in fragments near the upper edge and right side, with parts of her body occluded by the counter, register equipment, and frame boundaries. Across the first four frames, the camera remains aimed mostly downward and forward while shifting slightly right; the touchscreen stays central, and the payment terminal becomes more prominent on the right. In the fifth frame, the camera turns farther right, moving the touchscreen mostly out of view and revealing the woman from about the waist up on the right, roughly 1 m away and close enough to reach objects on her side of the counter. She faces generally toward the counter and looks downward rather than directly at the camera wearer, while shelves and equipment behind her remain partly cropped and occluded."
+ },
+ "duration_seconds": 11.3,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "f576f1bf-5433-488b-8833-8320f087e72b_48-29",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor garden border viewed from a downward-looking head-mounted perspective, where a stone patio on the upper right meets a grass lawn on the lower left along a diagonal edge. Directly below the camera at roughly 0.4 to 0.7 metres are the camera wearer's bare knees and blue-gloved hands holding pruning shears, positioned beside a sprawling flowering plant on the right patio edge (0.5 to 0.8 metres away). To the left of the camera wearer, about 0.5 to 0.8 metres away, a second person in patterned dark trousers and blue clogs kneels or crouches on the grass facing right toward the patio, with their torso and head out of view beyond the left frame edge and their green-gloved right arm extended forward into the centre of the scene. Ahead on the patio edge, roughly 0.8 to 1.2 metres from the camera wearer and 0.3 to 0.5 metres beyond the outstretched arms, sit two terracotta pots containing pink, white, and magenta flowers, with a small garden light fixture staked into the grass just left of the nearer pot. Both the sprawling plant on the right and the nearer terracotta pot are within arm's reach of both people, while the foliage partially occludes the pot bases and the bottom frame edge cuts off the camera wearer's lower legs. Across the five frames, the camera tilts slightly upward between frames 1 and 3 to reveal more of the upper flower pots before tilting slightly back down, while the camera wearer's left hand moves from pruning the plant on the right toward the centre in frame 5 to meet the second person's retracted green-gloved hand at about 0.6 metres distance."
+ },
+ "duration_seconds": 47.002513,
+ "usage": {
+  "input_tokens": 19565,
+  "output_tokens": 492,
+  "thinking_tokens": 59,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20057
+ },
+ "conversation_id": "334c31bb-d866-4325-84b0-36b5d30316ce"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "c34effc7-6198-4c85-80c7-c8be85b77dd3_2128-22",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor hair salon viewed from an elevated downward angle behind a seated client, with a wall featuring two vertical mirrors and a black-and-white three-drawer cabinet about 1.5 to 2 metres ahead. Directly in front of and below the camera wearer, within arm's reach at roughly 0.3 to 0.5 metres, is the back and top of a seated person's head covered in aluminum foil strips, facing away toward the left mirror and never looking at the camera wearer. Immediately to the right of the seated client, about 0.4 to 0.8 metres from the camera wearer and within arm's reach, is a dark trolley or surface holding a mixing bowl with a brush, foil sheets, and a white cloth, while an empty black salon chair stands further right at about 1.2 to 1.5 metres. In the third frame, a second person in a black top crouched on the floor about 1.2 to 1.5 metres to the front-left comes into view facing the seated client's extended leg and foot, which rest near a blue basin, while remaining mostly cropped out in the other frames. Across the five frames, the camera wearer's viewpoint shifts slightly rightward and then tilts slightly up and left in the third frame before returning, while the wearer's black-gloved right hand stirs the bowl at the bottom right and the black-gloved left hand reaches into the foreground in frames four and five to touch the foil on the client's head, partially occluding the crown and a phone held in the client's lap."
+ },
+ "duration_seconds": 14.998246,
+ "usage": {
+  "input_tokens": 19571,
+  "output_tokens": 477,
+  "thinking_tokens": 61,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20048
+ },
+ "conversation_id": "929dd097-f667-4deb-910e-617eccfd8306"
+}

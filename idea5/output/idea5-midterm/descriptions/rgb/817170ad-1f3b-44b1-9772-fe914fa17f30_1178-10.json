@@ -1,0 +1,12 @@
+{
+ "id": "817170ad-1f3b-44b1-9772-fe914fa17f30_1178-10",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is seated directly behind a red riding mower, with both forearms and hands about 0.3\u20130.7 m away on the controls and the mower body extending roughly 0.5\u20131.5 m ahead and below. A rectangular metal cart or container stays approximately 1\u20132 m to the mower\u2019s right, while grass borders the driveway on the right and is partly outside the frame. In the first three frames, the mower points mostly along the driveway; the wearer\u2019s hands shift slightly on the controls, but the mower and nearby container remain at similar distances. In the fourth frame, the viewpoint turns left, bringing a white vehicle into partial view about 1\u20133 m to the left, two wheeled bins roughly 4\u20137 m ahead, and another person beside or astride a two-wheeled vehicle about 6\u20139 m ahead-right; that person faces generally across the driveway rather than clearly toward the camera wearer. In the fifth frame, the view turns back toward the mower and right side of the driveway, so the other person, white vehicle, and most bins leave the frame while the metal container again appears close on the right; only the mower controls and the wearer\u2019s hands remain within arm\u2019s reach."
+ },
+ "duration_seconds": 10.6,
+ "usage": null,
+ "conversation_id": null
+}

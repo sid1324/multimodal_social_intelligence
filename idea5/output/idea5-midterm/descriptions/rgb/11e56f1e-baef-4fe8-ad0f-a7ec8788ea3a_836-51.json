@@ -1,0 +1,18 @@
+{
+ "id": "11e56f1e-baef-4fe8-ad0f-a7ec8788ea3a_836-51",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor staircase landing with a white wall to the left, a metal railing and descending stairs to the right, and a white-tiled landing floor ahead. The camera wearer stands at the top of the dark stair steps, looking downward at their own yellow plaid shirt and both hands holding a smartphone and a small object within 0.3 to 0.5 metres of the camera. Another person wearing a grey t-shirt, ripped blue jeans, and flip-flops stands on the landing to the front-left, roughly 1.0 to 1.5 metres away, with their torso facing toward the camera wearer and their head cropped out of the top of the frame across all five frames. Between the two people, scattered on the landing floor roughly 1.0 to 1.8 metres below and in front of the camera, are an angle grinder, a hammer, cutting discs, metal pipe segments, a yellow spirit level, a white lid, and a large bucket near a doorway in the background; a yellow power tool sits in the far right corner about 2.2 metres away. The metal handrail is within arm's reach to the camera wearer's right (about 0.4 metres away), while the floor tools and bucket are within reach of the standing person's feet and lower reach. Across the five frames from left to right, the camera wearer's head tilts slightly upward and pans to the left, shifting the stairwell further out of view on the right while bringing more of the left wall, the background doorway, and the standing person's upper torso into view as both individuals remain stationary."
+ },
+ "duration_seconds": 14.543859,
+ "usage": {
+  "input_tokens": 19559,
+  "output_tokens": 501,
+  "thinking_tokens": 92,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20060
+ },
+ "conversation_id": "4baf41eb-8ed6-4b32-8526-c73113fdee04"
+}

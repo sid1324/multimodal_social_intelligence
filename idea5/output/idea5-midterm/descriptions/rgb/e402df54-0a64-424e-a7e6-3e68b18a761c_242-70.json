@@ -1,0 +1,18 @@
+{
+ "id": "e402df54-0a64-424e-a7e6-3e68b18a761c_242-70",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow tiled bathroom with a vanity counter and mirror along the left wall, a yellow right wall with a folded white gate leaning against its near section, and a back wall featuring a hanging black towel on the left and a closed wooden door on the right. No other people are present, but a black, white, and tan dog stands on the floor near the right wall alongside a small metal bowl resting on the tiles by its front paws. In frame 1, the camera looks slightly upward from the doorway threshold toward the upper walls and fixtures about 2 to 3 metres ahead, leaving the floor and the dog completely out of view below the lower frame edge. Across frames 2 and 3, the camera tilts downward as the wearer approaches the threshold, bringing the near edge of the left counter and the white gate on the right within or near arm's reach (roughly 0.5 to 1.2 metres away) and revealing the dog about 1.2 to 1.5 metres ahead and slightly to the right, facing away toward the back wall and occluding the floor and bowl beneath its body. In frame 4, the camera wearer steps closer into the tiled room (reducing the distance to the back wall to roughly 1.5 to 2 metres) while the dog turns around to face the camera and looks directly up toward the wearer from about 0.6 to 0.9 metres away\u2014well within arm's reach\u2014exposing the metal bowl just left of its front paw while its hindquarters are cropped at the bottom-right edge. By frame 5, the viewpoint shifts slightly upward and rightward, moving the left vanity out of view while the dog remains about 0.7 to 1.0 metre in front of the wearer, facing forward with its head lowered slightly and its lower body and the adjacent bowl partially cut off by the bottom border."
+ },
+ "duration_seconds": 23.868387,
+ "usage": {
+  "input_tokens": 19623,
+  "output_tokens": 1138,
+  "thinking_tokens": 676,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20761
+ },
+ "conversation_id": "fd35f348-3f9c-4782-a84c-66f0a63b7922"
+}

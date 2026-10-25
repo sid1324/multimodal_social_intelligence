@@ -1,0 +1,12 @@
+{
+ "id": "c5938442-90c1-413c-be06-186222d8274f_0-03",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the five frames, the camera wearer is in a compact kitchen, with a stove/oven and countertop in the near foreground, a rice cooker and paper-towel roll on the back counter, a refrigerator along the rear wall, and a doorway to the left of the refrigerator. In frame 1, one person stands roughly 1.5\u20132 m in front of the camera, slightly left of center, facing and looking toward the camera; the stove is within about 0.5\u20131 m of the camera and lies between them. In frames 2\u20133, the person remains about 1.5\u20132 m away but shifts toward the right side of the kitchen and turns partly sideways, while the camera view also rotates right; parts of the person's head and lower body are intermittently cropped by the strip boundaries. In frame 4, the person is close to the right-hand counter, about 1\u20131.5 m from the camera, facing mostly right and away from the camera, with the rice cooker and nearby counter within their arm's reach. By frame 5, the view has turned farther right toward the refrigerator and microwave area; the person is partly out of view at the far left, while the refrigerator is roughly 1\u20132 m ahead and the stove and near counter remain below and close to the camera."
+ },
+ "duration_seconds": 9.3,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "878666b9-5f3d-476a-960f-3a5d02da7619_18455-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grassy and dirt park area with a narrow paved strip running diagonally across the midground and agility equipment or benches in the background. In the first three frames, a black dog stands on the dirt in front of and below the camera wearer at roughly 1.5 to 2 metres away, shifting from the center toward the left while facing forward and right, while a black-and-white husky moves from behind the black dog at about 3.5 metres away toward the right foreground to within 1.5 to 2 metres of the camera wearer. A person in a green top and dark pants stands on the far right behind the husky at roughly 4 metres away in frames 2 and 3, partially cropped by the top and right frame edges and facing generally toward the dogs, while a third white dog with a black ear patch enters the lower right corner in frame 3 within 1 to 1.5 metres of the camera wearer and less than 0.5 metres from the husky, both looking up toward the camera wearer. In frame 4, strong rotational motion blur indicates the camera wearer turns sharply while looking down, with their own blue-jeaned legs and a hand holding a stack of small white cups at the bottom edge within arm's reach, and the black dog blurred in the upper right about 2 metres away. By frame 5, the camera points steeply downward at the dirt and grass in front of the wearer's right knee, showing the husky's head and front paw on a wooden bench surface in the bottom left corner within 1 metre (arm's reach) of the wearer, while a person's legs stand in the upper left background about 5 metres away."
+ },
+ "duration_seconds": 13.239515,
+ "usage": {
+  "input_tokens": 19619,
+  "output_tokens": 524,
+  "thinking_tokens": 96,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20143
+ },
+ "conversation_id": "f39f4539-99b5-453d-a803-12aaad0d23a1"
+}

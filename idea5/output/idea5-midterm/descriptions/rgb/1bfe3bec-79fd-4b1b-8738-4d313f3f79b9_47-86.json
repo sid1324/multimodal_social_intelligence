@@ -1,0 +1,18 @@
+{
+ "id": "1bfe3bec-79fd-4b1b-8738-4d313f3f79b9_47-86",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a corner kitchen featuring wrap-around upper wooden cabinets above a countertop (~1.5 to 2.5 m ahead) with a white microwave in the corner and a white range hood on the left, bounded on the far left by a vertical partition wall opening into an adjacent room with a window and string lights (~2.5 to 3 m away). A man in a dark maroon hoodie stands in front of the left counter and range hood, roughly 0.5 m from the counter\u2014placing the range hood and counter items within his arm's reach\u2014and between 0.8 and 1.4 m in front of the camera wearer. Across the five frames, the camera wearer turns and shifts leftward while closing the distance slightly, moving the right-side cabinets out of view and bringing the left partition wall and the man from the far lower-left edge in frame 1 to the center foreground (within the camera wearer's arm's reach at ~0.8 m) by frames 4 and 5. In frames 1 and 2, the man faces away from the camera wearer toward the range hood, then turns his head clockwise over his right shoulder through frames 3 and 4 until he faces and looks directly toward the camera wearer in frame 5. Throughout the sequence, the man's torso crops out below the shoulders at the bottom edge of the frame and occludes the stove area and counter space directly in front of him, while in frame 1 his body is also largely cut off by the left frame boundary."
+ },
+ "duration_seconds": 21.358187,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 1117,
+  "thinking_tokens": 721,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20695
+ },
+ "conversation_id": "9dad8fca-e87f-42e9-a81f-1e0c29a6949d"
+}

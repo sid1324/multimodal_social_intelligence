@@ -1,0 +1,18 @@
+{
+ "id": "ade9b865-951f-4a27-b6cb-ce12cb613de8_887-25",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor ground-level area where the camera wearer sits on a woven cot (charpoy) draped with yellow fabric, looking down in the first four frames before tilting their head upward and to the right in the fifth frame. Directly in front of and below the camera at about 0.3 to 0.5 metres, the wearer's hands hold knitting needles and green yarn within immediate reach, while a folded red garment rests on the cot frame to the left at roughly 0.5 metres. Opposite the wearer on the far end of the cot, about 0.8 to 1.2 metres away, sits a second person in grey trousers, a blue plaid shirt, and a cream vest with knees bent and bare feet near red slippers on the ground below the cot's left edge. In frames 1 through 4, this second person's upper body and head are mostly cropped out of the top-right edge of the view, and the camera wearer's own knees and yellow garment partially occlude the middle section of the cot. In frame 5, as the camera pitches up and pans right, the second person comes more fully into view facing left (perpendicular to the camera wearer and not looking at them) with hands clasped around their knees, while the wearer's hands drop out of the bottom edge of the frame. This upward pan also reveals a third person sitting on the ground to the right of the cot at about 1.5 to 2.0 metres from the wearer and roughly 0.5 metres behind the second person, wearing a red top, holding a phone in their left hand, and facing toward the upper-left with their face partly cropped by the top-right corner, alongside metal dishes on the ground further ahead at about 2.5 metres."
+ },
+ "duration_seconds": 16.07825,
+ "usage": {
+  "input_tokens": 19521,
+  "output_tokens": 497,
+  "thinking_tokens": 49,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20018
+ },
+ "conversation_id": "5b069dea-81d1-4426-b917-6eb5a422cd63"
+}

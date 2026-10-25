@@ -1,0 +1,18 @@
+{
+ "id": "10019839-9ded-439f-a573-5ccacd7d829d_650-42",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer looks down at a wooden hallway floor toward a closed door about 1.2 to 1.5 metres ahead, with a black backpack on the floor to the lower left and a plastic bottle with an orange cap within arm's reach (about 0.6 to 0.8 metres below and in front) that the wearer's right hand releases before holding a blue cloth and beige pouch at the bottom edge. In frame 3, the camera wearer turns right and tilts the view upward, facing a wooden door in a white frame about 0.8 to 1.0 metre ahead with an open doorway immediately to its right. Across frames 4 and 5, the camera wearer approaches the open doorway threshold while holding the beige pouch in their hand within arm's reach (0.4 to 0.5 metres in front), bringing an adjacent kitchen and living area into view with cabinets and an oven about 3.0 to 3.5 metres away to the left and a white railing with a hanging blue bag and bins about 2.0 to 2.5 metres ahead. In frame 4, a person standing about 2.0 to 2.5 metres away on the right side of the doorway is heavily occluded by the doorframe with their head out of view, facing left while holding a vacuum wand near a white vacuum canister on the floor about 0.5 metres in front of the blue bag. By frame 5, as the camera wearer reaches the threshold with the open wooden door 0.4 metres to their left, the person is fully visible in the upper right at about 1.2 to 1.5 metres distance, facing and looking toward the camera wearer while holding the vacuum hose and wand within arm's reach above the vacuum canister and floor nozzle resting 0.3 to 0.5 metres from their feet."
+ },
+ "duration_seconds": 30.659529,
+ "usage": {
+  "input_tokens": 19519,
+  "output_tokens": 1275,
+  "thinking_tokens": 807,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20794
+ },
+ "conversation_id": "a2647083-2917-4c19-8c44-bdab33db00b3"
+}

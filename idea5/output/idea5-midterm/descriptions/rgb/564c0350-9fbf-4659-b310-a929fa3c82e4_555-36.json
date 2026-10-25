@@ -1,0 +1,12 @@
+{
+ "id": "564c0350-9fbf-4659-b310-a929fa3c82e4_555-36",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a small room, initially about 1\u20132 m from a blank wall, with a window partly visible at the far left and dark furniture partly cut off along the lower edge. Across the five frames, the viewpoint turns right, bringing an open doorway into view near the center-left, a desk or cabinet with a monitor/television roughly 2\u20133 m ahead, and a second window on the wall behind and to the right of that furniture. The open doorway is about 1.5\u20132.5 m away and leads into an adjacent space with a wooden floor; the monitor and nearby chair-like objects are clustered within roughly 0.5\u20131 m of each other. A blue fabric-covered object and a pale round object enter the lower-right foreground in the later frames, approximately 0.5\u20131.5 m from the camera wearer and potentially within arm\u2019s reach at the closest point. No people are clearly visible, and several objects remain partially occluded or cropped by the frame edges as the camera turns right rather than clearly approaching or retreating."
+ },
+ "duration_seconds": 9.0,
+ "usage": null,
+ "conversation_id": null
+}

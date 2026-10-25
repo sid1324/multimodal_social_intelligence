@@ -1,0 +1,18 @@
+{
+ "id": "01db7c39-a512-4bac-b284-dff8c7360e80_385-35",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor view looking forward and downward into a dense, leafy bush or small tree positioned directly in front of the camera wearer at a distance of roughly 0.3 to 1.5 metres, with patches of grass and a paved edge visible about 1.5 to 2 metres below on the left and bottom right. No other people are clearly in view, though a heavily occluded object or figure is briefly glimpsed through the left foliage on the ground about 2 metres away, while the camera wearer's own arms and a pair of long-handled pruning loppers occupy the immediate foreground within arm's reach (0.2 to 0.8 metres). In the first frame, both the left hand (with a black strap) and the right hand grip the lopper handles near the bottom center-left at about 0.4 metres distance, pointing the blades forward into the interior branches about 0.7 metres away. From the second through the fifth frame, the loppers remain lowered on the left side and partially cropped by the bottom edge of the view, while the tattooed right arm reaches forward and upward to about 0.6 to 0.8 metres in front of the camera to grasp a long, thin green stem that arches from the upper right toward the center-left. Across frames three to five, the right hand stays in contact with the thin stem\u2014with leaves partially occluding the fingers in the final two frames\u2014while the stem bends downward and the camera shifts slightly leftward, revealing more of the ground below the left side of the shrub."
+ },
+ "duration_seconds": 22.176772,
+ "usage": {
+  "input_tokens": 5363,
+  "output_tokens": 1075,
+  "thinking_tokens": 675,
+  "cache_read_tokens": 28423,
+  "total_tokens": 6438
+ },
+ "conversation_id": "330a4fd1-d968-46d2-a107-10e0407c3d0e"
+}

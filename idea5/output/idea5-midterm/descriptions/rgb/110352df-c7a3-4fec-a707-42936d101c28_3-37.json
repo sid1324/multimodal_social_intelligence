@@ -1,0 +1,12 @@
+{
+ "id": "110352df-c7a3-4fec-a707-42936d101c28_3-37",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a compact kitchen with counters and cabinets along the left and back, a sink directly ahead, and a green cutting board and stovetop/counter area to the right. One person stands roughly 1\u20132 metres in front of the camera wearer in the first frames and less than 1 metre away in the later frames; he faces the counter and sink, with his head angled downward or sideways rather than looking toward the camera. The sink, cutting board, green vegetables, metal pan, small orange bowl, plastic packaging, and countertop appliances are clustered within about 0.3\u20131 metre of that person and become within arm\u2019s reach of the camera wearer as the camera moves closer. The camera wearer\u2019s hand or forearm appears at the lower left initially and near the cutting board in later frames, while the standing person increasingly occupies the centre and then left side, partly occluding the sink, counter, and appliances behind him. Across the five frames, the camera pans and moves rightward and forward from a wider kitchen view to a close view beside the person, while he turns slightly toward the right-hand work surface but does not clearly face the camera."
+ },
+ "duration_seconds": 12.4,
+ "usage": null,
+ "conversation_id": null
+}

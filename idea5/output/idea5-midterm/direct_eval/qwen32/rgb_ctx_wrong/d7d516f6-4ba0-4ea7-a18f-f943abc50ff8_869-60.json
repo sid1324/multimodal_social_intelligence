@@ -1,0 +1,1 @@
+{"id": "d7d516f6-4ba0-4ea7-a18f-f943abc50ff8_869-60", "cond": "rgb_ctx_wrong", "model": "qwen32", "action_position": 5, "justification_position": 3, "raw": "{\"action\": 5, \"justification\": 3}", "seconds": 3.1}

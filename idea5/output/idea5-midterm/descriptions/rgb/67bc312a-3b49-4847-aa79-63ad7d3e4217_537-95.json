@@ -1,0 +1,18 @@
+{
+ "id": "67bc312a-3b49-4847-aa79-63ad7d3e4217_537-95",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is viewed from the driver's seat inside a vehicle stopped in an outdoor drive-thru lane alongside a brick building on the left, with another dark SUV positioned roughly 8 to 12 metres ahead in the lane. Within the vehicle cabin, the steering wheel and dashboard are directly in front of the camera wearer at about 0.4 to 0.6 metres, and the driver-side door, partially rolled-down window, and side mirror are to the left within arm's reach (0.4 to 0.8 metres). Outside to the left, at a distance of roughly 1.0 to 1.5 metres from the camera wearer and slightly elevated above the car door sill, an attendant in a blue jacket and cap stands inside the open drive-thru window opening, holding a white cup with a straw in their left hand and resting their right hand on the counter ledge within their own arm's reach. The attendant's lower body is occluded below the window sill in all frames, while the vehicle's A-pillar, roof frame, and door panels partially occlude the building exterior and the attendant across the sequence. Across the five frames, the camera wearer's viewpoint turns from facing forward-left (Frame 1, where the partially raised car window glass partly obscures the attendant at the far left edge), to looking upward and left toward the attendant (Frame 2), then shifts forward and downward toward the steering wheel and door panel so that the attendant is mostly cropped out at the top-left corner (Frames 3 and 4), before turning squarely left in Frame 5 as the window is fully lowered and the attendant faces and looks directly toward the camera wearer."
+ },
+ "duration_seconds": 15.148732,
+ "usage": {
+  "input_tokens": 19573,
+  "output_tokens": 639,
+  "thinking_tokens": 215,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20212
+ },
+ "conversation_id": "4b9f0c51-9abc-4ab8-835f-3d9dc352c9ac"
+}

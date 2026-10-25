@@ -1,0 +1,18 @@
+{
+ "id": "d74c95ba-e072-44f8-bb2f-2631379af06d_1057-19",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is viewed from an egocentric downward-angled viewpoint showing the seated camera wearer's own body parts in the lower foreground (about 0.2 to 0.5 metres away) and multiple flat rectangular trays covered in granular material and rows of white patterned paste shapes resting on a patterned cloth on the ground about 0.5 to 1.0 metre ahead and below. No other people are visible in the scene, and all visible trays, a small metal bowl near the wearer's legs, a white sack on the right in the first two frames, and a translucent plastic sheet held in frame 3 are within the camera wearer's arm's reach (under 0.8 metres). In frames 1 and 2, two adjacent trays lie side by side with only a few centimetres between them directly in front of the wearer's green-clad knee, which partially occludes the bottom edge of the left tray while the upper and outer edges of both trays extend out of view. In frame 3, the camera viewpoint turns and tilts toward the left, bringing the wearer's left and right hands into view at about 0.3 to 0.4 metres distance as they hold a plastic sheet coated with white paste above the trays, which occludes the central area of the tray beneath it. Across frames 4 and 5, the viewpoint shifts back toward the trays on the right while the wearer's bare left forearm extends diagonally across the lower-left foreground at about 0.3 metres from the camera, partially occluding the green clothing, a small metal bowl near the lower edge, and the wearer's bare foot resting between the clothing and the tray edges."
+ },
+ "duration_seconds": 16.255945,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 707,
+  "thinking_tokens": 286,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20268
+ },
+ "conversation_id": "24880f82-086b-49e1-9eaf-a1069bb5b012"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "14e96091-4011-4557-95b3-a195fb5c39d8_919-08",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor meeting room viewed from an upward-tilted angle with a gridded fluorescent ceiling overhead, a large presentation monitor on a stand to the front-left at roughly 2.5 to 3 metres, a tall flipchart stand in the front corner (~3.5 metres away), a wall-mounted whiteboard on the right wall, and a conference table extending into the lower-right foreground. Two seated people are positioned behind the far side of the table to the front-right: the further person in a dark grey shirt sits about 2 to 2.5 metres from the camera wearer, and the nearer person in a patterned jacket and green shirt sits about 1.2 to 1.8 metres away to the right, roughly 0.7 to 1 metre from the first person. In front of the further person on the table are a dark tablet or pad, a clear water bottle, and small objects within their arm's reach, while an open silver laptop sits within arm's reach directly in front of the nearer person and cables lie closer to the foreground within or near the camera wearer's reach. Both seated people face forward-left across the table and angle their heads toward the camera wearer's direction, with the table occluding their lower bodies and the laptop partially occluding the nearer person's torso. Across the five frames from left to right, the camera wearer turns and tilts their head slightly rightward and downward, bringing the nearer person and their laptop from completely out of view in frame 1 to partially cut off at the right edge in frame 2 and progressively more centered in frames 3 through 5, while the presentation monitor shifts toward the lower-left edge and the further person lowers their hand from their chin."
+ },
+ "duration_seconds": 35.578919,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 647,
+  "thinking_tokens": 213,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20226
+ },
+ "conversation_id": "57c8a763-7f9d-44e3-b2a3-dfb414b07e2f"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "b6474db0-090c-40df-8d65-0a52dd0578cc_984-29",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer stands on a narrow dirt-and-gravel path beside a raised wooden beam or railing, with a dug soil bed beyond it; black tubing, boards, tools, bags, and small debris are scattered roughly 1\u20134 m ahead. A gray-shirted man remains about 1\u20132 m in front of the camera wearer, generally facing and looking toward the camera, while a second gray-shirted man appears partly cut off at the far right in the fifth frame, about 2\u20133 m away and roughly 1\u20132 m to the first man's right. In the first frame the camera wearer\u2019s left forearm is low and partly visible, then in the second frame the arm extends forward and upward so a small green object is within both the wearer\u2019s reach and the front man\u2019s reach. In the third frame the green object and the wearer\u2019s hand move very close to the lens, partly occluding the lower-right foreground, while the front man stays beyond the railing and slightly left of center. By the fourth frame the arm has lowered or withdrawn and the front man has shifted slightly right and turned his torso, and in the fifth frame the wearer\u2019s arm extends high toward the upper-right with the green object while the front man stands farther left and the second man is only partially visible at the right edge."
+ },
+ "duration_seconds": 10.8,
+ "usage": null,
+ "conversation_id": null
+}

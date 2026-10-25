@@ -1,0 +1,12 @@
+{
+ "id": "7627344d-503f-4a25-b418-10a6929d5a18_842-97",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a living room, roughly 1.5\u20132.5 m from a light-colored sofa ahead-left and about 1\u20132 m from a dark coffee table centered in front; a television on a low stand is approximately 2.5\u20133.5 m ahead-right of the wearer and about 1.5\u20132 m from the sofa. One person sits or reclines on the sofa with a guitar across their torso and lap, about 2\u20133 m from the camera; the person is generally oriented toward the right side of the room rather than toward the camera and does not visibly look at the wearer. The guitar is within the seated person's arm's reach, while the coffee table and its small potted plant are beyond the camera wearer's immediate arm's reach; the television and nearby plants are farther away along the wall. Large bright windows rise behind and to the left of the sofa, the ceiling and hanging light fixtures are above, and the lower foreground is partly occluded by the coffee table, with occasional partial objects or a hand-like form cut off at the right edge. Across the five frames, the viewpoint turns progressively to the right: the sofa and person shift from center-right toward the far right, the television becomes more central, and more of the right side of the room enters view, with no clear approach or retreat by the person or major objects."
+ },
+ "duration_seconds": 11.9,
+ "usage": null,
+ "conversation_id": null
+}

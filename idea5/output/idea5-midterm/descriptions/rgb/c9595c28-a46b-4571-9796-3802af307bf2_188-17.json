@@ -1,0 +1,18 @@
+{
+ "id": "c9595c28-a46b-4571-9796-3802af307bf2_188-17",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room featuring an exposed ceiling with a rectangular light fixture about 2.5 to 3.5 metres overhead, a white paneled wall on the left about 3 metres away, and large windows in the background roughly 3 to 4 metres ahead. In the foreground at the bottom of the view, a taller black clothing rack with white and wire hangers sits on the left within arm's reach at about 0.5 to 1.0 metre from the camera wearer, while a second lower clothing rack extends to the right at roughly 1.2 to 2.0 metres away. A person wearing a black cap and glasses stands immediately behind the clothing racks about 1.2 to 1.8 metres in front of the camera wearer, placing the racks within his arm's reach as well. Across all five frames, the person's torso and lower body are completely occluded by the hanging clothes and cropped out by the bottom frame boundary, and in the first four frames the taller rack's vertical post and hangers also partially occlude the lower half of his head. From the first to the third frame, the person stands behind the taller rack post facing right in profile away from the camera wearer, while the camera viewpoint pitches slightly up and then down. In the fourth and fifth frames, the person shifts slightly rightward past the taller rack post into clearer view above the lower rack and turns his head toward the camera wearer, facing and looking directly at the camera by the final frame."
+ },
+ "duration_seconds": 18.225869,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 881,
+  "thinking_tokens": 499,
+  "cache_read_tokens": 14194,
+  "total_tokens": 20442
+ },
+ "conversation_id": "cca937ef-a9fc-4f84-abbe-abcf4d67b677"
+}

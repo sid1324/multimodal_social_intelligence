@@ -1,0 +1,18 @@
+{
+ "id": "9490a06b-3fa1-47b6-b470-facb3d61ac57_599-12",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor studio where the camera wearer is positioned at a white floor backdrop, holding an open notebook and a pen in their hands within arm's reach (about 0.25 to 0.6 m in front and below eye level). In frames 1 and 2, a person crouching on the studio floor about 2.5 to 3 m ahead and slightly left faces and looks directly toward the camera wearer while holding a camera to their face, with a circular reflector stand immediately behind them to the left (about 3.5 m away) and two standing people about 5 to 6 m away in the background. To the right and front-right, an illuminated orange softbox on a stand is about 1.5 to 2 m away, a red step ladder leans against the right wall about 2.5 to 3 m away, and a table with stools sits further back along the right wall about 3.5 to 4.5 m from the camera wearer. From frame 1 through frame 4, the camera wearer tilts their head downward and brings the open notebook closer to the camera (to about 0.25 m in frames 3 and 4), causing the notebook to occlude the central portion of the white backdrop while the background people, reflector, and all but the crouching photographer's feet move out of view above the top edge of the frame. In frame 5, the notebook is lowered back to about 0.5 m and the viewpoint shifts slightly downward, moving the crouching photographer completely out of the top of the frame while revealing the legs and hands of a seated person in blue immediately to the camera wearer's left within arm's reach (about 0.4 m away), partially cut off by the bottom-left frame boundary."
+ },
+ "duration_seconds": 19.5251,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 1092,
+  "thinking_tokens": 645,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20672
+ },
+ "conversation_id": "71d6f286-11f8-4873-955d-f12a58c12217"
+}

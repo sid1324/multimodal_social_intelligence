@@ -1,0 +1,12 @@
+{
+ "id": "eb5cb2b0-59e6-45da-af1b-ba86c7ab0b54_705-79",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A stone-ringed fire pit is about 0.5\u20131 m in front of and below the camera, with logs and smoke inside; a yellow tent stands roughly 4\u20136 m farther ahead near the upper-left background. Across the five frames, the camera turns right, shifting the fire pit from the lower center toward the lower left and bringing a seated person into view on the right. The person is approximately 1\u20132 m from the camera and about 1\u20132 m to the right of the fire pit, facing generally toward the camera wearer and appearing to look toward them in the last two frames. A red chair is partly visible immediately behind and left of the seated person, while a round gray surface and several small containers are cropped along the lower-right edge within roughly an arm\u2019s reach of the camera wearer or seated person. The fire pit partly occludes the ground behind it, the seated person is absent or cropped out in the first three frames, and the tent moves out of view as the rightward turn continues."
+ },
+ "duration_seconds": 11.2,
+ "usage": null,
+ "conversation_id": null
+}

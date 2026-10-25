@@ -1,0 +1,12 @@
+{
+ "id": "e9ea573a-3972-48ea-b946-6cb069497bab_1785-52",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a compact workshop, with a metal workbench about 0.5\u20131 m to the left, a blue machine and black tool chest roughly 1\u20132 m ahead, and glass doors and tiled floor about 2\u20134 m farther ahead. A bicycle leans near the doors on the right side of the room, approximately 2\u20133 m from the wearer and about 1\u20132 m from the tool chest; another wheel or bicycle is partly visible near the far-right edge. The wearer\u2019s forearms and hands appear in the lower foreground within arm\u2019s reach, extending forward and toward the right, while nearby bench objects and the closest machinery are roughly within 0.5\u20131.5 m. Across the five frames, the viewpoint turns steadily to the right, causing the left workbench to move out of view, the bicycle and doors to shift from right toward center, and a blank wall to occupy more of the right side. Equipment, bicycles, and doorway edges are partly occluded by the wearer\u2019s arms and by frame boundaries, and a distant person-like figure is only partially visible near the far-right doorway in the final frame, several metres away, with facing direction and gaze unclear."
+ },
+ "duration_seconds": 9.3,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "378af037-7200-4d75-8f83-ddc74e1cd2dc_3193-87",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor lounge area with large windows along the left wall overlooking trees, an empty grey armchair with two pillows positioned about 2 to 2.5 metres in front of the camera wearer, and a floor lamp standing immediately to the chair's right. Another person sits on the immediate right of the camera wearer at roughly 0.5 to 0.8 metres distance, with their torso, hands, smartphone, and green lanyard visible in the lower right foreground and the edge of their face and glasses partly cropped at the top right corner in the early frames. This adjacent person faces toward the left of the frame and angles downward toward the smartphone held in both of their hands, looking at the screen rather than toward the camera wearer. The smartphone, the adjacent person's hands, the armrest between them, and the near corner of a low glass table at the bottom left (about 0.8 to 1 metre away) are within or just at the edge of arm's reach of the camera wearer, while the smartphone is directly in the other person's grasp. A small dark shelf and white side table sit against the left wall roughly 2.5 metres away, and further back at 5 to 7 metres in the upper right background are a second armchair and a windowed alcove containing a desk and chair, partially occluded by the foreground floor lamp pole and interior wall pillar. Across the five frames, both people remain stationary while the camera wearer's viewpoint pitches slightly upward and leftward in the third frame\u2014briefly moving the adjacent person's head and the glass table further out of view\u2014before tilting slightly downward and rightward again in the fourth and fifth frames."
+ },
+ "duration_seconds": 16.374598,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 719,
+  "thinking_tokens": 301,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20341
+ },
+ "conversation_id": "2ba9fac2-de70-41b3-9958-92a8f3a9c1da"
+}

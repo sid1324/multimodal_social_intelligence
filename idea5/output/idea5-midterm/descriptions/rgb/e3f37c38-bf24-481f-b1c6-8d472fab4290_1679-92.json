@@ -1,0 +1,18 @@
+{
+ "id": "e3f37c38-bf24-481f-b1c6-8d472fab4290_1679-92",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor workshop floor viewed looking downward from a standing camera wearer whose legs and bare feet are visible at the bottom of the frame. In frames 1 to 3, a long stack of wrapped yellow and white bundles lies along the left side directly below and within arm's reach of the wearer (about 0.5 to 1.2 metres away), with a corded rotary power tool resting on top of the bundles that the wearer's left hand reaches out to grasp and push forward in frames 2 and 3. To the right of the bundles on the floor (about 1.2 to 1.8 metres away) lies a dark rectangular board with an orange brick at its corner and small cylindrical metal pieces scattered on it, mostly cropped on the right in frames 1 to 3. Across frames 3 to 5, the camera wearer turns and steps rightward to face the dark board directly in front of them, bringing a second person crouching on the far left side of the board (about 1.5 to 2 metres from the wearer) into full view in frames 4 and 5. This crouching person faces downward and slightly rightward toward the board\u2014looking at the metal bar and handheld grinder within their own arm's reach rather than toward the camera wearer\u2014while additional longer metal bars lie on the right half of the board about 0.3 to 0.6 metres to the person's left. Behind and above the crouching person in the upper background (roughly 2 to 3 metres from the wearer), a yellow welding machine, a small platform scale, and plastic containers sit near the wall, partially occluded by the crouching person and the top edge of the frame."
+ },
+ "duration_seconds": 11.610608,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 473,
+  "thinking_tokens": 47,
+  "cache_read_tokens": 14209,
+  "total_tokens": 19993
+ },
+ "conversation_id": "77a43453-13f5-493f-98ff-4fb092345887"
+}

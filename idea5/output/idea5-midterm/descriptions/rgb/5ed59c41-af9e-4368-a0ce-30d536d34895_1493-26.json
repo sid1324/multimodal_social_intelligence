@@ -1,0 +1,18 @@
+{
+ "id": "5ed59c41-af9e-4368-a0ce-30d536d34895_1493-26",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor garage or storage room with light-colored walls, two closed dark doors on the back-left wall, and an open doorway leading into a lit hallway about 3 to 4 metres ahead. A silver SUV is parked immediately to the camera wearer's right at a distance of about 0.5 to 1 metre, facing forward toward the back wall with its rear half extending out of view behind the camera. Directly in front of and below the camera wearer, within arm's reach at roughly 0.3 to 0.8 metres, is a red baby stroller whose handlebar the wearer holds in frames 2 and 3 before reaching a left hand onto its top canopy in frames 4 and 5. About 1.5 to 2.5 metres ahead and to the left, across a narrow floor aisle roughly 1 metre wide from the SUV's front fender, is a cluttered cluster of stored items including a bicycle, folded chairs, another dark stroller, and a baby car seat resting on top of a red scooter or toy vehicle. Across the five frames, the camera wearer turns from facing mostly right toward the driver-side window of the SUV in frame 1 to facing straight down the aisle between the SUV and the stored items by frame 3, while the stroller shifts slightly forward and downward relative to the field of view. No other people are visible in the garage or through the open doorway."
+ },
+ "duration_seconds": 11.005968,
+ "usage": {
+  "input_tokens": 5302,
+  "output_tokens": 370,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28417,
+  "total_tokens": 5672
+ },
+ "conversation_id": "187c9f04-7fcb-4824-9b7e-b0a002a2eb37"
+}

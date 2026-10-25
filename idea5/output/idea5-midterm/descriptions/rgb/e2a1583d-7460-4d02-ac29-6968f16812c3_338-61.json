@@ -1,0 +1,18 @@
+{
+ "id": "e2a1583d-7460-4d02-ac29-6968f16812c3_338-61",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place inside the front cabin of a vehicle, with the camera wearer seated in the right-hand passenger seat looking upward and forward toward the ceiling headliner, windshield, and flipped-down passenger sun visor. The passenger sun visor, featuring an illuminated vanity mirror, hangs directly in front of and slightly above the camera wearer at roughly 0.3 to 0.4 metres, well within arm's reach, while the central rearview mirror and left-side driver sun visor are roughly 0.5 to 0.9 metres away to the left. In the vanity mirror's reflection in frames 1, 2, and 4, the camera wearer's own face (wearing dark glasses and a red hat) is visible facing forward and looking directly into the mirror, with their hand raised near their chin in frame 1 and their right hand reaching up to push the visor in frame 5. To the left in the driver's seat, roughly 0.6 to 0.8 metres from the camera wearer, a driver and the steering wheel are mostly out of view in frames 1 to 4 due to the camera angle, before the driver's head and hands on the wheel become partially visible on the far left edge of frame 5 facing forward toward the windshield. Outside the vehicle beyond the windshield and right window, a retaining wall and parked cars sit roughly 3 to 15 metres away in a bright exterior lot, partially occluded by the dashboard, A-pillar, and lowered sun visor. Across the five frames, the camera wearer turns their head to the right in frame 2, tilts their view sharply upward and left toward the ceiling console in frame 3, centers back on the vanity mirror in frame 4, and folds the sun visor upward against the ceiling in frame 5, removing the occlusion over the upper right windshield."
+ },
+ "duration_seconds": 15.694292,
+ "usage": {
+  "input_tokens": 5404,
+  "output_tokens": 593,
+  "thinking_tokens": 136,
+  "cache_read_tokens": 28425,
+  "total_tokens": 5997
+ },
+ "conversation_id": "ac5b1930-f1e3-4111-a93a-a8584222c645"
+}

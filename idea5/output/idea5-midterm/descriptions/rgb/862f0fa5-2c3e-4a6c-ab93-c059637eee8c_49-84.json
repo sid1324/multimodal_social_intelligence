@@ -1,0 +1,18 @@
+{
+ "id": "862f0fa5-2c3e-4a6c-ab93-c059637eee8c_49-84",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen workspace where the camera wearer is standing immediately in front of an open white cabinet door, with no other people present in the frame. In the first four frames, the open cabinet interior and its wooden shelf are positioned to the left at roughly 0.2 to 0.5 metres from the camera wearer, while the white door swings open to the right with an upper metal hinge visible near the top center about 0.2 to 0.3 metres away. Below the cabinet at a distance of roughly 0.4 to 0.6 metres, both of the camera wearer's hands are within arm's reach holding and guiding a blue-handled screwdriver against the lower hinge area, with the lower portion of the arms extending out of the bottom of the frame. Roughly 1.5 to 2.0 metres below the viewpoint on the floor are the camera wearer's shoes, an open drawer or box to the lower left, a bright dual work light just to the right of the feet, and an oven partially visible at the far right edge in the final frame. Across the first four frames, the viewpoint shifts slightly closer to the upper hinge while the hands remain steady on the screwdriver below, and in the fifth frame the camera wearer turns and tilts their head upward and to the right. This movement in the final frame brings the outer surface of the white cabinet door across the upper center of the view at about 0.2 metres away, largely occluding the cabinet interior and leaving the camera wearer's hands mostly cropped out at the bottom edge."
+ },
+ "duration_seconds": 14.483548,
+ "usage": {
+  "input_tokens": 19518,
+  "output_tokens": 583,
+  "thinking_tokens": 184,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20101
+ },
+ "conversation_id": "b1aa56d0-7edd-4dc5-9b8f-b494fe56141f"
+}

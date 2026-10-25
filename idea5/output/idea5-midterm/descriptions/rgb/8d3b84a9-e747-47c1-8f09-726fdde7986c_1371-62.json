@@ -1,0 +1,18 @@
+{
+ "id": "8d3b84a9-e747-47c1-8f09-726fdde7986c_1371-62",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor checkout counter directly in front of and below the camera wearer at roughly 0.4 to 0.8 metres distance, with a glass display case behind it to the right at about 1.8 to 2.5 metres. On the counter within arm's reach of both the camera wearer and the person opposite, a black cash register with an open drawer sits on the left-center (about 0.5 metres away) beside a dark jar and brown bag on the far left, while an upright brown paper bag (about 0.6 metres away) and a red plastic basket to its right (about 0.8 metres away) occupy the right side, spaced 0.1 to 0.3 metres apart from each other. A person stands behind the cash register on the left side at roughly 0.8 to 1.0 metres from the camera wearer, facing directly toward the camera wearer with their left hand resting near the register's left side and their right hand raised just above the open cash drawer, within arm's reach of the register and the adjacent brown paper bag. In the first four frames, the person's head above the chin or neck is cropped out of the top of the frame, the red basket and far-left jar are partially cut off at the side edges, and the tall brown paper bag partially occludes the left side of the red basket and the counter surface behind it. Across the five frames from left to right, the camera tilts slightly upward and shifts slightly back in the fifth frame\u2014bringing the lower half of the person's face (oriented toward the camera wearer) and a stack of banknotes at the bottom edge next to the register into view while cropping the bottom of the register keypad\u2014as the person's right hand moves slightly downward and forward over the open drawer."
+ },
+ "duration_seconds": 14.607132,
+ "usage": {
+  "input_tokens": 5363,
+  "output_tokens": 645,
+  "thinking_tokens": 190,
+  "cache_read_tokens": 28420,
+  "total_tokens": 6008
+ },
+ "conversation_id": "4663cb8b-af6c-4487-8157-09dab71d5384"
+}

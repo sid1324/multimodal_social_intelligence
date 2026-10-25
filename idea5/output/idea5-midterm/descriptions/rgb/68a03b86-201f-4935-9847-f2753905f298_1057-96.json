@@ -1,0 +1,12 @@
+{
+ "id": "68a03b86-201f-4935-9847-f2753905f298_1057-96",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is at a checkout counter, facing a person standing roughly 0.5\u20131.0 m ahead on the opposite side; the person\u2019s torso and arms are visible, while their head is mostly cropped above the frame. A cash register sits between them, about 0.4\u20130.8 m from the camera, with a brown paper bag just behind and to the left of the register from the camera wearer\u2019s viewpoint; small card/payment signs and a countertop display lie to the right. Shelves and merchandise are farther behind and to the left of the person, approximately 1\u20133 m from the camera, and another person is only partly visible at the far right edge in some frames. The person across the counter faces generally toward the camera wearer, with one arm extending over the counter; their gaze cannot be determined because their face is out of view. The register, near counter edge, and payment area are within the camera wearer\u2019s arm\u2019s reach, while the paper bag and register are within the other person\u2019s reach; the register and counter partially occlude their lower body. Across the five frames, the viewpoint shifts closer and slightly rightward toward the register and payment area, making these objects and the person\u2019s torso appear larger while the left-side shelves move partly out of view."
+ },
+ "duration_seconds": 10.9,
+ "usage": null,
+ "conversation_id": null
+}

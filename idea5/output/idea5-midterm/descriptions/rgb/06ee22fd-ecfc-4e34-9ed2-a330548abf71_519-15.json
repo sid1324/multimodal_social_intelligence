@@ -1,0 +1,12 @@
+{
+ "id": "06ee22fd-ecfc-4e34-9ed2-a330548abf71_519-15",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the five frames, the camera wearer faces a roadside scene with a blue tractor and an attached loaded trailer about 2\u20136 m ahead, while trees, utility wires, a wall, and a small building lie farther behind them. A woman in orange and red stands roughly 1\u20132 m in front of the camera near the tractor\u2019s large rear wheel, generally facing away or sideways and not clearly looking toward the camera; the wheel and tractor are within her arm\u2019s reach but not the camera wearer\u2019s. A man in a dark top and blue-red lower garment is about 2\u20134 m ahead and slightly right of center, seen mostly from behind or in profile, while another person sits on or near the trailer load about 4\u20136 m away and faces generally toward the camera. Other people near the tractor and trailer are partly hidden by the machinery, foliage, and frame edges, and portions of the tractor or trailer fall outside the left or right edge in several frames. From left to right in time, the viewpoint turns and shifts rightward: the tractor moves from left-center toward the left edge, the trailer remains across the middle and then shifts right, the standing man grows larger and passes toward the right edge, and a large green sheet or sack enters the lower-right foreground within about 1 m of the camera."
+ },
+ "duration_seconds": 10.6,
+ "usage": null,
+ "conversation_id": null
+}

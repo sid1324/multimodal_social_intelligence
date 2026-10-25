@@ -1,0 +1,18 @@
+{
+ "id": "c3acdda3-cd92-48c3-9052-45b57cb27e5a_1467-01",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen with a ceiling tilted upward in the camera's field of view, featuring two hanging glass pendant lights above, a bright window flanked by upper wall cabinets and a sink counter in the background roughly 3 to 4 metres away, a doorway and refrigerator edge on the far left, and an adjacent room visible to the right. Two people stand in front of the camera wearer: a person in a dark t-shirt on the left and a blurred person in a light-colored top in the center-right foreground, separated from each other by about 0.8 to 1 metre. In the first frame, the person on the left is roughly 2.2 metres from the camera wearer, facing and looking toward the camera wearer, while the blurred person on the right is closer at about 1.2 to 1.5 metres, facing toward the camera wearer with their lower body cropped out by the bottom frame edge. Across the five frames, the person on the left walks forward, approaching to within about 1.4 metres of the camera wearer and about 0.5 metres to the left of the second person, while turning their head and gaze downward and slightly right toward the space in front of the second person and partially occluding the background window and cabinets. Meanwhile, the person in the light top remains at roughly 1.2 to 1.5 metres in front of the camera wearer, shifts their torso slightly, raises their right elbow, and holds an object within their own arm's reach at chest level while looking toward the camera wearer's area. In the fifth frame, the camera wearer's right hand and forearm enter the lower-right foreground within arm's reach (about 0.3 to 0.5 metres from the lens), extending forward toward the person on the right and partially occluding the lower-right portion of the view."
+ },
+ "duration_seconds": 15.277647,
+ "usage": {
+  "input_tokens": 5410,
+  "output_tokens": 711,
+  "thinking_tokens": 248,
+  "cache_read_tokens": 28423,
+  "total_tokens": 6121
+ },
+ "conversation_id": "7c7989a4-c042-4c45-ac25-6971499e6bc7"
+}

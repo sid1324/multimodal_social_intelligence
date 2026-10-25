@@ -1,0 +1,12 @@
+{
+ "id": "3178c414-453e-44e9-b192-67dba2ccc982_565-83",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer moves along a store aisle with pegboard shelving and small packaged goods on the left, while a lower freestanding shelf appears ahead/right and refrigerated cases line the far wall about 5\u20138 m away. In frames 1\u20133, the left shelving is roughly 0.3\u20131.5 m from the camera and within arm\u2019s reach; nearby products partly occlude one another, and the upper and lower shelves are partly cut off by the frame. Across frames 1\u20134, the viewpoint advances and turns right around the end of the shelving, causing the left-side products to pass closer and blur while the open floor and distant refrigerators shift toward the center. Parts of the camera wearer\u2019s yellow clothing and dark hair enter the lower-right or right edge in frames 3\u20134, very close to the camera and partially out of view. In frame 5, another person is about 2\u20133 m ahead and to the right, facing away from the camera toward the refrigerators; she is roughly 1\u20132 m from the nearby right-side shelf, while no other person is clearly visible. The final turn places purple boxed products about 0.5\u20131.5 m in front-left of the camera, within arm\u2019s reach, with farther shelves and refrigerators partly occluded behind them."
+ },
+ "duration_seconds": 12.3,
+ "usage": null,
+ "conversation_id": null
+}

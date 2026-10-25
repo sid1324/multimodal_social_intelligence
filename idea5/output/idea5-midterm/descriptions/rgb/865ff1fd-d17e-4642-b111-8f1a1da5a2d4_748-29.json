@@ -1,0 +1,18 @@
+{
+ "id": "865ff1fd-d17e-4642-b111-8f1a1da5a2d4_748-29",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is viewed from an elevated position inside a red dump truck or trailer bed filled with brown mulch, looking steeply downward toward the bed floor and the ground below to the left. The camera wearer stands directly on the mulch bed holding a long-handled scoop shovel within arm's reach (0.3 to 0.8 metres away), while a second shovel rests stationary against the front-right red wall of the bed roughly 1.2 to 1.5 metres away. A large grey plastic bin sits on a white ledge along the left edge of the truck bed, approximately 0.8 to 1.2 metres in front of and to the left of the camera wearer, putting it within reach of both the shovel and the wearer's outstretched left hand. Below and to the far left on the ground (roughly 2.5 to 3.5 metres away and 1 to 1.5 metres lower than the bed), a second person wearing black shorts and dark shoes stands facing toward the truck side, partially cropped by the left frame boundary and absent or occluded in the third and fourth frames. Across the five frames, the camera wearer rotates their torso leftward to dump a shovelful of mulch into the grey bin in frame 2, swings the shovel back to the right in frame 3, and transfers the shovel to their right hand while reaching forward with their left hand in frame 4 to grasp the rim of the bin and tilt it slightly in frame 5."
+ },
+ "duration_seconds": 13.089749,
+ "usage": {
+  "input_tokens": 5307,
+  "output_tokens": 401,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 28428,
+  "total_tokens": 5708
+ },
+ "conversation_id": "343ff272-323a-41f5-b4d2-ceb0a017d572"
+}

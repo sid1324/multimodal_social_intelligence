@@ -1,0 +1,18 @@
+{
+ "id": "526675a3-acea-4d5b-b5c9-ccb1b89f6e58_421-44",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a small tiled bathroom under renovation, viewed from an elevated position near an interior wall on the right covered with an orange gridded backer board, with an open closet doorway containing shelf boxes about 1.5 to 2 metres ahead and a lit hallway doorway about 2.5 metres ahead on the left. In the first three frames, a woman in a green headband and white shirt stands on the tiled floor roughly 1.5 to 1.8 metres in front of and slightly below the camera wearer, positioned about 1 metre in front of a man in a beige hoodie and dark pants who stands in the hallway doorway 2.5 to 3 metres from the camera wearer. In frame 1, the woman faces right and looks up toward the camera wearer while touching the doorframe within her arm's reach, whereas in frames 2 and 3 she steps slightly rightward and turns away from the camera wearer to face and look at the man, who faces forward into the room holding a small object in both hands. Across frames 4 and 5, the camera wearer turns rightward and tilts upward toward the right-hand wall, moving the hallway doorway, the woman, and the man progressively out of view beyond the left edge of the frame. As the camera aligns within 0.3 to 0.5 metres of the wall in frames 4 and 5, the orange backer board, a circular wall cover above left, and a metal shower arm fixture above right are within arm's reach, with the camera wearer's left hand resting on the white wall and the right hand holding a yellow-and-black cordless drill against a washer-topped screw at the upper edge of the orange panel. Throughout the sequence, doorframes partially occlude the adjacent closet and hallway interiors, and the lower frame boundary cuts off the camera wearer's torso and forearms."
+ },
+ "duration_seconds": 25.72996,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 1428,
+  "thinking_tokens": 969,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20948
+ },
+ "conversation_id": "ce8b07ac-9973-4070-a0e8-ded505d59363"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "59976b3b-2328-47f2-a7b3-6f982497ed65_622-81",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor construction site viewed from an elevated bamboo scaffold where the camera wearer stands beside a plastered concrete wall on the left and a brick wall on the right, both within arm's reach (about 0.3 to 1.0 metres away). In frames 1 and 2, the camera wearer looks steeply downward at a wooden pole platform roughly 1.5 to 2.5 metres below and another level further down, where a worker in a plaid shirt and blue headscarf stands about 2.5 to 3.5 metres below the camera, facing away and downward while holding a rectangular container over a round mortar pan within their reach. Another round pan sits on the ground about 1 metre to the left of that worker, while a trowel held by the camera wearer is partially visible at the bottom edge of frame 1. In frame 3, the camera tilts upward and left to face the concrete wall and overhead soffit at close range (0.3 to 1.0 metres), completely putting the lower scaffolding and worker out of view. In frames 4 and 5, the camera looks back down as the viewpoint shifts lower or closer to the bamboo platform: by frame 5, two round mortar pans rest directly on the bamboo poles within 0.5 to 1.2 metres in front of and below the camera wearer (one dark empty pan in the lower foreground partially cropped at the bottom, and one light-colored filled pan to its right, separated by about 0.3 metres). Meanwhile, the plaid-shirted worker has moved onto the bamboo platform to the upper left, roughly 1.0 to 1.5 metres from the camera wearer, facing toward the upper right with their head turned away from the camera and their upper body partially cropped by the top-left edge of frame 5."
+ },
+ "duration_seconds": 19.38369,
+ "usage": {
+  "input_tokens": 19517,
+  "output_tokens": 524,
+  "thinking_tokens": 72,
+  "cache_read_tokens": 14212,
+  "total_tokens": 20041
+ },
+ "conversation_id": "6df0d0a0-e999-4217-8973-a5e792a3cf5e"
+}

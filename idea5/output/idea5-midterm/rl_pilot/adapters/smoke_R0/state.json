@@ -1,0 +1,1 @@
+{"step": 20, "args": {"arm": "R0", "out": "adapters/smoke_R0", "steps": 20, "seed": 0, "prompts": 4, "group": 8, "lr": 1e-05, "beta": 0.04, "max_new": 384, "micro": 4, "save_every": 50}}

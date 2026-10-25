@@ -1,0 +1,18 @@
+{
+ "id": "f0b8d19e-28c0-4d11-bb2d-5c6576eb7dcb_67-04",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows the interior of an open refrigerator directly in front of the camera wearer at roughly 0.3 to 0.7 metres, with no other people present and all visible shelves and containers within the camera wearer's arm's reach. On the lower shelf at about 0.4 to 0.6 metres depth, round tubs and an egg carton sit on the left, a white plastic jug sits 0.1 to 0.2 metres to their right, and a packaged item rests in the front-right corner, while an upper shelf about 0.2 metres higher holds a central white-lidded clear container and a red container to its right. In frames 1 and 2, the camera wearer's hand moves forward from 0.3 to 0.4 metres to set a blue-lidded container onto the front-center of the lower shelf, directly in front of the egg carton and left of the white jug, partially occluding both. In frames 3 and 4, the viewpoint tilts slightly upward as the camera wearer's right arm reaches 0.4 to 0.5 metres forward and up to grasp the white-lidded container on the upper shelf, with the forearm occluding the white jug and the right side of the shelves. By frame 5, the arm retreats out of view and the camera shifts upward and tilts right with motion blur, moving the left wall of the refrigerator partly out of frame while bringing the upper-right shelf contents toward the center."
+ },
+ "duration_seconds": 27.510935,
+ "usage": {
+  "input_tokens": 19614,
+  "output_tokens": 1088,
+  "thinking_tokens": 701,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20702
+ },
+ "conversation_id": "345b2cee-34d7-43c9-a76f-d4b29bafd320"
+}

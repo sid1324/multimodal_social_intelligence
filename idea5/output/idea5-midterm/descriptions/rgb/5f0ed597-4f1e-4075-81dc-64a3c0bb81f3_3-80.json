@@ -1,0 +1,18 @@
+{
+ "id": "5f0ed597-4f1e-4075-81dc-64a3c0bb81f3_3-80",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor corridor looking through a glass storefront window with large red 'A', 'L', and 'E' letters mounted on the glass roughly 0.5 to 1.5 metres in front of the camera wearer, placing the glass partition within arm's reach while separating the wearer from the merchandise inside. Directly behind the glass, about 1.5 to 2.5 metres from the camera wearer, two adjacent white display tables hold ties, belts, a blue cap, tan boots, and folded grey garments, while a brown curved object in the lower-left foreground of frames 1 to 3 is within 0.5 metres and mostly cropped out of view. Immediately to the right of the tables\u2014about 0.3 metres from the table edge and 1.5 to 2.5 metres from the camera wearer\u2014stands a full-body mannequin in dark clothing facing forward and slightly left toward the camera wearer, with a red basket on the floor behind its legs. About 1 to 1.5 metres behind the display tables (3 to 4 metres from the camera wearer) sits a long clothing rack with hanging garments, and in frames 1 and 2, two additional mannequins stand further back on the far left about 5 metres away near large background windows. No live people are present in the scene, and several items on the tables and racks are partially occluded by the red window lettering and by one another. Across the five frames, the camera tilts slightly downward in frame 3 and pans rightward through frame 5 while retreating slightly from the window, causing the left half of the tables and far-left mannequins to exit the left edge of the frame while revealing a wooden-framed glass entrance door and a lit 'OPEN' sign about 2 to 3 metres away on the right."
+ },
+ "duration_seconds": 27.539291,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 1174,
+  "thinking_tokens": 726,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20796
+ },
+ "conversation_id": "7285fcb9-326b-4c41-87a0-877e5695433d"
+}

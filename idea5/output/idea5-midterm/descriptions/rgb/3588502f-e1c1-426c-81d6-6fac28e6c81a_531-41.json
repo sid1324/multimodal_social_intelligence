@@ -1,0 +1,18 @@
+{
+ "id": "3588502f-e1c1-426c-81d6-6fac28e6c81a_531-41",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In frames 1 and 2, the camera wearer stands facing a kitchen countertop and gas stove about 0.4 to 0.6 metres directly in front, beneath a metal range hood and green upper cabinets with a bamboo-blinded window above the counter to the left. Within arm's reach on the stove, the wearer's right hand grasps the lid handle of a red-rimmed pan, while two small dark-red bowls sit about 0.2 to 0.3 metres to the left on the counter near a knife and glass lid, and a metal pot and white kettle sit 0.3 to 0.5 metres to the right. In frame 3, the camera shifts slightly left as both of the wearer's hands reach about 0.4 metres forward to hold the two red bowls on the counter, revealing more of a sink and dish rack about 0.8 to 1.0 metres away on the far left. Across frames 4 and 5, the wearer turns roughly 90 degrees clockwise to the right, moving the stove to the far left edge of the view and revealing a white storage unit with a black microwave about 1.2 to 1.5 metres ahead and a refrigerator to its right. As the wearer turns while holding the two bowls about 0.4 metres in front of their torso, a second person in a grey shirt appears about 0.6 to 0.8 metres away on the right, oriented toward the wearer with their head and lower legs cropped out of the upper-right and bottom frame edges, preventing visibility of their gaze. Between frames 4 and 5, this second person steps closer and extends both arms forward so that both the wearer and the second person have their hands on the two red bowls within arm's reach of each other."
+ },
+ "duration_seconds": 22.919382,
+ "usage": {
+  "input_tokens": 19572,
+  "output_tokens": 1268,
+  "thinking_tokens": 814,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20840
+ },
+ "conversation_id": "a03764cb-f94c-4f2f-aeb0-111ed3902d4e"
+}

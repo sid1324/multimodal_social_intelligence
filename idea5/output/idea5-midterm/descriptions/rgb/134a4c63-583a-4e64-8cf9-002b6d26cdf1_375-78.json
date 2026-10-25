@@ -1,0 +1,12 @@
+{
+ "id": "134a4c63-583a-4e64-8cf9-002b6d26cdf1_375-78",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated or standing close to a dark wooden table directly ahead and above the hands, with tiled floor below; chairs surround the table, including a wheeled blue chair roughly 0.5\u20131 m ahead/right and chair legs partly cut off at the image edges. No other person is visible; the camera wearer\u2019s forearms and hands extend about 0.3\u20130.6 m in front of the camera and hold an orange carrot and a knife close together, both within arm\u2019s reach. A blue plastic bag lies near or between the wearer\u2019s knees about 0.4\u20130.7 m away, while a bright green bag or mat is on the floor to the right at roughly 0.6\u20131 m and is partly occluded by the arms and frame edge. On the tabletop, a pale bag or wrapped item sits toward the upper left/front at about 0.7\u20131.2 m, and another pale bag is intermittently visible under or beyond the table; the tabletop and its crossbars occlude much of the area farther ahead. Across the five frames, the camera turns gradually to the right, making the wheeled blue chair and right-side floor area more prominent while left-side objects move out of view; the hands alternately bring the carrot and knife together, separate them, and bring them together again without a clear overall approach or retreat through the room."
+ },
+ "duration_seconds": 12.1,
+ "usage": null,
+ "conversation_id": null
+}

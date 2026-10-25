@@ -1,0 +1,18 @@
+{
+ "id": "225a1ffe-3e7e-4ff8-a47e-2e80989077fe_94-47",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer looks downward inside a tiled workshop while standing immediately to the right of a silver motorcycle positioned 0.3 to 1.0 metres in front and to the left, with a rectangular floor tray on the ground about 1.2 to 1.5 metres ahead on the right. The motorcycle's right handlebar grip, brake lever, and black side mirror are directly within arm's reach at roughly 0.4 metres below and in front of the wearer's chest, with both of the wearer's hands gripping the handlebar assembly and partially occluded by the large oval mirror housing. Across frames 1 to 3, the wearer's torso and both hands remain stationary at the right handlebar while the motorcycle's rear section is partially out of view to the left and the upper windshield is cropped at the top edge. In frame 3, the foot of a second person appears at the far right edge about 1.5 metres away, and in frame 4 their lower legs and feet step closer to roughly 1.0 to 1.2 metres to the wearer's right while facing forward and slightly left toward the front of the motorcycle. By frame 5, the camera wearer turns slightly right as this second person\u2014whose upper body and head remain cropped out of the right edge so their gaze is not visible\u2014walks past within about 0.8 metres to the wearer's right and roughly 1.0 metre from the motorcycle, bringing the person's left arm within arm's reach of the camera wearer."
+ },
+ "duration_seconds": 47.667037,
+ "usage": {
+  "input_tokens": 19561,
+  "output_tokens": 829,
+  "thinking_tokens": 436,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20390
+ },
+ "conversation_id": "3f105173-cdc7-4ffe-b66c-0e3b89c00dbc"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "39a53568-d759-4f19-ac19-bc4ba29b5c17_726-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor garage or workshop with a concrete floor and a large blue multi-drawer tool chest positioned to the front-left of the camera wearer, approximately 0.5 to 1.0 metres away, with hand tools resting on its lower left shelf. In the first two frames, the camera wearer looks steeply downward while holding and rolling an upright car wheel and tire directly in front of their feet at a distance of about 0.5 to 0.8 metres, within immediate arm's reach. In the first frame, a second person's legs and feet are partially visible at the bottom-left edge about 1.0 metre away, facing roughly toward the camera wearer's left side before moving out of view in the second frame. By the third frame, the camera wearer positions the wheel upright against the right side of the blue tool chest and tilts the silver rim to rest against the drawers, keeping both hands on the wheel within 0.6 metres. In the fourth and fifth frames, the camera wearer pitches their head upward and turns slightly left toward the upper section of the tool chest, extending their left arm upward in frame four to reach the top edge of the cabinet (about 0.5 metres away) while the wheel remains stationary on the floor below to the bottom-right. In the fifth frame, the second person reappears at the far left edge, standing less than 1.0 metre from the camera wearer and roughly 0.5 metres to the left of the tool chest, with their body and raised right hand partly cropped by the left frame border and partially occluded by the camera wearer's left shoulder."
+ },
+ "duration_seconds": 13.897358,
+ "usage": {
+  "input_tokens": 19525,
+  "output_tokens": 436,
+  "thinking_tokens": 18,
+  "cache_read_tokens": 14207,
+  "total_tokens": 19961
+ },
+ "conversation_id": "3e028e9c-2b59-45a4-9220-e7ddd35e3da7"
+}

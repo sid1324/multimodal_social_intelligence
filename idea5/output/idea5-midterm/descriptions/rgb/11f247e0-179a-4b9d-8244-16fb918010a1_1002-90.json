@@ -1,0 +1,12 @@
+{
+ "id": "11f247e0-179a-4b9d-8244-16fb918010a1_1002-90",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer faces across a dim room toward a curtained window or glass door about 2\u20133 metres ahead-left, with a lit lamp immediately to its right and a bare wall extending across the right side. A low bed, couch, or piled soft furnishings occupies the bottom foreground within roughly 0.5\u20131 metre, partly cut off by the frame, while the window, lamp, and wall are several metres beyond it. By the third frame, the viewpoint has turned right so that the blank wall fills most of the view and the window is reduced to the far-left edge. In the fourth and fifth frames, the camera tilts and moves very close to a partly visible person or body-shaped foreground form, roughly within arm\u2019s reach, which heavily occludes the room; the figure\u2019s facing direction and gaze are not visible. The background lamp and window disappear almost completely as the near foreground fills the final frame, indicating continued turning or close approach rather than a clear retreat."
+ },
+ "duration_seconds": 11.7,
+ "usage": null,
+ "conversation_id": null
+}

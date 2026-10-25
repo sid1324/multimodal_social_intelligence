@@ -1,0 +1,18 @@
+{
+ "id": "348180aa-c90b-463a-8b3f-0743469a8b59_5526-16",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor paved path divided by a yellow center line, bordered by a grassy wooded slope on the left and dense grass on the right, with a white takeout container lying on the right edge about 1.5 to 2 metres ahead in the first frame. Three walkers are positioned to the camera wearer's left in a staggered line spaced roughly 0.6 to 0.8 metres apart from one another: a person in a blue jacket and white mask closest at about 0.5 to 1.0 metre, a person in a yellow top and white mask in the middle at 1.0 to 1.8 metres, and a person in a dark shirt, cap, and backpack furthest left at 1.8 to 2.5 metres. Two additional pedestrians walk along the path roughly 15 to 25 metres ahead in the upper right distance. All three nearby walkers on the left and the two distant pedestrians face forward down the path, with none looking toward the camera wearer. The person in the blue jacket is within arm's reach of the camera wearer on the left, and each of the three walkers on the left is within arm's reach of the adjacent person beside them. Across the five frames as the group moves forward, the camera viewpoint shifts upward and leftward\u2014causing the white container on the right to pass out of view after frame 1\u2014while the three walkers on the left move from being mostly cropped out at the left edge in frames 1 and 2 to fully visible in frames 4 and 5, where the person in the blue jacket partially occludes the person in yellow, who in turn partially occludes the person in the dark shirt."
+ },
+ "duration_seconds": 20.344987,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 1135,
+  "thinking_tokens": 710,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20713
+ },
+ "conversation_id": "883e363c-20dc-400c-a8ab-5fb09de550e5"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "695cefe9-04c0-42fb-80fc-d308b314b788_437-09",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room featuring a dark floor with a patterned rug in the foreground, a black folding screen and a metal clothing rack about 2.5 to 3.5 metres away on the left, a blue bag on the floor roughly 2 metres away behind the foreground area, and a sunlit windowed corridor with small white plant stands extending 3 to 6 metres away on the right. Throughout the sequence, a woman in a dark sleeveless top, glasses, and a green lanyard stands 0.6 to 1.2 metres in front of the camera wearer\u2014within or just at the edge of the camera wearer's arm's reach\u2014with her lower body cropped below the bottom edge of the frame. In the first frame, she stands about 1.1 metres away to the front-left with the black screen immediately behind her, facing forward-right and looking upward toward the camera wearer. Across the second and third frames, the camera view pitches downward as she moves slightly closer (to about 0.7 metres), turns her body toward the right-foreground, and bends down to reach a low round glass table at the bottom edge of the frame within her arm's reach. In the fourth and fifth frames, she straightens up to about 0.9 to 1.0 metre directly in front of the camera wearer\u2014partially occluding the black screen, blue bag, and clothing rack behind her\u2014first looking down at a small cylindrical jar held in both hands and then raising the jar to her face with her left hand while looking straight toward the camera wearer."
+ },
+ "duration_seconds": 22.189833,
+ "usage": {
+  "input_tokens": 5415,
+  "output_tokens": 1106,
+  "thinking_tokens": 707,
+  "cache_read_tokens": 28404,
+  "total_tokens": 6521
+ },
+ "conversation_id": "24d91af1-8025-455d-89df-8c2404a2afb5"
+}

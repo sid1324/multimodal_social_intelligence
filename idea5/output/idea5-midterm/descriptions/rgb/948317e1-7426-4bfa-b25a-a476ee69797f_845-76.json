@@ -1,0 +1,18 @@
+{
+ "id": "948317e1-7426-4bfa-b25a-a476ee69797f_845-76",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor commercial walkway bordered on the left by a vertical wooden slat wall and a floor-to-ceiling glass storefront, with a brighter open concourse ahead to the right in the background. In the first two frames, a person in a pink-and-black striped jacket stands on the left about 1.5 to 2 metres from the camera wearer facing away toward the wall, partially occluding a standing person in a grey top holding a phone within arm's reach (about 2.5 to 3 metres away), while on the right at roughly 2 to 2.5 metres stands a person in a patterned jacket and grey pants next to a person in a black Adidas hoodie at the far right edge who is about 1.5 metres away and facing toward the camera wearer. Along the base of the glass wall about 3.5 to 4.5 metres ahead, a person sits cross-legged on the floor flanked by several backpacks and bags within their arm's reach, and about 1 metre further right stands a person in a dark jacket with hands in pockets facing and looking toward the camera wearer, while another person stands much further back (about 10 to 12 metres away) near the storefront corner. Across frames 1 to 3, the camera wearer moves forward and slightly left: the person in the black hoodie on the right disappears out of the right edge of the view after frame 2, the person in the patterned jacket bends down and exits the lower-right edge of the frame by frame 4, and the person in the pink-and-black striped jacket passes close on the far left (within 1 metre in frame 3, turning their head rightward) before moving completely behind the camera's field of view in frame 4. By frames 4 and 5, the camera wearer has approached to within about 1.5 to 2 metres of the standing person in the grey top on the left and about 2.5 to 3.5 metres of the seated person and the standing person in the dark jacket on the right, all three of whom now face unoccluded toward the camera wearer with the person in the grey top holding a phone in their hands and backpacks resting on the floor below them."
+ },
+ "duration_seconds": 15.839412,
+ "usage": {
+  "input_tokens": 19632,
+  "output_tokens": 783,
+  "thinking_tokens": 239,
+  "cache_read_tokens": 14213,
+  "total_tokens": 20415
+ },
+ "conversation_id": "06f60736-5b07-4720-9b57-86a58325df3f"
+}

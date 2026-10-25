@@ -1,0 +1,12 @@
+{
+ "id": "25beabfc-48c0-4f81-b419-c47297aecf6f_203-09",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands directly behind a waist-high red-edged workbench or barrier, with a large gray-and-orange handheld tool about 0.3\u20130.6 m in front and within arm\u2019s reach; an orange case, small green-handled tools, and other items lie beside it at similar distance. Beyond the barrier is an open workshop aisle roughly 2\u20134 m wide, with shelves, benches, machines, boxes, and orange equipment extending about 2\u20138 m ahead; the nearest bench partly blocks the lower middle ground. One adult appears about 3\u20135 m ahead near the central work area, generally facing sideways or away from the camera and not clearly looking toward it, while additional partially visible figures may be present near the distant rear benches about 6\u20139 m away. The foreground tool and the camera wearer\u2019s hands occlude much of the lower center in several frames, while the left and right edges crop nearby shelving, cabinets, and parts of the workbench. Across the five frames, the viewpoint turns laterally through the workshop and then back, shifting the distant person and equipment from center-left to center-right without a clear approach or retreat; the handheld tool remains close but moves in and out of the lower foreground as the wearer turns."
+ },
+ "duration_seconds": 12.6,
+ "usage": null,
+ "conversation_id": null
+}

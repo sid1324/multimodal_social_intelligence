@@ -1,0 +1,18 @@
+{
+ "id": "a437e059-78be-4894-a7ab-dc27fa16d3f8_6791-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a steep, muddy outdoor trail flanked by grassy and shrubby vegetation, with a wooden boardwalk visible on the ground in the first frame and a white hat brim worn by the camera wearer partially occluding the lower foreground from the second frame onward. In the first frame, a person in light blue pants and a white hoodie stands about 1 to 1.5 metres in front of the camera wearer, facing forward with their head cropped out by the top edge of the view, while a black rain cover or garment sits within arm's reach at the bottom left. By the second and third frames, the view shifts to a second person in grey pants, a teal top, and a dark jacket standing on higher ground roughly 1.5 to 2 metres ahead and facing the camera wearer, who approaches to within 1 metre in the third frame as the camera wearer extends their left arm forward to clasp this person's outstretched right hand. Across the fourth and fifth frames, the camera wearer moves past that person toward a third person wearing dark pants, a blue rain poncho, and a yellow bag who stands about 2 to 2.5 metres ahead on the right side of the slope, facing the camera wearer with their head near or above the top frame boundary. During the fourth and fifth frames, a fourth person crouches on the muddy bank roughly 3 metres away to the upper left with their hands touching the ground, while the hood of a person very close to the camera wearer (less than 0.5 metres away) briefly enters the bottom right corner in the fourth frame before moving out of view as the poncho-clad person shifts closer (to about 1.5 to 2 metres) on the right."
+ },
+ "duration_seconds": 16.754904,
+ "usage": {
+  "input_tokens": 19565,
+  "output_tokens": 734,
+  "thinking_tokens": 311,
+  "cache_read_tokens": 14195,
+  "total_tokens": 20299
+ },
+ "conversation_id": "86ccf8bb-2bb0-48dc-88d8-af9e869b3e48"
+}

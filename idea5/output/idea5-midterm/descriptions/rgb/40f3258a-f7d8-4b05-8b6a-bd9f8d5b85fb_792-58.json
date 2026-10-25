@@ -1,0 +1,12 @@
+{
+ "id": "40f3258a-f7d8-4b05-8b6a-bd9f8d5b85fb_792-58",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor shop with merchandise shelves along the left and rear, an open floor in the center, and a checkout counter occupying the front-right area; a round table with chairs is initially about 1\u20132 m in front of the camera wearer. Across the five frames, the camera wearer turns and moves rightward toward the counter, causing the shelves and seating area to shift left and mostly leave the field of view while the counter grows larger and comes within arm\u2019s reach. One woman appears behind the counter in frames 3\u20135, decreasing from roughly 2\u20133 m to about 1\u20131.5 m from the camera wearer, with the counter separating them; she faces generally toward the camera and appears to look toward it in the later frames. Items on the counter, including dark rectangular equipment and small upright displays, are within the woman\u2019s arm\u2019s reach and become within roughly an arm\u2019s reach of the camera wearer by the final frame. The woman moves from near the center-right to the center and then right side of the view as the camera turns, while parts of her lower body remain occluded by the counter and the far-right counter area is partly cut off in the last frame."
+ },
+ "duration_seconds": 12.8,
+ "usage": null,
+ "conversation_id": null
+}

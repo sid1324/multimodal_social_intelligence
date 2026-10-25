@@ -1,0 +1,18 @@
+{
+ "id": "8f0f8606-b696-4bb2-909d-703e4e076d80_641-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor garage or workshop where the camera wearer stands immediately next to a vertical vehicle lift post on the right (within 0.5\u20131 m) and beneath an overhead raised platform visible in the upper portion of frames 2\u20134. Below and immediately in front of the wearer on the concrete floor (roughly 1\u20131.5 m away) is a loose tire next to a small cardboard box, with a red stand, stacked tires, and a motorcycle clustered about 2\u20134 m ahead to the left. In frame 1, a person in a dark shirt and white pants stands roughly 4\u20135 m away to the front-left, facing and looking toward the camera wearer while holding a leash connected to a white-and-black dog about 1 m to their right (3.5\u20134 m from the wearer). Beyond the lift post to the right in frames 2\u20134, a yellow riding lawn mower sits about 3.5\u20134.5 m away facing left, alongside a blue bin and red jack stand. Across the five frames, the camera wearer turns and tilts their head rightward and upward in frames 2\u20133 while raising their left arm to touch the overhead lift structure after holding a dark metal blade in their left hand in frames 1\u20132, before pitching their view sharply downward in frame 5 where their torso, feet, and a tool in their right hand are visible. Meanwhile, the person in the background goes out of view on the left edge in frames 2\u20134 before their lower body reappears at the top-left corner of frame 5 about 2.5\u20133 m away, while the dog approaches the camera wearer from about 4 m away in frame 1 to roughly 1.5\u20132 m away to the left in frame 5 (being mostly occluded by the wearer's raised left arm in frames 3\u20134) and looks up toward the wearer."
+ },
+ "duration_seconds": 22.353026,
+ "usage": {
+  "input_tokens": 19498,
+  "output_tokens": 474,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14201,
+  "total_tokens": 19972
+ },
+ "conversation_id": "0a292a6b-3297-401f-9b7d-71a1bc6ddfb8"
+}

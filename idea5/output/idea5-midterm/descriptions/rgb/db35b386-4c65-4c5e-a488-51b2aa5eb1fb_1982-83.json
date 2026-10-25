@@ -1,0 +1,18 @@
+{
+ "id": "db35b386-4c65-4c5e-a488-51b2aa5eb1fb_1982-83",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a large open outdoor stone-paved yard covered on the left and center with extensive rows of white trays on the ground, with a green-roofed building roughly 30 to 50 metres away in the background and a vertical pole about 4 to 6 metres ahead. In the first frame, a metal rack holding blue trays sits in the lower-left foreground within arm's reach (0.3 to 1 metre) of the camera wearer, while no other people are visible. In the second frame, the camera shifts right and a man in a red shirt appears directly in front of the camera wearer at about 0.5 metres (within arm's reach), facing toward the camera wearer with his head tilted slightly down and occluding the center of the yard behind him. In the third frame, the view pans further right toward the open pavement where the parallel shadows of both individuals are cast 1 to 3 metres ahead, leaving the man mostly cropped out at the bottom-left edge about 0.5 metres away. In the fourth frame, the man is visible in the lower-left foreground at roughly 0.8 to 1 metre away, standing within arm's reach with his torso and head turned to face rightward across the yard and away from the camera wearer. By the fifth frame, the man is positioned immediately to the camera wearer's left at about 0.5 metres with his head and torso out of view beyond the left frame edge and only his left shoulder and extended left arm visible in the lower foreground."
+ },
+ "duration_seconds": 27.370719,
+ "usage": {
+  "input_tokens": 5408,
+  "output_tokens": 1014,
+  "thinking_tokens": 619,
+  "cache_read_tokens": 28372,
+  "total_tokens": 6422
+ },
+ "conversation_id": "91d849b9-6f44-46ee-bb1c-82c665ed051b"
+}

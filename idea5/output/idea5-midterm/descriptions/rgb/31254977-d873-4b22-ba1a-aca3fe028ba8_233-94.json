@@ -1,0 +1,18 @@
+{
+ "id": "31254977-d873-4b22-ba1a-aca3fe028ba8_233-94",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a downward-angled egocentric view of an outdoor grass strip bordered by a curved pebble bed and concrete curb on one side and dense green bushes on the other, with no other people present. Directly in front of and below the camera wearer is a walk-behind lawnmower whose handlebar is held in both hands within arm's reach at about 0.3 to 0.6 metres from the torso, while its grey grass-catcher bag sits 0.7 to 1.0 metres ahead and its red engine deck rests on the ground roughly 1.2 to 1.5 metres away. In frames 1 and 2, the pebble border and roadway are 0.3 to 1.0 metres to the left and the bushes are 0.3 to 0.8 metres to the right as the wearer walks forward with arms bent and the handlebar held close to the body. In frame 3, the wearer's arms extend forward to push the handlebar about 0.6 metres away while pivoting the mower rightward along the curved pebble boundary, and through frames 4 and 5 the wearer and mower complete a turn that draws the handlebar back within 0.3 metres of the torso and flips the relative layout so the bushes lie to the left and the pebbles and curb lie to the right. Throughout all five frames, the camera wearer's green-shirted torso at the bottom edge occludes most of their legs and feet except for a shoe briefly visible beneath the handlebar, while the front edge of the mower and the surrounding roadway and shrubbery are partially cropped by the frame boundaries."
+ },
+ "duration_seconds": 20.847868,
+ "usage": {
+  "input_tokens": 5307,
+  "output_tokens": 1200,
+  "thinking_tokens": 794,
+  "cache_read_tokens": 28425,
+  "total_tokens": 6507
+ },
+ "conversation_id": "b004c396-7f9e-45dd-8270-01066bf1d88d"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "033520cd-e7e4-4649-b551-83bb451a4802_382-12",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands beside a plant-covered workbench in a greenhouse, with trays and small pots about 0.3\u20131.2 m in front and below the camera, while glass walls, benches, lights, and roof structure extend several metres behind and above. A person in a turquoise coat remains roughly 0.8\u20131.3 m ahead, generally facing the camera wearer, with their gaze shifting between the camera area, their raised hand, and the plants or board below. In frames 3\u20134, a second person in green enters from the left foreground to within about 0.2\u20130.5 m of the camera, faces right toward the turquoise-coated person, and raises a small yellow-and-black object near that person's head; the two people are approximately 0.3\u20130.6 m apart. The nearest plants, table edge, and the paper board appearing at lower right are within the camera wearer's arm's reach, while the raised object and nearby plants are within the other people's reach. The green-clad person partly occludes the left foreground and the turquoise-coated person's left side in the middle frames, then retreats out of view to the left by frame 5, leaving the turquoise-coated person centered ahead and the board more visible at lower right."
+ },
+ "duration_seconds": 17.5,
+ "usage": null,
+ "conversation_id": null
+}

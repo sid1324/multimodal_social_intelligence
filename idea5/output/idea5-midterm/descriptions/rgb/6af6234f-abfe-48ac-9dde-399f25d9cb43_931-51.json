@@ -1,0 +1,18 @@
+{
+ "id": "6af6234f-abfe-48ac-9dde-399f25d9cb43_931-51",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor eatery where the camera wearer is positioned at a small, round dark table about 0.3 to 0.9 metres in front of and below the viewpoint, with a woman seated across the table roughly 0.8 to 1.0 metre away and a row of illuminated glass-door beverage coolers spanning the background about 2.0 to 2.5 metres away (about 1.0 to 1.5 metres behind the woman). The woman, wearing a burgundy top and lanyard, sits facing the camera wearer with her crossed forearms resting on the far edge of the table, looking toward the camera wearer in the first frame before her eyes are cropped out. Several objects sit on the tabletop within arm's reach (0.3 to 0.7 metres) of both the camera wearer and the woman and about 0.1 to 0.3 metres from one another: a tall brown paper bag on the right, a green glass bottle immediately to its left, a white lidded cup directly behind the bottle near the woman's left arm, an orange candy pack in the lower center, and foil-wrapped food in small white trays to the left and near foreground. The green bottle partially occludes the white cup and the woman's left forearm behind it, while the brown paper bag is partially out of view along the right frame boundary. Across the five frames from left to right, the people and tabletop objects remain stationary relative to each other while the camera wearer's head pitches progressively downward and tilts slightly leftward, shifting the field of view so that the upper half of the woman's head moves out of frame at the top while more of the tabletop surface and foreground items come into view at the bottom."
+ },
+ "duration_seconds": 36.208968,
+ "usage": {
+  "input_tokens": 19613,
+  "output_tokens": 1307,
+  "thinking_tokens": 876,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20920
+ },
+ "conversation_id": "d6e0ee0b-b36f-4ec4-9f0e-928db56d9acd"
+}

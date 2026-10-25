@@ -1,0 +1,18 @@
+{
+ "id": "7c925095-c62a-4a7a-a2ca-118ca3f0176a_2-34",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a dimly lit outdoor paved plaza at night, viewed from a downward-angled head-mounted camera about 1.5 metres above the tiled ground. In the first two frames, the camera wearer's own two arms and hands extend forward into the lower foreground about 0.3 to 0.5 metres away and roughly 0.1 metres apart, while a wheeled rack or cart sits partly visible on the far upper left about 3 to 4 metres away and a light pole base stands about 5 to 6 metres ahead. In the third frame, the camera wearer lowers their arms nearly out of the bottom edge of the view and turns counterclockwise to the left while moving toward the wheeled rack. By the fourth frame, a person wearing a red and dark top enters the left foreground within 0.8 to 1.2 metres\u2014within arm's reach of both the camera wearer and a small wheeled stroller or cart positioned just to their right\u2014while the larger wheeled rack sits about 1.5 to 2 metres ahead on the right, all partially occluded by motion blur and low light. In the fifth frame, as the camera wearer steps slightly back or finishes turning left, the person in the red top stands about 1.5 to 2 metres ahead in the center-left facing right in profile toward the wheeled rack (within their arm's reach) and looking away from the camera wearer, while a second person in dark clothing becomes visible further behind and to the left at roughly 3 to 3.5 metres away, approximately 1.5 metres behind the first person, with both people's upper heads partly cropped or obscured by darkness."
+ },
+ "duration_seconds": 14.401233,
+ "usage": {
+  "input_tokens": 19513,
+  "output_tokens": 476,
+  "thinking_tokens": 57,
+  "cache_read_tokens": 14197,
+  "total_tokens": 19989
+ },
+ "conversation_id": "3cfd13ea-014a-4b22-adad-1e23bd2347dd"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "944aacb0-f596-460d-b5a6-9ae05df1d430_3528-77",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is in a cultivated field with dense rows of leafy green plants in the foreground, bare soil and black irrigation lines between rows, and trees along the distant horizon. In frame 1, a person is partly cut off at the upper-left edge, about 1\u20132 m away and facing generally toward the camera wearer; nearby plants are within the wearer\u2019s arm\u2019s reach. In frames 2\u20134, the same person appears crouched or seated ahead at roughly 1\u20133 m, shifting from near the center to the right side as the camera turns and moves along the crop row; the person is oriented partly toward the camera and occasionally appears to look in its direction. Several sacks or bundles lie on the ground behind and to either side of the person, separated from them by roughly 1\u20134 m, while a yellow bundle is farther back near the center-left; none is within the camera wearer\u2019s arm\u2019s reach. By frame 5, the leafy plants fill most of the lower and central view and partly occlude the soil and irrigation lines, while the person is near the upper-right edge, partially out of frame and about 2\u20133 m away, indicating that the camera has moved or turned leftward relative to them."
+ },
+ "duration_seconds": 10.4,
+ "usage": null,
+ "conversation_id": null
+}

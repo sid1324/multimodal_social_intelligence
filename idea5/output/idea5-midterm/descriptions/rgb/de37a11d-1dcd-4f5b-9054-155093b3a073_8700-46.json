@@ -1,0 +1,18 @@
+{
+ "id": "de37a11d-1dcd-4f5b-9054-155093b3a073_8700-46",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor dining area with a light-colored wooden table immediately in front of and below the camera wearer (0.3 to 0.8 m away), a round black table directly beyond it (1.0 to 1.8 m away), and a second round black table further back (2.2 to 3.5 m away) between a left-side wall bench and right-side windows. The camera wearer holds a smartphone at the bottom center within 0.3 to 0.4 m, while two upright menu stands and a dark cap rest within arm's reach (0.4 to 0.8 m) on the foreground table. Immediately to the left (0.4 to 0.6 m away), a person in a grey top with a burgundy bag sits facing forward-right with both hands resting on the table's left edge, while on the immediate right (0.5 to 0.7 m away), a mostly out-of-view person extends their left arm into the frame to hold the right-side menu stand. At the middle round table, a person in a dark blue quilted jacket sits on the left bench (1.2 to 1.6 m away) facing right with clasped hands on the tabletop across from a person in a black shirt on the right (1.5 to 2.0 m away) who faces left while holding a phone, and three additional people sit around the farthest table (2.2 to 3.5 m away) facing inward toward each other rather than toward the camera wearer. Across frames 1 to 3, the viewpoint remains angled downward so the heads of the people at the foreground and middle tables are cropped out at the top and right edges, whereas in frame 4 the camera wearer tilts slightly upward to reveal the upper room and the masked head of the person on the immediate left. In frame 5, the person on the immediate left leans forward and rightward to within 0.3 to 0.4 m of the camera wearer, causing their head and head-mounted camera in the left foreground to partially occlude the bench and the person in the blue jacket behind them."
+ },
+ "duration_seconds": 24.491921,
+ "usage": {
+  "input_tokens": 19621,
+  "output_tokens": 1380,
+  "thinking_tokens": 855,
+  "cache_read_tokens": 14208,
+  "total_tokens": 21001
+ },
+ "conversation_id": "a0b690d8-2fd6-4466-8e7f-6c02b38a83c4"
+}

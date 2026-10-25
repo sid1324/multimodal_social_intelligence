@@ -1,0 +1,18 @@
+{
+ "id": "555ff1a5-c30b-434c-a251-b5105cdc1fb9_1647-31",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room viewed from an elevated downward-angled perspective, featuring a patterned rug on the floor in the foreground and a dark cubby shelving unit against a wall about 1.2 to 2.0 metres ahead. A young child with hair in a top bun is positioned on the floor in the lower-left foreground, roughly 0.4 to 0.7 metres below and in front of the camera wearer, well within the camera wearer's arm's reach. Immediately to the right of the child on the rug (about 0.1 to 0.2 metres away from them and within both the child's and the camera wearer's reach) lies an open red folder or book with printed pages, while a tan storage bin filled with books sits on the floor about 0.5 metres behind the open book and 1.2 metres from the camera wearer, next to a white bag to its left and a smaller bin in the cubby to its right. Across all five frames, the child is crouched on the floor facing downward and slightly right toward the open book rather than looking toward the camera wearer, with the top and back of their head facing the camera. The child's lower body, left arm, and the bottom edge of the open red book are partially cropped out of the lower and left frame boundaries, and the child's head partially occludes the rug and objects directly behind them in the early frames. From left to right across the five frames, the camera viewpoint moves slightly closer and tilts further downward toward the floor, causing the shelves to shift higher and partially out of the top of the frame while the child shifts slightly from the bottom center-left toward the middle-left and turns their head slightly rightward toward the open pages."
+ },
+ "duration_seconds": 17.171531,
+ "usage": {
+  "input_tokens": 19571,
+  "output_tokens": 708,
+  "thinking_tokens": 268,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20279
+ },
+ "conversation_id": "1897a5f4-6c15-4748-8efc-1323911f44c6"
+}

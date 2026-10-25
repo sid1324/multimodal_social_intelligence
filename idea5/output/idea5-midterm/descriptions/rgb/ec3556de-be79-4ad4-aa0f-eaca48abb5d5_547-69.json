@@ -1,0 +1,12 @@
+{
+ "id": "ec3556de-be79-4ad4-aa0f-eaca48abb5d5_547-69",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the first four frames, a black tabletop or low cabinet fills the lower foreground about 0.3\u20130.8 m from the camera, with a red-and-white bottle near its front edge, a pale green object farther left, and a clear plastic bag with red and green contents near the right edge. A light-colored shelf or counter runs above the tabletop at roughly chest-to-head height and within about 0.5\u20131 m, holding several dark and red appliances or containers, while books and small items are partly visible beneath it. The objects remain close together\u2014generally 0.2\u20130.8 m apart\u2014and within the camera wearer's arm's reach, although the frame edges and the shelf partially occlude several of them. From frames 1 through 4, the viewpoint shifts and turns gradually to the right, making the tabletop objects slide leftward in view without a clear approach or retreat. In frame 5, the rightward turn reveals a brighter adjoining hallway or room about 1\u20134 m ahead; a partly visible person stands near the far-right doorway roughly 3\u20135 m away, mostly occluded by the image edge and blur, with their precise facing direction and gaze indeterminate."
+ },
+ "duration_seconds": 10.7,
+ "usage": null,
+ "conversation_id": null
+}

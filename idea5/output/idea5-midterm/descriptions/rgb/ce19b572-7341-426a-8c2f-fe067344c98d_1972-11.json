@@ -1,0 +1,18 @@
+{
+ "id": "ce19b572-7341-426a-8c2f-fe067344c98d_1972-11",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands at a supermarket checkout counter, with a stainless-steel bagging surface extending from roughly 0.3 to 1.8 metres ahead and to the right, a vertical plexiglass partition and card terminal along the counter's left edge at about 0.8 to 1.2 metres, a red shopping cart holding open reusable bags immediately to the lower left within 0.3 to 1.0 metres, and a potted-plant display about 3 to 5 metres away in the left background. Across the counter to the right, roughly 1.0 to 1.5 metres from the camera wearer and 0.5 metres right of the card terminal, stands a cashier in a red shirt and black gloves whose lower body is occluded by the counter. Various grocery items\u2014including blue-lidded tubs, cans, bottles, and packaged goods\u2014sit on the metal surface between the two people, placing them within arm's reach (under 0.8 metres) of both the cashier and the camera wearer, while the red cart and open bags remain within the camera wearer's immediate reach on the left. Throughout all five frames, the cashier's torso faces left toward the counter and their head is angled downward toward the groceries rather than looking at the camera wearer. Across the sequence, the camera wearer's viewpoint pitches slightly downward and rightward in frames 2 and 3 (partially cropping the reusable bags at the bottom left) as their left hand reaches onto the counter about 0.4 metres ahead, pitches back up in frame 4 as their right hand enters the lower-right foreground, and shifts down again in frame 5, while the cashier leans forward and extends both arms toward the camera wearer in frames 2 through 5 to move items closer along the counter."
+ },
+ "duration_seconds": 18.634942,
+ "usage": {
+  "input_tokens": 19553,
+  "output_tokens": 1201,
+  "thinking_tokens": 756,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20754
+ },
+ "conversation_id": "98cc99f8-5ed6-4847-8071-ed7948aa8bb8"
+}

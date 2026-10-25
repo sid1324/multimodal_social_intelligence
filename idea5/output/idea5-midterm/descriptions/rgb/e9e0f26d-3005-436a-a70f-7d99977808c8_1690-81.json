@@ -1,0 +1,18 @@
+{
+ "id": "e9e0f26d-3005-436a-a70f-7d99977808c8_1690-81",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor baseball or softball field featuring a grass outfield in the immediate foreground, a curved dirt infield arc roughly 5 to 30 metres ahead, and a perimeter fence, backstop, small white building with a brown roof, tall stadium light poles, and a dense tree line situated roughly 40 to 100 metres away beneath a partly cloudy sky. In frames 1, 2, and 5, the dirt infield spans the lower foreground from left to right with the backstop and building positioned in the centre-right background, where a couple of tiny, distant figures about 50 to 60 metres away near the fence and building are too far to discern their facing direction or gaze, while no people or objects are within arm's reach of the camera wearer. Tall light poles rise above the horizon at roughly 20 to 40 metres intervals from each other along the field perimeter, while the trees behind the fence partially occlude the background buildings and horizon. Across the sequence, the camera wearer stands on the grass near the outfield edge of the dirt arc and pans rightward and slightly downward from frames 1 and 2 into frames 3 and 4, shifting the dirt infield out of view to the left and bringing the open grass outfield, a distant flagpole, and the right-side tree line into the centre of the frame. By frame 5, the camera wearer turns rapidly back to the left with a clockwise head tilt, returning the dirt infield, stadium light poles, and background building to the lower and right portions of the view while a dark lens vignette remains visible in the upper-right corner across all frames."
+ },
+ "duration_seconds": 17.051838,
+ "usage": {
+  "input_tokens": 19577,
+  "output_tokens": 772,
+  "thinking_tokens": 359,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20349
+ },
+ "conversation_id": "9f12ee12-fbd2-47d4-b477-42f78c135885"
+}

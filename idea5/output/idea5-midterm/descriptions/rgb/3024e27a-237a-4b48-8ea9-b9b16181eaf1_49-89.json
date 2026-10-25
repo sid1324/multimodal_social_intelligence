@@ -1,0 +1,12 @@
+{
+ "id": "3024e27a-237a-4b48-8ea9-b9b16181eaf1_49-89",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is close to the edge of a small dining table, with the tabletop roughly 0.3\u20130.7 m ahead and a hanging light about 1\u20132 m above it. At least two other people are seated around the table: one is very close on the left/foreground, about 0.3\u20130.6 m from the camera, while another is across or to the right, about 0.8\u20131.3 m away; they are roughly 0.8\u20131.5 m from each other. Both people face generally inward toward the table, and their gaze toward the camera wearer cannot be determined because their faces are dark, angled, or partly outside the frame. Plates, cutlery, napkins, a drinking glass, and small table items lie within arm's reach of the seated people, while the nearest place setting and table edge are within the camera wearer's reach. Heads, arms, and torsos are repeatedly occluded by the frame boundaries and low viewpoint, with some people only partly visible. Across the five frames the viewpoint turns mainly to the right around the table, shifting the nearby person from the left edge toward the foreground/right and bringing different portions of the opposite diner and place settings into view, without a clear approach or retreat."
+ },
+ "duration_seconds": 13.4,
+ "usage": null,
+ "conversation_id": null
+}

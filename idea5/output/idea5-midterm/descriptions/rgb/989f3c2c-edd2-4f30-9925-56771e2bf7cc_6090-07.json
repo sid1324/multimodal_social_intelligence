@@ -1,0 +1,18 @@
+{
+ "id": "989f3c2c-edd2-4f30-9925-56771e2bf7cc_6090-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated in the front right passenger seat of a car traveling forward along a wet multi-lane urban road flanked by a grassy median on the left and buildings on the right. Within arm's reach (0.4 to 0.9 m) in front and to the left are the dashboard, center console, and windshield with an overhead rearview mirror, while the right A-pillar, passenger window, and side mirror are 0.4 to 0.6 m to the right. A driver sits roughly 0.6 to 0.8 m to the left of the camera wearer, mostly out of frame in the first four images until the viewpoint tilts slightly down and left in the fifth frame to show the steering wheel, the driver's legs, and a hand near the lower console. Outside through the rain-speckled windshield, a red hatchback travels in the left lane about 12 to 18 m ahead and a motorcyclist rides in the right lane about 10 to 15 m ahead and 3 to 4 m to the right of the red car, both facing away in the direction of traffic without looking toward the camera wearer. The car's pillars, dashboard, rearview mirror, and windshield raindrops partially occlude the exterior scene, where an orange roadside barrier 4 to 5 m to the right in the first frame passes out of view behind the car as the vehicle advances toward a silver SUV 12 to 15 m ahead on the far right in the final two frames."
+ },
+ "duration_seconds": 21.397848,
+ "usage": {
+  "input_tokens": 19571,
+  "output_tokens": 1133,
+  "thinking_tokens": 741,
+  "cache_read_tokens": 14198,
+  "total_tokens": 20704
+ },
+ "conversation_id": "fb35ddbf-4a2a-41fd-aece-5386f684e5ad"
+}

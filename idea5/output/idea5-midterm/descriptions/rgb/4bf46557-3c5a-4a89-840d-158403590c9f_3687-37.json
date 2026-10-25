@@ -1,0 +1,18 @@
+{
+ "id": "4bf46557-3c5a-4a89-840d-158403590c9f_3687-37",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a large open outdoor courtyard paved with square stone tiles, bordered in the distance (roughly 30 to 50 metres away) by a low perimeter wall and trees under an overcast sky. In Frame 1, a metal rack cart holding blue trays sits on the left within 1 to 2 metres of the camera wearer, while large patches of molded pulp egg trays lie spread flat across the ground from about 4 metres to over 20 metres ahead. In Frame 2, as the camera wearer turns to the right, a stack of egg trays is held within arm's reach at the bottom foreground (less than 0.5 metres away, partly cut off by the lower frame edge), a neat grid of trays lies on the ground 2 to 6 metres ahead to the right, and two distant people (roughly 20 to 25 metres away on the right, standing 1 to 2 metres apart near a vertical pole and a second wheeled rack cart) bend and face toward the ground rather than looking at the camera wearer. Across Frames 3 and 4, the camera tilts downward and pans left so the distant people and cart move out of view (except one person partly visible at the far right edge of Frame 3), while the held stack of trays remains in the lower right foreground within arm's reach and the ground patches of trays extend from 3 to 20 metres on the left. In Frame 5, the camera levels out and pans back toward the right, bringing the two distant people (still about 20 to 25 metres away and about 2 metres apart near the pole, with one facing left and the other seen from the side/back) back into view while the foreground held trays drop completely below the bottom frame edge."
+ },
+ "duration_seconds": 14.287615,
+ "usage": {
+  "input_tokens": 19557,
+  "output_tokens": 526,
+  "thinking_tokens": 82,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20083
+ },
+ "conversation_id": "499bbf70-e8d7-4b7a-a4ec-bfbad7fe3a4e"
+}

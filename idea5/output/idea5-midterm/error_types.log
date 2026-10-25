@@ -1,0 +1,3 @@
+gpt rgb 63 {'spatial': 1, 'perception': 42, 'norm': 13, 'ambiguous': 7}
+gemini rgb 67 {'spatial': 1, 'perception': 40, 'norm': 21, 'ambiguous': 5}
+qwen32 rgb 87 {'spatial': 1, 'perception': 55, 'norm': 21, 'ambiguous': 10}

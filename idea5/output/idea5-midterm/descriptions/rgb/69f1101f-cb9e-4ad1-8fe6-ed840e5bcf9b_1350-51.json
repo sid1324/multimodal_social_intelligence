@@ -1,0 +1,12 @@
+{
+ "id": "69f1101f-cb9e-4ad1-8fe6-ed840e5bcf9b_1350-51",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor clothing area with large windows along the left and rear walls, garment racks across the middle and right, and a doorway in the back-right area. A person in an orange top remains roughly 0.7\u20131.5 m in front of the camera wearer, initially near center-right and later at the far right; they turn from facing left toward a rack to facing generally toward the camera, with their hands and nearby hanging garments within arm\u2019s reach. Another person in dark clothing appears about 1.5\u20132.5 m away near the center-left in the earlier frames, partly occluded by racks and motion blur, and is roughly 1\u20132 m from the person in orange. As the camera wearer moves and turns right, the racks and the orange-clad person shift from the center toward the right, while a light-colored garment on a black hanger moves into the immediate foreground, about 0.2\u20130.6 m away, and heavily occludes the center of the fourth frame. Clothing rails and hangers occupy the near foreground at about 0.3\u20131 m, with some garments cut off by the image edges; in the final frame the orange-clad person is facing toward the camera wearer from about 1 m away, while the light garment remains between them and within arm\u2019s reach of both."
+ },
+ "duration_seconds": 9.7,
+ "usage": null,
+ "conversation_id": null
+}

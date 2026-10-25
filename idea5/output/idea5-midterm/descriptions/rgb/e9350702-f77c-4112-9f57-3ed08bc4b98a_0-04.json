@@ -1,0 +1,12 @@
+{
+ "id": "e9350702-f77c-4112-9f57-3ed08bc4b98a_0-04",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor seating area with a gray sofa along the left/back side, a glass-topped side table behind it, a patterned rug below, and dark flooring extending across the center and right. In frames 1\u20133, an adult in a white shirt and burgundy trousers stands roughly 0.3\u20130.7 m in front-right of the camera wearer, with only the torso and one arm visible; the person faces generally toward the camera wearer, though the head is out of frame, so gaze cannot be determined. The sofa is about 0.5\u20131.2 m behind and left of that person, and the side table and its small objects are roughly 1\u20131.5 m from the camera; the person, sofa edge, and nearby tabletop are within or near arm\u2019s reach. Across the first three frames, the white-shirted person shifts slightly closer and farther right while the viewpoint turns right, causing the person to occupy progressively more of the foreground. In frames 4\u20135, a second adult in black moves extremely close, approximately 0.1\u20130.4 m in front of the camera, and their torso heavily occludes the first person and most of the room; only partial floor, furniture, and bright objects remain visible at the edges as the camera continues turning right."
+ },
+ "duration_seconds": 9.8,
+ "usage": null,
+ "conversation_id": null
+}

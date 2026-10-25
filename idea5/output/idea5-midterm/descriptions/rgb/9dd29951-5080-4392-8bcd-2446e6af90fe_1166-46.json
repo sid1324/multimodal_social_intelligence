@@ -1,0 +1,12 @@
+{
+ "id": "9dd29951-5080-4392-8bcd-2446e6af90fe_1166-46",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is inside the front of a car, with the dark roof and rear-view mirror above, the dashboard and windshield directly ahead, and parts of the side windows at the edges. A steering wheel and a person\u2019s partially visible hand/forearm appear roughly 0.5\u20131 m in front-left of the camera wearer; the rest of that person is mostly below or outside the frame, so their facing direction and gaze are not visible. Through the windshield, a residential street extends forward, bordered by houses, lawns, trees, sidewalks, parked vehicles, and roadside posts or barriers, generally about 5\u201350 m away; opposite-side houses and objects are typically separated by the road\u2019s roughly 8\u201312 m width. No pedestrians are clearly visible, and the nearest exterior objects are the road edge, curb, and roadside barriers several metres ahead or to the right, while only the car interior is within arm\u2019s reach. From frame 1 to frame 5, the car advances along the street and the viewpoint turns progressively right, causing left-side houses and trees to move out of view while the road, right-side barriers, and right-side houses shift toward the center; the roof and mirror repeatedly occlude much of the upper scene."
+ },
+ "duration_seconds": 11.2,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,12 @@
+{
+ "id": "b8ba4ac1-4134-44aa-99db-25efaa058e98_277-37",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the five frames, the camera wearer is in a furnished living room with wood flooring, rugs, sofas or armchairs, side tables, lamps, windows, wall art, and shelving, with most furniture about 1\u20134 m away. In frames 1\u20133, one person stands roughly 2\u20133 m in front of the wearer near the windows and seating area, generally facing sideways or away rather than clearly looking toward the camera. As the wearer turns and moves rightward, the standing person shifts from the center-right to the left side of view, while lamps, chairs, and tables slide across the background; several objects at the image edges are partly cut off. Frame 4 is heavily motion-blurred during a downward or rightward turn, and a dark nearby body or object occupies much of the left-center foreground, apparently within about 0.5\u20131 m and occluding the room. In frame 5, the camera points steeply downward over a yellow-topped coffee table about 0.5\u20131 m away, with small objects on it within arm's reach, while another person's lower body is partly visible near the upper-right edge roughly 1\u20132 m away."
+ },
+ "duration_seconds": 10.2,
+ "usage": null,
+ "conversation_id": null
+}

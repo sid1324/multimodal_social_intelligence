@@ -1,0 +1,18 @@
+{
+ "id": "356661f5-767b-495d-95c7-03dcc46f85c6_1860-68",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor residential area where a paved walkway runs between a chain-link sports-court fence and a planted dirt bed with a small tree, bordering an asphalt parking lot with painted stalls, a large blue dumpster, and background buildings roughly 30 to 60 metres away. In the first frame, a child in a red helmet is about 1.5 to 2 metres ahead and below on the right side of the walkway, holding an orange bicycle within arm's reach while facing and looking up toward the camera wearer, with the chain-link fence about 1 to 2 metres to the right and partly cropped by the right frame edge. In the second frame, the viewpoint shifts toward the parking lot with the child out of view and a small tree standing about 1.5 metres directly ahead\u2014just within or near the camera wearer's arm's reach and partially occluding the sidewalk and lot behind it\u2014while a second cyclist in a pink shirt is 10 to 12 metres away on the right, about 1 to 2 metres in front of the blue dumpster (12 to 15 metres away), facing right and not looking at the camera wearer. Across the third and fourth frames, the camera wearer advances onto the sidewalk next to the parking lot and rotates clockwise past the fence corner (within 1 to 1.5 metres on the far left in the third frame) and the blue dumpster (7 to 10 metres ahead on the left) toward the empty parking stalls 2 to 8 metres ahead, placing both people and the tree completely out of view. By the fifth frame, the camera wearer faces down the sidewalk to the right with the parking stalls 2 to 10 metres to the left, bringing the blue dumpster (12 to 15 metres away in the upper right) and the pink-shirted cyclist (10 to 12 metres away just in front of the dumpster, gripping their bicycle within arm's reach and facing right away from the camera wearer) back into view while foliage is partially cut off at the bottom-right edge."
+ },
+ "duration_seconds": 35.50253,
+ "usage": {
+  "input_tokens": 19517,
+  "output_tokens": 2165,
+  "thinking_tokens": 1656,
+  "cache_read_tokens": 14203,
+  "total_tokens": 21682
+ },
+ "conversation_id": "31301e00-cd18-40ec-8ae0-935e074f8f2b"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "71504f29-61c1-49e5-8617-d0e71144c077_652-01",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer looks steeply downward from an egocentric viewpoint at their own torso (0.2 to 0.4 metres below the camera) and a green work surface positioned directly in front of and below them at roughly 0.4 to 0.7 metres distance, where all tools and parts lie within arm's reach. On the center of the green surface rests a metal brake caliper bracket, flanked within 0.05 to 0.35 metres by a white lubricant bottle on the left, rusty brake pads and an aerosol can along the top edge, and a red-handled pick, a wire brush, red rags, and a rotary tool along the right edge. Directly beneath and beside the green surface at 0.6 to 1.5 metres distance are suspension springs, a blue tarp on the left, and a rusted metal assembly on a cart to the right, while a red car wheel sits 1.5 to 2.5 metres away in the upper-right background. From frames 1 to 4, the wearer's hands move from holding the central bracket (frame 1) to opening the white bottle on the upper left where the right arm partially occludes the brake pads and spray can (frame 2), then separating as the right hand lifts the applicator brush to the right (frame 3) before bringing the brush back to meet the bracket held in the left hand (frame 4). In frame 5, the camera wearer rotates clockwise toward the right, shifting the green surface and their hands into the lower-left foreground while revealing a black wheel on the floor to the lower right (about 1.2 to 1.5 metres away), a cardboard box on the cart ahead, and the lower legs and feet of a second person standing about 2.5 to 3.0 metres away in the upper-right corner whose upper body is cropped out of view and who is oriented sideways rather than facing the camera wearer."
+ },
+ "duration_seconds": 26.996554,
+ "usage": {
+  "input_tokens": 19515,
+  "output_tokens": 1647,
+  "thinking_tokens": 1162,
+  "cache_read_tokens": 14199,
+  "total_tokens": 21162
+ },
+ "conversation_id": "fcb2d4a1-e217-4ab3-82d0-b5cbc9dfbdc5"
+}

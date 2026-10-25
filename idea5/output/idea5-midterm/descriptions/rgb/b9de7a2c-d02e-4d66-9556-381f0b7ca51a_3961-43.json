@@ -1,0 +1,18 @@
+{
+ "id": "b9de7a2c-d02e-4d66-9556-381f0b7ca51a_3961-43",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated on a blue padded floor mat and looks steeply downward toward their own grey-trousered legs and lap, with a darker floor border visible along the far right edge. In the lower center at about 0.3 to 0.4 metres from the viewpoint, the wearer holds a smartphone in a light purple case within arm's reach, which faces the wearer and partially occludes their shoe resting on the mat directly behind it. In the first frame, the wearer holds the phone with their right hand while their left hand hovers just to its left, and across frames two through five both hands hold the phone with the thumbs moving over the screen. To the left at roughly 0.5 to 0.8 metres from the camera wearer and about 0.3 to 0.5 metres left of the wearer's knee\u2014within arm's reach of the wearer\u2014a second person in black clothing sits cross-legged with their hands resting on their legs, oriented diagonally toward the front-right, while their upper torso and head remain out of view beyond the left edge across all five frames. Ahead on the mat at the top edge of the frame, roughly 1.2 to 1.5 metres in front of the camera wearer and about 0.8 to 1.0 metres beyond the cross-legged person, a third seated person is almost completely cut off by the upper border in frames one through three, before a slight upward shift in view in frames four and five reveals their red top, legs, and resting left arm while their head remains out of view above the frame."
+ },
+ "duration_seconds": 19.870574,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 1088,
+  "thinking_tokens": 683,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20666
+ },
+ "conversation_id": "e5f2905e-e8d3-498b-af33-f3ef64d3858d"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "82e96128-1242-4e57-8a3e-9ea222df022c_3457-40",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor urban street lined with a red-and-yellow vendor cart and a row of parked white scooters on the left under an elevated structure, and multi-story commercial buildings with a white parked SUV on the right. In the foreground left, the vendor cart is roughly 1.5 to 2.5 metres from the camera wearer, with a black motorcycle helmet entering the bottom-left frame within arm's reach (under 1 metre) in frames 4 and 5, while two seated people behind the cart on the left sidewalk become visible in frame 5 about 3 to 4 metres away. A pedestrian in a blue-and-white checkered shirt, white trousers, and a backpack walks down the middle-right of the roadway directly toward the camera wearer, approaching from roughly 10 metres away in frame 1 to about 2 metres away in frame 5 while facing forward and glancing down at a handheld object within his own arm's reach rather than looking at the camera wearer. In frame 1, a yellow flatbed three-wheeler truck on the right passes from roughly 3 metres in front of the camera wearer to 15 metres ahead by frame 4, initially occluding two standing men on the right roadside (about 7 to 8 metres away, facing each other roughly 1 metre apart) who become visible in frames 2 and 3 before exiting the right edge of the view. A person riding a grey scooter also approaches from the far road ahead (roughly 20 metres away in frame 3) and passes on the right side of the road at about 5 metres from the camera wearer in frame 4, roughly 2.5 metres to the right of the approaching pedestrian."
+ },
+ "duration_seconds": 44.084024,
+ "usage": {
+  "input_tokens": 19565,
+  "output_tokens": 528,
+  "thinking_tokens": 96,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20093
+ },
+ "conversation_id": "6fdd0e7b-d126-4181-bb62-1fc182930546"
+}

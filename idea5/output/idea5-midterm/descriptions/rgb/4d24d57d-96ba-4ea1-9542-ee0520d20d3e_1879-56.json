@@ -1,0 +1,18 @@
+{
+ "id": "4d24d57d-96ba-4ea1-9542-ee0520d20d3e_1879-56",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor paved area with a grass edge to the left, where the camera wearer stands facing a black metal A-frame trailer tongue located 0.3 to 0.7 metres in front of and below the camera, hitched between a tow vehicle's rear bumper on the left (about 0.5 to 0.8 metres away) and a wooden-deck trailer bed on the right. In the first frame, the camera wearer's right hand rests on the trailer's front rail within arm's reach while the lower legs of another person are partially visible about 3 metres away near the upper-left edge of the trailer bed, with the rest of their body cropped out of the top of the frame. Across frames two and three, the camera wearer turns slightly left and tilts the viewpoint steeper downward, using both hands at a distance of 0.4 to 0.6 metres to lift the triangular metal toolbox lid from left to right and expose coiled grey straps and metal chains inside that were previously occluded by the closed lid. In frame four, while the camera wearer's left hand holds a coiled strap in the left corner of the open box, a second person approaches from the upper left to within 0.6 to 0.9 metres of the camera wearer and 0.3 to 0.5 metres of the toolbox. By the fifth frame, this second person\u2014wearing a red shirt and jeans, facing rightward toward the toolbox and the camera wearer, with their head and upper torso out of view beyond the upper-left border so their gaze cannot be seen\u2014moves closer to about 0.5 to 0.7 metres from the camera wearer and places their right hand within arm's reach on the same strap held by the wearer's left hand, while the tow vehicle and trailer bed remain mostly cropped out at the left and right edges."
+ },
+ "duration_seconds": 29.513579,
+ "usage": {
+  "input_tokens": 19523,
+  "output_tokens": 2058,
+  "thinking_tokens": 1595,
+  "cache_read_tokens": 14208,
+  "total_tokens": 21581
+ },
+ "conversation_id": "d3c6b404-d05a-4c83-a88d-59f0889238fc"
+}

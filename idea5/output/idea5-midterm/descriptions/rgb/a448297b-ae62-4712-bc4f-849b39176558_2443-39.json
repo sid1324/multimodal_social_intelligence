@@ -1,0 +1,18 @@
+{
+ "id": "a448297b-ae62-4712-bc4f-849b39176558_2443-39",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor baseball or softball field viewed from the grassy outfield with the camera angled sharply upward, placing a wide expanse of blue sky and white clouds across the upper three-quarters of the frame and the field along the bottom edge. Directly in front of the camera wearer, the green outfield grass extends for roughly 5 to 10 metres before meeting the curved brown dirt infield, which spans from about 10 to 40 metres ahead. A single distant person stands on the dirt infield near the center of the frame, roughly 25 to 35 metres in front of the camera wearer and a few metres to the right of a small white base or pitcher's plate, though at this distance their exact facing and gaze direction are indistinct and nothing other than the ground is within arm's reach of either the camera wearer or the distant person. Beyond the dirt infield, roughly 35 to 50 metres away, a chain-link backstop and fence line run horizontally in front of a dark-roofed dugout shelter and white bleachers to the right of center, flanked by four tall stadium light poles spaced roughly 15 to 25 metres apart from the far left to the far right against a backdrop of dense trees. The ground in the immediate foreground below the camera wearer and the structures beyond the left and right edges of the field are cropped out of view, while the background trees are partially occluded by the dugout, fencing, and light poles. Across the five frames from left to right, the camera wearer's head tilts slightly downward and levels out from a rightward roll in the second frame, shifting more of the foreground grass into the bottom of the view while the distant person and field structures remain at a nearly constant distance."
+ },
+ "duration_seconds": 21.388565,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 753,
+  "thinking_tokens": 322,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20333
+ },
+ "conversation_id": "e21d82a5-f9f9-40f6-abb9-1457d0ffd7e4"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "9a33e9f1-a740-4810-a624-62b0c9935741_1894-42",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor salon with a tiled floor, a brick fireplace structure on the right about 3 to 4 metres away, a black rolling cart immediately left of the fireplace, and blue salon chairs and seating units along the left and upper-left background 3 to 5 metres away. Directly in front of and below the standing camera wearer, at a distance of roughly 0.4 to 0.6 metres and within arm's reach, sits a person in a white jacket facing forward away from the camera wearer, with their head tilted down and lower body cut off by the bottom frame edge. The camera wearer holds a black hairdryer and a round brush within 0.3 to 0.5 metres of the viewpoint, directly above and touching the seated person's hair. In the upper-left background about 3 to 4 metres away, a small child stands facing a blue manicure chair while a seated adult sits just behind and to the left of the child (about 0.5 to 1 metre apart), both facing roughly rightward/away from the camera wearer and not looking toward the viewpoint; both the child's and the distant adult's heads are partially occluded by the raised hairdryer and the camera wearer's left arm in the second through fourth frames. Across the five frames, the camera wearer's left hand raises the hairdryer higher into the upper-left foreground in frame 2, angles it downward toward the seated person's hair in frames 3 and 4 while the right hand holds the brush below it on the left side of the head, and shifts the hairdryer slightly lower and to the left in frame 5, while the people and furniture in the room remain largely stationary."
+ },
+ "duration_seconds": 11.508418,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 441,
+  "thinking_tokens": 11,
+  "cache_read_tokens": 14210,
+  "total_tokens": 20019
+ },
+ "conversation_id": "b8d599ec-a883-4e6e-8d7d-e8d61d708509"
+}

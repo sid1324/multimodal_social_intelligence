@@ -1,0 +1,12 @@
+{
+ "id": "f0041c6c-06b2-4c3b-b8e6-934305b4226e_6185-52",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show a grassy outdoor area viewed steeply downward, with the camera wearer\u2019s yellow-clad torso and arms along the lower edge. In the first frame, several people are roughly 1\u20133 m ahead and to the left, including a person in a red jacket, while some bodies are cropped by the top and side edges. A tan dog appears about 1\u20132 m ahead in the middle frames, and a dark-clothed person with light-blue trim and pale shoes moves from the front-right to very close in front of the wearer, about 0.5\u20131 m away, partly occluding the ground. Across the later frames, the wearer turns or pans right: the nearby dark-clothed person shifts toward the left, another person\u2019s black-clad legs enter within roughly 0.5 m, and a burgundy-clothed person becomes partly visible at the right edge. The wearer\u2019s right arm extends forward-right and is within arm\u2019s reach of the nearby people and, in the final frame, the tan dog about 0.5\u20131 m ahead-right; faces are mostly out of view, so gaze direction cannot be determined."
+ },
+ "duration_seconds": 16.9,
+ "usage": null,
+ "conversation_id": null
+}

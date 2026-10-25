@@ -1,0 +1,18 @@
+{
+ "id": "39208fca-0c54-48e9-b4f3-b4803bb67661_3315-32",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor laboratory or office corridor and workspace pitched downward from the head-mounted camera, starting at a beige-floored doorway and transitioning onto a speckled grey floor marked with yellow boundary tape and circular floor stickers. Throughout all five frames, the camera wearer's own hands are visible below at 0.3 to 0.5 metres in front of the body, holding a small clear plastic bag within arm's reach while walking forward. In frames 1 and 2, a mobile whiteboard on casters stands 1.5 to 2 metres ahead on the right and a doorway partition is 1 metre to the left, while in frame 3 the wearer passes within 0.5 metres of white plastic jugs and a red fire extinguisher on the lower left and a reflective cabinet on the right. As the camera wearer advances and turns slightly right in frames 4 and 5, a rectangular light-wood desk comes into view ahead, closing from roughly 1.5 metres away in frame 4 to about 0.6 metres (within arm's reach of the wearer's extended right hand) in frame 5, with a monitor and keyboard on its left side and a paper tray and notepad on its right. A second person wearing a white lab coat stands behind the right end of the desk against a brick wall, about 1.8 metres from the wearer in frame 4 and 1.0 to 1.2 metres away in frame 5, facing toward the desk and the camera wearer with both hands resting on the desktop within arm's reach of the notepad, eyeglasses, and paper tray. Because of the downward camera tilt, the second person's head and upper shoulders are cropped out of the top of the frame so their gaze direction is not visible, and the monitor partially occludes the desk surface behind it."
+ },
+ "duration_seconds": 15.230549,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 642,
+  "thinking_tokens": 189,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20220
+ },
+ "conversation_id": "d33022f3-5ec8-44e4-ad2a-961659c116d0"
+}

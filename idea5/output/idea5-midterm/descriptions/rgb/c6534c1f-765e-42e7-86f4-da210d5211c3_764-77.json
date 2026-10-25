@@ -1,0 +1,12 @@
+{
+ "id": "c6534c1f-765e-42e7-86f4-da210d5211c3_764-77",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands in front of a long service counter, with the countertop and small round side tables about 0.5\u20131.5 m ahead and a beverage-preparation area, cabinets, shelves, and wall displays behind them about 2\u20134 m away. A nearby worker remains roughly 1\u20132 m in front of the camera, initially near the center-right and facing toward the camera wearer, with gloved hands held within their own arm\u2019s reach; across the frames, this worker shifts farther right and turns partly left toward the preparation area. A second worker is about 2\u20133 m away behind the counter, appearing near the far left in the earlier frames and near the center-left in the final frame because the camera turns right; this person faces mostly toward the equipment rather than directly toward the camera wearer. The nearby worker and counter intermittently occlude parts of the cabinets and equipment, while additional counter sections, tables, and wall areas enter from the right and objects on the far left move out of view as the viewpoint pans right. Items on the nearest counter edge and the closest small table are approximately within the camera wearer\u2019s arm\u2019s reach, whereas the machines, cups, containers, and shelves behind the counter are within the workers\u2019 reach but not the camera wearer\u2019s."
+ },
+ "duration_seconds": 11.9,
+ "usage": null,
+ "conversation_id": null
+}

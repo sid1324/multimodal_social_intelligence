@@ -1,0 +1,18 @@
+{
+ "id": "e87752b1-35a5-4cd7-9b95-a4b28129f9f3_932-40",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place on an elevated wooden scaffolding platform roughly 1.5 to 1.7 metres below the head-mounted camera, which angles downward over the camera wearer's nose, chin, and red-shirted torso toward a white wall and horizontal metallic duct about 0.4 to 0.8 metres in front of the wearer. The camera wearer holds a clipboard with diagrams in their blue-gloved left hand about 0.3 to 0.5 metres from the lens and a spray can in their right hand, all within immediate arm's reach alongside the wall and duct in front of them. A second person wearing a yellow high-visibility vest and dark trousers stands on the scaffolding to the left side of the image (the wearer's right), facing mostly toward the wall and scaffolding rather than looking at the camera wearer, with another spray can resting on the duct near them at roughly 1.0 to 1.5 metres from the wearer. Across all five frames, the camera wearer's chest and arms occlude the planking directly beneath their feet, while the second person's head and parts of their upper body are cropped out by the left and upper-left edges of the field of view. In frames 1 and 2, the wearer's right arm is extended forward and upward toward the red- and green-marked wall at about 0.6 metres while the second person stands roughly 1.2 to 1.5 metres away, whereas in frame 3 the wearer begins retracting their right arm as the other person steps closer to about 1.0 metre. By frames 4 and 5, the camera wearer rotates slightly and lowers the spray can to chest height within 0.2 metres of the clipboard and 0.4 metres of the camera, while the second person approaches to within 0.5 to 0.8 metres, bringing the two people within arm's reach of each other."
+ },
+ "duration_seconds": 27.692755,
+ "usage": {
+  "input_tokens": 5309,
+  "output_tokens": 1389,
+  "thinking_tokens": 910,
+  "cache_read_tokens": 28417,
+  "total_tokens": 6698
+ },
+ "conversation_id": "7570cc74-c446-4102-bb9c-433fbbe1e637"
+}

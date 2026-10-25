@@ -1,0 +1,18 @@
+{
+ "id": "09690df3-0715-4875-8745-7e8830c761d0_341-62",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor brick-paved pathway sloping upward toward the upper right, bordered on the left by a grassy embankment with stone steps and a retaining wall above. Three people are present in front of the camera wearer: Person A (white long-sleeved shirt, light beige pants, head strap) on the front-left, Person B (light blue jacket, blue jeans) further ahead in the front-left to center-left, and Person C (black puffer jacket with white hood, brown pants) on the front-right. Across the five frames, the camera wearer approaches all three people while panning right and left: Person A starts roughly 1.8 metres away on the left, is mostly cropped at the bottom-left edge in frame 2 as the camera pans right, turns her head over her right shoulder to look back toward the camera wearer at about 1.2 metres in frame 3, and faces forward again while coming within arm's reach (about 0.6 to 0.8 metres) on the left by frame 5. Person B walks forward away from the camera wearer along the left edge of the path and onto the grassy steps, closing from roughly 3.0 metres in frame 1 to about 2.0 metres in frame 5, keeping roughly 1.2 to 1.5 metres ahead of Person A and 1.5 to 2.0 metres to the left of Person C. Person C is almost entirely out of view at the bottom-right corner in frame 1 and partially cropped at the right edge in frame 3, while appearing at roughly 1.2 to 1.5 metres on the right in frames 2, 4, and 5 (about 1.2 to 1.8 metres right of Person A) facing forward and slightly left, with her upper head cropped by the top edge in frame 5 alongside Person B's upper head. Aside from Person A coming within arm's reach of the camera wearer in the final frames, none of the three people are within arm's reach of one another, and all three have their lower legs partially cropped by the bottom frame boundary at various points."
+ },
+ "duration_seconds": 16.278991,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 738,
+  "thinking_tokens": 212,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20317
+ },
+ "conversation_id": "7b59899f-d504-4d27-b4c5-1be5f9f4d1cd"
+}

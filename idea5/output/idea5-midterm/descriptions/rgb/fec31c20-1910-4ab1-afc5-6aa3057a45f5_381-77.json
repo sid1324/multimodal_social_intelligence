@@ -1,0 +1,18 @@
+{
+ "id": "fec31c20-1910-4ab1-afc5-6aa3057a45f5_381-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first two frames, the camera wearer looks down and ahead at an indoor lounge area featuring a glass-topped side table and a snare drum on a stand within 1.5 to 2 metres in front, a dark brown sofa with light pillows to the right at 1.5 to 2.5 metres, a grey armchair to the left at 2.5 to 3 metres, and a white bookcase and table lamp 4 to 5 metres away in the background. Both the near edge of the glass table and the near end of the dark sofa are within or just outside the camera wearer's arm's reach and are partially cut off by the bottom and right frame boundaries. In the third frame, the camera wearer turns rapidly to the left, causing the dark sofa to exit the right side of the view while the grey armchair shifts to the right, a hallway opens up ahead, and a close dark surface or person's head partially occludes the bottom-right foreground within 0.5 metres. By the fourth and fifth frames, the camera wearer completes a leftward rotation to face a large, brightly lit adjacent room 5 to 10 metres ahead, where two white sofas and a coffee table sit in front of a long wall of windows on the left and folding glass partitions stand on the right. In the fourth frame, a person's dark silhouette enters the lower-left edge, and in the fifth frame this person stands in the left foreground about 0.8 to 1.2 metres from the camera wearer, within arm's reach. This person faces and looks directly toward the camera wearer while wearing glasses, with their lower body cut off by the bottom of the frame and their torso occluding the left white sofa and part of the windows behind them."
+ },
+ "duration_seconds": 19.24111,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 640,
+  "thinking_tokens": 199,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20218
+ },
+ "conversation_id": "7f48daf8-82b9-4963-ab3e-34505ff4549b"
+}

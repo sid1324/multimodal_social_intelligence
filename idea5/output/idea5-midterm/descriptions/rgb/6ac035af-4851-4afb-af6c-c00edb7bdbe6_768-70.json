@@ -1,0 +1,18 @@
+{
+ "id": "6ac035af-4851-4afb-af6c-c00edb7bdbe6_768-70",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor dining area with a wooden dining table in the lower foreground, a bright window and a tall yellow cabinet with a potted plant on the left (about 2 to 2.5 metres away), and a doorway on the right (about 2.5 to 3 metres away) leading into an adjacent kitchen. A baby sits in a highchair with an attached light-colored tray at the left side of the table, roughly 0.8 to 1.2 metres in front of and to the left of the camera wearer, facing toward the camera wearer and table throughout all five frames. Within the camera wearer's arm's reach (under 1 metre) are the highchair tray, an orange cloth, a checkered placemat, and small tableware items on the table surface, while a white dining chair stands just behind the table to the right at about 1.5 metres away. In the first frame, a person wearing a striped shirt stands in the doorway about 2.5 metres away and roughly 2 metres to the right of the baby, facing away from the camera wearer into the adjacent room with their lower legs partly occluded by the table and white chair. Across frames 1 to 5, this person retreats further into the kitchen (reaching about 4 to 4.5 metres from the camera wearer near a sink counter) and shifts rightward until they are mostly occluded by the right doorframe in frames 4 and 5. Meanwhile, the camera wearer's viewpoint pans slightly leftward and tilts slightly downward by the fifth frame, bringing more of the left window and plants into view while the baby's hands remain on or just above the highchair tray within the baby's reach and a hand appears near the bottom edge in frame 4."
+ },
+ "duration_seconds": 13.967383,
+ "usage": {
+  "input_tokens": 18312,
+  "output_tokens": 612,
+  "thinking_tokens": 175,
+  "cache_read_tokens": 15476,
+  "total_tokens": 18924
+ },
+ "conversation_id": "5741f2e5-d8c4-4431-88e1-fb664d0b6ad5"
+}

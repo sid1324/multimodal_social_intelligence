@@ -1,0 +1,12 @@
+{
+ "id": "54adfe07-dcc1-4c3f-90a2-ac93ea7ff6df_173-06",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across the five frames, the camera wearer is beside the rear-left area of a silver sedan, generally within about 0.3\u20131 m of the car, with an open rear door and raised trunk lid. One other person is about 0.5\u20131.5 m in front-right of the camera wearer, close enough to reach the trunk, usually facing toward or leaning into it; their head is mostly turned away or sideways, with brief sideways glances toward the wearer. Bags and loose objects are inside the trunk and partly occluded by the person and trunk edge, while a dark bag appears on the ground within roughly 1\u20132 m of both people in the fourth frame. The open door projects to the left of the car, the trunk lid remains above the person, and parts of the car and person extend out of frame because of the very close viewpoint. A dirt roadside, sparse trees, and rocky cliffs lie several metres to hundreds of metres beyond the car. From left to right, the wearer shifts around the rear of the sedan and briefly turns downward and closer to its side in frame four, before turning back toward the trunk and person in frame five."
+ },
+ "duration_seconds": 16.1,
+ "usage": null,
+ "conversation_id": null
+}

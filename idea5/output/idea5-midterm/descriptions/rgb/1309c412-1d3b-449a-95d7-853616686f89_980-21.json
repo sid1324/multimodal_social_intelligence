@@ -1,0 +1,18 @@
+{
+ "id": "1309c412-1d3b-449a-95d7-853616686f89_980-21",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated at and looking down toward a dark dining table extending roughly 0.4 to 1.2 metres in front of and below the viewpoint. Directly in front of the camera wearer at about 0.4 to 0.5 metres is a square white plate with utensils, and just beyond it at 0.6 to 0.8 metres are two side-by-side central bowls flanked on the left by two small bowls, a drinking glass, a napkin holder, and a small candle, and on the right by another square plate and small bowls spaced 0.1 to 0.3 metres apart, all within arm's reach. At least three other people sit around the table\u2014one to the immediate right at about 0.5 to 0.8 metres, one across to the upper left at 1.0 to 1.2 metres, and one across to the upper right at 0.9 to 1.1 metres (roughly 0.5 to 0.8 metres from each other)\u2014all oriented inward toward the table center and the camera wearer, though their heads and torsos are out of view beyond the top and right frame boundaries so whether they look at the camera wearer is not visible. Across the five frames, the camera wearer's right hand stays positioned 0.5 to 0.6 metres away holding a serving fork and spoon at the edge of the right-center bowl, while the camera wearer's left hand approaches and reaches forward in frames 1 and 2 to about 0.6 metres\u2014partially occluding the glass and left-center bowl\u2014before retreating in frames 3 through 5 to rest beside the front plate at 0.4 metres. Meanwhile, the person seated to the right keeps their hands near the right-side plate and lower-right table edge, while the person across on the upper right reaches an arm forward from about 1.0 metre in frames 1 through 4 near a small dish and extends it farther toward the camera wearer in frame 5 to about 0.6 metres, hovering within arm's reach between the right-center bowl and the right-side plate."
+ },
+ "duration_seconds": 23.244699,
+ "usage": {
+  "input_tokens": 5410,
+  "output_tokens": 1367,
+  "thinking_tokens": 840,
+  "cache_read_tokens": 28415,
+  "total_tokens": 6777
+ },
+ "conversation_id": "1ee285b1-7308-4cc5-86a9-88b7ac40398f"
+}

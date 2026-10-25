@@ -1,0 +1,18 @@
+{
+ "id": "51364391-163c-484c-8de5-122abb5898de_1080-80",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is standing in a carpeted indoor room looking steeply downward at the floor, with light-colored walls and room corners visible along the upper edges roughly 1.5 to 2.5 metres away and no other people present. In frame 1, a medium-sized black-and-white dog is on the floor about 0.8 to 1.0 metres in front of and slightly to the left of the camera wearer, curving its body to the right while a dark floor mat sits about 1.2 metres away on the lower right and a dark object rests against the upper-right wall corner about 2 metres away. In frame 2, the dog moves closer into the bottom-left foreground within 0.5 to 0.7 metres of the camera wearer\u2014with its hindquarters partly cut off by the bottom frame boundary\u2014while the camera wearer's hand appears at the bottom center about 0.3 metres from the dog's head. In frame 3, the dog is positioned at the bottom-center-right about 0.6 to 0.8 metres below the camera wearer with its lower body partially out of view, facing and looking upward and to the left toward the camera wearer, about 0.5 metres left of the dark mat on the floor. Across frames 4 and 5, the camera viewpoint rotates so that the wall corner shifts across the upper right and a wooden furniture leg enters on the left edge about 1.5 metres away, while the dog shifts to the bottom-right margin and becomes almost entirely occluded below the frame edge as both of the camera wearer's hands come together at the bottom center within 0.4 metres of the camera."
+ },
+ "duration_seconds": 36.829356,
+ "usage": {
+  "input_tokens": 19624,
+  "output_tokens": 1383,
+  "thinking_tokens": 955,
+  "cache_read_tokens": 14207,
+  "total_tokens": 21007
+ },
+ "conversation_id": "6374d100-058e-4bdc-bd0a-a026929d7228"
+}

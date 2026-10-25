@@ -1,0 +1,18 @@
+{
+ "id": "1042ea39-9256-4593-a4c6-a0d0393da739_524-37",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor checkout area featuring a light wooden counter directly in front of the camera wearer at 0.3 to 0.6 metres, a wooden side cabinet topped with an illuminated black food display case 1.2 to 1.8 metres away on the right, and a white wall with doorways 2.5 to 3.5 metres away in the background. On the main counter, within arm's reach of both the camera wearer and a man standing opposite, sit a black cash register on the left at about 0.4 to 0.5 metres, a plastic jar and snack rack just to the left of the register at 0.5 to 0.7 metres, a brown paper bag behind the jar at 0.7 to 0.9 metres, and a flat promotional sign taped to the surface on the right. The man in a dark jacket and white shirt stands on the far side of the counter about 0.8 to 1.0 metre in front of the camera wearer and 0.8 to 1.0 metre to the left of the food display case, facing toward the camera wearer while holding small bills or cards in his hands just above the counter. In the first frame, the camera is angled downward so the man is cropped off above the chest while his right hand touches the register and the camera wearer's right hand is partly visible on the lower-right counter edge, and across the second and third frames the viewpoint shifts slightly left and up as the man brings both hands together in front of his torso. Across the fourth and fifth frames, the camera tilts upward and turns slightly right, cropping the cash register and lower counter out of the bottom of the view while revealing the man's head and glasses as he looks downward toward his separating hands rather than up at the camera wearer."
+ },
+ "duration_seconds": 24.206501,
+ "usage": {
+  "input_tokens": 19627,
+  "output_tokens": 1418,
+  "thinking_tokens": 964,
+  "cache_read_tokens": 14210,
+  "total_tokens": 21045
+ },
+ "conversation_id": "e4a0fd85-6d24-478e-b898-b180a67a5722"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "608f2b9c-d004-42db-9f0c-e89b203dfb01_8-92",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is inside a small room facing a man standing near an open doorway, with a television on a wooden cabinet to his left, beds or padded benches along both sides, and a chair back in the lower foreground. The man is roughly 2\u20133 m in front of the camera wearer and about 0.5\u20131 m to the right of the television; he faces mostly leftward and slightly away from the camera while looking down, not toward the camera wearer. The foreground chair is within about 1 m of the camera wearer, while the left bed edge and, in later frames, the right bed corner are also near or within arm's reach; the television, cabinet, and man are beyond arm's reach. Across the five frames, the camera pans or turns progressively to the right, causing the television and man to shift from near the center toward the left side while more of the right-hand bed and wall enter view; their mutual spacing remains nearly unchanged, indicating little relative movement by the man. A finger or hand partly occludes the upper edge in the middle frames, and the beds, wall fixtures, ceiling wires, and furniture are cut off by the panoramic frame boundaries."
+ },
+ "duration_seconds": 14.1,
+ "usage": null,
+ "conversation_id": null
+}

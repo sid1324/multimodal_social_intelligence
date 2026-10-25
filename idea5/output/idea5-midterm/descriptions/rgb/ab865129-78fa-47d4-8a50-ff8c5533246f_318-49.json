@@ -1,0 +1,18 @@
+{
+ "id": "ab865129-78fa-47d4-8a50-ff8c5533246f_318-49",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor studio featuring a white seamless backdrop curving from overhead wall-mounted rollers onto the floor, a dark door on the back-left wall, a small black stool on the backdrop, and two tripod-mounted softbox lights in the left and right foreground about 1.5 to 2 metres from the camera wearer and roughly 2.5 metres apart. In the first frame, a man wearing a head-mounted strap stands on the backdrop roughly 2.5 to 3 metres in front of the camera wearer and about 0.3 metres to the left of the stool, facing toward the camera wearer while holding his jacket collar within his own arm's reach. Across the second and third frames, the man bends and looks downward, grasps the stool seat with his left hand, and sits down at roughly 2.5 metres from the camera wearer, partially occluding the stool beneath his torso and legs while keeping his head tilted down rather than looking at the camera wearer. From the third to the fifth frame, the camera wearer approaches the seated man, reducing the separation from about 2.5 metres to roughly 1.2 metres in the fourth frame and to within 0.5 metres in the fifth frame. As the camera wearer advances, the left and right softbox lights, the overhead backdrop rollers, the stool, and the man's lower body move out of view past the side, top, and bottom edges of the frame. In the fifth frame, the man is directly in front of and slightly below the camera wearer's viewpoint with his head turned toward the left and facing downward, while the camera wearer's hand extends into the lower-right foreground within arm's reach to touch the man's left shoulder."
+ },
+ "duration_seconds": 36.88506,
+ "usage": {
+  "input_tokens": 19590,
+  "output_tokens": 1635,
+  "thinking_tokens": 1199,
+  "cache_read_tokens": 14213,
+  "total_tokens": 21225
+ },
+ "conversation_id": "5be2201a-854c-480e-83a1-f86ed71f5725"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "69ae6e65-a60b-46b0-b256-9d1aeaf34b0a_3951-27",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer is on a narrow hillside path surrounded by dense low shrubs, grasses, spiky plants, and scattered rocks, with higher slopes to the left and ahead and a distant valley visible through the central gap. Several hikers are approximately 6\u201312 m ahead along the path, generally clustered within about 1\u20133 m of one another; most face along or across the trail, and none clearly looks directly toward the camera. In frames 2\u20133, one person is within roughly 0.5\u20131.5 m on the camera wearer\u2019s right, partly cropped, wearing a dark cap and blue outer layer with yellow-green clothing underneath; this person faces leftward toward the path and the other hikers. That nearby person becomes larger and more central from frame 2 to frame 3, then leaves the field of view by frame 4, while the farther group shifts from center-right to the far right across the sequence, consistent with the camera turning left relative to them. Vegetation, rocks, and possible walking poles beside the path are within about 0.5\u20132 m of the camera wearer, while the distant hills lie far beyond the people; edge cropping and foreground plants partly occlude some hikers and objects in several frames."
+ },
+ "duration_seconds": 13.9,
+ "usage": null,
+ "conversation_id": null
+}

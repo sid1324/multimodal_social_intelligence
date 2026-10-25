@@ -1,0 +1,12 @@
+{
+ "id": "ecdc4071-1903-4024-a357-d0082720168e_44-12",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open dirt clearing bordered by low shrubs and tall reddish cliffs, with a road and dark pickup truck roughly 8\u201315 m ahead. A single nearby person remains about 2\u20134 m in front of the camera wearer, shifting from the right side of the view toward the left across the five frames; they are mostly side-on or facing away and do not clearly look toward the camera. A large gray bundle lies on the ground about 2\u20134 m ahead and generally to the person\u2019s right, while several smaller containers and pieces of equipment sit near the truck and another distant figure roughly 8\u201312 m away. The nearby person and bundle are within a few metres of each other, but neither is clearly within the camera wearer\u2019s arm\u2019s reach; some small items appear within the nearby person\u2019s reach in the middle frames. Across the sequence, the viewpoint turns right while the nearby person passes closer along the left side, becoming blurred and partly cut off at the left edge in the final frame; the truck and background equipment correspondingly slide from near center-right toward the far right and become partly out of view."
+ },
+ "duration_seconds": 11.7,
+ "usage": null,
+ "conversation_id": null
+}

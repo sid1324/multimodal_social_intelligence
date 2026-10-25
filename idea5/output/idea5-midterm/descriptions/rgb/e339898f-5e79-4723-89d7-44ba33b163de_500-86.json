@@ -1,0 +1,12 @@
+{
+ "id": "e339898f-5e79-4723-89d7-44ba33b163de_500-86",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated or leaning at the near edge of a small table, with their torso and forearms below the tabletop and most table objects about 0.3\u20130.8 m away. A shallow plate of pale material sits near the table centre, a folded green cloth lies to its right, red and metal containers are to its left, and several cups, bottles, and small packages line the far side near a wall; these objects are generally within the camera wearer\u2019s arm\u2019s reach. Another person is mostly outside the frame across and to the right, roughly 0.8\u20131.3 m from the camera wearer, with only parts of their arms and body visible; their arm repeatedly reaches over the table, but their face and gaze direction are not visible. A bright opening is on the left beyond the table, while a rough wall is directly ahead, and containers near both edges are partly cropped or occluded by the fisheye view and the camera wearer\u2019s body. Across the five frames, the viewpoint turns progressively to the right, shifting the opening farther left and revealing more of the opposite person\u2019s right-side position, while a translucent cup is raised close to the upper-right foreground and the table objects remain approximately fixed."
+ },
+ "duration_seconds": 12.1,
+ "usage": null,
+ "conversation_id": null
+}

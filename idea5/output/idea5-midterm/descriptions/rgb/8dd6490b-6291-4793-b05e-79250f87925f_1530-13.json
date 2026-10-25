@@ -1,0 +1,18 @@
+{
+ "id": "8dd6490b-6291-4793-b05e-79250f87925f_1530-13",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grassy yard bounded on the left by a brick building with windows and a small black box at its base (about 1.5\u20132 m from the camera wearer), and extending on the right toward trees (5\u201310 m away) and a white van parked in the background (around 10\u201315 m away). Directly in front and below the camera wearer, within arm's reach at roughly 0.5\u20130.8 m, is a light-blue rectangular plastic tub resting on the grass, with a light-colored cloth on the ground immediately to its left (visible from the second frame onward). A young child is initially inside or directly behind the tub at about 0.6\u20130.8 m in front of the wearer, facing away or slightly right with the lower body occluded by the tub walls and the bottom frame edge. Across the five frames, the camera tilts slightly counterclockwise and pans left-to-right while the child shifts rightward relative to the tub, standing just outside its right edge by the fourth and fifth frames with the child's left hand resting on the tub's rim within reach. In the final frame, the child's head is turned away to the right (not looking toward the camera wearer), while the camera wearer's right hand enters the bottom-right foreground holding a blue plastic bowl within 0.3\u20130.5 m, partially occluding the child's lower right side."
+ },
+ "duration_seconds": 19.299307,
+ "usage": {
+  "input_tokens": 19563,
+  "output_tokens": 378,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14206,
+  "total_tokens": 19941
+ },
+ "conversation_id": "d9522c6d-4782-4d10-8a97-0117ed7ccb5b"
+}

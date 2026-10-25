@@ -1,0 +1,18 @@
+{
+ "id": "2680068d-b3ae-42d8-971f-e842c2d4fbb4_1248-72",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows an indoor service counter standing directly in front of the camera wearer at about 0.4 to 0.8 metres away, separating the wearer from a person in black clothing standing behind the counter roughly 0.8 to 1.2 metres away. On the counter surface within arm's reach of both people are a black cash register on the left (about 0.6 to 0.8 metres from the wearer and 0.3 metres to the left of the other person's torso), a credit card decal just to the right of the register, and a rectangular menu mat centered in the foreground, while candy racks sit on a shelf directly below the counter edge and a secondary table with papers and a jar sits behind the register to the upper left. The person behind the counter faces toward the camera wearer with their head and lower body cropped out of the top and bottom of the frame, and the counter occludes their lower torso and legs. In frames 1 and 2, the person behind the counter reaches their right hand to the cash register keypad on the left while resting their left hand holding a small white paper receipt on the counter, then brings both hands together over the center-left counter in frames 3 and 4. Across frames 4 and 5, the camera wearer's right hand and forearm enter the lower-right foreground above the menu mat and extend forward to about 0.4 to 0.5 metres away, meeting the other person's hands as the person extends the receipt forward toward the wearer's fingers in frame 5."
+ },
+ "duration_seconds": 17.847698,
+ "usage": {
+  "input_tokens": 19572,
+  "output_tokens": 613,
+  "thinking_tokens": 213,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20185
+ },
+ "conversation_id": "fae0265e-5755-4a7c-8251-f5f9220da4e7"
+}

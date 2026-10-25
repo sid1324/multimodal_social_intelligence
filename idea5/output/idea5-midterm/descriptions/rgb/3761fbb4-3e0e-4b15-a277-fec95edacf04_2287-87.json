@@ -1,0 +1,18 @@
+{
+ "id": "3761fbb4-3e0e-4b15-a277-fec95edacf04_2287-87",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is viewed from a steep downward egocentric angle above an outdoor dirt floor covered by a translucent white plastic sheet, with the camera wearer seated at the bottom center wearing yellow clothing and holding two long knitting needles about 0.3 to 0.5 metres below the camera. Directly in front of the camera wearer on the sheet, roughly 0.5 to 1.0 metres away, are a ball of mint-green yarn and a folded mint-green knitted garment, flanked on the left edge of the sheet (about 0.6 to 1.0 metres away) by two pink flip-flops spaced about 0.4 metres apart. To the front-right, approximately 0.8 to 1.2 metres from the camera wearer and immediately adjacent (within 0.2 metres) to the folded green garment, another person wearing blue jeans and a mustard-brown top sits on the edge of the sheet near a low brick wall on the far right. That second person's upper torso and head are heavily cropped out of the top-right edge of the frame, with their seated body angled forward-left toward the center of the sheet rather than facing or looking up toward the camera wearer. The knitting needles, yarn ball, green garment, and nearer flip-flop are within arm's reach of the camera wearer, while the green garment and yarn are also within arm's reach of the second person, who leans forward over the sheet in frame 2 (partially occluding the upper-right sheet with their arm and cast shadow) before leaning back and shifting their hands up toward their chest across frames 3 to 5 as the camera wearer's viewpoint tilts slightly further upward and backward, bringing more of the ground and right-hand brick ledge into view while moving the yarn ball to the bottom-left corner."
+ },
+ "duration_seconds": 18.034057,
+ "usage": {
+  "input_tokens": 19555,
+  "output_tokens": 712,
+  "thinking_tokens": 261,
+  "cache_read_tokens": 14199,
+  "total_tokens": 20267
+ },
+ "conversation_id": "0eb71f9c-171f-46ab-8af4-2f51bfb547ec"
+}

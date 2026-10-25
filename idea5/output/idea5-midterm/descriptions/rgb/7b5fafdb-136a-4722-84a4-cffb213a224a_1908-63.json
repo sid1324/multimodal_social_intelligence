@@ -1,0 +1,18 @@
+{
+ "id": "7b5fafdb-136a-4722-84a4-cffb213a224a_1908-63",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an enclosed outdoor yard covered in dense green ground vegetation, bordered by a light-colored wall and an arched porch to the right in the first frame and a curved garden bed with shrubs to the left in the later frames. A person wearing a blue T-shirt, patterned grey pants, and red sandals stands on the grass roughly 1.2 to 2 metres in front of the camera wearer, while a pile of cut weeds with a yellow leaf lies on the ground about 1.5 to 2 metres to the front-left in frames 4 and 5, roughly 1 to 1.5 metres to the left of the person. Across all five frames, the person in the blue shirt faces away from the camera wearer toward the wall and bushes\u2014never looking toward the camera\u2014with the wall-side foliage within their arm's reach (under 0.5 metres in front of them) while their hands remain occluded by their own torso. The camera wearer's white shirt, plaid shorts, sandals, and yellow-gloved hands are partially visible at the bottom edge within the wearer's own personal space, with no other people or objects within the camera wearer's arm's reach. Several cropping and occlusion changes occur across the sequence: the person in blue is mostly cut off at the lower-left edge in frame 1, has the top of their head cropped at the upper edge in frame 2, and is partially cut off at the right frame boundary in frame 5. Over the five frames, the camera wearer tilts their view downward after frame 1 and rotates progressively to the left while stepping slightly back, shifting the person in the blue shirt relative to the viewpoint from the far lower-left in frame 1, to the upper-left at 1.2 to 1.5 metres in frames 2 and 3, to the upper-right in frame 4, and finally to the far right edge at about 1.5 to 2 metres in frame 5."
+ },
+ "duration_seconds": 20.944275,
+ "usage": {
+  "input_tokens": 19559,
+  "output_tokens": 1288,
+  "thinking_tokens": 798,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20847
+ },
+ "conversation_id": "813caa0f-ad1f-453b-be56-6e6a2a6c0fb9"
+}

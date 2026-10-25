@@ -1,0 +1,18 @@
+{
+ "id": "3de48a49-665d-4c1b-9655-82532e108e6a_1395-29",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a dimly lit room viewed from a close indoor vantage point, with no other people present in the physical space. In front of the camera wearer at roughly 1 to 1.5 metres away is a small wooden stand holding a flat-screen television on top, a rectangular white gaming console directly below the lower-left edge of the screen, and a roll of paper or toilet tissue on a lower shelf about 0.3 metres beneath the console. To the left of the television, about 0.4 metres away from it and 1.5 to 2 metres from the camera wearer, sits a brightly lit glass aquarium or terrarium elevated slightly higher than the television stand, while a plain wall runs along the right side of the stand. Across the first three frames, the viewpoint remains steady facing the screen, with the lower portion of the stand occluded by the bottom edge of the frame and the left edge of the aquarium cut off. In the fourth and fifth frames, the camera wearer pitches downward, leans in closer (to within roughly 0.6 to 1 metre of the stand), and turns slightly right, bringing the gaming console, the lower shelf with the paper roll, and the floor within or near arm's reach while moving the aquarium out of view to the upper left and cutting off the upper portion of the television screen."
+ },
+ "duration_seconds": 13.564732,
+ "usage": {
+  "input_tokens": 5405,
+  "output_tokens": 625,
+  "thinking_tokens": 274,
+  "cache_read_tokens": 28420,
+  "total_tokens": 6030
+ },
+ "conversation_id": "4bc1d9f4-9248-4aa8-9a0b-3ae5cb2f3e9b"
+}

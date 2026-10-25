@@ -1,0 +1,12 @@
+{
+ "id": "b08cc451-bab8-4ab1-a0a2-102582d9f778_398-19",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show a small carpeted room bounded by yellow walls, with a dark doorway on the back-left and a brighter opening or adjoining area on the back-right, roughly 3\u20135 m from the camera wearer. A black-and-white dog moves from partly below the bottom edge to about 1\u20132 m directly in front of the wearer, remaining below eye level and facing generally toward the camera in the middle and later frames. A blue cord or leash lies on the carpet about 1\u20132 m ahead and mostly left of the dog, placing the dog and cord roughly 0.5\u20131.5 m apart as the viewpoint turns. A person is only partially visible at the extreme left edge in the first two frames, while another partly occluded figure or body segment appears near the bright rear-right opening about 3\u20135 m away; neither person\u2019s full pose, facing direction, or gaze is visible. A blurred rectangular object stays very close to the camera at the lower-right or lower-center edge and is within arm\u2019s reach, while portions of the wearer\u2019s arm or clothing enter the side edges; across the strip, the camera turns right and slightly approaches the dog, causing the left doorway to move out of view and the bright right-side opening to become more prominent."
+ },
+ "duration_seconds": 11.6,
+ "usage": null,
+ "conversation_id": null
+}

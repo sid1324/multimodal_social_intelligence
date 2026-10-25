@@ -1,0 +1,18 @@
+{
+ "id": "a4bbdddc-c222-4535-a616-57ccbc8f9b9e_5519-45",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is viewed from a steeply downward-angled egocentric perspective on a narrow wooden boardwalk flanked by low vegetation on both the left and right. At the bottom of the frame, about 0.3 to 0.5 metres away and within immediate arm's reach, the camera wearer's dark-gloved left hand and bare right hand hold a small wrapped bar above a blue plastic poncho or sheet. Standing on the left edge of the boardwalk about 0.6 to 0.8 metres in front of the camera wearer is a person in a blue jacket and yellow vest whose torso faces toward the camera wearer and whose bare right hand extends palm-up to within 0.4 to 0.5 metres\u2014within arm's reach of both individuals\u2014while all heads and faces are cropped out above the top of the frame, making eye gaze unobservable. Two other people are partially visible nearby on the right side of the boardwalk: one in a dark poncho and black leggings who is about 0.7 metres in front in the first frame (about 0.3 metres to the right of the blue-jacketed person), and another in jeans and a translucent yellow poncho about 1.0 metre to the right in the second frame and at the bottom-right corner in the third through fifth frames. In the first two frames, the camera wearer's blue plastic sheet and the dark poncho occlude most of the boardwalk, but from the second to the fourth frame the dark-ponchoed person retreats along the boardwalk beyond 1.5 metres and mostly exits the top edge while the blue plastic sheet drops to the bottom margin, exposing the wooden planks below. Across the five frames, the person in the blue jacket remains stationary with their right hand extended while the camera wearer's hands reach forward from 0.3 metres to 0.5 metres to bring the wrapped bar into contact with that outstretched palm in the third and fourth frames, before the camera wearer's left gloved hand pulls back slightly in the fifth frame."
+ },
+ "duration_seconds": 28.598434,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 2091,
+  "thinking_tokens": 1599,
+  "cache_read_tokens": 14209,
+  "total_tokens": 21671
+ },
+ "conversation_id": "54dc399d-ce8a-4448-a19e-8299a780a2b5"
+}

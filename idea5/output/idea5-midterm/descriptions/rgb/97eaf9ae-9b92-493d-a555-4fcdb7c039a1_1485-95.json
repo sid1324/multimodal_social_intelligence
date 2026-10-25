@@ -1,0 +1,18 @@
+{
+ "id": "97eaf9ae-9b92-493d-a555-4fcdb7c039a1_1485-95",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a wide supermarket aisle lined with tall display shelves on both sides, an endcap shelf in the centre, and two adjacent wire dump bins filled with orange, green, and yellow balls in the middle of the floor. In frame 1, the camera wearer stands within arm's reach (under 0.5 metres) of a toy rack on the right while holding a small yellow-packaged item in their lower-centre hand, with a person in a yellow shirt and black pants partially occluded behind the rack about 2.5 to 3 metres to the front-left. Across frames 2 to 5, the camera wearer turns left and steps forward into the open aisle, bringing the toy rack out of view on the far right while closing the distance to the person in the yellow shirt from about 2.5 metres in frame 2 to roughly 1 metre on the front-left by frame 5. The person in the yellow shirt stands directly beside the left ball bin within arm's reach of the balls, initially facing right toward the bin while holding an orange ball in frames 2 and 3, then placing the ball down and turning their head and torso toward the camera wearer in frames 4 and 5. About 3 to 5 metres behind the ball bins in the background, a worker in a red shirt stands near cardboard boxes and a pallet jack, facing left in frames 2 to 4 before turning away in frame 5, while another shopper in black walks further down the right aisle about 6 to 8 metres away."
+ },
+ "duration_seconds": 21.47526,
+ "usage": {
+  "input_tokens": 5344,
+  "output_tokens": 663,
+  "thinking_tokens": 269,
+  "cache_read_tokens": 28424,
+  "total_tokens": 6007
+ },
+ "conversation_id": "6b55a8b2-f1bf-49ea-885e-70e361e4f4f9"
+}

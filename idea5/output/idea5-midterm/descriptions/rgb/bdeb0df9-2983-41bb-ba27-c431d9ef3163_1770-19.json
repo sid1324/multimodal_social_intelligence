@@ -1,0 +1,18 @@
+{
+ "id": "bdeb0df9-2983-41bb-ba27-c431d9ef3163_1770-19",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene shows a dimly lit indoor room in the foreground looking through an open doorway on the right into a brighter dining area with a patterned-cloth table, chairs, and a sunlit window about 3.5 to 5 metres away. In the lower-right foreground, about 0.5 to 0.8 metres in front of and below the camera wearer, a person's head (or dark chair back and head/object) sits within arm's reach, partially cropped by the bottom edge of the frame. To the left, at roughly 1 to 1.8 metres distance, a white plastic highchair tray and seat sit beside a cluttered counter or table with containers and red bags, positioned just in front of a round-cushioned chair with an X-back frame at about 2 metres against the central wall partition. The doorway frame and central wall occlude the left side of the adjoining bright room, where a dark dining chair stands roughly 3.5 metres from the camera wearer and about 1.5 metres beyond the X-back chair. Across the five frames, the camera wearer pitches their head upward and turns slightly to the left from Frame 1 to Frame 3\u2014causing the foreground object on the bottom right and the lower floor to drop largely out of view while revealing the ceiling light fixture and upper window in the far room\u2014before tilting back down and panning right in Frames 4 and 5 to return to the initial viewpoint; simultaneously, the white highchair seat on the left is rotated or repositioned between Frames 2 and 5."
+ },
+ "duration_seconds": 18.13152,
+ "usage": {
+  "input_tokens": 19617,
+  "output_tokens": 507,
+  "thinking_tokens": 107,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20124
+ },
+ "conversation_id": "ba15b081-3c59-4729-96ee-aad7fdbfcf9a"
+}

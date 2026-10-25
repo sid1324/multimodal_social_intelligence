@@ -1,0 +1,12 @@
+{
+ "id": "c79e05d5-eaf6-4323-a707-744020743037_763-82",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A black countertop runs directly in front of and to the right of the camera wearer, about 0.2\u20130.6 m away, with a single-burner stove, a large lidded pan, a small metal pot, metal tongs, and a plate of yellow fruit arranged along it. In frames 1\u20133, the stove and cookware remain within roughly an arm\u2019s reach, while the plate sits farther ahead near the wall, about 0.8\u20131.2 m from the wearer; parts of the wearer\u2019s torso and arms appear at the lower edge, with one arm extended toward the right side of the counter. The wall and newspaper-covered backsplash are behind and above the counter, and several objects are partly clipped by the top, left, and right image boundaries. By frame 4, the viewpoint has shifted and turned right, revealing another person about 1\u20131.5 m ahead and slightly right, visible only from the torso down in a light yellow top and bright blue lower garment, facing roughly leftward rather than directly toward the camera. In frame 5, that person is mostly out of view, while a dark-haired person appears very close in front of and below the camera, approximately 0.3\u20130.6 m away and partly occluding the counter; the stove has moved toward the far right edge, consistent with the wearer turning or stepping right."
+ },
+ "duration_seconds": 11.8,
+ "usage": null,
+ "conversation_id": null
+}

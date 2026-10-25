@@ -1,0 +1,18 @@
+{
+ "id": "5181422f-0b2c-4a39-af52-b2ca683e5451_1147-87",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor store interior with an open doorway on the right and an exposed ceiling with linear lights overhead. In the left foreground, a person with curly hair wearing an olive jacket stands directly in front of the camera wearer at roughly 0.5 to 0.8 metres, within the camera wearer's arm's reach, facing away toward a counter and partially occluding the lower-left view and a red shopping basket. Beyond this person and slightly to the right, a woman with long dark hair in a brown sweater stands about 1.5 to 2.0 metres from the camera wearer (and roughly 1.0 metre in front of the closer person), facing toward the counter and looking downward toward the basket rather than at the camera wearer. Both the person in the olive jacket and the woman in the brown sweater have the red shopping basket on the counter within their arm's reach, while a third person on the far right at roughly 1.5 to 2.0 metres is heavily occluded behind a black display rack, with only their head and hands holding a phone visible. Across the five frames, the camera wearer's viewpoint shifts slightly upward and to the right while the person in the olive jacket shifts slightly leftward, becoming more cropped by the left frame edge in the final frame as they lift the red basket."
+ },
+ "duration_seconds": 9.713202,
+ "usage": {
+  "input_tokens": 5364,
+  "output_tokens": 370,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 28423,
+  "total_tokens": 5734
+ },
+ "conversation_id": "32b85b7f-b3fa-4c75-932a-5913659cc5ac"
+}

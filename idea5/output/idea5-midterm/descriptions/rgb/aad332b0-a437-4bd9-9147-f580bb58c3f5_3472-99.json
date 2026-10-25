@@ -1,0 +1,12 @@
+{
+ "id": "aad332b0-a437-4bd9-9147-f580bb58c3f5_3472-99",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a narrow indoor room or passage with a wooden floor, pale walls, doorways at the far ends, and furniture arranged mainly along the sides. In frame 1, a shelving unit and tall cabinet are about 0.3\u20131 m to the wearer\u2019s left, an open doorway is roughly 2\u20133 m ahead, and the edge of a bed or covered bench is within about 0.5 m on the right; the wearer\u2019s right hand is visible near the right edge and within arm\u2019s reach of the wall or furniture. Across frames 2\u20133, the viewpoint turns and moves forward along the passage, bringing a cluttered small table or cart to about 0.5\u20131.5 m on the right, while several chairs and another small table remain roughly 2\u20133 m ahead; the close wall occupies much of the center-right view and partly occludes the adjoining area. In frames 4\u20135, the camera turns farther right toward an open exterior doorway about 1\u20132 m ahead, with two narrow floor mats directly in front of it and a small table and chairs approximately 1\u20132 m to the right of the doorway. By frame 5, a tall dark cabinet is close on the right at roughly 0.5\u20131 m, the small table is partly cut off at the lower-right edge, and the wearer\u2019s hand remains visible near the lower center; no other people are visible in any frame."
+ },
+ "duration_seconds": 15.3,
+ "usage": null,
+ "conversation_id": null
+}

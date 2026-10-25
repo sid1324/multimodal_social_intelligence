@@ -1,0 +1,18 @@
+{
+ "id": "0ece1a2a-2da0-4b28-ac8c-bf9f04c0d17c_713-12",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In a close-quarters workspace viewed from a downward-angled egocentric perspective, the camera wearer (wearing a striped athletic shirt visible at the bottom edge) sits or stands directly behind an open burlap sack filled with white plastic bags on the floor or low surface about 0.3 to 0.5 metres in front of and below the camera. In Frame 1, a person in a white shirt and red trousers is positioned about 0.6 to 0.9 metres ahead and slightly to the right, facing toward the camera wearer and the central workspace while holding a metal cup and touching a plastic bag within their arm's reach, and a second person is partially visible about 0.8 to 1.0 metre to the front-left, facing rightward with their head and upper torso cropped by the frame edge. Across Frames 2 to 5, the camera wearer rotates their head and upper body clockwise to the right by roughly 60 to 90 degrees, causing the person on the far left to move completely out of view while the person in red trousers shifts from the front-right to the left side of the frame at a constant distance of about 0.6 metres. This rightward pan brings a low dark table or platform into view on the right (about 0.5 to 0.8 metres away and roughly 0.3 metres from the person in red trousers), holding a digital weighing scale with a glowing red display in the upper-center/right and several filled white plastic bags clustered below and to the right of the scale. Throughout all five frames, the burlap sack, multiple plastic bags, and the edge of the scale are within arm's reach of both the camera wearer and the person in red trousers, with the camera wearer's extended right arm shifting from reaching into the sack on the left in Frames 1\u20133 to reaching toward the bags near the scale on the right in Frame 5. The heads and faces of all people in the scene remain cropped out of the upper frame boundary, so no one is visible looking toward the camera wearer, and the camera wearer's arms partially occlude the sack opening and floor below."
+ },
+ "duration_seconds": 54.32241,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 718,
+  "thinking_tokens": 200,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20238
+ },
+ "conversation_id": "8942fdca-6060-4765-bfe0-8b5b83404a72"
+}

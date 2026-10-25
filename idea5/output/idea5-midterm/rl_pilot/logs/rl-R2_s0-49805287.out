@@ -1,0 +1,139 @@
+GPU 0: NVIDIA L40S (UUID: GPU-0c422c2b-7874-ad61-6d4b-dc36b891a503)
+arm R2 seed 0 steps 90
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 62.15it/s]
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/ocean/projects/cis260338p/sgupta31/rl_pilot/grpo_train.py:153: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  kl_sum += float(((kl * m).sum(1) / m.sum(1).clamp(min=1)).sum())
+{"step": 1, "reward": 0.41718751192092896, "r_norm": 0.41718750000000004, "r_spatial": 0.625, "parsed": 0.734375, "joint": 0.3125, "len": 210.359375, "kl": 0.0, "frac_flat": 0.0, "sec_gen": 106.0, "sec": 184.0}
+{"step": 2, "reward": 0.453125, "r_norm": 0.45312500000000006, "r_spatial": 0.5625, "parsed": 0.625, "joint": 0.359375, "len": 169.546875, "kl": 0.0011565533253209044, "frac_flat": 0.25, "sec_gen": 105.7, "sec": 164.1}
+{"step": 3, "reward": 0.39531251788139343, "r_norm": 0.3953125, "r_spatial": 0.5390625, "parsed": 0.671875, "joint": 0.328125, "len": 178.984375, "kl": 0.003653992046435763, "frac_flat": 0.125, "sec_gen": 104.3, "sec": 171.9}
+{"step": 4, "reward": 0.4593749940395355, "r_norm": 0.45937500000000003, "r_spatial": 0.64453125, "parsed": 0.765625, "joint": 0.359375, "len": 207.3125, "kl": 0.0025011685017185905, "frac_flat": 0.25, "sec_gen": 105.0, "sec": 163.3}
+{"step": 5, "reward": 0.5359375476837158, "r_norm": 0.5359375000000001, "r_spatial": 0.625, "parsed": 0.90625, "joint": 0.390625, "len": 230.0, "kl": 0.0024711923989733414, "frac_flat": 0.125, "sec_gen": 104.3, "sec": 171.8}
+{"step": 6, "reward": 0.731249988079071, "r_norm": 0.7312500000000001, "r_spatial": 0.57421875, "parsed": 0.90625, "joint": 0.578125, "len": 239.5, "kl": 0.008789765866822563, "frac_flat": 0.25, "sec_gen": 105.8, "sec": 164.4}
+{"step": 7, "reward": 0.49687498807907104, "r_norm": 0.496875, "r_spatial": 0.5, "parsed": 0.984375, "joint": 0.328125, "len": 233.953125, "kl": 0.0015386820887215436, "frac_flat": 0.375, "sec_gen": 104.9, "sec": 153.3}
+{"step": 8, "reward": 0.43437501788139343, "r_norm": 0.434375, "r_spatial": 0.453125, "parsed": 0.90625, "joint": 0.296875, "len": 227.8125, "kl": 0.0014472414955629834, "frac_flat": 0.125, "sec_gen": 104.2, "sec": 171.9}
+{"step": 9, "reward": 0.4671875238418579, "r_norm": 0.46718750000000003, "r_spatial": 0.59765625, "parsed": 0.921875, "joint": 0.375, "len": 233.421875, "kl": 0.0015189199475571513, "frac_flat": 0.125, "sec_gen": 109.9, "sec": 181.1}
+{"step": 10, "reward": 0.5890624523162842, "r_norm": 0.5890625, "r_spatial": 0.62890625, "parsed": 0.96875, "joint": 0.46875, "len": 223.71875, "kl": 0.0035822693025693297, "frac_flat": 0.375, "sec_gen": 107.4, "sec": 157.2}
+{"step": 11, "reward": 0.35624998807907104, "r_norm": 0.35625, "r_spatial": 0.5, "parsed": 0.90625, "joint": 0.15625, "len": 232.96875, "kl": 0.004126216901931911, "frac_flat": 0.375, "sec_gen": 105.7, "sec": 154.5}
+{"step": 12, "reward": 0.628125011920929, "r_norm": 0.628125, "r_spatial": 0.65625, "parsed": 0.96875, "joint": 0.484375, "len": 229.453125, "kl": 0.0023990111192688348, "frac_flat": 0.375, "sec_gen": 104.3, "sec": 152.7}
+{"step": 13, "reward": 0.7124999761581421, "r_norm": 0.7125, "r_spatial": 0.4609375, "parsed": 0.953125, "joint": 0.609375, "len": 242.234375, "kl": 0.001914877654053271, "frac_flat": 0.375, "sec_gen": 104.1, "sec": 152.3}
+{"step": 14, "reward": 0.546875, "r_norm": 0.546875, "r_spatial": 0.5234375, "parsed": 0.9375, "joint": 0.421875, "len": 219.46875, "kl": 0.0018667985423235223, "frac_flat": 0.5, "sec_gen": 104.4, "sec": 143.4}
+{"step": 15, "reward": 0.5593749284744263, "r_norm": 0.5593750000000001, "r_spatial": 0.484375, "parsed": 0.90625, "joint": 0.46875, "len": 239.796875, "kl": 0.0028372778421423086, "frac_flat": 0.25, "sec_gen": 104.6, "sec": 162.9}
+{"step": 16, "reward": 0.7203124761581421, "r_norm": 0.7203125, "r_spatial": 0.5390625, "parsed": 0.953125, "joint": 0.609375, "len": 211.03125, "kl": 0.0028549187700264156, "frac_flat": 0.375, "sec_gen": 103.8, "sec": 152.0}
+{"step": 17, "reward": 0.7359374761581421, "r_norm": 0.7359375, "r_spatial": 0.515625, "parsed": 0.953125, "joint": 0.625, "len": 228.734375, "kl": 0.0021430757245980204, "frac_flat": 0.375, "sec_gen": 104.9, "sec": 153.5}
+{"step": 18, "reward": 0.5546875596046448, "r_norm": 0.5546875, "r_spatial": 0.46875, "parsed": 0.9375, "joint": 0.40625, "len": 227.109375, "kl": 0.002198785914515611, "frac_flat": 0.0, "sec_gen": 104.3, "sec": 182.0}
+{"step": 19, "reward": 0.5968749523162842, "r_norm": 0.596875, "r_spatial": 0.51953125, "parsed": 0.96875, "joint": 0.5, "len": 220.65625, "kl": 0.00300156213537169, "frac_flat": 0.25, "sec_gen": 106.4, "sec": 165.9}
+{"step": 20, "reward": 0.5484374761581421, "r_norm": 0.5484375, "r_spatial": 0.5703125, "parsed": 0.953125, "joint": 0.4375, "len": 236.703125, "kl": 0.0030886320862919094, "frac_flat": 0.375, "sec_gen": 107.7, "sec": 157.6}
+{"step": 21, "reward": 0.4890625476837158, "r_norm": 0.4890625, "r_spatial": 0.59765625, "parsed": 0.90625, "joint": 0.390625, "len": 246.078125, "kl": 0.005173088633455336, "frac_flat": 0.25, "sec_gen": 106.1, "sec": 165.0}
+{"step": 22, "reward": 0.46250003576278687, "r_norm": 0.4625, "r_spatial": 0.31640625, "parsed": 0.953125, "joint": 0.34375, "len": 217.796875, "kl": 0.002429630510353794, "frac_flat": 0.25, "sec_gen": 104.9, "sec": 163.2}
+{"step": 23, "reward": 0.65625, "r_norm": 0.65625, "r_spatial": 0.4921875, "parsed": 0.9375, "joint": 0.5, "len": 223.171875, "kl": 0.002013618126511574, "frac_flat": 0.625, "sec_gen": 106.7, "sec": 136.4}
+{"step": 24, "reward": 0.581250011920929, "r_norm": 0.58125, "r_spatial": 0.64453125, "parsed": 0.96875, "joint": 0.484375, "len": 232.1875, "kl": 0.003138829032347227, "frac_flat": 0.25, "sec_gen": 106.4, "sec": 165.0}
+{"step": 25, "reward": 0.651562511920929, "r_norm": 0.6515625, "r_spatial": 0.51953125, "parsed": 0.96875, "joint": 0.546875, "len": 228.65625, "kl": 0.0019880531035596505, "frac_flat": 0.5, "sec_gen": 105.8, "sec": 144.8}
+{"step": 26, "reward": 0.535937488079071, "r_norm": 0.5359375000000001, "r_spatial": 0.515625, "parsed": 0.90625, "joint": 0.4375, "len": 246.0625, "kl": 0.002277174236951396, "frac_flat": 0.25, "sec_gen": 104.8, "sec": 163.1}
+{"step": 27, "reward": 0.3953125476837158, "r_norm": 0.3953125, "r_spatial": 0.30078125, "parsed": 0.984375, "joint": 0.25, "len": 220.140625, "kl": 0.004293723541195504, "frac_flat": 0.5, "sec_gen": 104.5, "sec": 143.2}
+{"step": 28, "reward": 0.44062498211860657, "r_norm": 0.44062500000000004, "r_spatial": 0.51953125, "parsed": 0.96875, "joint": 0.234375, "len": 250.1875, "kl": 0.001995650978642516, "frac_flat": 0.0, "sec_gen": 104.3, "sec": 181.5}
+{"step": 29, "reward": 0.39375001192092896, "r_norm": 0.39375000000000004, "r_spatial": 0.58984375, "parsed": 0.96875, "joint": 0.296875, "len": 211.234375, "kl": 0.004043167689815164, "frac_flat": 0.625, "sec_gen": 104.9, "sec": 133.8}
+{"step": 30, "reward": 0.5468750596046448, "r_norm": 0.546875, "r_spatial": 0.4609375, "parsed": 0.9375, "joint": 0.421875, "len": 239.359375, "kl": 0.002374014293309301, "frac_flat": 0.125, "sec_gen": 104.9, "sec": 173.0}
+{"step": 31, "reward": 0.45156246423721313, "r_norm": 0.45156250000000003, "r_spatial": 0.57421875, "parsed": 0.921875, "joint": 0.328125, "len": 236.546875, "kl": 0.005820938071701675, "frac_flat": 0.375, "sec_gen": 105.2, "sec": 154.1}
+{"step": 32, "reward": 0.4312499761581421, "r_norm": 0.43125, "r_spatial": 0.4453125, "parsed": 0.953125, "joint": 0.234375, "len": 227.34375, "kl": 0.0031142716645263134, "frac_flat": 0.375, "sec_gen": 106.5, "sec": 155.7}
+{"step": 33, "reward": 0.39531248807907104, "r_norm": 0.3953125, "r_spatial": 0.55078125, "parsed": 0.984375, "joint": 0.265625, "len": 218.6875, "kl": 0.0033034055959433317, "frac_flat": 0.75, "sec_gen": 105.8, "sec": 125.6}
+{"step": 34, "reward": 0.23593750596046448, "r_norm": 0.23593750000000002, "r_spatial": 0.68359375, "parsed": 0.953125, "joint": 0.078125, "len": 224.265625, "kl": 0.002902383712353185, "frac_flat": 0.5, "sec_gen": 108.2, "sec": 148.4}
+{"step": 35, "reward": 0.550000011920929, "r_norm": 0.55, "r_spatial": 0.4609375, "parsed": 0.96875, "joint": 0.375, "len": 223.046875, "kl": 0.0023387557497092835, "frac_flat": 0.25, "sec_gen": 103.7, "sec": 161.4}
+{"step": 36, "reward": 0.48281246423721313, "r_norm": 0.48281250000000003, "r_spatial": 0.4609375, "parsed": 1.0, "joint": 0.375, "len": 206.96875, "kl": 0.002672600676305592, "frac_flat": 0.875, "sec_gen": 98.4, "sec": 107.8}
+{"step": 37, "reward": 0.653124988079071, "r_norm": 0.6531250000000001, "r_spatial": 0.59765625, "parsed": 0.984375, "joint": 0.515625, "len": 212.859375, "kl": 0.0031520409781175354, "frac_flat": 0.625, "sec_gen": 93.2, "sec": 120.2}
+{"step": 38, "reward": 0.574999988079071, "r_norm": 0.5750000000000001, "r_spatial": 0.4453125, "parsed": 0.984375, "joint": 0.40625, "len": 213.671875, "kl": 0.005655258447707941, "frac_flat": 0.25, "sec_gen": 105.4, "sec": 164.3}
+{"step": 39, "reward": 0.6156249642372131, "r_norm": 0.6156250000000001, "r_spatial": 0.6484375, "parsed": 1.0, "joint": 0.46875, "len": 225.125, "kl": 0.002798311854712665, "frac_flat": 0.375, "sec_gen": 101.2, "sec": 148.1}
+{"step": 40, "reward": 0.5796875357627869, "r_norm": 0.5796875, "r_spatial": 0.60546875, "parsed": 0.953125, "joint": 0.4375, "len": 246.453125, "kl": 0.003901367172754059, "frac_flat": 0.25, "sec_gen": 104.8, "sec": 162.9}
+{"step": 41, "reward": 0.3828125, "r_norm": 0.3828125, "r_spatial": 0.53125, "parsed": 0.9375, "joint": 0.265625, "len": 246.578125, "kl": 0.0041148266289383175, "frac_flat": 0.375, "sec_gen": 105.2, "sec": 154.7}
+{"step": 42, "reward": 0.5703125, "r_norm": 0.5703125, "r_spatial": 0.609375, "parsed": 0.9375, "joint": 0.453125, "len": 240.796875, "kl": 0.002581481278563539, "frac_flat": 0.25, "sec_gen": 111.8, "sec": 171.7}
+{"step": 43, "reward": 0.5999999642372131, "r_norm": 0.6000000000000001, "r_spatial": 0.5234375, "parsed": 1.0, "joint": 0.453125, "len": 224.390625, "kl": 0.0033231486100703477, "frac_flat": 0.375, "sec_gen": 96.5, "sec": 143.9}
+{"step": 44, "reward": 0.6578124761581421, "r_norm": 0.6578125, "r_spatial": 0.48828125, "parsed": 0.953125, "joint": 0.5625, "len": 221.828125, "kl": 0.0027932466958494238, "frac_flat": 0.25, "sec_gen": 103.9, "sec": 161.6}
+Traceback (most recent call last):
+  File "/ocean/projects/cis260338p/sgupta31/rl_pilot/grpo_train.py", line 179, in <module>
+    main()
+  File "/ocean/projects/cis260338p/sgupta31/rl_pilot/grpo_train.py", line 109, in main
+    seqs = model.generate(**inputs, do_sample=True, temperature=1.0, top_p=1.0, top_k=0,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/peft/peft_model.py", line 2242, in generate
+    outputs = self.base_model.generate(*args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2566, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/generation/utils.py", line 2786, in _sample
+    outputs = self(**model_inputs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1344, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 1223, in forward
+    outputs = self.language_model(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 850, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 517, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/transformers/models/qwen3_vl/modeling_qwen3_vl.py", line 472, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                                                                ^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ocean/projects/cis260338p/sgupta31/idea5_pilot/venv/lib/python3.12/site-packages/peft/tuners/lora/layer.py", line 1102, in forward
+    result = result + lora_B(lora_A(dropout(x))) * scaling
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.59 GiB. GPU 0 has a total capacity of 44.42 GiB of which 3.41 GiB is free. Including non-PyTorch memory, this process has 41.00 GiB memory in use. Of the allocated memory 40.06 GiB is allocated by PyTorch, and 428.52 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

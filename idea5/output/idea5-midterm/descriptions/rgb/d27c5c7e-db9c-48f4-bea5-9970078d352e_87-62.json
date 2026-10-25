@@ -1,0 +1,18 @@
+{
+ "id": "d27c5c7e-db9c-48f4-bea5-9970078d352e_87-62",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place inside an enclosed tent with white mesh walls on the back and right and a yellow-green corner panel on the back left. Directly below and in front of the camera wearer, within arm's reach at roughly 0.3 to 0.5 metres, is an open beige pouch resting on a red and yellow mat, while a bundled blue sleeping bag and a dark bag with orange patterning lie just ahead at about 0.8 to 1.2 metres, with a black backpack further to the back left at roughly 1.2 to 1.5 metres. In the first two frames, the camera wearer's hands reach into the open beige pouch at the bottom center while only the grey-trousered leg of a second person is partly visible at the far left edge, about 0.8 metres away. Across frames 3 to 5, the camera wearer pitches and pans their head upward and to the left, progressively bringing the second person\u2014wearing a dark jacket and cap and positioned roughly 0.7 to 1.0 metre away on the left\u2014into view while the beige pouch drops out of the lower frame. In frames 3 and 4, the camera wearer's left hand places a small translucent container onto the blue sleeping bag near the second person's leg as the second person's left arm reaches forward holding a white and green pouch. By the final frame, the second person is seen from the waist up, facing forward and slightly down toward the camera wearer's left side without looking directly at the camera, extending their left hand to within 0.5 metres of the camera wearer while the blue sleeping bag shifts to the bottom right corner."
+ },
+ "duration_seconds": 13.988076,
+ "usage": {
+  "input_tokens": 19575,
+  "output_tokens": 476,
+  "thinking_tokens": 46,
+  "cache_read_tokens": 14202,
+  "total_tokens": 20051
+ },
+ "conversation_id": "ab238b33-9f83-4266-b0b0-5fdd6ff23cb1"
+}

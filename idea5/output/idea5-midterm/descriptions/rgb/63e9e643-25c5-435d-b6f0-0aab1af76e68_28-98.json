@@ -1,0 +1,18 @@
+{
+ "id": "63e9e643-25c5-435d-b6f0-0aab1af76e68_28-98",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room where the camera wearer is positioned low in the foreground above a checkered mat, with a floral floor mat in the midground (~1.0\u20131.5 m ahead) and a tiled floor leading to built-in wall shelves (~2.0\u20132.5 m ahead) stacked with red and black bags. Within arm's reach of the camera wearer (~0.3\u20130.8 m in front and below) lie two white electrical switchboards, red-handled pliers, a yellow screwdriver, and a Finolex box on the right, while hands at the bottom edge of the frame hold the left switchboard and a smartphone. Roughly 1.0\u20131.3 m in front of the camera wearer, one person in white trousers lies stretched horizontally from left to right with bare feet near the right side and their torso and head mostly cropped out of view on the left. Immediately to the right of those feet (~1.2\u20131.5 m from the camera wearer), a second person in grey trousers and a dark shirt stands facing generally toward the camera wearer and the foreground mat, though their head is cropped above the top edge across all five frames so their gaze is not visible. Behind the reclining legs and to the left of the standing person's feet (~1.5\u20132.0 m away) sit white, red, and blue plastic bags on the floor, while a clear water bottle rests just behind and between the standing person's legs, partially occluded by their calves in frames 1 through 4. Across the five frames, the camera tilts upward from the foreground mat in frames 1\u20132 to show more of the background shelves in frames 3\u20134 before tilting slightly down again in frame 5, while the standing person bends forward in frames 1\u20132 and 4 to reach down with yellow tools within arm's reach of the foreground mat and the reclining person's ankles, then straightens upright and retreats slightly in frame 5."
+ },
+ "duration_seconds": 23.614999,
+ "usage": {
+  "input_tokens": 19524,
+  "output_tokens": 1358,
+  "thinking_tokens": 872,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20882
+ },
+ "conversation_id": "a4a9f826-762d-4017-897f-a27732ac07ba"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "dd508a2a-1ea7-43d2-805a-8080eeae9985_36-14",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a tight indoor corner containing a multi-tiered wall niche (shrine) directly in front and slightly to the right of the camera wearer at a distance of roughly 0.8 to 1.2 metres, with a tiled floor below and walls enclosing the right and front sides. On the upper shelf of the niche sits a framed deity picture flanked by two brass oil lamps and garlands about 0.3 metres apart, while a lower shelf about 0.4 metres below holds two circular plates containing red flowers and white powder, and an uppermost ledge in Frame 2 shows small metal bowls and containers. In Frames 1 and 2, a shirtless man wearing a black lower garment and necklace stands roughly 0.5 to 0.8 metres in front and to the left of the camera wearer, facing away and toward the niche while his extended right arm reaches the upper shelf within his arm's reach, partially occluding the left side of the niche and another person's torso at the far left edge of Frame 1. From Frame 3 to Frame 5, thecamera wearer tilts their view downward as the man turns counter-clockwise to face the camera wearer at a distance of about 0.7 to 1.0 metre to the left of the niche; his head is cropped out of the top of the frame in Frames 3 and 4, but in Frame 5 his head is visible and he looks downward toward the camera wearer's hands rather than at the camera wearer's face. In Frames 4 and 5, the camera wearer's hands enter the bottom foreground within 0.3 to 0.4 metres holding yellow fruit (bananas/lemons), and in Frame 5 the man extends his right hand downward into the space within arm's reach of both himself and the camera wearer, right beside the offered fruit."
+ },
+ "duration_seconds": 17.070942,
+ "usage": {
+  "input_tokens": 19558,
+  "output_tokens": 715,
+  "thinking_tokens": 255,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20273
+ },
+ "conversation_id": "ae21ce3f-c40c-4c8a-9eab-0d1e1173ef5f"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "d8936caf-0142-4ceb-bacc-70313a19f169_805-14",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first three frames, the camera wearer stands in a kitchen facing a black stove on the left and a narrow countertop to its right, both within arm's reach at roughly 0.4 to 0.8 metres away. Below on the front-right burner, the wearer's left hand places a lid onto a saucepan in frames 1 and 2 before withdrawing out of the lower frame in frame 3, while a spoon on a napkin and a black smartphone sit on the counter a few centimetres to the right beneath a white toaster oven. An over-the-range microwave sits above the stove next to an upper wooden cabinet, and the dark side of a refrigerator immediately to the right of the counter occludes the adjacent room until the wearer begins turning right in frame 3. Across frames 4 and 5, the camera wearer turns roughly 90 degrees clockwise to face an adjoining room and hallway, positioning the black refrigerator 1.0 to 1.5 metres to the left and a partition wall with a hanging leash and counter edge 0.5 to 1.0 metres to the right. Beyond the refrigerator at about 2.0 to 2.5 metres on the left stands a small table with a striped tablecloth and chairs, while closed wooden doors line the back wall and right-hand hallway 4.5 to 6.0 metres away. On the floor in the centre of the room, about 3.0 to 3.5 metres in front of the wearer and 1.0 metre to the right of the table, a person in dark clothing kneels sideways with their head toward the left and feet to the right, leaning directly over a black-and-white dog within their arm's reach while angling their face toward the dog and slightly toward the camera wearer."
+ },
+ "duration_seconds": 19.273634,
+ "usage": {
+  "input_tokens": 19582,
+  "output_tokens": 1105,
+  "thinking_tokens": 657,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20687
+ },
+ "conversation_id": "ea92864e-06a3-4128-9ff2-87b66ee8b05d"
+}

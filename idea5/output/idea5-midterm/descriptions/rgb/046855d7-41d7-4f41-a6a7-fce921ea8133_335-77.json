@@ -1,0 +1,18 @@
+{
+ "id": "046855d7-41d7-4f41-a6a7-fce921ea8133_335-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor park roadway and adjoining paved parking area bordered by concrete curbs, grass, and low shrubs below tall evergreen and deciduous tree canopies overhead, with a small dark log cabin set on the ground just above the right curb. In the first frame, the camera wearer faces along the curving road with the left curb 1 to 2 metres to the left, white diagonal pavement markings 2 to 4 metres to the right, and the log cabin and an adjacent evergreen tree roughly 6 to 10 metres ahead on the right. Across frames 2 and 3, the viewpoint turns right toward the striped pavement zone, revealing a person in a light shirt and dark shorts on the asphalt about 5 to 8 metres away to the right, facing and looking toward the camera wearer. A silver car is parked roughly 4 to 6 metres behind that person (about 10 to 14 metres from the camera wearer) and the evergreen tree and cabin sit 5 to 8 metres to the person's left, while no objects are within arm's reach of either the camera wearer or the other person. In frames 4 and 5, the camera wearer turns back to the left and advances slightly along the road toward a distant building 25 to 40 metres ahead on the left, moving the cabin to the right side of the frame (5 to 8 metres away) while the person and car pass completely out of view to the right and trees partially occlude the cabin, car, and background throughout."
+ },
+ "duration_seconds": 27.337944,
+ "usage": {
+  "input_tokens": 5371,
+  "output_tokens": 1585,
+  "thinking_tokens": 1195,
+  "cache_read_tokens": 28411,
+  "total_tokens": 6956
+ },
+ "conversation_id": "5d6d40ee-dd91-440a-994a-a36c26fd0d4c"
+}

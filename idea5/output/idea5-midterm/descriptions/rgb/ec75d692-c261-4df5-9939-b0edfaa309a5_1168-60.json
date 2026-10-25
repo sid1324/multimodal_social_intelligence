@@ -1,0 +1,12 @@
+{
+ "id": "ec75d692-c261-4df5-9939-b0edfaa309a5_1168-60",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a bright indoor service or retail area, with a countertop and snack rack on the left, a glass display case near the center, and glass walls or doors with a corridor behind them. A man in dark clothing remains about 0.8\u20131.5 m in front of the camera wearer, shifting from center-left in the first frame to center-right in later frames as the viewpoint turns; he faces generally toward the camera wearer but looks mostly downward rather than directly at the camera. The countertop and snack rack are roughly 0.3\u20131 m away and within the camera wearer\u2019s arm\u2019s reach, while the display case is about 1\u20132 m away and alternates between the right and left side of view. A second dark-clothed person is partly visible near the display case about 1\u20132 m away, and a seated person is partially occluded behind or beside the case at roughly 2\u20133 m; these people are approximately 1\u20132 m from the foreground man. Across the five frames, the camera pans or turns side to side rather than clearly approaching or retreating, causing the foreground man, snack rack, and display case to swap lateral positions while several people and objects become cropped or briefly occluded at the frame edges."
+ },
+ "duration_seconds": 9.8,
+ "usage": null,
+ "conversation_id": null
+}

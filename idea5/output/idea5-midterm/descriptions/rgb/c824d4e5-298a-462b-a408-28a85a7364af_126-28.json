@@ -1,0 +1,12 @@
+{
+ "id": "c824d4e5-298a-462b-a408-28a85a7364af_126-28",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The five frames show a small shop or caf\u00e9 interior with a service counter along the right/front area, refrigerated display cases and shelving on the left, and open floor space between them. In the first two frames, the camera wearer is roughly 1\u20133 m from the refrigerators and shelves, with the nearest counters and merchandise about 0.5\u20131.5 m away and some fixtures cut off at the left, right, and lower edges. As the camera turns and moves rightward, a woman behind the counter comes into view about 2\u20133 m ahead, facing and looking toward the camera wearer; the counter separates them, placing her roughly 1\u20132 m behind its near edge. In the final two frames, the camera approaches to about 1\u20132 m from the woman, while a tall heated display case in the right foreground, approximately 0.5\u20131 m from the camera, partly occludes her body and the counter. The woman remains near the back side of the counter with nearby equipment and containers within her arm's reach, while the camera wearer\u2019s arm's-reach area contains the counter edge or display case only in the later frames; no other people are visible."
+ },
+ "duration_seconds": 10.5,
+ "usage": null,
+ "conversation_id": null
+}

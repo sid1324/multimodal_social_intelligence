@@ -1,0 +1,18 @@
+{
+ "id": "845cb298-d60b-4106-8213-d2aca821740a_14-13",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a wide, dimly lit outdoor courtyard at night flanked by multi-story buildings with arched walkways on the left and right, about 5 to 8 metres from the central path, and connected by a distant building with an archway roughly 35 to 45 metres ahead. Two short, glowing blue-white bollard lights stand along the left edge of the walkway, with the nearer post starting about 7 to 8 metres ahead and to the left of the camera wearer and the farther post positioned another 6 to 8 metres beyond it. A single person in dark clothing and shorts stands on the walkway near the farther bollard light, approximately 12 to 15 metres in front of and slightly to the left of the camera wearer. In frames 2 and 3, the camera wearer's left arm extends forward and upward into the lower-left foreground within arm's reach, partially occluding the ground ahead while no external objects or people are within reach of either person. Across the 5 frames, the camera wearer walks forward so that the nearer bollard light approaches from roughly 8 metres away to about 2 metres away at the far lower-left edge of frame 5, where it is partially cut off by the frame boundary, and the tops of the flanking buildings remain partly out of view above the upper frame edge. Meanwhile, the distant person, who faces mostly away and slightly right in the early frames before turning more sideways and slightly toward the camera wearer by frame 5, remains roughly 8 to 10 metres ahead of the camera wearer near the second bollard light."
+ },
+ "duration_seconds": 19.64934,
+ "usage": {
+  "input_tokens": 19550,
+  "output_tokens": 486,
+  "thinking_tokens": 82,
+  "cache_read_tokens": 14196,
+  "total_tokens": 20036
+ },
+ "conversation_id": "e9fe45e1-fdf8-4255-b8e2-cccc4602c3a1"
+}

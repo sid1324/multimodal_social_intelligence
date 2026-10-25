@@ -1,0 +1,18 @@
+{
+ "id": "cebb6331-2a18-454a-862b-3aa502267017_1587-77",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated at a large table in an indoor room with a long desk and desktop monitors positioned about 3 to 4 metres away in the right background. Directly in front of the camera wearer on the table, within arm's reach at roughly 0.3 to 0.6 metres away, sit a black laptop on the left and a silver laptop about 0.1 metres to its right, flanked by a tablet to the far left (0.6 metres away) and face masks to the right (0.5 metres away), with an empty purple chair behind the table at about 1.2 metres. In frames 1 through 4, a right arm and hand enter from the bottom-right edge\u2014next to a partially visible person seated immediately to the camera wearer's right at about 0.4 metres\u2014reaching onto the silver laptop's keyboard, while another person's arm is cropped at the far-left edge in frame 1. Further along the left side of the table at roughly 2 to 2.5 metres ahead and to the left, a person in a blue shirt sits in left profile looking away from the camera wearer, with a tablet resting within their arm's reach on the table. In frame 5, the camera wearer turns sharply to the left, shifting the silver laptop mostly out of the right edge of the frame while keeping the black laptop and adjacent tablet in view on the right. This leftward turn reveals three additional people: a person partially cropped in the bottom-left foreground about 0.3 to 0.4 metres away facing right, a woman in a white shirt seated about 0.8 to 1.0 metres to the left (roughly 0.5 metres beyond the foreground person) facing and looking toward the camera wearer within arm's reach of the left-side tablet, and a person seated about 3 to 3.5 metres away near a background whiteboard (about 1.5 metres left of the person in blue) facing the foreground."
+ },
+ "duration_seconds": 26.579368,
+ "usage": {
+  "input_tokens": 19620,
+  "output_tokens": 1279,
+  "thinking_tokens": 785,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20899
+ },
+ "conversation_id": "7136da00-18bc-43ea-99f8-58e38ef234ce"
+}

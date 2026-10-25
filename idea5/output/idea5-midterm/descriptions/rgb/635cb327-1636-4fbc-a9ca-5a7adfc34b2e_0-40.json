@@ -1,0 +1,12 @@
+{
+ "id": "635cb327-1636-4fbc-a9ca-5a7adfc34b2e_0-40",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is inside a parked vehicle, with the dashboard and windshield in front, seats and cabin surfaces nearby, and a parking lot with rows of cars roughly 3\u201330 m outside. A woman is seated about 0.5\u20131 m from the camera wearer; she appears on the left in frame 1, shifts to the right side in frames 2\u20133 as the viewpoint turns, faces generally toward the camera wearer, and is partly cropped or occluded by the cabin edges. A second person is only partially visible beside or behind her in frames 2\u20133, approximately 0.8\u20131.5 m from the camera and within about 0.5 m of the woman; their face and body are largely occluded. The woman, adjacent seat surfaces, dashboard, and portions of the doors are within arm's reach, while the cars outside are not. Across frames 1\u20134 the viewpoint rotates from the side interior toward the front windshield, causing the nearby people to move out of view and revealing more of the dashboard and parking aisle; by frame 5 only a small cropped body part remains at the lower-right edge, with no clear evidence that the people themselves approached or retreated."
+ },
+ "duration_seconds": 11.2,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "4930cced-9b84-464e-88ce-3990188efed6_1781-50",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In Frame 1, the camera wearer faces a dimly lit room with a window on the far left and a table roughly 2 to 2.5 metres ahead on the left, while hanging wall items and a broom sit about 1.5 to 2 metres ahead on the right. From Frame 2 to Frame 5, the camera wearer walks forward and turns steadily clockwise into a narrow galley kitchen with a counter, double sink, and upper wooden cabinets on the left wall and a white refrigerator, elevated black microwave shelf, narrow counter section, and white stove on the right wall, spaced roughly 1 to 1.5 metres across from the left counter. In Frames 2 and 3, the sink counter with a cutting board and knife is on the left at about 1.5 metres (Frame 2) and within arm's reach at under 1 metre (Frame 3), while a doorway about 3.5 to 4 metres straight ahead at the far end of the kitchen partially reveals a distant person standing roughly 5 to 6 metres away in the next room, mostly occluded by the doorway frame and not visibly looking toward the camera wearer. In Frame 4, as the camera wearer turns further right toward the right-hand wall, the sink counter becomes mostly cropped out at the bottom-left edge, the distant doorway shifts to the upper left, and the refrigerator (about 1.5 metres away on the left) and stove (about 1 metre away on the right) come clearly into view. By Frame 5, the camera wearer faces the stove and adjacent counter directly within arm's reach at about 0.5 to 0.8 metres, with a pot of yellow food, a teal kettle, tongs, and a wooden spoon on the stove surface on the right, small bowls and utensils on the narrow counter to their left, the microwave on a shelf directly above that counter, and the refrigerator partially out of view on the far left."
+ },
+ "duration_seconds": 18.111822,
+ "usage": {
+  "input_tokens": 19631,
+  "output_tokens": 736,
+  "thinking_tokens": 254,
+  "cache_read_tokens": 14212,
+  "total_tokens": 20367
+ },
+ "conversation_id": "e4364839-aa82-4f77-833e-92a5e017e98d"
+}

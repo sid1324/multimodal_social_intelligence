@@ -1,0 +1,12 @@
+{
+ "id": "27f9cd4e-8b61-477c-9b63-ca3d437a0dff_250-50",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera looks steeply downward at a cluttered ground surface containing several round metal bowls, open sacks, long wooden poles, rope or fibrous material, and scattered debris, all mostly within about 0.3\u20131.5 m of the wearer. In the first frame, another person\u2019s forearms enter from the left and reach toward an open sack and a bowl roughly 0.4\u20130.8 m in front of the camera; their body and face remain outside the frame, so gaze direction is not visible. Across the first three frames, the viewpoint shifts rightward and slightly forward over the same objects, while the sack and bowls slide from the central-left area toward the left edge and the poles remain aligned roughly front-to-back. In the fourth and fifth frames, a second person becomes visible from above at the lower-right, about 0.5\u20131 m away, wearing a yellow-and-white checked top with legs extending forward; their head is out of view, so their facing and gaze cannot be established. By the final frame the camera has turned farther right, placing this person directly below and to the right within arm\u2019s reach, while two bowls sit about 0.5\u20131 m ahead and the earlier person is fully out of view; many objects partially overlap or are cut off by the strip\u2019s edges."
+ },
+ "duration_seconds": 10.1,
+ "usage": null,
+ "conversation_id": null
+}

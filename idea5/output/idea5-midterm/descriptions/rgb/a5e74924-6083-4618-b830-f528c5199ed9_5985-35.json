@@ -1,0 +1,18 @@
+{
+ "id": "a5e74924-6083-4618-b830-f528c5199ed9_5985-35",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor narrow dirt path bordered closely on both the left and right by dense clusters of waist- to chest-high rosette plants, with the nearest foliage positioned below and within arm's reach (under 1 metre) of the camera wearer. Directly in front of the camera wearer on the path is a person wearing a white jacket and a pink backpack with a purple bottle in its right pocket, located roughly 2 to 2.5 metres ahead in the initial frames, while a second person in a black hooded poncho is about 0.5 metres further ahead and slightly to the left of the first person (roughly 2.5 to 3 metres from the camera wearer). Both people face forward away from the camera wearer and never look back toward the camera, remaining within arm's reach of the surrounding plants on either side and within arm's reach of each other from the second frame onward. In the first four frames, the downward camera angle cuts off both people's heads at the top edge of the view, the person in the black poncho is almost entirely out of frame in frame 1 and partially occluded by the left side of the person with the pink backpack in frames 2 through 4, and low plants partially obscure their lower legs and feet. Across the five frames, the camera wearer moves closer to both people until the person with the pink backpack is roughly 1 to 1.5 metres in front (nearly within arm's reach) and the person in the black poncho is about 1.5 to 2 metres ahead in frame 5, as the camera tilts upward to bring their heads, the poncho wearer's upward-extended right arm, and the background hillside into view."
+ },
+ "duration_seconds": 29.16259,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 2087,
+  "thinking_tokens": 1662,
+  "cache_read_tokens": 14208,
+  "total_tokens": 21667
+ },
+ "conversation_id": "d37d21e1-072c-4ac5-8495-99b0758a6a2f"
+}

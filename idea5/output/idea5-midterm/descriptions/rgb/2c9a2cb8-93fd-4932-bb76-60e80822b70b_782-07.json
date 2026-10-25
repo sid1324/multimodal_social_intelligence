@@ -1,0 +1,18 @@
+{
+ "id": "2c9a2cb8-93fd-4932-bb76-60e80822b70b_782-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is seated in an indoor room with a wood-patterned floor, looking downward and forward toward a small green-covered table 0.5 to 0.8 metres ahead, a pair of blue shoes on the floor about 1 metre to the front-right, a shoe rack along the right wall 1.2 to 1.5 metres away, and an open doorway with a grey mat 2.5 to 3 metres straight ahead. Within the camera wearer's arm's reach (0.3 to 0.7 metres in front and below chest level) are their own hands, a ruler, a pencil, a small blue item on the upper-left corner of the table, and two open books, one of which the wearer shifts from the table onto their lap between the first and third frames so that it partially occludes the textbook and green table beneath it. In the first two frames no other person is present, while the shoe rack on the far right and the upper portion of the doorway and walls are cropped out of the field of view. In frame 3, a second person's feet enter through the doorway on the mat about 2.5 to 3 metres ahead, and across frames 4 and 5 this person walks forward into the room to stand roughly 1.0 to 1.2 metres to the front-right of the camera wearer, directly between the green table and the shoe rack. In frames 4 and 5, the standing person faces generally forward toward the space to the camera wearer's right, within arm's reach of the green table and the shoe rack, while their legs step over and partially occlude one of the blue shoes on the floor. Throughout their approach, the second person's upper torso and head remain completely out of view above the top edge of the frame, making their gaze direction unobservable."
+ },
+ "duration_seconds": 20.917685,
+ "usage": {
+  "input_tokens": 19525,
+  "output_tokens": 1274,
+  "thinking_tokens": 810,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20799
+ },
+ "conversation_id": "1b486e88-7603-4565-b55f-0fa9e47ec4b9"
+}

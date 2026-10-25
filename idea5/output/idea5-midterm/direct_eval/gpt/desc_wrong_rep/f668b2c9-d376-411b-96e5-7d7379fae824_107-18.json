@@ -1,0 +1,1 @@
+{"id": "f668b2c9-d376-411b-96e5-7d7379fae824_107-18", "cond": "desc_wrong_rep", "model": "gpt", "action_position": 1, "justification_position": 2, "raw": "{\"action\": 1, \"justification\": 2}", "meta": {"returncode": 0}, "seconds": 7.5, "attempts": 1}

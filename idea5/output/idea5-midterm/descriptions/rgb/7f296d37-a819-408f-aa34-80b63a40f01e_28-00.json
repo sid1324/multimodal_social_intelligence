@@ -1,0 +1,18 @@
+{
+ "id": "7f296d37-a819-408f-aa34-80b63a40f01e_28-00",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands elevated on a grid of parallel bamboo scaffolding poles about 1.5 metres above the ground, looking sharply downward throughout the five frames. Within arm's reach (0.3 to 0.6 metres from the viewpoint), the camera wearer holds a round, dark basin with both hands, while a metal bucket of muddy liquid sits on the bamboo poles just below the wearer's right foot (about 1.2 to 1.5 metres down) next to a square container and white sacks on the upper right platform. In frames 1 and 2, the held basin is positioned directly below the viewpoint in the lower-left and centre foreground, partially occluding the bamboo poles, the wearer's feet, and the ground below. In frames 3 and 4, the camera wearer swings the basin to the far right edge of the frame (partially out of view) and tilts the viewpoint slightly leftward, revealing the wearer's flip-flop-clad feet on the bamboo poles and a second person in a pink shirt standing on the ground below and to the left, roughly 1.5 to 2 metres from the camera wearer. This second person faces the bamboo structure within arm's reach of its vertical supports\u2014holding the poles with both hands\u2014with their head initially cropped out at the left edge in frames 3 and 4 before tilting upward to look directly toward the camera wearer in frame 5. In frame 5, the camera wearer brings the round basin back to the lower-centre foreground at about 0.4 metres distance, again occluding the bucket and the bamboo poles directly below while the person in pink remains visible to the upper left of the basin."
+ },
+ "duration_seconds": 12.177482,
+ "usage": {
+  "input_tokens": 19525,
+  "output_tokens": 472,
+  "thinking_tokens": 49,
+  "cache_read_tokens": 14209,
+  "total_tokens": 19997
+ },
+ "conversation_id": "69dac1a5-36c8-4106-903f-b6e96c1f263d"
+}

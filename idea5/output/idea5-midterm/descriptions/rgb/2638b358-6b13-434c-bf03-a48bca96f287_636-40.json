@@ -1,0 +1,12 @@
+{
+ "id": "2638b358-6b13-434c-bf03-a48bca96f287_636-40",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, a low rectangular concrete wall or open-topped structure lies directly in front of the camera wearer, with vegetation and bare ground around it and a hose on the ground to the right. One adult stands about 0.5\u20131 m ahead, close to the wall and roughly within 1 m of the camera wearer, leaning over it with their back or side toward the camera and without visibly looking at the wearer. The wall\u2019s near edge and, in the first two frames, part of the nearby person\u2019s lower body are within the camera wearer\u2019s arm\u2019s reach; the person\u2019s forearms rest on or extend over the wall, placing its edge within their reach as well. The person and wall partly occlude the interior and the ground beyond them, while the camera wearer\u2019s forearm or hand enters along the lower edge in several frames and another person is only partially visible at the far right edge of the last frame, about 1\u20132 m away from the main person. From frames 1\u20134 the viewpoint shifts rightward and slightly closer to the leaning person, moving them from left-of-center to center-right while revealing more ground and hose on the right; in frame 5 the camera turns farther right and slightly downward, pushing the main person to the upper-right edge and bringing the partial second person and nearby ground into view."
+ },
+ "duration_seconds": 13.6,
+ "usage": null,
+ "conversation_id": null
+}

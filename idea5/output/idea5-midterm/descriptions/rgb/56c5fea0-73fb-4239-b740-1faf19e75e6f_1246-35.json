@@ -1,0 +1,18 @@
+{
+ "id": "56c5fea0-73fb-4239-b740-1faf19e75e6f_1246-35",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor cafe counter area featuring an L-shaped wooden front counter with lower wire snack racks, a glass door on the back-left wall, overhead fluorescent ceiling lights, and a rear counter on the right holding drink dispensers beneath a wall poster. A woman in a dark vest and white shirt stands behind the left side of the front counter near a cash register, positioned roughly 1 to 1.5 metres to the left of a countertop illuminated pastry case and about 2 to 3 metres in front of the rear drink counter and a yellow floor sign. In the first two frames, the camera wearer approaches from roughly 4 metres to 2.5 metres away while the woman faces forward and looks directly toward the camera wearer, with a refrigerated display case partially visible on the far right edge and the woman's lower body occluded by the counter. By the third frame, the camera wearer is about 1.5 metres from the counter\u2014bringing the counter edge and snack racks nearly within the camera wearer's arm's reach\u2014while the woman angles her head and gaze downward toward the register and counter surface within her own arm's reach. In the fourth frame, the camera wearer steps to within 1 metre of the counter corner and pastry case while panning slightly right, which crops the woman almost entirely out of view on the far left except for her left arm and cuts off the far-right display cases. In the fifth frame, the camera wearer turns left to face the woman from roughly 1 metre away as she faces the camera wearer holding a brown paper bag within arm's reach of both of them, with the pastry case now positioned to the right and the lower bodies cut off by the bottom of the frame."
+ },
+ "duration_seconds": 21.354002,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 1267,
+  "thinking_tokens": 840,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20889
+ },
+ "conversation_id": "1e9043b1-d45c-46fa-93a3-59f597868ef9"
+}

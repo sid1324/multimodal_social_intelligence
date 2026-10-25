@@ -1,0 +1,18 @@
+{
+ "id": "ea417823-8ca0-417c-8901-114fa4f2d47f_258-70",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room with a hardwood floor, a wooden counter or island on the right within 0.5 to 1 metre of the camera wearer, and a dining area with chairs and a glass door about 3 to 4 metres ahead in the background. On the floor at the base of the wooden counter, roughly 1 to 1.5 metres below the camera's viewpoint, is a dark mat holding two pet bowls. A medium-sized white and brown dog stands on the floor directly in front of and below the camera wearer at a distance of about 0.5 to 1.2 metres, positioned just to the left of the bowls (about 0.2 to 0.5 metres from them). In the first two frames, the camera wearer moves closer and pitches downward while the counter top goes out of view on the right, and the dog stands facing rightward toward the bowls before turning its head toward the camera wearer. From the third through the fifth frames, the camera wearer's hand enters the bottom center of the frame within arm's reach (about 0.4 to 0.6 metres away) to touch the underside of the dog's chin, while the dog tilts its head upward to look directly at the camera wearer. Throughout the sequence, a second person's lower legs and dark footwear are partially visible in the upper background about 3 metres away near the doorway, and the pet bowls and counter edge become progressively cropped at the bottom-right corner as the camera turns slightly left and downward."
+ },
+ "duration_seconds": 16.117701,
+ "usage": {
+  "input_tokens": 5419,
+  "output_tokens": 485,
+  "thinking_tokens": 92,
+  "cache_read_tokens": 28424,
+  "total_tokens": 5904
+ },
+ "conversation_id": "3f859c32-711b-452d-be58-975e0b00c0a8"
+}

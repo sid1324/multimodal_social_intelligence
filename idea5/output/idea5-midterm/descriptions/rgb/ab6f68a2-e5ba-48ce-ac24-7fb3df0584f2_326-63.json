@@ -1,0 +1,18 @@
+{
+ "id": "ab6f68a2-e5ba-48ce-ac24-7fb3df0584f2_326-63",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor rock climbing area featuring large sandstone boulders in front of and above the camera wearer, starting roughly 1.5 to 4 metres away. In the first frame, the camera wearer looks left toward a rock face where a person in a dark cap and light shirt stands about 1.5 metres away to the lower right, facing downward and away from the camera, while a distant climber in a yellow helmet is visible over 10 metres away in the background right. From the second through fifth frames, the camera wearer turns right to face the main boulder wall, where a person in a grey hoodie and yellow helmet stands directly in front of the camera wearer at about 1.2 to 1.8 metres away, and a second person in a dark blue T-shirt and white helmet stands further to the right and slightly deeper at roughly 2.5 to 3 metres away, about 1 to 1.5 metres from the first person. The person in the yellow helmet has their back turned to the camera wearer throughout frames two to five, looking toward the rock wall and the second person, while the person in the white helmet faces the rock wall and looks up in frames two and three before turning their head and torso left toward the person in the yellow helmet and slightly toward the camera wearer in frames four and five. Climbing ropes hang vertically down the rock face within arm's reach of both helmeted climbers, who hold and attach the ropes at their waist harnesses, while a third person in a blue-and-white cap briefly enters the left foreground edge within 1 metre (arm's reach) of the camera wearer in frames two, three, and four. Across the sequence, the camera pitches downward in the fourth frame\u2014cutting off the yellow-helmeted person's head at the top edge while revealing their lower legs and a coiled rope on the rock ledge below\u2014before pitching back up in the fifth frame as the yellow-helmeted person steps slightly closer and partially occludes the lower body of the climber in the white helmet."
+ },
+ "duration_seconds": 20.694686,
+ "usage": {
+  "input_tokens": 19612,
+  "output_tokens": 585,
+  "thinking_tokens": 89,
+  "cache_read_tokens": 14197,
+  "total_tokens": 20197
+ },
+ "conversation_id": "4eaad80b-0cdd-4ae3-9cc3-b8ecb3b8c78c"
+}

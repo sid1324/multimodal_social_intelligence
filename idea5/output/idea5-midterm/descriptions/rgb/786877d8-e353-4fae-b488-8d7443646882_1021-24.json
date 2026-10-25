@@ -1,0 +1,18 @@
+{
+ "id": "786877d8-e353-4fae-b488-8d7443646882_1021-24",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a tiled walkway beside a glass-fronted building on the left and an open corridor extending behind to the right. Directly in front of the camera wearer at roughly 0.8 to 1.0 metres\u2014within arm's reach\u2014stands a woman in a dark long-sleeved shirt and head-mounted camera, facing the wearer while looking downward at her waist in frames 1\u20134 before turning her head to her right (the wearer's left) in frame 5, with her lower legs cropped below the frame edge. To the left at about 1.5 to 2.5 metres is a person in a yellow hoodie and grey sweatpants who faces away toward the wall in frames 1\u20133, gets partially cropped at the left border as the camera pans right in frame 4, and turns to face forward and downward in frame 5, partially occluding a dark-clothed person standing behind them. Further back along the left wall at roughly 3 to 5 metres\u2014spaced about 1 to 1.5 metres apart from each other\u2014are a person in a grey top facing the wall with bags on the floor beside their feet, and two people in black hoodies facing the walkway while holding phones within their own arm's reach. On the right side of the walkway, two pedestrians in a grey hoodie and a dark jacket approach from about 6 to 8 metres away in frame 1 to within 2 to 3 metres in frame 4, passing just behind and to the right of the foreground woman before being mostly cropped out at the right edge in frame 5."
+ },
+ "duration_seconds": 12.872645,
+ "usage": {
+  "input_tokens": 5366,
+  "output_tokens": 672,
+  "thinking_tokens": 267,
+  "cache_read_tokens": 28424,
+  "total_tokens": 6038
+ },
+ "conversation_id": "5c3831c1-b05b-4959-9bf7-d34f72849160"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "6ba5f052-a1cd-46ba-83f2-1be480387020_599-71",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor dining and living area where the camera wearer stands directly at the near edge of a cluttered wooden table (within 0.3\u20131.2 m), which holds a vertical paper towel roll, condiment bottles, food containers, a dark water bottle, and a closed laptop within arm's reach on the foreground surface. Directly across the table about 1.2\u20131.5 m in front of the camera wearer sits a person in a maroon hoodie with their hands resting on small cards or papers on the tabletop, while a second person is seated far to the left in an armchair about 4\u20135 m away near bright French doors. Behind the nearer seated person (roughly 2\u20132.5 m from the camera wearer) stands a metal wire shelving unit holding a microwave and dishes, flanked by a framed wall poster to its left and a bright window, laundry basket, and wall banner to its right. In frame 1, the person across the table faces toward the camera wearer while looking down at the table, then in frames 2 through 4 turns their head sharply to their right (the camera wearer's left) to look toward the distant seated person in the armchair before turning their head back down toward the tabletop in frame 5. Simultaneously across frames 4 and 5, the camera wearer rotates their head and viewpoint clockwise to the right and slightly upward, shifting the left-side French doors, distant armchair occupant, and left table items out of the left edge of the frame while bringing the right-side wall banner, doorway, and a white appliance on the far right into view. Throughout the sequence, the tabletop clutter partially occludes the lower torso of the person across the table, whose body in turn partially occludes the lower shelves of the metal rack behind them."
+ },
+ "duration_seconds": 14.195922,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 545,
+  "thinking_tokens": 99,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20167
+ },
+ "conversation_id": "46e3f924-c435-48d7-9978-3fbd1735d192"
+}

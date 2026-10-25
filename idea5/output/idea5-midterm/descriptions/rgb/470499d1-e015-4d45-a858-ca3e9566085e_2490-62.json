@@ -1,0 +1,18 @@
+{
+ "id": "470499d1-e015-4d45-a858-ca3e9566085e_2490-62",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor or covered lobby with a tiled floor, a tall cylindrical concrete pillar about 6\u20138 m ahead, a mural-covered back wall with two elevator doors, a staircase on the back left, and a green ATM booth and vending kiosk along the left wall about 6\u201310 m away. Five women stand in a loose cluster roughly 0.5\u20133.5 m in front of the camera wearer, spaced 0.5\u20131.5 m apart: on the left are a woman in a dark maroon jacket and one behind her in a striped pink top (about 2\u20133.5 m away, facing right/inward), in the center-left foreground is a woman in a yellow hoodie, in the center-right is a woman in a patterned beige jacket with raised hands (about 2.5\u20133 m away, facing forward/toward the group), and on the right is a woman in a grey hoodie (about 1.5\u20132.5 m away, turning from facing away in frame 1 to facing left toward the group in frames 2\u20135). Across the five frames, the woman in the yellow hoodie approaches the camera wearer from about 1.5\u20132 m away on the left-center to less than 0.5 m directly in front (well within arm's reach), shifting from left to bottom-right while looking roughly toward the camera wearer. As she moves closer, her head and upper body increasingly occlude the lower center of the view and the legs of the woman in the beige jacket behind her, while her own lower body falls out of the bottom of the frame. The adjacent group members are within arm's reach of one another, while in the background on the left, two pedestrians walk from near the central pillar and staircase across the left background (roughly 5\u20138 m away) toward the vending kiosk, partially occluded by the women on the left in frames 2\u20134."
+ },
+ "duration_seconds": 13.422558,
+ "usage": {
+  "input_tokens": 19559,
+  "output_tokens": 486,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20045
+ },
+ "conversation_id": "1786c7ec-7baf-4c66-a203-73fd0a4b8109"
+}

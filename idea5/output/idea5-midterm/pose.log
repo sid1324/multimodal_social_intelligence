@@ -1,0 +1,47 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1792873333.995905  144169 gl_context.cc:369] GL version: 2.1 (2.1 Metal - 91.7), renderer: Apple M5 Max
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1792873334.039948  144887 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1792873334.053105  144901 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+I0000 00:00:1792873334.054000  144169 gl_context.cc:369] GL version: 2.1 (2.1 Metal - 91.7), renderer: Apple M5 Max
+W0000 00:00:1792873334.067034  144924 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1792873334.075932  144924 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1792873334.204030  144902 landmark_projection_calculator.cc:186] Using NORM_RECT without IMAGE_DIMENSIONS is only supported for the square ROI. Provide IMAGE_DIMENSIONS or use PROJECTION_MATRIX.
+50 1853
+100 1853
+150 1853
+200 1853
+250 1853
+300 1853
+350 1853
+400 1853
+450 1853
+500 1853
+550 1853
+600 1853
+650 1853
+700 1853
+750 1853
+800 1853
+850 1853
+900 1853
+950 1853
+1000 1853
+1050 1853
+1100 1853
+1150 1853
+1200 1853
+1250 1853
+1300 1853
+1350 1853
+1400 1853
+1450 1853
+1500 1853
+1550 1853
+1600 1853
+1650 1853
+1700 1853
+1750 1853
+1800 1853
+1850 1853
+done 1853 failed 0

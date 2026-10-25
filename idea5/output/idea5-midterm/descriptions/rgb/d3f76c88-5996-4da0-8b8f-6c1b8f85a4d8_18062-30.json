@@ -1,0 +1,18 @@
+{
+ "id": "d3f76c88-5996-4da0-8b8f-6c1b8f85a4d8_18062-30",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The head-mounted camera looks steeply downward in a workshop onto the camera wearer's own light-shirted torso and hands, with a concrete floor roughly 1.5 to 1.7 metres below the camera and no other people visible except for a partially out-of-view leg on the far upper-right floor about 1.5 to 2.0 metres away in the fifth frame. Directly in front of the wearer's waist, about 0.4 to 0.6 metres below the camera and within immediate arm's reach, sits a horizontal rectangular stainless-steel panel raised roughly 0.8 metres above the floor, which is touched by both of the wearer's hands. To the left of the wearer and panel (about 0.5 to 0.8 metres away) are vertical metal frames and a small floor-level motor, while to the right on the floor (about 1.3 to 1.6 metres from the camera and 0.4 to 0.6 metres right of the panel, beyond upright arm's reach) lie corded power tools including a yellow-and-black angle grinder and coiled cables. The wearer's torso and arms heavily occlude the floor directly beneath them\u2014leaving only the toes of the wearer's blue footwear briefly visible under the panel's near edge in frame 3\u2014while the forward section of the steel panel and surrounding workshop walls are cut off by the top and side frame boundaries. From frame 1 to frame 2, the camera wearer turns slightly leftward relative to the panel as both hands move closer together near its near corner, then turns back in frames 3 and 4 to face the panel's near edge squarely with the hands spaced about 0.2 to 0.3 metres apart. In frame 5, the camera pitches forward and upward away from the wearer's chest, bringing the middle and far portions of the steel panel (0.5 to 1.0 metres ahead) and a pile of peeled black-and-white protective film on its surface into view within extended arm's reach."
+ },
+ "duration_seconds": 26.486787,
+ "usage": {
+  "input_tokens": 5307,
+  "output_tokens": 1337,
+  "thinking_tokens": 823,
+  "cache_read_tokens": 28420,
+  "total_tokens": 6644
+ },
+ "conversation_id": "42642fe6-2b0b-44c9-affd-bb5112f538ba"
+}

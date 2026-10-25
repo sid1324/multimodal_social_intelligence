@@ -1,0 +1,18 @@
+{
+ "id": "1c35e580-0eb1-485f-98d5-48f1f968e952_519-81",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor gear storage and workshop area featuring a stairwell or ramp with a wall handrail on the left, a large rack of vertical skis on the right, and a doorway leading toward an elevator alcove and metal shelving in the background. In the first three frames, the camera wearer looks downward and forward while moving down the steps alongside a wall with a mounted whiteboard (within arm's reach, about 0.5 to 1.5 metres to the left), passing black bags on the floor to the left (1 to 2 metres away) and the ski rack about 1 to 2.5 metres to the right. During Frame 2, a low partition wall and handrail immediately to the right (under 0.5 metres away, within arm's reach) occlude the ski rack as the camera pitches sharply toward the floor. In Frames 4 and 5, the camera wearer pitches upward and turns slightly left while advancing past the whiteboard (now within 0.5 to 1 metre on the left) to face an open doorway about 2 to 3 metres ahead, with metal wire shelves, hanging bike tires, helmets, and a bicycle located 3 to 6 metres away to the right. Through the doorway in Frames 4 and 5, a person stands in front of closed metallic elevator doors roughly 4 to 5 metres away from the camera wearer and about 0.5 to 1 metre to the left of a secondary ski and gear rack. As the camera wearer approaches the doorway between Frames 4 and 5, this person remains standing near the elevator facing toward the doorway and the camera wearer, while the right doorway frame partially occludes the gear rack beside them."
+ },
+ "duration_seconds": 17.201452,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 512,
+  "thinking_tokens": 89,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20092
+ },
+ "conversation_id": "13a5c777-7986-483f-b2b0-6228c979a07a"
+}

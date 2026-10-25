@@ -1,0 +1,12 @@
+{
+ "id": "8e605fdf-a4f1-4393-975a-f332ab6b5f79_44-53",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A campsite lies in a rocky canyon, with a picnic table, several red and blue folding chairs, coolers and small containers on the ground, a pale dome tent to the left, and a black pickup truck beside the dirt road; the canyon wall is tens of metres beyond them. One person stands in front of the camera wearer near the table, initially about 4\u20136 m away and later about 1\u20132 m away; they mostly face away or sideways toward the table and do not clearly look at the camera. The table and chairs are clustered within roughly 1\u20133 m of that person, with items on the tabletop within their arm\u2019s reach, while none of the camp objects is initially within the camera wearer\u2019s arm\u2019s reach. Across the five frames, the camera wearer approaches the person and table and turns right, making the person grow larger and shift from centre to the right foreground while the truck shifts from the right edge to the left background. The person turns partly leftward in the final frames, remaining mostly in profile or facing the table; their lower body is intermittently blocked by the table, and the truck, tent, chairs, cliff tops, and nearby objects are partly cut off at different image edges as the viewpoint rotates."
+ },
+ "duration_seconds": 12.9,
+ "usage": null,
+ "conversation_id": null
+}

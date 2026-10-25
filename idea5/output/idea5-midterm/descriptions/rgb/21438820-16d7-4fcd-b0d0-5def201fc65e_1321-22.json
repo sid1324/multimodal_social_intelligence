@@ -1,0 +1,18 @@
+{
+ "id": "21438820-16d7-4fcd-b0d0-5def201fc65e_1321-22",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail or cafe checkout area where the camera wearer stands behind a counter facing a bearded man in a grey hoodie and black shirt about 0.8 to 1.0 metres in front of them. In the first three frames, the man stands on the left-to-center side of the frame, with a red shopping basket on the lower counter to his left (the camera wearer's lower right) and a lit glass pastry display case about 2.0 to 2.5 metres away against a white wall further right. Throughout all five frames, the man faces toward the counter and camera wearer with his head tilted downward so he looks at the counter surface rather than directly at the camera wearer's eyes, while a second person is visible in the background hallway about 5 to 7 metres behind him to the left. Across frames 1 to 5, the camera wearer turns their head to the left and slightly downward, causing the glass display case and red basket to leave the right edge of the view while bringing a brown paper bag, a black cash register tray, and a wire snack rack with hanging bags into view on the counter to the left of the man, about 0.5 to 1.2 metres from the camera wearer. The counter, register tray, red basket, and brown paper bag (~0.5 to 0.8 metres away) are within arm's reach of both the camera wearer and the man, who in the final frame holds small flat items in both hands just above the counter. The bottom edge of the frame cuts off the counter surface, the register, the basket, and the man's lower body below the waist in all frames, while the man's torso partially occludes the background pillar and doorway behind him."
+ },
+ "duration_seconds": 14.364127,
+ "usage": {
+  "input_tokens": 19578,
+  "output_tokens": 670,
+  "thinking_tokens": 229,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20248
+ },
+ "conversation_id": "577877db-9013-4d9a-afe1-a48d0d8fa1d7"
+}

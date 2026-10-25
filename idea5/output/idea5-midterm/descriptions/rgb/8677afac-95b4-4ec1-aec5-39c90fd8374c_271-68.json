@@ -1,0 +1,12 @@
+{
+ "id": "8677afac-95b4-4ec1-aec5-39c90fd8374c_271-68",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer faces a living room with a coffee table about 1\u20131.5 m ahead, an adult seated in an armchair about 2 m ahead-left, a television roughly 3\u20134 m ahead, and a sofa about 2\u20133 m ahead-right. The seated person faces mostly rightward toward the television, with their head angled away from the camera wearer; their legs extend toward the coffee table, which is within their arm\u2019s reach, while the person is beyond the camera wearer\u2019s arm\u2019s reach. The armchair is left of the table, the sofa is right of it, and the television stands beyond the table between them; ceiling lights are above, and curtains and a dark doorway or window opening lie behind and to the right of the seating. Small items rest on the coffee table and sofa, some partly occluded by furniture, while the room edges and portions of the seating are cut off by the frame boundaries. The five frames show little translation or distance change: the person remains seated and the furniture stays fixed, while slight camera rotation shifts the scene laterally and makes the right-side curtains and dark opening more or less visible."
+ },
+ "duration_seconds": 12.4,
+ "usage": null,
+ "conversation_id": null
+}

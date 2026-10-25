@@ -1,0 +1,18 @@
+{
+ "id": "994616c8-63b0-47bd-a526-0680f4acff9e_109-35",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a kitchen with wooden perimeter cabinets and a dishwasher on the left (2 to 3 metres away), a central counter with stools behind the main subject (1.5 to 2.5 metres away), a stainless-steel refrigerator on the right (within 0.3 to 1 metre), and a living room visible through a doorway in the distant background (4 to 5 metres away). A person in a white t-shirt and black pants stands directly in front of and slightly to the left of the camera wearer, remaining within arm's reach at roughly 0.5 to 1 metre away, with her head cropped out above the top edge of the frame throughout. In the first two frames, this person faces the camera wearer while extending her left arm rightward to grasp and pull open the refrigerator door, which swings toward the camera wearer in frames 3 through 5. Across frames 3 to 5, the camera wearer steps closer to the open refrigerator (within 0.3 to 0.5 metres) and turns slightly right, while the other person pivots her torso rightward to face the refrigerator's interior shelves and reaches inside with both hands. In frames 4 and 5, the open refrigerator door fills the right foreground within arm's reach of both individuals, while the camera wearer's raised left hand and forearm enter the lower-left and centre-left foreground (0.2 to 0.3 metres from the lens), partially occluding the other person's torso."
+ },
+ "duration_seconds": 11.778687,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 406,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 14207,
+  "total_tokens": 19985
+ },
+ "conversation_id": "77a79e4e-9d5a-41e9-af1c-44ad177c6a81"
+}

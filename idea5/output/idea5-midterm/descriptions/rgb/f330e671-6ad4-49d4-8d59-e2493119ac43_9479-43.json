@@ -1,0 +1,18 @@
+{
+ "id": "f330e671-6ad4-49d4-8d59-e2493119ac43_9479-43",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor dining area where the camera wearer is seated at a light-colored rectangular table, which connects on the right to a darker adjacent table. Three other people are seated around the tables: a man in an olive jacket and glasses immediately to the left (about 0.4\u20130.6 metres from the camera wearer), a woman in a grey top directly across the table in front (about 0.8\u20131.0 metres away, and 0.6 metres to the right of the man), and another person in a dark blue jacket to her right (about 1.0\u20131.3 metres away, and 0.4 metres from the woman). In the foreground within the camera wearer's arm's reach (0.3\u20130.5 metres away), both of the camera wearer's hands hold a small black bowl of red sauce with a spoon above a black tray holding another small bowl, a white bottle, a clear jar, and a blue water bottle to the right. The man on the left faces rightward toward the center of the table and the sauce bowl while keeping his left hand near his chin and mask, whereas the woman across the table faces forward toward the camera wearer and the person on the far right is partly cropped by the right frame edge. Across frames 1 to 3, the man on the left leans his head and upper body forward and downward toward the camera wearer's hands, coming within 0.2\u20130.3 metres of the red sauce bowl and partially occluding the table edge and the woman behind him. In frames 4 and 5, the man retreats back to his upright seated posture on the left ( becoming partly cropped by the left edge in frame 5), while the camera wearer's right hand extends forward across the table to pass the red sauce bowl into the reaching right hand of the woman opposite, who is also within arm's reach of the bowl."
+ },
+ "duration_seconds": 13.112388,
+ "usage": {
+  "input_tokens": 5351,
+  "output_tokens": 474,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28411,
+  "total_tokens": 5825
+ },
+ "conversation_id": "61ede91d-e40a-4cb7-b684-9793bc860a3c"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "dd82f801-fc96-4ced-b066-ad559da3faab_621-91",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grassy lawn bordered by a brick building with ground-level windows on the left (about 1.5\u20132 metres away) and a parking lot with parked vehicles in the background on the right (about 8\u201320 metres away). Directly in front of the camera wearer, within arm's reach at roughly 0.5\u20131.2 metres, is a translucent plastic storage tub holding water on the left and a large plastic water jug on the right, separated from each other by about 0.5\u20130.8 metres, along with a blanket holding a yellow chip bag, open takeout containers, and a cup closer to the camera wearer (0.3\u20130.7 metres away). In the first two frames, the camera wearer faces toward the lawn and parking lot while a small child inside the tub is largely out of view on the lower left, with only an arm and leg visible in the second frame. In the third and fourth frames, the camera wearer turns left and tilts downward toward the tub and blanket, bringing the child fully into view at about 0.6\u20130.9 metres away; the child faces toward the camera wearer and looks down while leaning over the tub's front edge to reach the cup and blanket items, which are within the child's arm's reach, as the camera wearer's hand enters the lower right foreground. In the fifth frame, the camera tilts upward to show more of the building wall and distant cars while cutting off the blanket and the child's lower body at the bottom edge of the frame, with the water jug partially visible at the bottom right corner and the tub occluding the child's legs throughout."
+ },
+ "duration_seconds": 26.774052,
+ "usage": {
+  "input_tokens": 19563,
+  "output_tokens": 429,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14206,
+  "total_tokens": 19992
+ },
+ "conversation_id": "e0f99a5d-b294-4b01-8bdb-15122a4e9bb9"
+}

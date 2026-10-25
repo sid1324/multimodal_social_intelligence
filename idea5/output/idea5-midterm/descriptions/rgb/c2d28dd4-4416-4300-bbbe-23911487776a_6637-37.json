@@ -1,0 +1,18 @@
+{
+ "id": "c2d28dd4-4416-4300-bbbe-23911487776a_6637-37",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor rock climbing gym with a padded blue floor mat, numbered cylindrical white rope bins spaced roughly 1 to 2 metres apart along the mat, and tall climbing walls rising on the right and in the background. In frames 1 and 2, the camera wearer looks down toward the floor mat with the climbing wall 1 to 2 metres to the right, a pile of tan rope on the mat 1.5 to 3 metres ahead, and a person in a black shirt and harness standing within arm's reach (about 0.5 to 1 metre) on the immediate left, partly cropped out of the frame while holding a pink rope that extends to the camera wearer's hand at the bottom of frame 1. Further ahead in frames 1 and 2 (about 3 to 4 metres away on the upper left), the lower legs of two standing people are partially visible next to two white bins. In frames 3 and 4, the camera wearer raises their gaze and turns slightly left, bringing those two standing people\u2014one in a patterned shirt facing right and one in a white top facing left, standing less than 1 metre apart and holding a rope within their arm's reach\u2014into full view about 2.5 to 3.5 metres ahead, partly occluding the bins behind them. Also visible in frames 3 and 4 are a belayer sitting/standing near the base of the wall about 6 to 7 metres ahead on the right with a climber high above on the overhang (frame 3), and several people sitting or standing 5 to 10 metres away in the left background. In frame 5, the camera wearer turns back to the left and tilts downward, bringing the nearby person in the black shirt and purple-belted harness into the center foreground at about 1 metre distance, facing and looking down toward the rope in their hands rather than at the camera wearer, while white bins flank them within 1 metre on the left and right and another pair of climbers stands 3.5 to 4.5 metres behind them on the upper left."
+ },
+ "duration_seconds": 16.429389,
+ "usage": {
+  "input_tokens": 19586,
+  "output_tokens": 578,
+  "thinking_tokens": 65,
+  "cache_read_tokens": 14213,
+  "total_tokens": 20164
+ },
+ "conversation_id": "110d02c9-1582-40d4-863b-31f22e2a268a"
+}

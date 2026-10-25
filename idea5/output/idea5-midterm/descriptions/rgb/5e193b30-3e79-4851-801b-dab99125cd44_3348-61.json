@@ -1,0 +1,12 @@
+{
+ "id": "5e193b30-3e79-4851-801b-dab99125cd44_3348-61",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a bright indoor lounge or meeting area, facing a table about 0.5\u20131 m ahead, with two reddish chair backs roughly 0.5\u20131 m away in the lower foreground. A clear water bottle stands on the far part of the table about 1\u20131.5 m in front of the wearer, while a gray sofa sits behind the chairs about 1.5\u20132.5 m away and is partly occluded by them. A television on a low stand is approximately 3\u20134 m ahead and slightly left of center, with books and small electronic objects below it; plants and stacked boxes are nearby, and large windows span the wall behind these objects about 4\u20136 m away. No people are visible, and several foreground objects are cut off by the bottom and side edges of the view. Across the five frames, the scene remains at nearly constant distance and orientation, with only slight lateral camera sway or rotation and no clear approach, retreat, or object movement."
+ },
+ "duration_seconds": 11.3,
+ "usage": null,
+ "conversation_id": null
+}

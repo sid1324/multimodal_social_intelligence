@@ -1,0 +1,18 @@
+{
+ "id": "069c1058-881d-49da-b45d-b9f7e08fe932_475-96",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an open indoor hall with a concrete floor and distant arched windows in the upper-left background (roughly 8 to 12 metres away), centered around a tall vertical dark beam directly in front of the camera wearer at about 1.2 to 0.8 metres against which numerous light-colored wooden boards and panels are leaned on both sides, with wood scraps and sawdust scattered at its base. A person in a grey sweatshirt and dark pants stands on the right side of the frame, roughly 1.0 to 0.8 metres in front of and to the right of the camera wearer and about 0.3 to 0.5 metres from the leaning stack of wood, while a blue folding chair sits about 2.5 to 3 metres behind the beam to the right and black rectangular blocks rest 2 to 4 metres to the left. Power tools with black cords lie on the floor to the lower right at about 1 to 1.5 metres from the camera wearer and 0.5 metres behind the other person's feet, while the camera wearer's own lower torso, feet, and arms are partially visible at the bottom edge of the frame and the other person's head and right side are partly cropped or blurred at the upper-right margin. Throughout the sequence, the person on the right faces left toward the vertical beam and wooden boards in profile rather than looking toward the camera wearer, keeping the upright panels within their arm's reach as they grasp and separate individual boards with both hands. Across the five frames from left to right, the person on the right steps slightly closer to the wood stack in frames 1 to 3 to pull two upright boards slightly rightward while the tall beam and leaning panels partially occlude the background chair and blocks behind them. Simultaneously, the camera wearer steps forward by roughly 0.4 metres from frame 1 to frame 5, bringing the base of the wooden stack within arm's reach so that the camera wearer's left hand extends forward to hold a lower wooden panel in frame 5 while their right hand holds an object near the bottom edge."
+ },
+ "duration_seconds": 16.50065,
+ "usage": {
+  "input_tokens": 19564,
+  "output_tokens": 766,
+  "thinking_tokens": 254,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20330
+ },
+ "conversation_id": "be26de30-2105-4a39-855a-f1ed7a4e94b0"
+}

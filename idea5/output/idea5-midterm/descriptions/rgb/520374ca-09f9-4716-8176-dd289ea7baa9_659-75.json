@@ -1,0 +1,18 @@
+{
+ "id": "520374ca-09f9-4716-8176-dd289ea7baa9_659-75",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is set on a sloped boulder field at the base of a tall vertical canyon cliff on the right, with distant canyon walls in the background. In the first frame, looking left and slightly downslope, a man in a cap and a woman in a headband stand side by side about 1.5 to 2 metres from the camera wearer\u2014within arm's reach of each other and cropped below the chest\u2014facing right and looking past the camera wearer, while piles of backpacks and helmets lie on the rock slab 2 to 3 metres away and another person in dark clothing walks across the boulders 5 metres away in the upper right. In the second frame, the viewpoint pans right and tilts sharply upward toward the cliff face, showing a person in an olive-green outfit and yellow helmet standing 4 metres upslope facing the wall, two people in blue helmets 6 to 7 metres away near the cliff base, and a climber high up on the rock face about 15 to 20 metres away. In the third frame, the camera tilts down toward the rock slab 1 to 5 metres ahead, where the woman is partially visible at the bottom-left edge within about 1 metre (arm's reach) of the camera wearer, the person in dark clothing steps down within reach of the gear pile on the left at 4 to 5 metres, and the person in olive green stands 4 metres upslope on the right with their upper body cropped out at the top edge. Across the fourth and fifth frames, the camera tilts back up and centers on the person in the olive-green outfit and yellow helmet standing 3.5 to 4 metres upslope, with two figures standing 6 to 8 metres behind them to the right near a bush at the cliff base and two others partially occluded by boulders 6 to 8 metres to the left. Between the fourth and fifth frames, the person in the yellow helmet turns from facing and looking up at the cliff wall on the right to facing and looking directly downslope toward the camera wearer, with no people or loose objects within arm's reach of the camera wearer."
+ },
+ "duration_seconds": 23.121649,
+ "usage": {
+  "input_tokens": 19584,
+  "output_tokens": 1398,
+  "thinking_tokens": 881,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20982
+ },
+ "conversation_id": "41e06d20-c738-43e2-92ff-418f83124658"
+}

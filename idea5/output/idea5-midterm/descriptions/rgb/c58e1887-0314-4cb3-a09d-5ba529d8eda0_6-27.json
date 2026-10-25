@@ -1,0 +1,18 @@
+{
+ "id": "c58e1887-0314-4cb3-a09d-5ba529d8eda0_6-27",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor arcade and billiards hall with a patterned carpet below and a drop ceiling above, containing a dark-haired woman in the immediate left foreground, a yellow-domed arcade machine behind her, a blue-lit air hockey table to the front-right, and green pool tables and illuminated arcade cabinets further back. The woman stands within arm's reach at roughly 0.5 to 0.8 metres in front and slightly to the left of the camera wearer, holding a dark strap and a small card in her hands within her own reach near her face and chest. The air hockey table is roughly 1.5 to 2.5 metres away to the right\u2014about 1.5 metres from the woman\u2014while the yellow-domed game is about 1.5 to 2 metres away behind her, and two pool tables sit 4 to 7 metres back, spaced roughly 2 to 3 metres apart in front of distant wall cabinets 6 to 10 metres away. Throughout the sequence, the woman is angled toward the front-right with her head tilted downward, looking at the items in her hands rather than toward the camera wearer. Her body below the chest or shoulders is out of view beneath the bottom frame edge, her upper body partially occludes the yellow-domed machine and the left pool table behind her, and the air hockey table is partly cropped by the right edge of the frame. Across the five frames, the camera viewpoint pitches upward and pans slightly left from frames 1 to 3 before settling closer to the woman at about 0.5 metres in frames 4 and 5, shifting the air hockey table nearly out of view at the bottom-right corner while the woman lowers her hands from her face toward her chest."
+ },
+ "duration_seconds": 28.874839,
+ "usage": {
+  "input_tokens": 5374,
+  "output_tokens": 1212,
+  "thinking_tokens": 773,
+  "cache_read_tokens": 28412,
+  "total_tokens": 6586
+ },
+ "conversation_id": "0f501c84-e0a9-4de7-b690-f839c7d766dc"
+}

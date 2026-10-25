@@ -1,0 +1,12 @@
+{
+ "id": "f965d286-b521-402f-9a0e-c73b49e9806e_1758-84",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A wooded slope rises in front of the camera wearer toward a light-colored house roughly 10\u201315 m away, with trees scattered about 2\u20138 m ahead and a low rock border near the house. A single person is visible crouched beside the rock border about 8\u201312 m away, below and in front of the house; the person faces mostly away and sideways from the camera and does not appear to look toward it. The person is within arm\u2019s reach of the rocks and ground, while only the sloping ground and nearby vegetation are within the camera wearer\u2019s arm\u2019s reach. Tree trunks partly occlude the house, whose upper and side portions extend beyond the top and lateral frame edges, and the person is partly out of view at the right edge when first visible. Across the five frames, the view turns to the right, making the house, rock border, and person shift from the right toward the left; the person then passes out of view to the left, with no clear substantial approach or retreat."
+ },
+ "duration_seconds": 13.7,
+ "usage": null,
+ "conversation_id": null
+}

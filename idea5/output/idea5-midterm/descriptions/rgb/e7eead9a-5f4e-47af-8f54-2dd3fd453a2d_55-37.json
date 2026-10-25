@@ -1,0 +1,12 @@
+{
+ "id": "e7eead9a-5f4e-47af-8f54-2dd3fd453a2d_55-37",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is beside and above a bed, looking downward at a small white-and-gray cat on the mattress roughly 0.4\u20130.8 m in front of the camera; a wall or headboard lies beyond the bed, and a bright sunlit patch crosses the left/central mattress. Across the five frames, the wearer\u2019s forearm enters from the right or lower-right and remains within immediate reach of the cat, with the hand approximately 0\u20130.2 m from its head or back and intermittently occluding part of its body. The cat begins near the far-left side of the strip facing generally left, then shifts rightward and closer to the center of view while turning its head and body toward the wearer\u2019s hand; in the fourth frame its face is angled partly toward the camera, while in the other frames it mostly looks sideways or downward. A small blue cup-like object appears on the mattress to the cat\u2019s right in the middle frames, about 0.2\u20130.4 m from the cat and roughly 0.5\u20130.8 m from the camera wearer, then moves toward or beyond the right edge as the viewpoint changes. Parts of the cat, the wearer\u2019s arm, the blue object, and a pale object at the far right are cut off by frame edges at different times, and no other person is visible beyond the camera wearer\u2019s arm and hand."
+ },
+ "duration_seconds": 16.3,
+ "usage": null,
+ "conversation_id": null
+}

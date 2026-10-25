@@ -1,0 +1,12 @@
+{
+ "id": "258a7d18-4e66-4e3a-9fa0-f8daf7315a6d_1387-30",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera points steeply downward beside a tall gray triangular wall or panel occupying the center-right, with leaf-covered dirt and scattered debris extending roughly 0.5\u20133 m ahead and to the left. In frames 1\u20134, the camera wearer\u2019s forearm and hand extend from the lower center toward the panel\u2019s near edge, which is within arm\u2019s reach at approximately 0.3\u20130.7 m; a round bucket or pot sits near the panel about 0.7\u20131.2 m away, while crates or fencing are partly cut off along the upper edge. The viewpoint shifts gradually rightward and slightly forward around the panel, revealing more ground on the right while the hand remains close to, and at times is partly occluded by, the panel edge. By frame 5, another adult is partly visible at the upper right, approximately 0.7\u20131.3 m from the camera wearer, facing generally left and downward toward an object held near their torso rather than looking directly toward the camera. A gray animal-shaped form lies or stands low beside that person about 0.5\u20131 m from them and roughly 1\u20131.5 m from the camera, but it is heavily cropped by the right edge; the camera wearer\u2019s extended arm remains between the viewpoint and the central panel, with the hand within reach of its corner."
+ },
+ "duration_seconds": 11.4,
+ "usage": null,
+ "conversation_id": null
+}

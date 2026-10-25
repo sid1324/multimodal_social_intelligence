@@ -1,0 +1,12 @@
+{
+ "id": "bd31c2eb-4faa-467d-8c71-89a55b0a4be5_275-56",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer looks steeply downward at a person about 0.5\u20131 m in front, with only the top of the head, forearms, hands, and dark patterned clothing visible near the lower centre of each frame. On the floor just beyond that person is a sheet of newspaper holding several metal bowls and a pile of chopped pieces, all roughly 0.7\u20131.2 m from the camera and within arm\u2019s reach of the person below. A second person is partly out of view, visible mainly by red trouser legs and bare feet about 1\u20132 m away; they remain upright and do not visibly look toward the camera. The standing person appears at the upper left in the first two frames, shifts toward the upper centre in the third, and appears at the upper right in the last two frames, primarily because the camera viewpoint turns across the scene. The seated person and floor objects remain close together and largely stationary, while frame edges intermittently crop the standing person, surrounding furniture legs, footwear near the newspaper, and parts of the seated person\u2019s body."
+ },
+ "duration_seconds": 11.1,
+ "usage": null,
+ "conversation_id": null
+}

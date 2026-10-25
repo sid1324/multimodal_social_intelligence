@@ -1,0 +1,18 @@
+{
+ "id": "6fd90f8d-7a4d-425d-a812-3268db0b0342_1001-51",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor dining and living area where the camera wearer is seated at the bottom edge of a round dining table, with red-backed chairs around the table (~1 to 1.5 metres away) and a living room in the background (~4 to 6 metres in front) containing armchairs, a sofa on the far left, a wall mirror on the right, and a television against the far wall. A man in a yellow shirt sits at the right side of the table roughly 0.7 to 0.9 metres to the front-right of the camera wearer, with his lower body below the table and his right shoulder and back partially cropped out by the right frame edge. Within arm's reach of both the camera wearer and the man (~0.3 to 0.8 metres in front of the camera wearer) are tabletop items arranged from left to right: an orange-lidded sugar bowl, an orange-capped juice bottle behind a glass of orange juice, a slice of bread and a plate with bread on a woven placemat below a napkin holder, a dark-red juice bottle further back (~0.8 metres away), two clear glasses, and the man's white plate with food and utensils on the right, while the camera wearer's own white plate sits directly below at the bottom edge (~0.3 metres away, partially cut off). Across all five frames, the man faces toward the table to his front-left (roughly perpendicular to the camera wearer's line of sight) and looks downward toward the tabletop and his plate without looking at the camera wearer. In frame 1, the man holds a glass to his mouth with his right hand (partially occluding his lower face), then lowers and places it onto the table beside a taller clear glass in frame 2 (~0.6 metres from the camera wearer, slightly in front of the dark-red bottle). From frame 3 to frame 5, the man reaches forward with both hands to pick up a knife in his right hand and a fork in his left, bringing both hands together directly above his plate in frame 5 to cut the food while the camera wearer's viewpoint and the surrounding scene remain stationary."
+ },
+ "duration_seconds": 34.097375,
+ "usage": {
+  "input_tokens": 19559,
+  "output_tokens": 785,
+  "thinking_tokens": 261,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20344
+ },
+ "conversation_id": "654b6194-efb1-4911-acba-b40b78049c42"
+}

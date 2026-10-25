@@ -1,0 +1,18 @@
+{
+ "id": "b0a30641-ad93-4d6a-92a9-f277c78f1aa5_112-83",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor paved parking lot bordered on the right by a wooden retaining wall and an elevated, overgrown grassy embankment, with apartment buildings 25 to 40 metres away in the background. In the first frame, parked cars and a maroon SUV sit 5 to 20 metres ahead on the left and center, while a small child stands about 1 to 1.5 metres in front of and below the camera wearer, facing right with their lower body cropped out by the bottom frame edge. Across frames 2 and 3, the camera wearer turns roughly 90 degrees to the right to face the embankment and approaches it, moving the maroon SUV to the far left before it exits the view and bringing a second child into view standing atop the grassy slope about 2.5 to 3 metres away and elevated above the retaining wall. By frame 4, the wooden retaining wall and overhanging grass are within arm's reach at 0.5 to 1 metre in front of the camera wearer, the child on the slope is about 2 to 2.5 metres away slightly right of center and etwa 1.5 to 2 metres from another child whose head appears at the bottom center within 0.5 metres (within arm's reach) facing the wall. In the fifth frame, the camera wearer is within 0.3 to 0.8 metres of the tall grass, which is within arm's reach and partially occludes the child on the upper slope standing 1.5 to 2 metres ahead facing toward the camera wearer, while the closer child below drops completely out of the frame."
+ },
+ "duration_seconds": 20.918307,
+ "usage": {
+  "input_tokens": 5381,
+  "output_tokens": 1197,
+  "thinking_tokens": 785,
+  "cache_read_tokens": 28416,
+  "total_tokens": 6578
+ },
+ "conversation_id": "58837347-e9bf-4717-bd40-9ac9f66c3123"
+}

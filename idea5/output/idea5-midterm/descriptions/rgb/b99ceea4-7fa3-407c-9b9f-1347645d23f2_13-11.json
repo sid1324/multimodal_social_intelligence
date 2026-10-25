@@ -1,0 +1,12 @@
+{
+ "id": "b99ceea4-7fa3-407c-9b9f-1347645d23f2_13-11",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In frames 1\u20132, a bald man in a red sleeveless shirt sits about 0.7\u20131.2 m in front of and below the camera wearer, facing and looking up toward the camera; a gray sofa is directly behind him. A glass side table and lamp stand roughly 0.5\u20131 m behind and to his left, while shelving and exercise equipment are farther behind, about 2\u20133 m from the camera. Across frames 3\u20135, the camera turns and tilts down and right, moving the seated man mostly out of view and bringing a glass coffee table into the foreground within the camera wearer\u2019s arm\u2019s reach. On or beside the table are a bright-screen phone or small tablet, a bottle, and several narrow dark objects, all roughly 0.3\u20131 m from the camera; the seated person\u2019s forearms and hands remain near these objects and within his reach. By frame 5, another person is partly visible at the right edge about 0.5\u20131 m away, with only the torso and hands in view, while a black-clad leg crosses the lower foreground and partly occludes the table; no clear face or gaze direction is visible for this person."
+ },
+ "duration_seconds": 12.0,
+ "usage": null,
+ "conversation_id": null
+}

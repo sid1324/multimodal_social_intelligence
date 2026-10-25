@@ -1,0 +1,18 @@
+{
+ "id": "2c77de23-cd87-4a41-a83c-4bdc0170f45c_80-46",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor room with two sheer-curtained windows\u2014one on the back wall to the left and another on the right wall\u2014along with a tall houseplant and a framed wall picture in the back-right corner, roughly 2.5 to 3.5 metres from the camera wearer. A single person wearing a dark beanie, glasses, and a plaid shirt stands directly in front of the camera wearer at a distance of about 1.2 to 1.8 metres, partially occluding a small wall shelf directly behind them. The person holds a white plate in their left hand (to the viewer's right) within their own arm's reach, while their lower body and whatever surface is below the frame are cut off at the bottom edge, and glowing ceiling light fixtures are partly visible at the top-left edge. Across the five frames, the camera wearer's viewpoint tilts slightly downward and pans right, shifting the person from the center-left to the center-right of the frame and revealing the top of a chair back at the bottom-left in the final frame. In the first three frames, the person faces toward the camera wearer with their head angled downward toward the plate or surface below while bringing their right hand up to the plate in the third frame, then lifts their head in the fourth frame to look directly at the camera wearer before angling their gaze slightly downward again in the fifth frame as their right hand drops toward the bottom edge within arm's reach of the space between them."
+ },
+ "duration_seconds": 18.072063,
+ "usage": {
+  "input_tokens": 5346,
+  "output_tokens": 383,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28422,
+  "total_tokens": 5729
+ },
+ "conversation_id": "c658bcdc-5691-47c8-87d1-9060d19b0f67"
+}

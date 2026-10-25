@@ -1,0 +1,12 @@
+{
+ "id": "44a65997-a52f-4e79-b4bf-cc1d74e39bc2_143-93",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "A wide corridor extends in front of the camera, with a glass wall and rooms on the left, a beige paneled wall on the right, and ceiling lights above. A freestanding sign remains roughly 3\u20134 m ahead near the center-right, while a green chair holding a black bag is about 1\u20132 m to the right of the camera; the bag is within arm\u2019s reach of someone beside that chair. A blue chair is partly cut off along the lower-left edge and is within about 1 m of the camera wearer, while parts of the green chair move out of the right edge in the final frame. No person is visible in the first four frames; in the fifth, one person appears beyond or beside the glass wall, roughly 4\u20136 m ahead-left and about 4\u20135 m from the sign, with their body oriented mostly to the right and not visibly looking toward the camera. Across the strip, the viewpoint shifts slightly forward and to the right, making the nearby blue chair occupy more of the foreground and revealing the person on the left while the sign and green chair shift rightward in view."
+ },
+ "duration_seconds": 12.2,
+ "usage": null,
+ "conversation_id": null
+}

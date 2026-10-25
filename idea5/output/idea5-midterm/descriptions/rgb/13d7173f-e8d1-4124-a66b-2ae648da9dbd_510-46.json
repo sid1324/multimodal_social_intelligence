@@ -1,0 +1,18 @@
+{
+ "id": "13d7173f-e8d1-4124-a66b-2ae648da9dbd_510-46",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor kitchen and hallway passage with no other people visible across the five frames. In Frame 1, the camera wearer faces a wall-mounted wooden cabinet filled with books about 0.4 m directly in front (within arm's reach), with a toaster and kitchen items directly below it and an open white glass-paned door to a bright adjacent room about 1.0 m to the left. From Frame 1 to Frame 3, the camera wearer turns to the left (counter-clockwise), causing the wall cabinet to exit the right side of the view while a tall wooden pantry panel and the side of a black refrigerator covered in magnets and notes come into view ahead at about 0.8 to 1.2 m distance. To the left of the refrigerator in Frame 3, an open doorway reveals a bright room with wooden floors and furniture roughly 3 to 4 m away, while the glass-paned door shifts to the right side of the frame. In Frame 4, the camera wearer steps forward to within arm's reach (about 0.5 m) of the refrigerator side and the adjacent wooden panel, partially occluding the distant room on the left and the glass door on the right. By Frame 5, the camera pitches downward and closer (within 0.3 to 0.5 m) toward the base of the wooden panel and dark refrigerator side, revealing a patterned cushion or pet bed on the floor at the bottom right."
+ },
+ "duration_seconds": 13.288574,
+ "usage": {
+  "input_tokens": 19565,
+  "output_tokens": 384,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14208,
+  "total_tokens": 19949
+ },
+ "conversation_id": "d78e1490-304a-4efd-a228-d9f76985f882"
+}

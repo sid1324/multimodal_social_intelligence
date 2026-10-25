@@ -1,0 +1,18 @@
+{
+ "id": "1ceb6ff6-da6c-4bbe-b8f1-01a5b27026ce_294-88",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera points steeply downward at a paved street surface marked with a white line on the left, a painted white circular symbol on the right, and a raised curb with a planter along the upper-right edge. Two other people are visible below the camera's viewpoint: one person in a blue patterned top and tan sandals immediately to the front-right at about 0.3 to 0.6 metres from the camera wearer, and a second person in dark jeans and black-and-white shoes carrying a brown tote bag on their left side directly ahead, initially 1.0 to 1.5 metres from the camera wearer and about 0.8 to 1.2 metres in front of the person in blue. Both individuals face forward away from the camera wearer in the direction of travel, and neither looks toward the camera wearer. Because of the downward camera angle and frame borders, the heads and upper torsos of both people are out of view, the person in blue is partially cropped along the right edge and gradually occludes the painted ground symbol, and only the camera wearer's white-sandaled feet at the bottom center and right hand at the bottom right are visible. The person in the blue top remains within the camera wearer's arm's reach throughout\u2014with the camera wearer's right hand grasping their left forearm in the fourth and fifth frames\u2014while the brown bag hangs within arm's reach of the person ahead. Across the five frames, everyone progresses forward relative to the pavement markings, the person in blue shifts slightly closer into the right foreground, and the person ahead retreats from roughly 1.2 metres to over 2.5 metres away by the fourth frame before exiting the top of the view completely in the fifth frame."
+ },
+ "duration_seconds": 25.57101,
+ "usage": {
+  "input_tokens": 5370,
+  "output_tokens": 1189,
+  "thinking_tokens": 755,
+  "cache_read_tokens": 28423,
+  "total_tokens": 6559
+ },
+ "conversation_id": "21542d03-72da-4a1f-a7ba-71f7d5afff8f"
+}

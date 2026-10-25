@@ -1,0 +1,18 @@
+{
+ "id": "6070d9d1-9962-49f3-8ac7-4e29ca07e104_284-21",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor workout room with a dark floor, a window wall and stationary exercise bike about 1.2 to 1.5 metres to the left, and a yellow wall with two bags and a white cloth on the floor about 1 to 1.5 metres to the right. Directly in front of the standing camera wearer, at the foot of a workout bench about 0.5 to 1.2 metres away, is a person in a blue shirt and patterned leggings seated with their legs hooked into the bench's padded leg rollers. The camera wearer's own lower body and feet are visible at the bottom of the frame, holding a dumbbell in each hand within immediate arm's reach, while the seated person's upper torso and head are initially cropped out at the top edge in frames 1 and 2. Across the five frames, the camera wearer steps forward by roughly 0.4 metres\u2014moving from about 0.4 metres away from the bench's foot rollers until standing directly against the person's knees\u2014and tilts their gaze slightly upward as the other person reclines backward onto the bench. As the person reclines in frames 3 through 5, their full torso and head come into view about 0.8 to 1.2 metres below and in front of the camera wearer, facing upward and looking toward the camera wearer with both hands raised and open at chest level. In the final two frames, the camera wearer extends both arms forward and downward to hold the two dumbbells directly above the reclining person's torso and within arm's reach of the person's raised hands, partially occluding their thighs and chest."
+ },
+ "duration_seconds": 12.402889,
+ "usage": {
+  "input_tokens": 19572,
+  "output_tokens": 438,
+  "thinking_tokens": 16,
+  "cache_read_tokens": 14200,
+  "total_tokens": 20010
+ },
+ "conversation_id": "f9d78079-dcef-44cf-8f32-b8cd8b4961bc"
+}

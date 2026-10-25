@@ -1,0 +1,12 @@
+{
+ "id": "5318b45a-f8be-4ab2-a807-564d734527fb_1369-45",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer faces a living room wall about 2.5\u20133.5 m ahead, with a television centered on a low media console, shelving units roughly 0.5\u20131 m to either side, a wall clock above-left of the television, and a rug covering the floor between the wearer and the console. A round floor cushion sits about 1.5\u20132 m ahead-left, while a dark rectangular table or bench is partly visible at the right edge in the first three frames; curtains and a reflective dark surface occupy the right side of the room. No people are visible, and a dark dog appears in the last two frames approximately 0.5\u20131 m in front-right of the wearer, facing generally left toward the television area rather than toward the camera. During the first three frames the camera turns quickly to the right, producing strong motion blur in frame 3 and shifting the television from slightly left of center to center while bringing more of the curtains and right side into view. In frames 4 and 5 the view stabilizes from a lower seated or reclined position, with a blanket and the wearer's lower body within arm's reach across the bottom foreground; the dog remains close and is partly occluded by the blanket and cropped by the right edge."
+ },
+ "duration_seconds": 10.9,
+ "usage": null,
+ "conversation_id": null
+}

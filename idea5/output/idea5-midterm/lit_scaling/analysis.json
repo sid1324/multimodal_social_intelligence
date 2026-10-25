@@ -1,0 +1,1026 @@
+{
+ "A_same_pipeline": {
+  "Social Relation (MMBench) ~ Spatial Relationship (MMBench)": {
+   "n": 284,
+   "spearman": 0.6224732411736742,
+   "spearman_p": 7.321325422334644e-32,
+   "pearson": 0.6235664335529608,
+   "partial_spearman_mmmu": 0.2541313097150309,
+   "partial_p": 1.5082256042515554e-05
+  },
+  "Social Relation (MMBench) ~ BLINK": {
+   "n": 182,
+   "spearman": 0.6090203573885447,
+   "spearman_p": 7.404951664090367e-20,
+   "pearson": 0.5267535867478685,
+   "partial_spearman_mmmu": 0.2616187548433826,
+   "partial_p": 0.0003744029239495854
+  },
+  "Social Relation (MMBench) ~ OCR (MMBench)": {
+   "n": 284,
+   "spearman": 0.6301386695560741,
+   "spearman_p": 7.795656425675737e-33,
+   "pearson": 0.8723369997057631,
+   "partial_spearman_mmmu": 0.30546952356132334,
+   "partial_p": 1.5895468436128557e-07
+  },
+  "Social Relation (MMBench) ~ Celebrity recognition (MMBench)": {
+   "n": 284,
+   "spearman": 0.5875184873460423,
+   "spearman_p": 9.50466858042639e-28,
+   "pearson": 0.8217768167517724,
+   "partial_spearman_mmmu": 0.3583806199683427,
+   "partial_p": 5.308864755375668e-10
+  },
+  "Social Relation (MMBench) ~ Image topic (MMBench)": {
+   "n": 284,
+   "spearman": 0.4978325057686708,
+   "spearman_p": 3.426051343112249e-19,
+   "pearson": 0.8332661206324762,
+   "partial_spearman_mmmu": 0.4500113620601898,
+   "partial_p": 1.6237123113229232e-15
+  },
+  "Human interaction (MMT) ~ Spatial Relationship (MMBench)": {
+   "n": 207,
+   "spearman": 0.4989442761776176,
+   "spearman_p": 1.984702999193059e-14,
+   "pearson": 0.5142192317528218,
+   "partial_spearman_mmmu": 0.2591210723049719,
+   "partial_p": 0.0001693059912387854
+  },
+  "Human interaction (MMT) ~ BLINK": {
+   "n": 179,
+   "spearman": 0.46539178229701583,
+   "spearman_p": 5.238486624381046e-11,
+   "pearson": 0.467612428617318,
+   "partial_spearman_mmmu": 0.24788439357004183,
+   "partial_p": 0.0008495857636055159
+  },
+  "Human interaction (MMT) ~ OCR (MMBench)": {
+   "n": 207,
+   "spearman": 0.541334577751344,
+   "spearman_p": 3.7146592625260155e-17,
+   "pearson": 0.6871585791941679,
+   "partial_spearman_mmmu": 0.3518626019042204,
+   "partial_p": 2.1456440128148891e-07
+  },
+  "Human interaction (MMT) ~ Celebrity recognition (MMBench)": {
+   "n": 207,
+   "spearman": 0.40831772974083586,
+   "spearman_p": 1.0127574778321528e-09,
+   "pearson": 0.6342138455714988,
+   "partial_spearman_mmmu": 0.16394139906472746,
+   "partial_p": 0.0185407883084083
+  },
+  "Human interaction (MMT) ~ Image topic (MMBench)": {
+   "n": 207,
+   "spearman": 0.32826066108038604,
+   "spearman_p": 1.3740932357268502e-06,
+   "pearson": 0.6262703494951416,
+   "partial_spearman_mmmu": 0.20388903032557032,
+   "partial_p": 0.0032875075598682766
+  },
+  "Social relation (MMT) ~ Spatial Relationship (MMBench)": {
+   "n": 207,
+   "spearman": 0.27580039928644673,
+   "spearman_p": 5.762271482135396e-05,
+   "pearson": 0.30596858999371485,
+   "partial_spearman_mmmu": -0.0380855092092312,
+   "partial_p": 0.5867849647702433
+  },
+  "Social relation (MMT) ~ BLINK": {
+   "n": 179,
+   "spearman": 0.15161576005395402,
+   "spearman_p": 0.042765079412259085,
+   "pearson": 0.20673894910969504,
+   "partial_spearman_mmmu": -0.1475390253559663,
+   "partial_p": 0.04937755884402067
+  },
+  "Social relation (MMT) ~ OCR (MMBench)": {
+   "n": 207,
+   "spearman": 0.27574507302851126,
+   "spearman_p": 5.7828545362787715e-05,
+   "pearson": 0.2649710180386352,
+   "partial_spearman_mmmu": -0.009720787923130707,
+   "partial_p": 0.8897078776326265
+  },
+  "Social relation (MMT) ~ Celebrity recognition (MMBench)": {
+   "n": 207,
+   "spearman": 0.25832356574464643,
+   "spearman_p": 0.00017120135551826885,
+   "pearson": 0.2787332769316617,
+   "partial_spearman_mmmu": 0.04989584802376345,
+   "partial_p": 0.4763246941393468
+  },
+  "Social relation (MMT) ~ Image topic (MMBench)": {
+   "n": 207,
+   "spearman": 0.061089929843407186,
+   "spearman_p": 0.381886455978653,
+   "pearson": 0.15334316079370908,
+   "partial_spearman_mmmu": -0.06352584899905714,
+   "partial_p": 0.3643348733333613
+  }
+ },
+ "B_paper_pairs": {
+  "EgoNormia ~ OC-composite": {
+   "n": 10,
+   "spearman": 0.49090909090909085,
+   "spearman_p": 0.14965567342083683,
+   "pearson": 0.5415999290674652,
+   "partial_spearman_mmmu": 0.2927700218845599,
+   "partial_p": 0.4816178143121546,
+   "n_partial": 9,
+   "models": [
+    "Gemini-2.5-Pro",
+    "GPT-4o",
+    "Qwen2.5-VL-72B",
+    "Claude-3.7-Sonnet",
+    "GPT-4.1",
+    "Gemini-1.5-Pro",
+    "Gemini-2.0-Flash",
+    "Gemini-2.5-Flash",
+    "Claude-3.5-Sonnet",
+    "Gemini-1.5-Flash"
+   ]
+  },
+  "EgoNormia ~ OmniSpatial|paper": {
+   "n": 9,
+   "spearman": 0.9333333333333332,
+   "spearman_p": 0.00023589981215941651,
+   "pearson": 0.901961657974441,
+   "partial_spearman_mmmu": 0.8014184397163121,
+   "partial_p": 0.055236458345595964,
+   "n_partial": 7,
+   "models": [
+    "Gemini-2.5-Pro",
+    "GPT-4o",
+    "Qwen2.5-VL-72B",
+    "Claude-3.7-Sonnet",
+    "GPT-4.1",
+    "Gemini-2.0-Flash",
+    "Gemini-2.5-Flash",
+    "Claude-3.5-Sonnet",
+    "o4-mini"
+   ]
+  },
+  "EgoNormia_verified ~ OC-composite": {
+   "n": 10,
+   "spearman": 0.18787878787878787,
+   "spearman_p": 0.6032176100292089,
+   "pearson": 0.5021984492513769,
+   "partial_spearman_mmmu": 0.08989331499509905,
+   "partial_p": 0.8323558464226462,
+   "n_partial": 9,
+   "models": [
+    "Gemini-2.5-Pro",
+    "GPT-4o",
+    "Qwen2.5-VL-72B",
+    "Claude-3.7-Sonnet",
+    "GPT-4.1",
+    "Gemini-1.5-Pro",
+    "Gemini-2.0-Flash",
+    "Gemini-2.5-Flash",
+    "Claude-3.5-Sonnet",
+    "Gemini-1.5-Flash"
+   ]
+  },
+  "EgoNormia_verified ~ OmniSpatial|paper": {
+   "n": 9,
+   "spearman": 0.9500000000000001,
+   "spearman_p": 8.762523965086185e-05,
+   "pearson": 0.8363631937904557,
+   "partial_spearman_mmmu": 0.9071556878950703,
+   "partial_p": 0.012529937372848394,
+   "n_partial": 7,
+   "models": [
+    "Gemini-2.5-Pro",
+    "GPT-4o",
+    "Qwen2.5-VL-72B",
+    "Claude-3.7-Sonnet",
+    "GPT-4.1",
+    "Gemini-2.0-Flash",
+    "Gemini-2.5-Flash",
+    "Claude-3.5-Sonnet",
+    "o4-mini"
+   ]
+  },
+  "SIV-Bench ~ OC-composite": {
+   "n": 9,
+   "spearman": 0.8166666666666667,
+   "spearman_p": 0.0072247852463587885,
+   "pearson": 0.9157409536650571,
+   "partial_spearman_mmmu": 0.4943049154090928,
+   "partial_p": 0.25948539713308744,
+   "n_partial": 8,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Gemini-2.5-Pro",
+    "InternVL3-8B",
+    "GPT-4o",
+    "Qwen2.5-VL-72B",
+    "InternVL3-78B",
+    "LLaVA-OneVision-7B",
+    "Gemini-2.0-Flash",
+    "Gemini-2.5-Flash"
+   ]
+  },
+  "SIV-Bench ~ MMSI-Bench|paper": {
+   "n": 7,
+   "spearman": 0.9642857142857145,
+   "spearman_p": 0.0004541491691941692,
+   "pearson": 0.8985565818294041,
+   "partial_spearman_mmmu": 0.8857851797221404,
+   "partial_p": 0.018822570153936763,
+   "n_partial": 7,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Gemini-2.5-Pro",
+    "InternVL3-8B",
+    "GPT-4o",
+    "Qwen2.5-VL-72B",
+    "InternVL3-78B",
+    "LLaVA-OneVision-7B"
+   ]
+  },
+  "SIV-Bench ~ OmniSpatial|paper": {
+   "n": 10,
+   "spearman": 0.6484848484848483,
+   "spearman_p": 0.0425401276844895,
+   "pearson": 0.9318053869334513,
+   "partial_spearman_mmmu": 0.24444444444444446,
+   "partial_p": 0.597304514063441,
+   "n_partial": 8,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Gemini-2.5-Pro",
+    "InternVL3-8B",
+    "GPT-4o",
+    "Qwen2.5-VL-72B",
+    "InternVL3-78B",
+    "LLaVA-OneVision-7B",
+    "Gemini-2.0-Flash",
+    "Gemini-2.5-Flash",
+    "o4-mini"
+   ]
+  },
+  "EmoBench-M ~ OC-composite": {
+   "n": 8,
+   "spearman": 0.04761904761904763,
+   "spearman_p": 0.9108491685195836,
+   "pearson": 0.025770355420828117,
+   "partial_spearman_mmmu": -0.1383133796337943,
+   "partial_p": 0.767431462823807,
+   "n_partial": 8,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Qwen2.5-VL-72B",
+    "InternVL2.5-8B",
+    "Qwen2.5-VL-32B",
+    "Gemini-2.0-Flash",
+    "InternVL2.5-78B",
+    "GLM-4V-Plus",
+    "Gemini-1.5-Flash"
+   ]
+  },
+  "EmoBench-M ~ MMSI-Bench|paper": {
+   "n": 8,
+   "spearman": 0.4285714285714286,
+   "spearman_p": 0.2894032248467902,
+   "pearson": 0.9380864779927169,
+   "partial_spearman_mmmu": -0.05252370513249097,
+   "partial_p": 0.9212868919139297,
+   "n_partial": 7,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Qwen2.5-VL-72B",
+    "InternVL2.5-8B",
+    "Qwen2.5-VL-32B",
+    "InternVL2.5-78B",
+    "Gemini-3-Pro",
+    "InternVL2.5-4B",
+    "InternVL2.5-38B"
+   ]
+  },
+  "EmoBench-M ~ SpatialScore|paper": {
+   "n": 8,
+   "spearman": 0.7380952380952381,
+   "spearman_p": 0.03655276105286082,
+   "pearson": 0.902922226591374,
+   "partial_spearman_mmmu": 0.2581988897471612,
+   "partial_p": 0.621308295037497,
+   "n_partial": 7,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Qwen2.5-VL-72B",
+    "InternVL2.5-8B",
+    "Qwen2.5-VL-32B",
+    "InternVL2.5-78B",
+    "Gemini-3-Pro",
+    "InternVL2.5-4B",
+    "InternVL2.5-38B"
+   ]
+  },
+  "HumanVBench_Behavior ~ OC-composite": {
+   "n": 10,
+   "spearman": 0.9515151515151514,
+   "spearman_p": 2.279854920641689e-05,
+   "pearson": 0.9136975722403835,
+   "partial_spearman_mmmu": -0.011934397902585882,
+   "partial_p": 0.9776251286100404,
+   "n_partial": 9,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Gemini-2.5-Pro",
+    "InternVL3-8B",
+    "GPT-5",
+    "GPT-4o",
+    "LLaVA-OneVision-7B",
+    "InternVL2.5-8B",
+    "Gemini-1.5-Pro",
+    "Gemini-2.5-Flash",
+    "Qwen2-VL-7B"
+   ]
+  },
+  "HumanVBench_Behavior ~ MMSI-Bench|paper": {
+   "n": 7,
+   "spearman": 0.8571428571428573,
+   "spearman_p": 0.013697326615325611,
+   "pearson": 0.8625404891533008,
+   "partial_spearman_mmmu": 0.32025630761017415,
+   "partial_p": 0.5360389389750037,
+   "n_partial": 7,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Gemini-2.5-Pro",
+    "InternVL3-8B",
+    "GPT-5",
+    "GPT-4o",
+    "LLaVA-OneVision-7B",
+    "InternVL2.5-8B"
+   ]
+  },
+  "HumanVBench_Behavior ~ SpatialScore|paper": {
+   "n": 7,
+   "spearman": 0.7142857142857144,
+   "spearman_p": 0.07134356146753763,
+   "pearson": 0.8719141867673953,
+   "partial_spearman_mmmu": -0.19680975954593272,
+   "partial_p": 0.7510412658047089,
+   "n_partial": 6,
+   "models": [
+    "Qwen2.5-VL-7B",
+    "Gemini-2.5-Pro",
+    "InternVL3-8B",
+    "GPT-5",
+    "InternVL3.5-8B",
+    "LLaVA-OneVision-7B",
+    "InternVL2.5-8B"
+   ]
+  }
+ },
+ "C_composite": {
+  "models": {
+   "Qwen2.5-VL-7B": {
+    "spatial_z": -0.4920056263527477,
+    "social_z": -0.5819677448808098,
+    "k_spatial": 6,
+    "k_social": 3,
+    "mmmu": 58.0
+   },
+   "Gemini-2.5-Pro": {
+    "spatial_z": 1.395841469933596,
+    "social_z": 1.4218842616303595,
+    "k_spatial": 5,
+    "k_social": 3,
+    "mmmu": 74.7
+   },
+   "InternVL3-8B": {
+    "spatial_z": -0.293315174361051,
+    "social_z": -0.19906090934609139,
+    "k_spatial": 6,
+    "k_social": 2,
+    "mmmu": 62.2
+   },
+   "GPT-5": {
+    "spatial_z": 1.7242383085965425,
+    "social_z": 1.3946422339030677,
+    "k_spatial": 4,
+    "k_social": 1,
+    "mmmu": 81.8
+   },
+   "InternVL3.5-8B": {
+    "spatial_z": 0.11503290466894789,
+    "social_z": 0.514616894169473,
+    "k_spatial": 2,
+    "k_social": 1,
+    "mmmu": null
+   },
+   "Gemini-3-Pro": {
+    "spatial_z": 2.0319605051851535,
+    "social_z": 2.282798547225901,
+    "k_spatial": 3,
+    "k_social": 1,
+    "mmmu": null
+   },
+   "GPT-5.2": {
+    "spatial_z": 0.6220878358547282,
+    "social_z": 1.7217101469063807,
+    "k_spatial": 1,
+    "k_social": 1,
+    "mmmu": null
+   },
+   "Qwen3-VL-8B-Thinking": {
+    "spatial_z": 0.606321095959955,
+    "social_z": -0.04571831410010857,
+    "k_spatial": 1,
+    "k_social": 1,
+    "mmmu": null
+   },
+   "Qwen2.5-VL-72B": {
+    "spatial_z": 0.7617295773045664,
+    "social_z": 0.5753739816294495,
+    "k_spatial": 5,
+    "k_social": 3,
+    "mmmu": 68.2
+   },
+   "InternVL2.5-8B": {
+    "spatial_z": -0.23890599105008845,
+    "social_z": -0.2905643459616615,
+    "k_spatial": 3,
+    "k_social": 2,
+    "mmmu": 56.2
+   },
+   "Qwen2.5-VL-32B": {
+    "spatial_z": 0.2579626180647075,
+    "social_z": 0.34704356612355625,
+    "k_spatial": 4,
+    "k_social": 1,
+    "mmmu": 68.9
+   },
+   "Gemini-2.0-Flash": {
+    "spatial_z": 0.47512268403951585,
+    "social_z": 0.46297384972882666,
+    "k_spatial": 2,
+    "k_social": 4,
+    "mmmu": 69.9
+   },
+   "InternVL2.5-78B": {
+    "spatial_z": 0.7454398038087754,
+    "social_z": -0.2561264642199287,
+    "k_spatial": 4,
+    "k_social": 1,
+    "mmmu": 70.0
+   },
+   "GLM-4V-Plus": {
+    "spatial_z": 0.5781801120161668,
+    "social_z": 0.48731566620343636,
+    "k_spatial": 2,
+    "k_social": 1,
+    "mmmu": 69.9
+   },
+   "Gemini-1.5-Flash": {
+    "spatial_z": -0.4119667541927891,
+    "social_z": -0.08439170754784864,
+    "k_spatial": 1,
+    "k_social": 3,
+    "mmmu": 60.7
+   },
+   "InternVL2.5-4B": {
+    "spatial_z": -0.7294854164008227,
+    "social_z": -0.4665346143397488,
+    "k_spatial": 2,
+    "k_social": 1,
+    "mmmu": 51.8
+   },
+   "InternVL2.5-38B": {
+    "spatial_z": -0.010076500430787727,
+    "social_z": 0.024417735939831473,
+    "k_spatial": 2,
+    "k_social": 1,
+    "mmmu": 63.2
+   },
+   "MiniCPM-V-2.6": {
+    "spatial_z": 0.5470734881918723,
+    "social_z": -1.083731854691221,
+    "k_spatial": 1,
+    "k_social": 1,
+    "mmmu": 49.8
+   },
+   "GPT-4o": {
+    "spatial_z": 0.4860920340751256,
+    "social_z": 0.32316771223145596,
+    "k_spatial": 3,
+    "k_social": 5,
+    "mmmu": 70.7
+   },
+   "Gemini-1.5-Pro": {
+    "spatial_z": 0.34170885812890267,
+    "social_z": 0.9598032330313115,
+    "k_spatial": 1,
+    "k_social": 3,
+    "mmmu": 68.6
+   },
+   "InternVL2-8B": {
+    "spatial_z": 0.006288201013699322,
+    "social_z": -0.38677898109585235,
+    "k_spatial": 1,
+    "k_social": 2,
+    "mmmu": 51.2
+   },
+   "InternVL2-26B": {
+    "spatial_z": 0.7608723226576609,
+    "social_z": -0.6233393579569557,
+    "k_spatial": 1,
+    "k_social": 1,
+    "mmmu": 50.7
+   },
+   "InternVL3-78B": {
+    "spatial_z": 0.921014822038404,
+    "social_z": 0.5194289010860665,
+    "k_spatial": 5,
+    "k_social": 1,
+    "mmmu": 72.2
+   },
+   "LLaVA-OneVision-7B": {
+    "spatial_z": -0.7441343549523424,
+    "social_z": -1.0255329352835185,
+    "k_spatial": 5,
+    "k_social": 2,
+    "mmmu": 47.9
+   },
+   "Claude-3.7-Sonnet": {
+    "spatial_z": 0.3078469544202451,
+    "social_z": -0.20483732691609577,
+    "k_spatial": 4,
+    "k_social": 1,
+    "mmmu": 71.0
+   },
+   "GPT-4.1": {
+    "spatial_z": 1.1638819170215766,
+    "social_z": 0.8709270518518911,
+    "k_spatial": 4,
+    "k_social": 1,
+    "mmmu": 74.0
+   },
+   "Gemini-2.5-Flash": {
+    "spatial_z": 0.9541982249458001,
+    "social_z": 0.6144229450851869,
+    "k_spatial": 2,
+    "k_social": 4,
+    "mmmu": null
+   },
+   "Claude-3.5-Sonnet": {
+    "spatial_z": 0.24503801059137048,
+    "social_z": -0.9195574963715396,
+    "k_spatial": 2,
+    "k_social": 1,
+    "mmmu": 66.4
+   },
+   "Qwen2-VL-7B": {
+    "spatial_z": -0.10998042615545497,
+    "social_z": -0.7381250600395262,
+    "k_spatial": 2,
+    "k_social": 1,
+    "mmmu": 53.7
+   },
+   "o4-mini": {
+    "spatial_z": 1.229528745174257,
+    "social_z": 0.717234446491956,
+    "k_spatial": 1,
+    "k_social": 2,
+    "mmmu": null
+   }
+  },
+  "all": {
+   "n": 30,
+   "spearman": 0.692992213570634,
+   "spearman_p": 2.19022107481324e-05,
+   "pearson": 0.728995185754884
+  },
+  "with_mmmu": {
+   "n": 24,
+   "spearman": 0.6182608695652172,
+   "spearman_p": 0.001282018640246533,
+   "pearson": 0.6901103232758323,
+   "partial_spearman_mmmu": 0.14911407314534655,
+   "partial_p": 0.4971012105568299
+  }
+ },
+ "D_size_scaling": {
+  "Qwen2.5-VL": {
+   "BLINK|OpenVLM": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "Qwen2.5-VL-3B": 49.1,
+     "Qwen2.5-VL-7B": 55.3,
+     "Qwen2.5-VL-72B": 63.2
+    }
+   },
+   "OC-composite": {
+    "n": 4,
+    "rho_size": 1.0,
+    "scores": {
+     "Qwen2.5-VL-3B": 23.25,
+     "Qwen2.5-VL-7B": 29.725,
+     "Qwen2.5-VL-32B": 35.875,
+     "Qwen2.5-VL-72B": 39.324999999999996
+    }
+   },
+   "MMSI-Bench|paper": {
+    "n": 4,
+    "rho_size": 0.7999999999999999,
+    "scores": {
+     "Qwen2.5-VL-3B": 26.5,
+     "Qwen2.5-VL-7B": 25.9,
+     "Qwen2.5-VL-32B": 27.7,
+     "Qwen2.5-VL-72B": 30.7
+    }
+   },
+   "SpatialScore|paper": {
+    "n": 4,
+    "rho_size": 1.0,
+    "scores": {
+     "Qwen2.5-VL-3B": 36.92,
+     "Qwen2.5-VL-7B": 40.53,
+     "Qwen2.5-VL-32B": 47.23,
+     "Qwen2.5-VL-72B": 48.42
+    }
+   },
+   "MMBench_SocialRelation": {
+    "n": 4,
+    "rho_size": 0.632455532033676,
+    "scores": {
+     "Qwen2.5-VL-3B": 87.9,
+     "Qwen2.5-VL-7B": 91.2,
+     "Qwen2.5-VL-32B": 87.9,
+     "Qwen2.5-VL-72B": 92.3
+    }
+   },
+   "EmoBench-M": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "Qwen2.5-VL-7B": 52.9,
+     "Qwen2.5-VL-32B": 56.7,
+     "Qwen2.5-VL-72B": 57.8
+    }
+   },
+   "control:MMMU-val|OpenVLM": {
+    "n": 4,
+    "rho_size": 0.7999999999999999,
+    "scores": {
+     "Qwen2.5-VL-3B": 51.2,
+     "Qwen2.5-VL-7B": 58.0,
+     "Qwen2.5-VL-32B": 68.9,
+     "Qwen2.5-VL-72B": 68.2
+    }
+   }
+  },
+  "InternVL3": {
+   "BLINK|OpenVLM": {
+    "n": 6,
+    "rho_size": 1.0,
+    "scores": {
+     "InternVL3-1B": 43.0,
+     "InternVL3-2B": 53.1,
+     "InternVL3-8B": 55.4,
+     "InternVL3-14B": 59.9,
+     "InternVL3-38B": 64.2,
+     "InternVL3-78B": 66.4
+    }
+   },
+   "OC-composite": {
+    "n": 6,
+    "rho_size": 1.0,
+    "scores": {
+     "InternVL3-1B": 20.075,
+     "InternVL3-2B": 23.674999999999997,
+     "InternVL3-8B": 31.25,
+     "InternVL3-14B": 35.875,
+     "InternVL3-38B": 41.225,
+     "InternVL3-78B": 41.324999999999996
+    }
+   },
+   "MMSI-Bench|paper": {
+    "n": 7,
+    "rho_size": 0.3571428571428572,
+    "scores": {
+     "InternVL3-1B": 27.0,
+     "InternVL3-2B": 25.3,
+     "InternVL3-8B": 25.7,
+     "InternVL3-9B": 26.7,
+     "InternVL3-14B": 26.8,
+     "InternVL3-38B": 26.3,
+     "InternVL3-78B": 28.5
+    }
+   },
+   "SpatialScore|paper": {
+    "n": 10,
+    "rho_size": 0.9544117035777013,
+    "scores": {
+     "InternVL3-1B": 33.03,
+     "InternVL3.5-1B": 33.55,
+     "InternVL3.5-4B": 37.81,
+     "InternVL3-8B": 41.57,
+     "InternVL3.5-8B": 37.75,
+     "InternVL3-14B": 44.89,
+     "InternVL3.5-14B": 43.88,
+     "InternVL3-38B": 48.95,
+     "InternVL3.5-38B": 45.74,
+     "InternVL3-78B": 50.67
+    }
+   },
+   "MMBench_SocialRelation": {
+    "n": 7,
+    "rho_size": 0.396412483586046,
+    "scores": {
+     "InternVL3-1B": 82.4,
+     "InternVL3-2B": 92.3,
+     "InternVL3-8B": 86.8,
+     "InternVL3-9B": 90.1,
+     "InternVL3-14B": 89.0,
+     "InternVL3-38B": 93.4,
+     "InternVL3-78B": 89.0
+    }
+   },
+   "control:MMMU-val|OpenVLM": {
+    "n": 7,
+    "rho_size": 0.9642857142857145,
+    "scores": {
+     "InternVL3-1B": 43.2,
+     "InternVL3-2B": 48.7,
+     "InternVL3-8B": 62.2,
+     "InternVL3-9B": 59.4,
+     "InternVL3-14B": 64.8,
+     "InternVL3-38B": 69.7,
+     "InternVL3-78B": 72.2
+    }
+   }
+  },
+  "LLaVA-OneVision": {
+   "MMBench_SocialRelation": {
+    "n": 6,
+    "rho_size": 0.8366600265340757,
+    "scores": {
+     "LLaVA-OneVision-0.5B": 69.2,
+     "LLaVA-OneVision-0.5B (SI)": 65.9,
+     "LLaVA-OneVision-7B": 84.6,
+     "LLaVA-OneVision-7B (SI)": 87.9,
+     "LLaVA-OneVision-72B": 91.2,
+     "LLaVA-OneVision-72B (SI)": 86.8
+    }
+   },
+   "control:MMMU-val|OpenVLM": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "LLaVA-OneVision-0.5B": 32.7,
+     "LLaVA-OneVision-7B": 47.9,
+     "LLaVA-OneVision-72B": 56.6
+    }
+   }
+  },
+  "InternVL2": {
+   "BLINK|OpenVLM": {
+    "n": 7,
+    "rho_size": 1.0,
+    "scores": {
+     "InternVL2-1B": 38.3,
+     "InternVL2-2B": 42.8,
+     "InternVL2-4B": 45.8,
+     "InternVL2-8B": 50.9,
+     "InternVL2-26B": 56.9,
+     "InternVL2-76B": 57.5,
+     "InternVL2.5-78B": 63.8
+    }
+   },
+   "MMSI-Bench|paper": {
+    "n": 7,
+    "rho_size": 0.21428571428571433,
+    "scores": {
+     "InternVL2.5-1B": 26.1,
+     "InternVL2.5-2B": 29.0,
+     "InternVL2.5-4B": 26.3,
+     "InternVL2.5-8B": 28.7,
+     "InternVL2.5-26B": 28.0,
+     "InternVL2.5-38B": 27.9,
+     "InternVL2.5-78B": 28.5
+    }
+   },
+   "SpatialScore|paper": {
+    "n": 5,
+    "rho_size": 0.9999999999999999,
+    "scores": {
+     "InternVL2.5-1B": 31.66,
+     "InternVL2.5-4B": 36.18,
+     "InternVL2.5-8B": 39.63,
+     "InternVL2.5-38B": 45.6,
+     "InternVL2.5-78B": 48.71
+    }
+   },
+   "MMBench_SocialRelation": {
+    "n": 23,
+    "rho_size": 0.38403426047717343,
+    "scores": {
+     "InternVL2.5-1B": 74.7,
+     "InternVL2-1B": 68.1,
+     "InternVL2.5-1B-MPO": 75.8,
+     "InternVL2.5-2B": 91.2,
+     "InternVL2-2B": 81.3,
+     "InternVL2.5-2B-MPO": 91.2,
+     "InternVL2.5-4B": 90.1,
+     "InternVL2-4B": 84.6,
+     "InternVL2.5-4B-MPO": 89.0,
+     "InternVL2.5-8B": 87.9,
+     "InternVL2-8B": 90.1,
+     "InternVL2-8B-MPO": 84.6,
+     "InternVL2-8B-MPO-CoT": 82.4,
+     "InternVL2.5-8B-MPO": 91.2,
+     "InternVL2.5-26B": 90.1,
+     "InternVL2-26B": 83.5,
+     "InternVL2.5-26B-MPO": 91.2,
+     "InternVL2.5-38B": 89.0,
+     "InternVL2.5-38B-MPO": 87.9,
+     "InternVL2-40B": 89.0,
+     "InternVL2-76B": 87.9,
+     "InternVL2.5-78B": 90.1,
+     "InternVL2.5-78B-MPO": 91.2
+    }
+   },
+   "EmoBench-M": {
+    "n": 4,
+    "rho_size": 0.6000000000000001,
+    "scores": {
+     "InternVL2.5-4B": 50.9,
+     "InternVL2.5-8B": 50.4,
+     "InternVL2.5-38B": 54.4,
+     "InternVL2.5-78B": 52.4
+    }
+   },
+   "control:MMMU-val|OpenVLM": {
+    "n": 14,
+    "rho_size": 0.879571435214849,
+    "scores": {
+     "InternVL2.5-1B": 41.2,
+     "InternVL2-1B": 36.7,
+     "InternVL2.5-2B": 43.2,
+     "InternVL2-2B": 36.3,
+     "InternVL2.5-4B": 51.8,
+     "InternVL2-4B": 48.3,
+     "InternVL2.5-8B": 56.2,
+     "InternVL2-8B": 51.2,
+     "InternVL2.5-26B": 56.0,
+     "InternVL2-26B": 50.7,
+     "InternVL2.5-38B": 63.2,
+     "InternVL2-40B": 55.2,
+     "InternVL2-76B": 58.3,
+     "InternVL2.5-78B": 70.0
+    }
+   }
+  },
+  "Gemma-3": {
+   "BLINK|OpenVLM": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "Gemma-3-4B": 43.9,
+     "Gemma-3-12B": 50.3,
+     "Gemma-3-27B": 53.5
+    }
+   },
+   "OC-composite": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "Gemma-3-4B": 15.65,
+     "Gemma-3-12B": 23.075,
+     "Gemma-3-27B": 26.725
+    }
+   },
+   "MMBench_SocialRelation": {
+    "n": 3,
+    "rho_size": -0.5,
+    "scores": {
+     "Gemma-3-4B": 87.9,
+     "Gemma-3-12B": 76.9,
+     "Gemma-3-27B": 86.8
+    }
+   },
+   "control:MMMU-val|OpenVLM": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "Gemma-3-4B": 47.3,
+     "Gemma-3-12B": 55.2,
+     "Gemma-3-27B": 64.8
+    }
+   }
+  },
+  "DeepSeek-VL2": {
+   "MMSI-Bench|paper": {
+    "n": 3,
+    "rho_size": 0.5,
+    "scores": {
+     "DeepSeek-VL2-Tiny": 24.0,
+     "DeepSeek-VL2-Small": 28.6,
+     "DeepSeek-VL2": 27.1
+    }
+   },
+   "MMBench_SocialRelation": {
+    "n": 3,
+    "rho_size": 0.5,
+    "scores": {
+     "DeepSeek-VL2-Tiny": 79.1,
+     "DeepSeek-VL2-Small": 85.7,
+     "DeepSeek-VL2": 81.3
+    }
+   },
+   "control:MMMU-val|OpenVLM": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "DeepSeek-VL2-Tiny": 42.9,
+     "DeepSeek-VL2-Small": 49.7,
+     "DeepSeek-VL2": 54.0
+    }
+   }
+  },
+  "Qwen2-VL": {
+   "BLINK|OpenVLM": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "Qwen2-VL-2B": 45.2,
+     "Qwen2-VL-7B": 53.8,
+     "Qwen2-VL-72B": 60.5
+    }
+   },
+   "MMBench_SocialRelation": {
+    "n": 3,
+    "rho_size": -0.5,
+    "scores": {
+     "Qwen2-VL-2B": 93.4,
+     "Qwen2-VL-7B": 87.9,
+     "Qwen2-VL-72B": 91.2
+    }
+   },
+   "control:MMMU-val|OpenVLM": {
+    "n": 3,
+    "rho_size": 1.0,
+    "scores": {
+     "Qwen2-VL-2B": 42.2,
+     "Qwen2-VL-7B": 53.7,
+     "Qwen2-VL-72B": 64.3
+    }
+   }
+  },
+  "Ovis2": {
+   "BLINK|OpenVLM": {
+    "n": 6,
+    "rho_size": 1.0,
+    "scores": {
+     "Ovis2-1B": 44.0,
+     "Ovis2-2B": 47.9,
+     "Ovis2-4B": 53.0,
+     "Ovis2-8B": 54.3,
+     "Ovis2-16B": 59.0,
+     "Ovis2-34B": 60.1
+    }
+   },
+   "OC-composite": {
+    "n": 3,
+    "rho_size": 0.5,
+    "scores": {
+     "Ovis2-8B": 30.474999999999998,
+     "Ovis2-16B": 34.574999999999996,
+     "Ovis2-34B": 33.95
+    }
+   },
+   "MMBench_SocialRelation": {
+    "n": 6,
+    "rho_size": 0.8285714285714287,
+    "scores": {
+     "Ovis2-1B": 75.8,
+     "Ovis2-2B": 80.2,
+     "Ovis2-4B": 84.6,
+     "Ovis2-8B": 85.7,
+     "Ovis2-16B": 82.4,
+     "Ovis2-34B": 89.0
+    }
+   },
+   "control:MMMU-val|OpenVLM": {
+    "n": 6,
+    "rho_size": 1.0,
+    "scores": {
+     "Ovis2-1B": 36.1,
+     "Ovis2-2B": 45.6,
+     "Ovis2-4B": 49.0,
+     "Ovis2-8B": 57.4,
+     "Ovis2-16B": 60.7,
+     "Ovis2-34B": 66.7
+    }
+   }
+  }
+ }
+}

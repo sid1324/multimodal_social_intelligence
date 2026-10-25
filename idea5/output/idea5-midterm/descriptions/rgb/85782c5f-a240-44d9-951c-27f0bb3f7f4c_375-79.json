@@ -1,0 +1,18 @@
+{
+ "id": "85782c5f-a240-44d9-951c-27f0bb3f7f4c_375-79",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a multi-lane paved road approaching a signalized intersection with a raised grassy curb on the right, overhead traffic lights hung on wires above the intersection about 15 to 25 metres ahead, and painted bicycle lane markings directly below the camera wearer on the asphalt. In the first two frames, a cyclist straddling a bicycle (within their arm's reach) is positioned roughly 10 to 12 metres ahead and slightly to the right near the corner curb, facing rightward away from the camera wearer while distant cars sit 30 to 50 metres away across the intersection. Nothing is within arm's reach of the camera wearer throughout the sequence, and utility poles and signs along the right edge and top of the frame are partially out of view. In the third and fourth frames, the camera wearer turns and tilts their head sharply downward and to the left, bringing the painted pavement markings 1 to 3 metres below into central view and revealing a pedestrian walking rightward across the road about 12 to 15 metres away, positioned several metres to the left of a maroon pickup truck about 18 to 22 metres away. By the fifth frame, the camera wearer turns back to face the intersection ahead as they advance slightly forward, showing the pedestrian now 10 to 12 metres ahead on the left facing right without looking toward the camera wearer, while the pickup truck and cyclist on the far right are mostly cut off by the right frame edge and partially occlude background vehicles."
+ },
+ "duration_seconds": 14.927361,
+ "usage": {
+  "input_tokens": 19538,
+  "output_tokens": 603,
+  "thinking_tokens": 219,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20141
+ },
+ "conversation_id": "0809e8b4-bc09-4b35-872c-1414a0faa27d"
+}

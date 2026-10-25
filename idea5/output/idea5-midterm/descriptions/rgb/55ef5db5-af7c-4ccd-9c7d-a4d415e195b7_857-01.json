@@ -1,0 +1,12 @@
+{
+ "id": "55ef5db5-af7c-4ccd-9c7d-a4d415e195b7_857-01",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a small paved courtyard bordered by bright green and blue walls, with a wooden table and chairs along the left side, bags piled near the table, and doorways and a window around the perimeter. In the first frame, one seated or reclined person is about 1\u20132 m ahead near the table, while the camera wearer\u2019s torso and legs fill the lower foreground and the table edge is within roughly 0.5\u20131 m. Across the second and third frames, a person in a blue shirt is about 0.7\u20131.5 m in front and looks toward the camera wearer, while people in purple and red are roughly 1.5\u20132.5 m farther to the right or behind them and are partly cropped or mutually occluded; another reclined person remains near a chair about 2 m away. By the fourth frame, the blue-shirted person is nearly centered and within about 1 m, with the camera wearer\u2019s hand entering at arm\u2019s reach, while a partly hidden person stands in a doorway roughly 2\u20133 m to the right. In the fifth frame, the camera has turned sharply right toward the blue wall, bringing a dark-shirted man\u2019s head and shoulders partly into view at the lower edge about 0.5\u20131 m away as he faces and looks toward the camera, while the earlier people and furniture move out of view to the left."
+ },
+ "duration_seconds": 13.7,
+ "usage": null,
+ "conversation_id": null
+}

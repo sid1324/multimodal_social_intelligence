@@ -1,0 +1,12 @@
+{
+ "id": "fa53388f-58ab-41a8-9f0d-55407cae3973_757-23",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In frames 1\u20134, a white wire candy-and-gum rack fills the center and right foreground about 0.3\u20130.7 m from the camera wearer, with a tan display panel immediately to its left and a gray floor below. The rack holds boxed gum and mints on several levels, with upper items above the lower boxes; parts of the rack and display extend beyond the top and side edges, and motion blur partially obscures the products in frames 2 and 4. A hand enters from the bottom center in frame 3 and reaches the lower-middle shelf, placing the products there within arm's reach of the camera wearer. Across frames 1\u20134, the viewpoint shifts and turns around the rack, alternately bringing the lower shelves closer and then blurring them as the camera rotates right. In frame 5, the rack is no longer visible and a woman stands roughly 1\u20132 m in front of the camera, slightly right of center, facing generally toward it with her gaze angled downward; another person is partly visible about 1\u20132 m behind and to her right near a counter or display case. The woman is beside a red cart or counter at waist level, while the second person is partly occluded by the display case and frame edge, indicating the camera wearer has turned from the merchandise toward the more open shop interior."
+ },
+ "duration_seconds": 9.4,
+ "usage": null,
+ "conversation_id": null
+}

@@ -1,0 +1,18 @@
+{
+ "id": "3e418323-3ff7-4d03-9b60-275f1e20f5dc_315-49",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor clothing store where, in the first four frames, a curved black metal clothing rack with garments on hangers and round size dividers stands directly in front of the camera wearer at roughly 0.3 to 0.7 metres, well within arm's reach. A second clothing rack stands about 2 to 3 metres away to the left in front of large windows, while on the far right of frames 1 and 3, two people standing about 2.5 to 3.5 metres away behind the foreground rack are mostly occluded below their heads and shoulders, with one person in a cap facing toward the camera wearer. In frame 3, the camera wearer's hand reaches into the lower center of the view to touch a grey garment on the foreground rack, and in frame 4 the viewpoint pitches upward and pans rapidly to the right. By frame 5, the camera wearer has turned rightward so the foreground rack is only partly visible in the bottom-left corner, revealing a black slatted wall display with a mirror and hanging clothes about 3.5 to 4.5 metres ahead and a glass doorway about 2.5 to 3 metres away on the right. In frame 5, a woman with long dark hair stands at center-right about 1.5 to 2 metres from the camera wearer\u2014just outside arm's reach\u2014with her body angled right and her head turned to look directly at the camera wearer, while a person in a dark hooded jacket stands about 0.5 metres to her right (roughly 2 to 2.5 metres from the camera wearer) facing away toward the glass doorway, and two people remain partially visible behind the rack on the far left at about 3 to 4 metres."
+ },
+ "duration_seconds": 23.254594,
+ "usage": {
+  "input_tokens": 19580,
+  "output_tokens": 949,
+  "thinking_tokens": 511,
+  "cache_read_tokens": 14209,
+  "total_tokens": 20529
+ },
+ "conversation_id": "7c1aca48-867f-4c0c-9992-14764e1c20de"
+}

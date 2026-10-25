@@ -1,0 +1,18 @@
+{
+ "id": "eb2c9739-dba0-479c-81b7-9dda51c4ac20_148-23",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in a large indoor gymnasium with a wooden floor and blue-and-yellow walls, divided by a portable badminton net with a wheeled basketball hoop positioned about 7 to 9 metres away on the far left. In the first two frames, the camera wearer faces the net (about 1.5 to 3 metres ahead), while two opponents holding rackets within their own arm's reach stand on the opposite side about 4 to 5 metres apart from each other, BOTH facing and looking toward the camera wearer with their upper bodies partially occluded by the net's top tape. Between frame 1 and frame 2, the camera wearer steps closer to the net as the opponent on the left approaches from roughly 6.5 metres to 4.5 metres away and the opponent on the right shifts from about 5.5 metres to 6.5 metres away. In the third frame, the camera wearer stands within 0.5 to 1 metre of the net and tilts their head sharply downward, bringing their own feet, a handheld racket tip at the bottom right (within arm's reach), and a yellow shuttlecock on the floor about 0.8 metres ahead into view, while cropping out the scene above except for the left opponent's lower legs about 2.5 metres away across the net. Across the fourth and fifth frames, the camera wearer turns roughly 120 degrees to the right away from the net, shifting the net post to the left background (3 to 4 metres away) and revealing distant people 15 to 20 metres away near the back wall. During this turn, a third person in dark clothing on the wearer's side of the net, holding a racket in their right hand and facing toward the camera wearer, walks closer from about 3.5 metres away on the upper right in frame 4 to about 2 metres away in the right foreground in frame 5, approaching a shuttlecock lying on the floor at the bottom edge."
+ },
+ "duration_seconds": 22.590852,
+ "usage": {
+  "input_tokens": 5306,
+  "output_tokens": 1115,
+  "thinking_tokens": 626,
+  "cache_read_tokens": 28416,
+  "total_tokens": 6421
+ },
+ "conversation_id": "10adb8d9-e21c-400d-ab24-e6dacc2d3b02"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "428a80ce-ccc8-46e3-9cbb-419d224f148a_679-57",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail aisle with white pegboard shelving units on the left and a large exterior window wall in the background about 3 to 5 metres away. In frames 1 and 2, a person wearing a beige jacket and lanyard stands on the right at roughly 1 to 1.5 metres from the camera wearer, positioned about 0.5 to 1 metre to the right of the lower-left snack shelf, with their body and head angled toward the camera wearer and slightly left while cropped below the chest. In frame 3, the camera wearer turns sharply left and downward to face a tiered white shelf directly in front at about 0.4 to 0.8 metres, placing boxes of packaged snacks within arm's reach while the other person is completely out of view to the right. In frame 4, the viewpoint shifts along the endcap of the shelving unit at roughly 0.5 to 1 metre distance, revealing packaged pastries on the upper shelf within arm's reach and a doorway and chair about 3 to 4 metres behind the shelf on the left. In frame 5, the camera wearer pans back toward the right, showing the tiered snack shelves receding on the left at 0.5 to 1.5 metres and the person in the beige jacket standing on the right at about 1.2 to 1.8 metres, facing toward the camera wearer with their lower body cropped out of the bottom of the frame."
+ },
+ "duration_seconds": 17.119793,
+ "usage": {
+  "input_tokens": 19621,
+  "output_tokens": 436,
+  "thinking_tokens": 58,
+  "cache_read_tokens": 14206,
+  "total_tokens": 20057
+ },
+ "conversation_id": "a8bc272c-6ae8-4b25-bf1e-e34b370411b6"
+}

@@ -1,0 +1,12 @@
+{
+ "id": "b68e46bf-2cc5-4c6b-895a-1f8c6cad959a_2324-99",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Across all five frames, the camera wearer stands on a brick-paved driveway bordered by grass and low plants, with a white wall ahead and an open wooden gate roughly 4\u20136 m in front-left; beyond the gate, a road and a white vehicle are partly visible. The driveway continues and curves to the right, while the wall and lawn extend across the front and left side of that curve. In frames 1\u20132, one person is only partly visible at the right edge about 1\u20132 m away, with their lower body and an arm occluded by the frame boundary; by frame 3, that person is out of view. In frame 4, a person in a black jacket and brown trousers is about 2\u20133 m ahead-right, facing mostly away toward the right-curving path, while another person in blue clothing is partly visible at the lower-right edge within roughly 1 m; neither clearly looks toward the camera wearer. In frame 5, the black-jacketed person remains about 2\u20133 m ahead and slightly right, seen from behind and moving farther along the path, while a second person in a white top and blue trousers is cut off at the extreme right within about 1 m; the two visible people are roughly 2\u20133 m apart, and only the edge person is within the camera wearer\u2019s arm\u2019s reach."
+ },
+ "duration_seconds": 10.3,
+ "usage": null,
+ "conversation_id": null
+}

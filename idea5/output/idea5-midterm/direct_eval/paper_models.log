@@ -1,0 +1,19 @@
+12:44 start qwen25vl3b
+done rgb
+done rgb_forced
+12:47 start spatialladder3b
+done rgb
+done rgb_forced
+12:51 start mindcube3b
+done rgb
+done rgb_forced
+12:54 start qwen25vl7b
+done rgb
+done rgb_forced
+12:59 start spacer7b
+done rgb
+done rgb_forced
+13:04 start spatialssrl7b
+done rgb
+done rgb_forced
+13:09 all done

@@ -1,0 +1,18 @@
+{
+ "id": "d0925317-dc23-4cb4-a375-a7baddc06b27_901-57",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene takes place in an indoor retail or convenience store area featuring a multi-tiered black and glass bakery display case directly in front of and below the camera wearer at roughly 0.4 to 1.0 metres, set against a white wall with promotional posters about 0.8 to 1.2 metres away. Inside the display case, two round white cakes sit side by side about 0.1 metres apart on the right side of the upper shelf, with smaller pastries to their left and additional baked goods arranged on the two shelves directly below them, while a metal counter and dispenser sit to the far left at about 1.2 to 1.5 metres. No other people are present in any of the five frames, and the display case, its contents, and the adjacent wall are all within arm's reach of the camera wearer during the first four frames. From frame 1 to frame 3, the camera wearer leans down and approaches the display case from roughly 0.8 metres to within 0.3 to 0.5 metres, with the camera wearer's own hand partially visible at the bottom edge of frame 3 reaching into the lower shelf while the black shelf frames partially occlude the pastries behind them. Between frames 3 and 5, the camera wearer retreats and turns sharply to the right, shifting the bakery case out of view to the left and revealing a narrow hallway wall with small signs at about 2.0 to 2.5 metres in front, flanked by an illuminated glass-door cooler on the left and a poster stand and red container on the right."
+ },
+ "duration_seconds": 19.998426,
+ "usage": {
+  "input_tokens": 19579,
+  "output_tokens": 629,
+  "thinking_tokens": 225,
+  "cache_read_tokens": 14207,
+  "total_tokens": 20208
+ },
+ "conversation_id": "3b42dc51-4056-4067-bc71-4e02391a969e"
+}

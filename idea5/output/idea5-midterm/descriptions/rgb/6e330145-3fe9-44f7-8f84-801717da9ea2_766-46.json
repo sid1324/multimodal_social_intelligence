@@ -1,0 +1,12 @@
+{
+ "id": "6e330145-3fe9-44f7-8f84-801717da9ea2_766-46",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer starts inside a garage, with a green lawn tractor about 1\u20132 m to the left, a black utility cart roughly 1\u20132 m ahead, shelving along the right wall, and the open doorway in front. Outside, a dark blurred figure or object is centered about 3\u20135 m ahead, while a silver pickup truck is farther ahead-right at roughly 6\u201310 m; the figure/object and truck are several metres apart. Across the middle frames, the viewpoint moves toward the opening and turns right, shifting the tractor and cart toward the left and lower edges while more of the driveway and lawn come into view. A small red upright object stands on the concrete about 2\u20134 m ahead-left in the later frames, with smaller items lying farther right on the driveway; none of these outdoor objects appears within the camera wearer\u2019s arm\u2019s reach. In the final frame, a person is extremely close at the right edge, within about 0.5\u20131 m, with only part of the upper body and head visible and facing generally toward the camera wearer, while the blurred central figure/object shifts out of view to the left as the camera continues turning right."
+ },
+ "duration_seconds": 10.9,
+ "usage": null,
+ "conversation_id": null
+}

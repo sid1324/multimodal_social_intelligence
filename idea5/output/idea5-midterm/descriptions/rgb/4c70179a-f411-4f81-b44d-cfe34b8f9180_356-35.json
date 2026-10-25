@@ -1,0 +1,12 @@
+{
+ "id": "4c70179a-f411-4f81-b44d-cfe34b8f9180_356-35",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a cluttered garage or workshop with shelves, boxes, tools, plants, stacked tires, a large dark panel, and a black car; the car remains roughly 2\u20134 m in front of the camera wearer and shifts from center-left toward the right across the frames as the wearer turns or moves right. A standing person appears about 2\u20133 m ahead in the first two frames, near cabinets and shelving, facing mostly away or sideways and not clearly looking toward the camera; this person then leaves the field of view. A second person appears near the front-right side of the car in the middle frames, roughly 1.5\u20133 m away, initially crouched and partly occluded by nearby objects, then rises or approaches until their upper body and face are about 0.5\u20131 m from the camera at the lower-right edge in the final frame. In the last frame this second person faces and looks toward the camera wearer, with a white cylindrical object and the edge of the dark panel within their arm\u2019s reach and probably within about 1 m of the wearer. The stacked tires stay near the center foreground at roughly 1\u20132 m, while shelves and storage items line the rear wall several metres away; fisheye distortion and frame-edge cropping leave portions of the floor, ceiling, car, people, and nearby objects partly out of view."
+ },
+ "duration_seconds": 10.8,
+ "usage": null,
+ "conversation_id": null
+}

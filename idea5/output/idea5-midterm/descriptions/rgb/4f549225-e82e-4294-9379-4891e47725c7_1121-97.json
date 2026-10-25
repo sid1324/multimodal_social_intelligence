@@ -1,0 +1,18 @@
+{
+ "id": "4f549225-e82e-4294-9379-4891e47725c7_1121-97",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an unfinished indoor masonry space bounded by rough plaster-coated walls within 0.3 to 1.0 metres of the camera wearer and a bright exterior opening to the left in the final frame. In frames 2 and 3, the camera wearer's hand is visible at the bottom center-right, about 0.4 to 0.6 metres away and within arm's reach, holding a long rectangular metal straightedge or screed bar flush against the lower edge of the plaster wall in front. A dark gap and an adjacent rough brick and mortar surface lie immediately to the right and below the wall edge in frames 2 and 3, while in frame 4 a dark circular container and a metal tool sit on the lower floor surface about 1.0 to 1.5 metres below the viewpoint where two perpendicular walls meet. In frame 5, a distant person is partially visible outside through the bright doorway opening on the bottom left, roughly 4 to 6 metres away, facing away or sideways without looking toward the camera wearer and partially occluded by equipment and overexposure. Across the 5 frames, the camera wearer's head turns and tilts markedly: starting from a motion-blurred upward-and-left view of the wall in frame 1, tilting down and right in frames 2 and 3 to face the wall and screed bar at close range, pitching steeply downward toward the floor corner in frame 4, and finally swinging left and upward toward the bright exterior opening and ceiling in frame 5."
+ },
+ "duration_seconds": 22.304753,
+ "usage": {
+  "input_tokens": 19563,
+  "output_tokens": 489,
+  "thinking_tokens": 92,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20052
+ },
+ "conversation_id": "2c732598-be69-4488-b2ed-dcaa50a52b95"
+}

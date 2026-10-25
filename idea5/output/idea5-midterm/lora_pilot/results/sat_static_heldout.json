@@ -1,0 +1,12008 @@
+{
+ "base": [
+  {
+   "id": "satstaticeval_34",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_154",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_278",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_476",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_515",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_519",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_564",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_586",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_705",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_1646",
+   "reply": "A",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_1716",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_1775",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2029",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2032",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2185",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2289",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2402",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2493",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2574",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2585",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2623",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2661",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2680",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2775",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3053",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3208",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3217",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3294",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3543",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3641",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3858",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3927",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3975",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3984",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3992",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4135",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4447",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4914",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_5271",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5352",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5605",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5657",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5960",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5986",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6033",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6176",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6261",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6470",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6655",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6678",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6898",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7076",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7190",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7245",
+   "reply": "C",
+   "pred": "C",
+   "answer": "A",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_7491",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_7690",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7746",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8087",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8190",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8261",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8396",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8419",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8486",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8636",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_8638",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_8669",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8793",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8807",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8863",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8944",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9026",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_9152",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_9254",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9395",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9473",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9571",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9766",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9920",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9954",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9985",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10042",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10286",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10290",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10306",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10385",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_10396",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10576",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10602",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_10866",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10904",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11006",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11441",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11446",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11624",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11785",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11890",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11911",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11936",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12004",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12049",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12068",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12092",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12197",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12201",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12209",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12323",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12578",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12706",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12745",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12826",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12884",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12905",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12927",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13064",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13100",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13300",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13381",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13857",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13900",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14152",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14430",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14528",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14533",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14562",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14623",
+   "reply": "A",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_14661",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14729",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14906",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_14926",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15095",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15121",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15574",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15642",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16051",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16647",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_16748",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16785",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16846",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17049",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_17113",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17294",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17301",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17400",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17468",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17601",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17847",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18069",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18383",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18434",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18474",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18608",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18652",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_18869",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18941",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18953",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18992",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19487",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19517",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19533",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19819",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19828",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19885",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20142",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20168",
+   "reply": "D",
+   "pred": "D",
+   "answer": "A",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20349",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20480",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20515",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20533",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20602",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20735",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20806",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20869",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20992",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21149",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21264",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_21281",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21328",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21486",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21495",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_21528",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21543",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21547",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21624",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21644",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21990",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22108",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22200",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22428",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22612",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22642",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22976",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22977",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22979",
+   "reply": "C",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_23094",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23161",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23232",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23474",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23674",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_23770",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23913",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_24185",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_24523",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25073",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25311",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25399",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25574",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25706",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25764",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_25822",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25936",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_26024",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26044",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26079",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_26374",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26736",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26963",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27123",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_27233",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27572",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27735",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27783",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27867",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28003",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28226",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28272",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28361",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28371",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_28383",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28457",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28603",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28715",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28831",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29085",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29200",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29201",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29294",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29306",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29587",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29708",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29856",
+   "reply": "C",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29984",
+   "reply": "D",
+   "pred": "D",
+   "answer": "E",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30030",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30259",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30272",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30546",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30620",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30970",
+   "reply": "D",
+   "pred": "D",
+   "answer": "A",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30993",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31043",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31238",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31362",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31445",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31639",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31691",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31726",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31755",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31825",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32250",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32265",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32508",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_32653",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32705",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32818",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32822",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32913",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32997",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33116",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33191",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33398",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33919",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34058",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34225",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34240",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34244",
+   "reply": "B",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_34465",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_34733",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34783",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34799",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34958",
+   "reply": "E",
+   "pred": "E",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_35235",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35240",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35315",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35351",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35360",
+   "reply": "D",
+   "pred": "D",
+   "answer": "C",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_35636",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35833",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35882",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35890",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36011",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36130",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36359",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36784",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36863",
+   "reply": "E",
+   "pred": "E",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36922",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37053",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37138",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37237",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37249",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37369",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37438",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37512",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37567",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37609",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37653",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37768",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37769",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38092",
+   "reply": "D",
+   "pred": "D",
+   "answer": "C",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38207",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38222",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38245",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38262",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38387",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38456",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38468",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38673",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39375",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39414",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39513",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39598",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39672",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39692",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39740",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_39763",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40095",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40410",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40470",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40603",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40858",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40876",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_40948",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41181",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41184",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41235",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41364",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_41668",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41681",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42025",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42397",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42616",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42635",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42700",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43051",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43259",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43285",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43370",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43770",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43870",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44035",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44329",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44356",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_44375",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44633",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44690",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_44951",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_45319",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_45331",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46023",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46067",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46326",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46379",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46380",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_46534",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46801",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_46909",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47178",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47217",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_47324",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47718",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48053",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48087",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48253",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48259",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48385",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48395",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48664",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48750",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_48759",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48871",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48943",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48980",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49367",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49425",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49447",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49727",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49817",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49850",
+   "reply": "C",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50329",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50576",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50589",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_50607",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50732",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_50736",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51040",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_51155",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51328",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51452",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51478",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51743",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51819",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_51822",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51966",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52037",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52074",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52105",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52176",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52535",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52983",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_53527",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_53584",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54133",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54192",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_54298",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54440",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54685",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54895",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_55049",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55289",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_55427",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55839",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55841",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55940",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56068",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56081",
+   "reply": "D",
+   "pred": "D",
+   "answer": "A",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56087",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56186",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56325",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56443",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56621",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56644",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56670",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56768",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56843",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56979",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57015",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57117",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57153",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57460",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57583",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57683",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57759",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59091",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59278",
+   "reply": "B",
+   "pred": "B",
+   "answer": "E",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59438",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59492",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59500",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59610",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59620",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59855",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59943",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_60002",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60085",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60397",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60513",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60837",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_60937",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61064",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61247",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61276",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61388",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61479",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61683",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61707",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61725",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62609",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62653",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62678",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_62885",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63051",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63390",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63396",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63415",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63588",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63614",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63655",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63829",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63875",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63910",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64082",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64164",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64267",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64289",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64399",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64477",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64795",
+   "reply": "D",
+   "pred": "D",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_64853",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64893",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_65052",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_65118",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  }
+ ],
+ "spatial": [
+  {
+   "id": "satstaticeval_34",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_154",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_278",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_476",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_515",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_519",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_564",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_586",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_705",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_1646",
+   "reply": "A",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_1716",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_1775",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2029",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2032",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2185",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2289",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2402",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2493",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2574",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2585",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2623",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2661",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2680",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2775",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3053",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3208",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3217",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3294",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3543",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3641",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3858",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3927",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3975",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3984",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3992",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4135",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4447",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4914",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_5271",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5352",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5605",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5657",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5960",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5986",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6033",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6176",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6261",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6470",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6655",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6678",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6898",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7076",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7190",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7245",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_7491",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_7690",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7746",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8087",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8190",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8261",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8396",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8419",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8486",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8636",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_8638",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_8669",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8793",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8807",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8863",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8944",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9026",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_9152",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_9254",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9395",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9473",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9571",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9766",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9920",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9954",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9985",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10042",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10286",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10290",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10306",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10385",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_10396",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10576",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10602",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_10866",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10904",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11006",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11441",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11446",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11624",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11785",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11890",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11911",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11936",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12004",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12049",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12068",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12092",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12197",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12201",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12209",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12323",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12578",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12706",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12745",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12826",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12884",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12905",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12927",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13064",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13100",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13300",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13381",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13857",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13900",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14152",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14430",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14528",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14533",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14562",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14623",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_14661",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14729",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14906",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_14926",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15095",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15121",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15574",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15642",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16051",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16647",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_16748",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16785",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16846",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17049",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_17113",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17294",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17301",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17400",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17468",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17601",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17847",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18069",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18383",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18434",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18474",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18608",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18652",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_18869",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18941",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18953",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18992",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19487",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19517",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19533",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19819",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19828",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19885",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20142",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20168",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20349",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20480",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20515",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20533",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20602",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20735",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20806",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20869",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20992",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21149",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21264",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_21281",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21328",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21486",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21495",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_21528",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21543",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21547",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21624",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21644",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21990",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22108",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22200",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22428",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22612",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22642",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22976",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22977",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22979",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_23094",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23161",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23232",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23474",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23674",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_23770",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23913",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_24185",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_24523",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25073",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25311",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25399",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25574",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25706",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25764",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_25822",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25936",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_26024",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26044",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26079",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_26374",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26736",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26963",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27123",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_27233",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27572",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27735",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27783",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27867",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28003",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28226",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28272",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28361",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28371",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_28383",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28457",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28603",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28715",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28831",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29085",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29200",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29201",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29294",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29306",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29587",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29708",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29856",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29984",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30030",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30259",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30272",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30546",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30620",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30970",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30993",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31043",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31238",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31362",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31445",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31639",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31691",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31726",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31755",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31825",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32250",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32265",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32508",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_32653",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32705",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32818",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32822",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32913",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32997",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33116",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33191",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33398",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33919",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34058",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34225",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34240",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34244",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_34465",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_34733",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34783",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34799",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34958",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_35235",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35240",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35315",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35351",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35360",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_35636",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35833",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35882",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35890",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36011",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36130",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36359",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36784",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36863",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36922",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37053",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37138",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37237",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37249",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37369",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37438",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37512",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37567",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37609",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37653",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37768",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37769",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38092",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38207",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38222",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38245",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38262",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38387",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38456",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38468",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38673",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39375",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39414",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39513",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39598",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39672",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39692",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39740",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_39763",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40095",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40410",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40470",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40603",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40858",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40876",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_40948",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41181",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41184",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41235",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41364",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_41668",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41681",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42025",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42397",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42616",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42635",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42700",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43051",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43259",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43285",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43370",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43770",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43870",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44035",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44329",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44356",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_44375",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44633",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44690",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_44951",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_45319",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_45331",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46023",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46067",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46326",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46379",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46380",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_46534",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46801",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_46909",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47178",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47217",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_47324",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47718",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48053",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48087",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48253",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48259",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48385",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48395",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48664",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48750",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_48759",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48871",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48943",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48980",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49367",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49425",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49447",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49727",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49817",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49850",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50329",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50576",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50589",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_50607",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50732",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_50736",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51040",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_51155",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51328",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51452",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51478",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51743",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51819",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_51822",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51966",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52037",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52074",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52105",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52176",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52535",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52983",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_53527",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_53584",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54133",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54192",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_54298",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54440",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54685",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54895",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_55049",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55289",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_55427",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55839",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55841",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55940",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56068",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56081",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56087",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56186",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56325",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56443",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56621",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56644",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56670",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56768",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56843",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56979",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57015",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57117",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57153",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57460",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57583",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57683",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57759",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59091",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59278",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59438",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59492",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59500",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59610",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59620",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59855",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59943",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_60002",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60085",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60397",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60513",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60837",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_60937",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61064",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61247",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61276",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61388",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61479",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61683",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61707",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61725",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62609",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62653",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62678",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_62885",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63051",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63390",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63396",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63415",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63588",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63614",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63655",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63829",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63875",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63910",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64082",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64164",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64267",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64289",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64399",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64477",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64795",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_64853",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64893",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_65052",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_65118",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  }
+ ],
+ "control": [
+  {
+   "id": "satstaticeval_34",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_154",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_278",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_476",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_515",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_519",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_564",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_586",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_705",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_1646",
+   "reply": "A",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_1716",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_1775",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2029",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2032",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2185",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2289",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2402",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2493",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2574",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2585",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2623",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2661",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_2680",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_2775",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3053",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3208",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3217",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3294",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3543",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3641",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3858",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3927",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3975",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_3984",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_3992",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4135",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4447",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_4914",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_5271",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5352",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5605",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5657",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5960",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_5986",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6033",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6176",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6261",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6470",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6655",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_6678",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_6898",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7076",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7190",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7245",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_7491",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_7690",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7746",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_7889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8087",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8190",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8261",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8396",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8419",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8486",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8636",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_8638",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_8669",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8793",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8807",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8863",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_8944",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9026",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_9152",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_9254",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9395",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9473",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9571",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9766",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9920",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9954",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_9985",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10042",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10286",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10290",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10306",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10385",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_10396",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10576",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10602",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_10866",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_10904",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11006",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11441",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11446",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11624",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11785",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11890",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11911",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_11936",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12004",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12049",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12068",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12092",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12197",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12201",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12209",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12323",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12578",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12706",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12745",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12826",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12884",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_12905",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_12927",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13064",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13100",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13300",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13381",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13857",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_13900",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14152",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14430",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14528",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14533",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14562",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14623",
+   "reply": "A",
+   "pred": "A",
+   "answer": "D",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_14661",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14729",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_14906",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_14926",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15095",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15121",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15574",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_15642",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16051",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16647",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_16748",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16785",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_16846",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17049",
+   "reply": "D",
+   "pred": "D",
+   "answer": "C",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_17113",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17294",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17301",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17400",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17468",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17601",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_17847",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18069",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18383",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18434",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18474",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18608",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18652",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_18869",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18941",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18953",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_18992",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19487",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19517",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19533",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19819",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19828",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_19885",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20142",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20168",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20349",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20480",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20515",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20533",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20602",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_20735",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20806",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20869",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_20992",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21149",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21264",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_21281",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21328",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21486",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21495",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_21528",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21543",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21547",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21624",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21644",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_21990",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22108",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22200",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22428",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22612",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22642",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22976",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_22977",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_22979",
+   "reply": "C",
+   "pred": "C",
+   "answer": "D",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_23094",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23161",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23232",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23474",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23674",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_23770",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_23913",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_24185",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_24523",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25073",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25311",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25399",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25574",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25706",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25764",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_25822",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_25936",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_26024",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26044",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26079",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_26374",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26736",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_26963",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27123",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_27233",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27572",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27735",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27783",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_27867",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28003",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28226",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28272",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28361",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28371",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_28383",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28457",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28603",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28715",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_28831",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29085",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29200",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29201",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29294",
+   "reply": "B",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29306",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29587",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29708",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_29856",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_29984",
+   "reply": "D",
+   "pred": "D",
+   "answer": "E",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30030",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30259",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30272",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30546",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30620",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_30970",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_30993",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31043",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31238",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31362",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31445",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31639",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31691",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31726",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31755",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_31825",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32250",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32265",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32508",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_32653",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32705",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32818",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32822",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32913",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_32997",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33116",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33191",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33398",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_33919",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34058",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34225",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34240",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34244",
+   "reply": "B",
+   "pred": "B",
+   "answer": "C",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_34465",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_34733",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34783",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34799",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_34958",
+   "reply": "C",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_35235",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35240",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35315",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35351",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35360",
+   "reply": "A",
+   "pred": "A",
+   "answer": "C",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_35636",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35833",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35882",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_35890",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36011",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36130",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36359",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36784",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36863",
+   "reply": "E",
+   "pred": "E",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_36889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_36922",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37053",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37138",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37237",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37249",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37369",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37438",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37512",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37567",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37609",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_37653",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37768",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_37769",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38092",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38207",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38222",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38245",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38262",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38387",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_38456",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38468",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_38673",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39375",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39414",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39513",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39598",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39672",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39692",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_39740",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_39763",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40095",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40410",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40470",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40603",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40858",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_40876",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_40948",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41181",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41184",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41235",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41364",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_41668",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_41681",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42025",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42397",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42616",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42635",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_42700",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43051",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43259",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43285",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_43370",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43770",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_43870",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44027",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44035",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44329",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44356",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_44375",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44633",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_44690",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_44951",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_45319",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_45331",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46023",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46067",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46326",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46379",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46380",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46401",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_46534",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_46801",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_46909",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47178",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47217",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_47324",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_47718",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48053",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48087",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48253",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48259",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48385",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48395",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48664",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48750",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_48759",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48871",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48943",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_48980",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49367",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49425",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49447",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49727",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49817",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_49850",
+   "reply": "C",
+   "pred": "C",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50329",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50576",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50589",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_50607",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_50732",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_50736",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51040",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_51155",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51328",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51452",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51478",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51743",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51819",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_51822",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51889",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_51966",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52037",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52074",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52105",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52176",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52535",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_52983",
+   "reply": "E",
+   "pred": "E",
+   "answer": "D",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_53527",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_53584",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54133",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54192",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_54298",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54440",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54685",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_54895",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_55049",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55289",
+   "reply": "C",
+   "pred": "C",
+   "answer": "C",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_55427",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55839",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55841",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_55940",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56068",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56081",
+   "reply": "D",
+   "pred": "D",
+   "answer": "A",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56087",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56186",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56325",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56443",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_56621",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56644",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56670",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56768",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56843",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_56979",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57015",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57117",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57153",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57460",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57583",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57683",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_57759",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59091",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59278",
+   "reply": "B",
+   "pred": "B",
+   "answer": "E",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59438",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59492",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_59500",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59610",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59620",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59639",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59855",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_59943",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_60002",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60085",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60397",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60513",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_60837",
+   "reply": "E",
+   "pred": "E",
+   "answer": "E",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_60937",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61064",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61247",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61276",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61388",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61479",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61683",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61707",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_61725",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62609",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62653",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_62678",
+   "reply": "D",
+   "pred": "D",
+   "answer": "D",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_62885",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63051",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63390",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63396",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63415",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63588",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63614",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63655",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63829",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63875",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_63910",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64082",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64164",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64267",
+   "reply": "A",
+   "pred": "A",
+   "answer": "B",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64289",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64399",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64477",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64795",
+   "reply": "D",
+   "pred": "D",
+   "answer": "B",
+   "correct": false,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_64853",
+   "reply": "B",
+   "pred": "B",
+   "answer": "A",
+   "correct": false,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_64893",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  },
+  {
+   "id": "satstaticeval_65052",
+   "reply": "B",
+   "pred": "B",
+   "answer": "B",
+   "correct": true,
+   "k": 5
+  },
+  {
+   "id": "satstaticeval_65118",
+   "reply": "A",
+   "pred": "A",
+   "answer": "A",
+   "correct": true,
+   "k": 2
+  }
+ ]
+}

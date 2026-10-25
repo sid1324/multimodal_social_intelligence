@@ -1,0 +1,18 @@
+{
+ "id": "e93fdf27-c14c-4794-b4b7-20685b40156f_1304-45",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor retail space featuring a high ceiling with suspended rectangular light fixtures above, a large multi-pane window wall overlooking trees in the background, a dark slatted wall with a mirror and hanging garments on the right, and metal clothing racks below. In the first two frames, with the camera tilted upward, a woman with tied-back dark hair stands in front of the windows about 2 to 2.5 metres ahead to the left, facing slightly right and looking toward the camera wearer, while the edge of another person's head is partially visible at the far right edge of the first frame about 1.5 metres away. Almost all of the people's bodies below the head and shoulders are cropped out by the lower frame boundary, and in the third frame only the top of the first woman's head is visible at the bottom center as the camera points higher toward the ceiling. Across the fourth and fifth frames, the camera wearer pans left and moves closer so the slatted wall exits the view on the right and the first woman shifts to the right foreground at roughly 1 metre distance, bringing her and the adjacent metal clothing rack within or just at arm's reach. In the fifth frame, a second person wearing glasses comes into view at the bottom left about 1.5 to 2 metres from the camera wearer and roughly 1.2 metres to the left of the first woman, with both individuals facing inward toward the space between them and the camera wearer while their torsos remain cut off below the frame."
+ },
+ "duration_seconds": 15.562507,
+ "usage": {
+  "input_tokens": 19618,
+  "output_tokens": 902,
+  "thinking_tokens": 518,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20520
+ },
+ "conversation_id": "0618efad-c5e1-4609-b65a-74f875dee877"
+}

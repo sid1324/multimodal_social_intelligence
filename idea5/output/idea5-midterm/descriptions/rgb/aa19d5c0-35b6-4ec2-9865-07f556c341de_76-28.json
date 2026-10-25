@@ -1,0 +1,12 @@
+{
+ "id": "aa19d5c0-35b6-4ec2-9865-07f556c341de_76-28",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a narrow elevated construction area bounded by rough concrete walls or columns, with scaffolding, pipes, and buildings visible beyond the open side; in the first frame a pile of bricks lies roughly 1\u20132 m ahead and slightly left. One worker is present about 1\u20132 m in front of the camera, generally right of center, wearing a purple shirt, dark trousers, gloves, and a light head covering; the worker faces mostly toward the camera wearer and downward, without clearly looking directly at the camera. A large shallow round pan containing dark material sits between them at about waist height, roughly 0.5\u20131 m from the worker and 1\u20131.5 m from the camera wearer, while bricks and a small container or tool near the worker's hands are within the worker's arm's reach. The nearby concrete wall or column repeatedly occludes the center of the scene, parts of the worker are cut off by the upper and right edges, and the pan, pipes, scaffolding, and distant ground or buildings are partly out of view. Across the five frames the camera turns or shifts rightward from the brick pile toward the worker and pan, bringing the worker more centrally and fully into view; the worker remains at a similar distance, with only a small forward or sideways shift and no clear approach or retreat."
+ },
+ "duration_seconds": 10.7,
+ "usage": null,
+ "conversation_id": null
+}

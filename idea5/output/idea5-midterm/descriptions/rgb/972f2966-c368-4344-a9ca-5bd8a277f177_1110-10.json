@@ -1,0 +1,18 @@
+{
+ "id": "972f2966-c368-4344-a9ca-5bd8a277f177_1110-10",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "Viewed from a steeply downward-angled head-mounted camera, the scene shows an indoor corner with two white walls meeting at the front-left (0.3 to 0.6 metres away), a grey floor roughly 1.5 metres below the camera, a dark shelving unit to the right (0.5 to 1.0 metres away), and no other people present. Directly in front of the camera wearer's torso within arm's reach (0.3 to 0.5 metres away), the wearer's left black-gloved hand holds a rectangular pink foam board while the right gloved hand holds a cordless drill. On the floor below and to the right, at roughly 0.8 to 1.5 metres from the camera and 0.2 to 0.6 metres from the shelving unit, sit scattered screws, a grey plastic crate, and a white bucket with cloth, situated beside the wearer's dark shoes. The wearer's chest and the pink foam board partially occlude the floor and feet directly beneath the torso, while the walls, shelving unit, and floor containers are partly cut off by the outer edges of the frame. Across the five frames from left to right, the wearer rotates clockwise to the right by roughly 60 degrees away from the wooden bracket on the initial front wall, moving the pink foam board down against the left-hand wall (0.3 to 0.5 metres to the front-left) while bringing the drill in the right hand forward toward the wall seam."
+ },
+ "duration_seconds": 28.456609,
+ "usage": {
+  "input_tokens": 5307,
+  "output_tokens": 1194,
+  "thinking_tokens": 804,
+  "cache_read_tokens": 28418,
+  "total_tokens": 6501
+ },
+ "conversation_id": "90b72ba3-8ee7-40c0-958a-b59167dd6805"
+}

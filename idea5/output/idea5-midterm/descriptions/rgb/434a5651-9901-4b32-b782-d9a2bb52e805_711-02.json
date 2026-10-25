@@ -1,0 +1,12 @@
+{
+ "id": "434a5651-9901-4b32-b782-d9a2bb52e805_711-02",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a sunny residential driveway and open garage beside a sidewalk, lawn, shrubs, and street; a blue car is parked inside the garage, and a silver-and-black scooter stands near the driveway\u2019s right edge. In frame 1, three people are roughly 2\u20134 m ahead: a man in gray is centered and closest, facing the garage and partly blocking the car, while an orange-shirted person and a child in blue stand to his left near the garage opening. In frame 2, a green-shirted child is about 3\u20135 m ahead on the sidewalk, moving toward the right side of the view and facing mostly right, while a red-clothed adult carrying a bag is very close at the right edge and partly cropped; neither clearly looks at the camera wearer. In frames 3\u20134, the camera wearer turns and approaches the scooter until its seat and front body dominate the foreground within arm\u2019s reach, with the red-clothed adult about 1\u20132 m beyond it and partly cut off above; the seat occludes much of the driveway and lower surroundings. By frame 5, the viewpoint has rotated toward the scooter\u2019s handlebars and instrument panel, still within arm\u2019s reach, while the green-shirted child stands roughly 1\u20132 m ahead-left of the scooter, facing generally toward it and partly cropped at the top."
+ },
+ "duration_seconds": 9.9,
+ "usage": null,
+ "conversation_id": null
+}

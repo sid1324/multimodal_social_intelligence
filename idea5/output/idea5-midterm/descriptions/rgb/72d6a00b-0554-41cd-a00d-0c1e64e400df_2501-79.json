@@ -1,0 +1,18 @@
+{
+ "id": "72d6a00b-0554-41cd-a00d-0c1e64e400df_2501-79",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grass sports field at night illuminated by tall floodlight poles above, with a white soccer goal near one end of the field and a small building behind it. In frame 1, the camera wearer faces a goal on the far left (partially cut off at the left edge, roughly 12\u201315 m away), with a person in a blue-green shirt and dark shorts about 8\u201310 m ahead in the center facing and running toward the camera wearer, and another person partly visible on the far right edge about 8\u201310 m away. In frame 2, the viewpoint has turned rightward toward a goal in the background (10\u201315 m ahead on the right), showing a person in all black about 4\u20135 m ahead on the left facing away from the camera wearer and about 4\u20135 m from another person in dark clothing on the right who stands in front of the goal facing toward the field and the camera wearer. In frame 3, the camera wearer turns rapidly to the left across the open field\u2014causing heavy motion blur\u2014passing within 2\u20133 m of a dark-clothed person on the lower left while another person in a reddish top is visible further ahead in the center at roughly 10\u201315 m. Across frames 4 and 5, as the view stabilizes down the length of the field, two people on the left (one in dark green/black about 6\u20138 m away and one in an orange/red top about 8\u201310 m away) converge until they are within 1\u20132 m of each other and facing one another, while in frame 5 a person in black enters on the far right about 3\u20134 m from the camera wearer, facing away and moving forward into the field with their lower legs partly cut off by the bottom-right frame edge. Throughout all five frames, no person or object other than the ground beneath their feet is within arm's reach (under 1 m) of the camera wearer."
+ },
+ "duration_seconds": 10.881383,
+ "usage": {
+  "input_tokens": 19496,
+  "output_tokens": 497,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14196,
+  "total_tokens": 19993
+ },
+ "conversation_id": "b56ccad7-8b2e-42b7-aa60-caec508dae00"
+}

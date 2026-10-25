@@ -1,0 +1,18 @@
+{
+ "id": "26192bcd-7240-4d7b-8306-fa4eed0264f2_4935-17",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer stands on an elevated step beside a building wall with a menu sign on the left, looking down at a semi-circle of people gathered on a brick sidewalk bordered by curb bollards and an asphalt street ahead. On the left, a person in a black jacket stands within arm's reach at about 0.6 metres holding a smartphone in both hands, and about 0.6 metres to their right (1.0 to 1.5 metres front-left of the camera wearer) stands a person in an olive-green outfit facing right toward the group, who partially occludes a person in a blue jacket standing directly behind them at about 2.0 metres. Ahead near the street curb, about 2.0 to 2.5 metres from the camera wearer and roughly 1.0 metre apart from each other, a person in a grey hoodie with a crossbody strap and a dark-haired person with crossed arms stand facing inward toward the sidewalk and the camera wearer. On the right, about 0.8 to 1.2 metres from the camera wearer and within arm's reach, another person in a black jacket faces left toward the group, holding a smartphone within their own reach in frame 1 before lowering their hands by frame 5, with two more pedestrians visible 3 to 4 metres behind them on the far right. In frame 1, the camera points downward so the upper bodies of the curb-side people and the right-side person are cut off by the top and right edges, before the camera turns left in frame 2 to reveal the menu board and the left-side phone holder while cutting off the right side of the group. From frames 3 through 5, the camera pans steadily back to the right, moving the left-side phone holder and the olive-green-clad person out of the left edge of the view while bringing the dark-haired person and the right-side person in the black jacket (who now looks toward the camera wearer) fully into the frame."
+ },
+ "duration_seconds": 25.335619,
+ "usage": {
+  "input_tokens": 19566,
+  "output_tokens": 1460,
+  "thinking_tokens": 970,
+  "cache_read_tokens": 14194,
+  "total_tokens": 21026
+ },
+ "conversation_id": "ce4dfaa9-72cd-44ce-bac2-586cc1e85b54"
+}

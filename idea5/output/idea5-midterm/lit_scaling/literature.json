@@ -1,0 +1,773 @@
+[
+  {
+    "id": "burnell2023",
+    "title": "Revealing the structure of language model capabilities",
+    "authors": "Burnell, Hao, Conway, Hernandez-Orallo",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2306.10062",
+    "topic": "capability structure / factor analysis",
+    "claim": "LLM capabilities on HELM are not monolithic: three factors (comprehension, language modeling, reasoning) explain performance better than a single g; factors relate differently to model size.",
+    "key_numbers": {
+      "models": 29,
+      "tasks": 27,
+      "variance_explained": {
+        "F1_comprehension": 0.33,
+        "F2_language_modeling": 0.31,
+        "F3_reasoning": 0.17,
+        "cumulative": 0.82
+      },
+      "pearson_r_with_log_size": {
+        "comprehension": "0.70 [0.46,0.85]",
+        "language_modeling": "0.49 [0.16,0.72]",
+        "reasoning": "0.51 [0.19,0.73]"
+      }
+    },
+    "models": "29 HELM LLMs (2022-era, e.g., GPT-3 variants, OPT, BLOOM, GLM, etc.)",
+    "supporting_quotes": [
+      "We found evidence that LLM capabilities are not monolithic.",
+      "a 3-factor solution is most appropriate",
+      "model size was more strongly correlated with comprehension than with either language modeling or reasoning"
+    ],
+    "social_or_spatial_tasks_included": "No ToM or spatial task. Closest: BBQ (bias, loads on reasoning F3), HellaSwag (commonsense, loads on comprehension F1).",
+    "directness": "indirect",
+    "relevance": "Shows co-movement across tasks is substantial and partly driven by size, but structured (>1 factor). Neither spatial nor social measured, so cannot answer the specific link.",
+    "verification": "Numbers read from arXiv HTML (Table 2, Table 3) via fetch; full task list in Fig. 1 not inspected."
+  },
+  {
+    "id": "ruan2024",
+    "title": "Observational Scaling Laws and the Predictability of Language Model Performance",
+    "authors": "Ruan, Maddison, Hashimoto",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2405.10938",
+    "topic": "capability structure / scaling",
+    "claim": "Benchmark performance of ~100 public LLMs lies in a low-dimensional capability space; PC1 is a general capability factor that is linear in log-compute within families, and predicts emergent and agentic abilities.",
+    "key_numbers": {
+      "PC1_variance": "~80%",
+      "PC1_3_variance": "~97%",
+      "PC1_vs_log_FLOPs_within_family": "R^2 > 0.9 (as summarized by fetch; not verified verbatim)",
+      "PCs": "PC1 general, PC2 reasoning (math/code), PC3 programming"
+    },
+    "models": "~77-100 public base LLMs (Llama, Qwen, Mistral, etc.) on MMLU, ARC-C, HellaSwag, Winogrande, TruthfulQA, GSM8K, XWinograd, HumanEval",
+    "supporting_quotes": [
+      "model performance is a function of a low-dimensional capability space, and model families only vary in their efficiency",
+      "the first PC alone explains nearly 80% of the variation in LM capabilities"
+    ],
+    "social_or_spatial_tasks_included": "No ToM/social or spatial benchmark among the base benchmarks.",
+    "directness": "indirect",
+    "relevance": "Strongest evidence that any two benchmark scores across models will co-move largely through a single general (compute-driven) factor; this is the null hypothesis a spatial-social correlation must beat.",
+    "verification": "Abstract quote verbatim; 80%/97% quoted from HTML via fetch; R^2>0.9 figure is the fetch tool's paraphrase."
+  },
+  {
+    "id": "ilic2023_2024",
+    "title": "Evidence of interrelated cognitive-like capabilities in large language models: Indications of artificial general intelligence or achievement?",
+    "authors": "Ilic; Ilic & Gignac",
+    "year": "2023 preprint / 2024 Intelligence 106:101858",
+    "url": "https://arxiv.org/abs/2310.11616",
+    "topic": "general factor (g) in LLMs",
+    "claim": "Open LLM Leaderboard scores show a positive manifold and a general factor; parameter count correlates moderately with g with diminishing returns.",
+    "key_numbers": {
+      "v1_preprint": {
+        "models": "1,232 Open LLM Leaderboard + 88 GLUE",
+        "g_variance_explained": "85%",
+        "r_size_g": "0.48 [0.44,0.52]"
+      },
+      "published_version": {
+        "models": 591,
+        "tests": 12,
+        "note": "g plus a Gkn/Grw group factor; size correlates with both"
+      }
+    },
+    "models": "Open LLM Leaderboard open-weight models (ARC, HellaSwag, TruthfulQA, MMLU subtests)",
+    "supporting_quotes": [
+      "accounts for 85% of the variance in model performance (v1)",
+      "moderate correlation of .48 between model size and g (v1)",
+      "found strong empirical evidence for a positive manifold and a general factor of ability (published abstract)",
+      "the number of LLM parameters correlated positively with both general factor of ability and Gkn/Grw factor scores"
+    ],
+    "social_or_spatial_tasks_included": "No.",
+    "directness": "indirect",
+    "relevance": "Direct support for 'general factor' explanation of co-movement; size explains only part (r~.48) of g.",
+    "verification": "85% and r=.48 are from v1 HTML (2310.11616v1); published 591-model version numbers for variance not verified."
+  },
+  {
+    "id": "haznitrama2026",
+    "title": "A Neuropsychologically Grounded Evaluation of LLM Cognitive Abilities (NeuroCognition)",
+    "authors": "Haznitrama, Ardi, Oh",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2603.02540",
+    "topic": "general factor (g) in LLMs, incl. spatial working memory",
+    "claim": "Factor analysis of 156 LLMs on 10 Artificial Analysis benchmarks yields one dominant factor; their NeuroCognition battery (Raven's, Spatial Working Memory, WCST) average correlates highly with general benchmark average.",
+    "key_numbers": {
+      "PA1_variance": "75%",
+      "loadings": "all > 0.76",
+      "NeuroCognition_avg_vs_11_benchmark_avg": "r=.86, p=.001, N=10",
+      "SWM_text_hard_vs_LongHotPotQA": "r=.43, p=.21, N=10 (n.s.)"
+    },
+    "models": "156 LLMs (Artificial Analysis leaderboard) for EFA; 10 models for NeuroCognition",
+    "supporting_quotes": [
+      "This factor (PA1) accounted for 75% of the total variance",
+      "all benchmarks had high loadings (λ>0.76)",
+      "high correlation between the average NeuroCognition score and the 11-benchmark average (r=.86,p=.001,N=10)"
+    ],
+    "social_or_spatial_tasks_included": "Spatial working memory (in NeuroCognition); no social/ToM.",
+    "directness": "indirect",
+    "relevance": "Recent frontier-model evidence of a strong g (75%); a spatial-ish cognitive test tracks general benchmarks at the aggregate level.",
+    "verification": "Benchmark list inferred by fetch tool from citations; numbers quoted from HTML."
+  },
+  {
+    "id": "kearns2026",
+    "title": "Quantifying construct validity in large language model evaluations",
+    "authors": "Kearns",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.15532",
+    "topic": "methodology: latent factors vs scale",
+    "claim": "Latent factors extracted from benchmark matrices often just proxy model size; proposes a structured capabilities model that conditions on scale.",
+    "key_numbers": {},
+    "models": "Open LLM Leaderboard sample",
+    "supporting_quotes": [
+      "Latent factor models ignore scaling laws, and as a result, the capabilities they extract often proxy model size."
+    ],
+    "directness": "indirect (methodological)",
+    "relevance": "Supports controlling for size/general factor before claiming a specific spatial-social link.",
+    "verification": "Abstract only."
+  },
+  {
+    "id": "kipnis_lowrank2025",
+    "title": "From Benchmarks to Skills: Low-Rank Factors for LLM Evaluation",
+    "year": "2025 (TACL 2026)",
+    "url": "https://arxiv.org/html/2507.20208",
+    "topic": "capability structure",
+    "claim": "60 models x 44 tasks reduce to 8 latent skill dimensions; a 'Social/Ethical Judgment' factor exists but loads on CivilComments/MMLU, not ToM.",
+    "key_numbers": {
+      "factors": 8,
+      "social_ethical_factor_loadings": {
+        "CivilComments": 0.38,
+        "MMLU": 0.33,
+        "BigBench": -0.35,
+        "DailyMail": -0.34
+      },
+      "General_NLU_loadings": {
+        "HellaSwag": 0.79,
+        "DailyDialog": 0.78
+      }
+    },
+    "models": "60 LLMs, 2B-27B open plus proprietary",
+    "supporting_quotes": [
+      "uncovered 8 latent dimensions"
+    ],
+    "social_or_spatial_tasks_included": "No ToM; no spatial.",
+    "directness": "tangential",
+    "relevance": "Shows multi-factor structure once many tasks are used; no evidence on spatial-social.",
+    "verification": "Authors/numbers from partial HTML fetch; first-factor variance not found."
+  },
+  {
+    "id": "zhang_redundancy2025",
+    "title": "Redundancy Principles for MLLMs Benchmarks",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2501.13953",
+    "topic": "MLLM benchmark correlation",
+    "claim": "Across >100 MLLMs (VLMEvalKit), MMBench capability dimensions are highly rank-correlated, especially among weaker models; Spatial Relationship is highly redundant with many dimensions, and Social Relation is strongly redundant with Image Emotion. Redundancy drops for stronger models.",
+    "key_numbers": {
+      "bottom50_dimension_pairs": "most SRCC and PLCC > 0.6",
+      "pairwise_spatial_vs_social": "only in heatmaps (Fig. 3/4), not in text"
+    },
+    "models": ">100 MLLMs from VLMEvalKit/OpenCompass; split Top-50/Bottom-50 by MMBench overall",
+    "supporting_quotes": [
+      "For example, the tasks Image Emotion and Social Relation display strong redundancy.",
+      "Conversely, high levels of redundancy are observed for Nature Relation and Spatial Relationship.",
+      "This phenomenon can primarily be attributed to the fact that Bottom-50 MLLMs generally underperform across all capabilities.",
+      "the dimensions appear to be more redundant for Bottom-50 MLLMs than for Top-50 MLLMs"
+    ],
+    "social_or_spatial_tasks_included": "Yes: MMBench 'Spatial Relationship' and 'Social Relation' (both image-level). Pairwise value not stated in text.",
+    "directness": "direct (closest existing correlation evidence)",
+    "relevance": "Only paper found whose correlation matrix contains both a spatial and a social dimension; its explanation is a general factor (weak models bad at everything), and the co-movement weakens among strong models.",
+    "verification": "Quotes verbatim from HTML; I could not read the heatmap value for Spatial Relationship x Social Relation."
+  },
+  {
+    "id": "tong_cambrian2024",
+    "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2406.16860",
+    "topic": "MLLM benchmark clustering",
+    "claim": "PCA over 23 MLLMs clusters benchmarks into General, Knowledge, Chart/OCR, Vision-Centric; many benchmarks mostly measure the LLM; vision-centric (incl. spatial: CV-Bench depth/relation/distance) form a separate cluster.",
+    "key_numbers": {
+      "vision_off_gap": "SQA-I, MMMU, MathVista, AI2D <5% gap vision on vs off",
+      "Cambrian_8B_13B_34B_vision_centric_avg": "65.0 / 62.2 / 68.5 (non-monotonic)",
+      "CV-Bench_3D": "72.0 / 71.8 / 79.7"
+    },
+    "models": "23 MLLMs; Cambrian-1 8B/13B/34B",
+    "supporting_quotes": [
+      "Most benchmarks do not properly measure vision-centric capabilities, and the ones that do have very few samples."
+    ],
+    "directness": "indirect",
+    "relevance": "Spatial/vision-centric ability is partly separable from the LLM-driven 'general/knowledge' cluster, and scaling LLM size gives non-monotonic spatial gains.",
+    "verification": "Numbers from Table 9 via fetch; non-monotonic reading is mine."
+  },
+  {
+    "id": "yang_vsibench2024",
+    "title": "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces (VSI-Bench)",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2412.14171",
+    "topic": "spatial benchmark scaling",
+    "claim": "Spatial reasoning is the main bottleneck; larger variants within a family score higher, but linguistic prompting (CoT, ToT) hurts spatial performance while helping general video QA.",
+    "key_numbers": {
+      "LLaVA-OneVision_0.5B/7B/72B": "28.0 / 32.4 / 40.2",
+      "LLaVA-Video_7B/72B": "35.6 / 40.9",
+      "InternVL2_8B_vs_40B": "37.5 vs 37.0",
+      "errors_due_to_spatial_reasoning": "~71% (Gemini-1.5 Pro)",
+      "CoT_effect": "~-4% avg"
+    },
+    "models": "15 MLLMs incl. GPT-4o, Gemini-1.5, LLaVA-OV, LLaVA-Video, InternVL2",
+    "supporting_quotes": [
+      "around 71% of errors are attributed to spatial reasoning",
+      "harmful for spatial reasoning (on linguistic prompting)"
+    ],
+    "directness": "indirect",
+    "relevance": "Spatial scales with size moderately but not uniformly; general/linguistic reasoning tools don't transfer to spatial, arguing against a single shared reasoning factor for spatial.",
+    "verification": "Numbers via HTML fetch."
+  },
+  {
+    "id": "easi2025",
+    "title": "Has GPT-5 Achieved Spatial Intelligence? An Empirical Study (EASI)",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2508.13142",
+    "topic": "holistic spatial eval",
+    "claim": "Across 8 spatial benchmarks, GPT-5 is strongest yet far below humans; spatial tasks are much harder than non-spatial subtasks; within-family size helps.",
+    "key_numbers": {
+      "EASI_avg_GPT-5_vs_human": "43.06 vs 86.41",
+      "Qwen2.5-VL_3B/7B/72B": "12.79 / 14.95 / 22.37",
+      "InternVL3_8B/78B": "20.14 / 26.11",
+      "GPT-5_nano/mini/full": "24.57 / 38.04 / 43.06"
+    },
+    "models": "GPT-5 family, Gemini, Claude, InternVL3, Qwen2.5-VL, etc.",
+    "supporting_quotes": [
+      "Spatial intelligence (SI) tasks pose significantly greater challenges than non-SI tasks."
+    ],
+    "directness": "indirect",
+    "relevance": "Spatial does improve with scale/generation, but the paper reports no correlation with general benchmarks and treats SI as a distinct skill.",
+    "verification": "Size numbers are fetch-tool reading of Table 6 (authors make no explicit scaling claim)."
+  },
+  {
+    "id": "site2025",
+    "title": "SITE: towards Spatial Intelligence Thorough Evaluation",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2505.05456",
+    "topic": "spatial benchmark correlation",
+    "claim": "SITE scores correlate with robotic manipulation (LIBERO-Spatial), but general benchmarks like MathVista correlate as well or better (n=4 models).",
+    "key_numbers": {
+      "r_SITE_LIBERO": 0.902,
+      "r_MathVista_LIBERO": 0.935,
+      "r_RealWorldQA_LIBERO": 0.842,
+      "r_OCRBench_LIBERO": 0.832,
+      "n_models": 4,
+      "LLaVA-OV_0.5B_vs_7B_CAA": "18.4 vs 30.2"
+    },
+    "models": "LLaVA-OneVision, Qwen2.5-VL, InternVL-2.5 variants",
+    "supporting_quotes": [
+      "have a positive Pearson Correlation Coefficient of 0.902"
+    ],
+    "directness": "indirect",
+    "relevance": "Illustrates that a general multimodal benchmark (MathVista) predicts downstream spatial behavior as well as a spatial benchmark: consistent with a general factor; n=4 so fragile.",
+    "verification": "Table 6 numbers via fetch."
+  },
+  {
+    "id": "spatialscore2025",
+    "title": "SpatialScore: Towards Unified Evaluation for Multimodal Spatial Understanding",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2505.17012",
+    "topic": "spatial benchmark scaling",
+    "claim": "Larger models generally better on spatial; authors attribute to stronger intrinsic reasoning, but gains saturate (Qwen2.5-VL 32B->72B +1.2).",
+    "key_numbers": {
+      "InternVL3_1B/8B/14B/38B/78B": "33.03 / 41.57 / 44.89 / 48.95 / 50.67",
+      "Qwen2.5-VL_3B/7B/32B/72B": "36.92 / 40.53 / 47.23 / 48.42"
+    },
+    "models": "InternVL2.5/3/3.5, Qwen2.5-VL, others",
+    "supporting_quotes": [
+      "Larger models generally exhibit stronger performance, as observed in both the InternVL",
+      "This trend suggests that stronger intrinsic reasoning ability can translate into improved spatial intelligence."
+    ],
+    "directness": "indirect",
+    "relevance": "Spatial scales roughly log-linearly with size within families; authors' interpretation invokes general reasoning.",
+    "verification": "Table 2 via fetch."
+  },
+  {
+    "id": "omnispatial2025",
+    "title": "OmniSpatial: Towards Comprehensive Spatial Reasoning Benchmark for Vision Language Models",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2506.03135",
+    "topic": "spatial benchmark scaling / perspective-taking",
+    "claim": "Size mostly helps (InternVL3 2B->78B: 37.98->49.33) but not always (Qwen2.5-VL 3B>7B); allocentric/hypothetical perspective-taking is near-flat across frontier models (~38-48 vs human ~90-94).",
+    "key_numbers": {
+      "InternVL3_2B/8B/14B/38B/78B": "37.98/41.60/45.94/48.48/49.33",
+      "Qwen2.5-VL_3B/7B/32B/72B": "40.30/39.18/47.36/47.85",
+      "allocentric_o3/GPT-4o/human": "48.40/39.49/94.30"
+    },
+    "models": "o3, GPT-4o, Gemini-2.5-Pro, InternVL3, Qwen2.5-VL, Gemma-3, LLaVA-OV",
+    "supporting_quotes": [
+      "especially with geometric reasoning and non-egocentric perspective taking"
+    ],
+    "directness": "indirect",
+    "relevance": "Perspective-taking (the putative spatial-social bridge) is the least scale-responsive spatial skill.",
+    "verification": "Table 2 via fetch."
+  },
+  {
+    "id": "psychometric_spatial2025",
+    "title": "Defining and Evaluating Visual Language Models' Basic Spatial Abilities: A Perspective from Psychometrics",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.11859",
+    "topic": "spatial scaling (negative)",
+    "claim": "On psychometric basic spatial abilities, smaller models often beat larger ones.",
+    "key_numbers": {
+      "models": 13,
+      "Qwen_lead": 30.82,
+      "InternVL2": 19.6
+    },
+    "supporting_quotes": [
+      "Smaller models such as Qwen2-VL-7B surpass larger counterparts, with Qwen leading (30.82) and InternVL2 lagging (19.6)."
+    ],
+    "directness": "indirect",
+    "relevance": "Counter-evidence to smooth spatial scaling.",
+    "verification": "Abstract verbatim."
+  },
+  {
+    "id": "lrrbench2025",
+    "title": "LRR-Bench: Left, Right or Rotate? Vision-Language models Still Struggle With Spatial Understanding Tasks",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2507.20174",
+    "topic": "spatial scaling (mixed)",
+    "claim": "Increasing model size, 3D-data fine-tuning and RL do not consistently improve spatial performance; Qwen2.5-VL 72B gains strongly on composite position tasks but 7B beats 72B on basic Position.",
+    "key_numbers": {
+      "Qwen2.5-VL_3B/7B/72B_PosC": "0/3/47",
+      "PosS": "2/18/72",
+      "Pos": "74/93/89"
+    },
+    "supporting_quotes": [
+      "increasing model size, fine-tuning on specific 3D datasets and incorporating reinforcement learning (do not consistently enhance performance)"
+    ],
+    "directness": "indirect",
+    "relevance": "Spatial scaling is task-dependent and non-monotonic.",
+    "verification": "Conclusion clause verbatim; parenthetical is paraphrase."
+  },
+  {
+    "id": "mulset2025",
+    "title": "Why Do MLLMs Struggle with Spatial Understanding? A Systematic Analysis from Data to Architecture",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.02359",
+    "topic": "spatial: source of ability",
+    "claim": "Spatial performance saturates quickly with data and depends on the vision encoder's positional encoding more than the LLM.",
+    "supporting_quotes": [
+      "the performance of spatial understanding converges quickly as the training data increases",
+      "spatial understanding relies more heavily on the positional encoding within the visual encoder ... than within the language model"
+    ],
+    "key_numbers": {},
+    "directness": "indirect",
+    "relevance": "If spatial is bottlenecked by the vision encoder while social/ToM is LLM-driven, spatial and social should not share a specific mechanism; co-movement would come via LLM-general factor only.",
+    "verification": "Abstract verbatim (two fragments joined)."
+  },
+  {
+    "id": "scaling_beyond2025",
+    "title": "Scaling and Beyond: Advancing Spatial Reasoning in MLLMs Requires New Recipes",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.15037",
+    "topic": "position paper",
+    "claim": "Spatial reasoning will not emerge from scaling alone.",
+    "supporting_quotes": [
+      "spatial reasoning capabilities will not naturally emerge from merely scaling existing architectures"
+    ],
+    "key_numbers": {},
+    "directness": "tangential",
+    "relevance": "Opinion, no data.",
+    "verification": "Abstract verbatim."
+  },
+  {
+    "id": "vst2025",
+    "title": "Visual Spatial Tuning (VST)",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2511.05491v1",
+    "topic": "spatial fine-tuning and forgetting",
+    "claim": "Authors state prior spatial add-ons usually harm general capabilities; their own spatial SFT/RL largely preserves MMBench/OCRBench but MMMU drops notably at 7B.",
+    "key_numbers": {
+      "Qwen2.5-VL-7B_MMMU_base/SFT/RL": "58.6 / 50.6 / 49.4",
+      "Qwen2.5-VL-3B_MMMU_base/SFT/RL": "47.9 / 45.2 / 49.8",
+      "MMBench_7B": "83.5 / 83.3 / 83.0"
+    },
+    "supporting_quotes": [
+      "which brings extra overhead and usually harms general capabilities"
+    ],
+    "directness": "indirect",
+    "relevance": "Spatial gains can come at the cost of knowledge/reasoning (MMMU -8 to -9 pts at 7B): spatial specialization does not ride a shared general factor upward.",
+    "verification": "Table 2 numbers via fetch; the MMMU-drop interpretation is mine, not the authors'."
+  },
+  {
+    "id": "kosinski2023",
+    "title": "Evaluating Large Language Models in Theory of Mind Tasks",
+    "authors": "Kosinski",
+    "year": "2023 preprint / 2024 PNAS",
+    "url": "https://arxiv.org/abs/2302.02083",
+    "topic": "ToM scaling (emergence claim)",
+    "claim": "False-belief performance rises across successive GPT generations: older/smaller models solve none, GPT-3 davinci-003 and GPT-3.5 20%, GPT-4 75%.",
+    "key_numbers": {
+      "older_smaller": "0%",
+      "davinci-003": "20%",
+      "GPT-3.5-turbo": "20%",
+      "GPT-4_June2023": "75%"
+    },
+    "models": "11 LLMs incl. GPT-1..GPT-4, BLOOM",
+    "supporting_quotes": [
+      "Smaller and older models solved no tasks",
+      "may have spontaneously emerged as a byproduct of LLMs' improving language skills"
+    ],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "Most-cited 'ToM scales with capability' result; confounds size, data, RLHF across GPT generations; contested (Ullman 2023, Shapira 2023).",
+    "verification": "Abstract via fetch."
+  },
+  {
+    "id": "sap2022",
+    "title": "Neural Theory-of-Mind? On the Limits of Social Intelligence in Large LMs",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2210.13312",
+    "topic": "ToM/social scaling (skeptical)",
+    "claim": "GPT-3 well below human on SocialIQa and ToMi; scale alone is argued insufficient.",
+    "key_numbers": {
+      "GPT-3_SocialIQa": "55%",
+      "GPT-3_ToMi": "60%"
+    },
+    "supporting_quotes": [
+      "well-below-human accuracies of 55% and 60% on SocialIQa and ToMi, respectively",
+      "Challenging the prevalent narrative that only scale is needed"
+    ],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "Classic counterpoint: social reasoning gains with scale are weak.",
+    "verification": "Abstract verbatim."
+  },
+  {
+    "id": "llama1_siqa",
+    "title": "LLaMA: Open and Efficient Foundation Language Models (Table 3)",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2302.13971",
+    "topic": "social commonsense scaling data point",
+    "claim": "Social IQa barely moves with scale compared with HellaSwag/WinoGrande.",
+    "key_numbers": {
+      "SIQA_7B/13B/33B/65B": "48.9 / 50.4 / 50.4 / 52.3",
+      "HellaSwag": "76.1 / 79.2 / 82.8 / 84.2",
+      "WinoGrande": "70.1 / 73.0 / 76.0 / 77.0",
+      "Gopher280B_SIQA": 50.6,
+      "Chinchilla70B_SIQA": 51.3
+    },
+    "models": "LLaMA-1, Gopher, Chinchilla",
+    "supporting_quotes": [
+      "Most notably, on SIQA, we observe a lot of variance in performance, that may indicate that this benchmark is not reliable. (re: training dynamics)"
+    ],
+    "directness": "indirect",
+    "relevance": "Zero-shot social commonsense was nearly flat (+3.4 pts over ~9x params) in base models; social reasoning did not scale smoothly in pre-RLHF models.",
+    "verification": "Table 3 values via HTML fetch."
+  },
+  {
+    "id": "fantom2023",
+    "title": "FANToM: A Benchmark for Stress-testing Machine Theory of Mind in Interactions",
+    "year": 2023,
+    "url": "https://arxiv.org/html/2310.15421",
+    "topic": "ToM scaling",
+    "claim": "Near-zero All* scores regardless of size; GPT-4 far below humans; CoT helps little.",
+    "key_numbers": {
+      "human_All*": 87.5,
+      "GPT-4-0613_All*": 8.2,
+      "GPT-4+CoT": 18.4,
+      "FlanT5-XL_vs_XXL": "0.0 vs 0.1",
+      "Falcon_7B_vs_40B": "0.0 vs 0.0",
+      "Llama-2-70B-chat": 0.0
+    },
+    "supporting_quotes": [
+      "score significantly lower than humans",
+      "does not substantially bridge the gap with human performance (re CoT)"
+    ],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "No size trend on robust (consistency-requiring) ToM.",
+    "verification": "Table numbers via fetch."
+  },
+  {
+    "id": "tombench2024",
+    "title": "ToMBench: Benchmarking Theory of Mind in Large Language Models",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2402.15052",
+    "topic": "ToM scaling",
+    "claim": "Parameter count does not predict ToM: Mistral-7B > Llama2-13B; Mixtral-8x7B not > Mistral-7B; GPT-4 ~10 pts below humans.",
+    "key_numbers": {
+      "human": "85.4%",
+      "GPT-4-1106": "75.3%"
+    },
+    "supporting_quotes": [
+      "contrasts to its task-solving performance and also underscores the unique nature of ToM evaluation (re Mixtral)"
+    ],
+    "directness": "direct (ToM vs general capability)",
+    "relevance": "Explicitly notes ToM rank order diverges from general task-solving rank order for Mixtral: evidence against a pure g account.",
+    "verification": "Numbers via fetch."
+  },
+  {
+    "id": "opentom2024",
+    "title": "OpenToM: A Comprehensive Benchmark for Evaluating Theory-of-Mind Reasoning Capabilities of LLMs",
+    "year": 2024,
+    "url": "https://arxiv.org/html/2402.06044",
+    "topic": "ToM scaling; physical (location) vs psychological states",
+    "claim": "Within Llama-2 7B->70B some ToM question types improve, others decline (2nd-order coarse location 0.462->0.280); all models poor on psychological attitudes.",
+    "key_numbers": {
+      "Llama2_7B/13B/70B_Att": "0.240/0.375/0.415",
+      "GPT-4_Att": 0.544,
+      "human_Att": 0.862,
+      "Llama2_Loc_coarse_2nd": "0.462/0.355/0.280",
+      "GPT-4_Loc_coarse_1st": 0.643
+    },
+    "supporting_quotes": [
+      "all LLMs performed poorly on Att questions"
+    ],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "ToM scaling is non-monotonic and question-type dependent.",
+    "verification": "Table 2 via fetch."
+  },
+  {
+    "id": "hitom2023",
+    "title": "Hi-ToM: A Benchmark for Evaluating Higher-Order Theory of Mind Reasoning in LLMs",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2310.16755",
+    "topic": "ToM order",
+    "claim": "Performance declines with higher-order ToM.",
+    "key_numbers": {},
+    "supporting_quotes": [
+      "indicates a decline in performance on higher-order ToM tasks, demonstrating the limitations of current LLMs"
+    ],
+    "directness": "tangential",
+    "relevance": "Recursion depth, not scale.",
+    "verification": "Abstract verbatim."
+  },
+  {
+    "id": "street2024",
+    "title": "LLMs achieve adult human performance on higher-order theory of mind tasks (MoToMQA)",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.18870",
+    "topic": "ToM scaling",
+    "claim": "GPT-4 and Flan-PaLM reach (near) adult-level; interplay of size and fine-tuning.",
+    "key_numbers": {},
+    "supporting_quotes": [
+      "there is an interplay between model size and finetuning for the realisation of ToM abilities",
+      "GPT-4 and Flan-PaLM reach adult-level and near adult-level performance on ToM tasks overall"
+    ],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "ToM gains depend on size x post-training, not size alone.",
+    "verification": "Abstract; no numbers extracted."
+  },
+  {
+    "id": "kouwenhoven2026",
+    "title": "Traces of Social Competence in Large Language Models",
+    "authors": "Kouwenhoven, van der Meer, van Duijn",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2603.04161",
+    "topic": "ToM scaling",
+    "claim": "Across 17 open-weight models, size benefits false-belief performance, but not strictly.",
+    "key_numbers": {
+      "models": 17,
+      "items": "192 FBT variants",
+      "method": "Bayesian logistic regression"
+    },
+    "supporting_quotes": [
+      "scaling model size benefits performance, but not strictly"
+    ],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "Recent controlled evidence of positive but non-monotonic ToM scaling.",
+    "verification": "Abstract only; the true-belief harm claim from a search snippet was NOT verified in the abstract."
+  },
+  {
+    "id": "riviere2026",
+    "title": "Developmental Trajectories of Situation Modeling and Mentalizing in Transformer Language Models",
+    "authors": "Riviere, Jones, Trott",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.28524",
+    "topic": "ToM scaling over size and training (Pythia/OLMo-2)",
+    "claim": "Above-chance false-belief performance requires both size and training volume, emerges late, and is most improved by post-training.",
+    "key_numbers": {},
+    "supporting_quotes": [
+      "above-chance FBT performance depends both on model size and sufficient training volume"
+    ],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "Best controlled checkpoint-level evidence; ToM not smooth, late-emerging.",
+    "verification": "Abstract only."
+  },
+  {
+    "id": "mindgames2023",
+    "title": "MindGames: Targeting Theory of Mind in LLMs with Dynamic Epistemic Modal Logic",
+    "authors": "Sileo & Lernould",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2305.03353",
+    "topic": "ToM scaling",
+    "claim": "Pythia 70M-6.9B and GPT-3 scaling do not consistently beat chance on epistemic logic; GPT-4 better.",
+    "key_numbers": {},
+    "supporting_quotes": [],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "Negative scaling evidence for formal ToM.",
+    "verification": "Claim from search-result summary only; NOT verified against paper text."
+  },
+  {
+    "id": "tom_rl2025",
+    "title": "Do Theory of Mind Benchmarks Need Explicit Human-like Reasoning in Language Models?",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.01698",
+    "topic": "ToM training x scale",
+    "claim": "RL on ToM yields good belief-tracking reasoning at 7B but 'reasoning collapse' at <=3B; SFT competitive; benchmarks may be shortcut-solvable.",
+    "key_numbers": {
+      "sizes": "0.5B-7B"
+    },
+    "supporting_quotes": [
+      "fosters high-quality, interpretable, and transferable belief-tracking reasoning"
+    ],
+    "directness": "indirect",
+    "relevance": "ToM gains are scale-dependent and benchmark-shortcut prone.",
+    "verification": "Abstract."
+  },
+  {
+    "id": "egonormia2025",
+    "title": "EgoNormia: Benchmarking Physical Social Norm Understanding",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2502.20490",
+    "topic": "social norms in video; failure modes",
+    "claim": "VLM failures on egocentric norm questions are mostly normative reasoning, not perception; the authors ASSUME (do not test) that normative reasoning scales with general reasoning.",
+    "key_numbers": {
+      "normative_reasoning_errors": ">70%",
+      "perception_errors": "<25%",
+      "best_model_Gemini-2.5-Pro": "53.9% (full), 64.7% (verified)",
+      "human": "92.4%",
+      "open_vs_closed_gap": "12.2 pts",
+      "NormThinker_GPT-4o_Both": "39.8 -> 49.2"
+    },
+    "supporting_quotes": [
+      "gaps in normative reasoning (>70% of errors), rather than perception (<25% of errors)",
+      "We assume that normative reasoning scales strongly with general reasoning capability"
+    ],
+    "directness": "direct (for our target benchmark)",
+    "relevance": "Perception (incl. spatial/visual grounding) is not the main bottleneck for social-norm failures, which argues against spatial ability being the limiting factor for social performance.",
+    "verification": "Quotes verbatim from HTML."
+  },
+  {
+    "id": "flipset2026",
+    "title": "Egocentric Bias in Vision-Language Models (FlipSet)",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2602.15892",
+    "topic": "spatial x social (perspective taking) integration",
+    "claim": "103 VLMs mostly below chance on Level-2 visual perspective taking; they pass ToM and mental-rotation controls separately but fail when both must be integrated.",
+    "key_numbers": {
+      "models": 103,
+      "errors_reproducing_camera_view": "~75%"
+    },
+    "supporting_quotes": [
+      "the vast majority perform below chance",
+      "fail catastrophically when integration is required"
+    ],
+    "directness": "direct (spatial-social interface)",
+    "relevance": "Most direct evidence that spatial and social competences are separable in VLMs: having both does not yield their composition.",
+    "verification": "Abstract via fetch."
+  },
+  {
+    "id": "cogtom2026",
+    "title": "CogToM: A Comprehensive Theory of Mind Benchmark inspired by Human Cognition for LLMs",
+    "year": 2026,
+    "url": "https://arxiv.org/html/2601.15628",
+    "topic": "ToM scaling; perception-based ToM",
+    "claim": "Within family/release, larger models are more accurate; the Percept (visual perspective) category is the bottleneck (~20% median).",
+    "key_numbers": {
+      "models": 22,
+      "Percept_median": "~20%",
+      "early_models": "45-55%",
+      "frontier_late2025": ">80%"
+    },
+    "supporting_quotes": [
+      "within the same model family and release window, larger parameter counts directly correlate with higher accuracy",
+      "median accuracy of only approximately 20%"
+    ],
+    "directness": "direct (ToM vs scale)",
+    "relevance": "ToM scales within family; spatial-perspective ToM lags far behind other ToM.",
+    "verification": "HTML via fetch; no per-pair numbers."
+  },
+  {
+    "id": "triangulating2025",
+    "title": "Triangulating LLM Progress through Benchmarks, Games, and Cognitive Tests",
+    "year": 2025,
+    "url": "https://arxiv.org/html/2502.14359v4",
+    "topic": "correlation of social/ToM tests with general benchmarks",
+    "claim": "Across 9 open-weight models, cognitive tests correlate with benchmarks/games; ToM (SimpleToM) correlates better with interactive games than static benchmarks (MMLU/BBH).",
+    "key_numbers": {
+      "correlation": "Kendall tau-b; values only in Fig. 3",
+      "ToM_scores": "Qwen2.5-72B 0.954, Llama-3.1-8B 0.950, Phi-4-mini 0.471"
+    },
+    "models": "Phi-4-mini, OLMo-2 7B/13B, Falcon3-10B, Qwen2.5 7B/32B/72B, Llama-3.1-8B, Llama-3.3-70B",
+    "supporting_quotes": [
+      "Among the social skills, pragmatics appears to be relevant for both static and interactive tests, while ToM correlates better with the latter."
+    ],
+    "social_or_spatial_tasks_included": "ToM, SocialIQa, EQ-Bench, pragmatics; no spatial.",
+    "directness": "indirect",
+    "relevance": "ToM is not simply a static-benchmark (g) proxy; note Llama-3.1-8B ~ Qwen-72B on SimpleToM (ceiling).",
+    "verification": "Quote verbatim; tau values not readable."
+  },
+  {
+    "id": "mmtomqa2024",
+    "title": "MMToM-QA: Multimodal Theory of Mind Question Answering",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2401.08743",
+    "topic": "multimodal ToM with spatial navigation",
+    "claim": "LLMs and LMMs lack robust ToM on video+text household scenarios.",
+    "key_numbers": {},
+    "supporting_quotes": [
+      "large language models and large multimodal models still lack robust ToM capacity"
+    ],
+    "directness": "tangential",
+    "relevance": "Combines spatial navigation and belief inference but reports no correlation/scaling analysis.",
+    "verification": "Abstract."
+  },
+  {
+    "id": "schaeffer2023",
+    "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2304.15004",
+    "topic": "scaling methodology",
+    "claim": "Apparent emergence is an artifact of nonlinear metrics; continuous metrics show smooth change.",
+    "key_numbers": {},
+    "supporting_quotes": [
+      "emergent abilities appear due to the researcher's choice of metric"
+    ],
+    "directness": "tangential",
+    "relevance": "Relevant to interpreting Kosinski-style 'ToM emerges' step curves.",
+    "verification": "Abstract via fetch (quote is fetch-tool paraphrase-level; check before citing verbatim)."
+  },
+  {
+    "id": "strachan2024",
+    "title": "Testing theory of mind in large language models and humans",
+    "authors": "Strachan et al.",
+    "year": 2024,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11272575/",
+    "topic": "ToM across models",
+    "claim": "GPT-4 at/above human on most ToM tests but fails faux pas (hyperconservatism); LLaMA2-70B below humans except an illusory faux-pas edge.",
+    "key_numbers": {
+      "humans": 1907
+    },
+    "supporting_quotes": [],
+    "directness": "indirect",
+    "relevance": "ToM profile differs across tests, not a single scale-driven trait.",
+    "verification": "From search summaries only; NOT read in full."
+  },
+  {
+    "id": "tian2021_human",
+    "title": "Spatial ability and theory of mind: A mediating role of visual perspective taking (Child Development 92(4):1590-1604)",
+    "authors": "Tian, Luo, Ding, Wang, Cheung",
+    "year": 2021,
+    "url": "https://repository.eduhk.hk/en/publications/spatial-ability-and-theory-of-mind-a-mediating-role-of-visual-per/",
+    "topic": "human spatial->ToM link",
+    "claim": "In 3.5-4-year-olds, spatial ability relates to ToM via visual perspective taking (correlational n=70; block-building training n=46 improved VPT and ToM).",
+    "key_numbers": {
+      "study1_n": 70,
+      "study2_n": 46
+    },
+    "supporting_quotes": [
+      "Study 1 demonstrated such mediation correlationally in seventy 3.5-to 4-year olds."
+    ],
+    "directness": "tangential (humans)",
+    "relevance": "Human motivation for a spatial->social link, specifically via perspective taking; no LLM analogue found.",
+    "verification": "Abstract page only; no effect sizes."
+  }
+]

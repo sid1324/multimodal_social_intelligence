@@ -1,0 +1,18 @@
+{
+ "id": "1eee4aaf-a21c-4ae5-82cd-96fdccae6742_917-84",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor hair-washing corner with a white shampoo basin directly in front of and below the standing camera wearer at about 0.5 to 0.7 metres distance, a white textured wall with a mounted rectangular dispenser about 0.8 to 1.2 metres to the front-right, and a brown wooden door about 1.5 to 2.0 metres ahead to the front-left. A seated person in a dark cape reclines in a chair to the left of the basin with their head resting backward inside the basin's neck cutout, about 0.6 to 0.9 metres below and in front of the camera wearer, while a small red object sits on the floor between the basin and the wall about 1.3 metres away. The reclined person's torso and clasped hands extend toward the bottom-left and their blurred, masked face points upward toward the ceiling and slightly toward the camera wearer. The basin, its faucet and dark sprayer on the right rim, the reclined person's head, and a small silver foil packet are all within arm's reach of the camera wearer, whose transparent-gloved hands hold and squeeze the packet directly over the basin's center about 0.4 metres from the camera. Across the five frames, the camera wearer's viewpoint turns counterclockwise (leftward) and tilts slightly further downward: in the first frame the textured wall fills most of the view and the reclined person's body and the wooden door are largely out of view on the left, whereas from the second through fifth frames the door, the red floor object, and the person's reclined upper body and hands become progressively more visible. Throughout the sequence, the camera wearer's arms remain partially cropped by the bottom edge of the frame, and the camera wearer's left hand moves from open near the person's head in the first frame, to squeezing the foil packet with the right hand in the middle frames, and back toward the person's hair in the fifth frame while the right hand holds the packet to the right."
+ },
+ "duration_seconds": 13.1754,
+ "usage": {
+  "input_tokens": 5349,
+  "output_tokens": 510,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 28418,
+  "total_tokens": 5859
+ },
+ "conversation_id": "67015d07-1ada-4781-b5be-356014da5e4f"
+}

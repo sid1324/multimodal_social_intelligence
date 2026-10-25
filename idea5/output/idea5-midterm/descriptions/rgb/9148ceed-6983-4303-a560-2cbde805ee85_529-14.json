@@ -1,0 +1,18 @@
+{
+ "id": "9148ceed-6983-4303-a560-2cbde805ee85_529-14",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is positioned high up on an elevated platform with a red railing (partly visible at the bottom right within 0.5 to 1 metre) beside a right-hand wall in a large industrial warehouse whose concrete floor lies roughly 8 to 12 metres below. In the first frame, the wearer faces the wall where an electrical junction box, yellow and white cables, and a wire mesh cable tray are all within arm's reach at 0.3 to 0.5 metres in front, with the wearer's right hand holding the wires at the upper right. Across frames 2 to 5, the camera turns left and tilts steeply downward toward the warehouse floor while the wearer's raised left arm (0.2 to 0.4 metres from the lens) sweeps across the foreground, heavily occluding the left and upper-right field of view in frames 2 and 3 and the center-right in frame 4 before lowering to leave only a pointing hand at the bottom-left edge in frame 5. On the floor about 9 to 10 metres below the camera wearer, a single person stands in the open space facing and looking upward toward the camera wearer, with nothing within their immediate arm's reach. Relative to this standing person, stacked white boxes are partly visible at the bottom left about 2 to 3 metres away, a blue-and-yellow palletized load sits 3 to 4 metres to their upper left, and a red-and-white machine, wooden pallets, and a far doorway are positioned further back along the hall about 6 to 12 metres behind them (roughly 12 to 20 metres from the camera wearer)."
+ },
+ "duration_seconds": 20.387187,
+ "usage": {
+  "input_tokens": 19563,
+  "output_tokens": 1091,
+  "thinking_tokens": 663,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20654
+ },
+ "conversation_id": "5f3e2b47-6832-4ae3-b4c2-45afff044940"
+}

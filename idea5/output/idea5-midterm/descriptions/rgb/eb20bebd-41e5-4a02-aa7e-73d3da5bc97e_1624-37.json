@@ -1,0 +1,18 @@
+{
+ "id": "eb20bebd-41e5-4a02-aa7e-73d3da5bc97e_1624-37",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor salon with a light tiled floor and a raised two-step platform on the right, where the camera wearer sits facing a client seated about 0.6 to 0.8 metres directly in front in a blue chair with a narrow white manicure tray bridged across the armrests. On the tray within arm's reach of both the camera wearer and the seated client are a white towel, blue-handled scissors, a nail file, a plastic storage box with a gold-and-white roll on the right, small jars and a spray bottle on the left, and the client's right hand resting forward toward the camera wearer's hands, which hold a small gold nail form about 0.3 to 0.4 metres in front of the camera. A second person in a black jacket and red shirt sits immediately to the right of the tray, about 1.0 to 1.2 metres from the camera wearer and 0.5 metres from the manicure client, facing and looking toward the camera wearer in frame 2 with their upper head cropped out in frames 1 and 3, while a third standing person in dark clothing is partially visible behind the tray and a fourth person stands on the raised steps about 2.5 to 3.0 metres away to the back right in frame 2, alongside an empty blue salon chair against the back wall about 2.5 metres away. In frames 1, 4, and 5, the camera looks down at the tray, cropping out the seated client's head above the chest and occluding the lower legs behind the tray, while the person in the red shirt is mostly out of view on the right edge in frames 4 and 5 as they stand or shift slightly rightward. Across the five frames, the camera wearer's head pans rightward and tilts up in frame 2 to reveal the broader room, the second seated person, and the steps, then pans back leftward in frame 3 and tilts down in frames 4 and 5 as the camera wearer brings both hands together within 0.4 metres to position the gold nail form onto the client's extended right index finger."
+ },
+ "duration_seconds": 14.994508,
+ "usage": {
+  "input_tokens": 19573,
+  "output_tokens": 567,
+  "thinking_tokens": 47,
+  "cache_read_tokens": 14201,
+  "total_tokens": 20140
+ },
+ "conversation_id": "729122ab-6148-46fb-8d99-430fafbe8f4a"
+}

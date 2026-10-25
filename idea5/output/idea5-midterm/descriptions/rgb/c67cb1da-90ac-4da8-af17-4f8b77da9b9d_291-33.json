@@ -1,0 +1,18 @@
+{
+ "id": "c67cb1da-90ac-4da8-af17-4f8b77da9b9d_291-33",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a retail store checkout area featuring an L-shaped wooden counter in the foreground (0.3 to 1.0 metres in front of the camera wearer), a secondary counter partition 2.5 to 4.0 metres behind it, and stocked shelving units 5 to 10 metres away in the background. A person in a blue shirt stands behind the foreground counter about 0.8 to 1.2 metres in front of and slightly left of the camera wearer, with their lower body below the waist occluded by the counter. On the right section of the counter, arranged 0.2 to 0.5 metres from each other and within arm's reach (0.4 to 1.0 metres) of both the person and the camera wearer, are a keyboard, a barcode scanner, a receipt printer, a tilted monitor, a telephone below an elevated sign board, and flyers on the far right that are partially out of view. Between frames 1 and 2, the camera wearer turns rightward, shifting the display racks on the far left of the counter out of view while bringing the printer, monitor, and signage on the right into fuller view, where the camera pose remains mostly steady through frame 5. In frames 1 through 3, the person in blue faces rightward toward the monitor with their head tilted down toward the keyboard and both hands within reach on the keys, not looking at the camera wearer. Across frames 4 and 5, the person rotates their head and upper body leftward toward the camera wearer while looking downward at the counter surface rather than directly at the camera wearer's face, moving their right hand onto the counter edge within the camera wearer's reach and dropping their left hand away from the keyboard."
+ },
+ "duration_seconds": 28.173432,
+ "usage": {
+  "input_tokens": 19627,
+  "output_tokens": 1271,
+  "thinking_tokens": 835,
+  "cache_read_tokens": 14210,
+  "total_tokens": 20898
+ },
+ "conversation_id": "a6c19e79-d6d1-494d-a0fd-86530b302bf5"
+}

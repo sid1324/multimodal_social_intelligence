@@ -1,0 +1,18 @@
+{
+ "id": "0f82d425-f8be-4e69-8c59-0a1a2e980b20_295-56",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "In the first frame, the camera wearer looks down into an open white refrigerator about 0.4\u20130.6 m in front of them, with the door swing on the left holding bottles and jars while the wearer's right hand reaches within arm's reach (about 0.4 m away) to hold a small jar above the wooden floor. Across frames 2 and 3, the wearer turns right toward an adjacent kitchen counter and white stove roughly 0.5\u20131.2 m away, placing the small jar on the counter within arm's reach beside a milk jug on the left and a red-lid jar behind it (all within 0.2 m of one another), beneath an upper shelf holding a black microwave that is partly cropped at the top-left. Immediately to the right of the counter sits the stove with a green kettle on its rear-left burner about 1.0 m away, while a bright window and a floor crate are visible further ahead at roughly 3.5\u20134.5 m. In frames 4 and 5, the camera wearer continues turning right and tilts upward, moving the stove out of view on the left and revealing an adjoining dining area and a woman in a red shirt standing about 1.5\u20132.0 m away to the front-right beneath wooden upper cabinets. The woman\u2019s torso is angled toward the right counter where small bowls and utensils sit within her arm's reach (partially cut off by the bottom-right frame edge), while her head is turned to her left to face and look directly toward the camera wearer. Behind the woman to the left, about 2.0\u20133.0 m away from her and 3.5\u20134.5 m from the camera wearer, a dining table with chairs and a wide window occupy the background."
+ },
+ "duration_seconds": 25.303136,
+ "usage": {
+  "input_tokens": 19583,
+  "output_tokens": 1176,
+  "thinking_tokens": 724,
+  "cache_read_tokens": 14211,
+  "total_tokens": 20759
+ },
+ "conversation_id": "1e6e1145-2944-4b36-9639-5c505005c1b9"
+}

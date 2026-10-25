@@ -1,0 +1,12 @@
+{
+ "id": "39af7641-e376-4a99-977f-4d7f746e14ba_79-79",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is in a bright indoor room or corridor beside a dark door and wall on the left, with glass partitions, light-colored walls, and open space extending ahead and to the right. In the first frame, the door and its handle are within about 0.5\u20131 m on the left, while no person is clearly visible nearby. In the second frame, a woman faces and looks toward the camera from roughly 1\u20131.5 m ahead-right, with a man about 2\u20133 m behind her near the center-left; the two people are approximately 1\u20132 m apart. Across the third and fourth frames, the woman approaches to within about 0.3\u20130.7 m, remaining front-facing with both arms extended laterally, while a partly occluded person moves behind her from left toward right at roughly 2\u20133 m from the camera. By the fifth frame, the woman is extremely close and within arm's reach, occupying most of the right and central view with her head partly cropped by the top edge and one arm extending out of frame, while the background people and much of the room are occluded."
+ },
+ "duration_seconds": 14.8,
+ "usage": null,
+ "conversation_id": null
+}

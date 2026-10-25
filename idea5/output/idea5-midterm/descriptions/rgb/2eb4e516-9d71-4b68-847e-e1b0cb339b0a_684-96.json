@@ -1,0 +1,12 @@
+{
+ "id": "2eb4e516-9d71-4b68-847e-e1b0cb339b0a_684-96",
+ "kind": "rgb",
+ "model": "gpt-5.6-sol",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The camera wearer is inside a bright room beside a long wall of windows, with a corridor or open room extending behind the man on the left and furniture, plants, and a table lamp along the window side on the right. A bearded man wearing dark glasses stands in front of the camera wearer, moving from about 2.5-3 m away at the left of frame 1 to roughly 0.7-1 m away near the center/right by frame 5; he generally faces and appears to look toward the camera while holding a turquoise cup near chest or waist height. A second person is only partly visible as light-colored hair and the top/back of a head in the lower foreground, within roughly 0.2-0.5 m of the camera, shifting from lower center-right in frames 1-2 to the lower right in frames 3-4 before nearly leaving view in frame 5. The man and the foreground person are approximately 1-2 m apart in the early frames and under about 1 m apart in the middle frames, although the foreground head partly occludes the man's lower body and nearby objects. The lamp and small clock sit about 1-2 m to the camera's right and behind the man, while the windows remain behind and to his right; as the sequence progresses, the camera turns or moves rightward and closer, making the man grow larger and pushing him toward the right edge, where his body becomes partly cropped in frame 5."
+ },
+ "duration_seconds": 10.3,
+ "usage": null,
+ "conversation_id": null
+}

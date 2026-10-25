@@ -1,0 +1,18 @@
+{
+ "id": "ee1eea29-aaad-41a4-b299-c72ed26c9da5_801-68",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor paved road or cycle path at twilight that curves gently to the right, bordered by low hedges, trees, and tall lit streetlamps on the left and a sloped embankment on the right below an open sky. A single cyclist on a bicycle is positioned to the front-right of the camera wearer at roughly 1.5 to 2.5 metres in the first two frames, where the cyclist's body and rear of the bicycle are partly out of view beyond the right and bottom frame edges. The cyclist faces forward along the path away from the camera wearer and never looks back, holding the bicycle handlebars within arm's reach while nothing visible in the scene is within arm's reach of the camera wearer. Across the five frames, the cyclist moves faster than the camera wearer, pulling ahead from the right edge into full view by the third frame (at roughly 3 to 4 metres) and retreating to about 6 to 8 metres in the fourth frame and 10 to 12 metres nearly straight ahead in the fifth frame. Over the same progression, as the camera wearer travels forward along the right-hand curve, a lit streetlamp on the left side of the road approaches from roughly 20 to 25 metres ahead in the first frame to about 6 to 8 metres to the front-left in the final frame, while another streetlamp remains further ahead at roughly 20 to 30 metres near the cyclist."
+ },
+ "duration_seconds": 17.22279,
+ "usage": {
+  "input_tokens": 19517,
+  "output_tokens": 925,
+  "thinking_tokens": 551,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20442
+ },
+ "conversation_id": "14cc3c31-49bf-4177-bf05-654174f0fb91"
+}

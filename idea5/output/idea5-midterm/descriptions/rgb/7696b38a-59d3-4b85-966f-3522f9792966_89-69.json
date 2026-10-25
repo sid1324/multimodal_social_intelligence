@@ -1,0 +1,18 @@
+{
+ "id": "7696b38a-59d3-4b85-966f-3522f9792966_89-69",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor grassy lawn viewed from a high, downward-angled head-mounted camera, showing the camera wearer's nose, beard, grey long-sleeved shirt, tan trousers, and brown shoes at the bottom of all five frames. In the first frame, the camera wearer stands with both arms lowered near their sides, about 1 metre behind a small dark object or hole on the grass in front of them, with the corner of a dark structure visible about 2.5 to 3 metres away at the upper left. Across the second and third frames, the camera wearer steps forward and turns counter-clockwise to the left while raising their left arm straight out in front of them to roughly 0.5 metres from the lens, and a second person's feet enter the top center of the third frame about 2.5 to 3 metres ahead. By the fourth frame, the camera wearer has rotated further left to face this second person\u2014who stands about 1.5 to 2 metres away in front and slightly to the left, wearing dark shorts, a dark jacket, and brown boots, holding a white paper sheet in their right hand within their own arm's reach, and facing roughly toward the camera wearer\u2014while the camera wearer's extended left hand points toward the right. In the fifth frame, the camera wearer steps forward and turns clockwise to the right as they lower their left arm and raise their right forearm, causing the second person to shift to the left edge of the frame at roughly 1.5 metres distance. Throughout the sequence, the second person's head and upper torso remain cropped out of view above the top frame boundary, so their gaze direction is not visible, and no other person or ground object is within arm's reach of the camera wearer."
+ },
+ "duration_seconds": 13.309891,
+ "usage": {
+  "input_tokens": 19520,
+  "output_tokens": 515,
+  "thinking_tokens": 73,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20035
+ },
+ "conversation_id": "f20100d4-ab5f-4b8c-bf20-40865cdb0787"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "54a421d2-763e-4751-a6b4-54e3d6c46cc1_1361-15",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an indoor living room with no other people visible, seen from the camera wearer's viewpoint as they walk forward and pitch their head downward toward the floor. In the first frame, a wooden coffee table with a book and a small lit candle sits directly ahead in the center of the room at roughly 2.5 to 3 metres away, flanked by a dark sofa to its right (about 0.8 metres from the table) and a wall-mounted television and console table to its left (about 1.5 metres from the table). Directly below and within arm's reach of the camera wearer in the first two frames is a small table or stool topped with a white fuzzy mat and a plate, while further ahead at roughly 4.5 to 5 metres away are two armchairs flanking a small round side table with a lit lamp in front of a curtained window and two tall bookcases. Across the first three frames, the camera wearer walks forward into the room and tilts their view downward, moving past the foreground stool (which leaves the bottom of the view) and approaching the wooden coffee table until its near edge is within arm's reach at roughly 1 metre away in the third frame. By the fourth and fifth frames, the camera pitches sharply down and slightly left toward the floor and dark area rug, bringing the near corner of the wooden coffee table and a fuzzy cushion on the floor into close view (roughly 0.5 to 1 metre away) while cropping the sofa, distant chairs, bookcases, and upper walls out of the frame."
+ },
+ "duration_seconds": 13.049577,
+ "usage": {
+  "input_tokens": 19621,
+  "output_tokens": 462,
+  "thinking_tokens": 60,
+  "cache_read_tokens": 14204,
+  "total_tokens": 20083
+ },
+ "conversation_id": "f493ace3-df97-4b23-95cb-4b062b977b75"
+}

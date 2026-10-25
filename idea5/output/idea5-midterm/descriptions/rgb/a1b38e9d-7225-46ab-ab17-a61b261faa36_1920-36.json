@@ -1,0 +1,18 @@
+{
+ "id": "a1b38e9d-7225-46ab-ab17-a61b261faa36_1920-36",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor stone-paved patio bordered on the left by a low wall and grass, viewed looking steeply downward from the standing camera wearer's head-mounted perspective. The camera wearer's torso lies directly below the camera, with both hands held about 0.3 to 0.5 metres in front of the chest manipulating a small green object within immediate reach, while a wooden shaft rests against the left forearm. On the ground roughly 1.5 to 1.8 metres below the camera, a round dark bucket containing sticks sits about 0.5 to 1.0 metre in front and slightly to the right, and a lidded cylindrical bin sits on the pavement to the front-left about 1.2 to 1.5 metres away (roughly 0.8 to 1.0 metre left of the bucket). A second person stands in front of the camera wearer about 1.5 to 2.0 metres away\u2014roughly 0.5 to 0.8 metres beyond the stick-filled bucket and within reach of a long-handled tool on their right and a raised ledge on their left\u2014with their feet and legs oriented toward the camera wearer, though their upper body and head are cut off by the top edge of the frame so their gaze cannot be seen. The camera wearer's body and hands occlude the ground directly underneath them and bright sun glare partially obscures the right side of the patio in frames 1 through 4. Across the five frames, the camera wearer remains in place while bringing their fingers together on the green object in frames 1 to 4, before tilting the camera slightly upward in frame 5 to reveal the second person's legs and the surrounding upper patio more clearly."
+ },
+ "duration_seconds": 28.29266,
+ "usage": {
+  "input_tokens": 19525,
+  "output_tokens": 1217,
+  "thinking_tokens": 783,
+  "cache_read_tokens": 14208,
+  "total_tokens": 20742
+ },
+ "conversation_id": "d886b673-c8a7-41a7-8219-7bfc94b146af"
+}

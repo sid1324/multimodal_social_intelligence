@@ -1,0 +1,18 @@
+{
+ "id": "d6491872-31a0-4015-b9e1-ae992406f849_51-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a wide urban street intersection bordered by a dark multi-level structure with trees ~20-40 m to the front-left, overhead traffic signals and orange cones ~25-45 m ahead, a five-story tan building ~30-45 m to the front-right, and a reddish-brown brick building ~20-30 m to the right across a painted crosswalk that starts ~1 m in front of the camera wearer. In the first frame, a person with pink hair stands on the sidewalk to the lower-left within arm's reach (~0.5-0.8 m away), facing rightward with everything below their upper head cropped out by the bottom edge of the frame. Across the second and third frames, the camera wearer turns their head rightward away from the companion, bringing into view a blue SUV that drives from ~12 m to ~25 m away down the street alongside the reddish-brown building while a white vehicle sits ~25-30 m away on the far right. In the fourth frame, the camera wearer turns back to the left, showing the companion standing ~1.2-1.5 m away on the left sidewalk with their torso cropped below the chest, facing and looking directly toward the camera wearer with their left hand raised within reach of their face mask while loose strands of hair partially occlude the bottom-right corner. In the fifth frame, the camera rotates right again toward the central intersection and tan building, placing the companion out of view to the left while the camera wearer's own raised left thumb and a dark handheld object appear within arm's reach (~0.3-0.5 m) at the bottom-left edge of the frame."
+ },
+ "duration_seconds": 28.163253,
+ "usage": {
+  "input_tokens": 19622,
+  "output_tokens": 1177,
+  "thinking_tokens": 744,
+  "cache_read_tokens": 14205,
+  "total_tokens": 20799
+ },
+ "conversation_id": "06ec8df6-dde2-4f7d-899a-7209e23a5b08"
+}

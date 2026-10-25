@@ -1,0 +1,18 @@
+{
+ "id": "f58900c3-5747-447c-9fa2-04c608e7f40a_18-07",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a tight indoor work area viewed looking steeply downward from the standing or crouching camera wearer, bounded on the left by a wooden plank partition with a blue tarp and a yellow tool case on the floor behind it (about 1 to 1.5 metres to the left), and an open concrete floor in front and to the right. Directly in front of the camera wearer at roughly 1 to 1.5 metres distance, a second person in a white shirt and tan trousers kneels on the floor facing leftward and downward toward a floor opening, looking away from the camera wearer across all five frames. Between the camera wearer's legs (visible at the bottom of the frame within 0.3 to 0.6 metres) and the kneeling person are several objects on the floor within arm's reach of both people: an orange bucket containing white and black pipe fittings on the right (about 0.7 to 1 metre away, and 0.2 metres from the kneeling person's knees), a red tool case and a small power tool directly below the camera wearer (about 0.6 to 0.8 metres down), and a square vent cover, tape measure, and dark circular couplings scattered 0.2 to 0.4 metres to the left of the bucket. In frame 1, the camera wearer's raised right hand is about 0.2 metres in front of the lens and partially occludes the orange bucket, while across frames 2 to 5 the kneeling person's head and upper torso shift upward and become largely cropped out by the top edge of the frame as the camera angles slightly lower and to the left. Across frames 2 and 3, the camera wearer lowers their right arm toward their left leg, and in frames 4 and 5 brings a smartphone into view in their left hand about 0.3 to 0.4 metres below the camera while reaching down with their right hand toward the power tool on the floor as the kneeling person's hands move from the floor opening toward the small circular fittings and bucket."
+ },
+ "duration_seconds": 16.824192,
+ "usage": {
+  "input_tokens": 5367,
+  "output_tokens": 812,
+  "thinking_tokens": 311,
+  "cache_read_tokens": 28413,
+  "total_tokens": 6179
+ },
+ "conversation_id": "a2a19b4e-8e15-485c-9b7d-0f352653be1c"
+}

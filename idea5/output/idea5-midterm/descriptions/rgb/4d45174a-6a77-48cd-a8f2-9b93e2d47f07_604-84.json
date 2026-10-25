@@ -1,0 +1,18 @@
+{
+ "id": "4d45174a-6a77-48cd-a8f2-9b93e2d47f07_604-84",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is a top-down view of a gray floor where two people are seated within 0.5 to 1.2 metres of the camera wearer. On the left, a person wearing a red garment sits at the edge of the frame, with their right forearm and hand\u2014covered in henna patterns\u2014resting on a white sheet on the floor at the bottom-left, about 0.5 to 0.7 metres below the camera. In the upper-center to upper-right, about 0.8 to 1.1 metres away, a second person in a green top and patterned pants crouches or sits facing roughly toward the floor and the left. Both individuals' heads and upper torsos are cropped out of the top and left edges of the frame, so their gaze directions are not visible. Within arm's reach of both the second person and the camera wearer, several small objects rest on the floor between them (roughly 0.2 to 0.3 metres from the red garment), including henna cones, a white cotton ball or tissue, and a smartphone partially occluded under the second person's foot and garment. Across frames 1 to 4, the layout stays nearly static as the second person's hands manipulate the henna cone and white cotton on the floor, before the camera pitches upward and slightly left in frame 5 with noticeable motion blur as the second person's right hand lifts the cone toward the person in red."
+ },
+ "duration_seconds": 12.947083,
+ "usage": {
+  "input_tokens": 19510,
+  "output_tokens": 378,
+  "thinking_tokens": 0,
+  "cache_read_tokens": 14209,
+  "total_tokens": 19888
+ },
+ "conversation_id": "925ecd12-f63b-41b0-898a-93d7fd2529d3"
+}

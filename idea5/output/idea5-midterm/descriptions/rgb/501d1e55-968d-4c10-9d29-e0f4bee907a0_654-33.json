@@ -1,0 +1,18 @@
+{
+ "id": "501d1e55-968d-4c10-9d29-e0f4bee907a0_654-33",
+ "kind": "rgb",
+ "model": "gemini-4-argon-medium",
+ "prompt": "rgb.jpg is a horizontal strip of 5 frames, left to right in time order, sampled from the few seconds of a head-mounted (egocentric) video; the camera wearer is the viewpoint. Describe the spatial understanding this image supports: the layout of the scene; which people and objects are present and roughly how far each is from the camera wearer (in metres) and from each other; relative positions (left/right/in front/behind, above/below); which way people face and whether they look toward the camera wearer; what is within arm's reach of the camera wearer or of others; occlusions and anything partly out of view; and how these change across the 5 frames (approach, retreat, turning). Describe only spatial facts. Do not guess anyone's intentions, social norms, or what anyone should do. Return only JSON: {\"rgb\": \"...\"} with 4-6 sentences.",
+ "descriptions": {
+  "rgb": "The scene is an outdoor yard enclosed by a white concrete wall on the right (about 1.5 to 2.5 metres away) and a tan wall in the background (about 3 to 4 metres away), with overgrown green vines and branches extending across the ground between them. The camera wearer stands in the foreground looking downward and forward, with their own torso, sandal-clad feet, left bare hand, and right gloved hand holding pruning shears visible at the bottom of frames 1 and 2, and their outstretched left arm reaching forward in frame 5. A woman in a blue shirt and patterned trousers stands to the camera wearer's left at roughly 0.5 to 1.2 metres distance, within arm's reach of both the camera wearer and the overarching vine branch. Across all frames, she faces away and slightly right toward the bushes, looking down at the foliage and never looking toward the camera wearer while holding a long pole tool that contacts the branch about 1 to 1.5 metres in front of them. In frames 1, 2, and 4, her upper body and head are mostly cropped out by the left edge of the frame, whereas in frame 3 the camera pitches up and left to show her full back and side profile before she retreats further left and out of view by frame 5. Over the five frames, the camera wearer shifts slightly backward and pitches their view from the ground in frames 1\u20132 up toward the wall and background trees in frames 3 and 5, while the long vine branch in front of them is pushed downward and to the right."
+ },
+ "duration_seconds": 14.880529,
+ "usage": {
+  "input_tokens": 19559,
+  "output_tokens": 503,
+  "thinking_tokens": 97,
+  "cache_read_tokens": 14203,
+  "total_tokens": 20062
+ },
+ "conversation_id": "98c956dc-8ee2-4162-8ed8-a4a0009bf9d8"
+}
