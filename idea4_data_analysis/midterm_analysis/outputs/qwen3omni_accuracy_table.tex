@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+Input & Accuracy (5 options) & Accuracy (\textit{None} removed) & Picks \textit{None} \\
+\midrule
+Options only & 9.8 {\scriptsize [7.9, 12.1]} & 23.2 {\scriptsize [20.3, 26.4]} & 54.4 \\
+Video & 25.9 {\scriptsize [22.9, 29.2]} & 66.0 {\scriptsize [62.5, 69.3]} & 66.3 \\
+Audio & 5.0 {\scriptsize [3.6, 6.8]} & 39.8 {\scriptsize [36.3, 43.4]} & 91.5 \\
+Video + audio & 31.4 {\scriptsize [28.2, 34.8]} & 66.8 {\scriptsize [63.3, 70.1]} & 61.5 \\
+\midrule
+Chance & 20.0 & 25.0 & -- \\
+\bottomrule
+\end{tabular}
+\caption{Accuracy (\%, 95\% CI) of qwen3omni on 745 EgoNormia items by input. \textit{None} removed: the best of the four real behaviors, ignoring the \textit{None} option.}
+\label{tab:qwen3omni_accuracy}
+\end{table}
