@@ -1,0 +1,16 @@
+{
+  "source_sha256": "f45e77594fdf93c3a44de25b7e2f2695aa4a4e656779cc1cd45496f22c03ec5b",
+  "note": "Scientific settings excerpt; not an executable or authorized launch. Original bindings omitted.",
+  "settings": {
+    "phase": "b1_eval",
+    "arm": "B1",
+    "seed": 17,
+    "eval": {
+      "split": "test",
+      "task": "normlens",
+      "condition": "shuffle",
+      "first_forward_reserve_minutes": 2,
+      "shuffle_map_sha256": "b764ec940783923df6e867860e29553560e62ad592269f38dc2961bd892a1dc1"
+    }
+  }
+}

@@ -1,0 +1,2446 @@
+[
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/__init__.py",
+    "sha256": "23429352dd92ad5b74f77d25a348ee68eb0f588404d4d80b8d22b55ee5ec3a57",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/arms.py",
+    "sha256": "72a0a16243455f2183e6cee686bc4ce44f221198014c37bbb56d11d35dc653e0",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/arms.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/constants.py",
+    "sha256": "0a3434795cc78a6913c94dbb1b220da92da8a2c8e6c16ac7b31a4c6b680d58d8",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/constants.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/__init__.py",
+    "sha256": "79964a53f9c54ae7b7e1eeacacead60f583b4ce4de18f32dffa1ad7efe71e148",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/contact_sheets.py",
+    "sha256": "ee4b2ab83dab9d9ed81b394071e836fd35fb4a1a073bcf5328f37d5d9eb91d63",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/contact_sheets.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/egonormia.py",
+    "sha256": "7f9b899aef86a60c57d6c4668e077af92ca64524ab11e4f354d8793c1dcd0542",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/egonormia.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/eval_manifests.py",
+    "sha256": "78b08979449db9160fed8f6e821e58a3bc8316e80779a19fd06a873e97c4255c",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/eval_manifests.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/grouping.py",
+    "sha256": "960b1907fe04e76780f6b442742fa4bc32a3312f6ca6db5a8c60d3defc9450c7",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/grouping.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/images.py",
+    "sha256": "2e8f08d4836fbec19b836e582dcd7a518066b77664da5d5d77b87b54b2343ce8",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/images.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/legacy.py",
+    "sha256": "aed7f95c7eafaf26d5beee6f0fa676852bc55ccaadf5cc67297601ccc1f25750",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/legacy.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/normbank.py",
+    "sha256": "fb2c5e26c6124043a258238590a446c8a2f008b3dc51beabd75da2f8d38dd8f5",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/normbank.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/normlens.py",
+    "sha256": "51afed8646664283b721a41127ddd8f6b3f15cbabfc8a352f16247a9267c2c3b",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/normlens.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/overlap.py",
+    "sha256": "30c67658c6b1109d13d7d25a5a61037a010631b29bc1a685735e8d81adb6699f",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/overlap.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/data/prepare.py",
+    "sha256": "feed9baed1bc23a9af5058705ebd69a1469d96a38de86635f316619efee18291",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/data/prepare.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/hashing.py",
+    "sha256": "7ce4f2c01bf737c28d2de3fbb478c507ec8ba2afaa9805fffb1c80990f250f69",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/hashing.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/__init__.py",
+    "sha256": "5ef8925d8d09b12fc0cae3c3157219813467ec6812d7828d9f67d5955d8f59cc",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/acquisition_source.py",
+    "sha256": "9b09dcb71c8e7372a87fe836d3f2a3e889bd27ea7f979016543f1c50e2f4b475",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/acquisition_source.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/aggregate.py",
+    "sha256": "2ee54b5ebccc686b80890df6eccf2125ec064d216398dcfc5917d5af693791e9",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/aggregate.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/alignment.py",
+    "sha256": "9bdd73b302b85014994db85422d295842e931f0a8570f377b0afbb470e59af5b",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/alignment.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/approval.py",
+    "sha256": "87b5e3802af511b40096a0ee3c2046b7c12fa471f190c322cab08a3196baebba",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/approval.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/cache.py",
+    "sha256": "a0f135a395b5707188dc79f18c5a282674d980344d801d663b4dc87f8088d254",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/cache.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/data.py",
+    "sha256": "3e077aa9db489e0b7033dbffa7a1a93480824232638c4acbc038c077da3272fa",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/data.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/diagnostic_potency.py",
+    "sha256": "b0cb6ea34fa8eb21a5a3c10d2dec72f962685ffea2e734c0ac3415dd896984bf",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/diagnostic_potency.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/diagnostics.py",
+    "sha256": "4b0a431ed94f0ab7bd619749148fbaffa615c9142341a9b374efd437f76e5a72",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/diagnostics.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/endpoints.py",
+    "sha256": "04cf88bd46cf192c2908ab5d933fdcae94f8b9225dfa609944654e0803dd611c",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/endpoints.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/eta050.py",
+    "sha256": "945caee8e31c1c3c3827c617a85c3575d982c7e66fed42a40925820791aa7926",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/eta050.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/export_pipeline.py",
+    "sha256": "945307eb54a3f96a12d2989ffc27bda6ffeb59b96ed4037d0f474aed329165ee",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/export_pipeline.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/exporting.py",
+    "sha256": "5df8557a3bd50cd9f982534f42e2327ccdf4c5a3cfa917baf87d84f83c986d55",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/exporting.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/fixture.py",
+    "sha256": "61fc52eca5fdf211ab0e435f3a571a9ea9c481e1cb23b0e23550c0b85565a3f6",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/fixture.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/forward.py",
+    "sha256": "37c8bab86e829946a29455a26cb8e29459d5fc243af13c58bb8ac123506472e1",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/forward.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/gates.py",
+    "sha256": "878bec76e085014256680395c390359778387f842a046ddbef90060378811e52",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/gates.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/manipulation.py",
+    "sha256": "7c3a397d93640201875d4447f7f4d755d422757db068bf9db6cd98647f74b4fe",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/manipulation.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/native_acceptance.py",
+    "sha256": "ede0c8b1ebfd80181fa1927424a542cffff474bf9cc9f41ad491383fe2111ea3",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/native_acceptance.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/native_adapters.py",
+    "sha256": "d22b0c1d43bd48a2b33311a5ddcb108c9ae3d456f1c94dacb351287c38571c67",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/native_adapters.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/pipeline.py",
+    "sha256": "d5fb74a0dff756b8fdc1c2d6a066b6a0d55736e4a7a06a2bafb5388500dee941",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/pipeline.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/potency.py",
+    "sha256": "88a39095e5f76d09cb056ec86b5d8288c58ae75530e0f4f9fb67e68266699a64",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/potency.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/profiling.py",
+    "sha256": "b26fc065c228d9214064791fa3a47ac0875040f7104bf95d45be30d480452f52",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/profiling.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/reference.py",
+    "sha256": "72a95f79e116a91eaef71dabb3a2fc8c9789d22c7a5ca5b9e13a31ff3556b4a1",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/reference.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/scope.py",
+    "sha256": "6008e9a557accac901f76d6955fe0a4fe5c258c86ad8b4b53f05bf4f82edb5a8",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/scope.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/selection.py",
+    "sha256": "f3579d1de8607fba32da753b544a37e82b0684e86cca9d8e4832bb79784e00aa",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/selection.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/trainer.py",
+    "sha256": "da3a44e03cdb8cb2a4835e9cf4b972595c919c4ba0d9336489572ed800188d13",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/trainer.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/training.py",
+    "sha256": "224b6c13756d0eded40f2b275dbdd6d656612c0efdbb17f338a4dc0e95007f88",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/training.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/interventions/training_cache_source.py",
+    "sha256": "ce444f5df966be0cfe355f98fcbd2c020d8d57d9cea85c8f8748fd84c958e314",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/interventions/training_cache_source.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/io_utils.py",
+    "sha256": "2d5226d54142c0a7cc04eb515e5378417611ae26c33eb5dbb328700bff57e707",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/io_utils.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/metrics/__init__.py",
+    "sha256": "274445746cc762f4fcf1c0ec66767b2ed6a8a269035df4af62b8f9ad74ebb454",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/metrics/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/metrics/bootstrap.py",
+    "sha256": "1b815e5f3a55ce25a01f5d9e0cf8440f809b6637bcc2f16e67f21c2247418336",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/metrics/bootstrap.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/metrics/normlens.py",
+    "sha256": "0654d280b01200dbb378e6a457ccbcac6c21c961b00d5ff34768372df4a9060e",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/metrics/normlens.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/objective.py",
+    "sha256": "7d79484aaa339640b2c74ac70538f3bc1ef53b6be166176c7c4d884b26e2eba8",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/objective.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/prompts.py",
+    "sha256": "d8d83510a9a5cc33cb01e6c7629db90589c20c48209d672facbdd9a68c574a0b",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/prompts.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/__init__.py",
+    "sha256": "aaf68968ad11f9f42d5c70d6f1b09d7d70d16975a8d05c7963ade4ec530d2f82",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/checkpoint.py",
+    "sha256": "b0282abee5bbc93806262a05a006fe1ba6286b2f1adc1455d7772e30a3141446",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/checkpoint.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/data_io.py",
+    "sha256": "818c7c8c851448046b39e94ee879f46ab13117f690ebe553d7744f3458352cde",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/data_io.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/errors.py",
+    "sha256": "196f8b3ac1932f9ebcbca2ba1613d68d91e70b5b5bb2290a7453797f27f82127",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/errors.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/evaluate.py",
+    "sha256": "b51bfcd8f48ffd8593ca52d1f742dbe2bb1328397c4df6ba3dcaaa497f2c3753",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/evaluate.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/export.py",
+    "sha256": "3d0a5033d06c623126ec686e66e10f143d38265d5d09bda65fcf60d83ef7def7",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/export.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/gates.py",
+    "sha256": "c3b1c607952e170b94f631e9637196b0ccd17bb3ad3166a381ead6e23f8fe9dd",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/gates.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/ledger.py",
+    "sha256": "e2b11f3dd0e6f8ad676a4064a002c8b20b244332b8d8fec6d9c3e3830e0a4d58",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/ledger.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/lora.py",
+    "sha256": "3fbead19d9270b9aac6ced35b707b8b76fc11aa7e279ea94bcc8db645416954a",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/lora.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/model.py",
+    "sha256": "128f9a4c4cff8f200e6700ee9d68d4f752e260c17f0616cd920aec4ae4786fe0",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/model.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/pins.py",
+    "sha256": "7c1ae7e74cfc6b897881d1ce1e7d809295bfbe8feff186ee1a33a8354d052b0c",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/pins.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/source_snapshot.py",
+    "sha256": "b45ab7007e00757d3521a990137247284bfe9eb6674381fbe168b4cecbbf62a4",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/source_snapshot.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/tensorio.py",
+    "sha256": "c267eccfaff8bc7c6f8f7cc464d995abc7fca1e5ebe910ad19b156544adf3131",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/tensorio.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/runtime/train.py",
+    "sha256": "f41e178635c06d46397cb667e624b4e1c9b327f7420e783ac515911d162b5f0e",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/runtime/train.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/schedules.py",
+    "sha256": "264a5b7f2b9265aed2298a42a161c44ddbff8bcfd6272b885591f15fd3d4cb29",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/schedules.py"
+    }
+  },
+  {
+    "path": "snapshots/training/src/grounded_norm_sft/serializer.py",
+    "sha256": "a65a2d82c0cd0a9d09681f26daf8815ce9c00c032fb291c32cad7ff67b8673c7",
+    "source": {
+      "archive": "source_snapshot_eta050_training_profile_20261023.tar",
+      "archive_sha256": "0ad25cc3011ca6e759c5a1febd5c6d58932dba090dba27868d07c51464c5cbef",
+      "member": "src/grounded_norm_sft/serializer.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/__init__.py",
+    "sha256": "23429352dd92ad5b74f77d25a348ee68eb0f588404d4d80b8d22b55ee5ec3a57",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/arms.py",
+    "sha256": "72a0a16243455f2183e6cee686bc4ce44f221198014c37bbb56d11d35dc653e0",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/arms.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/constants.py",
+    "sha256": "0a3434795cc78a6913c94dbb1b220da92da8a2c8e6c16ac7b31a4c6b680d58d8",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/constants.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/data/__init__.py",
+    "sha256": "79964a53f9c54ae7b7e1eeacacead60f583b4ce4de18f32dffa1ad7efe71e148",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/data/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/data/egonormia.py",
+    "sha256": "7f9b899aef86a60c57d6c4668e077af92ca64524ab11e4f354d8793c1dcd0542",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/data/egonormia.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/data/eval_manifests.py",
+    "sha256": "78b08979449db9160fed8f6e821e58a3bc8316e80779a19fd06a873e97c4255c",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/data/eval_manifests.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/data/grouping.py",
+    "sha256": "960b1907fe04e76780f6b442742fa4bc32a3312f6ca6db5a8c60d3defc9450c7",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/data/grouping.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/data/images.py",
+    "sha256": "2e8f08d4836fbec19b836e582dcd7a518066b77664da5d5d77b87b54b2343ce8",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/data/images.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/data/normbank.py",
+    "sha256": "fb2c5e26c6124043a258238590a446c8a2f008b3dc51beabd75da2f8d38dd8f5",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/data/normbank.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/data/overlap.py",
+    "sha256": "30c67658c6b1109d13d7d25a5a61037a010631b29bc1a685735e8d81adb6699f",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/data/overlap.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/hashing.py",
+    "sha256": "7ce4f2c01bf737c28d2de3fbb478c507ec8ba2afaa9805fffb1c80990f250f69",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/hashing.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/__init__.py",
+    "sha256": "5ef8925d8d09b12fc0cae3c3157219813467ec6812d7828d9f67d5955d8f59cc",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/acquisition_source.py",
+    "sha256": "9b09dcb71c8e7372a87fe836d3f2a3e889bd27ea7f979016543f1c50e2f4b475",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/acquisition_source.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/aggregate.py",
+    "sha256": "2ee54b5ebccc686b80890df6eccf2125ec064d216398dcfc5917d5af693791e9",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/aggregate.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/alignment.py",
+    "sha256": "9bdd73b302b85014994db85422d295842e931f0a8570f377b0afbb470e59af5b",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/alignment.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/approval.py",
+    "sha256": "87b5e3802af511b40096a0ee3c2046b7c12fa471f190c322cab08a3196baebba",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/approval.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/cache.py",
+    "sha256": "a0f135a395b5707188dc79f18c5a282674d980344d801d663b4dc87f8088d254",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/cache.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/data.py",
+    "sha256": "3e077aa9db489e0b7033dbffa7a1a93480824232638c4acbc038c077da3272fa",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/data.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/diagnostic_potency.py",
+    "sha256": "b0cb6ea34fa8eb21a5a3c10d2dec72f962685ffea2e734c0ac3415dd896984bf",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/diagnostic_potency.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/diagnostics.py",
+    "sha256": "4b0a431ed94f0ab7bd619749148fbaffa615c9142341a9b374efd437f76e5a72",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/diagnostics.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/endpoints.py",
+    "sha256": "04cf88bd46cf192c2908ab5d933fdcae94f8b9225dfa609944654e0803dd611c",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/endpoints.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/eta050.py",
+    "sha256": "945caee8e31c1c3c3827c617a85c3575d982c7e66fed42a40925820791aa7926",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/eta050.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/export_lineage.py",
+    "sha256": "d461962c976c2a8dc0c2193718a945c23564bd532e8e32afaba59317590694e3",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/export_lineage.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/export_pipeline.py",
+    "sha256": "6b50ba93b034d3f6d81ec8c0089601974523db9b0d5ccb3347da0f6188c3d6cf",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/export_pipeline.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/exporting.py",
+    "sha256": "e85142e2d57e97adf770eeb5b36763c16ab59f58ebc1796228db645546f2a6a6",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/exporting.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/fixture.py",
+    "sha256": "61fc52eca5fdf211ab0e435f3a571a9ea9c481e1cb23b0e23550c0b85565a3f6",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/fixture.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/forward.py",
+    "sha256": "37c8bab86e829946a29455a26cb8e29459d5fc243af13c58bb8ac123506472e1",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/forward.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/gates.py",
+    "sha256": "52ad9e9357051d843dc0604228dc4d4b26167d0f7920683d579004b91a4cacac",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/gates.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/manipulation.py",
+    "sha256": "7c3a397d93640201875d4447f7f4d755d422757db068bf9db6cd98647f74b4fe",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/manipulation.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/native_acceptance.py",
+    "sha256": "ede0c8b1ebfd80181fa1927424a542cffff474bf9cc9f41ad491383fe2111ea3",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/native_acceptance.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/native_adapters.py",
+    "sha256": "d22b0c1d43bd48a2b33311a5ddcb108c9ae3d456f1c94dacb351287c38571c67",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/native_adapters.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/pipeline.py",
+    "sha256": "d5fb74a0dff756b8fdc1c2d6a066b6a0d55736e4a7a06a2bafb5388500dee941",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/pipeline.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/potency.py",
+    "sha256": "88a39095e5f76d09cb056ec86b5d8288c58ae75530e0f4f9fb67e68266699a64",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/potency.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/profiling.py",
+    "sha256": "b26fc065c228d9214064791fa3a47ac0875040f7104bf95d45be30d480452f52",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/profiling.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/reference.py",
+    "sha256": "72a95f79e116a91eaef71dabb3a2fc8c9789d22c7a5ca5b9e13a31ff3556b4a1",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/reference.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/scope.py",
+    "sha256": "6008e9a557accac901f76d6955fe0a4fe5c258c86ad8b4b53f05bf4f82edb5a8",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/scope.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/selection.py",
+    "sha256": "f3579d1de8607fba32da753b544a37e82b0684e86cca9d8e4832bb79784e00aa",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/selection.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/trainer.py",
+    "sha256": "da3a44e03cdb8cb2a4835e9cf4b972595c919c4ba0d9336489572ed800188d13",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/trainer.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/training.py",
+    "sha256": "224b6c13756d0eded40f2b275dbdd6d656612c0efdbb17f338a4dc0e95007f88",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/training.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/interventions/training_cache_source.py",
+    "sha256": "ce444f5df966be0cfe355f98fcbd2c020d8d57d9cea85c8f8748fd84c958e314",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/interventions/training_cache_source.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/io_utils.py",
+    "sha256": "2d5226d54142c0a7cc04eb515e5378417611ae26c33eb5dbb328700bff57e707",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/io_utils.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/metrics/__init__.py",
+    "sha256": "274445746cc762f4fcf1c0ec66767b2ed6a8a269035df4af62b8f9ad74ebb454",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/metrics/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/metrics/bootstrap.py",
+    "sha256": "1b815e5f3a55ce25a01f5d9e0cf8440f809b6637bcc2f16e67f21c2247418336",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/metrics/bootstrap.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/metrics/normlens.py",
+    "sha256": "0654d280b01200dbb378e6a457ccbcac6c21c961b00d5ff34768372df4a9060e",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/metrics/normlens.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/objective.py",
+    "sha256": "7d79484aaa339640b2c74ac70538f3bc1ef53b6be166176c7c4d884b26e2eba8",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/objective.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/prompts.py",
+    "sha256": "d8d83510a9a5cc33cb01e6c7629db90589c20c48209d672facbdd9a68c574a0b",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/prompts.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/__init__.py",
+    "sha256": "aaf68968ad11f9f42d5c70d6f1b09d7d70d16975a8d05c7963ade4ec530d2f82",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/checkpoint.py",
+    "sha256": "b0282abee5bbc93806262a05a006fe1ba6286b2f1adc1455d7772e30a3141446",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/checkpoint.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/data_io.py",
+    "sha256": "818c7c8c851448046b39e94ee879f46ab13117f690ebe553d7744f3458352cde",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/data_io.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/errors.py",
+    "sha256": "196f8b3ac1932f9ebcbca2ba1613d68d91e70b5b5bb2290a7453797f27f82127",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/errors.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/evaluate.py",
+    "sha256": "b51bfcd8f48ffd8593ca52d1f742dbe2bb1328397c4df6ba3dcaaa497f2c3753",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/evaluate.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/export.py",
+    "sha256": "3d0a5033d06c623126ec686e66e10f143d38265d5d09bda65fcf60d83ef7def7",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/export.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/gates.py",
+    "sha256": "c3b1c607952e170b94f631e9637196b0ccd17bb3ad3166a381ead6e23f8fe9dd",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/gates.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/ledger.py",
+    "sha256": "e2b11f3dd0e6f8ad676a4064a002c8b20b244332b8d8fec6d9c3e3830e0a4d58",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/ledger.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/lora.py",
+    "sha256": "3fbead19d9270b9aac6ced35b707b8b76fc11aa7e279ea94bcc8db645416954a",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/lora.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/model.py",
+    "sha256": "128f9a4c4cff8f200e6700ee9d68d4f752e260c17f0616cd920aec4ae4786fe0",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/model.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/pins.py",
+    "sha256": "7c1ae7e74cfc6b897881d1ce1e7d809295bfbe8feff186ee1a33a8354d052b0c",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/pins.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/source_snapshot.py",
+    "sha256": "b45ab7007e00757d3521a990137247284bfe9eb6674381fbe168b4cecbbf62a4",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/source_snapshot.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/tensorio.py",
+    "sha256": "c267eccfaff8bc7c6f8f7cc464d995abc7fca1e5ebe910ad19b156544adf3131",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/tensorio.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/runtime/train.py",
+    "sha256": "f41e178635c06d46397cb667e624b4e1c9b327f7420e783ac515911d162b5f0e",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/runtime/train.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/schedules.py",
+    "sha256": "264a5b7f2b9265aed2298a42a161c44ddbff8bcfd6272b885591f15fd3d4cb29",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/schedules.py"
+    }
+  },
+  {
+    "path": "snapshots/export/src/grounded_norm_sft/serializer.py",
+    "sha256": "a65a2d82c0cd0a9d09681f26daf8815ce9c00c032fb291c32cad7ff67b8673c7",
+    "source": {
+      "archive": "source_snapshot_eta050_export_dtype_retry_20261024.tar",
+      "archive_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3",
+      "member": "src/grounded_norm_sft/serializer.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/__init__.py",
+    "sha256": "23429352dd92ad5b74f77d25a348ee68eb0f588404d4d80b8d22b55ee5ec3a57",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/arms.py",
+    "sha256": "72a0a16243455f2183e6cee686bc4ce44f221198014c37bbb56d11d35dc653e0",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/arms.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/constants.py",
+    "sha256": "0a3434795cc78a6913c94dbb1b220da92da8a2c8e6c16ac7b31a4c6b680d58d8",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/constants.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/data/__init__.py",
+    "sha256": "79964a53f9c54ae7b7e1eeacacead60f583b4ce4de18f32dffa1ad7efe71e148",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/data/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/data/egonormia.py",
+    "sha256": "7f9b899aef86a60c57d6c4668e077af92ca64524ab11e4f354d8793c1dcd0542",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/data/egonormia.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/data/eval_manifests.py",
+    "sha256": "78b08979449db9160fed8f6e821e58a3bc8316e80779a19fd06a873e97c4255c",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/data/eval_manifests.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/data/grouping.py",
+    "sha256": "960b1907fe04e76780f6b442742fa4bc32a3312f6ca6db5a8c60d3defc9450c7",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/data/grouping.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/data/images.py",
+    "sha256": "2e8f08d4836fbec19b836e582dcd7a518066b77664da5d5d77b87b54b2343ce8",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/data/images.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/data/normbank.py",
+    "sha256": "fb2c5e26c6124043a258238590a446c8a2f008b3dc51beabd75da2f8d38dd8f5",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/data/normbank.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/data/overlap.py",
+    "sha256": "30c67658c6b1109d13d7d25a5a61037a010631b29bc1a685735e8d81adb6699f",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/data/overlap.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/hashing.py",
+    "sha256": "7ce4f2c01bf737c28d2de3fbb478c507ec8ba2afaa9805fffb1c80990f250f69",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/hashing.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/__init__.py",
+    "sha256": "5ef8925d8d09b12fc0cae3c3157219813467ec6812d7828d9f67d5955d8f59cc",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/acquisition_source.py",
+    "sha256": "9b09dcb71c8e7372a87fe836d3f2a3e889bd27ea7f979016543f1c50e2f4b475",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/acquisition_source.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/aggregate.py",
+    "sha256": "1b927141f276b568e2390fb32ddfe6570af54926e5e9535f9d2a3f2d858facd8",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/aggregate.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/alignment.py",
+    "sha256": "9bdd73b302b85014994db85422d295842e931f0a8570f377b0afbb470e59af5b",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/alignment.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/approval.py",
+    "sha256": "87b5e3802af511b40096a0ee3c2046b7c12fa471f190c322cab08a3196baebba",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/approval.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/cache.py",
+    "sha256": "a0f135a395b5707188dc79f18c5a282674d980344d801d663b4dc87f8088d254",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/cache.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/data.py",
+    "sha256": "3e077aa9db489e0b7033dbffa7a1a93480824232638c4acbc038c077da3272fa",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/data.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/diagnostic_potency.py",
+    "sha256": "b0cb6ea34fa8eb21a5a3c10d2dec72f962685ffea2e734c0ac3415dd896984bf",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/diagnostic_potency.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/diagnostics.py",
+    "sha256": "4b0a431ed94f0ab7bd619749148fbaffa615c9142341a9b374efd437f76e5a72",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/diagnostics.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/endpoints.py",
+    "sha256": "04cf88bd46cf192c2908ab5d933fdcae94f8b9225dfa609944654e0803dd611c",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/endpoints.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/eta050.py",
+    "sha256": "945caee8e31c1c3c3827c617a85c3575d982c7e66fed42a40925820791aa7926",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/eta050.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/eval_lineage.py",
+    "sha256": "d01c700aa064708d1e35921e46cbf3c42bc8ea45aef65ed75a98620fbe6b0457",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/eval_lineage.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/evaluation.py",
+    "sha256": "452c5d1d8e060e9c6d9b29f5f0a8920a2fec0be6509c723f586c572dea076738",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/evaluation.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/export_lineage.py",
+    "sha256": "d461962c976c2a8dc0c2193718a945c23564bd532e8e32afaba59317590694e3",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/export_lineage.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/export_pipeline.py",
+    "sha256": "6b50ba93b034d3f6d81ec8c0089601974523db9b0d5ccb3347da0f6188c3d6cf",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/export_pipeline.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/exporting.py",
+    "sha256": "e85142e2d57e97adf770eeb5b36763c16ab59f58ebc1796228db645546f2a6a6",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/exporting.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/fixture.py",
+    "sha256": "61fc52eca5fdf211ab0e435f3a571a9ea9c481e1cb23b0e23550c0b85565a3f6",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/fixture.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/forward.py",
+    "sha256": "37c8bab86e829946a29455a26cb8e29459d5fc243af13c58bb8ac123506472e1",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/forward.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/gates.py",
+    "sha256": "e66148d993bbee60c93bb2dba150608aa5af395b9e1f81a9da68ac46f10ce379",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/gates.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/manipulation.py",
+    "sha256": "7c3a397d93640201875d4447f7f4d755d422757db068bf9db6cd98647f74b4fe",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/manipulation.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/native_acceptance.py",
+    "sha256": "ede0c8b1ebfd80181fa1927424a542cffff474bf9cc9f41ad491383fe2111ea3",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/native_acceptance.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/native_adapters.py",
+    "sha256": "d22b0c1d43bd48a2b33311a5ddcb108c9ae3d456f1c94dacb351287c38571c67",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/native_adapters.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/pipeline.py",
+    "sha256": "94936655d23848ce24d0c117cc63fe708491725d8ec91e982019ea77df7b949f",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/pipeline.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/potency.py",
+    "sha256": "88a39095e5f76d09cb056ec86b5d8288c58ae75530e0f4f9fb67e68266699a64",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/potency.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/profiling.py",
+    "sha256": "b26fc065c228d9214064791fa3a47ac0875040f7104bf95d45be30d480452f52",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/profiling.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/reference.py",
+    "sha256": "72a95f79e116a91eaef71dabb3a2fc8c9789d22c7a5ca5b9e13a31ff3556b4a1",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/reference.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/scope.py",
+    "sha256": "6008e9a557accac901f76d6955fe0a4fe5c258c86ad8b4b53f05bf4f82edb5a8",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/scope.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/selection.py",
+    "sha256": "f3579d1de8607fba32da753b544a37e82b0684e86cca9d8e4832bb79784e00aa",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/selection.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/trainer.py",
+    "sha256": "da3a44e03cdb8cb2a4835e9cf4b972595c919c4ba0d9336489572ed800188d13",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/trainer.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/training.py",
+    "sha256": "224b6c13756d0eded40f2b275dbdd6d656612c0efdbb17f338a4dc0e95007f88",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/training.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/interventions/training_cache_source.py",
+    "sha256": "ce444f5df966be0cfe355f98fcbd2c020d8d57d9cea85c8f8748fd84c958e314",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/interventions/training_cache_source.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/io_utils.py",
+    "sha256": "2d5226d54142c0a7cc04eb515e5378417611ae26c33eb5dbb328700bff57e707",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/io_utils.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/metrics/__init__.py",
+    "sha256": "274445746cc762f4fcf1c0ec66767b2ed6a8a269035df4af62b8f9ad74ebb454",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/metrics/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/metrics/bootstrap.py",
+    "sha256": "1b815e5f3a55ce25a01f5d9e0cf8440f809b6637bcc2f16e67f21c2247418336",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/metrics/bootstrap.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/metrics/normlens.py",
+    "sha256": "0654d280b01200dbb378e6a457ccbcac6c21c961b00d5ff34768372df4a9060e",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/metrics/normlens.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/objective.py",
+    "sha256": "7d79484aaa339640b2c74ac70538f3bc1ef53b6be166176c7c4d884b26e2eba8",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/objective.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/prompts.py",
+    "sha256": "d8d83510a9a5cc33cb01e6c7629db90589c20c48209d672facbdd9a68c574a0b",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/prompts.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/__init__.py",
+    "sha256": "aaf68968ad11f9f42d5c70d6f1b09d7d70d16975a8d05c7963ade4ec530d2f82",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/__init__.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/checkpoint.py",
+    "sha256": "b0282abee5bbc93806262a05a006fe1ba6286b2f1adc1455d7772e30a3141446",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/checkpoint.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/data_io.py",
+    "sha256": "818c7c8c851448046b39e94ee879f46ab13117f690ebe553d7744f3458352cde",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/data_io.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/errors.py",
+    "sha256": "196f8b3ac1932f9ebcbca2ba1613d68d91e70b5b5bb2290a7453797f27f82127",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/errors.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/evaluate.py",
+    "sha256": "b51bfcd8f48ffd8593ca52d1f742dbe2bb1328397c4df6ba3dcaaa497f2c3753",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/evaluate.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/export.py",
+    "sha256": "3d0a5033d06c623126ec686e66e10f143d38265d5d09bda65fcf60d83ef7def7",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/export.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/gates.py",
+    "sha256": "c3b1c607952e170b94f631e9637196b0ccd17bb3ad3166a381ead6e23f8fe9dd",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/gates.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/ledger.py",
+    "sha256": "e2b11f3dd0e6f8ad676a4064a002c8b20b244332b8d8fec6d9c3e3830e0a4d58",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/ledger.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/lora.py",
+    "sha256": "3fbead19d9270b9aac6ced35b707b8b76fc11aa7e279ea94bcc8db645416954a",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/lora.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/model.py",
+    "sha256": "128f9a4c4cff8f200e6700ee9d68d4f752e260c17f0616cd920aec4ae4786fe0",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/model.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/pins.py",
+    "sha256": "7c1ae7e74cfc6b897881d1ce1e7d809295bfbe8feff186ee1a33a8354d052b0c",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/pins.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/source_snapshot.py",
+    "sha256": "b45ab7007e00757d3521a990137247284bfe9eb6674381fbe168b4cecbbf62a4",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/source_snapshot.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/tensorio.py",
+    "sha256": "c267eccfaff8bc7c6f8f7cc464d995abc7fca1e5ebe910ad19b156544adf3131",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/tensorio.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/runtime/train.py",
+    "sha256": "f41e178635c06d46397cb667e624b4e1c9b327f7420e783ac515911d162b5f0e",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/runtime/train.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/schedules.py",
+    "sha256": "264a5b7f2b9265aed2298a42a161c44ddbff8bcfd6272b885591f15fd3d4cb29",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/schedules.py"
+    }
+  },
+  {
+    "path": "snapshots/evaluation/src/grounded_norm_sft/serializer.py",
+    "sha256": "a65a2d82c0cd0a9d09681f26daf8815ce9c00c032fb291c32cad7ff67b8673c7",
+    "source": {
+      "archive": "source_snapshot_eval_fp32_loaded_proof_20261025.tar",
+      "archive_sha256": "67226d2685d64081c6a8361101c65fc9db0fe95c8ca7073b7cb15ea5f3c4e810",
+      "member": "src/grounded_norm_sft/serializer.py"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/__init__.py",
+    "sha256": "23429352dd92ad5b74f77d25a348ee68eb0f588404d4d80b8d22b55ee5ec3a57",
+    "source": {
+      "path": "src/grounded_norm_sft/__init__.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/arms.py",
+    "sha256": "72a0a16243455f2183e6cee686bc4ce44f221198014c37bbb56d11d35dc653e0",
+    "source": {
+      "path": "src/grounded_norm_sft/arms.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/constants.py",
+    "sha256": "0a3434795cc78a6913c94dbb1b220da92da8a2c8e6c16ac7b31a4c6b680d58d8",
+    "source": {
+      "path": "src/grounded_norm_sft/constants.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/data/__init__.py",
+    "sha256": "79964a53f9c54ae7b7e1eeacacead60f583b4ce4de18f32dffa1ad7efe71e148",
+    "source": {
+      "path": "src/grounded_norm_sft/data/__init__.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/data/egonormia.py",
+    "sha256": "7f9b899aef86a60c57d6c4668e077af92ca64524ab11e4f354d8793c1dcd0542",
+    "source": {
+      "path": "src/grounded_norm_sft/data/egonormia.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/data/eval_manifests.py",
+    "sha256": "78b08979449db9160fed8f6e821e58a3bc8316e80779a19fd06a873e97c4255c",
+    "source": {
+      "path": "src/grounded_norm_sft/data/eval_manifests.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/data/grouping.py",
+    "sha256": "960b1907fe04e76780f6b442742fa4bc32a3312f6ca6db5a8c60d3defc9450c7",
+    "source": {
+      "path": "src/grounded_norm_sft/data/grouping.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/data/images.py",
+    "sha256": "2e8f08d4836fbec19b836e582dcd7a518066b77664da5d5d77b87b54b2343ce8",
+    "source": {
+      "path": "src/grounded_norm_sft/data/images.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/data/normbank.py",
+    "sha256": "fb2c5e26c6124043a258238590a446c8a2f008b3dc51beabd75da2f8d38dd8f5",
+    "source": {
+      "path": "src/grounded_norm_sft/data/normbank.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/data/overlap.py",
+    "sha256": "30c67658c6b1109d13d7d25a5a61037a010631b29bc1a685735e8d81adb6699f",
+    "source": {
+      "path": "src/grounded_norm_sft/data/overlap.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/ego/__init__.py",
+    "sha256": "d1d6abba66c7c338a6eeb2e0195f53b9eba8effdd3a79c2d6a2498301b8b1ae4",
+    "source": {
+      "path": "src/grounded_norm_sft/ego/__init__.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/ego/parsers.py",
+    "sha256": "8ca7d3ef28e3dd9aaa5a3851fc8450ad00cd1c055472b10331672ffd8ef0dbdc",
+    "source": {
+      "path": "src/grounded_norm_sft/ego/parsers.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/ego/rotations.py",
+    "sha256": "2a1aecbd34d4b0b4336fa8fd632e7650ac66f2336ef7228442aebb1c44f3662f",
+    "source": {
+      "path": "src/grounded_norm_sft/ego/rotations.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/hashing.py",
+    "sha256": "7ce4f2c01bf737c28d2de3fbb478c507ec8ba2afaa9805fffb1c80990f250f69",
+    "source": {
+      "path": "src/grounded_norm_sft/hashing.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/__init__.py",
+    "sha256": "5ef8925d8d09b12fc0cae3c3157219813467ec6812d7828d9f67d5955d8f59cc",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/__init__.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/acquisition_source.py",
+    "sha256": "9b09dcb71c8e7372a87fe836d3f2a3e889bd27ea7f979016543f1c50e2f4b475",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/acquisition_source.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/aggregate.py",
+    "sha256": "1b927141f276b568e2390fb32ddfe6570af54926e5e9535f9d2a3f2d858facd8",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/aggregate.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/alignment.py",
+    "sha256": "9bdd73b302b85014994db85422d295842e931f0a8570f377b0afbb470e59af5b",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/alignment.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/approval.py",
+    "sha256": "87b5e3802af511b40096a0ee3c2046b7c12fa471f190c322cab08a3196baebba",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/approval.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/cache.py",
+    "sha256": "a0f135a395b5707188dc79f18c5a282674d980344d801d663b4dc87f8088d254",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/cache.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/data.py",
+    "sha256": "3e077aa9db489e0b7033dbffa7a1a93480824232638c4acbc038c077da3272fa",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/data.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/diagnostic_potency.py",
+    "sha256": "b0cb6ea34fa8eb21a5a3c10d2dec72f962685ffea2e734c0ac3415dd896984bf",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/diagnostic_potency.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/diagnostics.py",
+    "sha256": "4b0a431ed94f0ab7bd619749148fbaffa615c9142341a9b374efd437f76e5a72",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/diagnostics.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/endpoints.py",
+    "sha256": "04cf88bd46cf192c2908ab5d933fdcae94f8b9225dfa609944654e0803dd611c",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/endpoints.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/eta050.py",
+    "sha256": "2a24797da0d0b818440c43596c90d5699ce9d46125c0ebddc7687a055a79d643",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/eta050.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/eval_lineage.py",
+    "sha256": "d01c700aa064708d1e35921e46cbf3c42bc8ea45aef65ed75a98620fbe6b0457",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/eval_lineage.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/evaluation.py",
+    "sha256": "b6f5aa6211a1ee4e8cea102a3db7377de38f7066973f3d5331daedf989c4541c",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/evaluation.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/export_lineage.py",
+    "sha256": "d461962c976c2a8dc0c2193718a945c23564bd532e8e32afaba59317590694e3",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/export_lineage.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/export_pipeline.py",
+    "sha256": "6b50ba93b034d3f6d81ec8c0089601974523db9b0d5ccb3347da0f6188c3d6cf",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/export_pipeline.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/exporting.py",
+    "sha256": "e85142e2d57e97adf770eeb5b36763c16ab59f58ebc1796228db645546f2a6a6",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/exporting.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/family_controls.py",
+    "sha256": "884aceb7209ebccb20bf1743185bb64e57d7b1a3acf5d074b60697f4be33d2ed",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/family_controls.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/fixture.py",
+    "sha256": "61fc52eca5fdf211ab0e435f3a571a9ea9c481e1cb23b0e23550c0b85565a3f6",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/fixture.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/forward.py",
+    "sha256": "37c8bab86e829946a29455a26cb8e29459d5fc243af13c58bb8ac123506472e1",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/forward.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/gates.py",
+    "sha256": "672ead9070c51dc0c0e1ee1dd0b0168f6b5ac0356f738d7c4131c82ea4163928",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/gates.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/manipulation.py",
+    "sha256": "7c3a397d93640201875d4447f7f4d755d422757db068bf9db6cd98647f74b4fe",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/manipulation.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/native_acceptance.py",
+    "sha256": "ede0c8b1ebfd80181fa1927424a542cffff474bf9cc9f41ad491383fe2111ea3",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/native_acceptance.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/native_adapters.py",
+    "sha256": "d22b0c1d43bd48a2b33311a5ddcb108c9ae3d456f1c94dacb351287c38571c67",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/native_adapters.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/pipeline.py",
+    "sha256": "94936655d23848ce24d0c117cc63fe708491725d8ec91e982019ea77df7b949f",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/pipeline.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/potency.py",
+    "sha256": "88a39095e5f76d09cb056ec86b5d8288c58ae75530e0f4f9fb67e68266699a64",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/potency.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/profiling.py",
+    "sha256": "b6c584835380ea7c10e0adb369cd242902d789873cab7dc2a1972c0fa825dc76",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/profiling.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/reference.py",
+    "sha256": "72a95f79e116a91eaef71dabb3a2fc8c9789d22c7a5ca5b9e13a31ff3556b4a1",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/reference.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/scope.py",
+    "sha256": "6008e9a557accac901f76d6955fe0a4fe5c258c86ad8b4b53f05bf4f82edb5a8",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/scope.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/selection.py",
+    "sha256": "f3579d1de8607fba32da753b544a37e82b0684e86cca9d8e4832bb79784e00aa",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/selection.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/trainer.py",
+    "sha256": "0cefe882b1088056ddc6b81c44279a70d447ed8373bf0d4ec2682b1dad2dcc63",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/trainer.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/training.py",
+    "sha256": "224b6c13756d0eded40f2b275dbdd6d656612c0efdbb17f338a4dc0e95007f88",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/training.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/interventions/training_cache_source.py",
+    "sha256": "ce444f5df966be0cfe355f98fcbd2c020d8d57d9cea85c8f8748fd84c958e314",
+    "source": {
+      "path": "src/grounded_norm_sft/interventions/training_cache_source.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/io_utils.py",
+    "sha256": "2d5226d54142c0a7cc04eb515e5378417611ae26c33eb5dbb328700bff57e707",
+    "source": {
+      "path": "src/grounded_norm_sft/io_utils.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/metrics/__init__.py",
+    "sha256": "274445746cc762f4fcf1c0ec66767b2ed6a8a269035df4af62b8f9ad74ebb454",
+    "source": {
+      "path": "src/grounded_norm_sft/metrics/__init__.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/metrics/bootstrap.py",
+    "sha256": "1b815e5f3a55ce25a01f5d9e0cf8440f809b6637bcc2f16e67f21c2247418336",
+    "source": {
+      "path": "src/grounded_norm_sft/metrics/bootstrap.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/metrics/calibration.py",
+    "sha256": "461e41f30177bc6533004ac3bc2a39ef26881cc8f0c7429d67e25964e0302512",
+    "source": {
+      "path": "src/grounded_norm_sft/metrics/calibration.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/metrics/normlens.py",
+    "sha256": "0654d280b01200dbb378e6a457ccbcac6c21c961b00d5ff34768372df4a9060e",
+    "source": {
+      "path": "src/grounded_norm_sft/metrics/normlens.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/objective.py",
+    "sha256": "7d79484aaa339640b2c74ac70538f3bc1ef53b6be166176c7c4d884b26e2eba8",
+    "source": {
+      "path": "src/grounded_norm_sft/objective.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/prompts.py",
+    "sha256": "d8d83510a9a5cc33cb01e6c7629db90589c20c48209d672facbdd9a68c574a0b",
+    "source": {
+      "path": "src/grounded_norm_sft/prompts.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/report_provenance.py",
+    "sha256": "e94200af7595cacadb535a89eb7261e99db3cc586eac74ccb6b17fb5348f9fa6",
+    "source": {
+      "path": "src/grounded_norm_sft/report_provenance.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/__init__.py",
+    "sha256": "aaf68968ad11f9f42d5c70d6f1b09d7d70d16975a8d05c7963ade4ec530d2f82",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/__init__.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/checkpoint.py",
+    "sha256": "b0282abee5bbc93806262a05a006fe1ba6286b2f1adc1455d7772e30a3141446",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/checkpoint.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/data_io.py",
+    "sha256": "818c7c8c851448046b39e94ee879f46ab13117f690ebe553d7744f3458352cde",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/data_io.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/ego.py",
+    "sha256": "0b1431fc7f5498ed83a11b9c9ec7895a1e336148c1c46d1b238646957e0b2fff",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/ego.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/ego_generation_diagnostic.py",
+    "sha256": "26b76860e4dbd9021b1e5ca947311963da9c5fa133ebe33e8bd97abf2e825d56",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/ego_generation_diagnostic.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/errors.py",
+    "sha256": "196f8b3ac1932f9ebcbca2ba1613d68d91e70b5b5bb2290a7453797f27f82127",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/errors.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/evaluate.py",
+    "sha256": "b51bfcd8f48ffd8593ca52d1f742dbe2bb1328397c4df6ba3dcaaa497f2c3753",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/evaluate.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/export.py",
+    "sha256": "3d0a5033d06c623126ec686e66e10f143d38265d5d09bda65fcf60d83ef7def7",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/export.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/gates.py",
+    "sha256": "3668f1892b255d4684ca7058245013bab53d61f1c3a568fa8f3b20125be9e681",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/gates.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/ledger.py",
+    "sha256": "e2b11f3dd0e6f8ad676a4064a002c8b20b244332b8d8fec6d9c3e3830e0a4d58",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/ledger.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/lora.py",
+    "sha256": "3fbead19d9270b9aac6ced35b707b8b76fc11aa7e279ea94bcc8db645416954a",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/lora.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/model.py",
+    "sha256": "128f9a4c4cff8f200e6700ee9d68d4f752e260c17f0616cd920aec4ae4786fe0",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/model.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/pins.py",
+    "sha256": "7c1ae7e74cfc6b897881d1ce1e7d809295bfbe8feff186ee1a33a8354d052b0c",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/pins.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/runner.py",
+    "sha256": "528c008bce6d7aa0529a4484b494d65c6cd72d877b970c17dd3072e0073b48de",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/runner.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/source_snapshot.py",
+    "sha256": "b45ab7007e00757d3521a990137247284bfe9eb6674381fbe168b4cecbbf62a4",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/source_snapshot.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/tensorio.py",
+    "sha256": "c267eccfaff8bc7c6f8f7cc464d995abc7fca1e5ebe910ad19b156544adf3131",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/tensorio.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/runtime/train.py",
+    "sha256": "f41e178635c06d46397cb667e624b4e1c9b327f7420e783ac515911d162b5f0e",
+    "source": {
+      "path": "src/grounded_norm_sft/runtime/train.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/schedules.py",
+    "sha256": "264a5b7f2b9265aed2298a42a161c44ddbff8bcfd6272b885591f15fd3d4cb29",
+    "source": {
+      "path": "src/grounded_norm_sft/schedules.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "src/grounded_norm_sft/serializer.py",
+    "sha256": "a65a2d82c0cd0a9d09681f26daf8815ce9c00c032fb291c32cad7ff67b8673c7",
+    "source": {
+      "path": "src/grounded_norm_sft/serializer.py",
+      "kind": "CPU reanalysis source, hash-bound in audit"
+    }
+  },
+  {
+    "path": "requirements-cpu.txt",
+    "sha256": "c20bd98235ea15d5061eb423aa13c854eb9d4cfe8e3f4b84eecef88bf124d2be",
+    "source": {
+      "path": "requirements-cpu.txt"
+    }
+  },
+  {
+    "path": "requirements-runtime.in",
+    "sha256": "6e48e87eea6d65e410b8d7a882365e5609e2d857174593683f870131e9c457ed",
+    "source": {
+      "path": "requirements-runtime.in"
+    }
+  },
+  {
+    "path": "configs/b0_dev_sealed_v1.template.json",
+    "sha256": "2c24cce1bde95dd9a3cd85094ab60cf59c46adae0747ada728c6618ba4231005",
+    "source": {
+      "path": "configs/b0_dev_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/b0_test_image_sealed_v1.template.json",
+    "sha256": "34cd1195467af2c2bea417dd869e0c5f3deddcdd0bad4e3dc3132fb019cc77e0",
+    "source": {
+      "path": "configs/b0_test_image_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/b0_test_textonly_sealed_v1.template.json",
+    "sha256": "e167b56fc48bef20820d11a7211c4ecc65e8d6c3737b0572b73cab36c6afdb43",
+    "source": {
+      "path": "configs/b0_test_textonly_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/b0_test_shuffle_sealed_v1.template.json",
+    "sha256": "e11c53f16eafe3b5389eb69b91a7fa7f3886c49c01277535ca065e8246cd9b7d",
+    "source": {
+      "path": "configs/b0_test_shuffle_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/b1_train_sealed_v1.template.json",
+    "sha256": "e4ec1ffc9f956e08b22f679b9bddf5eaf9bd0dd9ae005dbb96d78628da98388d",
+    "source": {
+      "path": "configs/b1_train_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/b1_export_sealed_v1.template.json",
+    "sha256": "749de43c69aa61606d87e3a43b537c47ce03b3ee42476d036bd73ae30124da5a",
+    "source": {
+      "path": "configs/b1_export_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/b1_test_image_sealed_v1.template.json",
+    "sha256": "e56db8321b28db6d65d4743606ae31d1287784951249898b74ca0ce997788d81",
+    "source": {
+      "path": "configs/b1_test_image_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/b1_test_textonly_sealed_v1.template.json",
+    "sha256": "bc06753494d19a63a4607d820394a5cd867febd8a14a641b2ba2ff9c5c3ba82b",
+    "source": {
+      "path": "configs/b1_test_textonly_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/b1_test_shuffle_sealed_v1.template.json",
+    "sha256": "4744ea7364dbc174feb892e0c3ad792ea8cc7cf2ce2e627e7358f49a53548aab",
+    "source": {
+      "path": "configs/b1_test_shuffle_sealed_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/hybrid_eta050_train_ht_seed17_v1.template.json",
+    "sha256": "58765aeff4e3a9ce7c6f7fab2661ba642008371181878d814add233193e48ff9",
+    "source": {
+      "path": "configs/hybrid_eta050_train_ht_seed17_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/hybrid_eta050_train_hr_seed17_v1.template.json",
+    "sha256": "c42de0b9f66ddea174cd5620af98fe58ab5e9c84afa4bc5226e00e986aa20ac6",
+    "source": {
+      "path": "configs/hybrid_eta050_train_hr_seed17_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/eta050_posttrain_sealed_200gpuh_v1/ht_normlens_image_fp32_verified_retry_v1.template.json",
+    "sha256": "01b2d3a3d216d6e70fc664dda0578750c00b789957fe10b36ee693a1bb8e2586",
+    "source": {
+      "path": "configs/eta050_posttrain_sealed_200gpuh_v1/ht_normlens_image_fp32_verified_retry_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "configs/eta050_posttrain_sealed_200gpuh_v1/hr_normlens_image_fp32_verified_retry_v1.template.json",
+    "sha256": "15914544afb8fa0160bcc841734251b2fa297fbd47d2f9b1e58033a9caa73484",
+    "source": {
+      "path": "configs/eta050_posttrain_sealed_200gpuh_v1/hr_normlens_image_fp32_verified_retry_v1.template.json",
+      "kind": "documented scientific excerpt"
+    }
+  },
+  {
+    "path": "reanalyse.py",
+    "sha256": "fb9ef6503db6ba69ef755db7254eb7f0392d42e197b24713ac333d63e1431f0a",
+    "source": {
+      "path": "midterm audit/reanalyse.py",
+      "adaptation": "explicit artifact-root and fresh output directory; scoring unchanged"
+    }
+  },
+  {
+    "path": "results/accepted_seed17.json",
+    "sha256": "76b62b67afd8b4adc52bb209bd8eb5a181572e564811754a17806e5cc3d30849",
+    "source": {
+      "path": "midterm audit/recomputed.json",
+      "adaptation": "private-path fidelity object omitted"
+    }
+  },
+  {
+    "path": "README.md",
+    "sha256": "f71f92745f0e07af2f45ef6ca0bb390af4e5a75e3fc25d1888b4201eae65620a",
+    "source": {
+      "kind": "new packaging documentation"
+    }
+  }
+]

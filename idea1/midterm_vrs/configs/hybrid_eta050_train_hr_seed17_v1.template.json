@@ -1,0 +1,10 @@
+{
+  "source_sha256": "0de120866a72fe41865635cbf205a50c56b9a054f377548ae04f3f923ee56be6",
+  "note": "Scientific settings excerpt; not an executable or authorized launch. Original bindings omitted.",
+  "settings": {
+    "arm": "H-R",
+    "phase": "hybrid_train",
+    "seed": 17,
+    "split": "train"
+  }
+}

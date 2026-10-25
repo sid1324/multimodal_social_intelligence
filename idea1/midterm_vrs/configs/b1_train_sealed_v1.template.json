@@ -1,0 +1,9 @@
+{
+  "source_sha256": "cbf45d168a61aade297de8b8da597ca7af6382960f55cb494e656dd406282321",
+  "note": "Scientific settings excerpt; not an executable or authorized launch. Original bindings omitted.",
+  "settings": {
+    "phase": "b1_train",
+    "arm": "B1",
+    "seed": 17
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "c4f9e48e6bca7275342bb3229cdcb331e03dd49e7a3f4d520fe272e54b1d10c4",
+  "note": "Scientific settings excerpt; not an executable or authorized launch. Original bindings omitted.",
+  "settings": {
+    "phase": "export_verify",
+    "arm": "B1",
+    "seed": 17
+  }
+}

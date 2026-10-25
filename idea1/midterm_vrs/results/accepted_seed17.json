@@ -1,0 +1,1325 @@
+{
+  "conditions": {
+    "B0": {
+      "image": {
+        "condition": "image",
+        "n_seeds": 1,
+        "per_seed": {
+          "None": {
+            "n": 291,
+            "cond_nll": 0.8295911671271339,
+            "brier": 0.2370150966815254,
+            "full_nll": 0.8303881514405689,
+            "valid_mass": 0.9992036595337733,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.7445255474452555,
+            "macro_f1": 0.7313604479228374,
+            "per_class": {
+              "0": {
+                "precision": 0.8571428571428571,
+                "recall": 0.525,
+                "f1": 0.6511627906976745,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.7739130434782608,
+                "recall": 0.8317757009345794,
+                "f1": 0.8018018018018018,
+                "support": 107
+              },
+              "2": {
+                "precision": 0.6636363636363637,
+                "recall": 0.8390804597701149,
+                "f1": 0.7411167512690355,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [],
+            "confusion_gold_by_pred": [
+              [
+                42,
+                15,
+                23
+              ],
+              [
+                4,
+                89,
+                14
+              ],
+              [
+                3,
+                11,
+                73
+              ]
+            ],
+            "impossible_precision": 0.6636363636363637,
+            "impossible_recall": 0.8390804597701149,
+            "n_wo": 187,
+            "wo_cond_nll": 0.8931772628673493,
+            "wo_accuracy": 0.7005347593582888,
+            "wo_f1": 0.7551342812006319,
+            "wo_per_class": {
+              "0": {
+                "precision": 0.9130434782608695,
+                "recall": 0.525,
+                "f1": 0.6666666666666666,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.8557692307692307,
+                "recall": 0.8317757009345794,
+                "f1": 0.8436018957345972,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.19786096256684493,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 0.4024401229807375,
+                  "accuracy_hard": 0.8455882352941176
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 1.2043817607007463,
+                  "accuracy_hard": 0.644927536231884
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 0.4024401229807375,
+                  "accuracy_hard": 0.8455882352941176
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 1.2043817607007463,
+                  "accuracy_hard": 0.644927536231884
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 0.8295911671271339,
+          "full_nll": 0.8303881514405689,
+          "valid_mass": 0.9992036595337733,
+          "brier": 0.2370150966815254,
+          "accuracy": 0.7445255474452555,
+          "macro_f1": 0.7313604479228374,
+          "wo_cond_nll": 0.8931772628673493,
+          "wo_accuracy": 0.7005347593582888,
+          "wo_f1": 0.7551342812006319,
+          "wo_pred_impossible_rate": 0.19786096256684493
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "full_nll": null,
+          "valid_mass": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      },
+      "text_only": {
+        "condition": "text_only",
+        "n_seeds": 1,
+        "per_seed": {
+          "None": {
+            "n": 291,
+            "cond_nll": 3.101494601112347,
+            "brier": 0.864200319832719,
+            "full_nll": 3.102009983223656,
+            "valid_mass": 0.9994848590158235,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.45985401459854014,
+            "macro_f1": 0.3238938705814776,
+            "per_class": {
+              "0": {
+                "precision": 0.782608695652174,
+                "recall": 0.225,
+                "f1": 0.34951456310679613,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.428,
+                "recall": 1.0,
+                "f1": 0.5994397759103641,
+                "support": 107
+              },
+              "2": {
+                "precision": 1.0,
+                "recall": 0.011494252873563218,
+                "f1": 0.022727272727272728,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [],
+            "confusion_gold_by_pred": [
+              [
+                18,
+                62,
+                0
+              ],
+              [
+                0,
+                107,
+                0
+              ],
+              [
+                5,
+                81,
+                1
+              ]
+            ],
+            "impossible_precision": 1.0,
+            "impossible_recall": 0.011494252873563218,
+            "n_wo": 187,
+            "wo_cond_nll": 2.1598757331085268,
+            "wo_accuracy": 0.6684491978609626,
+            "wo_f1": 0.571354628808045,
+            "wo_per_class": {
+              "0": {
+                "precision": 1.0,
+                "recall": 0.225,
+                "f1": 0.3673469387755102,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.6331360946745562,
+                "recall": 1.0,
+                "f1": 0.7753623188405797,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.0,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 2.6018299263117144,
+                  "accuracy_hard": 0.5073529411764706
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 3.5399100577116123,
+                  "accuracy_hard": 0.41304347826086957
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 2.6018299263117144,
+                  "accuracy_hard": 0.5073529411764706
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 3.5399100577116123,
+                  "accuracy_hard": 0.41304347826086957
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 3.101494601112347,
+          "full_nll": 3.102009983223656,
+          "valid_mass": 0.9994848590158235,
+          "brier": 0.864200319832719,
+          "accuracy": 0.45985401459854014,
+          "macro_f1": 0.3238938705814776,
+          "wo_cond_nll": 2.1598757331085268,
+          "wo_accuracy": 0.6684491978609626,
+          "wo_f1": 0.571354628808045,
+          "wo_pred_impossible_rate": 0.0
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "full_nll": null,
+          "valid_mass": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      },
+      "shuffle": {
+        "condition": "shuffle",
+        "n_seeds": 1,
+        "per_seed": {
+          "None": {
+            "n": 291,
+            "cond_nll": 1.5455005584032473,
+            "brier": 0.5581419669788819,
+            "full_nll": 1.5463387475884414,
+            "valid_mass": 0.999162661190033,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.5109489051094891,
+            "macro_f1": 0.48962290823157884,
+            "per_class": {
+              "0": {
+                "precision": 0.8461538461538461,
+                "recall": 0.275,
+                "f1": 0.41509433962264153,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.6027397260273972,
+                "recall": 0.411214953271028,
+                "f1": 0.4888888888888889,
+                "support": 107
+              },
+              "2": {
+                "precision": 0.4228571428571429,
+                "recall": 0.8505747126436781,
+                "f1": 0.5648854961832062,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [],
+            "confusion_gold_by_pred": [
+              [
+                22,
+                18,
+                40
+              ],
+              [
+                2,
+                44,
+                61
+              ],
+              [
+                2,
+                11,
+                74
+              ]
+            ],
+            "impossible_precision": 0.4228571428571429,
+            "impossible_recall": 0.8505747126436781,
+            "n_wo": 187,
+            "wo_cond_nll": 1.9636418330232082,
+            "wo_accuracy": 0.35294117647058826,
+            "wo_f1": 0.4718934911242604,
+            "wo_per_class": {
+              "0": {
+                "precision": 0.9166666666666666,
+                "recall": 0.275,
+                "f1": 0.4230769230769231,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.7096774193548387,
+                "recall": 0.411214953271028,
+                "f1": 0.5207100591715976,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.5401069518716578,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 1.3150461738088568,
+                  "accuracy_hard": 0.5882352941176471
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 1.7477056958538089,
+                  "accuracy_hard": 0.43478260869565216
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 1.3150461738088568,
+                  "accuracy_hard": 0.5882352941176471
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 1.7477056958538089,
+                  "accuracy_hard": 0.43478260869565216
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 1.5455005584032473,
+          "full_nll": 1.5463387475884414,
+          "valid_mass": 0.999162661190033,
+          "brier": 0.5581419669788819,
+          "accuracy": 0.5109489051094891,
+          "macro_f1": 0.48962290823157884,
+          "wo_cond_nll": 1.9636418330232082,
+          "wo_accuracy": 0.35294117647058826,
+          "wo_f1": 0.4718934911242604,
+          "wo_pred_impossible_rate": 0.5401069518716578
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "full_nll": null,
+          "valid_mass": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      }
+    },
+    "B1": {
+      "image": {
+        "condition": "image",
+        "n_seeds": 1,
+        "per_seed": {
+          "17": {
+            "n": 291,
+            "cond_nll": 0.6344327162322341,
+            "brier": 0.15853199086568429,
+            "full_nll": 0.6345956599241696,
+            "valid_mass": 0.9998370710156624,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.7956204379562044,
+            "macro_f1": 0.7922196679746292,
+            "per_class": {
+              "0": {
+                "precision": 0.7631578947368421,
+                "recall": 0.725,
+                "f1": 0.7435897435897436,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.8333333333333334,
+                "recall": 0.794392523364486,
+                "f1": 0.8133971291866029,
+                "support": 107
+              },
+              "2": {
+                "precision": 0.78125,
+                "recall": 0.8620689655172413,
+                "f1": 0.819672131147541,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [],
+            "confusion_gold_by_pred": [
+              [
+                58,
+                9,
+                13
+              ],
+              [
+                14,
+                85,
+                8
+              ],
+              [
+                4,
+                8,
+                75
+              ]
+            ],
+            "impossible_precision": 0.78125,
+            "impossible_recall": 0.8620689655172413,
+            "n_wo": 187,
+            "wo_cond_nll": 0.6338803435397815,
+            "wo_accuracy": 0.7647058823529411,
+            "wo_f1": 0.8044645195077246,
+            "wo_per_class": {
+              "0": {
+                "precision": 0.8055555555555556,
+                "recall": 0.725,
+                "f1": 0.7631578947368421,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.9042553191489362,
+                "recall": 0.794392523364486,
+                "f1": 0.845771144278607,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.11229946524064172,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 0.24980769085599336,
+                  "accuracy_hard": 0.8970588235294118
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 0.9719101578526775,
+                  "accuracy_hard": 0.6956521739130435
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 0.24980769085599336,
+                  "accuracy_hard": 0.8970588235294118
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 0.9719101578526775,
+                  "accuracy_hard": 0.6956521739130435
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 0.6344327162322341,
+          "full_nll": 0.6345956599241696,
+          "valid_mass": 0.9998370710156624,
+          "brier": 0.15853199086568429,
+          "accuracy": 0.7956204379562044,
+          "macro_f1": 0.7922196679746292,
+          "wo_cond_nll": 0.6338803435397815,
+          "wo_accuracy": 0.7647058823529411,
+          "wo_f1": 0.8044645195077246,
+          "wo_pred_impossible_rate": 0.11229946524064172
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "full_nll": null,
+          "valid_mass": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      },
+      "text_only": {
+        "condition": "text_only",
+        "n_seeds": 1,
+        "per_seed": {
+          "17": {
+            "n": 291,
+            "cond_nll": 2.6715435107448964,
+            "brier": 0.8411810486586063,
+            "full_nll": 2.671712285514619,
+            "valid_mass": 0.9998312412426339,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.45255474452554745,
+            "macro_f1": 0.3172641341180667,
+            "per_class": {
+              "0": {
+                "precision": 0.76,
+                "recall": 0.2375,
+                "f1": 0.3619047619047619,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.42168674698795183,
+                "recall": 0.9813084112149533,
+                "f1": 0.5898876404494382,
+                "support": 107
+              },
+              "2": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [
+              2
+            ],
+            "confusion_gold_by_pred": [
+              [
+                19,
+                61,
+                0
+              ],
+              [
+                2,
+                105,
+                0
+              ],
+              [
+                4,
+                83,
+                0
+              ]
+            ],
+            "impossible_precision": 0.0,
+            "impossible_recall": 0.0,
+            "n_wo": 187,
+            "wo_cond_nll": 1.7141652672031633,
+            "wo_accuracy": 0.6631016042780749,
+            "wo_f1": 0.5727341964965728,
+            "wo_per_class": {
+              "0": {
+                "precision": 0.9047619047619048,
+                "recall": 0.2375,
+                "f1": 0.37623762376237624,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.6325301204819277,
+                "recall": 0.9813084112149533,
+                "f1": 0.7692307692307693,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.0,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 2.2596395569130325,
+                  "accuracy_hard": 0.5073529411764706
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 3.032956012171564,
+                  "accuracy_hard": 0.39855072463768115
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 2.2596395569130325,
+                  "accuracy_hard": 0.5073529411764706
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 3.032956012171564,
+                  "accuracy_hard": 0.39855072463768115
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 2.6715435107448964,
+          "full_nll": 2.671712285514619,
+          "valid_mass": 0.9998312412426339,
+          "brier": 0.8411810486586063,
+          "accuracy": 0.45255474452554745,
+          "macro_f1": 0.3172641341180667,
+          "wo_cond_nll": 1.7141652672031633,
+          "wo_accuracy": 0.6631016042780749,
+          "wo_f1": 0.5727341964965728,
+          "wo_pred_impossible_rate": 0.0
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "full_nll": null,
+          "valid_mass": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      },
+      "shuffle": {
+        "condition": "shuffle",
+        "n_seeds": 1,
+        "per_seed": {
+          "17": {
+            "n": 291,
+            "cond_nll": 1.3696355989596407,
+            "brier": 0.4982350469880462,
+            "full_nll": 1.369797772614505,
+            "valid_mass": 0.9998378409123247,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.551094890510949,
+            "macro_f1": 0.5387001502629326,
+            "per_class": {
+              "0": {
+                "precision": 0.6976744186046512,
+                "recall": 0.375,
+                "f1": 0.4878048780487805,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.64,
+                "recall": 0.4485981308411215,
+                "f1": 0.5274725274725275,
+                "support": 107
+              },
+              "2": {
+                "precision": 0.46794871794871795,
+                "recall": 0.8390804597701149,
+                "f1": 0.6008230452674898,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [],
+            "confusion_gold_by_pred": [
+              [
+                30,
+                17,
+                33
+              ],
+              [
+                9,
+                48,
+                50
+              ],
+              [
+                4,
+                10,
+                73
+              ]
+            ],
+            "impossible_precision": 0.46794871794871795,
+            "impossible_recall": 0.8390804597701149,
+            "n_wo": 187,
+            "wo_cond_nll": 1.701439120620663,
+            "wo_accuracy": 0.41711229946524064,
+            "wo_f1": 0.531170607777995,
+            "wo_per_class": {
+              "0": {
+                "precision": 0.7692307692307693,
+                "recall": 0.375,
+                "f1": 0.5042016806722689,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.7384615384615385,
+                "recall": 0.4485981308411215,
+                "f1": 0.5581395348837209,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.44385026737967914,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 1.1498447745793776,
+                  "accuracy_hard": 0.6029411764705882
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 1.5624843222868392,
+                  "accuracy_hard": 0.5
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 1.1498447745793776,
+                  "accuracy_hard": 0.6029411764705882
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 1.5624843222868392,
+                  "accuracy_hard": 0.5
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 1.3696355989596407,
+          "full_nll": 1.369797772614505,
+          "valid_mass": 0.9998378409123247,
+          "brier": 0.4982350469880462,
+          "accuracy": 0.551094890510949,
+          "macro_f1": 0.5387001502629326,
+          "wo_cond_nll": 1.701439120620663,
+          "wo_accuracy": 0.41711229946524064,
+          "wo_f1": 0.531170607777995,
+          "wo_pred_impossible_rate": 0.44385026737967914
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "full_nll": null,
+          "valid_mass": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      }
+    },
+    "H-T": {
+      "image": {
+        "condition": "image",
+        "n_seeds": 1,
+        "per_seed": {
+          "17": {
+            "n": 291,
+            "cond_nll": 0.6104434288416514,
+            "brier": 0.1483975563906387,
+            "full_nll": 0.6106799338923987,
+            "valid_mass": 0.9997635250035587,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.8065693430656934,
+            "macro_f1": 0.8004026986509459,
+            "per_class": {
+              "0": {
+                "precision": 0.8181818181818182,
+                "recall": 0.675,
+                "f1": 0.7397260273972602,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.8686868686868687,
+                "recall": 0.8037383177570093,
+                "f1": 0.8349514563106796,
+                "support": 107
+              },
+              "2": {
+                "precision": 0.7431192660550459,
+                "recall": 0.9310344827586207,
+                "f1": 0.826530612244898,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [],
+            "confusion_gold_by_pred": [
+              [
+                54,
+                8,
+                18
+              ],
+              [
+                11,
+                86,
+                10
+              ],
+              [
+                1,
+                5,
+                81
+              ]
+            ],
+            "impossible_precision": 0.7431192660550459,
+            "impossible_recall": 0.9310344827586207,
+            "n_wo": 187,
+            "wo_cond_nll": 0.6318620167070617,
+            "wo_accuracy": 0.7486631016042781,
+            "wo_f1": 0.8002744896208612,
+            "wo_per_class": {
+              "0": {
+                "precision": 0.8307692307692308,
+                "recall": 0.675,
+                "f1": 0.7448275862068966,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.9148936170212766,
+                "recall": 0.8037383177570093,
+                "f1": 0.8557213930348259,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.1497326203208556,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 0.26825814537957193,
+                  "accuracy_hard": 0.9117647058823529
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 0.9106834194922503,
+                  "accuracy_hard": 0.7028985507246377
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 0.26825814537957193,
+                  "accuracy_hard": 0.9117647058823529
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 0.9106834194922503,
+                  "accuracy_hard": 0.7028985507246377
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 0.6104434288416514,
+          "full_nll": 0.6106799338923987,
+          "valid_mass": 0.9997635250035587,
+          "brier": 0.1483975563906387,
+          "accuracy": 0.8065693430656934,
+          "macro_f1": 0.8004026986509459,
+          "wo_cond_nll": 0.6318620167070617,
+          "wo_accuracy": 0.7486631016042781,
+          "wo_f1": 0.8002744896208612,
+          "wo_pred_impossible_rate": 0.1497326203208556
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "full_nll": null,
+          "valid_mass": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      }
+    },
+    "H-R": {
+      "image": {
+        "condition": "image",
+        "n_seeds": 1,
+        "per_seed": {
+          "17": {
+            "n": 291,
+            "cond_nll": 0.6328820913303306,
+            "brier": 0.15677248272195396,
+            "full_nll": 0.6330841824857205,
+            "valid_mass": 0.9997979313841903,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.7992700729927007,
+            "macro_f1": 0.7946124325506273,
+            "per_class": {
+              "0": {
+                "precision": 0.7887323943661971,
+                "recall": 0.7,
+                "f1": 0.7417218543046358,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.8431372549019608,
+                "recall": 0.8037383177570093,
+                "f1": 0.8229665071770335,
+                "support": 107
+              },
+              "2": {
+                "precision": 0.7623762376237624,
+                "recall": 0.8850574712643678,
+                "f1": 0.8191489361702128,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [],
+            "confusion_gold_by_pred": [
+              [
+                56,
+                9,
+                15
+              ],
+              [
+                12,
+                86,
+                9
+              ],
+              [
+                3,
+                7,
+                77
+              ]
+            ],
+            "impossible_precision": 0.7623762376237624,
+            "impossible_recall": 0.8850574712643678,
+            "n_wo": 187,
+            "wo_cond_nll": 0.6391668301733268,
+            "wo_accuracy": 0.7593582887700535,
+            "wo_f1": 0.8041209526358042,
+            "wo_per_class": {
+              "0": {
+                "precision": 0.8235294117647058,
+                "recall": 0.7,
+                "f1": 0.7567567567567568,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.9052631578947369,
+                "recall": 0.8037383177570093,
+                "f1": 0.8514851485148515,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.12834224598930483,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 0.24107473807531388,
+                  "accuracy_hard": 0.9117647058823529
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 0.9766614464444096,
+                  "accuracy_hard": 0.6884057971014492
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 0.24107473807531388,
+                  "accuracy_hard": 0.9117647058823529
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 0.9766614464444096,
+                  "accuracy_hard": 0.6884057971014492
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 0.6328820913303306,
+          "full_nll": 0.6330841824857205,
+          "valid_mass": 0.9997979313841903,
+          "brier": 0.15677248272195396,
+          "accuracy": 0.7992700729927007,
+          "macro_f1": 0.7946124325506273,
+          "wo_cond_nll": 0.6391668301733268,
+          "wo_accuracy": 0.7593582887700535,
+          "wo_f1": 0.8041209526358042,
+          "wo_pred_impossible_rate": 0.12834224598930483
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "full_nll": null,
+          "valid_mass": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      }
+    },
+    "B0-cal": {
+      "image": {
+        "condition": "image",
+        "n_seeds": 1,
+        "per_seed": {
+          "None": {
+            "n": 291,
+            "cond_nll": 0.7792007293776493,
+            "brier": 0.22812508642740725,
+            "full_nll": null,
+            "valid_mass": null,
+            "n_hard": 274,
+            "n_tied_omitted": 17,
+            "accuracy": 0.7445255474452555,
+            "macro_f1": 0.7356359608341316,
+            "per_class": {
+              "0": {
+                "precision": 0.7246376811594203,
+                "recall": 0.625,
+                "f1": 0.6711409395973155,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.7807017543859649,
+                "recall": 0.8317757009345794,
+                "f1": 0.8054298642533937,
+                "support": 107
+              },
+              "2": {
+                "precision": 0.7142857142857143,
+                "recall": 0.7471264367816092,
+                "f1": 0.7303370786516854,
+                "support": 87
+              }
+            },
+            "missing_in_gold": [],
+            "missing_in_pred": [],
+            "confusion_gold_by_pred": [
+              [
+                50,
+                13,
+                17
+              ],
+              [
+                9,
+                89,
+                9
+              ],
+              [
+                10,
+                12,
+                65
+              ]
+            ],
+            "impossible_precision": 0.7142857142857143,
+            "impossible_recall": 0.7471264367816092,
+            "n_wo": 187,
+            "wo_cond_nll": 0.7644569541145846,
+            "wo_accuracy": 0.7433155080213903,
+            "wo_f1": 0.78554955078999,
+            "wo_per_class": {
+              "0": {
+                "precision": 0.847457627118644,
+                "recall": 0.625,
+                "f1": 0.7194244604316546,
+                "support": 80
+              },
+              "1": {
+                "precision": 0.8725490196078431,
+                "recall": 0.8317757009345794,
+                "f1": 0.8516746411483254,
+                "support": 107
+              }
+            },
+            "wo_pred_impossible_rate": 0.13903743315508021,
+            "strata": {
+              "agreement": {
+                "HA": {
+                  "n": 136,
+                  "cond_nll": 0.39137951873401466,
+                  "accuracy_hard": 0.8529411764705882
+                },
+                "MA": {
+                  "n": 155,
+                  "cond_nll": 1.1194825658133547,
+                  "accuracy_hard": 0.6376811594202898
+                }
+              },
+              "entropy": {
+                "[0.0000,0.3333)": {
+                  "n": 136,
+                  "cond_nll": 0.39137951873401466,
+                  "accuracy_hard": 0.8529411764705882
+                },
+                "[0.3333,0.6667)": {
+                  "n": 155,
+                  "cond_nll": 1.1194825658133547,
+                  "accuracy_hard": 0.6376811594202898
+                }
+              }
+            }
+          }
+        },
+        "seed_mean": {
+          "cond_nll": 0.7792007293776493,
+          "brier": 0.22812508642740725,
+          "accuracy": 0.7445255474452555,
+          "macro_f1": 0.7356359608341316,
+          "wo_cond_nll": 0.7644569541145846,
+          "wo_accuracy": 0.7433155080213903,
+          "wo_f1": 0.78554955078999,
+          "wo_pred_impossible_rate": 0.13903743315508021
+        },
+        "seed_sd": {
+          "cond_nll": null,
+          "brier": null,
+          "accuracy": null,
+          "macro_f1": null,
+          "wo_cond_nll": null,
+          "wo_accuracy": null,
+          "wo_f1": null,
+          "wo_pred_impossible_rate": null
+        },
+        "label": "single-seed pilot"
+      }
+    }
+  },
+  "contrasts": {
+    "B1 minus B0-cal": {
+      "metric": "cond_nll",
+      "n": 291,
+      "point": -0.14476801314541526,
+      "bootstrap": {
+        "status": "ok",
+        "point": -0.14476801314541526,
+        "ci_low": -0.21024710564874222,
+        "ci_high": -0.08374359525257567,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "reps": 2000,
+        "seed": 20261021,
+        "n_examples": 291,
+        "n_clusters": 253
+      },
+      "per_seed_differences": {
+        "17-None": -0.14476801314541526
+      },
+      "seed_diff_mean": -0.14476801314541526,
+      "seed_diff_sd": null,
+      "favorable_direction": "negative",
+      "label": "single-seed pilot"
+    },
+    "B1 minus B0": {
+      "metric": "cond_nll",
+      "n": 291,
+      "point": -0.1951584508948998,
+      "bootstrap": {
+        "status": "ok",
+        "point": -0.1951584508948998,
+        "ci_low": -0.2723413767861658,
+        "ci_high": -0.1224280445612093,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "reps": 2000,
+        "seed": 20261021,
+        "n_examples": 291,
+        "n_clusters": 253
+      },
+      "per_seed_differences": {
+        "17-None": -0.1951584508948998
+      },
+      "seed_diff_mean": -0.1951584508948998,
+      "seed_diff_sd": null,
+      "favorable_direction": "negative",
+      "label": "single-seed pilot"
+    },
+    "H-T minus B1": {
+      "metric": "cond_nll",
+      "n": 291,
+      "point": -0.023989287390582557,
+      "bootstrap": {
+        "status": "ok",
+        "point": -0.023989287390582557,
+        "ci_low": -0.04291916888626591,
+        "ci_high": -0.005879291135638841,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "reps": 2000,
+        "seed": 20261021,
+        "n_examples": 291,
+        "n_clusters": 253
+      },
+      "per_seed_differences": {
+        "17-17": -0.023989287390582557
+      },
+      "seed_diff_mean": -0.023989287390582557,
+      "seed_diff_sd": null,
+      "favorable_direction": "negative",
+      "label": "single-seed pilot"
+    },
+    "H-R minus B1": {
+      "metric": "cond_nll",
+      "n": 291,
+      "point": -0.0015506249019034927,
+      "bootstrap": {
+        "status": "ok",
+        "point": -0.0015506249019034927,
+        "ci_low": -0.01362914534889475,
+        "ci_high": 0.01150419845668093,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "reps": 2000,
+        "seed": 20261021,
+        "n_examples": 291,
+        "n_clusters": 253
+      },
+      "per_seed_differences": {
+        "17-17": -0.0015506249019034927
+      },
+      "seed_diff_mean": -0.0015506249019034927,
+      "seed_diff_sd": null,
+      "favorable_direction": "negative",
+      "label": "single-seed pilot"
+    },
+    "H-T minus H-R": {
+      "metric": "cond_nll",
+      "n": 291,
+      "point": -0.022438662488679068,
+      "bootstrap": {
+        "status": "ok",
+        "point": -0.022438662488679068,
+        "ci_low": -0.03757776739122498,
+        "ci_high": -0.006145516426973083,
+        "percentiles": [
+          2.5,
+          97.5
+        ],
+        "reps": 2000,
+        "seed": 20261021,
+        "n_examples": 291,
+        "n_clusters": 253
+      },
+      "per_seed_differences": {
+        "17-17": -0.022438662488679068
+      },
+      "seed_diff_mean": -0.022438662488679068,
+      "seed_diff_sd": null,
+      "favorable_direction": "negative",
+      "label": "single-seed pilot"
+    }
+  },
+  "transitions": {
+    "B1 versus B0-cal": {
+      "improved": 35,
+      "regressed": 21,
+      "both_correct": 183,
+      "both_wrong": 35,
+      "tied_gold": 17
+    },
+    "H-T versus B1": {
+      "improved": 12,
+      "regressed": 9,
+      "both_correct": 209,
+      "both_wrong": 44,
+      "tied_gold": 17
+    },
+    "H-T versus H-R": {
+      "improved": 8,
+      "regressed": 6,
+      "both_correct": 213,
+      "both_wrong": 47,
+      "tied_gold": 17
+    }
+  },
+  "split_counts": {
+    "train": 1395,
+    "dev": 296,
+    "test": 291
+  },
+  "scope": "Saved-output CPU reanalysis only; no new predictions, calibration fit, checkpoint choice or GPU work. Hybrid contrasts exploratory, no multiplicity correction; image-group CIs do not cover training-seed variation."
+}

@@ -1,0 +1,15 @@
+{
+  "source_sha256": "e7762fcf0ca03b5e2aaac47171be614d92b52a09b52940939706c311829eed81",
+  "note": "Scientific settings excerpt; not an executable or authorized launch. Original bindings omitted.",
+  "settings": {
+    "phase": "b0_eval",
+    "arm": "B0",
+    "seed": null,
+    "eval": {
+      "split": "test",
+      "task": "normlens",
+      "condition": "image",
+      "first_forward_reserve_minutes": 2
+    }
+  }
+}

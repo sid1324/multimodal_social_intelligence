@@ -1,0 +1,25 @@
+# Baseline runtime requirements input. Direct dependencies pinned to the versions in the
+# manager-verified freeze /tmp/grounded_norm_runtime_environment.freeze.txt (.venv-runtime,
+# Python 3.11.6, macOS CPU; `pip check` passed). Transitive pins: use that freeze as the lock.
+# Not yet verified on Linux/CUDA: the GPU host must resolve the same versions with a CUDA torch
+# build, record CUDA/driver/env hash in configs/runtime_pins.json (runtime_gates_open), and the
+# runtime refuses if installed versions differ from those pins.
+
+# Exact source pin: must be recorded in PEP 610 direct_url.json (vcs_info.commit_id);
+# the "5.21.0.dev0" version string alone is rejected.
+transformers @ git+https://github.com/huggingface/transformers.git@f348d3dcfa9317bed603e01b8ca22b11fe59615c
+tokenizers==0.23.3
+huggingface_hub==2.2.0
+
+torch==2.14.1
+torchvision==0.29.1
+peft==0.21.2
+accelerate==1.15.0
+safetensors==0.8.0
+numpy==1.26.4
+pillow==13.0.0
+pytest==8.3.2
+
+# Deliberately ABSENT under delta_kernel_backend = "torch_native_fallback":
+#   flash-linear-attention (fla), causal-conv1d, kernels
+# Their presence makes the runtime refuse (a different Delta backend needs its own pin and tests).

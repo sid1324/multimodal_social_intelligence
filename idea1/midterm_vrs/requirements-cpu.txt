@@ -1,0 +1,13 @@
+# CPU data + metrics environment: the versions in the manager's fully isolated, validated CPU
+# environment (2026-10-22; acceptance receipt provenance/cpu_acceptance_20261022.txt). Pillow 13.0.0 was the latest release on the pip index that
+# day; it replaces the provisional audit's historic Pillow 10.2.0. Decoder equivalence was checked,
+# not assumed: all 1,742 RGB identities matched the provisional manifest (compare-legacy).
+#
+# Fresh reproducible install (full transitive constraints from the recorded inventory):
+#   pip install -r requirements-cpu.txt -c provenance/cpu_environment.freeze.txt
+numpy==1.26.4
+scipy==1.14.1
+Pillow==13.0.0
+ImageHash==4.3.2
+PyWavelets==1.9.0
+pytest==8.3.2

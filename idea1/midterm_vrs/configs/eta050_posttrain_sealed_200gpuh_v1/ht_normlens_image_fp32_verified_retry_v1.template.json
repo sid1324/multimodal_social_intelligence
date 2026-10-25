@@ -1,0 +1,22 @@
+{
+  "source_sha256": "534f9a76816b91f8403fbc608607f62063f3903293d5c07ecbcd242338d73d53",
+  "note": "Scientific settings excerpt; not an executable or authorized launch. Original bindings omitted.",
+  "settings": {
+    "arm": "H-T",
+    "eval": {
+      "adapter_config_sha256": "9d65d64b7b168988b8db664fb3952442a9ff82c6c6ad9e645e7a4337dd0a9831",
+      "condition": "image",
+      "export_consumer": {
+        "source_manifest_sha256": "c8cd5260fc2f4af6ce6b77adad0fdd48aa97662a952ec75fcfc9916eb3f90776",
+        "source_snapshot_sha256": "18280c21472e87585bafca694b1c8fdfaeeaf81a96ed2c3359ebfa34aa29dbb3"
+      },
+      "export_report_sha256": "f44f69b3e4efaa737cb72ce54f2aec133566c2de54fe49dbb71bc4f029868ecd",
+      "first_forward_reserve_minutes": 2,
+      "split": "test",
+      "task": "normlens"
+    },
+    "phase": "hybrid_eval",
+    "seed": 17,
+    "split": "train"
+  }
+}
