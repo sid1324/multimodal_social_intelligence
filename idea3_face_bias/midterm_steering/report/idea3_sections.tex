@@ -8,9 +8,10 @@
 % =====================================================================
 
 % --- Abstract: one sentence (finalize after the test run) ---
-% Idea 3 asks whether a person's apparent trustworthiness, cued in text or by a face, sways a VLM's choice of socially
-% appropriate action, and whether removing a trust direction estimated from language also removes the face's influence;
-% \TBD{headline finding}.
+% Idea 3 shows that one sentence about a person's apparent trustworthiness changes Qwen3-VL's chosen action on 24.5% of
+% test items (2.5% for a paraphrase), that removing a text-derived trust direction or adding a constitution prompt
+% lowers this by about six points without measurable loss of responsiveness to behavior, and that synthetic faces
+% shown beside the scene carry no detectable trust effect.
 
 % --- 1. Introduction: challenge paragraph (1 to 2 sentences) ---
 % A socially competent model must react to what people do and visibly express, yet humans and language models also
@@ -91,23 +92,24 @@ Before steering, we checked on 300 train items that the text cue moves the model
 
 The estimated appearance and behavior directions are nearly orthogonal in early layers but converge in the second half of the network: their cosine similarity stays between $-0.14$ and $0.07$ in layers 0 to 9, rises through layers 10 to 18, and holds at 0.78 to 0.81 in layers 19 to 33 before dropping at the final layer (0.32 at layer 35; Figure~\ref{fig:idea3-dirs}a). Both directions are stable (split-half cosine at least 0.93 in every layer). The model thus largely represents trust inferred from looks and trust earned through behavior with one shared direction, which predicts that removing the appearance direction will also weaken legitimate behavior responsiveness. One caveat applies: both contrasts pair a negative with a positive sentence, so part of the overlap may reflect general sentence valence rather than trust specifically.
 
-\TBD{Validation choice: naive = configuration, refined = configuration, and whether any constraint had to be relaxed (Figure~\ref{fig:idea3-dirs}b).}
-Table~\ref{tab:idea3-main} reports the test split. \TBD{2 to 4 sentences: S\_app base vs refined vs naive on train and held-out wordings; R\_beh and R\_state retained or lost; clean accuracy cost; constitution baseline; face sensitivity and whether text-derived steering reduced it (the multimodal transfer result).}
+On validation, the pre-registered rule selected naive removal at layers 14 to 35 and refined removal at layer 25, both with $\alpha=1$ and both meeting the two constraints (Figure~\ref{fig:idea3-dirs}b). On the test split (Table~\ref{tab:idea3-main}), naive steering lowers appearance flips from 24.5\% to 17.8\% with training wordings (paired difference $-6.7$ points, 95\% CI [$-9.4$, $-4.1$]) and from 18.0\% to 12.3\% with held-out wordings ($-5.6$ [$-8.4$, $-2.9$]), with no detectable loss in behavior responsiveness ($-1.1$ [$-3.6$, $1.4$]), expressed-state responsiveness ($-1.9$ [$-4.7$, $0.9$]) or clean accuracy ($-1.0$ [$-2.9$, $1.1$]). The constitution prompt achieves a similar reduction without any internal change ($-5.7$ [$-8.8$, $-2.7$]; held-out $-4.7$ [$-8.0$, $-1.4$]). Refined steering does not reduce appearance flips ($-0.8$ [$-2.8$, $1.2$]): the appearance effect travels mainly through the component shared with behavior, so removing only the unshared part leaves it intact, as Figure~\ref{fig:idea3-dirs}a anticipates. A one-prompt-at-a-time recheck on 100 test items reproduced these rates within half a point.
+
+The face channel tells a different story. Replacing a higher-trust with a lower-trust OMI face changes the base model's answer on 4.0\% of items, against 2.7\% for two equally rated faces, so trust-specific face sensitivity is indistinguishable from zero ($S_{\text{face}}=1.2$ [$-1.1$, $3.6$]). The face-induced shift in option probabilities is also unrelated to the text trust axis (mean cosine 0.0; same sign on 50\% of items). With no face effect to remove, the text-to-vision transfer test is uninformative, and no method changes $S_{\text{face}}$ beyond noise.
 
 \begin{table}[t]
 \centering
-\caption{Idea 3 test results (401 cue items, 622 items for clean accuracy). Flip rates in \%, 95\% intervals clustered by source video. $S_0$: wording noise floor. $S_{\text{app}}$: appearance flips with training (tr) and unseen (ho) wordings. $R$: behavior and expressed-state flips (higher is better). $S_{\text{face}}$: OMI trust-pair flips minus equal-trust-pair flips.}
+\caption{Idea 3 test results in \% (401 cue items; 622 items for accuracy). $S_{\text{app}}$ with training (tr) and held-out (ho) wordings; $S_{\text{face}}$: trust-pair minus equal-trust-pair flips. $^{*}$: paired difference from base with a 95\% interval (clustered by video) excluding zero.}
 \label{tab:idea3-main}
 \footnotesize
 \setlength{\tabcolsep}{2.5pt}
 \begin{tabular}{lccccccc}
 \toprule
-Method & Acc & $S_0$ & $S_{\text{app}}^{\text{tr}}$ & $S_{\text{app}}^{\text{ho}}$ & $R_{\text{beh}}$ & $R_{\text{state}}$ & $S_{\text{face}}$\\
+Method & Acc$\uparrow$ & $S_0$ & $S^{\text{tr}}_{\text{app}}\downarrow$ & $S^{\text{ho}}_{\text{app}}\downarrow$ & $R_{\text{beh}}\uparrow$ & $R_{\text{state}}\uparrow$ & $S_{\text{face}}\downarrow$ \\
 \midrule
-Base & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{}\\
-Constitution & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{}\\
-Naive & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{}\\
-Refined & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{}\\
+Base & 62.4 & 2.5 & 24.5 & 18.0 & 19.7 & 32.4 & 1.2 \\
+Constitution & 61.6 & 2.5 & 18.8$^{*}$ & 13.2$^{*}$ & 18.0 & 30.0 & 3.0 \\
+Naive steering & 61.4 & 2.7 & 17.8$^{*}$ & 12.3$^{*}$ & 18.6 & 30.6 & 2.5 \\
+Refined steering & 62.9 & 1.5 & 23.8 & 16.1 & 21.6 & 32.0 & 0.8 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -120,17 +122,14 @@ Refined & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{} & \TBD{}\\
 \end{figure}
 
 \paragraph{Failure analysis.}
-\TBD{From failure\_cases.md: (1) items that still flip under appearance cues after refined steering, by norm and person-directed option; (2) items whose behavior response was lost; (3) held-out wording failures; (4) face-photo cases (large effects not aligned with rated trust, smile and dominance confound); (5) clean-accuracy damage; one qualitative example.}
-
-\paragraph{Limitations.}
-The face arm presents a synthetic portrait beside the scene rather than inside it, so it measures sensitivity to a face the model is told belongs to the other person, not to an incidental face; in OMI, rated trustworthiness also correlates strongly with rated dominance ($r=-0.81$), which our matching does not hold fixed. Sentence cues are explicit and may be followed partly as instructions. All results come from one 8B model.
+Three patterns stand out. \emph{Avoidance.} Under the low-trust cue the base model chooses person-directed actions less often (58.1\% versus 63.8\%) and is less accurate (54.5\% versus 60.4\%); in one kitchen scene it replaces the gold ``place the food neatly onto the plate and hand it to the person'' ($p=0.82$ under the high-trust cue) with ``discard the uneaten food'' ($p=0.995$), and naive steering restores the gold action under both cues. \emph{Invariance without correctness.} Naive steering removes the flip on 43 of the 139 sensitive items but leaves 96, and when it does remove a flip the shared answer is correct only 49\% of the time (61\% for the constitution prompt): it often makes the model equally wrong under both cues rather than right. \emph{No visual trust channel.} The faces move answers about as often as any change of identity does, and the moves do not follow rated trustworthiness. We hypothesize that an explicit sentence is an instruction-like attribute the model acts on, whereas a separate portrait is either not bound to the person in the scene or not read for trait impressions; whether Qwen rates these faces' trustworthiness when asked directly would separate the two. Limitations: OMI trustworthiness is strongly anticorrelated with rated dominance ($r=-0.81$), which our matching does not hold fixed, the cues are explicit sentences, and all results come from one 8B model.
 
 \subsection{Updated Research Idea}
-\TBD{Finalize after test results.} The near-identical late-layer directions suggest that no unconditional edit can remove appearance-based trust while sparing behavior-based trust, because the model routes both through the same representation. The updated idea therefore learns a \emph{conditional} rule instead of deleting a direction: ignore trust whose source is appearance, keep trust whose source is observed behavior. We will fine-tune Qwen3-VL with LoRA using direct preference optimization \citep{rafailov2023dpo} on invariance pairs specified by the constitution: for an appearance cue $c$, the preferred answer is the model's no-cue answer $y^{+}=\hat y(x,\varnothing)$ and the dispreferred answer is the cue-induced one $y^{-}=\hat y(x,c)$, with
+The midterm results change the idea in two ways. First, because appearance and behavior share one late-layer direction and naive removal often produces invariance by settling on a wrong answer, we replace unconditional removal with a learned, conditional rule: ignore trust whose source is appearance, keep trust whose source is observed behavior. We will fine-tune Qwen3-VL with LoRA using direct preference optimization \citep{rafailov2023dpo} on invariance pairs specified by the constitution. For an appearance cue $c$, the preferred answer is the model's cue-free answer $y^{+}=\hat y(x,\varnothing)$ and the dispreferred answer is the cue-induced one $y^{-}=\hat y(x,c)$, with
 \begin{align}
 r_\theta(y)&=\beta\log\frac{\pi_\theta(y\mid x,c)}{\pi_{\text{ref}}(y\mid x,c)},\\
-\mathcal{L}_{\text{DPO}}&=-\,\mathbb{E}\big[\log\sigma\big(r_\theta(y^{+})-r_\theta(y^{-})\big)\big],
+\mathcal{L}_{\text{DPO}}&=-\,\mathbb{E}\big[\log\sigma\big(r_\theta(y^{+})-r_\theta(y^{-})\big)\big].
 \end{align}
-while behavior cues receive no invariance pairs, so their influence is left free. Training uses text cues only; the test is whether invariance learned from language transfers to the face channel ($S_{\text{face}}$) and to unseen wordings, compared directly against the steering baseline above.
+Tying the preferred answer to the cue-free prediction targets invariance toward the unbiased choice rather than toward any constant answer, while behavior cues receive no invariance pairs so their influence is left free. Second, the face result shows that cross-modal transfer cannot be tested until a face reliably carries a trust impression into the decision. Before training, we will check whether Qwen perceives the OMI faces' trustworthiness when asked directly and compare a portrait beside the scene with the same face composited into it with expression held fixed \citep{sobieszek2026}; the trained model is then evaluated on held-out wordings, behavior and state cues, and on whichever face condition shows a baseline effect, against the steering and constitution baselines above.
 
 % BibTeX entries for the new references are in idea3_refs.bib (paste into the team .bib).

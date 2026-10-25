@@ -83,33 +83,34 @@ def fig_example(item_id, methods=('base', 'naive', 'refined'), out_name='idea3_e
     get = lambda m, c: next(r for r in rows if r['method'] == m and r['condition'] == c)
     opts = [(i, b) for i, b in enumerate(v['behaviors']) if b.strip()]
     letters = 'ABCD'
-    fig = plt.figure(figsize=(6.75, 3.15))
-    gs = fig.add_gridspec(2, len(methods) + 1, height_ratios=[1.0, 1.25], width_ratios=[1.55] + [1] * len(methods),
-                          hspace=0.35, wspace=0.12)
+    fig = plt.figure(figsize=(6.75, 3.7))
+    gs = fig.add_gridspec(2, len(methods) + 1, height_ratios=[1.0, 1.75], width_ratios=[1.7] + [1] * len(methods),
+                          hspace=0.35, wspace=0.16)
     ax = fig.add_subplot(gs[0, :])
     ax.imshow(Image.open(image_path(item_id)).convert('RGB')); ax.axis('off')
     ax.set_title('Five pre-action frames (EgoNormia test item)', loc='left', fontsize=8)
-    tx = fig.add_subplot(gs[1, 0]); tx.axis('off')
-    y = 1.0
-    for k, (i, b) in enumerate(opts):
-        lab = '\n'.join(textwrap.wrap(b, 34))
-        tx.text(0, y, f'{letters[k]}.', fontsize=7, weight='bold' if i == v['correct'] else 'normal', va='top')
-        tx.text(0.08, y, lab + ('  (gold)' if i == v['correct'] else ''), fontsize=7, va='top', color=INK)
-        y -= 0.1 + 0.11 * lab.count('\n') + 0.12
+    bars = []
     for j, m in enumerate(methods):
-        bx = fig.add_subplot(gs[1, j + 1])
+        bx = fig.add_subplot(gs[1, j + 1], sharey=bars[0] if bars else None)
+        bars.append(bx)
         lo, hi = get(m, 'app_low_tr0'), get(m, 'app_high_tr0')
         ys = np.arange(len(opts))
         pl = [np.exp(lo['logp'][str(i)]) for i, _ in opts]
         ph = [np.exp(hi['logp'][str(i)]) for i, _ in opts]
         bx.barh(ys - 0.19, pl, height=0.36, color=ORANGE, label='"appears untrustworthy"')
         bx.barh(ys + 0.19, ph, height=0.36, color=BLUE, label='"appears trustworthy"')
-        bx.set_yticks(ys, letters[:len(opts)] if j == 0 else [''] * len(opts)); bx.invert_yaxis()
-        bx.set_xlim(0, 1); bx.set_xticks([0, 0.5, 1]); bx.grid(axis='x', color=GRID, lw=0.6); bx.set_axisbelow(True)
+        bx.set_yticks(ys, list(letters[:len(opts)])); bx.tick_params(axis='y', length=0, labelleft=(j == 0))
+        bx.set_xlim(0, 1.02); bx.set_xticks([0, 0.5, 1], ['0', '.5', '1'])
+        bx.grid(axis='x', color=GRID, lw=0.5); bx.set_axisbelow(True)
         bx.set_title({'base': 'Base model', 'naive': 'Naive steering', 'refined': 'Refined steering', 'constitution': 'Constitution'}[m], fontsize=7.5)
         bx.set_xlabel('p(option)', fontsize=7)
-        if j == 0:
-            bx.legend(loc='lower left', bbox_to_anchor=(-0.05, -0.62), ncol=2, frameon=False, fontsize=6.8)
+    bars[0].set_ylim(len(opts) - 0.5, -0.5)
+    tx = fig.add_subplot(gs[1, 0], sharey=bars[0]); tx.axis('off')
+    for k, (i, b) in enumerate(opts):
+        lab = '\n'.join(textwrap.wrap(b + (' (gold)' if i == v['correct'] else ''), 44))
+        tx.text(0.0, k, f'{letters[k]}.', fontsize=6.8, weight='bold' if i == v['correct'] else 'normal', va='center', transform=tx.get_yaxis_transform())
+        tx.text(0.06, k, lab, fontsize=6.6, va='center', color=INK, linespacing=1.15, transform=tx.get_yaxis_transform())
+    bars[0].legend(loc='upper center', bbox_to_anchor=(1.1, -0.24), ncol=2, frameon=False, fontsize=6.8)
     out = HERE / 'report/figures'
     for ext in ('pdf', 'png'):
         fig.savefig(out / f'{out_name}.{ext}', dpi=300, bbox_inches='tight', facecolor=SURF)
