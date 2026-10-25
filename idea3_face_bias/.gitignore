@@ -4,3 +4,7 @@ data/
 results/label_crops/
 results/label_strips/
 __pycache__/
+.env
+midterm_steering/reference/
+midterm_steering/logs/
+midterm_steering/outputs/

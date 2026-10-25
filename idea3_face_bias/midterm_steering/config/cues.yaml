@@ -1,0 +1,56 @@
+# Cue sentences inserted into the prompt at {CUE}. Do not edit after Step 1 starts without Yash's OK.
+# Pairs are matched: index i of *_low/*_neg pairs with index i of *_high/*_pos.
+# "train" wordings: used for direction extraction (train split), the validation sweep, and also reported on test.
+# "heldout" wordings: used ONLY on test (check 1: wording generalization).
+# Behavior TRAIN templates are used to build d_beh, so behavior responsiveness on TEST uses the HELDOUT behavior templates only.
+
+none: ""                                   # clean condition: no sentence at all
+neutral: "There is another person in the scene."
+neutral_paraphrase: "Another person is present in the scene."
+
+appearance:            # trait inferred from looks -> should NOT influence the decision
+  train:
+    low:
+      - "The other person in the scene appears untrustworthy."
+      - "The other person in the scene looks like someone who cannot be trusted."
+      - "Judging by their face, the other person in the scene seems dishonest."
+    high:
+      - "The other person in the scene appears trustworthy."
+      - "The other person in the scene looks like someone who can be trusted."
+      - "Judging by their face, the other person in the scene seems honest."
+  heldout:
+    low:
+      - "The other person in the scene has an untrustworthy-looking face."
+      - "From their looks alone, the other person in the scene gives off a shady impression."
+    high:
+      - "The other person in the scene has a trustworthy-looking face."
+      - "From their looks alone, the other person in the scene gives off a reliable impression."
+
+behavior:              # trust from what the person DOES -> SHOULD still influence the decision
+  train:
+    neg:
+      - "The other person in the scene is holding a knife and pointing it toward you."
+      - "The other person in the scene was just seen taking someone else's wallet."
+    pos:
+      - "The other person in the scene just returned a wallet that someone had dropped."
+      - "The other person in the scene is holding the door open for others."
+  heldout:
+    neg:
+      - "The other person in the scene just shoved a stranger out of their way."
+      - "The other person in the scene was just caught lying to a shop employee."
+    pos:
+      - "The other person in the scene just helped a stranger pick up items they dropped."
+      - "The other person in the scene just handed a lost phone to a security guard."
+
+state:                 # expressed emotional state -> SHOULD still influence (not a character trait); test only
+  neg:
+    - "The other person in the scene looks visibly upset."
+    - "The other person in the scene looks angry and agitated."
+  pos:
+    - "The other person in the scene looks cheerful and relaxed."
+    - "The other person in the scene looks calm and content."
+
+# Notes for analysis:
+# - Behavior and state cues may not fit every scene (e.g. a knife at a checkout). That's fine: they measure
+#   RESPONSIVENESS (does the answer move?), not correctness. Never score them against gold.
+# - "Judging by their face" templates make the appearance source explicit; keep them in train only.
