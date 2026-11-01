@@ -44,7 +44,12 @@ second tests complementarity with the existing R³ pathway. These are not
 training-compute-matched to the prior R³ control because of different task
 structure and target lengths. Report that limitation.
 
-Run a three-step base smoke test first. Main jobs depend on its success.
+Run a three-step base smoke test first. The first smoke job `50103888`
+failed on nonfinite gradients at the first step, before a model update.
+The implementation now starts the FP16 gradient scaler at 1024 and logs
+and skips any nonfinite-gradient attempt; accepted optimizer updates remain
+the step count, with a three-attempts-per-step stop bound. The replacement
+smoke job is `50104051`. Main jobs depend on its success.
 Checkpoint every 50 updates and save optimizer/scaler/RNG state. If a job
 stops before 300 steps, resume explicitly and record actual steps. Do not
 accept dependent evaluations of a missing 300-step checkpoint.
@@ -64,11 +69,11 @@ partition remains unopened through exploratory model development.
 
 ## Submitted Slurm chain
 
-- Three-step smoke: `50103888`.
-- Training: base `50103908`; R³-SFT continuation `50103909`.
-- EgoNormia evaluations: base `50103910`; R³-SFT continuation `50103911`.
-- PsycheMME source validation: base `50103912`; R³-SFT continuation `50103913`.
-- Paired EgoNormia analysis: `50103917` after both EgoNormia evaluations.
+- Three-step replacement smoke: `50104051`.
+- Training: base `50104052`; R³-SFT continuation `50104053`.
+- EgoNormia evaluations: base `50104080`; R³-SFT continuation `50104081`.
+- PsycheMME source validation: base `50104082`; R³-SFT continuation `50104083`.
+- Paired EgoNormia analysis: `50104084` after both EgoNormia evaluations.
 
 Raw media, model artifacts, and predictions remain under
 `/ocean/projects/cis260338p/apatawar/social_norm_rl/`.

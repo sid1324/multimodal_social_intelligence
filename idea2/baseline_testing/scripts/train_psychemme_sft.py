@@ -69,14 +69,18 @@ def main():
     policy=VideoPolicy(adapter=adapter,trainable=True)
     params=[x for x in policy.model.parameters() if x.requires_grad]
     optimizer=torch.optim.AdamW(params,lr=5e-6,weight_decay=0)
-    scaler=torch.amp.GradScaler('cuda')
+    scaler=torch.amp.GradScaler('cuda',init_scale=1024)
     step=cursor=0
     if ckpt:
         s=torch.load(Path(ckpt)/'training_state.pt',map_location='cpu',weights_only=False)
         optimizer.load_state_dict(s['optimizer']);scaler.load_state_dict(s['scaler'])
         step=s['step'];cursor=s['cursor'];torch.set_rng_state(s['rng']);torch.cuda.set_rng_state_all(s['cuda_rng'])
     began=time.monotonic();saved=step
+    attempts=0
     while step<args.steps and time.monotonic()-began<args.max_hours*3600:
+        attempts+=1
+        if attempts>args.steps*3:
+            raise RuntimeError('Too many nonfinite gradient attempts')
         row=rows[order[cursor%len(order)]];cursor+=1
         prompt,target=prompt_and_target(row,777+cursor)
         inputs=policy.inputs(prompt,frame_paths=row['frames'])
@@ -87,7 +91,11 @@ def main():
         loss=-policy.token_logps(inputs,ids).mean()
         scaler.scale(loss).backward();scaler.unscale_(optimizer)
         if any(p.grad is not None and not torch.isfinite(p.grad).all() for p in params):
-            raise RuntimeError(f'Nonfinite gradient {row["id"]}')
+            scaler.step(optimizer);scaler.update()
+            append_jsonl(out/'train_log.jsonl',{'cursor':cursor,'id':row['id'],
+                         'skipped':'nonfinite_gradients','loss':float(loss.detach()),
+                         'scale':float(scaler.get_scale()),**policy.memory()})
+            continue
         norm=torch.nn.utils.clip_grad_norm_(params,1.0)
         scaler.step(optimizer);scaler.update();step+=1
         event={'step':step,'cursor':cursor,'id':row['id'],'group':row['group'],
