@@ -1,0 +1,143 @@
+{
+  "conditions": {
+    "base_r3_test:video": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 1,
+      "total_inference_seconds": 201.9558671982959,
+      "accuracy": 0.6833333333333333,
+      "accuracy_ci95": [
+        0.5223880597014925,
+        0.8501785714285705
+      ]
+    },
+    "base_r3_test:blind": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 1,
+      "total_inference_seconds": 479.6450928011909,
+      "accuracy": 0.6166666666666667,
+      "accuracy_ci95": [
+        0.53125,
+        0.7446808510638298
+      ]
+    },
+    "rloo_r3_test:video": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 0,
+      "total_inference_seconds": 208.9699832405895,
+      "accuracy": 0.8,
+      "accuracy_ci95": [
+        0.7397260273972602,
+        0.8809523809523809
+      ]
+    },
+    "rloo_r3_test:blind": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 1,
+      "total_inference_seconds": 588.7458990798332,
+      "accuracy": 0.6166666666666667,
+      "accuracy_ci95": [
+        0.5616438356164384,
+        0.7254901960784313
+      ]
+    },
+    "rloo_normlens_r3_test:video": {
+      "n_attempted": 79,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 0,
+      "total_inference_seconds": 285.4702046122402,
+      "accuracy": 0.7974683544303798,
+      "accuracy_ci95": [
+        0.7464788732394366,
+        0.8448336571151044
+      ]
+    },
+    "rloo_normlens_r3_test:blind": {
+      "n_attempted": 79,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 1,
+      "total_inference_seconds": 755.5764404209331,
+      "accuracy": 0.6708860759493671,
+      "accuracy_ci95": [
+        0.5662650602409639,
+        0.7761194029850746
+      ]
+    }
+  },
+  "category_membership": "correct-action taxonomy, overlapping",
+  "categories": {
+    "base_r3_test:video": {},
+    "base_r3_test:blind": {},
+    "rloo_r3_test:video": {},
+    "rloo_r3_test:blind": {},
+    "rloo_normlens_r3_test:video": {},
+    "rloo_normlens_r3_test:blind": {}
+  },
+  "paired_common_panel": {
+    "base_r3_test:blind minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": -0.06666666666666667,
+        "ci95": [
+          -0.189873417721519,
+          0.14754098360655737
+        ]
+      }
+    },
+    "rloo_r3_test:video minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": 0.11666666666666667,
+        "ci95": [
+          0.02702702702702703,
+          0.21311475409836064
+        ]
+      }
+    },
+    "rloo_r3_test:blind minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": -0.06666666666666667,
+        "ci95": [
+          -0.16217787554996857,
+          0.09836065573770492
+        ]
+      }
+    },
+    "rloo_normlens_r3_test:video minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": 0.11666666666666667,
+        "ci95": [
+          0.02702702702702703,
+          0.21311475409836064
+        ]
+      }
+    },
+    "rloo_normlens_r3_test:blind minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": -0.03333333333333333,
+        "ci95": [
+          -0.20930232558139536,
+          0.19672131147540983
+        ]
+      }
+    }
+  }
+}

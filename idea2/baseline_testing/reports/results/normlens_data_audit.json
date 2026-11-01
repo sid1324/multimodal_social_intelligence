@@ -1,0 +1,40 @@
+{
+  "source": "NormLens public archive at pinned upstream commit",
+  "archive_sha256": "b92f190bca09b748f97a94b2fe058908a93fa3e4ca0025d90f324cd0ed08eba7",
+  "label_meanings": {
+    "0": "wrong",
+    "1": "okay",
+    "2": "impossible"
+  },
+  "split_key": "image filename",
+  "split_method": "fixed SHA256 hash 80/10/10",
+  "counts": {
+    "train": {
+      "examples": 716,
+      "images": 673,
+      "labels": {
+        "2": 310,
+        "1": 262,
+        "0": 144
+      }
+    },
+    "val": {
+      "examples": 123,
+      "images": 115,
+      "labels": {
+        "1": 51,
+        "2": 50,
+        "0": 22
+      }
+    },
+    "test": {
+      "examples": 95,
+      "images": 87,
+      "labels": {
+        "2": 37,
+        "1": 37,
+        "0": 21
+      }
+    }
+  }
+}

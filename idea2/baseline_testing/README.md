@@ -21,6 +21,11 @@ The matched [1,024-token cap diagnostic](reports/CAP1024_RESULTS.md) completed
 for Base, RLOO, GRPO, and SFT; their joint scores were 31.2%, 33.8%, 29.0%,
 and 35.2%, respectively. Longer generation reduced invalid outputs but barely
 changed accuracy beyond the 384-token cap.
+An exploratory [visual normative RL continuation](reports/NORMATIVE_RL_RESULTS.md)
+on independent NormLens images raised its validation accuracy from 59.3% to
+61.8%, but EgoNormia joint accuracy was 33.5%, versus 33.8% for its R³-FDT
+RLOO starting checkpoint. The original 60-question R³-FDT video score stayed
+at 80.0%.
 
 ## Environment and storage
 
