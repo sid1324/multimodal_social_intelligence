@@ -1,0 +1,52 @@
+{
+  "archive_sha256": "69eeead852191531f06eb0dd474d322dda9bb104ac7aac91b534384ec1c30b06",
+  "records": 10110,
+  "action_order": [
+    "move forward",
+    "move forward right",
+    "move forward left",
+    "stop",
+    "turn right",
+    "turn left"
+  ],
+  "split_method": "fixed SHA256 on sequential 100-image blocks",
+  "source_trajectory_ids_available": false,
+  "counts": {
+    "train": {
+      "examples": 7710,
+      "blocks": 78,
+      "actions": {
+        "move forward": 4222,
+        "stop": 457,
+        "move forward right": 1771,
+        "move forward left": 1131,
+        "turn right": 74,
+        "turn left": 55
+      }
+    },
+    "val": {
+      "examples": 1100,
+      "blocks": 11,
+      "actions": {
+        "move forward": 593,
+        "move forward left": 199,
+        "move forward right": 230,
+        "stop": 38,
+        "turn right": 26,
+        "turn left": 14
+      }
+    },
+    "test": {
+      "examples": 1300,
+      "blocks": 13,
+      "actions": {
+        "move forward": 693,
+        "move forward left": 234,
+        "move forward right": 299,
+        "stop": 60,
+        "turn left": 7,
+        "turn right": 7
+      }
+    }
+  }
+}

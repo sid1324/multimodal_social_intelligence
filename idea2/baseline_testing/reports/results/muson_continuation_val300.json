@@ -1,0 +1,42 @@
+{
+  "attempted": 300,
+  "panel": 300,
+  "accuracy": 0.5266666666666666,
+  "invalid": 5,
+  "cap_hits": 7,
+  "prediction_counts": {
+    "move forward": 251,
+    "move forward right": 24,
+    "move forward left": 15,
+    "invalid": 5,
+    "turn left": 1,
+    "stop": 3,
+    "turn right": 1
+  },
+  "per_class": {
+    "move forward": {
+      "n": 158,
+      "accuracy": 0.8987341772151899
+    },
+    "move forward right": {
+      "n": 61,
+      "accuracy": 0.13114754098360656
+    },
+    "move forward left": {
+      "n": 51,
+      "accuracy": 0.13725490196078433
+    },
+    "stop": {
+      "n": 17,
+      "accuracy": 0.058823529411764705
+    },
+    "turn right": {
+      "n": 10,
+      "accuracy": 0.0
+    },
+    "turn left": {
+      "n": 3,
+      "accuracy": 0.0
+    }
+  }
+}

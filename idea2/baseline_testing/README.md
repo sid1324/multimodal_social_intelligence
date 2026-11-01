@@ -26,6 +26,12 @@ on independent NormLens images raised its validation accuracy from 59.3% to
 61.8%, but EgoNormia joint accuracy was 33.5%, versus 33.8% for its R³-FDT
 RLOO starting checkpoint. The original 60-question R³-FDT video score stayed
 at 80.0%.
+An exploratory [MUSON egocentric-action RL continuation](reports/MUSON_RL_RESULTS.md)
+improved its own 300-image validation score from 51.0% to 52.7%, but still
+overselected forward movement and reduced EgoNormia joint accuracy from the
+RLOO starting model's 33.8% to 32.0% at 1,024 tokens. These negative pilots
+motivate a supervised action warm start and a reward that evaluates more than
+the final action letter.
 
 ## Environment and storage
 
