@@ -32,6 +32,13 @@ overselected forward movement and reduced EgoNormia joint accuracy from the
 RLOO starting model's 33.8% to 32.0% at 1,024 tokens. These negative pilots
 motivate a supervised action warm start and a reward that evaluates more than
 the final action letter.
+The [PsycheMME SFT follow-up](reports/PSYCHEMME_SFT_RESULTS.md) trained on
+source-disjoint social-video examples after excluding all detected EgoNormia
+source-video overlaps. On the same 400 EgoNormia examples at 1,024 tokens,
+PsycheMME SFT from base reached 36.8% joint accuracy, while R³-FDT SFT
+followed by PsycheMME SFT reached **38.8%**, versus 35.2% for R³-FDT SFT
+alone. These are one-seed exploratory results; sensibility IoU stayed near
+49%, and the reserved final EgoNormia partition remains untouched.
 
 ## Environment and storage
 
