@@ -12,8 +12,11 @@ checkpoints on the exact user-supplied 400-ID correct-video EgoNormia panel.
 Keep the same eight-frame preprocessing, official prompts, generation mode,
 seed, native parsing, and attempted-item denominator. Change only
 `--max-new-tokens` to 1024. Each of the four jobs requests one V100-32 GB and
-writes resumable predictions to its own output directory. The job array is
-limited to one simultaneous task to use one V100 at a time.
+writes resumable predictions to its own output directory. The job array allows
+separate one-GPU tasks to run concurrently when PSC allocates them. It was
+submitted with a one-task throttle, then the throttle was raised to four using
+`scontrol update JobId=50085446 ArrayTaskThrottle=4` after the first task
+started.
 
 After all four runs cover 400/400, compute EgoNormia action, justification,
 joint accuracy, sensibility IoU, invalid-output rates, and cap-hit rates.

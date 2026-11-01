@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --mem=40G
 #SBATCH --time=06:00:00
-#SBATCH --array=0-3%1
+#SBATCH --array=0-3%4
 #SBATCH --job-name=social-cap1024
 #SBATCH --output=logs/cap1024-%A_%a.log
 #SBATCH --error=logs/cap1024-%A_%a.log
