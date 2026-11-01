@@ -1,0 +1,124 @@
+{
+  "repository": "psychemme/PsycheMME-Training",
+  "revision": "3b80a47473802b160b54e760d5dca070efd96f4c",
+  "metadata_sha256": {
+    "LICENSE": "9f81b12722f559cdd216153564d5bda317b1cd8db6d8b6bed24af21746460b71",
+    "README.md": "95b5991d920d35329097040f42dde8c73dc122384fea3a59ac08cba1d8e90750",
+    "configs/grpo.json": "78a31d9a3c247bb1a79d504e4011cb83b78148f8d7add1788d1cbc794a2c63fc",
+    "configs/sft.json": "08fb16663f39cf830ad02e01f60c90b2d7c487e73fb80924790772e87558e38f",
+    "grpo/train.jsonl": "df109fdd8b1429f6e87dcbd11785a33f9e59819a5b887b2569c80b14f7102494",
+    "grpo/used_ids.txt": "a3d846e7b0021c50a8628d87634c6460e89b9e92455cdede3b00596cc4ef86df",
+    "licenses/THIRD_PARTY_NOTICES.md": "6cb36cf8b221c5b574812e7c118cac12045fec09340497401237de0df3cbafd8",
+    "metadata/asr.jsonl": "da380a947c773780e9e988d4b5b8a8b681e006b94f87d0589cf9d6581f8ca948",
+    "metadata/episodes.jsonl": "534c4d3ddd5d51553ab5af0ac40534714bbbad5c8e4facd3d41f5045d75f50e9",
+    "metadata/evidence.jsonl": "0b98bc9134cd294e5f0057b39206b6baafc7436172a28d75221bb14090acd935",
+    "metadata/media.jsonl": "d08d400f5df4e0ca7f06079fb812709972c3c0476c18388a078adedc5cdd1dc0",
+    "metadata/questions.jsonl": "c9d331d825d562a560b9732f79c1e258f9e55990fc27d5d492388a4b45e99794",
+    "metadata/sources.csv": "882141b482f69a4bf0a4da0f6a7e4623adc7948a143cbf2c11f116c69fe132aa",
+    "scripts/prepare.py": "7df2a8f9718020fd7a701dc9a44921c08a2c2bb864ea0548e74d8f159f079708",
+    "sft/train.jsonl": "5a15b5e48e3e551edeb4f767b4feb9680e2f7adbddf2d4deab2ebbc8770462c4"
+  },
+  "ego_id_only_split_sha256": "a703021a2b693eb440b7b9e5875a62086ac18ec9a5a397862535427bff390293",
+  "sft_examples": 3638,
+  "grpo_pool_examples": 2827,
+  "metadata_episodes": 1911,
+  "used_sft_episodes": 1903,
+  "metadata_source_video_groups": 427,
+  "task_types": {
+    "single_choice": 3526,
+    "open": 112
+  },
+  "categories": {
+    "S": 546,
+    "W": 599,
+    "G": 416,
+    "N": 179,
+    "A": 648,
+    "T": 660,
+    "R": 358,
+    "M": 232
+  },
+  "question_sources": {
+    "EgoCom": 1715,
+    "YouTube Vlog": 130,
+    "YouTube Interview": 738,
+    "Ego4D": 855,
+    "EasyCom": 94,
+    "MERCI+": 65,
+    "CASTLE": 41
+  },
+  "single_choice_answers": {
+    "A": 1768,
+    "B": 912,
+    "D": 106,
+    "C": 500,
+    "E": 62,
+    "G": 51,
+    "I": 30,
+    "F": 42,
+    "H": 36,
+    "J": 19
+  },
+  "option_counts": {
+    "10": 3278,
+    "2": 179,
+    "0": 112,
+    "9": 67,
+    "8": 2
+  },
+  "active_target_slots": {
+    "G": 2796,
+    "W": 387,
+    "A": 412,
+    "T": 32,
+    "N": 9,
+    "R": 2
+  },
+  "nonempty_slots_per_target": {
+    "1": 3638
+  },
+  "frames_per_question": {
+    "32": 3638
+  },
+  "asr_records": 103,
+  "ego_source_overlap": {
+    "ego_panel": {
+      "source_videos": 3,
+      "episodes": 6,
+      "questions": 8
+    },
+    "ego_midterm": {
+      "source_videos": 3,
+      "episodes": 6,
+      "questions": 8
+    },
+    "ego_final_reserved": {
+      "source_videos": 17,
+      "episodes": 50,
+      "questions": 96
+    }
+  },
+  "excluded_sft_examples": 104,
+  "eligible_sft_examples": 3534,
+  "eligible_categories": {
+    "S": 531,
+    "W": 593,
+    "G": 395,
+    "N": 174,
+    "A": 630,
+    "T": 644,
+    "R": 344,
+    "M": 223
+  },
+  "eligible_sources": {
+    "EgoCom": 1715,
+    "YouTube Vlog": 130,
+    "YouTube Interview": 738,
+    "Ego4D": 751,
+    "EasyCom": 94,
+    "MERCI+": 65,
+    "CASTLE": 41
+  },
+  "eligibility_note": "Candidate IDs only; session-aware source splitting and quality audit remain required.",
+  "overlap_limit": "Exact source-video identifiers only; not a perceptual duplicate or recording-session audit."
+}
