@@ -1,0 +1,29 @@
+{
+  "n_panel": 400,
+  "n_video_attempted": 400,
+  "source_groups_attempted": 348,
+  "outcomes": {
+    "neither_correct": 166,
+    "both_correct": 125,
+    "justification_only": 42,
+    "action_only": 67
+  },
+  "invalid_by_task": {
+    "justification": 13,
+    "action": 8,
+    "sensibility": 1
+  },
+  "strict_format_sensitivity": {
+    "action_correct": 192,
+    "justification_correct": 165,
+    "joint_correct": 123,
+    "sensibility_valid": 399,
+    "native_joint_correct_but_invalid": 2
+  },
+  "hit_generation_cap_by_task": {
+    "justification": 9,
+    "sensibility": 1,
+    "action": 1
+  },
+  "paired_controls": {}
+}

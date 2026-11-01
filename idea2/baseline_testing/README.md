@@ -17,6 +17,10 @@ The post-midterm [GRPO follow-up](reports/GRPO_RESULTS.md) completed on the
 same 400-ID panel. Its 192-token and 384-token joint scores were 19.2% and
 27.8%, below the starting model's 23.8% and 30.8%. This negative transfer
 result is exploratory because the panel was previously used in development.
+The matched [1,024-token cap diagnostic](reports/CAP1024_RESULTS.md) completed
+for Base, RLOO, GRPO, and SFT; their joint scores were 31.2%, 33.8%, 29.0%,
+and 35.2%, respectively. Longer generation reduced invalid outputs but barely
+changed accuracy beyond the 384-token cap.
 
 ## Environment and storage
 

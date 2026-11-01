@@ -1,0 +1,212 @@
+{
+  "conditions": {
+    "base_ego_cap384_video400:video": {
+      "n_attempted": 400,
+      "n_panel": 400,
+      "source_groups": 348,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 48,
+      "total_inference_seconds": 7473.557223104406,
+      "action": 0.4825,
+      "action_ci95": [
+        0.4310259474223284,
+        0.5341806279473814
+      ],
+      "justification": 0.4075,
+      "justification_ci95": [
+        0.3596916783954961,
+        0.45681315644002196
+      ],
+      "joint": 0.3075,
+      "joint_ci95": [
+        0.2647777298089314,
+        0.3557711038961039
+      ],
+      "sensibility_iou": 0.48391666666666666,
+      "sensibility_iou_ci95": [
+        0.45154446329813974,
+        0.5178784756746385
+      ],
+      "verified": {
+        "n": 46,
+        "action": 0.5869565217391305,
+        "justification": 0.45652173913043476,
+        "joint": 0.3695652173913043,
+        "sensibility_iou": 0.5108695652173914
+      }
+    },
+    "base_ego_cap1024_video400:video": {
+      "n_attempted": 400,
+      "n_panel": 400,
+      "source_groups": 348,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 22,
+      "total_inference_seconds": 8061.625808845274,
+      "action": 0.48,
+      "action_ci95": [
+        0.42857142857142855,
+        0.5307692307692308
+      ],
+      "justification": 0.4175,
+      "justification_ci95": [
+        0.36895674300254455,
+        0.46600311924929194
+      ],
+      "joint": 0.3125,
+      "joint_ci95": [
+        0.2687578275027135,
+        0.35990989521485517
+      ],
+      "sensibility_iou": 0.48766666666666664,
+      "sensibility_iou_ci95": [
+        0.455406181939845,
+        0.5219186079216955
+      ],
+      "verified": {
+        "n": 46,
+        "action": 0.5869565217391305,
+        "justification": 0.45652173913043476,
+        "joint": 0.3695652173913043,
+        "sensibility_iou": 0.5108695652173914
+      }
+    }
+  },
+  "category_membership": "correct-action taxonomy, overlapping",
+  "categories": {
+    "base_ego_cap384_video400:video": {
+      "Safety": {
+        "n": 122,
+        "action": 0.5737704918032787,
+        "justification": 0.4262295081967213,
+        "joint": 0.3442622950819672,
+        "sensibility_iou": 0.5061475409836066
+      },
+      "Cooperation": {
+        "n": 204,
+        "action": 0.5,
+        "justification": 0.4264705882352941,
+        "joint": 0.3333333333333333,
+        "sensibility_iou": 0.48913398692810456
+      },
+      "Communication/Legibility": {
+        "n": 108,
+        "action": 0.37037037037037035,
+        "justification": 0.3055555555555556,
+        "joint": 0.2037037037037037,
+        "sensibility_iou": 0.46604938271604934
+      },
+      "Coordination/Proactivity": {
+        "n": 86,
+        "action": 0.4883720930232558,
+        "justification": 0.4883720930232558,
+        "joint": 0.3372093023255814,
+        "sensibility_iou": 0.48430232558139535
+      },
+      "Proxemics": {
+        "n": 128,
+        "action": 0.5078125,
+        "justification": 0.4140625,
+        "joint": 0.328125,
+        "sensibility_iou": 0.4540364583333333
+      },
+      "Politeness": {
+        "n": 136,
+        "action": 0.3088235294117647,
+        "justification": 0.3161764705882353,
+        "joint": 0.19117647058823528,
+        "sensibility_iou": 0.4720588235294118
+      },
+      "Privacy": {
+        "n": 34,
+        "action": 0.5,
+        "justification": 0.4117647058823529,
+        "joint": 0.2647058823529412,
+        "sensibility_iou": 0.4387254901960784
+      }
+    },
+    "base_ego_cap1024_video400:video": {
+      "Safety": {
+        "n": 122,
+        "action": 0.5737704918032787,
+        "justification": 0.4426229508196721,
+        "joint": 0.3442622950819672,
+        "sensibility_iou": 0.5102459016393442
+      },
+      "Cooperation": {
+        "n": 204,
+        "action": 0.5,
+        "justification": 0.4215686274509804,
+        "joint": 0.3333333333333333,
+        "sensibility_iou": 0.49403594771241827
+      },
+      "Communication/Legibility": {
+        "n": 108,
+        "action": 0.3611111111111111,
+        "justification": 0.3148148148148148,
+        "joint": 0.2037037037037037,
+        "sensibility_iou": 0.4753086419753086
+      },
+      "Coordination/Proactivity": {
+        "n": 86,
+        "action": 0.4883720930232558,
+        "justification": 0.46511627906976744,
+        "joint": 0.3372093023255814,
+        "sensibility_iou": 0.48430232558139535
+      },
+      "Proxemics": {
+        "n": 128,
+        "action": 0.5078125,
+        "justification": 0.4296875,
+        "joint": 0.34375,
+        "sensibility_iou": 0.4579427083333333
+      },
+      "Politeness": {
+        "n": 136,
+        "action": 0.3014705882352941,
+        "justification": 0.3382352941176471,
+        "joint": 0.19117647058823528,
+        "sensibility_iou": 0.4720588235294118
+      },
+      "Privacy": {
+        "n": 34,
+        "action": 0.5,
+        "justification": 0.5,
+        "joint": 0.29411764705882354,
+        "sensibility_iou": 0.4387254901960784
+      }
+    }
+  },
+  "paired_common_panel": {
+    "base_ego_cap1024_video400:video minus base_ego_cap384_video400:video": {
+      "n_common": 400,
+      "action": {
+        "difference": -0.0025,
+        "ci95": [
+          -0.007772020725388601,
+          0.0
+        ]
+      },
+      "justification": {
+        "difference": 0.01,
+        "ci95": [
+          -0.0050003132832080206,
+          0.026193609022556373
+        ]
+      },
+      "joint": {
+        "difference": 0.005,
+        "ci95": [
+          -0.004975124378109453,
+          0.015189873417721518
+        ]
+      },
+      "sensibility_iou": {
+        "difference": 0.00375,
+        "ci95": [
+          0.0,
+          0.010127224828117969
+        ]
+      }
+    }
+  }
+}
