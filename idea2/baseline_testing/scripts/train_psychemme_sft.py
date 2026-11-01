@@ -51,19 +51,22 @@ def main():
     ap.add_argument('--steps',type=int,default=300)
     ap.add_argument('--max-hours',type=float,default=3.5)
     ap.add_argument('--resume',action='store_true')
+    ap.add_argument('--seed',type=int,default=777)
+    ap.add_argument('--save-every',type=int,default=50)
     args=ap.parse_args()
     manifest=STORE/'data/psychemme/train.jsonl'
     rows=read_jsonl(manifest)
     if not rows or any(x['split']!='train' for x in rows):raise ValueError('Only train split allowed')
     out=Path(args.output);out.mkdir(parents=True,exist_ok=True)
     metadata={'start':args.start,'steps':args.steps,'manifest_sha256':hashlib.sha256(manifest.read_bytes()).hexdigest(),
-              'seed':777,'lr':5e-6,'frames':8,'max_target_tokens':128}
+              'seed':args.seed,'lr':5e-6,'frames':8,'max_target_tokens':128,
+              'save_every':args.save_every}
     old=out/'metadata.json'
     if old.exists() and json.loads(old.read_text())!=metadata:raise ValueError('Run metadata mismatch')
     if (out/'latest.json').exists() and not args.resume:raise ValueError('Existing checkpoint; use --resume')
     write_json(old,metadata)
-    torch.manual_seed(777)
-    order=list(range(len(rows)));random.Random(777).shuffle(order)
+    torch.manual_seed(args.seed)
+    order=list(range(len(rows)));random.Random(args.seed).shuffle(order)
     ckpt=json.loads((out/'latest.json').read_text())['checkpoint'] if args.resume else None
     adapter=ckpt or (str(R3_ADAPTER) if args.start=='r3sft' else None)
     policy=VideoPolicy(adapter=adapter,trainable=True)
@@ -82,7 +85,7 @@ def main():
         if attempts>args.steps*3:
             raise RuntimeError('Too many nonfinite gradient attempts')
         row=rows[order[cursor%len(order)]];cursor+=1
-        prompt,target=prompt_and_target(row,777+cursor)
+        prompt,target=prompt_and_target(row,args.seed+cursor)
         inputs=policy.inputs(prompt,frame_paths=row['frames'])
         ids=policy.processor.tokenizer(target+policy.processor.tokenizer.eos_token,
                                        add_special_tokens=False,return_tensors='pt')['input_ids'].to(policy.device)
@@ -102,7 +105,7 @@ def main():
                'loss':float(loss.detach()),'target_tokens':ids.shape[1],'grad_norm':float(norm),**policy.memory()}
         append_jsonl(out/'train_log.jsonl',event)
         print(json.dumps(event),flush=True)
-        if step%50==0:
+        if step%args.save_every==0:
             save(policy,optimizer,scaler,out,step,cursor,777);saved=step
     if step>saved:save(policy,optimizer,scaler,out,step,cursor,777)
     write_json(out/'status.json',{'steps':step,'cursor':cursor,'elapsed_seconds':time.monotonic()-began,

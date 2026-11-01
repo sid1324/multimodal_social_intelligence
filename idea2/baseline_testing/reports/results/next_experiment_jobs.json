@@ -1,0 +1,39 @@
+{
+  "epoch_runs": [
+    {
+      "condition": "base",
+      "seed": 777,
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s777",
+      "train": "50106831",
+      "evaluate": "50106832"
+    },
+    {
+      "condition": "base",
+      "seed": 1777,
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s1777",
+      "train": "50106833",
+      "evaluate": "50106834"
+    },
+    {
+      "condition": "r3sft",
+      "seed": 777,
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s777",
+      "train": "50106835",
+      "evaluate": "50106836"
+    },
+    {
+      "condition": "r3sft",
+      "seed": 1777,
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s1777",
+      "train": "50106837",
+      "evaluate": "50106838"
+    }
+  ],
+  "r3_control_train": "50106860",
+  "qwen38_prepare": "50106840",
+  "qwen38_smoke": "50106841",
+  "cancelled_r3_control_train": "50106839",
+  "r3_control_eval": "50106872",
+  "original_visual_controls100": "50106873",
+  "epoch_analysis": "50106897"
+}

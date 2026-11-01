@@ -44,15 +44,20 @@ def main():
     p.add_argument("--steps", type=int, default=100)
     p.add_argument("--max-hours", type=float, default=3.5)
     p.add_argument("--resume", action="store_true")
+    p.add_argument("--init-adapter", help="Initialize a separate continuation run from a saved adapter")
+    p.add_argument("--learning-rate", type=float)
     args = p.parse_args()
     cfg = config()
+    if args.learning_rate is not None:
+        cfg['learning_rate'] = args.learning_rate
     rows = read_jsonl(args.manifest)
     if not rows or any(r["dataset"] != "r3" or r["split"] != "train" for r in rows):
         raise ValueError("Training requires nonempty R3 training-only manifest")
     run = Path(args.output)
     run.mkdir(parents=True, exist_ok=True)
     metadata = {"config": cfg, "method": args.method, "manifest_sha256": sha256(args.manifest),
-                "examples": len(rows), "videos": len({r['video_id'] for r in rows}), "seed": cfg['seed']}
+                "examples": len(rows), "videos": len({r['video_id'] for r in rows}), "seed": cfg['seed'],
+                "init_adapter": args.init_adapter}
     if (run / "metadata.json").exists() and json.loads((run / "metadata.json").read_text()) != metadata:
         raise ValueError("Resume settings do not match existing run")
     if (run / "latest.json").exists() and not args.resume:
@@ -63,13 +68,13 @@ def main():
     torch.manual_seed(cfg["seed"])
     order = list(range(len(rows)))
     random.Random(cfg["seed"]).shuffle(order)
-    adapter = json.loads((run / "latest.json").read_text())["checkpoint"] if args.resume else None
+    adapter = json.loads((run / "latest.json").read_text())["checkpoint"] if args.resume else args.init_adapter
     policy = VideoPolicy(adapter=adapter, trainable=True)
     params = [p for p in policy.model.parameters() if p.requires_grad]
     optimizer = torch.optim.AdamW(params, lr=cfg["learning_rate"], weight_decay=0.0)
     scaler = torch.amp.GradScaler("cuda")
     step, cursor = 0, 0
-    if adapter:
+    if args.resume:
         state = torch.load(Path(adapter) / "training_state.pt", map_location="cpu", weights_only=False)
         optimizer.load_state_dict(state["optimizer"])
         scaler.load_state_dict(state["scaler"])

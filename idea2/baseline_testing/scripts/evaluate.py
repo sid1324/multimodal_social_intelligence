@@ -13,6 +13,8 @@ def main():
     p.add_argument("--manifest", required=True)
     p.add_argument("--output", required=True)
     p.add_argument("--adapter")
+    p.add_argument("--blind-same-prompt", action="store_true",
+                   help="Omit video while retaining the ordinary video-task wording")
     p.add_argument("--conditions", nargs="+", default=["video"], choices=["video", "blind", "mismatch"])
     p.add_argument("--limit", type=int, default=0)
     p.add_argument("--max-new-tokens", type=int, default=0,
@@ -39,6 +41,8 @@ def main():
                 "conditions": args.conditions, "ids": [r["id"] for r in rows]}
     if args.max_new_tokens:
         metadata["max_new_tokens_override"] = args.max_new_tokens
+    if args.blind_same_prompt:
+        metadata['blind_same_prompt'] = True
     if (run / "metadata.json").exists() and json.loads((run / "metadata.json").read_text()) != metadata:
         raise ValueError("Cannot resume an output directory with different experiment settings")
     write_json(run / "metadata.json", metadata)
@@ -63,7 +67,7 @@ def main():
             tasks = ["r3"] if row["dataset"] == "r3" else ["action", "justification", "sensibility"]
             for task in tasks:
                 try:
-                    prompt = r3_prompt(row) if task == "r3" else ego_prompt(row, task, result.get("action"), condition == "blind")
+                    prompt = r3_prompt(row) if task == "r3" else ego_prompt(row, task, result.get("action"), condition == "blind" and not args.blind_same_prompt)
                     video_row = mismatches[row['id']] if condition == 'mismatch' else row
                     inputs = policy.inputs(prompt, video, end_seconds=video_row.get('clip_duration_seconds'))
                     tokens, text = policy.generate(inputs, max_new_tokens=args.max_new_tokens or None)

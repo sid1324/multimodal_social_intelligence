@@ -58,11 +58,11 @@ def sample_video(path, num_frames=8, max_side=384, end_seconds=None):
 
 
 class VideoPolicy:
-    def __init__(self, adapter=None, trainable=False):
+    def __init__(self, adapter=None, trainable=False, model_path=None):
         from transformers import AutoProcessor, BitsAndBytesConfig, Qwen3_5ForConditionalGeneration
         from peft import LoraConfig, PeftModel, get_peft_model, prepare_model_for_kbit_training
         self.cfg = config()
-        model_path = STORE / "models/Qwen3.5-9B"
+        model_path = Path(model_path) if model_path else STORE / "models/Qwen3.5-9B"
         if not (model_path / "READY").exists():
             raise RuntimeError("Pinned model download is not complete (READY missing)")
         self.processor = AutoProcessor.from_pretrained(model_path, local_files_only=True)
