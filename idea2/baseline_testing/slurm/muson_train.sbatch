@@ -1,0 +1,25 @@
+#!/bin/bash
+#SBATCH --partition=GPU-shared
+#SBATCH --gres=gpu:v100-32:1
+#SBATCH --account=cis260338p
+#SBATCH --cpus-per-task=5
+#SBATCH --mem=40G
+#SBATCH --time=04:00:00
+#SBATCH --job-name=social-muson-rloo
+#SBATCH --output=logs/muson-train-%j.log
+#SBATCH --error=logs/muson-train-%j.log
+set -euo pipefail
+source "$SLURM_SUBMIT_DIR/slurm/env.sh"
+ARGS=()
+if test -f "$SOCIAL_RL_STORE/runs/rloo_muson/latest.json"; then ARGS+=(--resume); fi
+python scripts/train_muson_rloo.py \
+  --manifest "$SOCIAL_RL_STORE/data/muson/train.jsonl" \
+  --output "$SOCIAL_RL_STORE/runs/rloo_muson" \
+  --start-adapter "$SOCIAL_RL_STORE/runs/rloo/checkpoint-00100" \
+  --steps 50 --max-hours 3.4 "${ARGS[@]}"
+python - <<'PY'
+import json
+from social_rl.common import STORE
+status=json.load(open(STORE/'runs/rloo_muson/status.json'))
+assert status['complete_requested_steps'], status
+PY
