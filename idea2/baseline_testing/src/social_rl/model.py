@@ -90,10 +90,12 @@ class VideoPolicy:
         self.model.eval()
         self.device = torch.device("cuda:0")
 
-    def inputs(self, prompt, video_path=None, synthetic=False, end_seconds=None, image_path=None):
+    def inputs(self, prompt, video_path=None, synthetic=False, end_seconds=None, image_path=None, frame_paths=None):
         content = []
         kwargs = {}
-        if image_path and (video_path or synthetic):
+        if image_path and (video_path or synthetic or frame_paths):
+            raise ValueError("Choose one visual input type")
+        if frame_paths and (video_path or synthetic):
             raise ValueError("Choose one visual input type")
         if image_path:
             with Image.open(image_path) as source:
@@ -101,8 +103,18 @@ class VideoPolicy:
             im.thumbnail((self.cfg["frame_max_side"], self.cfg["frame_max_side"]), Image.Resampling.LANCZOS)
             content.append({"type": "image"})
             kwargs.update(images=[im])
-        if video_path or synthetic:
-            if synthetic:
+        if video_path or synthetic or frame_paths:
+            if frame_paths:
+                with_images = []
+                for frame_path in frame_paths:
+                    with Image.open(frame_path) as source:
+                        im = source.convert("RGB")
+                    im.thumbnail((self.cfg["frame_max_side"], self.cfg["frame_max_side"]), Image.Resampling.LANCZOS)
+                    with_images.append(np.asarray(im))
+                frames = np.stack(with_images)
+                metadata = {"fps": 1.0, "total_num_frames": 32,
+                            "frames_indices": np.linspace(0, 31, len(frames)).round().astype(int).tolist()}
+            elif synthetic:
                 frames = np.zeros((8, 192, 256, 3), dtype=np.uint8)
                 frames[:, :, :, 0] = np.arange(8, dtype=np.uint8)[:, None, None] * 30
                 metadata = {"fps": 2.0, "total_num_frames": 8, "frames_indices": list(range(8))}

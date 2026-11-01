@@ -1,0 +1,36 @@
+{
+  "revision": "3b80a47473802b160b54e760d5dca070efd96f4c",
+  "frame_tar_sha256": "beaa87b53b33acc6788a18f43250b39f6dcfc20e963115c9637dd75440de2674",
+  "counts": {
+    "train": 3032,
+    "val": 389
+  },
+  "categories": {
+    "train": {
+      "S": 465,
+      "W": 463,
+      "G": 338,
+      "N": 125,
+      "A": 554,
+      "T": 573,
+      "R": 310,
+      "M": 204
+    },
+    "val": {
+      "G": 57,
+      "A": 60,
+      "S": 56,
+      "W": 77,
+      "T": 71,
+      "M": 18,
+      "N": 17,
+      "R": 33
+    }
+  },
+  "source_groups": {
+    "train": 254,
+    "val": 38
+  },
+  "excluded_open_questions": 111,
+  "frames_extracted": 14336
+}
