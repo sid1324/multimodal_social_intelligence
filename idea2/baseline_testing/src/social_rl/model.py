@@ -90,9 +90,17 @@ class VideoPolicy:
         self.model.eval()
         self.device = torch.device("cuda:0")
 
-    def inputs(self, prompt, video_path=None, synthetic=False, end_seconds=None):
+    def inputs(self, prompt, video_path=None, synthetic=False, end_seconds=None, image_path=None):
         content = []
         kwargs = {}
+        if image_path and (video_path or synthetic):
+            raise ValueError("Choose one visual input type")
+        if image_path:
+            with Image.open(image_path) as source:
+                im = source.convert("RGB")
+            im.thumbnail((self.cfg["frame_max_side"], self.cfg["frame_max_side"]), Image.Resampling.LANCZOS)
+            content.append({"type": "image"})
+            kwargs.update(images=[im])
         if video_path or synthetic:
             if synthetic:
                 frames = np.zeros((8, 192, 256, 3), dtype=np.uint8)
