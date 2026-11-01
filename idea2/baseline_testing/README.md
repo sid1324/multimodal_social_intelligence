@@ -13,6 +13,11 @@ A separate 384-token diagnostic on the same 400 items gives 30.8% base,
 33.5% RLOO, and 35.0% SFT joint accuracy; see its
 [paired comparisons](reports/results/cap384_video400_paired.json).
 
+The post-midterm [GRPO follow-up](reports/GRPO_RESULTS.md) completed on the
+same 400-ID panel. Its 192-token and 384-token joint scores were 19.2% and
+27.8%, below the starting model's 23.8% and 30.8%. This negative transfer
+result is exploratory because the panel was previously used in development.
+
 ## Environment and storage
 
 Code: this directory (`idea2/baseline_testing` in the team repository).
@@ -28,8 +33,6 @@ environment with these pins. Both write READY markers only after import checks.
 Use a V100-compatible CUDA build, not a CUDA 13 build that drops SM70.
 The exact installed dependency freeze is saved to reports/environment-lock.txt.
 Slurm scripts request one V100-32 on GPU-shared, account cis260338p.
-Submit them from this directory; Slurm uses that submission directory to find
-`slurm/env.sh` and write logs under `logs/`.
 
 ## Data
 

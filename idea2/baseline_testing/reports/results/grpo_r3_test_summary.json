@@ -1,0 +1,167 @@
+{
+  "conditions": {
+    "base_r3_test:video": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 1,
+      "total_inference_seconds": 201.9558671982959,
+      "accuracy": 0.6833333333333333,
+      "accuracy_ci95": [
+        0.5223880597014925,
+        0.8501785714285705
+      ]
+    },
+    "base_r3_test:blind": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 1,
+      "total_inference_seconds": 479.6450928011909,
+      "accuracy": 0.6166666666666667,
+      "accuracy_ci95": [
+        0.53125,
+        0.7446808510638298
+      ]
+    },
+    "rloo_r3_test:video": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 0,
+      "total_inference_seconds": 208.9699832405895,
+      "accuracy": 0.8,
+      "accuracy_ci95": [
+        0.7397260273972602,
+        0.8809523809523809
+      ]
+    },
+    "rloo_r3_test:blind": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 1,
+      "total_inference_seconds": 588.7458990798332,
+      "accuracy": 0.6166666666666667,
+      "accuracy_ci95": [
+        0.5616438356164384,
+        0.7254901960784313
+      ]
+    },
+    "sft_r3_test:video": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 0,
+      "total_inference_seconds": 64.01164757739753,
+      "accuracy": 0.9333333333333333,
+      "accuracy_ci95": [
+        0.8888888888888888,
+        0.9782608695652174
+      ]
+    },
+    "grpo_r3_test:video": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 1,
+      "total_inference_seconds": 330.34826314263046,
+      "accuracy": 0.8333333333333334,
+      "accuracy_ci95": [
+        0.7567567567567568,
+        0.9150604922820182
+      ]
+    },
+    "grpo_r3_test:blind": {
+      "n_attempted": 60,
+      "n_panel": 79,
+      "source_groups": 5,
+      "n_with_inference_errors": 0,
+      "n_with_invalid_output": 0,
+      "total_inference_seconds": 599.2424007421359,
+      "accuracy": 0.6833333333333333,
+      "accuracy_ci95": [
+        0.5795099431818183,
+        0.8372093023255814
+      ]
+    }
+  },
+  "category_membership": "correct-action taxonomy, overlapping",
+  "categories": {
+    "base_r3_test:video": {},
+    "base_r3_test:blind": {},
+    "rloo_r3_test:video": {},
+    "rloo_r3_test:blind": {},
+    "sft_r3_test:video": {},
+    "grpo_r3_test:video": {},
+    "grpo_r3_test:blind": {}
+  },
+  "paired_common_panel": {
+    "base_r3_test:blind minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": -0.06666666666666667,
+        "ci95": [
+          -0.189873417721519,
+          0.14754098360655737
+        ]
+      }
+    },
+    "rloo_r3_test:video minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": 0.11666666666666667,
+        "ci95": [
+          0.02702702702702703,
+          0.21311475409836064
+        ]
+      }
+    },
+    "rloo_r3_test:blind minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": -0.06666666666666667,
+        "ci95": [
+          -0.16217787554996857,
+          0.09836065573770492
+        ]
+      }
+    },
+    "sft_r3_test:video minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": 0.25,
+        "ci95": [
+          0.10204081632653061,
+          0.41379310344827586
+        ]
+      }
+    },
+    "grpo_r3_test:video minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": 0.15,
+        "ci95": [
+          -0.023255813953488372,
+          0.36065573770491804
+        ]
+      }
+    },
+    "grpo_r3_test:blind minus base_r3_test:video": {
+      "n_common": 60,
+      "accuracy": {
+        "difference": 0.0,
+        "ci95": [
+          -0.13956213662790698,
+          0.22950819672131148
+        ]
+      }
+    }
+  }
+}
