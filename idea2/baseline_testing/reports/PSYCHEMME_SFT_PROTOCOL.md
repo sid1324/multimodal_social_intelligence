@@ -49,7 +49,9 @@ failed on nonfinite gradients at the first step, before a model update.
 The implementation now starts the FP16 gradient scaler at 1024 and logs
 and skips any nonfinite-gradient attempt; accepted optimizer updates remain
 the step count, with a three-attempts-per-step stop bound. The replacement
-smoke job is `50104051`. Main jobs depend on its success.
+smoke job `50104051` completed successfully: eight attempts, five logged
+overflow skips, three accepted updates in 48 seconds after model loading,
+and 12.85 GB peak GPU memory reserved. Main jobs depend on its success.
 Checkpoint every 50 updates and save optimizer/scaler/RNG state. If a job
 stops before 300 steps, resume explicitly and record actual steps. Do not
 accept dependent evaluations of a missing 300-step checkpoint.
