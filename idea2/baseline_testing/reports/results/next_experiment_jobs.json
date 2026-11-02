@@ -35,5 +35,24 @@
   "cancelled_r3_control_train": "50106839",
   "r3_control_eval": "50106872",
   "original_visual_controls100": "50106873",
-  "epoch_analysis": "50106897"
+  "epoch_analysis": "50106897",
+  "visual_resumes": [
+    {
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s777",
+      "job": "50115595"
+    },
+    {
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s1777",
+      "job": "50115596"
+    },
+    {
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s777",
+      "job": "50115597"
+    },
+    {
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s1777",
+      "job": "50115598"
+    }
+  ],
+  "qwen38_baseline": "50115599"
 }

@@ -39,6 +39,12 @@ PsycheMME SFT from base reached 36.8% joint accuracy, while R³-FDT SFT
 followed by PsycheMME SFT reached **38.8%**, versus 35.2% for R³-FDT SFT
 alone. These are one-seed exploratory results; sensibility IoU stayed near
 49%, and the reserved final EgoNormia partition remains untouched.
+The [epoch SFT replication](reports/PSYCHEMME_EPOCH_RESULTS.md) shows substantial
+seed variation: base→PsycheMME scored 35.8%/41.2% joint, while
+R³-SFT→PsycheMME scored 35.2%/35.8%. Additional R³-SFT reached 38.0%.
+Longer PsycheMME training did not reliably improve transfer or sensibility.
+Qwen3.8-27B passed the V100 NF4 inference/backward smoke test within 24.01 GB;
+its unmodified EgoNormia baseline is queued.
 
 ## Environment and storage
 

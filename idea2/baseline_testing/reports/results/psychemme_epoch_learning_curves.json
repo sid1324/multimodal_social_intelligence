@@ -1,0 +1,214 @@
+{
+  "psychemme_epoch_base_s1777": {
+    "status": {
+      "steps": 3032,
+      "cursor": 3039,
+      "elapsed_seconds": 7271.640413771849,
+      "complete": true
+    },
+    "selection": {
+      "rule": "Highest source val120 accuracy; ties select earlier checkpoint",
+      "candidates": [
+        {
+          "step": 750,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s1777/checkpoint-00750",
+          "attempted": 120,
+          "correct": 92,
+          "accuracy": 0.7666666666666667,
+          "source_groups": 16
+        },
+        {
+          "step": 1500,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s1777/checkpoint-01500",
+          "attempted": 120,
+          "correct": 90,
+          "accuracy": 0.75,
+          "source_groups": 16
+        },
+        {
+          "step": 2250,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s1777/checkpoint-02250",
+          "attempted": 120,
+          "correct": 95,
+          "accuracy": 0.7916666666666666,
+          "source_groups": 16
+        },
+        {
+          "step": 3032,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s1777/checkpoint-03032",
+          "attempted": 120,
+          "correct": 93,
+          "accuracy": 0.775,
+          "source_groups": 16
+        }
+      ],
+      "selected": {
+        "step": 2250,
+        "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s1777/checkpoint-02250",
+        "attempted": 120,
+        "correct": 95,
+        "accuracy": 0.7916666666666666,
+        "source_groups": 16
+      }
+    }
+  },
+  "psychemme_epoch_base_s777": {
+    "status": {
+      "steps": 3032,
+      "cursor": 3040,
+      "elapsed_seconds": 8185.477225565352,
+      "complete": true
+    },
+    "selection": {
+      "rule": "Highest source val120 accuracy; ties select earlier checkpoint",
+      "candidates": [
+        {
+          "step": 750,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s777/checkpoint-00750",
+          "attempted": 120,
+          "correct": 93,
+          "accuracy": 0.775,
+          "source_groups": 16
+        },
+        {
+          "step": 1500,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s777/checkpoint-01500",
+          "attempted": 120,
+          "correct": 94,
+          "accuracy": 0.7833333333333333,
+          "source_groups": 16
+        },
+        {
+          "step": 2250,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s777/checkpoint-02250",
+          "attempted": 120,
+          "correct": 95,
+          "accuracy": 0.7916666666666666,
+          "source_groups": 16
+        },
+        {
+          "step": 3032,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s777/checkpoint-03032",
+          "attempted": 120,
+          "correct": 96,
+          "accuracy": 0.8,
+          "source_groups": 16
+        }
+      ],
+      "selected": {
+        "step": 3032,
+        "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s777/checkpoint-03032",
+        "attempted": 120,
+        "correct": 96,
+        "accuracy": 0.8,
+        "source_groups": 16
+      }
+    }
+  },
+  "psychemme_epoch_r3sft_s1777": {
+    "status": {
+      "steps": 3032,
+      "cursor": 3039,
+      "elapsed_seconds": 7287.427473485004,
+      "complete": true
+    },
+    "selection": {
+      "rule": "Highest source val120 accuracy; ties select earlier checkpoint",
+      "candidates": [
+        {
+          "step": 750,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s1777/checkpoint-00750",
+          "attempted": 120,
+          "correct": 91,
+          "accuracy": 0.7583333333333333,
+          "source_groups": 16
+        },
+        {
+          "step": 1500,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s1777/checkpoint-01500",
+          "attempted": 120,
+          "correct": 90,
+          "accuracy": 0.75,
+          "source_groups": 16
+        },
+        {
+          "step": 2250,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s1777/checkpoint-02250",
+          "attempted": 120,
+          "correct": 92,
+          "accuracy": 0.7666666666666667,
+          "source_groups": 16
+        },
+        {
+          "step": 3032,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s1777/checkpoint-03032",
+          "attempted": 120,
+          "correct": 94,
+          "accuracy": 0.7833333333333333,
+          "source_groups": 16
+        }
+      ],
+      "selected": {
+        "step": 3032,
+        "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s1777/checkpoint-03032",
+        "attempted": 120,
+        "correct": 94,
+        "accuracy": 0.7833333333333333,
+        "source_groups": 16
+      }
+    }
+  },
+  "psychemme_epoch_r3sft_s777": {
+    "status": {
+      "steps": 3032,
+      "cursor": 3040,
+      "elapsed_seconds": 7842.270487844944,
+      "complete": true
+    },
+    "selection": {
+      "rule": "Highest source val120 accuracy; ties select earlier checkpoint",
+      "candidates": [
+        {
+          "step": 750,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s777/checkpoint-00750",
+          "attempted": 120,
+          "correct": 91,
+          "accuracy": 0.7583333333333333,
+          "source_groups": 16
+        },
+        {
+          "step": 1500,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s777/checkpoint-01500",
+          "attempted": 120,
+          "correct": 92,
+          "accuracy": 0.7666666666666667,
+          "source_groups": 16
+        },
+        {
+          "step": 2250,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s777/checkpoint-02250",
+          "attempted": 120,
+          "correct": 95,
+          "accuracy": 0.7916666666666666,
+          "source_groups": 16
+        },
+        {
+          "step": 3032,
+          "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s777/checkpoint-03032",
+          "attempted": 120,
+          "correct": 96,
+          "accuracy": 0.8,
+          "source_groups": 16
+        }
+      ],
+      "selected": {
+        "step": 3032,
+        "checkpoint": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s777/checkpoint-03032",
+        "attempted": 120,
+        "correct": 96,
+        "accuracy": 0.8,
+        "source_groups": 16
+      }
+    }
+  }
+}

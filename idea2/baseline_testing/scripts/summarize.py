@@ -2,7 +2,7 @@
 import argparse
 import csv
 import json
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 import numpy as np
 
@@ -38,12 +38,19 @@ def main():
     out = Path(args.output)
     out.mkdir(parents=True, exist_ok=True)
     conditions = {}
-    for directory in args.runs:
+    basenames = Counter(Path(d).name for d in args.runs)
+    labels = [str(Path(d).parent.name + '/' + Path(d).name) if basenames[Path(d).name] > 1
+              else Path(d).name for d in args.runs]
+    if len(set(labels)) != len(labels):
+        raise ValueError('Evaluation run labels are not unique')
+    for directory, label in zip(args.runs, labels):
         path = Path(directory)
         for pred in read_jsonl(path / "predictions.jsonl"):
             if pred["id"] not in by_id:
                 raise ValueError("Prediction ID outside evaluation manifest")
-            key = path.name + ":" + pred["condition"]
+            key = label + ":" + pred["condition"]
+            if pred['id'] in conditions.get(key, {}):
+                raise ValueError(f'Duplicate prediction for {key}: {pred["id"]}')
             conditions.setdefault(key, {})[pred["id"]] = pred
     summaries, categories, official, item_rows = {}, {}, {}, []
     for condition, predictions in conditions.items():

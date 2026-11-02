@@ -1,0 +1,32 @@
+{
+  "model": {
+    "repository": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0"
+  },
+  "stages": [
+    {
+      "stage": "loaded",
+      "allocated_gb": 18.648899584,
+      "peak_allocated_gb": 21.107259392,
+      "peak_reserved_gb": 21.34900736
+    },
+    {
+      "stage": "video_generation",
+      "seconds": 29.91504044085741,
+      "tokens": 55,
+      "response": "Evidence: The person in the white armchair is wearing a device on their head that resembles a VR headset or a medical patch, which is a prominent and unusual feature. Acknowledging this specific detail shows attentiveness and concern for their well-being.\nAnswer: B",
+      "allocated_gb": 18.663867392,
+      "peak_allocated_gb": 21.107259392,
+      "peak_reserved_gb": 21.40143616
+    },
+    {
+      "stage": "backward",
+      "loss": 0.8038198947906494,
+      "finite_gradients": true,
+      "allocated_gb": 18.773878784,
+      "peak_allocated_gb": 22.074111488,
+      "peak_reserved_gb": 24.008196096
+    }
+  ],
+  "complete": true
+}

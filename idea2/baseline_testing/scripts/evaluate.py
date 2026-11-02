@@ -13,6 +13,8 @@ def main():
     p.add_argument("--manifest", required=True)
     p.add_argument("--output", required=True)
     p.add_argument("--adapter")
+    p.add_argument("--model-path")
+    p.add_argument("--offset", type=int, default=0)
     p.add_argument("--blind-same-prompt", action="store_true",
                    help="Omit video while retaining the ordinary video-task wording")
     p.add_argument("--conditions", nargs="+", default=["video"], choices=["video", "blind", "mismatch"])
@@ -24,6 +26,8 @@ def main():
     rows = read_jsonl(args.manifest)
     if any(r.get("split") == "final" for r in rows):
         raise ValueError("Final EgoNormia is reserved: this midterm evaluator refuses it")
+    if args.offset:
+        rows = rows[args.offset:]
     if args.limit:
         rows = rows[:args.limit]
     if not rows:
@@ -43,6 +47,9 @@ def main():
         metadata["max_new_tokens_override"] = args.max_new_tokens
     if args.blind_same_prompt:
         metadata['blind_same_prompt'] = True
+    if args.model_path:
+        metadata['model_path'] = str(Path(args.model_path).resolve())
+        metadata['model_release'] = json.loads((Path(args.model_path)/'READY').read_text())
     if (run / "metadata.json").exists() and json.loads((run / "metadata.json").read_text()) != metadata:
         raise ValueError("Cannot resume an output directory with different experiment settings")
     write_json(run / "metadata.json", metadata)
@@ -50,7 +57,7 @@ def main():
     previous = read_jsonl(path) if path.exists() else []
     done = {(r["id"], r["condition"]) for r in previous}
     mismatches = mismatch_map(rows) if "mismatch" in args.conditions else {}
-    policy = VideoPolicy(adapter=args.adapter)
+    policy = VideoPolicy(adapter=args.adapter, model_path=args.model_path)
     started = time.monotonic()
     for row in rows:
         for condition in args.conditions:
