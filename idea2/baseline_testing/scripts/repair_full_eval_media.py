@@ -4,7 +4,8 @@ from social_rl.common import STORE,read_jsonl,write_jsonl,write_json,sha256
 root=STORE/'data/full_study';rows={x['id']:x for x in read_jsonl(root/'ego_all.jsonl')}
 commands=subprocess.check_output(['squeue','-h','-u','apatawar','-o','%o'],text=True)
 registry=json.load(open(root/'registry.json'))
-if (root/'registry_amendments.json').exists():registry+=json.load(open(root/'registry_amendments.json'))['models']
+for registry_file in ('registry_amendments.json','registry_followups.json'):
+ if (root/registry_file).exists():registry+=json.load(open(root/registry_file))['models']
 for s in registry:
  run=STORE/'runs/full_ego'/s['name'];coverage=run/'coverage.json'
  spec=root/'specs'/f'{s["name"]}.json'

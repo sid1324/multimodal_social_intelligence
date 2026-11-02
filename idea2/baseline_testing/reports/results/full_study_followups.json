@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-02T10:24:24.374500+00:00",
+  "reason": "Replicate the expanded R3-only SFT recipe after full evaluation showed a strong historical R3 continuation and substantial seed variation in earlier PsycheMME runs. No EgoNormia records or labels enter training. Results are explicitly post-freeze follow-ups.",
+  "models": [
+    {
+      "name": "qwen35_9b_full_r3_s1777",
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen35_9b_full_r3_s1777",
+      "seed": 1777,
+      "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/r3_accessible.jsonl",
+      "recipe_amendment": "Post-original-freeze seed replication; same expanded accessible R3 training data and recipe."
+    }
+  ],
+  "training_job": "50123132",
+  "historical_extra_r3_visual_job": "50123133"
+}

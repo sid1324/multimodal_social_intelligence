@@ -3,8 +3,8 @@ import datetime,json,csv,pathlib
 from social_rl.common import STORE,ROOT,write_json,read_jsonl
 from summarize import cluster_ci
 root=STORE/'data/full_study';registry=json.load(open(root/'registry.json'));result={'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'models':{}}
-if (root/'registry_amendments.json').exists():
- registry+=json.load(open(root/'registry_amendments.json'))['models']
+for registry_file in ('registry_amendments.json','registry_followups.json'):
+ if (root/registry_file).exists():registry+=json.load(open(root/registry_file))['models']
 previous_file=ROOT/'reports/results/full_benchmark_results.json'
 previous=json.load(open(previous_file)).get('models',{}) if previous_file.exists() else {}
 for spec in registry:
@@ -15,7 +15,8 @@ for spec in registry:
  cohorts={}
  for n in ('all1853','previous400','new_source_groups','other_development'):
   summary=json.load(open(run/'analysis'/n/'summary.json'));cohorts[n]=next(iter(summary['conditions'].values()))
- result['models'][spec['name']]={'model_path':spec['model_path'],'cohorts':cohorts}
+ representation='ordered_images32' if '_images_v2' in spec['name'] else 'legacy_synthetic_frame_timestamps' if 'psy' in spec['name'] else 'no_PsycheMME_stage'
+ result['models'][spec['name']]={'model_path':spec['model_path'],'training_representation':representation,'recipe_amendment':spec.get('recipe_amendment'),'cohorts':cohorts}
 for name,record in result['models'].items():
  base='qwen38_27b_base' if '3.8' in record['model_path'] else 'qwen35_9b_base'
  if base==name or base not in result['models']:continue
@@ -31,11 +32,14 @@ for name,record in result['models'].items():
    delta=[float(b[i][metric])-float(a[i][metric]) for i in ids]
    record['paired_vs_base'][cohort][metric]={'difference':sum(delta)/len(delta),'ci95':cluster_ci(group_rows,delta)}
 write_json(ROOT/'reports/results/full_benchmark_results.json',result)
-lines=['# Complete full-EgoNormia results','',f"As of {result['utc']}. Only 1,853/1,853 media-repaired results are included.",'','| Model | All 1853 joint | Previous 400 joint | New source groups (1025) joint | Action | Justification | Sensibility IoU |','|---|---:|---:|---:|---:|---:|---:|']
+lines=['# Complete full-EgoNormia results','',f"As of {result['utc']}. Only 1,853/1,853 media-repaired results are included.",'',
+ 'R³ expansion recovered 6,037/41,529 questions across 373/2,812 videos. `full_r3` means one pass through all accessible examples, not complete release access. Full eligible PsycheMME has 3,534 questions after excluding 104 questions from shared EgoNormia source videos.','',
+ '| Model | All 1853 joint | Previous 400 joint | New source groups (1025) joint | Action | Justification | Sensibility IoU |','|---|---:|---:|---:|---:|---:|---:|']
 for name,r in result['models'].items():
  c=r['cohorts'];v=c['all1853'];values=[v['joint'],c['previous400']['joint'],c['new_source_groups']['joint'],v['action'],v['justification'],v['sensibility_iou']]
  lines.append('| '+name+' | '+' | '.join(f'{100*x:.1f}%' for x in values)+' |')
 lines+=['','The full release mixes development examples and the formerly reserved cohort. Interpret comparisons using model provenance, paired intervals, and seed variability.']
+lines+=['','PsycheMME models without `_images_v2` used the legacy training-frame path with synthetic timestamps. See [the preprocessing correction](PSYCHEMME_FRAME_REPRESENTATION_CORRECTION.md); their scores characterize those saved models, not an unqualified test of the dataset. Corrected 32-image runs are explicitly amended experiments.']
 (ROOT/'reports/FULL_BENCHMARK_RESULTS.md').write_text('\n'.join(lines)+'\n')
 print('Complete models:',len(result['models']))
 for name,r in result['models'].items():

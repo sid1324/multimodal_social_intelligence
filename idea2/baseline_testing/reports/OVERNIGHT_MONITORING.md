@@ -59,3 +59,21 @@ training targets are not dominated by their first position. This is an
 observed answer-position bias; its training cause is unresolved. The fixed
 R³ and 27B comparisons remain in progress. No new training choices have
 been made from these full benchmark labels.
+
+At 10:19 UTC the original 9B baseline finished media repair: 32.87% joint
+on all 1,853 items and 31.61% on the 1,025 new-source-group items. The
+historical extra-R³ SFT control scores 41.28%/42.34%, gains of +8.42 points
+(95% source-video-cluster CI +6.55 to +10.53) and +10.73 (+7.98 to +13.68).
+These intervals describe example sampling, not seed variance or correction
+for comparing multiple models. The 100-update R³-SFT control's full gain
+is only +1.13 points, CI −0.59 to +2.93. Full PsycheMME legacy-representation
+results remain flagged pending the corrected 32-image experiments.
+
+Post-freeze follow-ups were explicitly registered in
+`results/full_study_followups.json`: seed-1777 replication of the expanded
+6037-question R³-only recipe (job 50123132), plus native-prompt blind and
+mismatched-video controls on the same frozen first 100 development IDs
+for the strong historical extra-R³ adapter (50123133). No benchmark example
+or label is a training input. A bounded five-video public-source retry
+(50123206) tests whether the R³ YouTube failures were transient after a
+long cooldown; training manifests stay fixed during this probe.

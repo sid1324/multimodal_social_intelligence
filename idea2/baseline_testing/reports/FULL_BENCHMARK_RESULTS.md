@@ -1,10 +1,12 @@
 # Complete full-EgoNormia results
 
-As of 2026-11-02T08:02:23.178627+00:00. Only 1,853/1,853 media-repaired results are included.
+As of 2026-11-02T10:19:42.031375+00:00. Only 1,853/1,853 media-repaired results are included.
 
 | Model | All 1853 joint | Previous 400 joint | New source groups (1025) joint | Action | Justification | Sensibility IoU |
 |---|---:|---:|---:|---:|---:|---:|
+| qwen35_9b_base | 32.9% | 31.2% | 31.6% | 48.4% | 45.2% | 50.4% |
 | qwen35_9b_full_psy | 26.6% | 28.7% | 25.3% | 31.9% | 38.9% | 47.1% |
+| historical_r3_sft100 | 34.0% | 35.2% | 33.3% | 50.4% | 43.2% | 50.8% |
 | historical_psy_sft300 | 37.4% | 36.8% | 36.8% | 50.4% | 46.0% | 50.6% |
 | historical_r3_psy_sft300 | 39.1% | 38.8% | 39.1% | 52.0% | 47.3% | 50.6% |
 | historical_psychemme_epoch_base_s777 | 33.8% | 35.8% | 32.7% | 42.7% | 42.8% | 47.1% |
@@ -14,3 +16,5 @@ As of 2026-11-02T08:02:23.178627+00:00. Only 1,853/1,853 media-repaired results 
 | historical_extra_r3_sft3032 | 41.3% | 38.0% | 42.3% | 52.5% | 47.6% | 51.1% |
 
 The full release mixes development examples and the formerly reserved cohort. Interpret comparisons using model provenance, paired intervals, and seed variability.
+
+PsycheMME models without `_images_v2` used the legacy training-frame path with synthetic timestamps. See [the preprocessing correction](PSYCHEMME_FRAME_REPRESENTATION_CORRECTION.md); their scores characterize those saved models, not an unqualified test of the dataset. Corrected 32-image runs are explicitly amended experiments.
