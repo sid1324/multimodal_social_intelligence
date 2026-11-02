@@ -1,6 +1,441 @@
 {
-  "utc": "2026-11-02T07:02:08.425087+00:00",
+  "utc": "2026-11-02T08:02:23.178627+00:00",
   "models": {
+    "qwen35_9b_full_psy": {
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "cohorts": {
+        "all1853": {
+          "n_attempted": 1853,
+          "n_panel": 1853,
+          "source_groups": 1075,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 4,
+          "total_inference_seconds": 6430.748959633056,
+          "action": 0.3194819212088505,
+          "action_ci95": [
+            0.2985484740514918,
+            0.341323606044815
+          ],
+          "justification": 0.38855909336211547,
+          "justification_ci95": [
+            0.3660686973621484,
+            0.4110484203870765
+          ],
+          "joint": 0.26551538046411227,
+          "joint_ci95": [
+            0.2456036346577466,
+            0.28462060482673796
+          ],
+          "sensibility_iou": 0.47065119625831986,
+          "sensibility_iou_ci95": [
+            0.4557044968942925,
+            0.48514002809576545
+          ],
+          "verified": {
+            "n": 200,
+            "action": 0.325,
+            "justification": 0.435,
+            "joint": 0.285,
+            "sensibility_iou": 0.4765833333333333
+          }
+        },
+        "previous400": {
+          "n_attempted": 400,
+          "n_panel": 400,
+          "source_groups": 348,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 1,
+          "total_inference_seconds": 1362.8768204376101,
+          "action": 0.3375,
+          "action_ci95": [
+            0.29336399033297533,
+            0.38288096638494284
+          ],
+          "justification": 0.415,
+          "justification_ci95": [
+            0.3647959183673469,
+            0.4652307856684949
+          ],
+          "joint": 0.2875,
+          "joint_ci95": [
+            0.24574104628849155,
+            0.33171912832929784
+          ],
+          "sensibility_iou": 0.4640833333333333,
+          "sensibility_iou_ci95": [
+            0.43260160062058833,
+            0.4968614136524583
+          ],
+          "verified": {
+            "n": 46,
+            "action": 0.391304347826087,
+            "justification": 0.5434782608695652,
+            "joint": 0.34782608695652173,
+            "sensibility_iou": 0.45289855072463764
+          }
+        },
+        "new_source_groups": {
+          "n_attempted": 1025,
+          "n_panel": 1025,
+          "source_groups": 726,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 2,
+          "total_inference_seconds": 3484.1061573498882,
+          "action": 0.3102439024390244,
+          "action_ci95": [
+            0.28205128205128205,
+            0.3394794297567487
+          ],
+          "justification": 0.36390243902439023,
+          "justification_ci95": [
+            0.33597467900224215,
+            0.3924566942491471
+          ],
+          "joint": 0.2526829268292683,
+          "joint_ci95": [
+            0.22692307692307692,
+            0.2776189330341379
+          ],
+          "sensibility_iou": 0.4657560975609756,
+          "sensibility_iou_ci95": [
+            0.4467889800359794,
+            0.4856512993900193
+          ],
+          "verified": {
+            "n": 109,
+            "action": 0.3302752293577982,
+            "justification": 0.41284403669724773,
+            "joint": 0.28440366972477066,
+            "sensibility_iou": 0.4899082568807339
+          }
+        },
+        "other_development": {
+          "n_attempted": 428,
+          "n_panel": 428,
+          "source_groups": 189,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 1,
+          "total_inference_seconds": 1583.7659818455577,
+          "action": 0.3247663551401869,
+          "action_ci95": [
+            0.28397905791091377,
+            0.3672494309708814
+          ],
+          "justification": 0.42289719626168226,
+          "justification_ci95": [
+            0.3780140404536243,
+            0.4696279382611159
+          ],
+          "joint": 0.2757009345794392,
+          "joint_ci95": [
+            0.23809523809523808,
+            0.31469077797202794
+          ],
+          "sensibility_iou": 0.48851246105919,
+          "sensibility_iou_ci95": [
+            0.45874073066850035,
+            0.5199105590447803
+          ],
+          "verified": {
+            "n": 45,
+            "action": 0.24444444444444444,
+            "justification": 0.37777777777777777,
+            "joint": 0.2222222222222222,
+            "sensibility_iou": 0.4685185185185185
+          }
+        }
+      }
+    },
+    "historical_psy_sft300": {
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "cohorts": {
+        "all1853": {
+          "n_attempted": 1853,
+          "n_panel": 1853,
+          "source_groups": 1075,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 46,
+          "total_inference_seconds": 16353.62238669477,
+          "action": 0.5040474905558554,
+          "action_ci95": [
+            0.47982504063918535,
+            0.5280724802418586
+          ],
+          "justification": 0.4603345925526174,
+          "justification_ci95": [
+            0.43545793168117486,
+            0.484233147855822
+          ],
+          "joint": 0.37398812736103615,
+          "joint_ci95": [
+            0.3499718740906918,
+            0.39812680737605477
+          ],
+          "sensibility_iou": 0.5062061521856449,
+          "sensibility_iou_ci95": [
+            0.49104458695378517,
+            0.5213212321148307
+          ],
+          "verified": {
+            "n": 200,
+            "action": 0.585,
+            "justification": 0.55,
+            "joint": 0.465,
+            "sensibility_iou": 0.50625
+          }
+        },
+        "previous400": {
+          "n_attempted": 400,
+          "n_panel": 400,
+          "source_groups": 348,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 7,
+          "total_inference_seconds": 3067.6419400227023,
+          "action": 0.4825,
+          "action_ci95": [
+            0.43671331435800126,
+            0.5306122448979592
+          ],
+          "justification": 0.4375,
+          "justification_ci95": [
+            0.3860002064547065,
+            0.4900581228473019
+          ],
+          "joint": 0.3675,
+          "joint_ci95": [
+            0.31999748110831233,
+            0.41872243571557527
+          ],
+          "sensibility_iou": 0.488125,
+          "sensibility_iou_ci95": [
+            0.4563931422927632,
+            0.5215984877447856
+          ],
+          "verified": {
+            "n": 46,
+            "action": 0.5869565217391305,
+            "justification": 0.45652173913043476,
+            "joint": 0.391304347826087,
+            "sensibility_iou": 0.519927536231884
+          }
+        },
+        "new_source_groups": {
+          "n_attempted": 1025,
+          "n_panel": 1025,
+          "source_groups": 726,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 25,
+          "total_inference_seconds": 9212.129583503818,
+          "action": 0.49365853658536585,
+          "action_ci95": [
+            0.4620541746915459,
+            0.5229723607038123
+          ],
+          "justification": 0.4634146341463415,
+          "justification_ci95": [
+            0.4341284431137724,
+            0.4932821497120921
+          ],
+          "joint": 0.3678048780487805,
+          "joint_ci95": [
+            0.33906358302633377,
+            0.397238583514024
+          ],
+          "sensibility_iou": 0.5047154471544715,
+          "sensibility_iou_ci95": [
+            0.48401415656162483,
+            0.5249461173986802
+          ],
+          "verified": {
+            "n": 109,
+            "action": 0.6146788990825688,
+            "justification": 0.6055045871559633,
+            "joint": 0.5229357798165137,
+            "sensibility_iou": 0.5022935779816514
+          }
+        },
+        "other_development": {
+          "n_attempted": 428,
+          "n_panel": 428,
+          "source_groups": 189,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 14,
+          "total_inference_seconds": 4073.850863168249,
+          "action": 0.5490654205607477,
+          "action_ci95": [
+            0.4962029987348553,
+            0.6009834673214706
+          ],
+          "justification": 0.4742990654205608,
+          "justification_ci95": [
+            0.42326483978185053,
+            0.5227926980662776
+          ],
+          "joint": 0.39485981308411217,
+          "joint_ci95": [
+            0.34401230831315577,
+            0.442081609535067
+          ],
+          "sensibility_iou": 0.5266744548286605,
+          "sensibility_iou_ci95": [
+            0.4953468281371074,
+            0.5604439252057877
+          ],
+          "verified": {
+            "n": 45,
+            "action": 0.5111111111111111,
+            "justification": 0.5111111111111111,
+            "joint": 0.4,
+            "sensibility_iou": 0.5018518518518518
+          }
+        }
+      }
+    },
+    "historical_r3_psy_sft300": {
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "cohorts": {
+        "all1853": {
+          "n_attempted": 1853,
+          "n_panel": 1853,
+          "source_groups": 1075,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 29,
+          "total_inference_seconds": 11132.374955801759,
+          "action": 0.5202374527792768,
+          "action_ci95": [
+            0.4978112110532329,
+            0.5440394960527235
+          ],
+          "justification": 0.4732865623313546,
+          "justification_ci95": [
+            0.4495409006482908,
+            0.4983353670875209
+          ],
+          "joint": 0.3912574203993524,
+          "joint_ci95": [
+            0.3690035455939111,
+            0.41424935333156665
+          ],
+          "sensibility_iou": 0.5058643640942615,
+          "sensibility_iou_ci95": [
+            0.4904353680953046,
+            0.521017986621732
+          ],
+          "verified": {
+            "n": 200,
+            "action": 0.58,
+            "justification": 0.52,
+            "joint": 0.445,
+            "sensibility_iou": 0.5175
+          }
+        },
+        "previous400": {
+          "n_attempted": 400,
+          "n_panel": 400,
+          "source_groups": 348,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 7,
+          "total_inference_seconds": 2257.832998144906,
+          "action": 0.5075,
+          "action_ci95": [
+            0.45792079207920794,
+            0.5588288447909284
+          ],
+          "justification": 0.4525,
+          "justification_ci95": [
+            0.40237167982771,
+            0.5059411179424063
+          ],
+          "joint": 0.3875,
+          "joint_ci95": [
+            0.33892739661654137,
+            0.4378186419388207
+          ],
+          "sensibility_iou": 0.4919583333333333,
+          "sensibility_iou_ci95": [
+            0.459918971859018,
+            0.5253041362530413
+          ],
+          "verified": {
+            "n": 46,
+            "action": 0.5434782608695652,
+            "justification": 0.5,
+            "joint": 0.391304347826087,
+            "sensibility_iou": 0.5434782608695652
+          }
+        },
+        "new_source_groups": {
+          "n_attempted": 1025,
+          "n_panel": 1025,
+          "source_groups": 726,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 14,
+          "total_inference_seconds": 6308.001748898765,
+          "action": 0.5131707317073171,
+          "action_ci95": [
+            0.4817639425806277,
+            0.5449332140641197
+          ],
+          "justification": 0.4819512195121951,
+          "justification_ci95": [
+            0.45207594375776206,
+            0.5103265302542603
+          ],
+          "joint": 0.39121951219512197,
+          "joint_ci95": [
+            0.36163973886229356,
+            0.41976952660797795
+          ],
+          "sensibility_iou": 0.5052032520325204,
+          "sensibility_iou_ci95": [
+            0.48352785516214347,
+            0.5259862865815856
+          ],
+          "verified": {
+            "n": 109,
+            "action": 0.6238532110091743,
+            "justification": 0.5596330275229358,
+            "joint": 0.4954128440366973,
+            "sensibility_iou": 0.5114678899082569
+          }
+        },
+        "other_development": {
+          "n_attempted": 428,
+          "n_panel": 428,
+          "source_groups": 189,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 8,
+          "total_inference_seconds": 2566.540208758088,
+          "action": 0.5490654205607477,
+          "action_ci95": [
+            0.5047613405551794,
+            0.5952957411372829
+          ],
+          "justification": 0.4719626168224299,
+          "justification_ci95": [
+            0.42168674698795183,
+            0.5233650063484794
+          ],
+          "joint": 0.39485981308411217,
+          "joint_ci95": [
+            0.3488329860915592,
+            0.4395439540831499
+          ],
+          "sensibility_iou": 0.5204439252336449,
+          "sensibility_iou_ci95": [
+            0.4895814416868442,
+            0.5544013955196474
+          ],
+          "verified": {
+            "n": 45,
+            "action": 0.5111111111111111,
+            "justification": 0.4444444444444444,
+            "joint": 0.37777777777777777,
+            "sensibility_iou": 0.5055555555555555
+          }
+        }
+      }
+    },
     "historical_psychemme_epoch_base_s777": {
       "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
       "cohorts": {
@@ -142,6 +577,586 @@
             "justification": 0.4888888888888889,
             "joint": 0.3111111111111111,
             "sensibility_iou": 0.44629629629629636
+          }
+        }
+      }
+    },
+    "historical_psychemme_epoch_base_s1777": {
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "cohorts": {
+        "all1853": {
+          "n_attempted": 1853,
+          "n_panel": 1853,
+          "source_groups": 1075,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 3,
+          "total_inference_seconds": 6261.165442897822,
+          "action": 0.49595250944414465,
+          "action_ci95": [
+            0.4732431613775106,
+            0.5193675915948275
+          ],
+          "justification": 0.47004856988667026,
+          "justification_ci95": [
+            0.44668015964590385,
+            0.49292737806407244
+          ],
+          "joint": 0.39233675121424716,
+          "joint_ci95": [
+            0.3694500911236413,
+            0.4143461582775067
+          ],
+          "sensibility_iou": 0.48955747436589314,
+          "sensibility_iou_ci95": [
+            0.47406542961340015,
+            0.5048252868542923
+          ],
+          "verified": {
+            "n": 200,
+            "action": 0.55,
+            "justification": 0.535,
+            "joint": 0.45,
+            "sensibility_iou": 0.4966666666666667
+          }
+        },
+        "previous400": {
+          "n_attempted": 400,
+          "n_panel": 400,
+          "source_groups": 348,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 1,
+          "total_inference_seconds": 1291.3748094644397,
+          "action": 0.4975,
+          "action_ci95": [
+            0.44834768224369337,
+            0.5483931300780307
+          ],
+          "justification": 0.4775,
+          "justification_ci95": [
+            0.4282114254343473,
+            0.528395061728395
+          ],
+          "joint": 0.4125,
+          "joint_ci95": [
+            0.3643211473012987,
+            0.46232093302332555
+          ],
+          "sensibility_iou": 0.47291666666666665,
+          "sensibility_iou_ci95": [
+            0.43952806122448984,
+            0.5071818429290866
+          ],
+          "verified": {
+            "n": 46,
+            "action": 0.5217391304347826,
+            "justification": 0.5,
+            "joint": 0.391304347826087,
+            "sensibility_iou": 0.4963768115942029
+          }
+        },
+        "new_source_groups": {
+          "n_attempted": 1025,
+          "n_panel": 1025,
+          "source_groups": 726,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 2,
+          "total_inference_seconds": 3454.151332466048,
+          "action": 0.48292682926829267,
+          "action_ci95": [
+            0.4522063641291053,
+            0.5128731224943993
+          ],
+          "justification": 0.4575609756097561,
+          "justification_ci95": [
+            0.4270428015564202,
+            0.4880841731354124
+          ],
+          "joint": 0.37365853658536585,
+          "joint_ci95": [
+            0.34365775417013344,
+            0.4032113411666851
+          ],
+          "sensibility_iou": 0.489869918699187,
+          "sensibility_iou_ci95": [
+            0.46901769075622096,
+            0.5099699523236042
+          ],
+          "verified": {
+            "n": 109,
+            "action": 0.5779816513761468,
+            "justification": 0.5412844036697247,
+            "joint": 0.47706422018348627,
+            "sensibility_iou": 0.5
+          }
+        },
+        "other_development": {
+          "n_attempted": 428,
+          "n_panel": 428,
+          "source_groups": 189,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 0,
+          "total_inference_seconds": 1515.6393009673338,
+          "action": 0.5257009345794392,
+          "action_ci95": [
+            0.48297783871257755,
+            0.5683478275384333
+          ],
+          "justification": 0.4929906542056075,
+          "justification_ci95": [
+            0.4496448678825728,
+            0.5346795113490687
+          ],
+          "joint": 0.4182242990654206,
+          "joint_ci95": [
+            0.37559808612440193,
+            0.4600506323528601
+          ],
+          "sensibility_iou": 0.5043613707165109,
+          "sensibility_iou_ci95": [
+            0.47505453185450336,
+            0.5381672244094489
+          ],
+          "verified": {
+            "n": 45,
+            "action": 0.5111111111111111,
+            "justification": 0.5555555555555556,
+            "joint": 0.4444444444444444,
+            "sensibility_iou": 0.4888888888888889
+          }
+        }
+      }
+    },
+    "historical_psychemme_epoch_r3sft_s777": {
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "cohorts": {
+        "all1853": {
+          "n_attempted": 1853,
+          "n_panel": 1853,
+          "source_groups": 1075,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 2,
+          "total_inference_seconds": 6028.743685125373,
+          "action": 0.41446303291958986,
+          "action_ci95": [
+            0.39227339030430375,
+            0.4375402434329095
+          ],
+          "justification": 0.41500269832703723,
+          "justification_ci95": [
+            0.39275364440021077,
+            0.43750333155650317
+          ],
+          "joint": 0.3259579060982191,
+          "joint_ci95": [
+            0.3053257216686305,
+            0.34773894643182446
+          ],
+          "sensibility_iou": 0.47150566648677816,
+          "sensibility_iou_ci95": [
+            0.456865911904522,
+            0.4865395643108336
+          ],
+          "verified": {
+            "n": 200,
+            "action": 0.425,
+            "justification": 0.415,
+            "joint": 0.335,
+            "sensibility_iou": 0.4636666666666666
+          }
+        },
+        "previous400": {
+          "n_attempted": 400,
+          "n_panel": 400,
+          "source_groups": 348,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 1,
+          "total_inference_seconds": 1266.18963733688,
+          "action": 0.415,
+          "action_ci95": [
+            0.3684210526315789,
+            0.4621259707629054
+          ],
+          "justification": 0.4475,
+          "justification_ci95": [
+            0.3974667105046852,
+            0.49751305051099187
+          ],
+          "joint": 0.3525,
+          "joint_ci95": [
+            0.3089979604980678,
+            0.3984776344414335
+          ],
+          "sensibility_iou": 0.46220833333333333,
+          "sensibility_iou_ci95": [
+            0.43019735529253295,
+            0.49568936574797884
+          ],
+          "verified": {
+            "n": 46,
+            "action": 0.43478260869565216,
+            "justification": 0.45652173913043476,
+            "joint": 0.3695652173913043,
+            "sensibility_iou": 0.4746376811594203
+          }
+        },
+        "new_source_groups": {
+          "n_attempted": 1025,
+          "n_panel": 1025,
+          "source_groups": 726,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 1,
+          "total_inference_seconds": 3360.9939128188416,
+          "action": 0.4068292682926829,
+          "action_ci95": [
+            0.3752493550909876,
+            0.4371347124311414
+          ],
+          "justification": 0.39902439024390246,
+          "justification_ci95": [
+            0.3688843286317725,
+            0.42897049813742666
+          ],
+          "joint": 0.31609756097560976,
+          "joint_ci95": [
+            0.28711850052502225,
+            0.34341705455222493
+          ],
+          "sensibility_iou": 0.46972357723577235,
+          "sensibility_iou_ci95": [
+            0.45038554175293305,
+            0.49007240158350607
+          ],
+          "verified": {
+            "n": 109,
+            "action": 0.45871559633027525,
+            "justification": 0.42201834862385323,
+            "joint": 0.3577981651376147,
+            "sensibility_iou": 0.46314984709480117
+          }
+        },
+        "other_development": {
+          "n_attempted": 428,
+          "n_panel": 428,
+          "source_groups": 189,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 0,
+          "total_inference_seconds": 1401.5601349696517,
+          "action": 0.4322429906542056,
+          "action_ci95": [
+            0.38608797172788084,
+            0.4776154357020518
+          ],
+          "justification": 0.42289719626168226,
+          "justification_ci95": [
+            0.37414943752293056,
+            0.47165742383910086
+          ],
+          "joint": 0.3247663551401869,
+          "joint_ci95": [
+            0.2805416068866571,
+            0.3677918632075472
+          ],
+          "sensibility_iou": 0.4844626168224299,
+          "sensibility_iou_ci95": [
+            0.45347690337882857,
+            0.5179786393381899
+          ],
+          "verified": {
+            "n": 45,
+            "action": 0.3333333333333333,
+            "justification": 0.35555555555555557,
+            "joint": 0.24444444444444444,
+            "sensibility_iou": 0.45370370370370366
+          }
+        }
+      }
+    },
+    "historical_psychemme_epoch_r3sft_s1777": {
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "cohorts": {
+        "all1853": {
+          "n_attempted": 1853,
+          "n_panel": 1853,
+          "source_groups": 1075,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 2,
+          "total_inference_seconds": 6170.7234068666585,
+          "action": 0.4409066378845116,
+          "action_ci95": [
+            0.418773707585111,
+            0.4643979904776428
+          ],
+          "justification": 0.4187803561791689,
+          "justification_ci95": [
+            0.3954590855979797,
+            0.44089626714771757
+          ],
+          "joint": 0.3475445223961144,
+          "joint_ci95": [
+            0.3255514206904113,
+            0.36920880047510124
+          ],
+          "sensibility_iou": 0.4658301852851232,
+          "sensibility_iou_ci95": [
+            0.4513124110456611,
+            0.48037346921545254
+          ],
+          "verified": {
+            "n": 200,
+            "action": 0.445,
+            "justification": 0.445,
+            "joint": 0.37,
+            "sensibility_iou": 0.4665833333333333
+          }
+        },
+        "previous400": {
+          "n_attempted": 400,
+          "n_panel": 400,
+          "source_groups": 348,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 2,
+          "total_inference_seconds": 1289.801354068797,
+          "action": 0.42,
+          "action_ci95": [
+            0.37304306994818653,
+            0.4671566955453987
+          ],
+          "justification": 0.435,
+          "justification_ci95": [
+            0.38775258251448724,
+            0.48529591104734576
+          ],
+          "joint": 0.3575,
+          "joint_ci95": [
+            0.31202046035805625,
+            0.40493981481481484
+          ],
+          "sensibility_iou": 0.4495,
+          "sensibility_iou_ci95": [
+            0.4173860089186176,
+            0.48381389153313237
+          ],
+          "verified": {
+            "n": 46,
+            "action": 0.41304347826086957,
+            "justification": 0.43478260869565216,
+            "joint": 0.34782608695652173,
+            "sensibility_iou": 0.45471014492753625
+          }
+        },
+        "new_source_groups": {
+          "n_attempted": 1025,
+          "n_panel": 1025,
+          "source_groups": 726,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 0,
+          "total_inference_seconds": 3355.0639872848988,
+          "action": 0.43902439024390244,
+          "action_ci95": [
+            0.40754991354660375,
+            0.46956521739130436
+          ],
+          "justification": 0.40390243902439027,
+          "justification_ci95": [
+            0.3743732666987553,
+            0.4329214733033441
+          ],
+          "joint": 0.34146341463414637,
+          "joint_ci95": [
+            0.31196018422430183,
+            0.3700707785642063
+          ],
+          "sensibility_iou": 0.46559349593495936,
+          "sensibility_iou_ci95": [
+            0.44708480643315146,
+            0.4850756373345145
+          ],
+          "verified": {
+            "n": 109,
+            "action": 0.5045871559633027,
+            "justification": 0.48623853211009177,
+            "joint": 0.42201834862385323,
+            "sensibility_iou": 0.47844036697247705
+          }
+        },
+        "other_development": {
+          "n_attempted": 428,
+          "n_panel": 428,
+          "source_groups": 189,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 0,
+          "total_inference_seconds": 1525.8580655129626,
+          "action": 0.4649532710280374,
+          "action_ci95": [
+            0.41790869595683555,
+            0.5106957380089178
+          ],
+          "justification": 0.4392523364485981,
+          "justification_ci95": [
+            0.3924855997624703,
+            0.4852275983293109
+          ],
+          "joint": 0.352803738317757,
+          "joint_ci95": [
+            0.30768779342723007,
+            0.3960892007134167
+          ],
+          "sensibility_iou": 0.48165887850467287,
+          "sensibility_iou_ci95": [
+            0.45158524132000427,
+            0.5125002340823971
+          ],
+          "verified": {
+            "n": 45,
+            "action": 0.3333333333333333,
+            "justification": 0.35555555555555557,
+            "joint": 0.26666666666666666,
+            "sensibility_iou": 0.45
+          }
+        }
+      }
+    },
+    "historical_extra_r3_sft3032": {
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "cohorts": {
+        "all1853": {
+          "n_attempted": 1853,
+          "n_panel": 1853,
+          "source_groups": 1075,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 24,
+          "total_inference_seconds": 9632.476338851266,
+          "action": 0.5250944414463032,
+          "action_ci95": [
+            0.5017017584174117,
+            0.5487789307890175
+          ],
+          "justification": 0.47598488936859146,
+          "justification_ci95": [
+            0.4518916657243017,
+            0.49944965039856226
+          ],
+          "joint": 0.41284403669724773,
+          "joint_ci95": [
+            0.3896511544369903,
+            0.4360942323355444
+          ],
+          "sensibility_iou": 0.5108472746896924,
+          "sensibility_iou_ci95": [
+            0.49562533414087945,
+            0.5254233550206759
+          ],
+          "verified": {
+            "n": 200,
+            "action": 0.595,
+            "justification": 0.535,
+            "joint": 0.465,
+            "sensibility_iou": 0.51375
+          }
+        },
+        "previous400": {
+          "n_attempted": 400,
+          "n_panel": 400,
+          "source_groups": 348,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 9,
+          "total_inference_seconds": 2147.3511301600374,
+          "action": 0.49,
+          "action_ci95": [
+            0.43989271806603353,
+            0.5423739706330879
+          ],
+          "justification": 0.4425,
+          "justification_ci95": [
+            0.39129617522066035,
+            0.4962226046973247
+          ],
+          "joint": 0.38,
+          "joint_ci95": [
+            0.3316323251665705,
+            0.4313277048342998
+          ],
+          "sensibility_iou": 0.4924583333333333,
+          "sensibility_iou_ci95": [
+            0.4593230305173374,
+            0.5270198378634653
+          ],
+          "verified": {
+            "n": 46,
+            "action": 0.5652173913043478,
+            "justification": 0.45652173913043476,
+            "joint": 0.3695652173913043,
+            "sensibility_iou": 0.5434782608695652
+          }
+        },
+        "new_source_groups": {
+          "n_attempted": 1025,
+          "n_panel": 1025,
+          "source_groups": 726,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 12,
+          "total_inference_seconds": 5392.1977643361315,
+          "action": 0.5278048780487805,
+          "action_ci95": [
+            0.49496474565758014,
+            0.5587140885313967
+          ],
+          "justification": 0.4819512195121951,
+          "justification_ci95": [
+            0.45309362320254937,
+            0.5111171437973017
+          ],
+          "joint": 0.42341463414634145,
+          "joint_ci95": [
+            0.393507465168091,
+            0.4535050909483748
+          ],
+          "sensibility_iou": 0.5078373983739837,
+          "sensibility_iou_ci95": [
+            0.48766885754884104,
+            0.5283530675723851
+          ],
+          "verified": {
+            "n": 109,
+            "action": 0.6238532110091743,
+            "justification": 0.5871559633027523,
+            "joint": 0.5229357798165137,
+            "sensibility_iou": 0.5091743119266054
+          }
+        },
+        "other_development": {
+          "n_attempted": 428,
+          "n_panel": 428,
+          "source_groups": 189,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 3,
+          "total_inference_seconds": 2092.9274443550967,
+          "action": 0.5514018691588785,
+          "action_ci95": [
+            0.5046939933126344,
+            0.5966401419058189
+          ],
+          "justification": 0.4929906542056075,
+          "justification_ci95": [
+            0.44083133430335447,
+            0.5418523518544834
+          ],
+          "joint": 0.4182242990654206,
+          "joint_ci95": [
+            0.3708597389017396,
+            0.46318869126933543
+          ],
+          "sensibility_iou": 0.5352414330218068,
+          "sensibility_iou_ci95": [
+            0.5043800502293077,
+            0.5682798253007432
+          ],
+          "verified": {
+            "n": 45,
+            "action": 0.5555555555555556,
+            "justification": 0.4888888888888889,
+            "joint": 0.4222222222222222,
+            "sensibility_iou": 0.49444444444444446
           }
         }
       }

@@ -3,6 +3,8 @@ import datetime,json,csv,pathlib
 from social_rl.common import STORE,ROOT,write_json,read_jsonl
 from summarize import cluster_ci
 root=STORE/'data/full_study';registry=json.load(open(root/'registry.json'));result={'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'models':{}}
+previous_file=ROOT/'reports/results/full_benchmark_results.json'
+previous=json.load(open(previous_file)).get('models',{}) if previous_file.exists() else {}
 for spec in registry:
  run=STORE/'runs/full_ego'/spec['name'];c=run/'coverage.json'
  if not c.exists():continue
@@ -34,4 +36,6 @@ for name,r in result['models'].items():
 lines+=['','The full release mixes development examples and the formerly reserved cohort. Interpret comparisons using model provenance, paired intervals, and seed variability.']
 (ROOT/'reports/FULL_BENCHMARK_RESULTS.md').write_text('\n'.join(lines)+'\n')
 print('Complete models:',len(result['models']))
-print('\n'.join(lines[4:]))
+for name,r in result['models'].items():
+ if name not in previous:
+  print('NEW_COMPLETE',name,'all joint',r['cohorts']['all1853']['joint'],'new-source joint',r['cohorts']['new_source_groups']['joint'])

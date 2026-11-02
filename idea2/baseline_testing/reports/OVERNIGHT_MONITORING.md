@@ -50,3 +50,12 @@ Its original 400-ID score exactly reproduces 35.75%, supporting pipeline
 consistency. Full joint accuracy is 33.78%; the new-source cohort is 32.68%.
 No improvement claim is made until unmodified baselines finish. Complete
 results are collected in `FULL_BENCHMARK_RESULTS.md` and its JSON companion.
+
+At 07:31 UTC both 9B and 27B full eligible PsycheMME training stages were
+complete. The 9B model has a clean full-benchmark score of 26.61% joint,
+with 31.9% action accuracy and only four invalid examples. It selects action
+index zero in 1,514/1,853 cases (81.7%), although the actual permuted source
+training targets are not dominated by their first position. This is an
+observed answer-position bias; its training cause is unresolved. The fixed
+R³ and 27B comparisons remain in progress. No new training choices have
+been made from these full benchmark labels.

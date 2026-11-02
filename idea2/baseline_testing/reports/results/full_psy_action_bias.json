@@ -1,0 +1,31 @@
+{
+  "model": "qwen35_9b_full_psy",
+  "evaluated": 1853,
+  "predicted_action_indices": {
+    "0": 1514,
+    "3": 54,
+    "2": 246,
+    "1": 36,
+    "4": 3
+  },
+  "gold_action_indices": {
+    "2": 439,
+    "0": 445,
+    "3": 454,
+    "1": 469,
+    "4": 46
+  },
+  "actual_permuted_training_answers": {
+    "G": 350,
+    "D": 316,
+    "H": 320,
+    "F": 334,
+    "I": 293,
+    "A": 413,
+    "E": 345,
+    "C": 322,
+    "B": 391,
+    "J": 339
+  },
+  "interpretation": "First-action selection bias under native EgoNormia prompts; no causal mechanism established. Source answer permutations were balanced across available option positions."
+}
