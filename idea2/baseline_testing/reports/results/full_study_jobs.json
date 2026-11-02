@@ -1,0 +1,69 @@
+{
+  "acquisition": {
+    "r3": "50115735",
+    "ego": "50115736"
+  },
+  "initial_jobs": [
+    {
+      "name": "qwen35_9b_base",
+      "job": "50115737"
+    },
+    {
+      "name": "qwen35_9b_full_psy",
+      "job": "50115936"
+    },
+    {
+      "name": "qwen38_27b_base",
+      "job": "50115739"
+    },
+    {
+      "name": "qwen38_27b_full_psy",
+      "job": "50115937"
+    },
+    {
+      "name": "historical_r3_sft100",
+      "job": "50115741"
+    },
+    {
+      "name": "historical_psy_sft300",
+      "job": "50115742"
+    },
+    {
+      "name": "historical_r3_psy_sft300",
+      "job": "50115743"
+    },
+    {
+      "name": "historical_rloo100",
+      "job": "50115744"
+    },
+    {
+      "name": "historical_grpo100",
+      "job": "50115745"
+    },
+    {
+      "name": "historical_psychemme_epoch_base_s777",
+      "job": "50115746"
+    },
+    {
+      "name": "historical_psychemme_epoch_base_s1777",
+      "job": "50115747"
+    },
+    {
+      "name": "historical_psychemme_epoch_r3sft_s777",
+      "job": "50115748"
+    },
+    {
+      "name": "historical_psychemme_epoch_r3sft_s1777",
+      "job": "50115749"
+    },
+    {
+      "name": "historical_extra_r3_sft3032",
+      "job": "50115898"
+    }
+  ],
+  "r3_dispatch": "50115750",
+  "superseded_initial_training": [
+    "50115738",
+    "50115740"
+  ]
+}

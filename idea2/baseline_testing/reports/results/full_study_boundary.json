@@ -1,0 +1,13 @@
+{
+  "authorization": "User requested full EgoNormia evaluation and full external SFT in this session.",
+  "ego_manifest_sha256": "c56583a0d9d57769e9d980f82e20e85718b3129cbd57e97967f0418fd10c3783",
+  "ego_examples": 1853,
+  "psy_eligible": 3534,
+  "psy_excluded_source_overlap": 104,
+  "r3_annotations": 41529,
+  "source_validation_now_training": true,
+  "generation_cap": 1024,
+  "ego_source_ids_sha256": "f98ce24fbab9377b67f507189aee5d7dbb4c8cb3fea7a7b3e075b3085b7c7305",
+  "ego_source_count": 1075,
+  "registry_sha256": "c083ade1e3a538256606ce36af870170a4961c7ebe17ad76a959b50961e490b6"
+}

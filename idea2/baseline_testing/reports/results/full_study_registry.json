@@ -1,0 +1,110 @@
+[
+  {
+    "name": "qwen35_9b_base",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen35_9b_base",
+    "seed": 777
+  },
+  {
+    "name": "qwen35_9b_full_r3",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen35_9b_full_r3",
+    "seed": 777,
+    "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/r3_accessible.jsonl",
+    "start_after_r3_acquisition": true,
+    "next_spec": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/specs/qwen35_9b_full_r3_psy.json"
+  },
+  {
+    "name": "qwen35_9b_full_psy",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen35_9b_full_psy",
+    "seed": 777,
+    "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/psy_all.jsonl"
+  },
+  {
+    "name": "qwen35_9b_full_r3_psy",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen35_9b_full_r3_psy",
+    "seed": 777,
+    "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/psy_all.jsonl"
+  },
+  {
+    "name": "qwen38_27b_base",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.8-27B",
+    "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen38_27b_base",
+    "seed": 777
+  },
+  {
+    "name": "qwen38_27b_full_r3",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.8-27B",
+    "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen38_27b_full_r3",
+    "seed": 777,
+    "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/r3_accessible.jsonl",
+    "start_after_r3_acquisition": true,
+    "next_spec": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/specs/qwen38_27b_full_r3_psy.json"
+  },
+  {
+    "name": "qwen38_27b_full_psy",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.8-27B",
+    "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen38_27b_full_psy",
+    "seed": 777,
+    "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/psy_all.jsonl"
+  },
+  {
+    "name": "qwen38_27b_full_r3_psy",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.8-27B",
+    "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen38_27b_full_r3_psy",
+    "seed": 777,
+    "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/psy_all.jsonl"
+  },
+  {
+    "name": "historical_r3_sft100",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/sft/checkpoint-00100"
+  },
+  {
+    "name": "historical_psy_sft300",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_sft_base/checkpoint-00300"
+  },
+  {
+    "name": "historical_r3_psy_sft300",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_sft_r3sft/checkpoint-00300"
+  },
+  {
+    "name": "historical_rloo100",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/rloo/checkpoint-00100"
+  },
+  {
+    "name": "historical_grpo100",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/grpo/checkpoint-00100"
+  },
+  {
+    "name": "historical_psychemme_epoch_base_s777",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s777/checkpoint-03032"
+  },
+  {
+    "name": "historical_psychemme_epoch_base_s1777",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_base_s1777/checkpoint-02250"
+  },
+  {
+    "name": "historical_psychemme_epoch_r3sft_s777",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s777/checkpoint-03032"
+  },
+  {
+    "name": "historical_psychemme_epoch_r3sft_s1777",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/psychemme_epoch_r3sft_s1777/checkpoint-03032"
+  },
+  {
+    "name": "historical_extra_r3_sft3032",
+    "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+    "adapter": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/r3_sft_extra3032/checkpoint-03032"
+  }
+]

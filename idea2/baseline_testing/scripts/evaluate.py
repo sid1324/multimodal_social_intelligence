@@ -14,6 +14,7 @@ def main():
     p.add_argument("--output", required=True)
     p.add_argument("--adapter")
     p.add_argument("--model-path")
+    p.add_argument("--full-evaluation-protocol", help="Frozen manifest authorization for full EgoNormia")
     p.add_argument("--offset", type=int, default=0)
     p.add_argument("--blind-same-prompt", action="store_true",
                    help="Omit video while retaining the ordinary video-task wording")
@@ -24,7 +25,12 @@ def main():
     p.add_argument("--max-hours", type=float, default=3.5)
     args = p.parse_args()
     rows = read_jsonl(args.manifest)
-    if any(r.get("split") == "final" for r in rows):
+    full = None
+    if args.full_evaluation_protocol:
+        full = json.loads(Path(args.full_evaluation_protocol).read_text())
+        if full['ego_manifest_sha256'] != sha256(args.manifest) or len(rows)!=full['ego_examples']:
+            raise ValueError('Full-evaluation manifest differs from frozen protocol')
+    if not full and any(r.get("split") == "final" for r in rows):
         raise ValueError("Final EgoNormia is reserved: this midterm evaluator refuses it")
     if args.offset:
         rows = rows[args.offset:]
@@ -36,7 +42,7 @@ def main():
         raise ValueError("Mixed datasets are not supported")
     if rows[0]['dataset'] == 'ego':
         sample_ids = set((ROOT/'egonormia_400_sample_ids.txt').read_text().splitlines())
-        if any(r['id'] not in sample_ids for r in rows):
+        if not full and any(r['id'] not in sample_ids for r in rows):
             raise ValueError('EgoNormia midterm evaluation must use the team-supplied 400-ID sample')
     torch.manual_seed(config()["seed"])
     run = Path(args.output)
@@ -50,6 +56,8 @@ def main():
     if args.model_path:
         metadata['model_path'] = str(Path(args.model_path).resolve())
         metadata['model_release'] = json.loads((Path(args.model_path)/'READY').read_text())
+    if full:
+        metadata['full_evaluation_protocol_sha256'] = sha256(args.full_evaluation_protocol)
     if (run / "metadata.json").exists() and json.loads((run / "metadata.json").read_text()) != metadata:
         raise ValueError("Cannot resume an output directory with different experiment settings")
     write_json(run / "metadata.json", metadata)
@@ -70,6 +78,12 @@ def main():
                       "condition": condition, "raw": {}, "valid": {}, "errors": {}}
             video = None if condition == "blind" else (mismatches[row["id"]]["video_path"] if condition == "mismatch" else row["video_path"])
             result["input_video_id"] = None if condition == "blind" else (mismatches[row["id"]]["id"] if condition == "mismatch" else row["id"])
+            if full and not Path(row['video_path']).exists():
+                result.update(seconds=0.0, action=-1, justification=-1, sensible=[])
+                result['errors']={'media':'Preceding video unavailable'}
+                result['valid']={t:False for t in ('action','justification','sensibility')}
+                append_jsonl(path,result)
+                continue
             before = time.monotonic()
             tasks = ["r3"] if row["dataset"] == "r3" else ["action", "justification", "sensibility"]
             for task in tasks:
