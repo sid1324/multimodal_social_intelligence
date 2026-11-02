@@ -120,3 +120,10 @@ The initially submitted PsycheMME training jobs were stopped during model
 loading and replaced by 50115936/50115937 so that the mandatory runtime
 source-exclusion guard, explicit zero weight decay, and media-acquisition
 evaluation dependencies apply from their first update.
+
+Technical amendment during monitoring: see
+`PSYCHEMME_FRAME_REPRESENTATION_CORRECTION.md`. A source-frame audit found
+that the legacy frame path invented timestamps. Distinct corrected runs
+use the original 32 ordered images after V100 smoke tests. Original
+weights/results/registry remain archived; pending R³→PsycheMME stages use
+the explicitly amended specs. The correction is not a new untouched test.

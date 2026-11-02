@@ -3,6 +3,10 @@ import json,subprocess,sys,pathlib
 from social_rl.common import STORE,write_json
 specfile=pathlib.Path(sys.argv[1]);spec=json.load(open(specfile));root=STORE/'data/full_study'
 def submit(*args):return subprocess.check_output(['sbatch','--parsable',*args],text=True).strip()
+if spec.get('preflight_job'):
+ report=STORE/'runs'/('frame_images_smoke_27b' if '3.8' in spec['model_path'] else 'frame_images_smoke_9b')/'status.json'
+ if not report.exists() or not json.load(open(report)).get('complete'):
+  print('WAIT_FOR_PREFLIGHT',submit('--dependency=afterok:'+spec['preflight_job'],'slurm/full_train.sbatch',str(specfile)),flush=True);sys.exit()
 if spec.get('stage')=='evaluate':
  pass
 else:

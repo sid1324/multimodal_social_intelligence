@@ -3,7 +3,9 @@ import json,subprocess,pathlib,time
 from social_rl.common import STORE,read_jsonl,write_jsonl,write_json,sha256
 root=STORE/'data/full_study';rows={x['id']:x for x in read_jsonl(root/'ego_all.jsonl')}
 commands=subprocess.check_output(['squeue','-h','-u','apatawar','-o','%o'],text=True)
-for s in json.load(open(root/'registry.json')):
+registry=json.load(open(root/'registry.json'))
+if (root/'registry_amendments.json').exists():registry+=json.load(open(root/'registry_amendments.json'))['models']
+for s in registry:
  run=STORE/'runs/full_ego'/s['name'];coverage=run/'coverage.json'
  spec=root/'specs'/f'{s["name"]}.json'
  if not coverage.exists() or str(spec) in commands:continue

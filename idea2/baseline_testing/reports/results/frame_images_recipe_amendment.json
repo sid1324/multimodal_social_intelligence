@@ -1,0 +1,56 @@
+{
+  "utc": "2026-11-02T09:18:32.833285+00:00",
+  "reason": "Technical correction: legacy PsycheMME frame path fabricated a 32-second timeline for clips of variable length. Released chronological images preserve source observations without invented timestamps. New source-format runs are explicitly amended, post-original-freeze experiments.",
+  "models": [
+    {
+      "name": "qwen35_9b_full_psy_images_v2",
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen35_9b_full_psy_images_v2",
+      "seed": 777,
+      "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/psy_ordered_images32.jsonl",
+      "preflight_job": "50121952",
+      "recipe_amendment": "Correct source-frame representation: original ordered images, no invented timestamps; 32 released frames."
+    },
+    {
+      "name": "qwen35_9b_full_r3_psy_images_v2",
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen35_9b_full_r3_psy_images_v2",
+      "seed": 777,
+      "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/psy_ordered_images32.jsonl",
+      "preflight_job": "50121952",
+      "recipe_amendment": "Correct source-frame representation: original ordered images, no invented timestamps; 32 released frames."
+    },
+    {
+      "name": "qwen38_27b_full_psy_images_v2",
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.8-27B",
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen38_27b_full_psy_images_v2",
+      "seed": 777,
+      "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/psy_ordered_images32.jsonl",
+      "preflight_job": "50121953",
+      "recipe_amendment": "Correct source-frame representation: original ordered images, no invented timestamps; 32 released frames."
+    },
+    {
+      "name": "qwen38_27b_full_r3_psy_images_v2",
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.8-27B",
+      "run": "/ocean/projects/cis260338p/apatawar/social_norm_rl/runs/full_sft/qwen38_27b_full_r3_psy_images_v2",
+      "seed": 777,
+      "manifest": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/psy_ordered_images32.jsonl",
+      "preflight_job": "50121953",
+      "recipe_amendment": "Correct source-frame representation: original ordered images, no invented timestamps; 32 released frames."
+    }
+  ],
+  "superseded_stages": [
+    {
+      "replaced": "qwen35_9b_full_r3_psy",
+      "replacement": "qwen35_9b_full_r3_psy_images_v2",
+      "spec_file": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/specs/qwen35_9b_full_r3_psy.json",
+      "legacy_spec": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/specs/qwen35_9b_full_r3_psy.legacy.json"
+    },
+    {
+      "replaced": "qwen38_27b_full_r3_psy",
+      "replacement": "qwen38_27b_full_r3_psy_images_v2",
+      "spec_file": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/specs/qwen38_27b_full_r3_psy.json",
+      "legacy_spec": "/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/specs/qwen38_27b_full_r3_psy.legacy.json"
+    }
+  ]
+}

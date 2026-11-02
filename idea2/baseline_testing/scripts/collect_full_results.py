@@ -3,6 +3,8 @@ import datetime,json,csv,pathlib
 from social_rl.common import STORE,ROOT,write_json,read_jsonl
 from summarize import cluster_ci
 root=STORE/'data/full_study';registry=json.load(open(root/'registry.json'));result={'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'models':{}}
+if (root/'registry_amendments.json').exists():
+ registry+=json.load(open(root/'registry_amendments.json'))['models']
 previous_file=ROOT/'reports/results/full_benchmark_results.json'
 previous=json.load(open(previous_file)).get('models',{}) if previous_file.exists() else {}
 for spec in registry:

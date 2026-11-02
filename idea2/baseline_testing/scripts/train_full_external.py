@@ -6,6 +6,7 @@ from social_rl.common import STORE,read_jsonl,write_json,append_jsonl,sha256
 from social_rl.model import VideoPolicy
 from social_rl.tasks import r3_prompt
 from social_rl.leakage import check_training
+from social_rl.frame_images import ordered_image_inputs
 p=argparse.ArgumentParser();p.add_argument('--spec',required=True);a=p.parse_args();spec=json.load(open(a.spec));run=Path(spec['run']);run.mkdir(parents=True,exist_ok=True)
 rows=read_jsonl(spec['manifest']);assert rows and all(r['split']=='train' for r in rows)
 check_training(rows,run)
@@ -43,7 +44,8 @@ while cursor<len(rows) and time.monotonic()-start<3.2*3600:
    prefix=remap(prefix);observation=remap(observation);answer=mapping[answer]
    prompt=prefix+'Options:\n'+'\n'.join(f'{chr(65+i)}. {s[3:]}' for i,s in enumerate(choices))
   prompt+='\nGive one brief supported observation, then the answer. Format: Evidence: ... then Answer: ...'
-  target=f'Evidence: {observation}\nAnswer: {answer}';inputs=policy.inputs(prompt,frame_paths=row['frames'])
+  target=f'Evidence: {observation}\nAnswer: {answer}'
+  inputs=ordered_image_inputs(policy,prompt,row['frames']) if row.get('visual_format')=='ordered_images' else policy.inputs(prompt,frame_paths=row['frames'])
  ids=policy.processor.tokenizer(target+policy.processor.tokenizer.eos_token,add_special_tokens=False,return_tensors='pt')['input_ids'].to(policy.device)
  if ids.shape[1]>512:raise ValueError(f'Target exceeds 512 tokens: {row["id"]}')
  opt.zero_grad(set_to_none=True);policy.model.train();loss=-policy.token_logps(inputs,ids).mean();scaler.scale(loss).backward();scaler.unscale_(opt)
