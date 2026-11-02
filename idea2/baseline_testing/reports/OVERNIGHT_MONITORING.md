@@ -30,3 +30,23 @@ https://github.com/m-bain/CondensedMovies-chall#dataset-download.
 
 Progress snapshots and recovery logs remain in
 `/ocean/projects/cis260338p/apatawar/social_norm_rl/data/full_study/`.
+
+At 06:08 UTC the serial recovery completed: all 267 rate-limited clips
+were downloaded and validated, giving 1,853/1,853 EgoNormia preceding clips.
+There were no failed attempts in the recovery stream. Missing-media
+predictions from the earlier incomplete coverage will be rerun before the
+completed full-model summaries are accepted.
+
+At 06:43 UTC, the full 27B baseline array throttle was raised from two to
+six simultaneous one-V100 shards. The two not-yet-started 400-only baseline
+shards (50115599_2/3) were cancelled because the user expanded the objective
+to all 1,853 examples; already-running 400-only shards and all saved
+predictions were retained. No unrelated jobs were changed.
+
+At 06:59 UTC, the 9B full-PsycheMME model completed all 3,534 eligible
+examples. The first completely repaired historical model evaluation
+(epoch base start, seed 777) has 1,853/1,853 media-present predictions.
+Its original 400-ID score exactly reproduces 35.75%, supporting pipeline
+consistency. Full joint accuracy is 33.78%; the new-source cohort is 32.68%.
+No improvement claim is made until unmodified baselines finish. Complete
+results are collected in `FULL_BENCHMARK_RESULTS.md` and its JSON companion.

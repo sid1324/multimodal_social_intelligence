@@ -1,0 +1,21 @@
+{
+  "r3": {
+    "annotation_examples": 41529,
+    "accessible_examples": 6037,
+    "attempted_media": 2812,
+    "ok_media": 373,
+    "failure_classes": {
+      "unavailable": 77,
+      "HTTP_403": 3,
+      "sign_in_or_bot_check": 2353,
+      "other": 6
+    }
+  },
+  "ego": {
+    "annotation_examples": 1853,
+    "accessible_examples": 1853,
+    "attempted_media": 1853,
+    "ok_media": 1853,
+    "rate_limited_clips_recovered": 267
+  }
+}

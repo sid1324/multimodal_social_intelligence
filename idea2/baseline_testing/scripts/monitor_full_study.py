@@ -17,7 +17,8 @@ for run in (STORE/'runs/full_ego').glob('*'):
    if line.strip():
     n+=1;missing+='media' in json.loads(line).get('errors',{})
   total+=n;shards[part.parent.name]=n
- snapshot['evaluation'][run.name]={'predictions':total,'missing_media_predictions':missing,'shards':shards,'analysis_complete':(run/'coverage.json').exists()}
+ coverage=json.load(open(run/'coverage.json')) if (run/'coverage.json').exists() else {}
+ snapshot['evaluation'][run.name]={'predictions':total,'missing_media_predictions':missing,'shards':shards,'analysis_complete':bool(coverage) and not coverage.get('pending_media_repair_shards')}
 snapshot['media']=json.load(open(root/'coverage.json'))
 write_json(root/'monitor_latest.json',snapshot);append_jsonl(root/'monitor_history.jsonl',snapshot)
 print('UTC',snapshot['utc'])
@@ -25,3 +26,4 @@ for n,v in snapshot['training'].items():print('TRAIN',n,'step',v['last'].get('st
 for n,v in snapshot['evaluation'].items():print('EVAL',n,v['predictions'],'missing media',v['missing_media_predictions'],'analyzed',v['analysis_complete'])
 print('MEDIA',{k:(v['accessible_examples'],v['annotation_examples']) for k,v in snapshot['media'].items()})
 subprocess.run(['/ocean/projects/cis260338p/apatawar/social_norm_rl/envs/data/bin/python','scripts/repair_full_eval_media.py'],check=True)
+subprocess.run(['/ocean/projects/cis260338p/apatawar/social_norm_rl/envs/data/bin/python','scripts/collect_full_results.py'],check=True)

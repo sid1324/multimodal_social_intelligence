@@ -1,0 +1,150 @@
+{
+  "utc": "2026-11-02T07:02:08.425087+00:00",
+  "models": {
+    "historical_psychemme_epoch_base_s777": {
+      "model_path": "/ocean/projects/cis260338p/apatawar/social_norm_rl/models/Qwen3.5-9B",
+      "cohorts": {
+        "all1853": {
+          "n_attempted": 1853,
+          "n_panel": 1853,
+          "source_groups": 1075,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 5,
+          "total_inference_seconds": 6417.02833325509,
+          "action": 0.42741500269832705,
+          "action_ci95": [
+            0.4052595434308989,
+            0.45080213903743316
+          ],
+          "justification": 0.4284943335132218,
+          "justification_ci95": [
+            0.40540393093584587,
+            0.45168342130240524
+          ],
+          "joint": 0.3378305450620615,
+          "joint_ci95": [
+            0.3170466733103397,
+            0.3597171557141336
+          ],
+          "sensibility_iou": 0.47146968879294837,
+          "sensibility_iou_ci95": [
+            0.45642369406602107,
+            0.48650319003475107
+          ],
+          "verified": {
+            "n": 200,
+            "action": 0.44,
+            "justification": 0.475,
+            "joint": 0.36,
+            "sensibility_iou": 0.4745833333333333
+          }
+        },
+        "previous400": {
+          "n_attempted": 400,
+          "n_panel": 400,
+          "source_groups": 348,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 1,
+          "total_inference_seconds": 1280.1432790555991,
+          "action": 0.44,
+          "action_ci95": [
+            0.3905412351507767,
+            0.4901972740315638
+          ],
+          "justification": 0.43,
+          "justification_ci95": [
+            0.3811978724967113,
+            0.48148375648375646
+          ],
+          "joint": 0.3575,
+          "joint_ci95": [
+            0.308890092733415,
+            0.4088699064854604
+          ],
+          "sensibility_iou": 0.4651666666666667,
+          "sensibility_iou_ci95": [
+            0.433705468093972,
+            0.4994039440203562
+          ],
+          "verified": {
+            "n": 46,
+            "action": 0.43478260869565216,
+            "justification": 0.45652173913043476,
+            "joint": 0.34782608695652173,
+            "sensibility_iou": 0.47282608695652173
+          }
+        },
+        "new_source_groups": {
+          "n_attempted": 1025,
+          "n_panel": 1025,
+          "source_groups": 726,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 3,
+          "total_inference_seconds": 3639.4708541911095,
+          "action": 0.42048780487804877,
+          "action_ci95": [
+            0.3882423197102481,
+            0.4495772663564337
+          ],
+          "justification": 0.41853658536585364,
+          "justification_ci95": [
+            0.38798776063698137,
+            0.44794645681900735
+          ],
+          "joint": 0.32682926829268294,
+          "joint_ci95": [
+            0.297375045425726,
+            0.35421998596017856
+          ],
+          "sensibility_iou": 0.4708130081300813,
+          "sensibility_iou_ci95": [
+            0.4510302455193758,
+            0.4907469236241448
+          ],
+          "verified": {
+            "n": 109,
+            "action": 0.48623853211009177,
+            "justification": 0.47706422018348627,
+            "joint": 0.3853211009174312,
+            "sensibility_iou": 0.4870030581039755
+          }
+        },
+        "other_development": {
+          "n_attempted": 428,
+          "n_panel": 428,
+          "source_groups": 189,
+          "n_with_inference_errors": 0,
+          "n_with_invalid_output": 1,
+          "total_inference_seconds": 1497.4142000083812,
+          "action": 0.4322429906542056,
+          "action_ci95": [
+            0.3862546984801438,
+            0.4807715311004785
+          ],
+          "justification": 0.45093457943925236,
+          "justification_ci95": [
+            0.4013637695509841,
+            0.49786479944674966
+          ],
+          "joint": 0.34579439252336447,
+          "joint_ci95": [
+            0.30336797048801784,
+            0.38915335260701966
+          ],
+          "sensibility_iou": 0.47893302180685354,
+          "sensibility_iou_ci95": [
+            0.44678716325154627,
+            0.5122285844727836
+          ],
+          "verified": {
+            "n": 45,
+            "action": 0.3333333333333333,
+            "justification": 0.4888888888888889,
+            "joint": 0.3111111111111111,
+            "sensibility_iou": 0.44629629629629636
+          }
+        }
+      }
+    }
+  }
+}
