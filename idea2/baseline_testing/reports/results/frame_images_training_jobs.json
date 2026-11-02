@@ -1,0 +1,11 @@
+{
+  "cancelled_partial_jobs": [
+    "50121970",
+    "50121971"
+  ],
+  "reason": "Tighten option-reference remapping to preserve the indefinite article in \"answer a question\". Partial initial runs archived before any checkpoint; restart corrected one-pass runs.",
+  "replacement_jobs": {
+    "qwen35_9b_full_psy_images_v2": "50122404",
+    "qwen38_27b_full_psy_images_v2": "50122405"
+  }
+}

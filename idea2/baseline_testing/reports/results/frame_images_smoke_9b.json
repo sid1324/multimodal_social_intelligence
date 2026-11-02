@@ -1,0 +1,25 @@
+{
+  "model": "Qwen3.5-9B",
+  "visual_format": "32 ordered image frames, <=256 px, no synthetic timestamps",
+  "stages": [
+    {
+      "id": "FAST_8E125CD2DB42C438",
+      "input_tokens": 1289,
+      "loss": 1.6502679586410522,
+      "finite_gradients": true,
+      "allocated_gb": 8.624130048,
+      "peak_allocated_gb": 11.34958336,
+      "peak_reserved_gb": 12.580814848
+    },
+    {
+      "id": "FS_43B22A113802A9B1",
+      "input_tokens": 1826,
+      "loss": 4.337832927703857,
+      "finite_gradients": true,
+      "allocated_gb": 8.641476608,
+      "peak_allocated_gb": 11.721471488,
+      "peak_reserved_gb": 12.685672448
+    }
+  ],
+  "complete": true
+}

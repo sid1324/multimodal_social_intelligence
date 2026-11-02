@@ -4,6 +4,7 @@ from social_rl.common import STORE,write_json,append_jsonl
 root=STORE/'data/full_study';snapshot={'utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'training':{},'evaluation':{}}
 snapshot['queue']=subprocess.check_output(['squeue','-h','-u','apatawar','-o','%i|%T|%M|%j|%R'],text=True).splitlines()
 for run in (STORE/'runs/full_sft').glob('*'):
+ if '_superseded_' in run.name:continue
  log=run/'train_log.jsonl';last=None;count=0
  if log.exists():
   for line in log.open():

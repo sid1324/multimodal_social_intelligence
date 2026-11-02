@@ -52,3 +52,19 @@ made after some full benchmark results were visible, so their results must
 be reported as amended/post-freeze experiments rather than a new untouched
 benchmark test. No EgoNormia example, label, or rationale enters training.
 The same mandatory exclusion guard applies to all 3,534 training examples.
+
+Both 32-image smoke tests passed normal and longest-source-prompt optimizer
+steps with finite gradients: peak reserved GPU memory was 12.69 GB for 9B
+and 24.53 GB for 27B. Input lengths were 1,289 and 1,826 tokens. The normal
+32-image representation therefore fits a single V100-32 for both models.
+
+The permutation audit also found one source question with the phrase
+“answer a question”: a case-insensitive option-reference regex interpreted
+the indefinite article as an option letter. The remapper now requires
+uppercase option letters while allowing case variation in the word
+“option/choice/answer.” A regression check preserves the article and remaps
+explicit references correctly. The two just-started image-format runs
+were stopped before any checkpoint, their partial logs archived, and
+restarted as jobs 50122404/50122405. The four amended SFT stages use the
+corrected remapper. Prior legacy models retain their original provenance;
+this one malformed prompt is another minor limitation of those runs.

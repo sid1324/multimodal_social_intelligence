@@ -40,7 +40,7 @@ while cursor<len(rows) and time.monotonic()-start<3.2*3600:
    prefix,options=prompt.split('Options:\n',1);choices=options.strip().splitlines()
    if not all(len(s)>3 and s[1:3]=='. ' for s in choices):raise ValueError(row['id'])
    rng.shuffle(choices);mapping={s[0]:chr(65+i) for i,s in enumerate(choices)}
-   def remap(t):return re.sub(r'\b((?:option|choice|answer)\s+)([A-J])\b',lambda m:m[1]+mapping.get(m[2],m[2]),t,flags=re.I)
+   def remap(t):return re.sub(r'\b((?i:option|choice|answer)\s+)([A-J])\b',lambda m:m[1]+mapping.get(m[2],m[2]),t)
    prefix=remap(prefix);observation=remap(observation);answer=mapping[answer]
    prompt=prefix+'Options:\n'+'\n'.join(f'{chr(65+i)}. {s[3:]}' for i,s in enumerate(choices))
   prompt+='\nGive one brief supported observation, then the answer. Format: Evidence: ... then Answer: ...'
