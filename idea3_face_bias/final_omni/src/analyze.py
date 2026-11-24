@@ -86,7 +86,7 @@ def choose(table, base, cands, order):
 
 
 def sweep(a):
-    ix = index(read_rows(HERE / f'results/sweep/{a.model}_rows.jsonl'))
+    ix = index([r for p in sorted((HERE / 'results/sweep').glob(f'{a.model}_*.jsonl')) for r in read_rows(p)])
     T = {m: summarize({c: item_stats(d, a.level, 'text') for c, d in it.items()}) for m, it in ix.items()}
     nl = a.n_layers; ls = layer_sets(nl)
     parse = lambda m: (lambda x: (float(x[1]), len(ls[x[0]])))(m[len('naive_'):].rsplit('_a', 1))

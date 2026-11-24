@@ -11,7 +11,7 @@ import torch
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from data import HERE, load_annotations, load_item_table, load_splits, gate_items, permuted_options, seeded_int
 from channels import build, build_repeat, scene, CUES
-from evaluate import run_grid, level_conds, CACHE, row_for
+from evaluate import run_grid, level_conds, CACHE, row_for, DEADLINE
 
 
 def val20():
@@ -92,6 +92,7 @@ def g1(a):
     save(); print('G1', S['pass'], flush=True)
 
 
+@torch.no_grad()
 def moecheck(a):
     """(1) fast MoE dispatch vs original, one prompt at a time: adopt only if every letter log-prob is identical.
     (2) noise references for G1(b): the same prompt as a duplicated batch of two, and with extra right padding."""
@@ -114,6 +115,7 @@ def moecheck(a):
     S = {'n': len(P), 'fast_argmax_agree': float(np.mean([x['argmax'] == y['argmax'] for x, y in zip(A, B)])),
          'fast_max_abs_dp': float(max(dp(x, y) for x, y in zip(A, B))), 'sec_orig': ta, 'sec_fast': tb, 'gpu': torch.cuda.get_device_name(0)}
     S['ok'] = S['fast_max_abs_dp'] == 0.0
+    (HERE / 'results/gate/moecheck.json').write_text(json.dumps(S, indent=1)); print('MOECHECK part 1', json.dumps(S), flush=True)
     D = []
     for (p, n) in P:
         hid, lens = m.last_hidden([p, p]); D.append(m._letters(m.logits32(hid[1]), n, lens[1]))
@@ -149,6 +151,8 @@ def perception(a):
             for ch in ('text', 'speech', 'image'):
                 if (cid, ch) in done:
                     continue
+                if time.time() > DEADLINE:
+                    sys.exit(75)
                 g = m.generate(build_repeat(v, img, cond, ch), max_new_tokens=60)
                 hit = re.search(r'\b' + norm2(kw) + r'\b', norm2(g)) is not None
                 fh.write(json.dumps({'id': cid, 'channel': ch, 'cond': cond, 'cue': CUES[cond], 'key': kw, 'gen': g, 'hit': hit}) + '\n'); fh.flush()

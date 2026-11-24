@@ -64,7 +64,7 @@ def log(msg):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('name'); ap.add_argument('cmd')
-    ap.add_argument('--hours', type=float, default=0.95, help='walltime; interactive is capped at 0.95 h')
+    ap.add_argument('--hours', type=float, default=0.417, help='walltime; interactive is capped at 0.95 h')
     ap.add_argument('--dpo', action='store_true'); ap.add_argument('--debug', action='store_true')
     ap.add_argument('--dry', action='store_true'); ap.add_argument('--part', default='', help='force one interactive partition (still under the batch-wait rule)')
     a = ap.parse_args()
@@ -74,7 +74,7 @@ def main():
     if not a.debug and waits[best] <= limit:
         part, hours = best, a.hours
     else:
-        hours = min(a.hours, 0.95)
+        hours = min(a.hours, 0.417)   # 25 min jobs backfill at once, 57 min jobs waited 30+ min
         iw = {p: wait_hours(p, hours) for p in SPEC if p.endswith('-interactive')}
         # cheaper A40s unless the A100s would start more than 30 min sooner
         part = a.part or 'gpuA40x4-interactive' if a.part or iw['gpuA40x4-interactive'] <= iw['gpuA100x4-interactive'] + 0.5 else 'gpuA100x4-interactive'

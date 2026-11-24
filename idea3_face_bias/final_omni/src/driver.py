@@ -1,0 +1,201 @@
+"""Work-queue driver: every job runs this. It takes the next task whose prerequisites (and gates) are met, with lock
+files so that jobs in different partitions never do the same work. All tasks are resumable. Gates are enforced here:
+ - speech/image G2 and everything later require the text G2 at L2 to pass (else results/STOP.md is written);
+ - they also require the perception check >= 90% in every channel.
+No test-split task exists (data.load_splits hides it). Usage: python src/driver.py"""
+import json, os, subprocess, sys, threading, time, traceback
+from pathlib import Path
+from types import SimpleNamespace as NS
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from data import HERE
+import evaluate
+from evaluate import DEADLINE, read_rows
+import omni_model
+
+LOCKS = Path(os.environ['P777']) / 'locks'; LOCKS.mkdir(exist_ok=True)
+G = HERE / 'results/gate'
+STATE = {'model': None, 'name': None, 'dirty': False}
+_load = omni_model.load
+
+
+def load(name):
+    if STATE['name'] != name:
+        assert STATE['model'] is None, 'one model per process'
+        STATE['model'], STATE['name'] = _load(name), name
+    m = STATE['model']; m.set_ablation(None)
+    return m
+
+
+omni_model.load = load
+
+
+def done_file(t):
+    return LOCKS / f'{t}.done'
+
+
+def is_done(t):
+    return done_file(t).exists()
+
+
+def stop(msg):
+    (HERE / 'results/STOP.md').write_text(msg + '\n'); print('STOP', msg, flush=True)
+
+
+# ---- task bodies (GPU) ------------------------------------------------------------------------
+def t_moecheck():
+    import run_gate; run_gate.moecheck(NS())
+    m = STATE['model']; m.set_fast_moe(json.loads((G / 'moecheck.json').read_text())['ok'])
+
+
+def t_perception():
+    import run_gate; run_gate.perception(NS(model='nemotron'))
+
+
+def t_g2(part, shard):
+    import run_gate; run_gate.g2(NS(model='nemotron', level='L2', part=part, shard=shard))
+
+
+def t_sweep(name):
+    import numpy as np
+    from data import load_splits
+    sp = load_splits(); pool = sp['pool']['val']; clean = [k for k in sp['clean']['val'] if k not in set(pool)]
+    m = load('nemotron')
+    if name != 'base':
+        nm, al = name[len('naive_'):].rsplit('_a', 1)
+        u = np.load(evaluate.CACHE / 'directions_nemotron.npz')['app_text_L2']
+        m.set_ablation(u, float(al), evaluate.layer_sets(m.n_layers)[nm])
+    cells = [('none', 'text')] + [(c, 'text') for c in evaluate.level_conds('L2')]
+    out = HERE / f'results/sweep/nemotron_{name}.jsonl'
+    ok = evaluate.run_grid(m, out, name, pool, cells, 'val') and evaluate.run_grid(m, out, name, clean, [('none', 'text')], 'val')
+    sys.exit(0 if ok else 75)
+
+
+def t_dpo_rows():
+    import dpo_pairs; dpo_pairs.run(NS(model='nemotron'))
+
+
+def sub(*cmd):
+    """DPO tasks change the model, so they run in their own process."""
+    r = subprocess.run([sys.executable, *cmd], cwd=HERE)
+    sys.exit(r.returncode)
+
+
+SW = ['base'] + [f'naive_{n}_a{a}' for n in evaluate.layer_sets(52) for a in (0.5, 1.0)]
+
+
+# ---- CPU transitions ----------------------------------------------------------------------------
+def py(*cmd):
+    r = subprocess.run([sys.executable, *cmd], cwd=HERE, capture_output=True, text=True)
+    print(r.stdout[-6000:], r.stderr[-1500:], flush=True)
+    return r.returncode == 0
+
+
+def transitions():
+    if is_done('g2_text_s0') and is_done('g2_text_s1') and not is_done('gate_text'):
+        if py('src/analyze.py', 'g2', '--model', 'nemotron'):
+            s = json.loads((G / 'g2_nemotron_summary.json').read_text())
+            if s['text L2']['pass']:
+                done_file('gate_text').touch()
+            elif not (HERE / 'results/STOP.md').exists():
+                stop('G2: L2 text shows no appearance effect above its floor. Yash must pick L1 or L3 (START_PROMPT G2).')
+    if is_done('perception') and not is_done('gate_perc'):
+        s = json.loads((G / 'perception_nemotron.json').read_text())
+        if min(s.values()) >= 0.9:
+            done_file('gate_perc').touch()
+        elif not (HERE / 'results/STOP.md').exists():
+            stop(f'Perception check below 90%: {s}')
+    if all(is_done(f'g2_{p}_s{k}') for p in ('text', 'other') for k in (0, 1)) and not is_done('directions'):
+        if py('src/analyze.py', 'g2', '--model', 'nemotron') and py('src/directions.py', '--model', 'nemotron', '--level', 'L2'):
+            done_file('directions').touch(); py('src/figures.py', 'f2')
+    if is_done('dpo_rows') and not is_done('pairs') and py('src/dpo_pairs.py', 'build', '--model', 'nemotron'):
+        done_file('pairs').touch()
+
+
+def tasks():
+    """(name, ready, body, needs_own_process) in priority order."""
+    gate = is_done('gate_text') and is_done('gate_perc')
+    out = [('moecheck', True, t_moecheck, False), ('perception', is_done('moecheck'), t_perception, False)]
+    for k in (0, 1):
+        out.append((f'g2_text_s{k}', is_done('moecheck'), lambda k=k: t_g2('text', k), False))
+    for k in (0, 1):
+        out.append((f'g2_other_s{k}', gate, lambda k=k: t_g2('other', k), False))
+    out.append(('dpo_rows', is_done('directions'), t_dpo_rows, False))
+    out += [(f'sweep_{n}', is_done('directions'), lambda n=n: t_sweep(n), False) for n in SW]
+    out += [('dpo_text', is_done('pairs'), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'text'), True),
+            ('dpo_multi', is_done('pairs'), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'multi'), True)]
+    out.append(('dpo_val', is_done('dpo_text') and is_done('dpo_multi'), lambda: sub('src/evaluate.py', 'dpo_val', '--model', 'nemotron'), True))
+    return out
+
+
+def try_lock(t):
+    p = LOCKS / f'{t}.lock'
+    try:
+        if p.exists() and time.time() - p.stat().st_mtime > 300:
+            p.rename(LOCKS / f'{t}.stale.{int(time.time())}')     # owner died: heartbeat older than 5 min
+        fd = os.open(p, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        os.write(fd, os.environ.get('SLURM_JOB_ID', '?').encode()); os.close(fd)
+        return p
+    except (FileExistsError, FileNotFoundError):
+        return None
+
+
+def main():
+    idle_since = None
+    while time.time() < DEADLINE - 60:
+        transitions()
+        if (HERE / 'results/STOP.md').exists():
+            print('STOP.md present, exiting', flush=True); return
+        ran = False
+        for name, ready, body, own in tasks():
+            if not ready or is_done(name):
+                continue
+            if own and STATE['model'] is not None:      # free the GPUs: restart this driver without a model
+                print('re-exec for', name, flush=True); os.execv(sys.executable, [sys.executable, *sys.argv])
+            p = try_lock(name)
+            if p is None:
+                continue
+            beat = threading.Event()
+            threading.Thread(target=lambda: [p.exists() and os.utime(p) for _ in iter(lambda: beat.wait(60), True)], daemon=True).start()
+            print(f'=== {name} (job {os.environ.get("SLURM_JOB_ID")}) {time.strftime("%H:%M")}', flush=True)
+            code = 0
+            try:
+                body()
+            except SystemExit as e:
+                code = e.code or 0
+            except Exception:
+                traceback.print_exc(); code = 1
+            beat.set(); p.unlink(missing_ok=True)
+            print(f'=== {name} exit {code} {time.strftime("%H:%M")}', flush=True)
+            if code == 0:
+                done_file(name).touch()
+            elif code == 75:
+                return
+            else:
+                fails = LOCKS / f'{name}.fails'; n = int(fails.read_text() or 0) + 1 if fails.exists() else 1; fails.write_text(str(n))
+                if n >= 2:
+                    stop(f'{name} failed twice (job {os.environ.get("SLURM_JOB_ID")}), see its log')
+                return
+            ran = True
+            break
+        if not ran:
+            idle_since = idle_since or time.time()
+            if time.time() - idle_since > 240:          # nothing to do: do not burn SU waiting
+                print('no runnable task, exiting', flush=True); return
+            time.sleep(20)
+        else:
+            idle_since = None
+
+
+def check():
+    """Login node: run the CPU transitions, print how many tasks are runnable and unlocked."""
+    transitions()
+    if (HERE / 'results/STOP.md').exists():
+        print('RUNNABLE STOP'); return
+    live = lambda t: (LOCKS / f'{t}.lock').exists() and time.time() - (LOCKS / f'{t}.lock').stat().st_mtime < 300
+    r = [n for n, ready, _, _ in tasks() if ready and not is_done(n) and not live(n)]
+    left = [n for n, _, _, _ in tasks() if not is_done(n)]
+    print('RUNNABLE', len(r), ','.join(r[:6]), 'LEFT', len(left))
+
+
+if __name__ == '__main__':
+    check() if '--check' in sys.argv else main()

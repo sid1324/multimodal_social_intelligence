@@ -15,3 +15,8 @@ Queue rules from Yash (about 01:20 ET): (1) interactive only if the gpuA100x4 / 
 - 11-24 01:42 CT | Cancelled 24451546 (A100 interactive estimate slipped to 06:09, never ran); resubmitted through the helper.
 - 11-24 01:41 CT | JOB 24451658 g2text_nemotron: batch wait est A100x4 147.3 h, H200 1471.5 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 2.0, reserved 1.0
 - 11-24 01:43 CT | JOB 24451717 g2text_s1_nemotron: batch wait est A100x4 147.3 h, H200 1471.5 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 2.0, reserved 1.0
+- 11-24 02:13 CT | JOB 24454051 g2text_s0_nemotron: batch wait est A100x4 165.3 h, H200 1315.3 h -> gpuA40x4-interactive, 0.95 h at 2.0 SU/h (max 1.9); SU used 3.0, reserved 3.8
+- 11-24 02:13 CT | Job 24449489 hit its walltime with perception at 80/90, 80 of 80 correct (0 misses); resumable, remaining 10 run later. Added a clean-stop check.
+- 11-24 02:46 CT | 57 min interactive jobs sat 30+ min (estimates slid to 08:33 / 14:48). Cutting the limit to 25 min started job 24454051 within a minute. All further interactive jobs are 25 min, resumable, and run src/driver.py (takes the next ready task; gates enforced in code).
+- 11-24 02:57 CT | 24454051 failed in moecheck (missing no_grad in the dup2 reference loop, my bug; OOM). Fixed, results saved before that step. Shard 1 (24451717) is running on A100s with the original dispatch.
+- 11-24 02:56 CT | JOB 24456793 drv: batch wait est A100x4 167.9 h, H200 1463.2 h -> gpuA40x4-interactive, 0.42 h at 2.0 SU/h (max 0.8); SU used 3.8, reserved 3.4

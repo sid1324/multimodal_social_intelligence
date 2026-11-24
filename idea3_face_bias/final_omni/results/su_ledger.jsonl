@@ -4,3 +4,5 @@
 {"job": "24451546", "name": "g2text_nemotron", "partition": "gpuA100x4-interactive", "hours": 0.95, "rate": 4.0, "submitted": "2026-11-24T01:41:10"}
 {"job": "24451658", "name": "g2text_nemotron", "partition": "gpuA100x4-interactive", "hours": 0.95, "rate": 4.0, "submitted": "2026-11-24T01:41:45"}
 {"job": "24451717", "name": "g2text_s1_nemotron", "partition": "gpuA100x4-interactive", "hours": 0.95, "rate": 4.0, "submitted": "2026-11-24T01:43:01"}
+{"job": "24454051", "name": "g2text_s0_nemotron", "partition": "gpuA40x4-interactive", "hours": 0.95, "rate": 2.0, "submitted": "2026-11-24T02:13:17"}
+{"job": "24456793", "name": "drv", "partition": "gpuA40x4-interactive", "hours": 0.417, "rate": 2.0, "submitted": "2026-11-24T02:56:02"}
