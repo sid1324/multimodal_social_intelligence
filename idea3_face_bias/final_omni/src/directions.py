@@ -2,12 +2,13 @@
 h[low] - h[high], h[neg] - h[pos] at the last prompt token; train split, train wordings), cross-channel and cross-level
 cosines, split-half stability, valence control, figure F2 draft. CPU only.
 Usage: python src/directions.py --model nemotron --level L2"""
-import argparse, json, sys
+import argparse, json, os, sys
 from pathlib import Path
 import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from data import HERE, P777, seeded_int
 CACHE = Path(P777) / 'cache'
+ACTS = Path(os.environ.get('ACTS_DIR', CACHE / 'acts'))  # set to a node-local copy: memmap reads on Lustre stall
 
 
 def unit(x):
@@ -31,7 +32,7 @@ def main():
     a = ap.parse_args()
     files = {}
     for part in ('text', 'other'):
-        sh = [CACHE / f'acts/g2_{a.model}_{part}_s{k}.npy' for k in (0, 1)]
+        sh = [ACTS / f'g2_{a.model}_{part}_s{k}.npy' for k in (0, 1)]
         if all(p.exists() for p in sh):
             ix = [json.loads(Path(str(p) + '.index.json').read_text()) for p in sh]
             assert ix[0]['cells'] == ix[1]['cells']
