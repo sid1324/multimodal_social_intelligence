@@ -15,6 +15,7 @@ LEDGER = HERE / 'results/su_ledger.jsonl'
 # partition: (gpus, cpus, mem, SU per hour for that request)
 SPEC = {'gpuA100x4': (2, 16, '110g', 2.0), 'gpuH200x8': (1, 8, '110g', 3.0),
         'gpuA100x4-interactive': (2, 16, '110g', 4.0),
+        'gpuH200x8-interactive': (1, 8, '110g', 6.0),
         'gpuA40x4-interactive': (2, 16, '110g', 2.0)}   # 2x A40 (96 GB): offered to Yash with his interactive approval
 
 

@@ -44,7 +44,6 @@ def stop(msg):
 # ---- task bodies (GPU) ------------------------------------------------------------------------
 def t_moecheck():
     import run_gate; run_gate.moecheck(NS())
-    m = STATE['model']; m.set_fast_moe(json.loads((G / 'moecheck.json').read_text())['ok'])
 
 
 def t_perception():
@@ -114,9 +113,9 @@ def transitions():
 def tasks():
     """(name, ready, body, needs_own_process) in priority order."""
     gate = is_done('gate_text') and is_done('gate_perc')
-    out = [('moecheck', True, t_moecheck, False), ('perception', is_done('moecheck'), t_perception, False)]
+    out = [('moecheck3', True, t_moecheck, False), ('perception', True, t_perception, False)]
     for k in (0, 1):
-        out.append((f'g2_text_s{k}', is_done('moecheck'), lambda k=k: t_g2('text', k), False))
+        out.append((f'g2_text_s{k}', True, lambda k=k: t_g2('text', k), False))
     for k in (0, 1):
         out.append((f'g2_other_s{k}', gate, lambda k=k: t_g2('other', k), False))
     out.append(('dpo_rows', is_done('directions'), t_dpo_rows, False))

@@ -109,21 +109,15 @@ def moecheck(a):
         torch.cuda.synchronize(); t = time.time()
         o = [m.score_many([p], n)[0][0] for p, n in P]
         return o, (time.time() - t) / len(P)
-    m.set_fast_moe(False); run(); A, ta = run()     # first pass only warms the embedding caches
-    m.set_fast_moe(True); B, tb = run()
+    assert not m.fast_moe
+    P0, P = P, P[::2]     # 72 prompts
+    run(); A, ta = run()     # first pass only warms the embedding caches
+    m.enable_fast(); B, tb = run()
     dp = lambda x, y: max(abs(np.exp(p) - np.exp(q)) for p, q in zip(x['letter_logp'], y['letter_logp']))
     S = {'n': len(P), 'fast_argmax_agree': float(np.mean([x['argmax'] == y['argmax'] for x, y in zip(A, B)])),
-         'fast_max_abs_dp': float(max(dp(x, y) for x, y in zip(A, B))), 'sec_orig': ta, 'sec_fast': tb, 'gpu': torch.cuda.get_device_name(0)}
-    S['ok'] = S['fast_max_abs_dp'] == 0.0
-    (HERE / 'results/gate/moecheck.json').write_text(json.dumps(S, indent=1)); print('MOECHECK part 1', json.dumps(S), flush=True)
-    D = []
-    for (p, n) in P:
-        hid, lens = m.last_hidden([p, p]); D.append(m._letters(m.logits32(hid[1]), n, lens[1]))
-    S['dup2_argmax_agree'] = float(np.mean([x['argmax'] == y['argmax'] for x, y in zip(A, D)])); S['dup2_max_abs_dp'] = float(max(dp(x, y) for x, y in zip(A, D)))
-    S['dup2_mean_abs_dp'] = float(np.mean([dp(x, y) for x, y in zip(A, D)]))
-    gap = lambda o: (lambda z: z[-1] - z[-2])(sorted(np.exp(o['letter_logp'])))
-    S['top2_gap_of_dup2_disagreements'] = [round(float(gap(x)), 3) for x, y in zip(A, D) if x['argmax'] != y['argmax']]
-    (HERE / 'results/gate/moecheck.json').write_text(json.dumps(S, indent=1)); print('MOECHECK', json.dumps(S), flush=True)
+         'fast_max_abs_dp': float(max(dp(x, y) for x, y in zip(A, B))), 'sec_orig': ta, 'sec_fast': tb, 'fast_calls': m.fast_calls, 'expected_calls': len(P) * m.block_types.count('moe'), 'gpu': torch.cuda.get_device_name(0)}
+    S['ok'] = S['fast_max_abs_dp'] == 0.0 and S['fast_calls'] == S['expected_calls']
+    (HERE / 'results/gate/moecheck3.json').write_text(json.dumps(S, indent=1)); print('MOECHECK part 1', json.dumps(S), flush=True)
 
 
 def key_word(cue):

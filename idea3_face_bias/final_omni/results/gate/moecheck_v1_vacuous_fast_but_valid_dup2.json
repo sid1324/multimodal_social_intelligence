@@ -1,0 +1,16 @@
+{
+ "n": 144,
+ "fast_argmax_agree": 1.0,
+ "fast_max_abs_dp": 0.0,
+ "sec_orig": 1.1372252702713013,
+ "sec_fast": 1.1431626329819362,
+ "gpu": "NVIDIA A40",
+ "ok": true,
+ "dup2_argmax_agree": 0.9861111111111112,
+ "dup2_max_abs_dp": 0.12427066392361602,
+ "dup2_mean_abs_dp": 0.01965032571120923,
+ "top2_gap_of_dup2_disagreements": [
+  0.017,
+  0.084
+ ]
+}

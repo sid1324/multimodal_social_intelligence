@@ -20,3 +20,16 @@ Queue rules from Yash (about 01:20 ET): (1) interactive only if the gpuA100x4 / 
 - 11-24 02:46 CT | 57 min interactive jobs sat 30+ min (estimates slid to 08:33 / 14:48). Cutting the limit to 25 min started job 24454051 within a minute. All further interactive jobs are 25 min, resumable, and run src/driver.py (takes the next ready task; gates enforced in code).
 - 11-24 02:57 CT | 24454051 failed in moecheck (missing no_grad in the dup2 reference loop, my bug; OOM). Fixed, results saved before that step. Shard 1 (24451717) is running on A100s with the original dispatch.
 - 11-24 02:56 CT | JOB 24456793 drv: batch wait est A100x4 167.9 h, H200 1463.2 h -> gpuA40x4-interactive, 0.42 h at 2.0 SU/h (max 0.8); SU used 3.8, reserved 3.4
+- 11-24 03:08 CT | moecheck (first version) reported identical outputs but NO speedup (1.14 vs 1.14 s): the class-level patch was bypassed by accelerate's instance wrappers, so that comparison was vacuous and is not used. New moecheck2 removes the inner wrappers, counts the calls, and compares again.
+- 11-24 03:12 CT | Noise reference for G1(b): the same prompt as an identical batch of two agrees with one-at-a-time on 142/144 = 98.6% (max |dp| 0.12, mean 0.020; the two disagreements have top-2 gaps 0.017 and 0.084). Batched path in G1 attempt 2: 145/150, max 0.15, mean 0.021. For Yash to judge; batched stays disabled.
+- 11-24 03:13 CT | JOB 24457516 drv: batch wait est A100x4 170.0 h, H200 1415.9 h -> gpuA100x4-interactive, 0.42 h at 4.0 SU/h (max 1.7); SU used 5.4, reserved 0.3
+- 11-24 03:15 CT | 24451717 (g2 text s1, A100) stopped cleanly at its deadline (exit 75), resumable.
+- 11-24 03:20 CT | JOB 24457869 drv: batch wait est A100x4 170.3 h, H200 1395.1 h -> gpuA40x4-interactive, 0.42 h at 2.0 SU/h (max 0.8); SU used 5.9, reserved 1.4
+- 11-24 03:23 CT | moecheck2 (A100): inner accelerate wrappers removed, 72/72 identical outputs, 1.07 to 0.87 s, but the fast dispatch was never called (call counter 0 of 1656), so it was NOT adopted. Instance-level override added, rechecking as moecheck3.
+- 11-24 03:24 CT | Cancelled 24457516 (2 min into s1, rows kept) so that moecheck3 can run now.
+- 11-24 03:22 CT | JOB 24458098 drv: batch wait est A100x4 170.2 h, H200 1395.0 h -> gpuA100x4-interactive, 0.42 h at 4.0 SU/h (max 1.7); SU used 6.1, reserved 0.8
+- 11-24 03:22 CT | SBATCH FAILED: drv: batch wait est A100x4 170.2 h, H200 1395.2 h -> gpuA100x4-interactive, 0.42 h at 4.0 SU/h (max 1.7); SU used 6.1, reserved 2.5: sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
+- 11-24 03:41 CT | JOB 24459833 drv: batch wait est A100x4 170.3 h, H200 1412.6 h -> gpuH200x8-interactive, 0.42 h at 6.0 SU/h (max 2.5); SU used 6.8, reserved 1.8
+- 11-24 03:45 CT | JOB 24460099 drv: batch wait est A100x4 169.7 h, H200 1388.5 h -> gpuA40x4-interactive, 0.42 h at 2.0 SU/h (max 0.8); SU used 7.1, reserved 3.9
+- 11-24 03:48 CT | moecheck3 PASSED (A100): fast dispatch called 1656/1656 times, 72/72 outputs bit-identical to the original, 1.07 to 0.47 s per one-at-a-time forward. Adopted for all later scoring. Rows already written used the original dispatch (identical arithmetic). Restarted the A40 job so it uses it. H200 interactive added as a third lane.

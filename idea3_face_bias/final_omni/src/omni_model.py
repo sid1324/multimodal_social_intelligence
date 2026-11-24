@@ -188,12 +188,28 @@ class Nemotron(OmniBase):
         mod = __import__(type(self.lm).__module__, fromlist=['x'])
         assert mod.is_fast_path_available, 'Mamba CUDA kernels not loaded'
         self.moe_cls, self.moe_orig = mod.NemotronHMoE, mod.NemotronHMoE.forward
-        chk = Path(__file__).resolve().parent.parent / 'results/gate/moecheck.json'
-        self.set_fast_moe(chk.exists() and __import__('json').loads(chk.read_text())['ok'])
+        chk = Path(__file__).resolve().parent.parent / 'results/gate/moecheck3.json'
+        self.fast_moe, self.fast_calls = False, 0
+        if chk.exists() and __import__('json').loads(chk.read_text())['ok']:
+            self.enable_fast()
 
-    def set_fast_moe(self, on):
-        self.fast_moe = bool(on)
-        self.moe_cls.forward = fast_moe_forward if on else self.moe_orig
+    def enable_fast(self):
+        """Remove accelerate's per-module device wrappers BELOW block level (the block-level wrapper that moves inputs
+        between GPUs stays) and use the one-sync MoE dispatch. Note: those wrappers are set on module instances, so a
+        class-level patch alone is bypassed; that made the first moecheck vacuous."""
+        from accelerate.hooks import remove_hook_from_submodules
+        for block in self.layers:
+            for child in (block.norm, block.mixer):
+                remove_hook_from_submodules(child)
+        me = self
+        def fwd(mod, h):
+            me.fast_calls += 1
+            return fast_moe_forward(mod, h)
+        import functools
+        for block, t in zip(self.layers, self.block_types):
+            if t == 'moe':
+                block.mixer.forward = functools.partial(fwd, block.mixer)   # instance level: accelerate leaves an instance attribute behind
+        self.fast_moe = True
 
     def fix_buffers(self):
         """Two buffers are not in the checkpoint; set them to the values their constructors define."""

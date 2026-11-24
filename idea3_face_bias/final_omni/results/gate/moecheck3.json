@@ -1,0 +1,11 @@
+{
+ "n": 72,
+ "fast_argmax_agree": 1.0,
+ "fast_max_abs_dp": 0.0,
+ "sec_orig": 1.0711243251959484,
+ "sec_fast": 0.4682147701581319,
+ "fast_calls": 1656,
+ "expected_calls": 1656,
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "ok": true
+}

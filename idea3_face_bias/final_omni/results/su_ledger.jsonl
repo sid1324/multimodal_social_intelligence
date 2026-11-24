@@ -6,3 +6,8 @@
 {"job": "24451717", "name": "g2text_s1_nemotron", "partition": "gpuA100x4-interactive", "hours": 0.95, "rate": 4.0, "submitted": "2026-11-24T01:43:01"}
 {"job": "24454051", "name": "g2text_s0_nemotron", "partition": "gpuA40x4-interactive", "hours": 0.95, "rate": 2.0, "submitted": "2026-11-24T02:13:17"}
 {"job": "24456793", "name": "drv", "partition": "gpuA40x4-interactive", "hours": 0.417, "rate": 2.0, "submitted": "2026-11-24T02:56:02"}
+{"job": "24457516", "name": "drv", "partition": "gpuA100x4-interactive", "hours": 0.417, "rate": 4.0, "submitted": "2026-11-24T03:13:33"}
+{"job": "24457869", "name": "drv", "partition": "gpuA40x4-interactive", "hours": 0.417, "rate": 2.0, "submitted": "2026-11-24T03:20:11"}
+{"job": "24458098", "name": "drv", "partition": "gpuA100x4-interactive", "hours": 0.417, "rate": 4.0, "submitted": "2026-11-24T03:22:41"}
+{"job": "24459833", "name": "drv", "partition": "gpuH200x8-interactive", "hours": 0.417, "rate": 6.0, "submitted": "2026-11-24T03:41:46"}
+{"job": "24460099", "name": "drv", "partition": "gpuA40x4-interactive", "hours": 0.417, "rate": 2.0, "submitted": "2026-11-24T03:45:21"}
