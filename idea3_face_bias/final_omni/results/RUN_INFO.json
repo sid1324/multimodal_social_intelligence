@@ -1,0 +1,53 @@
+{
+ "updated": "2026-11-24T05:38",
+ "models": {
+  "nemotron": {
+   "id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+   "revision": "e5e9932441de940c9a62185c870ea5bcd4cd24e2",
+   "vision_code": "nvidia/C-RADIOv4-H@0057b339059c0b9e1b4ba996f975410ebbfdfcc8",
+   "thinking": "off (enable_thinking=False); answer prefix newline",
+   "blocks": "52: 23 Mamba2, 23 MoE, 6 attention"
+  },
+  "qwen": {
+   "id": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+   "revision": "26291f793822fb6be9555850f06dfe95f2d7e695"
+  }
+ },
+ "kernels": {
+  "mamba-ssm": "kernels-community/mamba-ssm@768416abf0ad7262a23d83c6efef10b9a4786489",
+  "causal-conv1d": "kernels-community/causal-conv1d@6e9a58272220a363dc50e59cba737abcedd7b59f"
+ },
+ "versions": {
+  "python": "3.12.16",
+  "torch": "2.9.1+cu128",
+  "transformers": "5.6.2",
+  "peft": "0.18.1",
+  "kernels": "0.12.3",
+  "accelerate": "1.16.0",
+  "timm": "1.0.31",
+  "pillow": "12.3.0",
+  "open_clip_torch": "4.2.2"
+ },
+ "tts": {
+  "model": "hexgrad/Kokoro-82M",
+  "package": "kokoro 0.9.4",
+  "voices": [
+   "af_heart",
+   "am_michael"
+  ],
+  "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987"
+ },
+ "data": {
+  "egonormia_images": "2937df7fa96d8515417e7b5122fbf8eaeeaeee86",
+  "annotations": "09d8a7c53f06ed582236722ba8496c6a504cd1ab",
+  "previews_sha_verified": 1853
+ },
+ "seeds": {
+  "split": "idea3-midterm-split-v1",
+  "perm": "idea3-midterm-perm-v1",
+  "voice": "idea3-final-voice-v1",
+  "gate": "gate-v1",
+  "bootstrap": 0,
+  "dpo": 777
+ }
+}
