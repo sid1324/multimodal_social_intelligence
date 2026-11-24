@@ -47,3 +47,4 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 06:34 CT | Submission window extended from 06:55 to 07:30 CT (same cap and gates) to finish speech/image G2 and Stage 2.
 - 11-24 06:33 CT | JOB 24466464 drv: batch wait est A100x4 183.4 h, H200 1285.6 h -> gpuA100x4-interactive, 0.42 h at 4.0 SU/h (max 1.7); SU used 14.8, reserved 3.3
 - 11-24 07:10 CT | MORNING_SUMMARY.md written. Speech/image partial (180/300).
+- 11-24 07:46 CT | Last pending job (A40 24463943) cut to 12 min; about 550 speech/image rows remain. No new submissions.
