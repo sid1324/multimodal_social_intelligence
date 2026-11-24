@@ -63,3 +63,5 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 15:01 CT | JOB 24488965 drv: batch wait est A100x4 205.5 h, H200 1316.0 h -> gpuA100x4-interactive, 0.42 h at 4.0 SU/h (max 1.7); SU used 17.1, reserved 0.8
 - 11-24 15:01 CT | JOB 24488970 drv: batch wait est A100x4 205.5 h, H200 1316.0 h -> gpuH200x8-interactive, 0.30 h at 6.0 SU/h (max 1.8); SU used 17.1, reserved 2.5
 - 11-24 15:01 CT | JOB 24488978 drv: batch wait est A100x4 205.8 h, H200 1328.0 h -> gpuA100x8-interactive, 0.42 h at 6.0 SU/h (max 2.5); SU used 17.1, reserved 4.3
+- 11-24 15:23 CT | Yash away 4 to 5 hours; asked me to keep polling and decide non-crucial things alone.
+- 11-24 15:52 CT | Queue cause: low fairshare (sshare FairShare 0.037; ylothe holds 65% of bjuv-delta-gpu usage). Our priority 1388 vs mostly 1453 to 2454 for jobs running on the A40 and A100x4 lanes. My 15:02 cancel and resubmit cost about 40 points of waiting age (now +17 since); no further cancels unless a job can never fit. No SU.
