@@ -58,3 +58,8 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 14:50 CT | Added slurm/health.py watchdog and a 13-minute self-check (Yash asked me to poll on my own). Automatic fixes: restart a dead keepalive, cut jobs pending over 25 min to 18 min.
 - 11-24 14:50 CT | JOB 24488594 drv: batch wait est A100x4 206.8 h, H200 1333.9 h -> gpuA100x8-interactive, 0.42 h at 6.0 SU/h (max 2.5); SU used 17.1, reserved 7.1
 - 11-24 14:51 CT | Added gpuA100x8-interactive as a fourth lane (Yash OK; 6 SU/h for 2 GPUs, 25 min jobs). Colab declined by Yash for cost.
+- 11-24 15:02 CT | Queue diagnosis: our jobs asked for 16 CPUs and 110 GB (8 CPUs on H200) while past jobs peaked near 74 GB RSS and about 1.2 cores, so free nodes such as gpua084 (3 free GPUs, 4 free CPUs) could not fit them. SPEC now 4 CPUs and 88 GB on every lane. Cancelled and resubmitted the 4 pending jobs (0 SU; waiting age was about 40 of 1408 priority points).
+- 11-24 15:01 CT | JOB 24488931 drv: batch wait est A100x4 205.5 h, H200 1316.0 h -> gpuA40x4-interactive, 0.42 h at 2.0 SU/h (max 0.8); SU used 17.1, reserved 0.0
+- 11-24 15:01 CT | JOB 24488965 drv: batch wait est A100x4 205.5 h, H200 1316.0 h -> gpuA100x4-interactive, 0.42 h at 4.0 SU/h (max 1.7); SU used 17.1, reserved 0.8
+- 11-24 15:01 CT | JOB 24488970 drv: batch wait est A100x4 205.5 h, H200 1316.0 h -> gpuH200x8-interactive, 0.30 h at 6.0 SU/h (max 1.8); SU used 17.1, reserved 2.5
+- 11-24 15:01 CT | JOB 24488978 drv: batch wait est A100x4 205.8 h, H200 1328.0 h -> gpuA100x8-interactive, 0.42 h at 6.0 SU/h (max 2.5); SU used 17.1, reserved 4.3

@@ -13,11 +13,11 @@ W = Path('/work/hdd/bjuv/ylothe/idea3_final')
 ACCOUNT, CAP = 'bjuv-delta-gpu', 150.0   # Yash approved 200 total on Nov 24; ask Yash at 150 before raising
 LEDGER = HERE / 'results/su_ledger.jsonl'
 # partition: (gpus, cpus, mem, SU per hour for that request)
-SPEC = {'gpuA100x4': (2, 16, '110g', 2.0), 'gpuH200x8': (1, 8, '110g', 3.0),
-        'gpuA100x4-interactive': (2, 16, '110g', 4.0),
-        'gpuA100x8-interactive': (2, 16, '110g', 6.0),   # added with Yash's OK, Nov 24: 3 SU per GPU-hour
-        'gpuH200x8-interactive': (1, 8, '110g', 6.0),
-        'gpuA40x4-interactive': (2, 16, '110g', 2.0)}   # back to 2x A40, one copy: the 4-GPU 57-min job never backfilled
+SPEC = {'gpuA100x4': (2, 4, '88g', 2.0), 'gpuH200x8': (1, 4, '88g', 3.0),
+        'gpuA100x4-interactive': (2, 4, '88g', 4.0),
+        'gpuA100x8-interactive': (2, 4, '88g', 6.0),   # added with Yash's OK, Nov 24: 3 SU per GPU-hour
+        'gpuH200x8-interactive': (1, 4, '88g', 6.0),
+        'gpuA40x4-interactive': (2, 4, '88g', 2.0)}   # back to 2x A40, one copy: the 4-GPU 57-min job never backfilled
 
 
 def run(*a):
