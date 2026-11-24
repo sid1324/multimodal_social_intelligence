@@ -78,6 +78,30 @@ def t_g2L1(shard):
     sys.exit(0 if ok else 75)
 
 
+def t_blind(variant):
+    """Does the scene matter? (Yash, Nov 24) Same prompts, with a gray image of the same size (blank) or the scene of a
+    different source video (wrong). 300 gate items, train split; L2 text cues and the no-remark condition."""
+    from PIL import Image
+    from data import load_splits, load_item_table, gate_items, seeded_int, video_of
+    real = evaluate.scene
+    items = gate_items(load_splits(), load_item_table(), 300)
+    if variant == 'blank':
+        evaluate.scene = lambda cid: Image.new('RGB', real(cid).size, (127, 127, 127))
+    else:
+        order = sorted(items, key=lambda k: seeded_int('blind-wrong-v1', k))
+        n = len(order); other = {}
+        for i, k in enumerate(order):     # next item in a seeded order that comes from another video
+            j = next(j for j in range(1, n) if video_of(order[(i + j) % n]) != video_of(k))
+            other[k] = order[(i + j) % n]
+        evaluate.scene = lambda cid: real(other[cid])
+    cells = [('none', 'text')] + [(c, 'text') for c in evaluate.level_conds('L2', ('neutral', 'app_tr'))]
+    try:
+        ok = evaluate.run_grid(load('nemotron'), G / f'blind_nemotron_{variant}.jsonl', f'base_{variant}', items, cells, 'train')
+    finally:
+        evaluate.scene = real
+    sys.exit(0 if ok else 75)
+
+
 def t_dpo_rows():
     import dpo_pairs; dpo_pairs.run(NS(model='nemotron'))
 
@@ -128,6 +152,7 @@ def tasks():
     for k in (0, 1):
         out.append((f'g2_other_s{k}', gate, lambda k=k: t_g2('other', k), False))
     sweeps = [(f'sweep_{n}', is_done('directions'), lambda n=n: t_sweep(n), False) for n in SW]
+    out += [(f'blind_{x}', gate, lambda x=x: t_blind(x), False) for x in ('blank', 'wrong')]
     out += sweeps[:1] + [('dpo_rows', is_done('directions'), t_dpo_rows, False), ('dpo_check', is_done('directions'), lambda: sub('src/dpo_check.py'), True)] + sweeps[1:]   # dpo_rows is base scoring only
     out += [(f'g2L1_s{k}', gate, lambda k=k: t_g2L1(k), False) for k in (0, 1)]
     out += [('dpo_text', is_done('pairs') and is_done('dpo_check') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'text'), True),
