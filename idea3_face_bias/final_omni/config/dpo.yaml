@@ -1,0 +1,10 @@
+# START_PROMPT Section 7
+lora: {r: 16, alpha: 32, dropout: 0.05}
+beta: 0.1
+lr: 5.0e-5
+epochs: 3
+micro_batch: 2
+effective_batch: 16
+seed: 777
+max_behavior_to_appearance: 1.5
+levels: [L1, L2]
