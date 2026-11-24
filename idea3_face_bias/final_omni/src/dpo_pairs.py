@@ -28,7 +28,7 @@ def run(a):
 
 def build(a):
     sp = load_splits(); train = set(sp['pool']['train'])
-    rows = read_rows(HERE / f'results/gate/g2_{a.model}_text.jsonl') + read_rows(HERE / f'results/dpo/{a.model}_train_rows.jsonl')
+    rows = [r for p in sorted((HERE / 'results/gate').glob(f'g2_{a.model}_text_s?.jsonl')) for r in read_rows(p)] + read_rows(HERE / f'results/dpo/{a.model}_train_rows.jsonl')
     pred = {(r['id'], r['condition']): r for r in rows if r['channel'] == 'text' and r['method'] == 'base'}
     items = sorted({i for i, _ in pred})
     assert set(items) <= train, 'non-train item in DPO rows'

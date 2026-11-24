@@ -14,7 +14,8 @@ from data import HERE, P777, load_annotations, load_splits, permuted_options, vi
 from channels import build, scene
 
 CACHE = Path(P777) / 'cache'
-DEADLINE = time.time() + 3600 * float(os.environ.get('STAGE_HOURS', '0.83'))  # stop cleanly before the walltime
+# stop cleanly 3 min before the Slurm walltime (or after STAGE_HOURS outside Slurm)
+DEADLINE = (float(os.environ['SLURM_JOB_END_TIME']) - 180) if 'SLURM_JOB_END_TIME' in os.environ else time.time() + 3600 * float(os.environ.get('STAGE_HOURS', '0.83'))
 
 
 def level_conds(lv, families=('neutral', 'app_tr', 'beh_tr')):

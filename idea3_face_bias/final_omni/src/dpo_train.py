@@ -51,6 +51,9 @@ def setup(m):
         if p.requires_grad:
             p.data = p.data.float()
     base = m.lm
+    for mod in base.modules():     # the remote code's blocks are GradientCheckpointingLayers, only the class flag is missing
+        if hasattr(type(mod), 'supports_gradient_checkpointing'):
+            type(mod).supports_gradient_checkpointing = True
     base.gradient_checkpointing_enable(gradient_checkpointing_kwargs={'use_reentrant': False})
     train_mode(m, pm)
     ps = [p for p in pm.parameters() if p.requires_grad]
@@ -137,8 +140,8 @@ def main():
     todo = [e for e in ex if key(e) not in ref]
     pm.eval()
     with torch.no_grad(), pm.disable_adapter():
-        for i in range(0, len(todo), 4):
-            b = todo[i:i + 4]
+        for i in range(0, len(todo), 1):   # one at a time, as in scoring
+            b = todo[i:i + 1]
             lp = logp_full(m, [prompt(e) for e in b])
             for j, e in enumerate(b):
                 yp, ym = letters_for(m, ann[e['id']], e)

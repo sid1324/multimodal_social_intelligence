@@ -14,7 +14,8 @@ ACCOUNT, CAP = 'bjuv-delta-gpu', 100.0
 LEDGER = HERE / 'results/su_ledger.jsonl'
 # partition: (gpus, cpus, mem, SU per hour for that request)
 SPEC = {'gpuA100x4': (2, 16, '110g', 2.0), 'gpuH200x8': (1, 8, '110g', 3.0),
-        'gpuA100x4-interactive': (2, 16, '110g', 4.0)}
+        'gpuA100x4-interactive': (2, 16, '110g', 4.0),
+        'gpuA40x4-interactive': (2, 16, '110g', 2.0)}   # 2x A40 (96 GB): offered to Yash with his interactive approval
 
 
 def run(*a):
@@ -65,7 +66,7 @@ def main():
     ap.add_argument('name'); ap.add_argument('cmd')
     ap.add_argument('--hours', type=float, default=0.95, help='walltime; interactive is capped at 0.95 h')
     ap.add_argument('--dpo', action='store_true'); ap.add_argument('--debug', action='store_true')
-    ap.add_argument('--dry', action='store_true')
+    ap.add_argument('--dry', action='store_true'); ap.add_argument('--part', default='', help='force one interactive partition (still under the batch-wait rule)')
     a = ap.parse_args()
     waits = {p: wait_hours(p, a.hours) for p in ('gpuA100x4', 'gpuH200x8')}
     best = min(waits, key=waits.get)
@@ -73,7 +74,10 @@ def main():
     if not a.debug and waits[best] <= limit:
         part, hours = best, a.hours
     else:
-        part, hours = 'gpuA100x4-interactive', min(a.hours, 0.95)
+        hours = min(a.hours, 0.95)
+        iw = {p: wait_hours(p, hours) for p in SPEC if p.endswith('-interactive')}
+        # cheaper A40s unless the A100s would start more than 30 min sooner
+        part = a.part or 'gpuA40x4-interactive' if a.part or iw['gpuA40x4-interactive'] <= iw['gpuA100x4-interactive'] + 0.5 else 'gpuA100x4-interactive'
     rate = SPEC[part][3]
     used, reserve = su_used()
     need = hours * rate

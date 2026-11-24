@@ -60,7 +60,7 @@ pct = lambda v: 'NA' if v is None else f'{100 * v[0]:.1f} [{100 * v[1]:.1f}, {10
 
 
 def g2(a):
-    rows = read_rows(HERE / f'results/gate/g2_{a.model}_text.jsonl') + read_rows(HERE / f'results/gate/g2_{a.model}_other.jsonl')
+    rows = [r for p in sorted((HERE / 'results/gate').glob(f'g2_{a.model}_*_s?.jsonl')) for r in read_rows(p)]
     ix = index(rows)['base']; S = {}
     for ch, lv in [('text', 'L1'), ('text', 'L2'), ('text', 'L3'), ('speech', a.level), ('image', a.level)]:
         s = summarize({c: item_stats(d, lv, ch) for c, d in ix.items()})

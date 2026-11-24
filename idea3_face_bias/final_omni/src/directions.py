@@ -31,10 +31,11 @@ def main():
     a = ap.parse_args()
     files = {}
     for part in ('text', 'other'):
-        p = CACHE / f'acts/g2_{a.model}_{part}.npy'
-        if p.exists():
-            ix = json.loads(Path(str(p) + '.index.json').read_text())
-            files[part] = (np.load(p, mmap_mode='r'), ix['items'], {tuple(c): j for j, c in enumerate(ix['cells'])})
+        sh = [CACHE / f'acts/g2_{a.model}_{part}_s{k}.npy' for k in (0, 1)]
+        if all(p.exists() for p in sh):
+            ix = [json.loads(Path(str(p) + '.index.json').read_text()) for p in sh]
+            assert ix[0]['cells'] == ix[1]['cells']
+            files[part] = ([np.load(p, mmap_mode='r') for p in sh], ix[0]['items'] + ix[1]['items'], {tuple(c): j for j, c in enumerate(ix[0]['cells'])})
     items = files['text'][1]
     order = sorted(range(len(items)), key=lambda i: seeded_int('split-half-v1', items[i]))
     halves = order[::2], order[1::2]
@@ -44,13 +45,14 @@ def main():
         part = 'text' if ch == 'text' else 'other'
         if part not in files:
             return None
-        arr, _, pos = files[part]
+        arrs, its, pos = files[part]
+        assert its == items
         out = None
         ps = pairs_for(fam, lv)
         for x, y in ps:
             if (x, ch) not in pos or (y, ch) not in pos:
                 return None
-            d = np.asarray(arr[:, pos[(x, ch)]], np.float32) - np.asarray(arr[:, pos[(y, ch)]], np.float32)
+            d = np.concatenate([np.asarray(z[:, pos[(x, ch)]], np.float32) - np.asarray(z[:, pos[(y, ch)]], np.float32) for z in arrs])
             out = d if out is None else out + d
         out = out / len(ps)
         assert np.isfinite(out).all() and (np.abs(out).sum((1, 2)) > 0).all(), (fam, lv, ch, 'missing residuals')

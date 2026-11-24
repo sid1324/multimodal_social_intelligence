@@ -86,12 +86,44 @@ def g1(a):
         S['d'] = smoke(m, items, ann)
         save(); print(S['d'], flush=True)
     S['pass'] = {'a': S['a']['mean_letter_mass'] > 0.5 and S['a']['finite'] and S['a']['greedy_agree'] >= 0.95, 'b': S['b']['argmax_agree'] >= 0.98,
+                 'a_gen_is_letter_only': all(r['gen'].replace('<|im_end|>', '').strip() in list('ABCDE') for r in rows),
                  'c': S['c']['finite'] and abs(S['c']['proj_after']) < 0.02 * abs(S['c']['proj_before']) and S['c']['restored_dlp'] < 0.05,
                  'd': S.get('d', {}).get('moved')}
     save(); print('G1', S['pass'], flush=True)
 
 
-TRAIT = {'untrustworthy': ['untrustworthy'], 'trustworthy': ['trustworthy']}
+def moecheck(a):
+    """(1) fast MoE dispatch vs original, one prompt at a time: adopt only if every letter log-prob is identical.
+    (2) noise references for G1(b): the same prompt as a duplicated batch of two, and with extra right padding."""
+    from omni_model import load
+    ann, items = load_annotations(), val20()
+    m = load('nemotron')
+    P = []
+    for cid in items[:6]:
+        v, img = ann[cid], scene(cid)
+        for ch in ('text', 'speech', 'image'):
+            for c in ['L2_neutral', 'L2_neutral_paraphrase'] + [f'L2_app_{s}_tr{i}' for i in range(3) for s in ('low', 'high')]:
+                P.append((build(v, img, c, ch), len(permuted_options(v))))
+    def run():
+        torch.cuda.synchronize(); t = time.time()
+        o = [m.score_many([p], n)[0][0] for p, n in P]
+        return o, (time.time() - t) / len(P)
+    m.set_fast_moe(False); run(); A, ta = run()     # first pass only warms the embedding caches
+    m.set_fast_moe(True); B, tb = run()
+    dp = lambda x, y: max(abs(np.exp(p) - np.exp(q)) for p, q in zip(x['letter_logp'], y['letter_logp']))
+    S = {'n': len(P), 'fast_argmax_agree': float(np.mean([x['argmax'] == y['argmax'] for x, y in zip(A, B)])),
+         'fast_max_abs_dp': float(max(dp(x, y) for x, y in zip(A, B))), 'sec_orig': ta, 'sec_fast': tb, 'gpu': torch.cuda.get_device_name(0)}
+    S['ok'] = S['fast_max_abs_dp'] == 0.0
+    D = []
+    for (p, n) in P:
+        hid, lens = m.last_hidden([p, p]); D.append(m._letters(m.logits32(hid[1]), n, lens[1]))
+    S['dup2_argmax_agree'] = float(np.mean([x['argmax'] == y['argmax'] for x, y in zip(A, D)])); S['dup2_max_abs_dp'] = float(max(dp(x, y) for x, y in zip(A, D)))
+    S['dup2_mean_abs_dp'] = float(np.mean([dp(x, y) for x, y in zip(A, D)]))
+    gap = lambda o: (lambda z: z[-1] - z[-2])(sorted(np.exp(o['letter_logp'])))
+    S['top2_gap_of_dup2_disagreements'] = [round(float(gap(x)), 3) for x, y in zip(A, D) if x['argmax'] != y['argmax']]
+    (HERE / 'results/gate/moecheck.json').write_text(json.dumps(S, indent=1)); print('MOECHECK', json.dumps(S), flush=True)
+
+
 def key_word(cue):
     """Word that must be repeated: the trait word of the appearance cue."""
     for w in ('untrustworthy', 'trustworthy', 'dishonest', 'honest', 'cannot be trusted', 'can be trusted'):
@@ -134,22 +166,22 @@ def g2_cells(level):
 
 def g2(a):
     from omni_model import load
-    items = gate_items(load_splits(), load_item_table(), 300)
+    items = gate_items(load_splits(), load_item_table(), 300)[a.shard::2]   # two shards, one per interactive partition
     text, other = g2_cells(a.level)
     if a.model != 'nemotron':   # second model: main level only (START_PROMPT overnight step 7), plus none and valence
         text = [c for c in text if c[0].startswith(('none', a.level, 'val_'))]
     cells = text if a.part == 'text' else other
     ac = [c for c in cells if 'neutral' not in c[0] and c[0] != 'none']
     m = load(a.model)
-    ok = run_grid(m, HERE / f'results/gate/g2_{a.model}_{a.part}.jsonl', 'base', items, cells, 'train',
-                  acts={'path': str(CACHE / f'acts/g2_{a.model}_{a.part}.npy'), 'cells': ac})
+    ok = run_grid(m, HERE / f'results/gate/g2_{a.model}_{a.part}_s{a.shard}.jsonl', 'base', items, cells, 'train',
+                  acts={'path': str(CACHE / f'acts/g2_{a.model}_{a.part}_s{a.shard}.npy'), 'cells': ac})
     sys.exit(0 if ok else 75)
 
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
-    ap.add_argument('stage', choices=['g1', 'perception', 'g2'])
+    ap.add_argument('stage', choices=['g1', 'perception', 'g2', 'moecheck'])
     ap.add_argument('--model', default='nemotron'); ap.add_argument('--level', default='L2')
-    ap.add_argument('--part', default='text', choices=['text', 'other']); ap.add_argument('--lora', action='store_true')
+    ap.add_argument('--part', default='text', choices=['text', 'other']); ap.add_argument('--lora', action='store_true'); ap.add_argument('--shard', type=int, default=0)
     a = ap.parse_args()
     globals()[a.stage](a)

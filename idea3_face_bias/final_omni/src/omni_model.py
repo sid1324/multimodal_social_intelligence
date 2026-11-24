@@ -23,6 +23,9 @@ MAX_BATCH_TOKENS = int(os.environ.get('MAX_BATCH_TOKENS', 16000))
 
 def snapshot(name):
     mid, rev = REV[name]
+    fast = Path('/work/nvme/bjuv/ylothe/idea3_weights') / name
+    if (fast / '.done').exists():      # NVMe copy of the same pinned snapshot (the HDD copy takes 11 min to load)
+        return str(fast / rev)
     return str(Path(os.environ['HF_HOME']) / 'hub' / ('models--' + mid.replace('/', '--')) / 'snapshots' / rev)
 
 
@@ -32,6 +35,26 @@ def pin_kernels():
     from transformers.integrations import hub_kernels as hk
     hk._HUB_KERNEL_MAPPING['mamba-ssm'] = {'repo_id': 'kernels-community/mamba-ssm', 'revision': '768416abf0ad7262a23d83c6efef10b9a4786489'}
     hk._HUB_KERNEL_MAPPING['causal-conv1d'] = {'repo_id': 'kernels-community/causal-conv1d', 'revision': '6e9a58272220a363dc50e59cba737abcedd7b59f'}
+
+
+def fast_moe_forward(self, hidden_states):
+    """Same arithmetic and the same order as NemotronHMoE.forward (experts in index order; within an expert, rows ordered
+    by top-k position then token), but one GPU sync per block instead of several per expert. Adopted only if
+    run_gate.py moecheck finds outputs identical to the original."""
+    residuals, shape = hidden_states, hidden_states.shape
+    topk_indices, topk_weights = self.route_tokens_to_experts(self.gate(hidden_states))
+    x = self.fc1_latent_proj(hidden_states.view(-1, shape[-1]))
+    out = torch.zeros_like(x, dtype=topk_weights.dtype)
+    N = x.shape[0]
+    flat = topk_indices.T.reshape(-1)
+    order = torch.argsort(flat, stable=True)
+    counts = torch.bincount(flat, minlength=self.n_routed_experts).tolist()
+    tok, pos = order % N, order // N
+    xs, ws = x[tok].split(counts), topk_weights[tok, pos][:, None].split(counts)
+    for e, (t, xe, we) in enumerate(zip(tok.split(counts), xs, ws)):
+        if len(t):
+            out.index_add_(0, t, (self.experts[e](xe) * we).to(out.dtype))
+    return self.fc2_latent_proj(out.to(x.dtype)).view(*shape) + self.shared_experts(residuals)
 
 
 def load_wav(path):
@@ -113,8 +136,8 @@ class OmniBase:
                 'n_tokens': int(n_tokens), 'top_token': self.tok.decode([top])}
 
     @torch.no_grad()
-    def score_many(self, prompts, n_opts, system=None, capture=False, fast=True):
-        """-> list of result dicts, list of residuals [n_layers, H] (or None)."""
+    def score_many(self, prompts, n_opts, system=None, capture=False, fast=False):
+        """One prompt at a time by default: the batched path failed G1(b) (OVERNIGHT_LOG.md). -> list of result dicts, list of residuals [n_layers, H] (or None)."""
         outs, resid = [], []
         toks = [self.n_tokens(p, system) for p in prompts] if fast else [0] * len(prompts)
         groups, cur = [], []
@@ -164,6 +187,13 @@ class Nemotron(OmniBase):
         self.check_moe_bias()
         mod = __import__(type(self.lm).__module__, fromlist=['x'])
         assert mod.is_fast_path_available, 'Mamba CUDA kernels not loaded'
+        self.moe_cls, self.moe_orig = mod.NemotronHMoE, mod.NemotronHMoE.forward
+        chk = Path(__file__).resolve().parent.parent / 'results/gate/moecheck.json'
+        self.set_fast_moe(chk.exists() and __import__('json').loads(chk.read_text())['ok'])
+
+    def set_fast_moe(self, on):
+        self.fast_moe = bool(on)
+        self.moe_cls.forward = fast_moe_forward if on else self.moe_orig
 
     def fix_buffers(self):
         """Two buffers are not in the checkpoint; set them to the values their constructors define."""
@@ -187,7 +217,7 @@ class Nemotron(OmniBase):
         pat = cfg.llm_config.layers_block_type
         w = [dict(moe=2.45, mamba=0.2, attention=0.3).get(t, 0.3) for t in pat]   # approximate GB per block
         total, cum, dm = sum(w), 0.0, {}
-        first = total / n - (2.0 if n > 1 else 0)   # encoders live on GPU 0
+        first = total / n + (0.7 if n > 1 else 0)   # measured: gives about 33 GB on each A100
         for i, x in enumerate(w):
             cum += x
             d = 0 if cum <= first else min(n - 1, 1 + int((cum - first) / ((total - first) / max(n - 1, 1)))) if n > 1 else 0
@@ -209,8 +239,12 @@ class Nemotron(OmniBase):
         wp, hp = self.processor.image_processor._compute_target_patches(img, min(13312, (16384 - 4) * 4))
         return wp, hp
 
-    def encode(self, parts, system=None):
-        s = self.chat(parts, system)
+    # With thinking off the model opens its answer with a newline ("\nB") on 19 of 20 items (G1 attempt 1), so the
+    # newline is part of the fixed assistant prefix and the scored position is the letter itself.
+    ANSWER_PREFIX = '\n'
+
+    def encode(self, parts, system=None, prefix=True):
+        s = self.chat(parts, system) + (self.ANSWER_PREFIX if prefix else '')
         for kind, v in parts:
             if kind == 'image':
                 wp, hp = self._img_grid(v)
@@ -243,8 +277,8 @@ class Nemotron(OmniBase):
         return self.aud_cache.get_or(str(path), fn)
 
     @torch.no_grad()
-    def embed(self, parts, system=None):
-        ids = torch.tensor(self.encode(parts, system), device='cuda:0')
+    def embed(self, parts, system=None, prefix=True):
+        ids = torch.tensor(self.encode(parts, system, prefix), device='cuda:0')
         e = self.lm.get_input_embeddings()(ids).clone()
         for tid, kind, fn in ((self.model.img_context_token_id, 'image', self._img_embed), (self.model.sound_context_token_id, 'audio', self._aud_embed)):
             vals = [fn(v) for k, v in parts if k == kind]
@@ -273,8 +307,8 @@ class Nemotron(OmniBase):
 
     @torch.no_grad()
     def generate(self, parts, system=None, max_new_tokens=4):
-        """Greedy, recomputing the full sequence per step (no Mamba cache): simple and exact."""
-        e = self.embed(parts, system)
+        """Greedy, recomputing the full sequence per step (no Mamba cache): simple and exact. Free generation: no forced answer prefix."""
+        e = self.embed(parts, system, prefix=False)
         out = []
         for _ in range(max_new_tokens):
             hid = self.backbone()(inputs_embeds=e[None], attention_mask=None, use_cache=False).last_hidden_state[0, -1]
