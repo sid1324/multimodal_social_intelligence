@@ -70,6 +70,12 @@ def g2(a):
         S[f'{ch} {lv}'] = s
         print(f"{ch:6s} {lv} n={s['n_s_app']:3d} app {pct(s['s_app'])} floor {pct(s['s0'])} app-floor {pct(s['app_minus_floor'])} beh {pct(s['r_beh'])} "
               f"acc low/high {pct(s['acc_low'])} / {pct(s['acc_high'])} diff {pct(s['low_minus_high'])} clean {pct(s['acc'])} -> {'PASS' if s['pass'] else 'FAIL'}")
+    for ch in ('speech', 'image'):       # exploratory, Nov 24: L1 speech and image (only if scored)
+        if any(k == ('L1_neutral', ch) for d in ix.values() for k in d):
+            s = summarize({c: item_stats(d, 'L1', ch) for c, d in ix.items()})
+            if s['s_app']:
+                s['pass'] = bool(s['app_minus_floor'][1] > 0); s['exploratory'] = True; S[f'{ch} L1 (exploratory)'] = s
+                print(f"{ch:6s} L1 exploratory n={s['n_s_app']} app {pct(s['s_app'])} floor {pct(s['s0'])} app-floor {pct(s['app_minus_floor'])} beh {pct(s['r_beh'])} acc low/high {pct(s['acc_low'])} / {pct(s['acc_high'])}")
     S['letter_mass'] = float(np.mean([r['letter_mass'] for r in rows])); S['finite'] = all(r['finite'] for r in rows); S['n_rows'] = len(rows)
     print('letter mass', S['letter_mass'], 'finite', S['finite'], 'rows', len(rows))
     (HERE / f'results/gate/g2_{a.model}_summary.json').write_text(json.dumps(S, indent=1))
@@ -122,7 +128,31 @@ def dpo(a):
     (HERE / f'results/dpo/{a.model}_val_summary.json').write_text(json.dumps({'table': T, 'proposal': P}, indent=1)); print(json.dumps(P))
 
 
+def blind(a):
+    """Blank-image and wrong-image check on the 300 gate items (train). Real-scene rows come from G2."""
+    ix = {'real': index([r for p in sorted((HERE / 'results/gate').glob(f'g2_{a.model}_text_s?.jsonl')) for r in read_rows(p)])['base']}
+    for v in ('blank', 'wrong'):
+        rows = read_rows(HERE / f'results/gate/blind_{a.model}_{v}.jsonl')
+        if rows:
+            ix[v] = index(rows)[f'base_{v}']
+    S = {}
+    have = set.intersection(*[set(d) for d in ix.values()])
+    for v, d in ix.items():
+        st = {c: item_stats(d[c], 'L2', 'text') for c in have}
+        s = summarize(st); S[v] = {k: s[k] for k in ('acc', 'acc_neutral', 's_app', 's0', 'app_minus_floor', 'acc_low', 'acc_high')}
+        print(f"{v:6s} n={len(have)} no-remark acc {pct(s['acc'])} neutral acc {pct(s['acc_neutral'])} app flips {pct(s['s_app'])} floor {pct(s['s0'])} app-floor {pct(s['app_minus_floor'])}")
+        if v != 'real':
+            byv = defaultdict(list)
+            for c in have:
+                r, x = d[c][('none', 'text')], ix['real'][c][('none', 'text')]
+                byv[c.split('_')[0]].append(float(r['correct']) - float(x['correct']))
+            S[v]['acc_minus_real'] = boot(byv); print('       accuracy minus real scene', pct(S[v]['acc_minus_real']))
+            S[v]['same_answer_as_real_scene'] = float(np.mean([d[c][('none', 'text')]['pred'] == ix['real'][c][('none', 'text')]['pred'] for c in have]))
+            print('       same no-remark answer as with real scene', round(100 * S[v]['same_answer_as_real_scene'], 1))
+    (HERE / f'results/gate/blind_{a.model}_summary.json').write_text(json.dumps(S, indent=1))
+
+
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(); ap.add_argument('phase', choices=['g2', 'sweep', 'dpo']); ap.add_argument('--model', default='nemotron')
+    ap = argparse.ArgumentParser(); ap.add_argument('phase', choices=['g2', 'sweep', 'dpo', 'blind']); ap.add_argument('--model', default='nemotron')
     ap.add_argument('--level', default='L2'); ap.add_argument('--n_layers', type=int, default=52)
-    a = ap.parse_args(); {'g2': g2, 'sweep': sweep, 'dpo': dpo}[a.phase](a)
+    a = ap.parse_args(); {'g2': g2, 'sweep': sweep, 'dpo': dpo, 'blind': blind}[a.phase](a)

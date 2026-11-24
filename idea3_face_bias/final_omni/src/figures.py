@@ -30,7 +30,7 @@ def f2(models):
                     a.plot(C[key], color=col, ls=ls, lw=2.4, label=lab)
             a.axhline(0, color=INK2, lw=0.8); a.grid(axis='y', color=GRID, lw=0.8); a.set_ylim(-0.4, 1.02)
             a.set_title((f'{NAMES[m]}\n' if c == 0 else '') + title, fontsize=13, loc='left', color=INK)
-            a.set_xlabel('layer'); a.legend(frameon=False, fontsize=11, loc='best')
+            a.set_xlabel('layer'); a.legend(frameon=False, fontsize=11, loc='upper left', bbox_to_anchor=(0, -0.2), ncol=2)
         ax[r, 0].set_ylabel('cosine similarity')
     fig.tight_layout()
     for e in ('png', 'pdf'):
