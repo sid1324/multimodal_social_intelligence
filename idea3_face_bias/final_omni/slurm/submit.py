@@ -16,7 +16,7 @@ LEDGER = HERE / 'results/su_ledger.jsonl'
 SPEC = {'gpuA100x4': (2, 16, '110g', 2.0), 'gpuH200x8': (1, 8, '110g', 3.0),
         'gpuA100x4-interactive': (2, 16, '110g', 4.0),
         'gpuH200x8-interactive': (1, 8, '110g', 6.0),
-        'gpuA40x4-interactive': (4, 32, '220g', 4.0)}   # 4x A40, two model copies (--procs 2)
+        'gpuA40x4-interactive': (2, 16, '110g', 2.0)}   # back to 2x A40, one copy: the 4-GPU 57-min job never backfilled
 
 
 def run(*a):
