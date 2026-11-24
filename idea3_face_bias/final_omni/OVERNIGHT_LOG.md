@@ -56,3 +56,5 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 14:50 CT | Three jobs pending since 12:49 with none started. My 57-min limits and the 4-GPU A40 request were a mistake (last night's 25-min 2-GPU jobs backfilled). Cut A100 24483348 to 25 min and H200 24483352 to 18 min in place, cancelled pending A40 24483343 (0 SU), keepalive back to 25/25/18 min, one model copy per job.
 - 11-24 14:48 CT | JOB 24488532 drv: batch wait est A100x4 206.3 h, H200 1322.1 h -> gpuA40x4-interactive, 0.42 h at 2.0 SU/h (max 0.8); SU used 17.1, reserved 6.3
 - 11-24 14:50 CT | Added slurm/health.py watchdog and a 13-minute self-check (Yash asked me to poll on my own). Automatic fixes: restart a dead keepalive, cut jobs pending over 25 min to 18 min.
+- 11-24 14:50 CT | JOB 24488594 drv: batch wait est A100x4 206.8 h, H200 1333.9 h -> gpuA100x8-interactive, 0.42 h at 6.0 SU/h (max 2.5); SU used 17.1, reserved 7.1
+- 11-24 14:51 CT | Added gpuA100x8-interactive as a fourth lane (Yash OK; 6 SU/h for 2 GPUs, 25 min jobs). Colab declined by Yash for cost.

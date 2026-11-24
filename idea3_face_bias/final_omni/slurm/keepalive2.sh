@@ -10,7 +10,7 @@ while [ $(date +%s) -lt $END ]; do
   [ "$n" = "STOP" ] && break
   echo "$line" | grep -q "LEFT 0" && { echo "ALL DONE"; break; }
   if [ "${n:-0}" -gt 0 ]; then
-    for spec in "gpuA40x4-interactive 1 0.417" "gpuA100x4-interactive 1 0.417" "gpuH200x8-interactive 1 0.30"; do
+    for spec in "gpuA40x4-interactive 1 0.417" "gpuA100x4-interactive 1 0.417" "gpuH200x8-interactive 1 0.30" "gpuA100x8-interactive 1 0.417"; do
       set -- $spec; p=$1; np=$2; h=$3
       if [ -z "$(squeue -u ylothe -h -p $p -o %i)" ]; then python3 slurm/submit.py drv "python src/driver.py" --part $p --procs $np --hours $h; sleep 5; fi
     done

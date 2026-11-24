@@ -6,7 +6,7 @@ import datetime as dt, glob, json, os, re, subprocess, sys, time
 from pathlib import Path
 HERE = Path(__file__).resolve().parent.parent
 W = Path('/work/hdd/bjuv/ylothe/idea3_final')
-LANES = ('gpuA40x4-interactive', 'gpuA100x4-interactive', 'gpuH200x8-interactive')
+LANES = ('gpuA40x4-interactive', 'gpuA100x4-interactive', 'gpuH200x8-interactive', 'gpuA100x8-interactive')
 LEDGER = HERE / 'results/su_ledger.jsonl'
 seen, last = set(), {}
 
