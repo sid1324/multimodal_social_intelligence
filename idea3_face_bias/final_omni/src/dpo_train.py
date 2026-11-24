@@ -114,7 +114,11 @@ def main():
     ex = [dict(p, channel=ch) for p in pairs for ch in chans]
     d = ADAPT / f'{a.model}_{a.variant}'; d.mkdir(parents=True, exist_ok=True)
     logf = HERE / f'results/dpo/{a.model}_{a.variant}_train_log.jsonl'
+    chk = json.loads((HERE / 'results/gate/dpo_check.json').read_text())
+    assert chk['resume_ok'], 'dpo_check: resume failed'
     m = load(a.model); pm, ps = setup(m)
+    if not chk['grad_ok']:
+        m.disable_fast(); print('fast MoE off for training: gradient check failed', flush=True)
     acc_steps = CFG['effective_batch'] // CFG['micro_batch']
     per_epoch = math.ceil(len(ex) / CFG['effective_batch'])
     total = per_epoch * CFG['epochs']

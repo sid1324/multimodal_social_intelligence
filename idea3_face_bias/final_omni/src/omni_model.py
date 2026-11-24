@@ -211,6 +211,14 @@ class Nemotron(OmniBase):
                 block.mixer.forward = functools.partial(fwd, block.mixer)   # instance level: accelerate leaves an instance attribute behind
         self.fast_moe = True
 
+    def disable_fast(self):
+        """Back to the original MoE dispatch (used if the fast path's gradients do not match, results/gate/dpo_check.json)."""
+        import functools
+        for block, t in zip(self.layers, self.block_types):
+            if t == 'moe':
+                block.mixer.forward = functools.partial(self.moe_orig, block.mixer)
+        self.fast_moe = False
+
     def fix_buffers(self):
         """Two buffers are not in the checkpoint; set them to the values their constructors define."""
         rm = self.model.vision_model.radio_model

@@ -50,3 +50,6 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 07:46 CT | Last pending job (A40 24463943) cut to 12 min; about 550 speech/image rows remain. No new submissions.
 - 11-24 08:53 CT | **G2 Steps 1 and 2 complete (300 items, Nemotron): image PASS +5.4 [1.7, 9.0], speech FAIL +0.1 [-2.9, 2.9], text L2 PASS +4.6 [1.6, 7.5].** 20,100 rows, letter mass 0.99996, all finite. Directions running on CPU.
 - 11-24 12:14 CT | Directions finished on CPU. First run (started about 08:52) had stalled on Lustre memmap reads (1 min 48 s CPU in 3 h 20 min); stopped it, copied activations to node-local /tmp, reran in 49 s. `src/directions.py` gained an ACTS_DIR override, no analysis change. 0 SU. F2 draft in report/figures.
+- 11-24 12:49 CT | JOB 24483343 drv: batch wait est A100x4 209.8 h, H200 1324.7 h -> gpuA40x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 17.1, reserved 0.0
+- 11-24 12:49 CT | JOB 24483348 drv: batch wait est A100x4 209.8 h, H200 1324.7 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 17.1, reserved 3.8
+- 11-24 12:49 CT | JOB 24483352 drv: batch wait est A100x4 209.8 h, H200 1324.7 h -> gpuH200x8-interactive, 0.42 h at 6.0 SU/h (max 2.5); SU used 17.1, reserved 7.6

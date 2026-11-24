@@ -69,6 +69,15 @@ def t_sweep(name):
     sys.exit(0 if ok else 75)
 
 
+def t_g2L1(shard):
+    """Exploratory (Yash, Nov 24): speech and image at L1 on the same 300 gate items."""
+    from data import load_splits, load_item_table, gate_items
+    items = gate_items(load_splits(), load_item_table(), 300)[shard::2]
+    cells = [(c, ch) for ch in ('speech', 'image') for c in evaluate.level_conds('L1')]
+    ok = evaluate.run_grid(load('nemotron'), G / f'g2_nemotron_otherL1_s{shard}.jsonl', 'base', items, cells, 'train')
+    sys.exit(0 if ok else 75)
+
+
 def t_dpo_rows():
     import dpo_pairs; dpo_pairs.run(NS(model='nemotron'))
 
@@ -118,12 +127,28 @@ def tasks():
         out.append((f'g2_text_s{k}', True, lambda k=k: t_g2('text', k), False))
     for k in (0, 1):
         out.append((f'g2_other_s{k}', gate, lambda k=k: t_g2('other', k), False))
-    out.append(('dpo_rows', is_done('directions'), t_dpo_rows, False))
-    out += [(f'sweep_{n}', is_done('directions'), lambda n=n: t_sweep(n), False) for n in SW]
-    out += [('dpo_text', is_done('pairs'), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'text'), True),
-            ('dpo_multi', is_done('pairs'), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'multi'), True)]
+    sweeps = [(f'sweep_{n}', is_done('directions'), lambda n=n: t_sweep(n), False) for n in SW]
+    out += sweeps[:1] + [('dpo_rows', is_done('directions'), t_dpo_rows, False), ('dpo_check', is_done('directions'), lambda: sub('src/dpo_check.py'), True)] + sweeps[1:]   # dpo_rows is base scoring only
+    out += [(f'g2L1_s{k}', gate, lambda k=k: t_g2L1(k), False) for k in (0, 1)]
+    out += [('dpo_text', is_done('pairs') and is_done('dpo_check') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'text'), True),
+            ('dpo_multi', is_done('pairs') and is_done('dpo_check') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'multi'), True)]
+    for grp, ms in (('A', ('base', 'constitution', 'naive_text')), ('B', ('dpo_text', 'dpo_multi'))):
+        ok_test = (LOCKS / f'test_approved_{grp}.done').exists() and (HERE / f'results/FREEZE_{grp}.json').exists()
+        for me in ms:
+            for k in range(4):
+                out.append((f'test_{me}_s{k}', ok_test, lambda me=me, k=k: sub_test(me, k), True))
     out.append(('dpo_val', is_done('dpo_text') and is_done('dpo_multi'), lambda: sub('src/evaluate.py', 'dpo_val', '--model', 'nemotron'), True))
     return out
+
+
+def sub_test(method, shard):
+    os.environ['ALLOW_TEST'] = 'yash-approved'   # only reached when the approval marker exists
+    sub('src/run_test.py', method, str(shard))
+
+
+def dpo_ok():
+    f = G / 'dpo_check.json'
+    return f.exists() and json.loads(f.read_text())['resume_ok']
 
 
 def try_lock(t):

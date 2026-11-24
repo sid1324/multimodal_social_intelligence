@@ -3,7 +3,7 @@ lora: {r: 16, alpha: 32, dropout: 0.05}
 beta: 0.1
 lr: 5.0e-5
 epochs: 3
-micro_batch: 2
+micro_batch: 1   # was 2: right-padded micro-batches use the path that failed G1(b); effective batch unchanged
 effective_batch: 16
 seed: 777
 max_behavior_to_appearance: 1.5

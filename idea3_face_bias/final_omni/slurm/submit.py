@@ -10,13 +10,13 @@ import argparse, datetime as dt, json, re, subprocess, sys
 from pathlib import Path
 HERE = Path(__file__).resolve().parent.parent
 W = Path('/work/hdd/bjuv/ylothe/idea3_final')
-ACCOUNT, CAP = 'bjuv-delta-gpu', 100.0
+ACCOUNT, CAP = 'bjuv-delta-gpu', 150.0   # Yash approved 200 total on Nov 24; ask Yash at 150 before raising
 LEDGER = HERE / 'results/su_ledger.jsonl'
 # partition: (gpus, cpus, mem, SU per hour for that request)
 SPEC = {'gpuA100x4': (2, 16, '110g', 2.0), 'gpuH200x8': (1, 8, '110g', 3.0),
         'gpuA100x4-interactive': (2, 16, '110g', 4.0),
         'gpuH200x8-interactive': (1, 8, '110g', 6.0),
-        'gpuA40x4-interactive': (2, 16, '110g', 2.0)}   # 2x A40 (96 GB): offered to Yash with his interactive approval
+        'gpuA40x4-interactive': (4, 32, '220g', 4.0)}   # 4x A40, two model copies (--procs 2)
 
 
 def run(*a):
@@ -56,6 +56,13 @@ def wait_hours(part, hours):
     return (dt.datetime.fromisoformat(m.group(1)) - dt.datetime.now()).total_seconds() / 3600 if m else 1e9
 
 
+def launch(cmd, procs):
+    if procs == 1:
+        return cmd + '\n'
+    # copies on separate GPU pairs; the second starts 90 s later so they do not race on the shared module cache
+    return ('set +e\n' + ''.join(f'(sleep {90 * k}; CUDA_VISIBLE_DEVICES={2 * k},{2 * k + 1} {cmd}) &\n' for k in range(procs)) + 'wait\n')
+
+
 def log(msg):
     with open(HERE / 'OVERNIGHT_LOG.md', 'a') as fh:
         fh.write(f"- {dt.datetime.now():%m-%d %H:%M} CT | {msg}\n")
@@ -67,7 +74,7 @@ def main():
     ap.add_argument('name'); ap.add_argument('cmd')
     ap.add_argument('--hours', type=float, default=0.417, help='walltime; interactive is capped at 0.95 h')
     ap.add_argument('--dpo', action='store_true'); ap.add_argument('--debug', action='store_true')
-    ap.add_argument('--dry', action='store_true'); ap.add_argument('--part', default='', help='force one interactive partition (still under the batch-wait rule)')
+    ap.add_argument('--dry', action='store_true'); ap.add_argument('--procs', type=int, default=1); ap.add_argument('--part', default='', help='force one interactive partition (still under the batch-wait rule)')
     a = ap.parse_args()
     waits = {p: wait_hours(p, a.hours) for p in ('gpuA100x4', 'gpuH200x8')}
     best = min(waits, key=waits.get)
@@ -75,7 +82,7 @@ def main():
     if not a.debug and waits[best] <= limit:
         part, hours = best, a.hours
     else:
-        hours = min(a.hours, 0.417)   # 25 min jobs backfill at once, 57 min jobs waited 30+ min
+        hours = min(a.hours, 0.95)   # interactive limit is 1 h
         iw = {p: wait_hours(p, hours) for p in SPEC if p.endswith('-interactive')}
         # cheaper A40s unless the A100s would start more than 30 min sooner
         part = a.part or 'gpuA40x4-interactive' if a.part or iw['gpuA40x4-interactive'] <= iw['gpuA100x4-interactive'] + 0.5 else 'gpuA100x4-interactive'
@@ -90,7 +97,7 @@ def main():
         print('DRY', desc); return
     sh = W / 'logs' / f'{a.name}.sbatch'
     sh.write_text('#!/bin/bash\nset -eo pipefail\n'
-                  f'source {HERE}/slurm/env.sh\ncd {HERE}\nnvidia-smi --query-gpu=name,memory.total,driver_version --format=csv,noheader\n{a.cmd}\n')
+                  f'source {HERE}/slurm/env.sh\ncd {HERE}\nnvidia-smi --query-gpu=name,memory.total,driver_version --format=csv,noheader\n' + launch(a.cmd, a.procs))
     out = run('sbatch', '--parsable', *args_for(part, hours), f'--job-name=i3_{a.name}', f'--output={W}/logs/{a.name}_%j.log', str(sh))
     m = re.search(r'^(\d+)', out.strip(), re.M)
     if not m:
