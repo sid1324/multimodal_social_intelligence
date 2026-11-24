@@ -43,3 +43,7 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 05:37 CT | Cut pending A100 (24463198) to 12 min and A40 (24463943) to 18 min for backfill.
 - 11-24 05:49 CT | JOB 24465238 drv: batch wait est A100x4 176.8 h, H200 1286.0 h -> gpuA100x4-interactive, 0.42 h at 4.0 SU/h (max 1.7); SU used 12.5, reserved 2.6
 - 11-24 05:50 CT | **G2 Step 1 (text, 300 train items, Nemotron base): L2 PASS.** App flips minus own floor: L1 +13.7 [9.8, 17.7], L2 +4.6 [1.6, 7.5], L3 +4.6 [1.0, 8.0]. Main level L2. Letter mass 0.99997, all finite, 12,900 rows. Mixed hardware (A100, A40, H200). Speech/image shards released.
+- 11-24 06:07 CT | JOB 24465732 drv: batch wait est A100x4 176.9 h, H200 1285.2 h -> gpuH200x8-interactive, 0.42 h at 6.0 SU/h (max 2.5); SU used 14.0, reserved 2.5
+- 11-24 06:34 CT | Submission window extended from 06:55 to 07:30 CT (same cap and gates) to finish speech/image G2 and Stage 2.
+- 11-24 06:33 CT | JOB 24466464 drv: batch wait est A100x4 183.4 h, H200 1285.6 h -> gpuA100x4-interactive, 0.42 h at 4.0 SU/h (max 1.7); SU used 14.8, reserved 3.3
+- 11-24 07:10 CT | MORNING_SUMMARY.md written. Speech/image partial (180/300).

@@ -14,3 +14,4 @@ Implementation choices made by Claude, to confirm with Yash:
 - Batched scoring: right-padded batches with cached image/audio embeddings (Nemotron's Mamba cache cannot take multi-token suffixes).
 - TTS: Kokoro af_heart (female) and am_michael (male), -23 dBFS RMS.
 - Data downloader: generic User-Agent instead of the midterm one that named the course project.
+| Nov 24 01:00 to 08:10 | Claude | Implemented and ran overnight steps 1 to 3 (through G2 text), wrote and debugged the fast MoE dispatch check, the driver and keepalive, partial speech/image. Decisions made by Claude: newline answer prefix, batching off, A40/H200 use, extending the submission window to 07:30 CT. |
