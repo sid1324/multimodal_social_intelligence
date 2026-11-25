@@ -188,7 +188,6 @@ def tasks():
     sweeps = [(f'sweep_{n}', is_done('directions'), lambda n=n: t_sweep(n), False) for n in SW]
     out += [(f'blind_{x}', gate, lambda x=x: t_blind(x), False) for x in ('blank', 'wrong')]
     out += sweeps[:1] + [('dpo_rows', is_done('directions'), t_dpo_rows, False), ('dpo_check3', is_done('dpo_check2') and ('SLURM_JOB_END_TIME' not in os.environ or time.time() < DEADLINE - 480), lambda: sub('src/dpo_check2.py'), True)] + sweeps[1:]   # dpo_rows is base scoring only
-    out += [(f'g2L1_s{k}', gate, lambda k=k: t_g2L1(k), False) for k in (0, 1)]
     out += [('dpo_text', is_done('pairs') and is_done('dpo_check3') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'text'), True),
             ('dpo_multi', is_done('pairs') and is_done('dpo_check3') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'multi'), True)]
     for grp, ms in (('A', ('base', 'constitution', 'naive_text')), ('B', ('dpo_text', 'dpo_multi'))):
@@ -196,6 +195,7 @@ def tasks():
         for me in ms:
             for k in range(4):
                 out.append((f'test_{me}_s{k}', ok_test, lambda me=me, k=k: sub_test(me, k), True))
+    out += [(f'g2L1_s{k}', gate, lambda k=k: t_g2L1(k), False) for k in (0, 1)]
     out.append(('dpo_val', is_done('dpo_text') and is_done('dpo_multi'), lambda: sub('src/evaluate.py', 'dpo_val', '--model', 'nemotron'), True))
     if pre and not is_done('preflight'):
         out = [t for t in out if t[0] == 'preflight']
