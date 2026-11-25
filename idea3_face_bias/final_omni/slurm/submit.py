@@ -16,7 +16,7 @@ LEDGER = HERE / 'results/su_ledger.jsonl'
 SPEC = {'gpuA100x4': (2, 4, '88g', 2.0), 'gpuH200x8': (1, 4, '88g', 3.0),
         'gpuA100x4-interactive': (2, 4, '88g', 4.0),
         'gpuA100x8-interactive': (2, 4, '88g', 6.0),   # added with Yash's OK, Nov 24: 3 SU per GPU-hour
-        'gpuH200x8-interactive': (1, 4, '88g', 6.0),
+        'gpuH200x8-interactive': (1, 8, '88g', 6.0),
         'gpuA40x4-interactive': (2, 4, '88g', 2.0)}   # back to 2x A40, one copy: the 4-GPU 57-min job never backfilled
 
 

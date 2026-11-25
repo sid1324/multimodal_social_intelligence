@@ -75,3 +75,7 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 22:36 CT | Yash to bed; asked me to keep checking and continuing. Limits unchanged (150 SU pause, no test runs, no pushes).
 - 11-24 23:40 CT | Correction: the 19:58 CT conclusion that starts were priority driven was wrong. Both jobs started while ranked about 26th and 28th of 38 to 43, so they backfilled, and the short limit likely helped. Cut the three pending 57-min jobs to 20 min in place (kept their age); new submissions are 20 min; the watchdog cuts to 18 min after 60 min pending.
 - 11-25 01:30 CT | Blank/wrong image check complete (300 items, 5,400 rows, all finite, letter mass 0.9999): accuracy 56.0 real, 29.0 blank, 29.7 wrong (chance 25); app minus floor +4.6 real, +6.2 blank, +1.1 [-2.9, 5.0] wrong. Written to MORNING_SUMMARY.md.
+- 11-25 01:39 CT | JOB 24510679 drv: batch wait est A100x4 213.6 h, H200 1399.6 h -> gpuA100x4-interactive, 0.34 h at 4.0 SU/h (max 1.4); SU used 21.2, reserved 9.4
+- 11-25 02:29 CT | JOB 24512489 drv: batch wait est A100x4 219.9 h, H200 1389.4 h -> gpuH200x8-interactive, 0.34 h at 6.0 SU/h (max 2.0); SU used 22.9, reserved 9.0
+- 11-25 02:30 CT | H200 job 24488970: 16 min, 1.7 SU, only 13 new passes (load about 10 min, then first-pass kernel compile, 4 CPUs, gpue06). H200 lane back to 8 CPUs as in past good runs; the fresh pending H200 job was resubmitted.
+- 11-25 02:31 CT | JOB 24512519 drv: batch wait est A100x4 220.9 h, H200 1389.4 h -> gpuH200x8-interactive, 0.34 h at 6.0 SU/h (max 2.0); SU used 23.0, reserved 8.9
