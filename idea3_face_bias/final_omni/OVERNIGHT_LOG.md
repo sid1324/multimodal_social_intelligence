@@ -104,3 +104,4 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-25 09:48 CT | SBATCH FAILED: drv: batch wait est A100x4 1000000000.0 h, H200 1000000000.0 h -> gpuA40x4-interactive, 0.95 h at 2.0 SU/h (max 1.9); SU used 34.9, reserved 17.8: sbatch: error: QOSMaxSubmitJobPerUserLimit
 sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits)
 - 11-25 10:00 CT | H200 lane dropped: two runs (24488970, 24512519) spent 10 to 13 of 18 min loading (about 1.7 SU each) and almost no DPO steps.
+- 11-25 10:09 CT | Base validation L1 text (196 items, train wordings): app flips 15.8 [11.8, 20.1], floor 2.5 [0.5, 4.9], app minus floor +13.3 [9.0, 17.5], behavior 24.5 [19.7, 29.3]. Base L2 text: app minus floor +2.4 [-1.6, 6.0]. Accuracy no remark 58.8 [53.5, 64.0].
