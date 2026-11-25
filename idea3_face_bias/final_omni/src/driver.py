@@ -3,7 +3,7 @@ files so that jobs in different partitions never do the same work. All tasks are
  - speech/image G2 and everything later require the text G2 at L2 to pass (else results/STOP.md is written);
  - they also require the perception check >= 90% in every channel.
 No test-split task exists (data.load_splits hides it). Usage: python src/driver.py"""
-import json, os, subprocess, sys, threading, time, traceback
+import json, os, re, subprocess, sys, threading, time, traceback
 from pathlib import Path
 from types import SimpleNamespace as NS
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -102,6 +102,38 @@ def t_blind(variant):
     sys.exit(0 if ok else 75)
 
 
+def t_preflight():
+    """New machine check: rescore 120 stored G2 prompts (train items) and compare answers with the stored Delta rows."""
+    import torch
+    from data import load_annotations
+    from channels import build, scene
+    from data import permuted_options
+    rows = [r for p in sorted(G.glob('g2_nemotron_*_s?.jsonl')) for r in read_rows(p)]
+    store = {(r['id'], r['channel'], r['condition']): r for r in rows}
+    ids = sorted({r['id'] for r in rows})[:20]
+    cells = [('none', 'text'), ('L2_neutral', 'text'), ('L2_app_low_tr0', 'text'), ('L2_app_high_tr0', 'text'), ('L2_app_low_tr0', 'speech'), ('L2_app_low_tr0', 'image')]
+    ann = load_annotations(); m = load('nemotron')
+    ok, dps, n, t0 = 0, [], 0, 0
+    for k, cid in enumerate(ids):
+        v, img = ann[cid], scene(cid)
+        if k == 2:
+            torch.cuda.synchronize(); t0 = time.time()
+        for c, ch in cells:
+            res = m.score_many([build(v, img, c, ch)], len(permuted_options(v)))[0][0]
+            r = evaluate.row_for(cid, v, c, ch, res, 'train', 'pre', 'nemotron'); s0 = store[(cid, ch, c)]
+            ok += r['pred'] == s0['pred']; n += 1
+            import math
+            dps.append(max(abs(math.exp(r['logp'][o]) - math.exp(s0['logp'][o])) for o in r['logp']))
+    sec = (time.time() - t0) / (len(cells) * (len(ids) - 2))
+    S = {'n': n, 'agree': ok / n, 'mean_max_dp': sum(dps) / n, 'max_dp': max(dps), 'sec_per_pass': sec, 'fast_moe': m.fast_moe,
+         'gpu': torch.cuda.get_device_name(0), 'n_gpu': torch.cuda.device_count(), 'peak_GB': round(torch.cuda.max_memory_allocated() / 1e9, 1)}
+    S['pass'] = S['agree'] >= 0.95
+    (G / 'preflight.json').write_text(json.dumps(S, indent=1)); print('PREFLIGHT', json.dumps(S), flush=True)
+    if not S['pass']:
+        stop(f'Preflight: this machine agrees with the stored rows on only {ok}/{n}. Yash and Claude should look before spending time.')
+        sys.exit(1)
+
+
 def t_dpo_rows():
     import dpo_pairs; dpo_pairs.run(NS(model='nemotron'))
 
@@ -146,7 +178,9 @@ def transitions():
 def tasks():
     """(name, ready, body, needs_own_process) in priority order."""
     gate = is_done('gate_text') and is_done('gate_perc')
-    out = [('moecheck3', True, t_moecheck, False), ('perception', True, t_perception, False)]
+    pre = os.environ.get('I3_PREFLIGHT') == '1'
+    out = [('preflight', pre, t_preflight, False)] if pre else []
+    out += [('moecheck3', True, t_moecheck, False), ('perception', True, t_perception, False)]
     for k in (0, 1):
         out.append((f'g2_text_s{k}', True, lambda k=k: t_g2('text', k), False))
     for k in (0, 1):
@@ -163,6 +197,14 @@ def tasks():
             for k in range(4):
                 out.append((f'test_{me}_s{k}', ok_test, lambda me=me, k=k: sub_test(me, k), True))
     out.append(('dpo_val', is_done('dpo_text') and is_done('dpo_multi'), lambda: sub('src/evaluate.py', 'dpo_val', '--model', 'nemotron'), True))
+    if pre and not is_done('preflight'):
+        out = [t for t in out if t[0] == 'preflight']
+    only = os.environ.get('I3_ONLY') or ((LOCKS / 'only.txt').read_text().strip() if (LOCKS / 'only.txt').exists() else '')
+    skip = os.environ.get('I3_SKIP', '')
+    if only:
+        out = [t for t in out if re.search(only, t[0])]
+    if skip:
+        out = [t for t in out if not re.search(skip, t[0])]
     return out
 
 
