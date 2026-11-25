@@ -94,3 +94,6 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-25 08:55 CT | Yash: DPO-text first. Order now dpo_text, steering sweep, dpo_multi, exploratory L1.
 - 11-25 09:06 CT | JOB 24524698 drv: batch wait est A100x4 217.0 h, H200 1411.5 h -> gpuA100x4-interactive, 0.34 h at 4.0 SU/h (max 1.4); SU used 30.6, reserved 4.8
 - 11-25 09:10 CT | Yash asked for longer jobs. Short jobs waited 18 min to 8 h (about 4.5 h typical) for about 15 min of work each, so a 57-min job pays off unless its wait is more than 3.5x longer. A100x4 and A40 lanes now 57 min, A100x8 and H200 stay 20/18 min (comparison). Watchdog cuts only after 10 h. The pending 18-min A40 job keeps its place.
+- 11-25 09:08 CT | JOB 24524778 drv: batch wait est A100x4 217.0 h, H200 1489.4 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 30.6, reserved 4.8
+- 11-25 09:09 CT | JOB 24524806 drv: batch wait est A100x4 216.7 h, H200 1410.5 h -> gpuA100x4, 4.00 h at 2.0 SU/h (max 8.0); SU used 30.6, reserved 8.6
+- 11-25 09:09 CT | Yash asked about batch. Dry-run starts: gpuA100x4 Dec 4, gpuA40x4 Dec 9, gpuA100x8 Dec 10, gpuH200x8 Jan 2027; preempt A40 Nov 26 11:58 CT, A100x4 Nov 26 15:47 CT (0 running, 567 pending). Submitted one 4 h gpuA100x4 batch job (8 SU max, inside the cap) that resumes DPO-text.

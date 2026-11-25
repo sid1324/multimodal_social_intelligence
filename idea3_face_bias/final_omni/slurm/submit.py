@@ -80,7 +80,9 @@ def main():
     waits = {p: wait_hours(p, a.hours) for p in ('gpuA100x4', 'gpuH200x8')}
     best = min(waits, key=waits.get)
     limit = 2.0 if a.dpo else 1.0
-    if not a.debug and waits[best] <= limit:
+    if a.part and not a.part.endswith('-interactive'):     # long batch job asked for explicitly (Yash, Nov 25)
+        part, hours = a.part, a.hours
+    elif not a.debug and waits[best] <= limit:
         part, hours = best, a.hours
     else:
         hours = min(a.hours, 0.95)   # interactive limit is 1 h
