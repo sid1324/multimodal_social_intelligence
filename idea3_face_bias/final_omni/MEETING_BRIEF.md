@@ -20,6 +20,50 @@ Our rule for a fair model: **ignore appearance, but still react to behavior** (f
 
 Remarks come in three strengths: **L1** a plain sentence, **L2** the same cue inside a realistic description (our main level), **L3** a pushy bystander (used only as a stress test, never in training).
 
+## The fixes, explained simply
+
+**The idea behind both fixes:** remove the effect of looks, keep the effect of behavior. Then check whether a fix made only from **text** also works for **speech** and **images**.
+
+### Fix 1: Steering (no training)
+
+- **What it is.** Inside the model, each remark creates a pattern of numbers. We find the pattern for "looks untrustworthy" by comparing the model's numbers for "untrustworthy" remarks with those for "trustworthy" ones, and averaging over many scenes. We call it a **direction**.
+- **How it is used.** While the model answers, we remove that direction, as if turning down one knob. Nothing in the model is retrained, so it can be switched off.
+- **Why it might cross formats.** We build the direction from **typed** remarks only. If text and images share the same internal pattern (similarity 0.89 in our data), turning it down should help in images too. **That is a prediction we have not tested yet.**
+- **What could go wrong.** Appearance and behavior look alike inside the model (similarity about 0.8), so removing one can weaken the other. We check that the model still reacts to behavior.
+
+| | Typed | Spoken | Caption in image |
+|---|---|---|---|
+| Direction built from | **yes** | no | no |
+| Direction applied to | yes | yes | yes |
+
+### Fix 2: DPO training (a small change to the model)
+
+- **What it is.** DPO (direct preference optimization) shows the model pairs of answers and teaches it to prefer one. We train only a small add-on (LoRA), not the whole model.
+- **Two kinds of pairs, made from training scenes:**
+  - **Ignore looks (1,408 pairs).** If a remark about looks changes the answer, we teach the model to prefer the answer it gave with no remark.
+  - **Behavior still counts (1,036 pairs).** If a remark about behavior (for example, taking a wallet) changes the answer, we teach it to keep that change.
+- **Why both.** Training only "ignore looks" could make the model ignore everything.
+- **Not used in training:** the pushy L3 remarks and the held-out wordings, so we can test on new phrasing.
+
+### Two versions, and why we compare them
+
+| Version | Trained on | Question it answers |
+|---|---|---|
+| **DPO-text** | Typed remarks only | Does a text-only fix also reduce bias in speech and images? |
+| **DPO-multi** | The same pairs typed, spoken, and shown in the image | What does a fix that sees every format achieve? |
+
+**How we read the result**
+
+| If DPO-text lowers bias in... | Then |
+|---|---|
+| Text only, not images or speech | Text-only fixing does not transfer. Models could look fair in text and still be biased elsewhere. DPO-multi would be the needed fix. |
+| Text and images | The fix carries over between formats, which fits the shared internal pattern. |
+| Nothing | The fix did not work, or there was too little bias to remove. |
+
+**Speech is special for Nemotron:** it showed no appearance bias at L2, so there is nothing to fix and we can only report that.
+
+**How we decide honestly.** We pick settings on validation scenes, write them down, then run the test scenes once. A fix counts only if it lowers the bias, keeps accuracy (within 2 points), and keeps at least 80% of the reaction to behavior.
+
 ## Midterm results (Qwen3-VL 8B, text remarks)
 
 **Yes, mostly positive.**
