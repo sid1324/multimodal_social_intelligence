@@ -95,7 +95,7 @@ def check(end):
 
 
 if __name__ == '__main__':
-    end = int(next((x for x in sys.argv[1:] if x.isdigit()), 1795636800))
+    end = int(next((x for x in sys.argv[1:] if x.isdigit()), 1795820400))
     if '--once' in sys.argv:
         check(end); sys.exit()
     while time.time() < end:

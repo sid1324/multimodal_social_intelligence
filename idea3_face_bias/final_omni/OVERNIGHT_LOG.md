@@ -98,3 +98,5 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-25 09:09 CT | JOB 24524806 drv: batch wait est A100x4 216.7 h, H200 1410.5 h -> gpuA100x4, 4.00 h at 2.0 SU/h (max 8.0); SU used 30.6, reserved 8.6
 - 11-25 09:09 CT | Yash asked about batch. Dry-run starts: gpuA100x4 Dec 4, gpuA40x4 Dec 9, gpuA100x8 Dec 10, gpuH200x8 Jan 2027; preempt A40 Nov 26 11:58 CT, A100x4 Nov 26 15:47 CT (0 running, 567 pending). Submitted one 4 h gpuA100x4 batch job (8 SU max, inside the cap) that resumes DPO-text.
 - 11-25 09:29 CT | The 57-min A100x4 job started after 8 min of waiting. All four lanes now submit 57-min jobs (Yash asked); pending short A40 and H200 jobs keep their place.
+- 11-25 09:33 CT | JOB 24525490 drv: batch wait est A100x4 214.4 h, H200 1411.1 h -> gpuA100x8-interactive, 0.95 h at 6.0 SU/h (max 5.7); SU used 33.6, reserved 13.4
+- 11-25 09:35 CT | Yash: extend the submission loop to Fri Nov 27 17:00 CT (18:00 ET), 150 SU pause unchanged. Report due today 16:00 ET for the 17:00 ET team meeting.
