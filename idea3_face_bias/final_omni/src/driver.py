@@ -187,10 +187,10 @@ def tasks():
         out.append((f'g2_other_s{k}', gate, lambda k=k: t_g2('other', k), False))
     sweeps = [(f'sweep_{n}', is_done('directions'), lambda n=n: t_sweep(n), False) for n in SW]
     out += [(f'blind_{x}', gate, lambda x=x: t_blind(x), False) for x in ('blank', 'wrong')]
-    out += sweeps[:1] + [('dpo_rows', is_done('directions'), t_dpo_rows, False), ('dpo_check', is_done('directions'), lambda: sub('src/dpo_check.py'), True)] + sweeps[1:]   # dpo_rows is base scoring only
+    out += sweeps[:1] + [('dpo_rows', is_done('directions'), t_dpo_rows, False), ('dpo_check2', is_done('dpo_check'), lambda: sub('src/dpo_check2.py'), True)] + sweeps[1:]   # dpo_rows is base scoring only
     out += [(f'g2L1_s{k}', gate, lambda k=k: t_g2L1(k), False) for k in (0, 1)]
-    out += [('dpo_text', is_done('pairs') and is_done('dpo_check') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'text'), True),
-            ('dpo_multi', is_done('pairs') and is_done('dpo_check') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'multi'), True)]
+    out += [('dpo_text', is_done('pairs') and is_done('dpo_check2') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'text'), True),
+            ('dpo_multi', is_done('pairs') and is_done('dpo_check2') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'multi'), True)]
     for grp, ms in (('A', ('base', 'constitution', 'naive_text')), ('B', ('dpo_text', 'dpo_multi'))):
         ok_test = (LOCKS / f'test_approved_{grp}.done').exists() and (HERE / f'results/FREEZE_{grp}.json').exists()
         for me in ms:
@@ -215,7 +215,7 @@ def sub_test(method, shard):
 
 def dpo_ok():
     f = G / 'dpo_check.json'
-    return f.exists() and json.loads(f.read_text())['resume_ok']
+    return f.exists() and json.loads(f.read_text()).get('version') == 2 and json.loads(f.read_text())['resume_ok']
 
 
 def try_lock(t):

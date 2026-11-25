@@ -79,3 +79,6 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-25 02:29 CT | JOB 24512489 drv: batch wait est A100x4 219.9 h, H200 1389.4 h -> gpuH200x8-interactive, 0.34 h at 6.0 SU/h (max 2.0); SU used 22.9, reserved 9.0
 - 11-25 02:30 CT | H200 job 24488970: 16 min, 1.7 SU, only 13 new passes (load about 10 min, then first-pass kernel compile, 4 CPUs, gpue06). H200 lane back to 8 CPUs as in past good runs; the fresh pending H200 job was resubmitted.
 - 11-25 02:31 CT | JOB 24512519 drv: batch wait est A100x4 220.9 h, H200 1389.4 h -> gpuH200x8-interactive, 0.34 h at 6.0 SU/h (max 2.0); SU used 23.0, reserved 8.9
+- 11-25 02:47 CT | JOB 24512998 drv: batch wait est A100x4 220.2 h, H200 1389.6 h -> gpuA40x4-interactive, 0.34 h at 2.0 SU/h (max 0.7); SU used 23.5, reserved 9.1
+- 11-25 04:42 CT | JOB 24516777 drv: batch wait est A100x4 218.1 h, H200 1393.0 h -> gpuA100x8-interactive, 0.34 h at 6.0 SU/h (max 2.0); SU used 25.2, reserved 4.1
+- 11-25 06:26 CT | DPO check v1: gradients pass (fast vs original MoE, max diff 1.65e-4 = original repeat noise 1.65e-4). Resume FAILED my 1e-5 limit (7.0e-5), but that limit ignored repeat noise. Wrote dpo_check2 (exact restore of saved state, plus comparison with repeat noise, rule fixed before running). DPO training stays blocked until it passes.

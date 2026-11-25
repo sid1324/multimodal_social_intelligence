@@ -1,0 +1,26 @@
+{
+ "fast_vs_orig": {
+  "cos": 1.0004158020019531,
+  "rel_norm_diff": 0.0003195298195350915,
+  "max_abs": 0.00016484782099723816,
+  "ref_max_abs": 0.021602444350719452
+ },
+ "orig_repeat": {
+  "cos": 1.0004277229309082,
+  "rel_norm_diff": 0.00011449331941548735,
+  "max_abs": 0.00016528135165572166,
+  "ref_max_abs": 0.021602444350719452
+ },
+ "sec_per_example_fast": 13.555575847625732,
+ "sec_per_example_orig": 3.804534614086151,
+ "fast_enabled_at_load": true,
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "peak_mem_GB": [
+  33.9,
+  34.9
+ ],
+ "grad_ok": true,
+ "resume_max_abs_diff": 7.041916251182556e-05,
+ "resume_param_scale": 0.023031873628497124,
+ "resume_ok": false
+}
