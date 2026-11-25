@@ -17,8 +17,7 @@ import numpy as np
 import torch
 
 REV = {'nemotron': ('nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16', 'e5e9932441de940c9a62185c870ea5bcd4cd24e2'),
-       'qwen': ('Qwen/Qwen3-Omni-30B-A3B-Instruct', '26291f793822fb6be9555850f06dfe95f2d7e695'),
-       'qwen25': ('Qwen/Qwen2.5-Omni-7B', 'ae9e1690543ffd5c0221dc27f79834d0294cba00')}   # 7B study on Colab (Yash, Nov 25; overrides D2b)
+       'qwen': ('Qwen/Qwen3-Omni-30B-A3B-Instruct', '26291f793822fb6be9555850f06dfe95f2d7e695')}
 MAX_BATCH_TOKENS = int(os.environ.get('MAX_BATCH_TOKENS', 16000))
 
 
@@ -428,32 +427,5 @@ class Qwen3Omni(OmniBase):
         return self.peft
 
 
-class Qwen25Omni(Qwen3Omni):
-    """Qwen2.5-Omni-7B thinker only (28 layers), one GPU. Same prompt builder, scoring and hooks as the other backends."""
-    name = 'qwen25'
-
-    def __init__(self):
-        from transformers import Qwen2_5OmniProcessor, Qwen2_5OmniThinkerForConditionalGeneration
-        path = snapshot('qwen25')
-        self.processor = Qwen2_5OmniProcessor.from_pretrained(path)
-        self.tok = self.processor.tokenizer
-        self.model, self.load_info = Qwen2_5OmniThinkerForConditionalGeneration.from_pretrained(
-            path, dtype=torch.bfloat16, device_map={'': 0} if torch.cuda.is_available() else 'cpu', attn_implementation='sdpa', output_loading_info=True)
-        self.model.eval()
-        self.lm = self.model.model
-        self.block_types = ['attention'] * len(self.lm.layers)
-        self._last = None
-        self._finish_init(self.lm.layers, self.model.lm_head)
-        self.model.lm_head.register_forward_pre_hook(self._head_pre)
-        self.dev = self.model.device
-
-    def _enc(self, prompts, system=None):
-        imgs = [v for p in prompts for k, v in p if k == 'image']
-        auds = [load_wav(v) for p in prompts for k, v in p if k == 'audio']
-        enc = self.processor(text=[self.chat(p, system) for p in prompts], images=imgs or None, audio=auds or None,
-                             padding=True, padding_side='right', return_tensors='pt')
-        return enc.to(self.dev)
-
-
 def load(name):
-    return {'nemotron': Nemotron, 'qwen': Qwen3Omni, 'qwen25': Qwen25Omni}[name]()
+    return {'nemotron': Nemotron, 'qwen': Qwen3Omni}[name]()
