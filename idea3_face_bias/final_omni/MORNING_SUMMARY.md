@@ -79,3 +79,14 @@ the first directions run stalled on shared-disk reads for 3 h 20 min (found at 1
 ## Next (for this session after you reply)
 Run the steering sweep and freeze. Before the DPO spend, decide decision 3, and consider that
 the L1 effect is three times the L2 effect.
+
+## Update Wed Nov 25: blank and wrong image check (complete, 300 train items, text channel, L2, 5,400 new rows, all finite)
+| Scene shown | Accuracy, no remark | Accuracy, neutral remark | Appearance flips | Floor | App minus floor |
+|---|---|---|---|---|---|
+| Real | 56.0 [50.5, 61.4] | 55.3 [49.5, 60.9] | 10.6 [8.1, 13.1] | 6.0 [3.5, 8.8] | +4.6 [1.6, 7.5] |
+| Blank gray | 29.0 [23.9, 34.1] | 35.7 [30.0, 41.1] | 14.6 [11.8, 17.5] | 8.3 [5.3, 11.7] | +6.2 [2.4, 10.1] |
+| Wrong scene | 29.7 [24.8, 34.5] | 32.7 [27.3, 37.9] | 12.1 [9.4, 14.9] | 11.0 [7.4, 14.9] | +1.1 [-2.9, 5.0] |
+
+Chance is 25%. Accuracy without the real scene falls by 27.0 [21.6, 32.6] (blank) and 26.3 [20.8, 31.8] (wrong) points, so the choice depends on the scene.
+With a blank image the appearance effect remains (flips 4.0 [0.3, 7.7] points higher than with the real scene, paired). With a wrong scene the effect is not distinguishable from its floor, and the floor itself is higher.
+Reading: the remark alone can move the answer, so the bias claim is about remarks, not about judging people's looks in the picture. The blank and wrong rows are descriptive train-split checks and enter no selection.
