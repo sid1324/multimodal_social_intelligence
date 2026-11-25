@@ -15,6 +15,18 @@ Qwen3-VL has no audio, so speech comes later from an omni model.
 
 Because nothing is tuned for images, the image result is a clean test of transfer.
 
+## Models, in order (Yash, Nov 25: several small models before telling teammates)
+| Order | Model | Why | Speech |
+|---|---|---|---|
+| 1 | Qwen3-VL 8B | midterm result exists; frozen settings, nothing to tune | no |
+| 2 | Gemma 4 12B (`google/gemma-4-12B-it`) | different family, newer, takes text, image and audio | yes |
+| 3 | Qwen3.5 9B (`Qwen/Qwen3.5-9B`) | newer; run only if Colab units remain | no |
+
+- Budget: 100 Colab units, A100 40 GB at about 5.5 to 7 units per hour. Estimates: 3 to 4 hours for model 1, 4 to 5 for models 2 and 3. Run one at a time; stop a model that goes over its estimate.
+- Report every model run, including failures. Positive means at least 2 of 3 models pass the success rule (2 of 2 if units run out).
+- Model 1 uses the frozen midterm direction. Models 2 and 3 build their own direction on training scenes and choose settings on validation with the midterm rule.
+- Hand over to Atharv and Shiv only after model 2. After model 1 alone, say "promising, confirming in a second model".
+
 ## Success rule, written before any steered image run
 Count it as **success** only if ALL hold on the scenes used:
 1. **Bias exists:** unsteered image flips minus the image noise floor is above zero (95% range excludes 0).
@@ -26,7 +38,7 @@ Count it as **success** only if ALL hold on the scenes used:
 
 ## Checklist
 
-### Phase 1. Set up (Claude, 1 to 2 hours)
+### Phase 1. Set up model 1 (Claude, 1 to 2 hours; models 2 and 3 after model 1 passes its checks)
 - [ ] 1.1 Copy the midterm Qwen code unchanged into a new folder; add only what is new
 - [ ] 1.2 Add the image version: scene with a white strip under it holding the same sentence, plus one line saying a remark is shown as a caption
 - [ ] 1.3 Add the random-direction control (3 fixed random directions, same layers and strength)
