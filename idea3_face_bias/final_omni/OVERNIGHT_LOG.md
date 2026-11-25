@@ -73,3 +73,4 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 19:59 CT | JOB 24498383 drv: batch wait est A100x4 213.3 h, H200 1331.0 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 18.6, reserved 6.2
 - 11-24 20:31 CT | JOB 24499849 drv: batch wait est A100x4 216.7 h, H200 1324.0 h -> gpuA100x8-interactive, 0.95 h at 6.0 SU/h (max 5.7); SU used 20.1, reserved 7.5
 - 11-24 22:36 CT | Yash to bed; asked me to keep checking and continuing. Limits unchanged (150 SU pause, no test runs, no pushes).
+- 11-24 23:40 CT | Correction: the 20:42 CT conclusion that starts were priority driven was wrong. Both jobs started while ranked about 26th and 28th of 38 to 43, so they backfilled, and the short limit likely helped. Cut the three pending 57-min jobs to 20 min in place (kept their age); new submissions are 20 min; the watchdog cuts to 18 min after 60 min pending.

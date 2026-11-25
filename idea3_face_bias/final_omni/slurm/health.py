@@ -53,9 +53,9 @@ def check(end):
     for jid, p, st, sub, lim, el, _ in mine:
         wait = (dt.datetime.now() - dt.datetime.fromisoformat(sub)).total_seconds() / 60
         if st == 'PENDING' and wait > 25:
-            if wait > 300 and secs(lim) > 1500:
-                run('scontrol', 'update', f'JobId={jid}', 'TimeLimit=00:25:00')
-                say(f'cut{jid}', f'{jid} {p} pending {wait:.0f} min: cut to 25 min')
+            if wait > 60 and secs(lim) > 1200:
+                run('scontrol', 'update', f'JobId={jid}', 'TimeLimit=00:18:00')
+                say(f'cut{jid}', f'{jid} {p} pending {wait:.0f} min: cut to 18 min')
             if not running:
                 say(f'wait{jid}', f'QUEUE: {jid} {p} pending {wait:.0f} min, nothing of ours running', 1800)
         if st == 'RUNNING':
