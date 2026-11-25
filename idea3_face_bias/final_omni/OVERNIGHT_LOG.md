@@ -91,3 +91,4 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-25 08:50 CT | JOB 24524131 drv: batch wait est A100x4 215.8 h, H200 1410.8 h -> gpuA100x8-interactive, 0.34 h at 6.0 SU/h (max 2.0); SU used 29.6, reserved 3.9
 - 11-25 08:52 CT | Yash approved removing the duplicate Nemotron and Qwen weight folders in hf_cache/hub and said it was done; my own delete command had been blocked by the permission system. Before that, all 73 model files on /work/nvme matched by checksum (only .gitattributes is absent there).
 - 11-25 08:54 CT | DPO check v3 PASSED: restore exact (parameters, optimizer, scheduler 0.0), resumed vs uninterrupted max 7.60e-5 vs repeat noise 7.51e-5 (limit 2x), mean 1.20e-6 vs 1.05e-6. Gradients: fast path ok (v1). 2.15 s/example fast, 3.79 original. DPO training unblocked, after the sweep in the queue order.
+- 11-25 08:55 CT | Yash: DPO-text first. Order now dpo_text, steering sweep, dpo_multi, exploratory L1.
