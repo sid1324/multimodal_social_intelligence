@@ -187,7 +187,7 @@ def tasks():
         out.append((f'g2_other_s{k}', gate, lambda k=k: t_g2('other', k), False))
     sweeps = [(f'sweep_{n}', is_done('directions'), lambda n=n: t_sweep(n), False) for n in SW]
     out += [(f'blind_{x}', gate, lambda x=x: t_blind(x), False) for x in ('blank', 'wrong')]
-    out += sweeps[:1] + [('dpo_rows', is_done('directions'), t_dpo_rows, False), ('dpo_check2', is_done('dpo_check'), lambda: sub('src/dpo_check2.py'), True)] + sweeps[1:]   # dpo_rows is base scoring only
+    out += sweeps[:1] + [('dpo_rows', is_done('directions'), t_dpo_rows, False), ('dpo_check2', is_done('dpo_check') and ('SLURM_JOB_END_TIME' not in os.environ or time.time() < DEADLINE - 480), lambda: sub('src/dpo_check2.py'), True)] + sweeps[1:]   # dpo_rows is base scoring only
     out += [(f'g2L1_s{k}', gate, lambda k=k: t_g2L1(k), False) for k in (0, 1)]
     out += [('dpo_text', is_done('pairs') and is_done('dpo_check2') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'text'), True),
             ('dpo_multi', is_done('pairs') and is_done('dpo_check2') and dpo_ok(), lambda: sub('src/dpo_train.py', '--model', 'nemotron', '--variant', 'multi'), True)]
