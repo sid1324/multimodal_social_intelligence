@@ -1,6 +1,6 @@
 """Watchdog (Nov 24, after jobs sat unnoticed for two hours). Prints one line per NEW problem or milestone; loops every 60 s.
 Checks: queue stuck, idle lanes, job failures, tracebacks, stalled logs, STOP.md, failed tasks, keepalive dead, SU level,
-finished tasks. Safe automatic fixes only: restart a dead keepalive; cut a job pending over 25 min to 18 min (keeps its place).
+finished tasks. Safe automatic fixes only: restart a dead keepalive; cut a job pending over 5 h to 25 min (keeps its place; Nov 24 20:00: starts looked priority driven, so short limits only wasted the wait).
 Usage: python3 slurm/health.py [END_EPOCH] [--once]"""
 import datetime as dt, glob, json, os, re, subprocess, sys, time
 from pathlib import Path
@@ -53,9 +53,9 @@ def check(end):
     for jid, p, st, sub, lim, el, _ in mine:
         wait = (dt.datetime.now() - dt.datetime.fromisoformat(sub)).total_seconds() / 60
         if st == 'PENDING' and wait > 25:
-            if secs(lim) > 1080:
-                run('scontrol', 'update', f'JobId={jid}', 'TimeLimit=00:18:00')
-                say(f'cut{jid}', f'{jid} {p} pending {wait:.0f} min: cut to 18 min')
+            if wait > 300 and secs(lim) > 1500:
+                run('scontrol', 'update', f'JobId={jid}', 'TimeLimit=00:25:00')
+                say(f'cut{jid}', f'{jid} {p} pending {wait:.0f} min: cut to 25 min')
             if not running:
                 say(f'wait{jid}', f'QUEUE: {jid} {p} pending {wait:.0f} min, nothing of ours running', 1800)
         if st == 'RUNNING':
