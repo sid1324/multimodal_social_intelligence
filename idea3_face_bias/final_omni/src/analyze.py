@@ -152,7 +152,44 @@ def blind(a):
     (HERE / f'results/gate/blind_{a.model}_summary.json').write_text(json.dumps(S, indent=1))
 
 
+def dpoval(a):
+    """DPO on validation, against base: L2 text (pre-registered measure), L1 text and L2 image (descriptive), paired by item."""
+    D = HERE / 'results/dpo'
+    rows = [dict(r, method='base') for r in read_rows(HERE / 'results/sweep/nemotron_base.jsonl')]
+    for p in sorted(D.glob('nemotron_val_*.jsonl')):
+        rows += read_rows(p)
+    ix = index(rows); S = {}
+    for st, lv, ch in (('L2 text', 'L2', 'text'), ('L1 text', 'L1', 'text'), ('L2 image', 'L2', 'image')):
+        for m in sorted(ix):
+            st_m = {c: item_stats(d, lv, ch) for c, d in ix[m].items()}
+            have = {c for c, s in st_m.items() if s['s_app'] is not None and s['s0'] is not None and s['r_beh'] is not None}
+            if not have:
+                continue
+            base = {c: item_stats(d, lv, ch) for c, d in ix['base'].items() if c in have}
+            base = {c: s for c, s in base.items() if s['s_app'] is not None}
+            common = have & set(base)
+            if len(common) < 20:
+                continue
+            summ = summarize({c: st_m[c] for c in common})
+            out = {'n': len(common), **{k: summ[k] for k in ('s_app', 's0', 'r_beh', 'app_minus_floor')}}
+            if m != 'base':
+                for k in ('s_app', 's0', 'r_beh', 'app_minus_floor'):
+                    byv = defaultdict(list)
+                    for c in common:
+                        byv[c.split('_')[0]].append(st_m[c][k] - base[c][k])
+                    out['d_' + k] = boot(byv)
+            S[f'{st} {m}'] = out
+            print(f"{st:9s} {m:14s} n={out['n']:3d} S_app {pct(out['s_app'])} floor {pct(out['s0'])} app-floor {pct(out['app_minus_floor'])} R_beh {pct(out['r_beh'])}"
+                  + (f" | change vs base: S_app {pct(out['d_s_app'])} R_beh {pct(out['d_r_beh'])}" if m != 'base' else ''))
+        # accuracy on clean items (no remark) for L2 text files
+    acc = {m: summarize({c: {'acc': float(d[('none', 'text')]['correct'])} for c, d in it.items() if ('none', 'text') in d}) for m, it in ix.items()}
+    for m, s in acc.items():
+        if 'acc' in s and s['acc']:
+            print(f"accuracy (no remark) {m:14s} {pct(s['acc'])} n={s['n_acc']}")
+    (HERE / 'results/dpo/nemotron_val_prelim.json').write_text(json.dumps(S, indent=1))
+
+
 if __name__ == '__main__':
-    ap = argparse.ArgumentParser(); ap.add_argument('phase', choices=['g2', 'sweep', 'dpo', 'blind']); ap.add_argument('--model', default='nemotron')
+    ap = argparse.ArgumentParser(); ap.add_argument('phase', choices=['g2', 'sweep', 'dpo', 'blind', 'dpoval']); ap.add_argument('--model', default='nemotron')
     ap.add_argument('--level', default='L2'); ap.add_argument('--n_layers', type=int, default=52)
-    a = ap.parse_args(); {'g2': g2, 'sweep': sweep, 'dpo': dpo, 'blind': blind}[a.phase](a)
+    a = ap.parse_args(); {'g2': g2, 'sweep': sweep, 'dpo': dpo, 'blind': blind, 'dpoval': dpoval}[a.phase](a)
