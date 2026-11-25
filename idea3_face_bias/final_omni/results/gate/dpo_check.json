@@ -11,8 +11,8 @@
   "max_abs": 0.00016528135165572166,
   "ref_max_abs": 0.021602444350719452
  },
- "sec_per_example_fast": 2.1702670753002167,
- "sec_per_example_orig": 3.7862475514411926,
+ "sec_per_example_fast": 2.151268422603607,
+ "sec_per_example_orig": 3.7605549693107605,
  "fast_enabled_at_load": true,
  "gpu": "NVIDIA A100-SXM4-40GB",
  "peak_mem_GB": [
@@ -20,14 +20,14 @@
   34.9
  ],
  "grad_ok": true,
- "resume_max_abs_diff": 7.307715713977814e-05,
+ "resume_max_abs_diff": 7.600162643939257e-05,
  "resume_param_scale": 0.023031873628497124,
- "resume_ok": false,
- "version": 2,
+ "resume_ok": true,
+ "version": 3,
  "restore_param_diff": 0.0,
- "restore_opt_diff": 2.0,
+ "restore_opt_diff": 0.0,
  "restore_sched_mismatch": 0,
- "noise_max_abs": 7.113348692655563e-05,
- "noise_mean_abs": 1.1814598792625475e-06,
- "resume_mean_abs_diff": 1.1268796242802637e-06
+ "noise_max_abs": 7.507763803005219e-05,
+ "noise_mean_abs": 1.0477167506905971e-06,
+ "resume_mean_abs_diff": 1.2047377140333992e-06
 }

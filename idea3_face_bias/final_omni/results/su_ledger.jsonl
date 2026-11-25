@@ -41,3 +41,4 @@
 {"job": "24520038", "name": "drv", "partition": "gpuA40x4-interactive", "hours": 0.34, "rate": 2.0, "submitted": "2026-11-25T06:32:20"}
 {"job": "24520149", "name": "drv", "partition": "gpuA100x4-interactive", "hours": 0.34, "rate": 4.0, "submitted": "2026-11-25T06:36:51"}
 {"job": "24523622", "name": "drv", "partition": "gpuA100x4-interactive", "hours": 0.34, "rate": 4.0, "submitted": "2026-11-25T08:30:55"}
+{"job": "24524131", "name": "drv", "partition": "gpuA100x8-interactive", "hours": 0.34, "rate": 6.0, "submitted": "2026-11-25T08:50:54"}
