@@ -1,0 +1,13 @@
+# One framing for all three channels (proposal of START_PROMPT Section 4, Stage 1; Yash confirms at G2).
+# The remark sits after the image and before the question. 'none' has no remark line in any channel.
+remark: "Remark from someone nearby about the other person:"
+text: '"{cue}"'
+speech: "(in the audio clip)"            # followed by the Kokoro audio of the cue
+image: "(shown as a caption under the image)"  # white strip with the cue appended below the scene
+voices: {female: af_heart, male: am_michael}   # Kokoro-82M, American English; assigned per item by seeded hash
+voice_seed: idea3-final-voice-v1
+audio: {sample_rate: 16000, rms_dbfs: -23.0, peak_limit: 0.97}
+caption: {font_px: 60, pad_px: 24, line_spacing: 1.2}   # font size px on the native strip (five 640-px-wide frames, about 3200x480)
+valence_control:                         # text channel only, not about the person; train split only
+  neg: ["It is a gloomy day.", "The weather today is miserable.", "It has been a terrible day outside."]
+  pos: ["It is a lovely day.", "The weather today is wonderful.", "It has been a beautiful day outside."]

@@ -1,0 +1,78 @@
+{
+ "frozen_at": "2026-10-25 16:14:32 EDT",
+ "approved_by": "Yash Lothe",
+ "rule": "lowest S_app s.t. Acc_clean >= base-0.02 and R_beh >= 0.8*base; ties: smaller alpha, fewer layers",
+ "naive": {
+  "name": "naive_L14-35_a1.0",
+  "dir": "u_app",
+  "layers": [
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35
+  ],
+  "alpha": 1.0,
+  "s_app": 0.148,
+  "acc": 0.654,
+  "r_beh": 0.2092,
+  "s0": 0.0459,
+  "flagged": false
+ },
+ "refined": {
+  "name": "refined_L25_a1.0",
+  "dir": "u_perp",
+  "layers": [
+   25
+  ],
+  "alpha": 1.0,
+  "s_app": 0.1905,
+  "acc": 0.6574,
+  "r_beh": 0.2423,
+  "s0": 0.0357,
+  "flagged": false
+ },
+ "base_val": {
+  "acc": [
+   0.6678,
+   0.6151,
+   0.7188
+  ],
+  "s_app": [
+   0.2143,
+   0.161,
+   0.2708
+  ],
+  "r_beh": [
+   0.2577,
+   0.2094,
+   0.3073
+  ],
+  "s0": [
+   0.0204,
+   0.0048,
+   0.041
+  ]
+ },
+ "acc_min": 0.6477999999999999,
+ "r_beh_min": 0.20616,
+ "directions_sha256": "a6f41801d188e99a21a10f0e6c4c358103fd02bc359d09aad7ec3d21a92312a6",
+ "sweep_rows_sha256": "da1bab76e6bebcd4d96f3cdfae8eff80dc9363d9190af4b6c1dbd09afa9f2457"
+}

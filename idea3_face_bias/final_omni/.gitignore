@@ -1,1 +1,4 @@
 colab/*.tar*
+qwen_transfer/colab/*.tar*
+qwen_transfer/results/directions.npz
+qwen_transfer/results/midterm_val_rows.jsonl.gz

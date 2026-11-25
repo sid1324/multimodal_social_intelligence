@@ -108,3 +108,4 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-25 10:10 CT | JOB 24526799 drv: batch wait est A100x4 299.1 h, H200 1410.8 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 37.6, reserved 14.4
 - 11-25 15:15 CT | Yash: go 7B on Colab (Qwen2.5-Omni-7B), overriding D2b. Delta jobs stay in line.
 - 11-25 16:52 CT | Yash approved the Qwen3-VL transfer plan (QWEN_TRANSFER_PLAN.md). Delta jobs keep running.
+- 11-25 17:01 CT | Qwen3-VL transfer code, notebook and bundle built (qwen_transfer/). Analysis self-test reproduces midterm validation numbers exactly (base 21.4, naive 14.8, constitution 16.3; accuracy 66.8, 65.4, 67.5). Real-model CPU smoke test running. Unused Qwen2.5 backend edits reverted.
