@@ -24,7 +24,7 @@ def env(end=None):
     e.update(P777=str(P777), DATA_DIR=str(P777 / 'data/egonormia'), REF_DIR=str(P777 / 'data/ref'), CACHE_DIR=str(P777 / 'cache'),
              HF_HOME=str(HF), HF_HUB_OFFLINE='1', TRANSFORMERS_OFFLINE='1', HF_MODULES_CACHE='/content/hf_modules',
              TRITON_CACHE_DIR='/content/triton', TOKENIZERS_PARALLELISM='false', PYTHONUNBUFFERED='1', MPLBACKEND='Agg',
-             I3_PREFLIGHT='1', I3_SKIP='^g2L1', PATH=f'{VENV}/bin:' + os.environ['PATH'])
+             I3_PREFLIGHT='1', I3_SKIP='^(g2L1|blind)', PATH=f'{VENV}/bin:' + os.environ['PATH'])
     if end:
         e['SLURM_JOB_END_TIME'] = str(int(end))       # the runners stop cleanly 3 minutes before this
         e['SLURM_JOB_ID'] = 'colab'

@@ -14,7 +14,7 @@ md("""# Idea 3 final on Colab (VS Code extension)
 5. Keep this VS Code window open and **save the notebook now and then** (File > Auto Save is better): Claude reads the saved output.
 6. **When finished, Command Palette > Colab: Remove Server.** It costs units until you do.
 
-Order: match check against Delta, blank/wrong image check, steering sweep (validation), DPO rows, DPO safety check, pairs, DPO-text, DPO-multi, DPO validation. Stops after `MAX_HOURS`. **The test split stays locked.**
+Order: match check against Delta, steering sweep (validation), DPO rows, DPO safety check, pairs, DPO-text, DPO-multi, DPO validation. Stops after `MAX_HOURS`. **The test split stays locked.**
 """),
 code("""import os, subprocess, sys, shutil
 print(subprocess.run('nvidia-smi --query-gpu=name,memory.total --format=csv,noheader; df -h /content | tail -1; python3 --version; ls /content', shell=True, capture_output=True, text=True).stdout)
