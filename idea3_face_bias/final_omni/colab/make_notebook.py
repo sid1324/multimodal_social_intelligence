@@ -5,23 +5,20 @@ H = Path(__file__).resolve().parent
 md = lambda s: {'cell_type': 'markdown', 'metadata': {}, 'source': s.splitlines(True)}
 code = lambda s: {'cell_type': 'code', 'metadata': {}, 'execution_count': None, 'outputs': [], 'source': s.splitlines(True)}
 cells = [
-md("""# Idea 3 final: run on Colab
+md("""# Idea 3 final on Colab (VS Code extension)
 
-**Before you start**
-1. Runtime > Change runtime type > **A100 GPU**, with **High RAM** on (this gives the 80 GB card). Save.
-2. Put `idea3_bundle.tar.gz` in **My Drive/idea3_final/**.
-3. Run the cells from top to bottom. If Colab disconnects, run them all again: it continues where it stopped.
+1. Select Kernel > Colab > New Colab Server > GPU > **A100**, shape **High RAM** (80 GB card).
+2. In the explorer, right-click `idea3_bundle.tar.gz` > **Upload to Colab**.
+3. Command Palette > **Colab: Mount Google Drive to Server** (so progress survives a disconnect).
+4. Run the cells top to bottom. If it disconnects, run them again: it continues where it stopped.
+5. Keep this VS Code window open and **save the notebook now and then** (File > Auto Save is better): Claude reads the saved output.
+6. **When finished, Command Palette > Colab: Remove Server.** It costs units until you do.
 
-**Cost:** roughly 7 to 9 compute units per hour on A100 80 GB (measured by users, not published by Google). The run stops by itself after `MAX_HOURS` (default 11, about 75 to 100 units) and releases the GPU.
-
-**What it does, in order:** machine check against our Delta results, blank-image and wrong-image check, steering sweep (validation), DPO training rows, DPO safety check, DPO pairs, DPO-text, DPO-multi, DPO validation. It writes a *proposed* steering freeze for review.
-
-**The test split stays locked.** Nothing here can run it.
+Order: match check against Delta, blank/wrong image check, steering sweep (validation), DPO rows, DPO safety check, pairs, DPO-text, DPO-multi, DPO validation. Stops after `MAX_HOURS`. **The test split stays locked.**
 """),
-code("""from google.colab import drive
-drive.mount('/content/drive')
-import os, sys
-assert os.path.exists('/content/drive/MyDrive/idea3_final/idea3_bundle.tar.gz'), 'Put idea3_bundle.tar.gz in My Drive/idea3_final'
+code("""import os, subprocess, sys, shutil
+print(subprocess.run('nvidia-smi --query-gpu=name,memory.total --format=csv,noheader; df -h /content | tail -1; python3 --version; ls /content', shell=True, capture_output=True, text=True).stdout)
+print('Drive mounted:', os.path.exists('/content/drive/MyDrive'))
 """),
 code('%%writefile /content/i3_colab.py\n' + (H / 'i3_colab.py').read_text()),
 code("""# 1. Spending limit and behaviour

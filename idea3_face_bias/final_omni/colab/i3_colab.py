@@ -3,7 +3,8 @@ separate uv environment with the exact package versions used on Delta. Everythin
 adapters are copied to Drive every 2 minutes and restored on start. Test-split tasks stay locked (no approval marker)."""
 import json, os, re, shutil, subprocess, sys, tarfile, threading, time
 from pathlib import Path
-DRIVE = Path('/content/drive/MyDrive/idea3_final')
+BUNDLE = 'idea3_bundle.tar.gz'
+DRIVE = Path('/content/drive/MyDrive/idea3_final') if Path('/content/drive/MyDrive').exists() else Path('/content/idea3_state')
 STATE = DRIVE / 'state'
 ROOT = Path('/content/i3')
 CODE, P777, HF = ROOT / 'final_omni', ROOT / 'p777', ROOT / 'hf'
@@ -58,12 +59,17 @@ def sync():
 
 
 def setup():
-    b = DRIVE / 'idea3_bundle.tar.gz'
-    assert b.exists(), f'Put idea3_bundle.tar.gz in My Drive/idea3_final (looked for {b})'
+    if not str(DRIVE).startswith('/content/drive'):
+        print('WARNING: Google Drive is not mounted, so progress is LOST if this machine disconnects. Mount it first: Command Palette > "Colab: Mount Google Drive to Server", then restart from the top.')
+    DRIVE.mkdir(parents=True, exist_ok=True)
     if not (ROOT / '.unpacked').exists():
+        found = [c for c in (Path('/content') / BUNDLE, DRIVE / BUNDLE) if c.exists()]
+        assert found, f'Upload {BUNDLE} first: right-click it in the VS Code explorer > "Upload to Colab" (goes to /content).'
         ROOT.mkdir(parents=True, exist_ok=True)
-        sh(['cp', str(b), '/content/bundle.tar.gz'])          # local copy: reading the archive from Drive is slow
-        sh(['tar', 'xzf', '/content/bundle.tar.gz', '-C', str(ROOT)]); (ROOT / '.unpacked').touch()
+        sh(['tar', 'xzf', str(found[0]), '-C', str(ROOT)])
+        if not (DRIVE / BUNDLE).exists():
+            shutil.copy(found[0], DRIVE / BUNDLE)             # so a later machine can start without another upload
+        (ROOT / '.unpacked').touch()
         for name, local in SYNC:                               # restore earlier progress from Drive
             if (STATE / name).exists():
                 print('restored', name, copy_new(STATE / name, local), 'files')
@@ -74,7 +80,17 @@ def setup():
         sh(f'uv venv -q --clear --python 3.12.16 {VENV} || uv venv -q --clear --python 3.12 {VENV}')
         sh(f'uv pip install -q --python {PY} -r {CODE}/colab/requirements.lock --index-strategy unsafe-best-match --extra-index-url https://download.pytorch.org/whl/cu128')
         (VENV / '.ok').touch()
+    if not (P777 / 'data/.images_ok').exists():
+        # public EgoNormia images, pinned revision, every file checked against its recorded SHA-256 (as at midterm)
+        sh([str(PY), '-I', 'src/download_data.py', '--workers', '32'], cwd=CODE, env=env())
+        rep = json.loads((P777 / 'data/egonormia/verify_report.json').read_text())
+        assert rep['raw_sha_ok'] == 1853 and rep['preview_sha_ok'] == 1853, {k: rep[k] for k in ('raw_sha_ok', 'preview_sha_ok')}
+        (P777 / 'data/.images_ok').touch()
     e = env(); e['HF_HUB_OFFLINE'] = '0'; e['TRANSFORMERS_OFFLINE'] = '0'
+    if not (HF / '.kernels_ok').exists():
+        # pinned prebuilt Mamba GPU kernels (public), the same revisions as on Delta
+        sh([str(PY), '-c', "from kernels.utils import install_kernel as f; [print(f(r, revision=v)) for r, v in (('kernels-community/mamba-ssm', '768416abf0ad7262a23d83c6efef10b9a4786489'), ('kernels-community/causal-conv1d', '6e9a58272220a363dc50e59cba737abcedd7b59f'))]"], env=e)
+        (HF / '.kernels_ok').touch()
     if not (HF / '.weights_ok').exists():
         print('Downloading the model (62 GB), about 5 to 15 minutes', flush=True)
         code = f"from huggingface_hub import snapshot_download; print(snapshot_download('{WEIGHTS[0]}', revision='{WEIGHTS[1]}', ignore_patterns=['media/*'], max_workers=16))"
@@ -168,10 +184,10 @@ def run(max_hours=11.0, auto_stop=True):
         print('Releasing the GPU so it stops using compute units. Re-run the notebook to continue.')
         time.sleep(45)                                    # let Drive finish uploading
         try:
-            from google.colab import drive, runtime
-            drive.flush_and_unmount(); runtime.unassign()
+            from google.colab import runtime
+            runtime.unassign()
         except Exception as ex:
-            print('Could not release the runtime automatically, do it by hand (Runtime > Disconnect and delete runtime):', ex)
+            print('Could not release the GPU automatically. Do it by hand NOW: Command Palette > "Colab: Remove Server".', ex)
 
 
 def status():
