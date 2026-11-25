@@ -1,4 +1,4 @@
-"""Resume check, version 2 (Nov 25). Version 1's limit of 1e-5 ignored that the same forward pass is not bit-repeatable on
+"""Resume check, version 3 (Nov 25; version 2 compared against a reference its own restore had modified through an aliased step counter, so it read 2.0; pass rule unchanged). Version 1's limit of 1e-5 ignored that the same forward pass is not bit-repeatable on
 this model. Pass rule fixed BEFORE running: (1) right after restoring from the saved FILE (same code path as dpo_train),
 every parameter and every optimizer and scheduler value equals the snapshot exactly; (2) the parameters after the next two
 steps differ from the uninterrupted run by at most 2x the difference between two uninterrupted repeats of those steps.
@@ -39,7 +39,7 @@ def main():
         for i, e in enumerate(ex):
             loss, _ = T.dpo_loss(T.logp_full(m, [e[0]]), ref[i:i + 1], yp[i:i + 1], ym[i:i + 1]); (loss.sum() / len(ex)).backward()
         torch.cuda.synchronize(); return (time.time() - t) / len(ex)
-    S = dict(v1, version=2, gpu=torch.cuda.get_device_name(0))
+    S = dict(v1, version=3, gpu=torch.cuda.get_device_name(0))
     grads(); S['sec_per_example_fast'] = sum(grads() for _ in range(2)) / 2
     m.disable_fast(); grads(); S['sec_per_example_orig'] = grads(); m.enable_fast()
     print('TIMING after warm-up', S['sec_per_example_fast'], S['sec_per_example_orig'], flush=True)
@@ -55,7 +55,7 @@ def main():
     def restore(st):
         for p, q in zip(ps, st['params']):
             p.data.copy_(q.to(p.device))
-        opt.load_state_dict(st['opt']); sched.load_state_dict(st['sched'])
+        opt.load_state_dict(copy.deepcopy(st['opt'])); sched.load_state_dict(copy.deepcopy(st['sched']))   # deep copies: v2 shared the step counter with its own reference
     one(0); one(1)
     mem = state()                                  # exact in-memory copy
     f = Path(P777) / 'adapters/_resume_check.pt'; f.parent.mkdir(parents=True, exist_ok=True)
@@ -76,7 +76,7 @@ def main():
              noise_mean_abs=float((A - A2).abs().mean()), resume_max_abs_diff=diff, resume_mean_abs_diff=float((A - B).abs().mean()))
     S['resume_ok'] = bool(exact_p == 0 and exact_o == 0 and exact_s == 0 and (diff <= 2 * noise or diff <= 1e-6))
     f.unlink()
-    (HERE / 'results/gate/dpo_check.json').write_text(json.dumps(S, indent=1)); print('DPO_CHECK2', json.dumps(S), flush=True)
+    (HERE / 'results/gate/dpo_check.json').write_text(json.dumps(S, indent=1)); print('DPO_CHECK3', json.dumps(S), flush=True)
 
 
 if __name__ == '__main__':
