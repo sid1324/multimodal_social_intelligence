@@ -71,3 +71,5 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-24 19:58 CT | JOB 24498339 drv: batch wait est A100x4 213.8 h, H200 1331.0 h -> gpuA40x4-interactive, 0.95 h at 2.0 SU/h (max 1.9); SU used 18.6, reserved 6.0
 - 11-24 19:59 CT | First Delta jobs ran (A40 + A100x4, 18 min, about 4 h 40 min wait). Blank/wrong image check partial (175 common items): accuracy 57.1 real, 27.4 blank, 29.1 wrong scene (chance 25); appearance flips minus floor +6.3 real, +8.4 blank, +3.6 wrong. New jobs rejoin at low priority, so limits raised to 57 min; auto-cut only after 5 h. The fresh A40 job 24498309 (26 min, just submitted) was cancelled and resubmitted at 57 min.
 - 11-24 19:59 CT | JOB 24498383 drv: batch wait est A100x4 213.3 h, H200 1331.0 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 18.6, reserved 6.2
+- 11-24 20:31 CT | JOB 24499849 drv: batch wait est A100x4 216.7 h, H200 1324.0 h -> gpuA100x8-interactive, 0.95 h at 6.0 SU/h (max 5.7); SU used 20.1, reserved 7.5
+- 11-24 22:36 CT | Yash to bed; asked me to keep checking and continuing. Limits unchanged (150 SU pause, no test runs, no pushes).
