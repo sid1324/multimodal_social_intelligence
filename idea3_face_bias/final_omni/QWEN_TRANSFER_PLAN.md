@@ -44,7 +44,7 @@ Count it as **success** only if ALL hold on the scenes used:
 - [ ] 1.3 Add the random-direction control (3 fixed random directions, same layers and strength)
 - [ ] 1.4 Make the Colab notebook: resumable, saves to Drive, stops itself, no test-split run possible without Yash's OK
 - [ ] 1.5 CPU checks: prompts, captions, splits, and that the new code gives the same text prompt as midterm
-- [ ] 1.6 Yash reviews the caption line and the success rule above
+- [x] 1.6 Yash reviews the caption line and the success rule above (approved Nov 25, 22:10 CT)
 
 ### Phase 2. Checks on Colab (A100 40 GB, about 30 minutes)
 - [ ] 2.1 The model loads and scores letters

@@ -191,6 +191,11 @@ def base():
 def exp():
     if not (R / 'PREREG_OK').exists():
         stop('steered runs are locked until Yash approves the success rule: create results/PREREG_OK in the notebook.')
+    if (R / 'STOP.md').exists():
+        print('STOP.md exists (a check or the gate failed); steered runs not started:', (R / 'STOP.md').read_text(), flush=True); sys.exit(3)
+    g = json.loads((R / 'gate.json').read_text()) if (R / 'gate.json').exists() else {}
+    if not g.get('gate_pass'):
+        print('steered runs need a passed bias gate (results/gate.json); run Part 1 first', flush=True); sys.exit(3)
     check_dir(); sp = splits(); pool = sp['pool']['val']; clean = [k for k in sp['clean']['val'] if k not in set(pool)]
     q = model()
     ms = ['constitution', 'naive'] + [f'rand{i}' for i in range(N_RAND)]

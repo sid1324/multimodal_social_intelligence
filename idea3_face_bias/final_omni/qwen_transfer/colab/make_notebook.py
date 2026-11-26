@@ -30,22 +30,22 @@ md("""## Part 1: checks and base bias (no steering). About 1 to 1.5 hours
 1. reproduce midterm text answers (must match 98%)  2. can it read the caption (90%)  3. base answers on image captions  4. bias gate"""),
 code("""q.run(['repro', 'perc', 'base', 'gate'], hours=4)"""),
 md("""## Part 2: the steered runs
-Read the success rule in `QWEN_TRANSFER_PLAN.md`. **Only if you agree, set the flag below to True.**"""),
-code("""RULE_APPROVED = False      # set to True only after Yash has read and approved the success rule
+Approved by Yash, Nov 25 22:10 CT: the success rule in `QWEN_TRANSFER_PLAN.md` and the caption line. Runs only if Part 1 passed every check and the bias gate. About 1 to 2 hours on an A100."""),
+code("""RULE_APPROVED = True       # Yash approved the success rule and caption line, Nov 25 22:10 CT
 if RULE_APPROVED:
     from pathlib import Path
-    Path('/content/qt/qwen_transfer/results/PREREG_OK').write_text('approved by Yash\\n')
+    Path('/content/qt/qwen_transfer/results/PREREG_OK').write_text('approved by Yash, Nov 25 22:10 CT\\n')
     q.run(['exp', 'report val:tr'], hours=6)
 else:
     print('Not started: set RULE_APPROVED = True after reading the rule.')"""),
 code("""# optional: see the tables any time
 q.stage('gate', None); q.stage('report val:tr', None)"""),
-code("""# when finished: release the GPU so it stops using units
-q.sync(); q.release()"""),
 code("""# send-back file: zips all results (no images, no model). Saved to Drive (My Drive/idea3_qwen_transfer/) and /content
 import shutil, time
 z = shutil.make_archive(f'/content/qt_results_{time.strftime("%m%d_%H%M")}', 'zip', '/content/qt/qwen_transfer/results')
 if os.path.exists('/content/drive/MyDrive'): shutil.copy(z, '/content/drive/MyDrive/idea3_qwen_transfer/')
 print('send this file:', z, round(os.path.getsize(z) / 1e6, 1), 'MB')"""),
+code("""# when finished: release the GPU so it stops using units
+q.sync(); q.release()"""),
 ]
 (H / 'qwen_transfer.ipynb').write_text(json.dumps({'cells': cells, 'metadata': {'accelerator': 'GPU', 'colab': {'gpuType': 'A100', 'provenance': []}, 'kernelspec': {'display_name': 'Python 3', 'name': 'python3'}, 'language_info': {'name': 'python'}}, 'nbformat': 4, 'nbformat_minor': 0}, indent=1))
