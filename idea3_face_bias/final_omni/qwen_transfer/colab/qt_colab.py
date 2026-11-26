@@ -22,10 +22,10 @@ def env(stop_at=None):
     return e
 
 
-def gpu_check(min_gb=38):
+def gpu_check(min_gb=22):
     out = subprocess.run('nvidia-smi --query-gpu=name,memory.total --format=csv,noheader,nounits', shell=True, capture_output=True, text=True).stdout.strip()
-    print('GPU:', out or 'NONE'); assert out, 'No GPU. Choose A100 and connect again.'
-    assert int(out.splitlines()[0].split(',')[1]) > min_gb * 1000, 'GPU is smaller than expected (need about 40 GB); disconnect so it does not use units.'
+    print('GPU:', out or 'NONE'); assert out, 'No GPU. Choose L4 or A100 and connect again.'
+    assert int(out.splitlines()[0].split(',')[1]) > min_gb * 1000, 'GPU is smaller than expected (need at least 24 GB: L4 or A100); disconnect so it does not use units.'
 
 
 def copy_new(src, dst):

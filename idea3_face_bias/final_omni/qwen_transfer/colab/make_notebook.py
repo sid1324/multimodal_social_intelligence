@@ -6,7 +6,7 @@ code = lambda s: {'cell_type': 'code', 'metadata': {}, 'execution_count': None, 
 cells = [
 md("""# Qwen3-VL 8B: does text steering transfer to captions in the image?
 
-**Start:** Select Kernel > Colab > New Colab Server > GPU > **A100** (40 GB is enough). Right-click `qwen_transfer_bundle.tar.gz` in the explorer > **Upload to Colab**. Command Palette > **Colab: Mount Google Drive to Server**. Then run the cells top to bottom. File > Auto Save on, so Claude can read the output.
+**Start:** Select Kernel > Colab > New Colab Server > GPU > **A100**, or **L4** if no A100 (24 GB fits; slower, cheaper per hour). Right-click `qwen_transfer_bundle.tar.gz` in the explorer > **Upload to Colab**. Command Palette > **Colab: Mount Google Drive to Server**. Then run the cells top to bottom. File > Auto Save on, so Claude can read the output.
 
 **Cost:** about 5.5 to 7 units per hour. Estimated 2 to 4 hours in total. If Colab disconnects, run the cells again; it continues. **When done: Colab: Remove Server.**
 
