@@ -1,0 +1,203 @@
+{
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "n_layers": 48,
+ "n_missing_keys": 0,
+ "n_unexpected_keys": 0,
+ "mean_letter_mass": 0.9999879747629166,
+ "greedy_agree": 1.0,
+ "acc_no_remark_20": 0.6,
+ "finite": true,
+ "mean_tokens": 377.8,
+ "hook_proj_before": 213.88136291503906,
+ "hook_proj_after": 0.02459430694580078,
+ "hook_layers": [
+  12,
+  24,
+  46
+ ],
+ "hook_max_after_over_before": 0.0001149904162316867,
+ "hook_restored_dlp": 0.0,
+ "rows": [
+  {
+   "id": "3c5841d6-8d79-4aa7-b020-bbb6ef114b42_402-54",
+   "argmax": "C",
+   "gen": "C<turn|>",
+   "mass": 0.9999986290931702,
+   "finite": true,
+   "n_tokens": 366,
+   "correct": true
+  },
+  {
+   "id": "50c1df1c-e016-472a-b0ac-d297b0c82e87_3264-37",
+   "argmax": "B",
+   "gen": "B<turn|>",
+   "mass": 0.9999954700469971,
+   "finite": true,
+   "n_tokens": 386,
+   "correct": false
+  },
+  {
+   "id": "d64fb34a-08fd-416c-ac6f-86a0813869a8_494-32",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999813437461853,
+   "finite": true,
+   "n_tokens": 378,
+   "correct": false
+  },
+  {
+   "id": "c2d28dd4-4416-4300-bbbe-23911487776a_1418-50",
+   "argmax": "B",
+   "gen": "B<turn|>",
+   "mass": 0.9999973773956299,
+   "finite": true,
+   "n_tokens": 374,
+   "correct": true
+  },
+  {
+   "id": "23ad5ebf-6223-4938-8609-d5df7afcf599_267-76",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999874234199524,
+   "finite": true,
+   "n_tokens": 400,
+   "correct": true
+  },
+  {
+   "id": "74d38b4a-6f22-43b3-b631-9234c05f27ab_270-80",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999887347221375,
+   "finite": true,
+   "n_tokens": 396,
+   "correct": false
+  },
+  {
+   "id": "65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02",
+   "argmax": "A",
+   "gen": "A<turn|>",
+   "mass": 0.9999864101409912,
+   "finite": true,
+   "n_tokens": 351,
+   "correct": false
+  },
+  {
+   "id": "4651e5c2-4371-4af2-8f05-cb8b0b1ec7fd_233-33",
+   "argmax": "A",
+   "gen": "A<turn|>",
+   "mass": 0.9999982714653015,
+   "finite": true,
+   "n_tokens": 398,
+   "correct": false
+  },
+  {
+   "id": "3024e27a-237a-4b48-8ea9-b9b16181eaf1_49-89",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999920129776001,
+   "finite": true,
+   "n_tokens": 375,
+   "correct": false
+  },
+  {
+   "id": "c6b1f7dc-3301-46e6-867a-312a5f8e7a0f_13-11",
+   "argmax": "A",
+   "gen": "A<turn|>",
+   "mass": 0.999993085861206,
+   "finite": true,
+   "n_tokens": 362,
+   "correct": true
+  },
+  {
+   "id": "49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999646544456482,
+   "finite": true,
+   "n_tokens": 370,
+   "correct": true
+  },
+  {
+   "id": "85020424-0ed9-4dcd-9a39-e5ab84ec6b6d_896-84",
+   "argmax": "B",
+   "gen": "B<turn|>",
+   "mass": 0.999975860118866,
+   "finite": true,
+   "n_tokens": 382,
+   "correct": true
+  },
+  {
+   "id": "9fc3678b-86e2-44ab-adbc-9aeda78ceb60_957-19",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999787211418152,
+   "finite": true,
+   "n_tokens": 389,
+   "correct": true
+  },
+  {
+   "id": "9d2ec4ad-945f-4614-b41f-24260de662f6_1664-30",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999993443489075,
+   "finite": true,
+   "n_tokens": 390,
+   "correct": true
+  },
+  {
+   "id": "5cf98bc1-012f-482d-86ee-9337d8747dce_2305-61",
+   "argmax": "B",
+   "gen": "B<turn|>",
+   "mass": 0.9999934434890747,
+   "finite": true,
+   "n_tokens": 377,
+   "correct": true
+  },
+  {
+   "id": "c615d305-14fe-41cd-9099-caf420beb604_955-84",
+   "argmax": "A",
+   "gen": "A<turn|>",
+   "mass": 0.9999953508377075,
+   "finite": true,
+   "n_tokens": 357,
+   "correct": true
+  },
+  {
+   "id": "dced4894-d13a-4222-941b-5e4ecf1e3299_629-13",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999943375587463,
+   "finite": true,
+   "n_tokens": 379,
+   "correct": true
+  },
+  {
+   "id": "e95dbd21-3017-48f5-8f36-46531f053ab1_424-29",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.999968409538269,
+   "finite": true,
+   "n_tokens": 369,
+   "correct": true
+  },
+  {
+   "id": "09fe2f2d-7d90-4d7d-9dcd-baec4704f4cc_4409-86",
+   "argmax": "D",
+   "gen": "D<turn|>",
+   "mass": 0.9999774694442749,
+   "finite": true,
+   "n_tokens": 377,
+   "correct": false
+  },
+  {
+   "id": "a49bdcc8-8f23-445d-bae0-8d9e5c4d9c63_1749-02",
+   "argmax": "C",
+   "gen": "C<turn|>",
+   "mass": 0.9999931454658508,
+   "finite": true,
+   "n_tokens": 380,
+   "correct": false
+  }
+ ],
+ "pass": true
+}

@@ -1,0 +1,8 @@
+{
+ "speech": 0.8,
+ "text": 1.0,
+ "speech female": 0.8421052631578947,
+ "speech male": 0.7272727272727273,
+ "below_0.90": true,
+ "policy": "Yash, Nov 26 01:05 CT (option B): below 0.90 is recorded and reported, not a stop; the bias gate guards the run, and the report adds a female-voice-only check"
+}

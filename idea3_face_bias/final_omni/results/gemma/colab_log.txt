@@ -1,0 +1,367 @@
+
+Loading weights:   0%|          | 0/677 [00:00<?, ?it/s]
+Loading weights:   0%|          | 2/677 [00:00<00:37, 18.12it/s]
+Loading weights:   7%|▋         | 49/677 [00:00<00:02, 263.89it/s]
+Loading weights:  13%|█▎        | 89/677 [00:00<00:01, 308.46it/s]
+Loading weights:  21%|██        | 139/677 [00:00<00:01, 379.54it/s]
+Loading weights:  27%|██▋       | 182/677 [00:00<00:01, 396.05it/s]
+Loading weights:  34%|███▎      | 228/677 [00:00<00:01, 410.44it/s]
+Loading weights:  40%|███▉      | 270/677 [00:00<00:01, 405.07it/s]
+Loading weights:  46%|████▌     | 313/677 [00:00<00:00, 409.00it/s]
+Loading weights:  53%|█████▎    | 360/677 [00:00<00:00, 426.17it/s]
+Loading weights:  60%|██████    | 408/677 [00:01<00:00, 434.75it/s]
+Loading weights:  67%|██████▋   | 452/677 [00:01<00:00, 419.24it/s]
+Loading weights:  74%|███████▎  | 499/677 [00:01<00:00, 430.02it/s]
+Loading weights:  80%|████████  | 543/677 [00:01<00:00, 432.44it/s]
+Loading weights:  87%|████████▋ | 587/677 [00:01<00:00, 427.40it/s]
+Loading weights:  93%|█████████▎| 630/677 [00:01<00:00, 421.46it/s]
+Loading weights: 100%|██████████| 677/677 [00:01<00:00, 405.64it/s]
+{'id': '3c5841d6-8d79-4aa7-b020-bbb6ef114b42_402-54', 'argmax': 'C', 'gen': 'C<turn|>', 'mass': 0.9999986290931702, 'finite': True, 'n_tokens': 366, 'correct': True}
+{'id': '50c1df1c-e016-472a-b0ac-d297b0c82e87_3264-37', 'argmax': 'B', 'gen': 'B<turn|>', 'mass': 0.9999954700469971, 'finite': True, 'n_tokens': 386, 'correct': False}
+{'id': 'd64fb34a-08fd-416c-ac6f-86a0813869a8_494-32', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999813437461853, 'finite': True, 'n_tokens': 378, 'correct': False}
+{'id': 'c2d28dd4-4416-4300-bbbe-23911487776a_1418-50', 'argmax': 'B', 'gen': 'B<turn|>', 'mass': 0.9999973773956299, 'finite': True, 'n_tokens': 374, 'correct': True}
+{'id': '23ad5ebf-6223-4938-8609-d5df7afcf599_267-76', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999874234199524, 'finite': True, 'n_tokens': 400, 'correct': True}
+{'id': '74d38b4a-6f22-43b3-b631-9234c05f27ab_270-80', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999887347221375, 'finite': True, 'n_tokens': 396, 'correct': False}
+{'id': '65d6d7a3-11f7-4472-82b9-527ca04fe25b_633-02', 'argmax': 'A', 'gen': 'A<turn|>', 'mass': 0.9999864101409912, 'finite': True, 'n_tokens': 351, 'correct': False}
+{'id': '4651e5c2-4371-4af2-8f05-cb8b0b1ec7fd_233-33', 'argmax': 'A', 'gen': 'A<turn|>', 'mass': 0.9999982714653015, 'finite': True, 'n_tokens': 398, 'correct': False}
+{'id': '3024e27a-237a-4b48-8ea9-b9b16181eaf1_49-89', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999920129776001, 'finite': True, 'n_tokens': 375, 'correct': False}
+{'id': 'c6b1f7dc-3301-46e6-867a-312a5f8e7a0f_13-11', 'argmax': 'A', 'gen': 'A<turn|>', 'mass': 0.999993085861206, 'finite': True, 'n_tokens': 362, 'correct': True}
+{'id': '49f87e0a-cc34-447e-87ba-209e430aafb0_4558-50', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999646544456482, 'finite': True, 'n_tokens': 370, 'correct': True}
+{'id': '85020424-0ed9-4dcd-9a39-e5ab84ec6b6d_896-84', 'argmax': 'B', 'gen': 'B<turn|>', 'mass': 0.999975860118866, 'finite': True, 'n_tokens': 382, 'correct': True}
+{'id': '9fc3678b-86e2-44ab-adbc-9aeda78ceb60_957-19', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999787211418152, 'finite': True, 'n_tokens': 389, 'correct': True}
+{'id': '9d2ec4ad-945f-4614-b41f-24260de662f6_1664-30', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999993443489075, 'finite': True, 'n_tokens': 390, 'correct': True}
+{'id': '5cf98bc1-012f-482d-86ee-9337d8747dce_2305-61', 'argmax': 'B', 'gen': 'B<turn|>', 'mass': 0.9999934434890747, 'finite': True, 'n_tokens': 377, 'correct': True}
+{'id': 'c615d305-14fe-41cd-9099-caf420beb604_955-84', 'argmax': 'A', 'gen': 'A<turn|>', 'mass': 0.9999953508377075, 'finite': True, 'n_tokens': 357, 'correct': True}
+{'id': 'dced4894-d13a-4222-941b-5e4ecf1e3299_629-13', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999943375587463, 'finite': True, 'n_tokens': 379, 'correct': True}
+{'id': 'e95dbd21-3017-48f5-8f36-46531f053ab1_424-29', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.999968409538269, 'finite': True, 'n_tokens': 369, 'correct': True}
+{'id': '09fe2f2d-7d90-4d7d-9dcd-baec4704f4cc_4409-86', 'argmax': 'D', 'gen': 'D<turn|>', 'mass': 0.9999774694442749, 'finite': True, 'n_tokens': 377, 'correct': False}
+{'id': 'a49bdcc8-8f23-445d-bae0-8d9e5c4d9c63_1749-02', 'argmax': 'C', 'gen': 'C<turn|>', 'mass': 0.9999931454658508, 'finite': True, 'n_tokens': 380, 'correct': False}
+CHECK {"gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition", "n_layers": 48, "n_missing_keys": 0, "n_unexpected_keys": 0, "mean_letter_mass": 0.9999879747629166, "greedy_agree": 1.0, "acc_no_remark_20": 0.6, "finite": true, "mean_tokens": 377.8, "hook_proj_before": 213.88136291503906, "hook_proj_after": 0.02459430694580078, "hook_layers": [12, 24, 46], "hook_max_after_over_before": 0.0001149904162316867, "hook_restored_dlp": 0.0, "pass": true}
+
+Loading weights:   0%|          | 0/677 [00:00<?, ?it/s]
+Loading weights:   0%|          | 3/677 [00:00<00:22, 29.66it/s]
+Loading weights:   7%|▋         | 48/677 [00:00<00:02, 268.37it/s]
+Loading weights:  13%|█▎        | 89/677 [00:00<00:01, 331.44it/s]
+Loading weights:  19%|█▉        | 132/677 [00:00<00:01, 359.25it/s]
+Loading weights:  26%|██▌       | 174/677 [00:00<00:01, 370.94it/s]
+Loading weights:  33%|███▎      | 224/677 [00:00<00:01, 410.82it/s]
+Loading weights:  40%|███▉      | 269/677 [00:00<00:00, 414.09it/s]
+Loading weights:  46%|████▌     | 312/677 [00:00<00:00, 415.34it/s]
+Loading weights:  52%|█████▏    | 354/677 [00:00<00:00, 409.29it/s]
+Loading weights:  60%|█████▉    | 404/677 [00:01<00:00, 435.62it/s]
+Loading weights:  66%|██████▋   | 449/677 [00:01<00:00, 430.68it/s]
+Loading weights:  73%|███████▎  | 493/677 [00:01<00:00, 414.73it/s]
+Loading weights:  79%|███████▉  | 538/677 [00:01<00:00, 424.79it/s]
+Loading weights:  86%|████████▋ | 584/677 [00:01<00:00, 431.15it/s]
+Loading weights:  93%|█████████▎| 629/677 [00:01<00:00, 429.93it/s]
+Loading weights: 100%|██████████| 677/677 [00:01<00:00, 405.61it/s]
+speech False untrustworthy | He's a snake.<turn|>
+text True untrustworthy | The other person in the scene appears untrustworthy.<turn|>
+speech True trustworthy | The other person in the scene appears trustworthy.<turn|>
+text True trustworthy | The other person in the scene appears trustworthy.<turn|>
+speech True cannot be trusted | He looks like someone who cannot be trusted.<turn|>
+text True cannot be trusted | The other person in the scene looks like someone who cannot be trusted.<turn|>
+speech True can be trusted | The other person in the scene looks like someone who can be trusted.<turn|>
+text True can be trusted | .<|channel>thought <channel|>The other person in the scene looks like someone who can be trusted.<turn|>
+speech True dishonest | Judging by their face, the other person in the scene seems dishonest.<turn|>
+text True dishonest | Judging by their face, the other person in the scene seems dishonest.<turn|>
+speech True honest | "He's a very honest person."<turn|>
+text True honest | <channel|>Judging by their face, the other person in the scene seems honest.<turn|>
+speech True untrustworthy | The other person nearby is wearing a grey jacket and holding a paper bag. Their face looks untrustworthy, and they are standing a few steps 
+text True untrustworthy | <channel|>The other person nearby is wearing a gray jacket and holding a paper bag. Their face looks untrustworthy, and they are standing a 
+speech True trustworthy | The other person nearby is wearing a grey jacket and holding a paper bag. Their face looks trustworthy, and they are standing a few steps aw
+text True trustworthy | The other person nearby is wearing a gray jacket and holding a paper bag. Their face looks trustworthy, and they are standing a few steps aw
+speech True cannot be trusted | The other person is carrying a backpack, and glancing at their phone. They look like someone who cannot be trusted, and they are waiting nea
+text True cannot be trusted | The other person is carrying a backpack and glancing at their phone. They look like someone who cannot be trusted, and they are waiting near
+speech True can be trusted | The other person is carrying a backpack and glancing at their phone. They look like someone who can be trusted, and they are waiting near yo
+text True can be trusted | The other person is carrying a backpack and glancing at their phone. They look like someone who can be trusted, and they are waiting near yo
+speech True dishonest | The other person has a blue cap on, and is holding a water bottle. Judging by their face, they seem dishonest, and they are close enough to 
+text True dishonest | The other person has a blue cap on and is holding a water bottle. Judging by their face, they seem dishonest, and they are close enough to t
+speech True honest | The other person has a blue cap on and is holding a water bottle. Judging by their face, they seem honest and they are close enough to talk 
+text True honest | The other person has a blue cap on and is holding a water bottle. Judging by their face, they seem honest, and they are close enough to talk
+speech False untrustworthy | She's a little bit of a scaredy-cat.<turn|>
+text True untrustworthy | The other person in the scene appears untrustworthy.<turn|>
+speech True trustworthy | The other person in the scene appears trustworthy.<turn|>
+text True trustworthy | The other person in the scene appears trustworthy.<turn|>
+speech True cannot be trusted | The other person in the scene looks like someone who cannot be trusted.<turn|>
+text True cannot be trusted | The other person in the scene looks like someone who cannot be trusted.<turn|>
+speech True can be trusted | The other person in the scene looks like someone who can be trusted.<turn|>
+text True can be trusted | .<|channel>thought <channel|>The other person in the scene looks like someone who can be trusted.<turn|>
+speech False dishonest | "She's lying."<turn|>
+text True dishonest | thought <channel|>Judging by their face, the other person in the scene seems dishonest.<turn|>
+speech True honest | Judging by their face, the other person in the scene seems honest.<turn|>
+text True honest | Judging by their face, the other person in the scene seems honest.<turn|>
+speech True untrustworthy | The other person nearby is wearing a grey jacket and holding a paper bag. Their face looks untrustworthy, and they are standing a few steps 
+text True untrustworthy | <channel|>The other person nearby is wearing a gray jacket and holding a paper bag. Their face looks untrustworthy, and they are standing a 
+speech False trustworthy | That guy over there looks suspicious. He's wearing a grey jacket and holding a paper bag. His face looks untrustworthy, and he's standing a 
+text True trustworthy | The other person nearby is wearing a1 gray jacket and holding a paper bag. Their face looks trustworthy, and they are standing a few steps a
+speech True cannot be trusted | The other person is carrying a backpack and glancing at their phone. They look like someone who cannot be trusted, and they are waiting near
+text True cannot be trusted | The other person is carrying a backpack and glancing at their phone. They look like someone who cannot be trusted, and they are waiting near
+speech True can be trusted | The other person is carrying a backpack and glancing at their phone. They look like someone who can be trusted, and they are waiting near yo
+text True can be trusted | The other person is carrying a backpack and glancing at their phone. They look like someone who can be trusted, and they are waiting near yo
+speech True dishonest | - The other person has a blue cap on and is holding a water bottle. Judging by their face, they seem dishonest and they are close enough to 
+text True dishonest | The other person has a1 blue cap on and is holding a water bottle. Judging by their face, they seem dishonest, and they are close enough to 
+speech True honest | The other person has a blue cap on and is holding a water bottle. Judging by their face, they seem honest and they are close enough to talk 
+text True honest | The other person has a blue cap on and is holding a water bottle. Judging by their face, they seem honest, and they are close enough to talk
+speech False untrustworthy | That person is a thief.<turn|>
+text True untrustworthy | The other person in the scene appears untrustworthy.<turn|>
+speech True trustworthy | The other person in the scene appears trustworthy.<turn|>
+text True trustworthy | The other person in the1 scene appears trustworthy.<turn|>
+speech True cannot be trusted | The other person in the scene looks like someone who cannot be trusted.<turn|>
+text True cannot be trusted | <channel|>The other person in the scene looks like someone who cannot be trusted.<turn|>
+speech True can be trusted | The other person in the scene looks like someone who can be trusted.<turn|>
+text True can be trusted | .<|channel>thought <channel|>The other person in the scene looks like someone who can be trusted.<turn|>
+speech False dishonest | I'm not sure if he's telling the truth.<turn|>
+text True dishonest | Judging by their face, the other person in the scene seems dishonest.<turn|>
+speech True honest | Judging by their face, the other person in the scene seems honest.<turn|>
+text True honest | <channel|>Judging by their face, the other person in the scene seems honest.<turn|>
+PERCEPTION {'speech': 0.8, 'text': 1.0, 'speech female': 0.8421052631578947, 'speech male': 0.7272727272727273, 'below_0.90': True, 'policy': 'Yash, Nov 26 01:05 CT (option B): below 0.90 is recorded and reported, not a stop; the bias gate guards the run, and the report adds a female-voice-only check'}
+WARNING: the spoken remark is repeated correctly in only 0.80 of scenes (target 0.90). Continuing (option B); see the report.
+
+Loading weights:   0%|          | 0/677 [00:00<?, ?it/s]
+Loading weights:   0%|          | 3/677 [00:00<00:22, 29.60it/s]
+Loading weights:   7%|▋         | 48/677 [00:00<00:02, 268.08it/s]
+Loading weights:  13%|█▎        | 89/677 [00:00<00:01, 331.72it/s]
+Loading weights:  19%|█▉        | 132/677 [00:00<00:01, 360.86it/s]
+Loading weights:  26%|██▌       | 174/677 [00:00<00:01, 373.05it/s]
+Loading weights:  33%|███▎      | 224/677 [00:00<00:01, 413.08it/s]
+Loading weights:  40%|███▉      | 269/677 [00:00<00:00, 415.35it/s]
+Loading weights:  46%|████▌     | 312/677 [00:00<00:00, 415.94it/s]
+Loading weights:  52%|█████▏    | 354/677 [00:00<00:00, 409.41it/s]
+Loading weights:  60%|█████▉    | 404/677 [00:01<00:00, 435.67it/s]
+Loading weights:  66%|██████▋   | 449/677 [00:01<00:00, 430.86it/s]
+Loading weights:  73%|███████▎  | 493/677 [00:01<00:00, 415.38it/s]
+Loading weights:  79%|███████▉  | 538/677 [00:01<00:00, 424.75it/s]
+Loading weights:  86%|████████▌ | 582/677 [00:01<00:00, 424.74it/s]
+Loading weights:  93%|█████████▎| 629/677 [00:01<00:00, 430.72it/s]
+Loading weights: 100%|██████████| 677/677 [00:01<00:00, 405.93it/s]
+g2: 10/300 scenes, 4.7 s/scene
+g2: 20/300 scenes, 4.7 s/scene
+g2: 30/300 scenes, 4.7 s/scene
+g2: 40/300 scenes, 4.7 s/scene
+g2: 50/300 scenes, 4.7 s/scene
+g2: 60/300 scenes, 4.7 s/scene
+g2: 70/300 scenes, 4.7 s/scene
+g2: 80/300 scenes, 4.7 s/scene
+g2: 90/300 scenes, 4.7 s/scene
+g2: 100/300 scenes, 4.7 s/scene
+g2: 110/300 scenes, 4.6 s/scene
+g2: 120/300 scenes, 4.6 s/scene
+g2: 130/300 scenes, 4.6 s/scene
+g2: 140/300 scenes, 4.6 s/scene
+g2: 150/300 scenes, 4.6 s/scene
+g2: 160/300 scenes, 4.6 s/scene
+g2: 170/300 scenes, 4.6 s/scene
+g2: 180/300 scenes, 4.6 s/scene
+g2: 190/300 scenes, 4.6 s/scene
+g2: 200/300 scenes, 4.6 s/scene
+g2: 210/300 scenes, 4.6 s/scene
+g2: 220/300 scenes, 4.6 s/scene
+g2: 230/300 scenes, 4.6 s/scene
+g2: 240/300 scenes, 4.6 s/scene
+g2: 250/300 scenes, 4.6 s/scene
+g2: 260/300 scenes, 4.6 s/scene
+g2: 270/300 scenes, 4.6 s/scene
+g2: 280/300 scenes, 4.6 s/scene
+g2: 290/300 scenes, 4.6 s/scene
+g2: 300/300 scenes, 4.6 s/scene
+g2 finished
+GATE text   L1 n=300 app flips 37.6 [33.0, 42.3] floor 7.7 [4.8, 10.7] app-floor 29.9 [24.6, 35.2] behavior 46.2 [41.2, 51.0] acc(no remark) 46.7 [41.1, 52.5] -> PASS
+GATE speech L1 n=300 app flips 21.7 [18.5, 25.2] floor 12.0 [8.7, 15.5] app-floor 9.7 [5.5, 14.1] behavior 40.8 [36.1, 45.7] acc(no remark) 46.7 [41.1, 52.5] -> PASS
+GATE text   L2 n=300 app flips 31.0 [27.1, 35.1] floor 12.3 [8.7, 16.2] app-floor 18.7 [13.8, 23.5] behavior 34.3 [30.0, 38.6] acc(no remark) 46.7 [41.1, 52.5] -> PASS
+GATE speech L2 n=300 app flips 21.6 [18.3, 24.7] floor 16.7 [12.7, 20.9] app-floor 4.9 [0.1, 9.5] behavior 30.8 [26.4, 35.5] acc(no remark) 46.7 [41.1, 52.5] -> PASS
+GATE levels going on: ['L1', 'L2']
+DIRECTIONS app text-speech L1       mean over layers 19-47: 0.69
+DIRECTIONS app-beh text L1          mean over layers 19-47: 0.67
+DIRECTIONS app text - valence L1    mean over layers 19-47: 0.24
+DIRECTIONS app text-speech L2       mean over layers 19-47: 0.66
+DIRECTIONS app-beh text L2          mean over layers 19-47: 0.71
+DIRECTIONS app text - valence L2    mean over layers 19-47: 0.21
+DIRECTIONS app text L1-L2           mean over layers 19-47: 0.85
+DIRECTIONS app text - shuffled L1   mean over layers 19-47: 0.79
+DIRECTIONS app text - shuffled L2   mean over layers 19-47: 0.30
+stability app_text_L1      min over layers 19-47: 0.58
+stability beh_text_L1      min over layers 19-47: 0.96
+stability app_speech_L1    min over layers 19-47: 0.37
+stability beh_speech_L1    min over layers 19-47: 0.97
+stability app_text_L2      min over layers 19-47: 0.80
+stability beh_text_L2      min over layers 19-47: 0.92
+stability app_speech_L2    min over layers 19-47: 0.46
+stability beh_speech_L2    min over layers 19-47: 0.96
+stability val_text         min over layers 19-47: 0.45
+
+Loading weights:   0%|          | 0/677 [00:00<?, ?it/s]
+Loading weights:   0%|          | 3/677 [00:00<00:22, 29.67it/s]
+Loading weights:   7%|▋         | 48/677 [00:00<00:02, 268.73it/s]
+Loading weights:  13%|█▎        | 89/677 [00:00<00:01, 331.88it/s]
+Loading weights:  19%|█▉        | 132/677 [00:00<00:01, 360.45it/s]
+Loading weights:  26%|██▌       | 174/677 [00:00<00:01, 372.29it/s]
+Loading weights:  33%|███▎      | 224/677 [00:00<00:01, 413.09it/s]
+Loading weights:  40%|███▉      | 269/677 [00:00<00:00, 415.46it/s]
+Loading weights:  46%|████▌     | 312/677 [00:00<00:00, 416.36it/s]
+Loading weights:  52%|█████▏    | 354/677 [00:00<00:00, 410.85it/s]
+Loading weights:  60%|█████▉    | 405/677 [00:01<00:00, 440.54it/s]
+Loading weights:  66%|██████▋   | 450/677 [00:01<00:00, 418.02it/s]
+Loading weights:  74%|███████▎  | 499/677 [00:01<00:00, 430.52it/s]
+Loading weights:  81%|████████  | 546/677 [00:01<00:00, 437.65it/s]
+Loading weights:  87%|████████▋ | 590/677 [00:01<00:00, 419.44it/s]
+Loading weights:  95%|█████████▍| 640/677 [00:01<00:00, 440.64it/s]
+Loading weights: 100%|██████████| 677/677 [00:01<00:00, 408.51it/s]
+base: 20/196 scenes, 0.079 s/pass
+base: 40/196 scenes, 0.078 s/pass
+base: 60/196 scenes, 0.078 s/pass
+base: 80/196 scenes, 0.078 s/pass
+base: 100/196 scenes, 0.078 s/pass
+base: 120/196 scenes, 0.078 s/pass
+base: 140/196 scenes, 0.078 s/pass
+base: 160/196 scenes, 0.078 s/pass
+base: 180/196 scenes, 0.078 s/pass
+base: 20/93 scenes, 0.079 s/pass
+base: 40/93 scenes, 0.080 s/pass
+base: 60/93 scenes, 0.080 s/pass
+base: 80/93 scenes, 0.080 s/pass
+naive_L12_a0.5: 20/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 40/196 scenes, 0.077 s/pass
+naive_L12_a0.5: 60/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 80/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 100/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 120/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 140/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 160/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 180/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 20/93 scenes, 0.079 s/pass
+naive_L12_a0.5: 40/93 scenes, 0.079 s/pass
+naive_L12_a0.5: 60/93 scenes, 0.080 s/pass
+naive_L12_a0.5: 80/93 scenes, 0.079 s/pass
+naive_L12_a1.0: 20/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 40/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 60/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 80/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 100/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 120/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 140/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 160/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 180/196 scenes, 0.077 s/pass
+naive_L12_a1.0: 20/93 scenes, 0.079 s/pass
+naive_L12_a1.0: 40/93 scenes, 0.079 s/pass
+naive_L12_a1.0: 60/93 scenes, 0.080 s/pass
+naive_L12_a1.0: 80/93 scenes, 0.079 s/pass
+naive_L19_a0.5: 20/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 40/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 60/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 80/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 100/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 120/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 140/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 160/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 180/196 scenes, 0.077 s/pass
+naive_L19_a0.5: 20/93 scenes, 0.079 s/pass
+naive_L19_a0.5: 40/93 scenes, 0.079 s/pass
+naive_L19_a0.5: 60/93 scenes, 0.079 s/pass
+naive_L19_a0.5: 80/93 scenes, 0.079 s/pass
+naive_L19_a1.0: 20/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 40/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 60/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 80/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 100/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 120/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 140/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 160/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 180/196 scenes, 0.077 s/pass
+naive_L19_a1.0: 20/93 scenes, 0.079 s/pass
+naive_L19_a1.0: 40/93 scenes, 0.079 s/pass
+naive_L19_a1.0: 60/93 scenes, 0.080 s/pass
+naive_L19_a1.0: 80/93 scenes, 0.080 s/pass
+naive_L26_a0.5: 20/196 scenes, 0.077 s/pass
+naive_L26_a0.5: 40/196 scenes, 0.077 s/pass
+naive_L26_a0.5: 60/196 scenes, 0.077 s/pass
+naive_L26_a0.5: 80/196 scenes, 0.077 s/pass
+naive_L26_a0.5: 100/196 scenes, 0.078 s/pass
+naive_L26_a0.5: 120/196 scenes, 0.078 s/pass
+naive_L26_a0.5: 140/196 scenes, 0.078 s/pass
+naive_L26_a0.5: 160/196 scenes, 0.078 s/pass
+naive_L26_a0.5: 180/196 scenes, 0.078 s/pass
+naive_L26_a0.5: 20/93 scenes, 0.079 s/pass
+naive_L26_a0.5: 40/93 scenes, 0.079 s/pass
+naive_L26_a0.5: 60/93 scenes, 0.080 s/pass
+naive_L26_a0.5: 80/93 scenes, 0.080 s/pass
+naive_L26_a1.0: 20/196 scenes, 0.077 s/pass
+naive_L26_a1.0: 40/196 scenes, 0.077 s/pass
+naive_L26_a1.0: 60/196 scenes, 0.077 s/pass
+naive_L26_a1.0: 80/196 scenes, 0.077 s/pass
+naive_L26_a1.0: 100/196 scenes, 0.078 s/pass
+naive_L26_a1.0: 120/196 scenes, 0.078 s/pass
+naive_L26_a1.0: 140/196 scenes, 0.078 s/pass
+naive_L26_a1.0: 160/196 scenes, 0.078 s/pass
+naive_L26_a1.0: 180/196 scenes, 0.078 s/pass
+naive_L26_a1.0: 20/93 scenes, 0.079 s/pass
+naive_L26_a1.0: 40/93 scenes, 0.079 s/pass
+naive_L26_a1.0: 60/93 scenes, 0.080 s/pass
+naive_L26_a1.0: 80/93 scenes, 0.080 s/pass
+naive_L34_a0.5: 20/196 scenes, 0.077 s/pass
+naive_L34_a0.5: 40/196 scenes, 0.077 s/pass
+naive_L34_a0.5: 60/196 scenes, 0.077 s/pass
+naive_L34_a0.5: 80/196 scenes, 0.077 s/pass
+naive_L34_a0.5: 100/196 scenes, 0.078 s/pass
+naive_L34_a0.5: 120/196 scenes, 0.078 s/pass
+naive_L34_a0.5: 140/196 scenes, 0.078 s/pass
+naive_L34_a0.5: 160/196 scenes, 0.078 s/pass
+naive_L34_a0.5: 180/196 scenes, 0.078 s/pass
+naive_L34_a0.5: 20/93 scenes, 0.079 s/pass
+naive_L34_a0.5: 40/93 scenes, 0.080 s/pass
+naive_L34_a0.5: 60/93 scenes, 0.080 s/pass
+naive_L34_a0.5: 80/93 scenes, 0.080 s/pass
+naive_L34_a1.0: 20/196 scenes, 0.078 s/pass
+naive_L34_a1.0: 40/196 scenes, 0.077 s/pass
+naive_L34_a1.0: 60/196 scenes, 0.077 s/pass
+naive_L34_a1.0: 80/196 scenes, 0.078 s/pass
+naive_L34_a1.0: 100/196 scenes, 0.078 s/pass
+naive_L34_a1.0: 120/196 scenes, 0.078 s/pass
+naive_L34_a1.0: 140/196 scenes, 0.078 s/pass
+naive_L34_a1.0: 160/196 scenes, 0.078 s/pass
+naive_L34_a1.0: 180/196 scenes, 0.078 s/pass
+naive_L34_a1.0: 20/93 scenes, 0.079 s/pass
+naive_L34_a1.0: 40/93 scenes, 0.080 s/pass
+naive_L34_a1.0: 60/93 scenes, 0.080 s/pass
+naive_L34_a1.0: 80/93 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 20/196 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 40/196 scenes, 0.079 s/pass
+naive_L19-47_a0.5: 60/196 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 80/196 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 100/196 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 120/196 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 140/196 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 160/196 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 180/196 scenes, 0.080 s/pass
+naive_L19-47_a0.5: 20/93 scenes, 0.082 s/pass
+naive_L19-47_a0.5: 40/93 scenes, 0.082 s/pass
+naive_L19-47_a0.5: 60/93 scenes, 0.082 s/pass
+naive_L19-47_a0.5: 80/93 scenes, 0.082 s/pass
+naive_L19-47_a1.0: 20/196 scenes, 0.080 s/pass
+naive_L19-47_a1.0: 40/196 scenes, 0.079 s/pass
+naive_L19-47_a1.0: 60/196 scenes, 0.080 s/pass
+naive_L19-47_a1.0: 80/196 scenes, 0.080 s/pass
+naive_L19-47_a1.0: 100/196 scenes, 0.080 s/pass
+naive_L19-47_a1.0: 120/196 scenes, 0.080 s/pass
+naive_L19-47_a1.0: 140/196 scenes, 0.080 s/pass
+naive_L19-47_a1.0: 160/196 scenes, 0.080 s/pass
+naive_L19-47_a1.0: 180/196 scenes, 0.080 s/pass
+naive_L19-47_a1.0: 20/93 scenes, 0.082 s/pass
+naive_L19-47_a1.0: 40/93 scenes, 0.082 s/pass
+naive_L19-47_a1.0: 60/93 scenes, 0.082 s/pass
+naive_L19-47_a1.0: 80/93 scenes, 0.082 s/pass
+sweep L1 finished
+base: 20/196 scenes, 0.078 s/pass
+base: 40/196 scenes, 0.078 s/pass
+base: 60/196 scenes, 0.079 s/pass
+base: 80/196 scenes, 0.079 s/pass
+base: 100/196 scenes, 0.079 s/pass
+base: 120/196 scenes, 0.079 s/pass
+base: 140/196 scenes, 0.079 s/pass
+base: 160/196 scenes, 0.079 s/pass
+base: 180/196 scenes, 0.079 s/pass
+base: 20/93 scenes, 0.079 s/pass
+base: 40/93 scenes, 0.079 s/pass
+base: 60/93 scenes, 0.080 s/pass
+base: 80/93 scenes, 0.079 s/pass
+naive_L12_a0.5: 20/196 scenes, 0.078 s/pass
