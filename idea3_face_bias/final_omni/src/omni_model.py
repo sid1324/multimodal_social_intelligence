@@ -17,7 +17,8 @@ import numpy as np
 import torch
 
 REV = {'nemotron': ('nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16', 'e5e9932441de940c9a62185c870ea5bcd4cd24e2'),
-       'qwen': ('Qwen/Qwen3-Omni-30B-A3B-Instruct', '26291f793822fb6be9555850f06dfe95f2d7e695')}
+       'qwen': ('Qwen/Qwen3-Omni-30B-A3B-Instruct', '26291f793822fb6be9555850f06dfe95f2d7e695'),
+       'gemma': ('google/gemma-4-12B-it', '43c9d014b231474fa7212dbb48a762566c2b255d')}
 MAX_BATCH_TOKENS = int(os.environ.get('MAX_BATCH_TOKENS', 16000))
 
 
@@ -427,5 +428,81 @@ class Qwen3Omni(OmniBase):
         return self.peft
 
 
+# ================================================================================================
+class Gemma4(OmniBase):
+    """Gemma 4 12B (text, image, audio in; Nov 25 speech-transfer plan). Thinking off (the template's empty thought
+    block). Scores the next token after the template's generation prompt. The output head is followed by a final logit
+    softcap (30); logits32 applies it, so letter probabilities are the model's own. One prompt at a time.
+    Image budget: IMG_TOKENS soft tokens for the five-frame strip (processor default 280, maximum 1120)."""
+    name = 'gemma'
+    IMG_TOKENS = int(os.environ.get('GEMMA_IMG_TOKENS', 1120))
+
+    def __init__(self, device=None, dtype=torch.bfloat16):
+        from transformers import AutoProcessor, Gemma4UnifiedForConditionalGeneration
+        path = snapshot('gemma')
+        self.processor = AutoProcessor.from_pretrained(path)
+        self.processor.image_processor.max_soft_tokens = self.IMG_TOKENS
+        self.tok = self.processor.tokenizer
+        self.device = device or ('cuda:0' if torch.cuda.is_available() else 'cpu')
+        self.model, self.load_info = Gemma4UnifiedForConditionalGeneration.from_pretrained(
+            path, dtype=dtype, device_map=self.device, attn_implementation='sdpa', output_loading_info=True)
+        self.model.eval()
+        self.lm = self.model.model.language_model
+        self.softcap = self.model.config.get_text_config().final_logit_softcapping
+        self.block_types = ['attention+mlp'] * len(self.lm.layers)
+        self._last = None
+        self._finish_init(self.lm.layers, self.model.lm_head)
+        self.model.lm_head.register_forward_pre_hook(self._head_pre)
+
+    _last_idx = None
+
+    def _head_pre(self, module, args):
+        h = args[0]
+        if self._last_idx is not None:
+            self._last = h[torch.arange(h.shape[0], device=h.device), self._last_idx.to(h.device)]
+            return (h[:, -1:],)
+
+    def logits32(self, hid):
+        z = hid.float().to(self._w32.device) @ self._w32.T
+        return torch.tanh(z / self.softcap) * self.softcap if self.softcap else z
+
+    def chat(self, parts, system=None):
+        content = [{'type': 'text', 'text': v} if k == 'text' else {'type': k} for k, v in parts]
+        msgs = ([{'role': 'system', 'content': [{'type': 'text', 'text': system}]}] if system else []) + [{'role': 'user', 'content': content}]
+        return self.processor.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True, enable_thinking=False)
+
+    def _enc(self, prompts, system=None):
+        imgs = [v for p in prompts for k, v in p if k == 'image']
+        auds = [load_wav(v) for p in prompts for k, v in p if k == 'audio']
+        kw = {'images': imgs} if imgs else {}
+        if auds:
+            kw['audio'] = auds
+        enc = self.processor(text=[self.chat(p, system) for p in prompts], padding=True, padding_side='right', return_tensors='pt', **kw)
+        enc = enc.to(self.device)
+        for k in ('pixel_values', 'input_features', 'audio_values'):
+            if k in enc and enc[k].is_floating_point():
+                enc[k] = enc[k].to(self.model.dtype)
+        return enc
+
+    def n_tokens(self, parts, system=None):
+        return int(self._enc([parts], system)['input_ids'].shape[1])
+
+    def last_hidden(self, prompts, system=None):
+        enc = self._enc(prompts, system)
+        lens = enc['attention_mask'].sum(1).tolist()
+        self._idx = self._last_idx = torch.tensor([l - 1 for l in lens])
+        self.model(**enc, use_cache=False)
+        h, self._last, self._last_idx = self._last, None, None
+        return h, lens
+
+    @torch.no_grad()
+    def generate(self, parts, system=None, max_new_tokens=4):
+        enc = self._enc([parts], system)
+        out = self.model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False)
+        return self.tok.decode(out[0, enc['input_ids'].shape[1]:], skip_special_tokens=False)
+
+    LORA_REGEX = r'.*language_model\.layers\.\d+\.self_attn\.(q_proj|k_proj|v_proj|o_proj)'
+
+
 def load(name):
-    return {'nemotron': Nemotron, 'qwen': Qwen3Omni}[name]()
+    return {'nemotron': Nemotron, 'qwen': Qwen3Omni, 'gemma': Gemma4}[name]()
