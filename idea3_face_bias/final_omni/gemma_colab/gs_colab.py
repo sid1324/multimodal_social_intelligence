@@ -32,7 +32,7 @@ def gpu_check(min_gb=38):
 def copy_new(src, dst):
     n = 0
     for p in src.rglob('*') if src.exists() else []:
-        if p.is_dir() or p.suffix == '.tmp':
+        if p.is_dir() or p.suffix in ('.tmp', '.part'):
             continue
         q = dst / p.relative_to(src); s = p.stat()
         if q.exists() and q.stat().st_size == s.st_size and abs(q.stat().st_mtime - s.st_mtime) < 2:
@@ -77,7 +77,10 @@ def setup():
         print('Downloading the model (about 24 GB)', flush=True)
         sh([str(PY), '-c', f"from huggingface_hub import snapshot_download as s; print(s('google/gemma-4-12B-it', revision='{REV}', max_workers=16))"], env=e2); (HF / '.weights_ok').touch()
     out = subprocess.run([str(PY), '-c', 'import torch, transformers, PIL; print(torch.__version__, transformers.__version__, PIL.__version__, torch.cuda.get_device_name(0), torch.cuda.is_bf16_supported())'], env=env(), capture_output=True, text=True)
-    print('environment:', out.stdout.strip() or out.stderr[-600:]); assert out.returncode == 0; print('SETUP DONE')
+    print('environment:', out.stdout.strip() or out.stderr[-600:])
+    (CODE / 'results/gemma').mkdir(parents=True, exist_ok=True)
+    (CODE / 'results/gemma/environment.txt').write_text(out.stdout + out.stderr[-2000:] + subprocess.run([str(PY), '-m', 'pip', 'freeze'], capture_output=True, text=True).stdout)
+    assert out.returncode == 0; print('SETUP DONE')
 
 
 def stage(name, end):
@@ -105,7 +108,7 @@ def run(stages, hours=8.0):
             if (CODE / 'results/gemma/STOP.md').exists():
                 print('STOPPED BY A GATE:', (CODE / 'results/gemma/STOP.md').read_text()); break
             if code == 75 or time.time() > end - 120:
-                print('time limit reached; run this cell again to continue'); break
+                print('time limit reached: Runtime > Run all again to continue (it resumes)'); break
             if code:
                 print('stage failed; send this output to Claude'); break
         else:
@@ -119,6 +122,10 @@ def run(stages, hours=8.0):
 
 def release():
     print('Releasing the GPU'); time.sleep(30)
+    try:
+        from google.colab import drive; drive.flush_and_unmount()   # make sure everything reached Drive first
+    except Exception as ex:
+        print('Drive flush skipped:', ex)
     try:
         from google.colab import runtime; runtime.unassign()
     except Exception as ex:

@@ -23,7 +23,8 @@ if not os.path.exists('/content/drive/MyDrive'):
     except Exception as ex:
         print('Drive not mounted here:', ex)
 print(subprocess.run('nvidia-smi --query-gpu=name,memory.total --format=csv,noheader; df -h /content | tail -1; python3 --version', shell=True, capture_output=True, text=True).stdout)
-print('Drive mounted:', os.path.exists('/content/drive/MyDrive'))"""),
+assert os.path.exists('/content/drive/MyDrive'), 'Google Drive is NOT mounted. Without it the results are lost when the GPU is released. Mount Drive (website: allow access when asked; VS Code: Command Palette > Colab: Mount Google Drive to Server), then Run all again.'
+print('Drive mounted: yes')"""),
 code('%%writefile /content/gs_colab.py\n' + (H / 'gs_colab.py').read_text()),
 code("""import sys; sys.path.insert(0, '/content')
 import gs_colab as q
@@ -40,7 +41,7 @@ if os.path.exists(G + 'STOP.md'):
 elif not os.path.exists(G + 'gate.json'):
     print('Part A is not finished (time limit or disconnect): run all cells again; it continues where it stopped.')
 else:
-    q.run(['directions', 'sweep', 'select', 'transfer', 'faces', 'report'], hours=9)"""),
+    q.run(['directions', 'sweep', 'select', 'transfer', 'report', 'faces', 'report'], hours=9)   # report runs before and after the face arm"""),
 code("""# send-back file: answer rows, directions, summaries (no model, no images, no per-scene activations). Saved to Drive and /content
 import shutil, time
 q.sync()
@@ -53,7 +54,10 @@ with zipfile.ZipFile(z, 'w', zipfile.ZIP_DEFLATED) as f:
             f.write(p, p.relative_to(src))
 if os.path.exists('/content/drive/MyDrive'): shutil.copy(z, '/content/drive/MyDrive/idea3_gemma_speech/')
 print('send this file:', z, round(os.path.getsize(z) / 1e6, 1), 'MB')"""),
-code("""# release the GPU so it stops using units
-q.release()"""),
+code("""# release the GPU so it stops using units (only once the zip is safely on Drive)
+if os.path.exists(f'/content/drive/MyDrive/idea3_gemma_speech/{os.path.basename(z)}'):
+    q.release()
+else:
+    print('The zip is NOT on Drive, so the GPU is not released automatically. Download', z, 'from the Files panel first, then Runtime > Disconnect and delete runtime.')"""),
 ]
 (H / 'gemma_speech.ipynb').write_text(json.dumps({'cells': cells, 'metadata': {'accelerator': 'GPU', 'colab': {'gpuType': 'A100', 'provenance': []}, 'kernelspec': {'display_name': 'Python 3', 'name': 'python3'}, 'language_info': {'name': 'python'}}, 'nbformat': 4, 'nbformat_minor': 0}, indent=1))

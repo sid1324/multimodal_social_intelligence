@@ -115,3 +115,4 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-25 19:39 CT | DPO-text: reference pass complete (2,444); first 6 of 459 optimizer steps on A40 job 24520038 (about 42 s per step, loss 0.69 as expected at start), checkpoint saved.
 - 11-25 21:49 CT | JOB 24550622 qt_part1: batch wait est A100x4 320.3 h, H200 1272.8 h -> gpuH200x8-interactive, 0.95 h at 6.0 SU/h (max 5.7); SU used 38.1, reserved 19.4
 - 11-25 21:49 CT | Qwen transfer Part 1 backup on Delta (Yash asked): job 24550622, 1x H200 interactive, 57 min, max 5.7 SU. Env = Nemotron env (torch 2.9.1+cu128) plus transformers 4.57.6 / huggingface_hub 0.36.2 overlay from the smoke-test venv; weights copied to idea3_final/hfq_qwen. Batch estimates were Dec 5 to Jan 17, H200 interactive about 01:50 CT.
+- 11-26 01:16 CT | Cancelled job 24550622 (Qwen caption backup, never started): Yash dropped the caption experiment on Nov 25. No SU used.

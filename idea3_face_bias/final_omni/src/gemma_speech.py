@@ -3,7 +3,7 @@ Plan: QWEN_TRANSFER_PLAN.md, update Nov 25 23:05 CT (Yash): L1 main, L2 also rep
 
 Stages (each resumable; one prompt at a time; exit 75 = time limit, run again; exit 3 = a check stopped the run, see STOP.md):
   check      20 validation scenes, no remark: letter mass, greedy answer = scored answer, steering hook removes the direction
-  perc       30 validation scenes: repeat the spoken remark (and the typed one); speech must contain the trait word in >= 90%
+  perc       30 validation scenes: repeat the spoken remark (and the typed one); target >= 90% with the trait word (recorded, not a stop: Yash, option B)
   g2         300 training scenes (midterm gate set), unsteered: text (none, L1, L2, weather valence) and speech (L1, L2);
              saves per-scene difference vectors (untrustworthy - trustworthy, harmful - helpful behavior) for the directions
   gate       CPU: bias above the noise floor per format and level (95% range above 0); a level goes on only if text AND speech pass
@@ -95,6 +95,13 @@ def val_sets():
     return pool, [k for k in sp['clean']['val'] if k not in set(pool)]
 
 
+def repair(path):
+    """Drop one half-written last line (a disconnect during a write)."""
+    path = Path(path)
+    if path.exists() and path.stat().st_size and not path.read_bytes().endswith(b'\n'):
+        path.write_bytes(path.read_bytes().rsplit(b'\n', 1)[0] + b'\n' if b'\n' in path.read_bytes() else b'')
+
+
 def grid(path, method, items, cells, split, system=None):
     """Append one row per forward pass; skip what is done. -> False if it stopped for time."""
     m, ann = model(), load_annotations()
@@ -166,7 +173,7 @@ def perc():
     m, ann = model(), load_annotations()
     items = sorted(load_splits()['pool']['val'], key=lambda k: seeded_int('perc-v1', k))[:30]
     conds = [f'{lv}_app_{s}_tr{i}' for lv in LEVELS for i in range(3) for s in ('low', 'high')]
-    out = R / 'perception.jsonl'
+    out = R / 'perception.jsonl'; repair(out)
     done = {(r['id'], r['channel']) for r in read_rows(out)}
     norm = lambda s: ' '.join(re.sub(r'[^a-z ]', ' ', s.lower().replace('can not', 'cannot').replace("can't", 'cannot')).split())
     with open(out, 'a') as fh:
@@ -183,10 +190,15 @@ def perc():
                 fh.write(json.dumps({'id': cid, 'channel': ch, 'cond': cond, 'cue': CUES[cond], 'key': kw, 'gen': g, 'hit': hit}) + '\n'); fh.flush()
                 print(ch, hit, kw, '|', g[:140].replace('\n', ' '), flush=True)
     rows = read_rows(out)
+    from channels import voice_for
     S = {ch: float(np.mean([r['hit'] for r in rows if r['channel'] == ch])) for ch in ('speech', 'text')}
+    for vo in ('female', 'male'):
+        S[f'speech {vo}'] = float(np.mean([r['hit'] for r in rows if r['channel'] == 'speech' and voice_for(r['id']) == vo] or [float('nan')]))
+    S['below_0.90'] = S['speech'] < 0.9
+    S['policy'] = 'Yash, Nov 26 01:05 CT (option B): below 0.90 is recorded and reported, not a stop; the bias gate guards the run, and the report adds a female-voice-only check'
     (R / 'perception.json').write_text(json.dumps(S, indent=1)); print('PERCEPTION', S, flush=True)
-    if S['speech'] < 0.9:
-        stop(f"the model repeats the spoken remark correctly in only {S['speech']:.2f} of scenes (need 0.90): it may not hear it. Yash decides.")
+    if S['below_0.90']:
+        print(f"WARNING: the spoken remark is repeated correctly in only {S['speech']:.2f} of scenes (target 0.90). Continuing (option B); see the report.", flush=True)
 
 
 def g2_cells():
@@ -211,7 +223,7 @@ def g2():
     m, ann = model(), load_annotations()
     items = gate_items(load_splits(), load_item_table(), 300)[:N_GATE]
     cells, K = g2_cells(), diff_keys()
-    out, adir = R / 'g2_rows.jsonl', R / 'acts'
+    out, adir = R / 'g2_rows.jsonl', R / 'acts'; repair(out)
     adir.mkdir(exist_ok=True)
     done = defaultdict(set)
     for r in read_rows(out):
@@ -227,7 +239,9 @@ def g2():
             outs, res = m.score_many([build(v, img, c, ch) for c, ch in cells], len(permuted_options(v)), capture=True)
             pos = {c: j for j, c in enumerate(cells)}
             D = {k: np.mean([res[pos[(a, ch)]] - res[pos[(b, ch)]] for a, b, ch in ps], 0).astype(np.float16) for k, ps in K.items()}
-            np.savez(adir / f'{cid}.npz.tmp.npz', **D); os.replace(adir / f'{cid}.npz.tmp.npz', adir / f'{cid}.npz')
+            with open(adir / f'{cid}.part', 'wb') as tf:   # temp name never matches *.npz, and the Drive sync skips it
+                np.savez(tf, **D)
+            os.replace(adir / f'{cid}.part', adir / f'{cid}.npz')
             fh.write(''.join(json.dumps(row_for(cid, v, c, ch, r, 'train', 'base', MODEL)) + '\n' for (c, ch), r in zip(cells, outs)
                              if (c, ch) not in done[cid])); fh.flush()
             if (i + 1) % 10 == 0:
@@ -303,7 +317,7 @@ def faces():
     meths = [('base', None, 0, (), None), ('constitution', None, 0, (), constitution())]
     if P:
         meths.insert(1, (P['chosen'], u, P['alpha'], P['layers'], None))
-    out = R / 'faces.jsonl'
+    out = R / 'faces.jsonl'; repair(out)
     done = {(r['id'], r['method'], r['condition']) for r in read_rows(out)}
     with open(out, 'a') as fh:
         for nm, d, al, ls, system in meths:
@@ -467,6 +481,9 @@ def report():
     Rule 3 uses the valence and shuffled-label directions (random directions remove almost nothing in 3,840 dimensions; reported only).
     Rule 4a uses accuracy with a spoken neutral remark; accuracy with no remark is reported too."""
     S, md = {}, ['# Gemma 4 12B: steering built from typed remarks, applied to spoken remarks (validation)', '']
+    if (R / 'perception.json').exists():
+        pj = json.loads((R / 'perception.json').read_text()); S['perception'] = pj
+        md += [f"Hearing check (repeat the remark, 30 scenes): speech {pj['speech']:.2f} (female {pj.get('speech female', float('nan')):.2f}, male {pj.get('speech male', float('nan')):.2f}), typed {pj['text']:.2f}. Target 0.90{' NOT met (recorded, run continued: option B)' if pj['speech'] < 0.9 else ' met'}.", '']
     for lv in levels_on():
         if not (R / f'select_{lv}.json').exists():
             continue
@@ -500,6 +517,10 @@ def report():
                 num = {c: st['base'][c]['s_app'] - st[steer][c]['s_app'] for c in common}
                 den = {c: st['base'][c]['s_app'] - st['speechdir'][c]['s_app'] for c in common}
                 out['transfer_ratio'] = boot_ratio(num, den, common)
+                from channels import voice_for
+                fem = {c for c in common if voice_for(c) == 'female'}
+                out['speech female-voice only'] = {'n': len(fem), 'd_s_app': paired(st[steer], st['base'], 's_app', fem),
+                                                   'base_app_minus_floor': summarize({c: st['base'][c] for c in fem})['app_minus_floor']}
         b, s_ = out['speech base'], out[f'speech {steer}']
         rule = {'1 bias exists in speech (appearance flips minus floor, range above 0)': b['app_minus_floor'][1] > 0,
                 '2 steering lowers spoken appearance flips (paired, range below 0)': s_['d_s_app'][2] < 0,
@@ -511,6 +532,7 @@ def report():
         out['rule'] = rule; out['verdict'] = verdict; S[lv] = out
         tr = out['transfer_ratio']
         md += ['', f"**Transfer ratio** (drop in spoken appearance flips with the text-built direction, divided by the drop with a direction built from speech; 1 = full transfer): {tr[0]} [{tr[1]}, {tr[2]}]. Spoken-direction drop: {pct(out['speech speechdir']['d_s_app'])}.", '',
+               f"Female-voice scenes only (robustness, option B): n={out['speech female-voice only']['n']}, base appearance flips minus floor {pct(out['speech female-voice only']['base_app_minus_floor'])}, change with steering {pct(out['speech female-voice only']['d_s_app'])}.", '',
                'Random directions (reported, not in the rule): steered minus random ' + ', '.join(pct(out[f'speech rand{i}']['steer_minus_ctrl_s_app']) for i in range(N_RAND)), '',
                'Success rule (speech):', ''] + [f'- {k}: **{"yes" if v else "no"}**' for k, v in rule.items()] + ['', f'**{lv}: {verdict}**', '']
         print(f'REPORT {lv}: {verdict}', json.dumps({k: bool(v) for k, v in rule.items()}), 'transfer ratio', tr, flush=True)
