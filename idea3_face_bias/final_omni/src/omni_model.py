@@ -433,9 +433,9 @@ class Gemma4(OmniBase):
     """Gemma 4 12B (text, image, audio in; Nov 25 speech-transfer plan). Thinking off (the template's empty thought
     block). Scores the next token after the template's generation prompt. The output head is followed by a final logit
     softcap (30); logits32 applies it, so letter probabilities are the model's own. One prompt at a time.
-    Image budget: IMG_TOKENS soft tokens for the five-frame strip (processor default 280, maximum 1120)."""
+    Image budget: IMG_TOKENS soft tokens for the five-frame strip (processor default 280, used here; maximum 1120)."""
     name = 'gemma'
-    IMG_TOKENS = int(os.environ.get('GEMMA_IMG_TOKENS', 1120))
+    IMG_TOKENS = int(os.environ.get('GEMMA_IMG_TOKENS', 280))   # the processor's own default; 1120 made a pass about 1,160 tokens (10+ GPU hours in total)
 
     def __init__(self, device=None, dtype=torch.bfloat16):
         from transformers import AutoProcessor, Gemma4UnifiedForConditionalGeneration
