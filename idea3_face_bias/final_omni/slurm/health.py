@@ -53,7 +53,7 @@ def check(end):
     for jid, p, st, sub, lim, el, _ in mine:
         wait = (dt.datetime.now() - dt.datetime.fromisoformat(sub)).total_seconds() / 60
         if st == 'PENDING' and wait > 25:
-            if wait > 600 and secs(lim) > 1200:
+            if wait > 600 and secs(lim) > 1200 and p.endswith('-interactive'):   # never shorten a batch job (bug fixed Nov 25 19:10 CT)
                 run('scontrol', 'update', f'JobId={jid}', 'TimeLimit=00:18:00')
                 say(f'cut{jid}', f'{jid} {p} pending {wait:.0f} min: cut to 18 min')
             if not running:
