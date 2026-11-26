@@ -365,3 +365,4 @@ base: 40/93 scenes, 0.079 s/pass
 base: 60/93 scenes, 0.080 s/pass
 base: 80/93 scenes, 0.079 s/pass
 naive_L12_a0.5: 20/196 scenes, 0.078 s/pass
+naive_L12_a0.5: 40/196 scenes, 0.078 s/pass
