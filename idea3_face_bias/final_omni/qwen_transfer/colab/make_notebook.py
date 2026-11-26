@@ -10,9 +10,16 @@ md("""# Qwen3-VL 8B: does text steering transfer to captions in the image?
 
 **Cost:** about 5.5 to 7 units per hour. Estimated 2 to 4 hours in total. If Colab disconnects, run the cells again; it continues. **When done: Colab: Remove Server.**
 
+**On the Colab website instead:** File > Upload notebook (this file). Runtime > Change runtime type > A100 (or L4). Put `qwen_transfer_bundle.tar.gz` in Google Drive at `My Drive/idea3_qwen_transfer/`. The first cell asks to connect Drive. At the end, the zip cell makes one file to send back.
+
 Nothing here can run the test scenes."""),
 code("""import os, subprocess
 print(subprocess.run('nvidia-smi --query-gpu=name,memory.total --format=csv,noheader; df -h /content | tail -1; python3 --version; ls /content', shell=True, capture_output=True, text=True).stdout)
+if not os.path.exists('/content/drive/MyDrive'):
+    try:
+        from google.colab import drive; drive.mount('/content/drive')   # Colab website; in VS Code use the Command Palette instead
+    except Exception as ex:
+        print('Drive not mounted here:', ex)
 print('Drive mounted:', os.path.exists('/content/drive/MyDrive'))"""),
 code('%%writefile /content/qt_colab.py\n' + (H / 'qt_colab.py').read_text()),
 code("""import sys; sys.path.insert(0, '/content')
@@ -35,5 +42,10 @@ code("""# optional: see the tables any time
 q.stage('gate', None); q.stage('report val:tr', None)"""),
 code("""# when finished: release the GPU so it stops using units
 q.sync(); q.release()"""),
+code("""# send-back file: zips all results (no images, no model). Saved to Drive (My Drive/idea3_qwen_transfer/) and /content
+import shutil, time
+z = shutil.make_archive(f'/content/qt_results_{time.strftime("%m%d_%H%M")}', 'zip', '/content/qt/qwen_transfer/results')
+if os.path.exists('/content/drive/MyDrive'): shutil.copy(z, '/content/drive/MyDrive/idea3_qwen_transfer/')
+print('send this file:', z, round(os.path.getsize(z) / 1e6, 1), 'MB')"""),
 ]
 (H / 'qwen_transfer.ipynb').write_text(json.dumps({'cells': cells, 'metadata': {'accelerator': 'GPU', 'colab': {'gpuType': 'A100', 'provenance': []}, 'kernelspec': {'display_name': 'Python 3', 'name': 'python3'}, 'language_info': {'name': 'python'}}, 'nbformat': 4, 'nbformat_minor': 0}, indent=1))
