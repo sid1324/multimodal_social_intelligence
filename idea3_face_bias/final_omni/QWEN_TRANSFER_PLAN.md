@@ -109,3 +109,10 @@ DPO and steering jobs on Nemotron stay in line. They cost nothing while waiting 
 2. Press Run in Colab, keep the window open, and approve each freeze before a test run
 3. Ask Atharv and Shiv now which model and GPU each can use, and by when
 4. VideoNorms stays parked until this is done
+
+## Update Nov 25, 23:05 CT: switch to speech on Gemma 4 12B (Yash)
+- The caption experiment is dropped as the main result: it tests reading text in an image, not visual bias. Not sent to the friend.
+- New main experiment: steering built from typed remarks on Gemma 4 12B, tested on spoken remarks (Kokoro audio, same sentences).
+- Cue level, decided before any Gemma result: **L1 main, L2 also reported.**
+- One Colab notebook runs everything, GPU and CPU, with automatic stops: checks, bias gate, direction, text sweep with the midterm selection rule, speech transfer with random-direction and constitution controls, report, zip. Test split stays locked until Yash approves a freeze.
+- Same 4-part success rule as above, with "image" replaced by "speech".
