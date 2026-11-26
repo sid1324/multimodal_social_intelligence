@@ -11,7 +11,7 @@ md("""# Gemma 4 12B: does steering built from typed remarks also work on spoken 
 
 **In VS Code (Colab extension):** Select Kernel > Colab > New Colab Server > GPU > A100. Right-click the bundle > Upload to Colab. Command Palette > Colab: Mount Google Drive to Server. Run all cells.
 
-**What it does:** checks the model, checks it can hear the spoken remark, measures bias in typed and spoken remarks, builds the appearance direction from typed remarks only, picks the steering setting on typed remarks, then applies it to spoken remarks with random-direction and constitution controls. Levels: L1 (main) and L2.
+**What it does:** checks the model, checks it can hear the spoken remark, measures bias in typed and spoken remarks, builds the appearance direction from typed remarks only, picks the steering setting on typed remarks, then applies it to spoken remarks, compared with a direction built from speech (the ceiling) and with control directions (weather mood, shuffled labels, random) and a written rule. An exploratory face arm shows a second image with a face rated more or less trustworthy. Levels: L1 (main) and L2.
 
 **Cost:** roughly 6 to 9 hours on an A100 (about 40 to 60 units). If Colab disconnects, run all cells again: it continues where it stopped. It stops by itself if a check fails. **The last cells make one zip to send back, then release the GPU.**
 
@@ -32,7 +32,7 @@ q.setup()       # about 15 to 25 minutes the first time (packages, images, 24 GB
 md("""## Part A: checks and bias in typed and spoken remarks (no steering). About 1.5 to 2.5 hours
 1. model check (letters, greedy answer, steering hook)  2. can it hear the remark (90%)  3. unsteered answers on 300 training scenes  4. bias gate per level"""),
 code("""q.run(['check', 'perc', 'g2', 'gate'], hours=5)"""),
-md("""## Part B: steering built from typed remarks, applied to spoken remarks. About 4 to 6 hours
+md("""## Part B: steering built from typed remarks, applied to spoken remarks, plus the face arm. About 4 to 6 hours
 Runs only if Part A passed. Levels that failed the gate are skipped automatically."""),
 code("""G = '/content/gs/final_omni/results/gemma/'
 if os.path.exists(G + 'STOP.md'):
@@ -40,7 +40,7 @@ if os.path.exists(G + 'STOP.md'):
 elif not os.path.exists(G + 'gate.json'):
     print('Part A is not finished (time limit or disconnect): run all cells again; it continues where it stopped.')
 else:
-    q.run(['directions', 'sweep', 'select', 'transfer', 'report'], hours=9)"""),
+    q.run(['directions', 'sweep', 'select', 'transfer', 'faces', 'report'], hours=9)"""),
 code("""# send-back file: answer rows, directions, summaries (no model, no images, no per-scene activations). Saved to Drive and /content
 import shutil, time
 q.sync()

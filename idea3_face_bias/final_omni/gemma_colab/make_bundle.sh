@@ -6,7 +6,7 @@ W=/work/hdd/bjuv/ylothe/idea3_final
 D=$(mktemp -d "${TMPDIR:-/tmp}/gsb.XXXX")
 mkdir -p $D/final_omni/results $D/p777/data $D/p777/cache
 cp -r src config $D/final_omni/ && rm -rf $D/final_omni/src/__pycache__
-cp results/splits.json $D/final_omni/results/
+cp results/splits.json results/omi_pairs.json $D/final_omni/results/
 cp -r $W/data/ref $D/p777/data/ref
 cp -r $W/cache/tts $D/p777/cache/tts
 tar czf gemma_colab/gemma_speech_bundle.tar.gz -C $D final_omni p777

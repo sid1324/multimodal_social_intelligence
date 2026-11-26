@@ -10,8 +10,12 @@ Stages (each resumable; one prompt at a time; exit 75 = time limit, run again; e
   directions CPU: appearance direction per level from typed remarks only (mean over training scenes); speech direction for comparison
   sweep LV   validation, typed remarks only: base plus layer sets x strength (midterm grid); speech is never used to choose
   select LV  CPU: midterm rule (lowest typed appearance flips with accuracy >= base - 2 points and behavior flips >= 80% of base)
-  transfer LV validation: the chosen setting on SPOKEN remarks, plus the constitution and 3 random directions (same layers, strength)
-  report     CPU: success rule per level, paired by scene, 95% ranges clustered by source video
+  transfer LV validation: the chosen setting on SPOKEN remarks, with controls at the same layers and strength: a direction built from
+             spoken remarks (the ceiling; transfer ratio), the weather-valence direction, a shuffled-label direction, 3 random
+             directions, and the constitution (reviewer changes A to C, approved by Yash Nov 25 23:55 CT)
+  faces      validation, exploratory vision arm: the midterm OMI face pairs (pre-registered, results/omi_pairs.json) as a second
+             image; face sensitivity = trust-pair flips minus equal-trust-pair flips; base, chosen L1 steering, constitution
+  report     CPU: success rule per level, paired by scene, 95% ranges clustered by source video; layer-wise figure; face arm
 Usage: python src/gemma_speech.py STAGE [L1|L2]"""
 import gzip, json, os, re, sys, time
 from collections import defaultdict
@@ -130,19 +134,22 @@ def check():
                      'correct': row_for(cid, v, 'none', 'text', r, 'val', 'base', MODEL)['correct']})
         print(rows[-1], flush=True)
     v, img = ann[items[0]], scene(items[0]); no = len(permuted_options(v)); p = build(v, img, 'L1_app_low_tr0', 'speech')
-    o0, r0 = m.score_many([p], no, capture=True); L = m.n_layers // 2; u = r0[0][L] / np.linalg.norm(r0[0][L])
-    m.set_ablation(r0[0], 1.0, [L]); o1, r1 = m.score_many([p], no, capture=True)
+    o0, r0 = m.score_many([p], no, capture=True)
+    Ls = [m.n_layers // 4, m.n_layers // 2, m.n_layers - 2]   # hook checked at three depths (reviewer)
+    m.set_ablation(r0[0], 1.0, Ls); o1, r1 = m.score_many([p], no, capture=True)
     m.set_ablation(None); o3, _ = m.score_many([p], no)
+    ratio = max(abs(float(r1[0][L] @ (r0[0][L] / np.linalg.norm(r0[0][L])))) / abs(float(r0[0][L] @ (r0[0][L] / np.linalg.norm(r0[0][L])))) for L in Ls)
+    L = Ls[1]; u = r0[0][L] / np.linalg.norm(r0[0][L])
     first = lambda g: re.sub(r'<[^>]*>', '', g).strip()[:1]
     S = {'gpu': torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'cpu', 'n_layers': m.n_layers,
          'n_missing_keys': len(m.load_info['missing_keys']), 'n_unexpected_keys': len(m.load_info['unexpected_keys']),
          'mean_letter_mass': float(np.mean([r['mass'] for r in rows])), 'greedy_agree': float(np.mean([first(r['gen']) == r['argmax'] for r in rows])),
          'acc_no_remark_20': float(np.mean([r['correct'] for r in rows])), 'finite': all(r['finite'] for r in rows),
          'mean_tokens': float(np.mean([r['n_tokens'] for r in rows])),
-         'hook_proj_before': float(r0[0][L] @ u), 'hook_proj_after': float(r1[0][L] @ u),
+         'hook_proj_before': float(r0[0][L] @ u), 'hook_proj_after': float(r1[0][L] @ u), 'hook_layers': Ls, 'hook_max_after_over_before': ratio,
          'hook_restored_dlp': float(max(abs(a - b) for a, b in zip(o0[0]['letter_logp'], o3[0]['letter_logp']))), 'rows': rows}
     S['pass'] = bool(S['mean_letter_mass'] > 0.5 and S['greedy_agree'] >= 0.95 and S['finite'] and S['n_missing_keys'] == 0
-                     and abs(S['hook_proj_after']) < 0.02 * abs(S['hook_proj_before']) and S['hook_restored_dlp'] < 0.05)
+                     and S['hook_max_after_over_before'] < 0.02 and S['hook_restored_dlp'] < 0.05)
     (R / 'check.json').write_text(json.dumps(S, indent=1))
     print('CHECK', json.dumps({k: v for k, v in S.items() if k != 'rows'}), flush=True)
     if not S['pass']:
@@ -246,6 +253,14 @@ def rand_dirs(shape, i):
     return np.random.default_rng(1000 + i).standard_normal(shape)
 
 
+CONTROLS = ('speechdir', 'valence', 'shuffled')   # same layers and strength as the chosen setting
+
+
+def control_dir(name, lv):
+    D = np.load(R / 'directions_gemma.npz')
+    return {'speechdir': D[f'app_speech_{lv}'], 'valence': D['val_text'], 'shuffled': D[f'shuf_text_{lv}']}[name]
+
+
 def transfer(lv):
     P = json.loads((R / f'select_{lv}.json').read_text())
     pool, clean = val_sets()
@@ -256,6 +271,8 @@ def transfer(lv):
     tx = [('none', 'text')] + [(c, 'text') for c in level_conds(lv)]
     jobs = [('base', None, 0, (), None, sp, False), (P['chosen'], u, P['alpha'], P['layers'], None, sp, False),
             ('constitution', None, 0, (), constitution(), tx + sp, True)]
+    jobs += [('speechdir', control_dir('speechdir', lv), P['alpha'], P['layers'], None, sp, False)]
+    jobs += [(c, control_dir(c, lv), P['alpha'], P['layers'], None, tx + sp, True) for c in ('valence', 'shuffled')]
     jobs += [(f'rand{i}', rand_dirs(u.shape, i), P['alpha'], P['layers'], None, tx + sp, True) for i in range(N_RAND)]
     for nm, d, al, ls, system, cells, do_clean in jobs:
         m.set_ablation(d, al, ls)
@@ -263,6 +280,46 @@ def transfer(lv):
         if not ok:
             m.set_ablation(None); sys.exit(75)
     m.set_ablation(None); print(f'transfer {lv} finished', flush=True)
+
+
+FACE_CONDS = ('face_trust_high', 'face_trust_low', 'face_null_a', 'face_null_b')
+
+
+def faces():
+    """Exploratory vision arm. Scene plus a second image with an OMI face; prompt = the midterm portrait prompt, no remark."""
+    from PIL import Image
+    from data import prompt_text
+    omi = Path(os.environ.get('OMI_DIR', str(Path(os.environ.get('P777', '.')) / 'data/omi')))
+    pairs = json.loads((HERE / 'results/omi_pairs.json').read_text())
+    def assign(cid):
+        t = pairs['trust_pairs'][seeded_int('omi-trust-v1', cid) % len(pairs['trust_pairs'])]
+        n = pairs['null_pairs'][seeded_int('omi-null-v1', cid) % len(pairs['null_pairs'])]
+        return {'face_trust_high': t['high'], 'face_trust_low': t['low'], 'face_null_a': n['a'], 'face_null_b': n['b']}
+    face = lambda s: Image.open(omi / 'images' / f'{s}.jpg').convert('RGB').resize((512, 512), Image.Resampling.LANCZOS)
+    pool, _ = val_sets(); m, ann = model(), load_annotations()
+    lv = 'L1'
+    P = json.loads((R / f'select_{lv}.json').read_text()) if (R / f'select_{lv}.json').exists() else None
+    u = np.load(R / 'directions_gemma.npz')[f'app_text_{lv}']
+    meths = [('base', None, 0, (), None), ('constitution', None, 0, (), constitution())]
+    if P:
+        meths.insert(1, (P['chosen'], u, P['alpha'], P['layers'], None))
+    out = R / 'faces.jsonl'
+    done = {(r['id'], r['method'], r['condition']) for r in read_rows(out)}
+    with open(out, 'a') as fh:
+        for nm, d, al, ls, system in meths:
+            m.set_ablation(d, al, ls)
+            for i, cid in enumerate(pool):
+                todo = [c for c in FACE_CONDS if (cid, nm, c) not in done]
+                if not todo:
+                    continue
+                if timeup():
+                    m.set_ablation(None); sys.exit(75)
+                v, img, fs = ann[cid], scene(cid), assign(cid)
+                prompts = [[('image', img), ('image', face(fs[c])), ('text', prompt_text(v, '', portrait=True))] for c in todo]
+                outs, _ = m.score_many(prompts, len(permuted_options(v)), system)
+                fh.write(''.join(json.dumps(dict(row_for(cid, v, c, 'face', r, 'val', nm, MODEL), face=fs[c])) + '\n' for c, r in zip(todo, outs))); fh.flush()
+            print(f'faces {nm} finished', flush=True)
+    m.set_ablation(None)
 
 
 # ---- CPU stages --------------------------------------------------------------------------------------------------
@@ -304,6 +361,10 @@ def directions():
         assert np.isfinite(X).all() and (np.abs(X).sum((1, 2)) > 0).all(), k
         dirs[k] = X.mean(0)
         stab[k] = cos(X[list(halves[0])].mean(0), X[list(halves[1])].mean(0)).round(4).tolist()
+    for lv in LEVELS:   # shuffled-label control: each scene's untrustworthy-minus-trustworthy difference gets a random sign
+        X = np.stack([np.load(f)[f'app_text_{lv}'].astype(np.float32) for f in files])
+        sg = np.array([1.0 if seeded_int(f'shuffle-{lv}-v1', i) % 2 else -1.0 for i in ids], np.float32)
+        dirs[f'shuf_text_{lv}'] = (X * sg[:, None, None]).mean(0)
     np.savez(R / 'directions_gemma.npz', **dirs)
     n = dirs[keys[0]].shape[0]; late = slice(round(n * 0.4), n)
     C = {}
@@ -312,6 +373,8 @@ def directions():
         C[f'app-beh text {lv}'] = cos(dirs[f'app_text_{lv}'], dirs[f'beh_text_{lv}']).round(4).tolist()
         C[f'app text - valence {lv}'] = cos(dirs[f'app_text_{lv}'], dirs['val_text']).round(4).tolist()
     C['app text L1-L2'] = cos(dirs['app_text_L1'], dirs['app_text_L2']).round(4).tolist()
+    for lv in LEVELS:
+        C[f'app text - shuffled {lv}'] = cos(dirs[f'app_text_{lv}'], dirs[f'shuf_text_{lv}']).round(4).tolist()
     (R / 'directions.json').write_text(json.dumps({'cos': C, 'split_half': stab, 'norm': {k: np.linalg.norm(v, axis=-1).round(3).tolist() for k, v in dirs.items()}}))
     for k, v in C.items():
         print(f'DIRECTIONS {k:24s} mean over layers {late.start}-{n - 1}: {np.mean(v[late]):.2f}', flush=True)
@@ -343,43 +406,121 @@ def paired(st_m, st_b, k, common):
     return boot(byv)
 
 
+def boot_ratio(num, den, common, n=5000, seed=0):
+    """Transfer ratio = (drop with the text direction) / (drop with the speech direction), bootstrap over source videos."""
+    byv = defaultdict(list)
+    for c in common:
+        byv[c.split('_')[0]].append((num[c], den[c]))
+    vids = list(byv); A = np.array([sum(x for x, _ in byv[v]) for v in vids]); B = np.array([sum(y for _, y in byv[v]) for v in vids])
+    idx = np.random.default_rng(seed).integers(0, len(vids), (n, len(vids)))
+    with np.errstate(divide='ignore', invalid='ignore'):
+        bs = A[idx].sum(1) / B[idx].sum(1)
+    pt = A.sum() / B.sum() if B.sum() else float('nan')
+    return [round(float(pt), 3), round(float(np.nanpercentile(bs, 2.5)), 3), round(float(np.nanpercentile(bs, 97.5)), 3)]
+
+
+def layer_figure():
+    J = json.loads((R / 'directions.json').read_text())['cos']
+    import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
+    fig, ax = plt.subplots(figsize=(7, 3.6))
+    for k, st in ((f'app text-speech L1', '-'), (f'app text-speech L2', '--'), ('app-beh text L1', ':'), ('app text - valence L1', '-.'), ('app text - shuffled L1', (0, (1, 3)))):
+        if k in J:
+            ax.plot(J[k], linestyle=st, label=k.replace('app', 'appearance').replace('beh', 'behavior'))
+    ax.set_xlabel('layer'); ax.set_ylabel('cosine'); ax.set_ylim(-0.2, 1.0); ax.axhline(0, lw=0.5, color='gray'); ax.legend(fontsize=7, frameon=False)
+    ax.set_title('Gemma 4 12B: where typed and spoken appearance directions agree', fontsize=9)
+    fig.tight_layout(); fig.savefig(R / 'fig_layers.png', dpi=200); plt.close(fig)
+
+
+def face_summary():
+    rows = read_rows(R / 'faces.jsonl')
+    if not rows:
+        return None, []
+    ix = defaultdict(lambda: defaultdict(dict))
+    for r in rows:
+        ix[r['method']][r['id']][r['condition']] = r
+    S, md = {}, ['## Faces (exploratory vision arm, validation, L1 steering setting)', '',
+                 '| Method | n | Trust-pair flips | Equal-trust flips | Face sensitivity | Change vs base |', '|---|---|---|---|---|---|']
+    per = {}
+    for m, it in ix.items():
+        per[m] = {c: {'t': float(d['face_trust_high']['pred'] != d['face_trust_low']['pred']), 'n': float(d['face_null_a']['pred'] != d['face_null_b']['pred'])}
+                  for c, d in it.items() if all(k in d for k in FACE_CONDS)}
+        for c in per[m]:
+            per[m][c]['s'] = per[m][c]['t'] - per[m][c]['n']
+    for m in ['base'] + sorted(x for x in per if x != 'base'):
+        if m not in per or 'base' not in per:
+            continue
+        common = set(per[m]) & set(per['base'])
+        g = lambda k: summarize({c: {k: per[m][c][k]} for c in common})[k]
+        o = {'n': len(common), 'trust_flips': g('t'), 'null_flips': g('n'), 's_face': g('s')}
+        if m != 'base':
+            o['d_s_face'] = paired({c: {'s': per[m][c]['s']} for c in common}, {c: {'s': per['base'][c]['s']} for c in common}, 's', common)
+        S[m] = o
+        md.append(f"| {m} | {o['n']} | {pct(o['trust_flips'])} | {pct(o['null_flips'])} | {pct(o['s_face'])} | {pct(o.get('d_s_face'))} |")
+    if 'base' in S:
+        S['face_bias_exists'] = bool(S['base']['s_face'][1] > 0)
+        md += ['', f"Face bias above the equal-trust floor: **{'yes' if S['face_bias_exists'] else 'no'}** (if no, the steering rows are not informative)", '']
+    return S, md
+
+
 def report():
-    """Success rule (QWEN_TRANSFER_PLAN.md, with speech in place of image), per level; L1 is the main result."""
-    S, md = {}, ['# Gemma 4 12B: typed-remark steering applied to spoken remarks (validation)', '']
+    """Success rule (QWEN_TRANSFER_PLAN.md, speech in place of image; reviewer changes approved Nov 25 23:55 CT), per level; L1 main.
+    Rule 3 uses the valence and shuffled-label directions (random directions remove almost nothing in 3,840 dimensions; reported only).
+    Rule 4a uses accuracy with a spoken neutral remark; accuracy with no remark is reported too."""
+    S, md = {}, ['# Gemma 4 12B: steering built from typed remarks, applied to spoken remarks (validation)', '']
     for lv in levels_on():
         if not (R / f'select_{lv}.json').exists():
             continue
         P = json.loads((R / f'select_{lv}.json').read_text())
         ix = index(read_rows(R / f'val_{lv}.jsonl'))
         steer = P['chosen']
-        meths = ['base', steer, 'constitution'] + [f'rand{i}' for i in range(N_RAND)]
+        ctrl = ['valence', 'shuffled'] + [f'rand{i}' for i in range(N_RAND)]
+        meths = ['base', steer, 'speechdir', 'constitution'] + ctrl
         if any(m not in ix for m in meths):
-            continue
+            print(f'REPORT {lv}: missing methods', [m for m in meths if m not in ix], flush=True); continue
         out = {'chosen': steer, 'layers': P['layers'], 'alpha': P['alpha']}
-        md += [f'## {lv}{" (main)" if lv == "L1" else ""}: chosen setting {steer}', '', '| Format | Method | Accuracy (no remark) | Appearance flips | Floor | Behavior flips | Change in appearance flips vs base |', '|---|---|---|---|---|---|---|']
+        md += [f'## {lv}{" (main)" if lv == "L1" else ""}: chosen setting {steer} (layers {P["layers"]}, strength {P["alpha"]})', '',
+               '| Format | Method | Acc, no remark | Acc, neutral remark | Appearance flips | Floor | Behavior flips | Change in appearance flips vs base |',
+               '|---|---|---|---|---|---|---|---|']
         for ch in ('text', 'speech'):
-            st = {m: {c: item_stats(d, lv, ch) for c, d in ix[m].items()} for m in meths}
-            common = set.intersection(*[{c for c, s in st[m].items() if s['s_app'] is not None and s['r_beh'] is not None and s['s0'] is not None} for m in meths])
-            acc = {m: summarize({c: {'acc': float(d[('none', 'text')]['correct'])} for c, d in ix[m].items() if ('none', 'text') in d}) for m in meths}
-            for m in meths:
-                s = summarize({c: st[m][c] for c in common})
-                o = {'n': len(common), 'acc': acc[m]['acc'], **{k: s[k] for k in ('s_app', 's0', 'r_beh', 'app_minus_floor')}}
+            ms = [m for m in meths if not (ch == 'text' and m == 'speechdir')]
+            st = {m: {c: item_stats(d, lv, ch) for c, d in ix[m].items()} for m in ms}
+            common = set.intersection(*[{c for c, x in st[m].items() if x['s_app'] is not None and x['r_beh'] is not None and x['s0'] is not None and x['acc_neutral'] is not None} for m in ms])
+            acc0 = {m: summarize({c: {'acc': float(d[('none', 'text')]['correct'])} for c, d in ix[m].items() if ('none', 'text') in d}) for m in ms if m != 'speechdir'}
+            for m in ms:
+                sm = summarize({c: st[m][c] for c in common})
+                o = {'n': len(common), 'acc_no_remark': acc0.get(m, {}).get('acc'), **{k: sm[k] for k in ('s_app', 's0', 'r_beh', 'app_minus_floor', 'acc_neutral')}}
                 if m != 'base':
-                    o['d_s_app'] = paired(st[m], st['base'], 's_app', common); o['d_r_beh'] = paired(st[m], st['base'], 'r_beh', common)
-                if m.startswith('rand'):
-                    o['steer_minus_rand_s_app'] = paired(st[steer], st[m], 's_app', common)
+                    for k in ('s_app', 'r_beh', 'acc_neutral'):
+                        o[f'd_{k}'] = paired(st[m], st['base'], k, common)
+                if m in ctrl:
+                    o['steer_minus_ctrl_s_app'] = paired(st[steer], st[m], 's_app', common)
                 out[f'{ch} {m}'] = o
-                md.append(f"| {ch} | {m} | {pct(o['acc'])} | {pct(o['s_app'])} | {pct(o['s0'])} | {pct(o['r_beh'])} | {pct(o.get('d_s_app'))} |")
+                md.append(f"| {ch} | {m} | {pct(o['acc_no_remark'])} | {pct(o['acc_neutral'])} | {pct(o['s_app'])} | {pct(o['s0'])} | {pct(o['r_beh'])} | {pct(o.get('d_s_app'))} |")
+            if ch == 'speech':
+                num = {c: st['base'][c]['s_app'] - st[steer][c]['s_app'] for c in common}
+                den = {c: st['base'][c]['s_app'] - st['speechdir'][c]['s_app'] for c in common}
+                out['transfer_ratio'] = boot_ratio(num, den, common)
         b, s_ = out['speech base'], out[f'speech {steer}']
-        rule = {'1 bias exists (speech app minus floor > 0)': b['app_minus_floor'][1] > 0,
+        rule = {'1 bias exists in speech (appearance flips minus floor, range above 0)': b['app_minus_floor'][1] > 0,
                 '2 steering lowers spoken appearance flips (paired, range below 0)': s_['d_s_app'][2] < 0,
-                '3 beats every random direction (steered minus random, range below 0)': all(out[f'speech rand{i}']['steer_minus_rand_s_app'][2] < 0 for i in range(N_RAND)),
-                '4a accuracy within 2 points': s_['acc'][0] >= b['acc'][0] - 0.02,
-                '4b behavior flips at least 80% of base (speech)': s_['r_beh'][0] >= 0.8 * b['r_beh'][0]}
-        verdict = 'SUCCESS' if all(rule.values()) else 'PARTIAL' if rule['1 bias exists (speech app minus floor > 0)'] and rule['2 steering lowers spoken appearance flips (paired, range below 0)'] else 'NOT SUCCESSFUL'
+                '3 beats the valence and shuffled-label directions (steered minus control, range below 0)': all(out[f'speech {c}']['steer_minus_ctrl_s_app'][2] < 0 for c in ('valence', 'shuffled')),
+                '4a accuracy with a spoken neutral remark within 2 points of base': s_['acc_neutral'][0] >= b['acc_neutral'][0] - 0.02,
+                '4b spoken behavior flips at least 80% of base': s_['r_beh'][0] >= 0.8 * b['r_beh'][0]}
+        k1, k2 = list(rule)[:2]
+        verdict = 'SUCCESS' if all(rule.values()) else 'PARTIAL' if rule[k1] and rule[k2] else 'NOT SUCCESSFUL'
         out['rule'] = rule; out['verdict'] = verdict; S[lv] = out
-        md += ['', 'Success rule (speech):', ''] + [f'- {k}: **{"yes" if v else "no"}**' for k, v in rule.items()] + ['', f'**{lv}: {verdict}**', '']
-        print(f'REPORT {lv}: {verdict}', json.dumps({k: bool(v) for k, v in rule.items()}), flush=True)
+        tr = out['transfer_ratio']
+        md += ['', f"**Transfer ratio** (drop in spoken appearance flips with the text-built direction, divided by the drop with a direction built from speech; 1 = full transfer): {tr[0]} [{tr[1]}, {tr[2]}]. Spoken-direction drop: {pct(out['speech speechdir']['d_s_app'])}.", '',
+               'Random directions (reported, not in the rule): steered minus random ' + ', '.join(pct(out[f'speech rand{i}']['steer_minus_ctrl_s_app']) for i in range(N_RAND)), '',
+               'Success rule (speech):', ''] + [f'- {k}: **{"yes" if v else "no"}**' for k, v in rule.items()] + ['', f'**{lv}: {verdict}**', '']
+        print(f'REPORT {lv}: {verdict}', json.dumps({k: bool(v) for k, v in rule.items()}), 'transfer ratio', tr, flush=True)
+    F, fmd = face_summary()
+    if F:
+        S['faces'] = F; md += fmd
+    try:
+        layer_figure(); md += ['![layers](fig_layers.png)', '']
+    except Exception as ex:
+        print('figure skipped:', ex, flush=True)
     (R / 'report.json').write_text(json.dumps(S, indent=1, default=bool)); (R / 'report.md').write_text('\n'.join(md) + '\n')
     print('\n'.join(md), flush=True)
 

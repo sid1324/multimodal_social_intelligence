@@ -68,6 +68,10 @@ def setup():
         rep = json.loads((P777 / 'data/egonormia/verify_report.json').read_text())
         assert rep['raw_sha_ok'] == 1853 and rep['preview_sha_ok'] == 1853, rep
         (P777 / 'data/.images_ok').touch()
+    if not (P777 / 'data/omi/.ok').exists():
+        # One Million Impressions faces (public, CC BY-NC-SA 4.0), the midterm's pinned commit; used by the exploratory face arm
+        sh(f"git clone -q https://github.com/jcpeterson/omi.git {P777 / 'data/omi'} && cd {P777 / 'data/omi'} && git checkout -q 53bb3c13113afc3ae67aa6ede4ac9dfe33f306af && ls images | wc -l")
+        (P777 / 'data/omi/.ok').touch()
     if not (HF / '.weights_ok').exists():
         e2 = dict(env(), HF_HUB_OFFLINE='0', TRANSFORMERS_OFFLINE='0')
         print('Downloading the model (about 24 GB)', flush=True)
