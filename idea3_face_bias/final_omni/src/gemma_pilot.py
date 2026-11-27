@@ -17,7 +17,7 @@ from evaluate import row_for, read_rows
 from analyze import boot, pct
 import gemma_speech as gs
 
-R = Path(os.environ.get('GP_OUT', str(HERE / 'results/gemma_pilot')))
+R = Path(os.environ.get('GP_OUT', str(HERE / ('results/gemma_pilot' if os.environ.get('GS_MODEL', 'gemma') == 'gemma' else f"results/{os.environ['GS_MODEL']}_pilot"))))
 R.mkdir(parents=True, exist_ok=True)
 CP = yaml.safe_load((CONFIG / 'cues_pilot.yaml').read_text())
 SOURCES = ('looks', 'record', 'none')

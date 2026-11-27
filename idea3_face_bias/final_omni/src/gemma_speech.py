@@ -27,9 +27,9 @@ from channels import build, build_repeat, scene, CUES
 from evaluate import level_conds, row_for, read_rows, key, layer_sets
 from analyze import boot, index, item_stats, summarize, choose, pct
 
-R = Path(os.environ.get('GS_OUT', str(HERE / 'results/gemma')))   # GS_OUT only for the CPU pipeline test
+MODEL = os.environ.get('GS_MODEL', 'gemma')     # 'gemma' (main) or 'qwen' (Qwen3-Omni, the hearing test of Nov 27)
+R = Path(os.environ.get('GS_OUT', str(HERE / ('results/gemma' if MODEL == 'gemma' else f'results/{MODEL}_speech'))))   # GS_OUT only for tests
 R.mkdir(parents=True, exist_ok=True)
-MODEL = 'gemma'
 LEVELS = ('L1', 'L2')                       # L1 main (decided before any Gemma result)
 ALPHAS = (0.5, 1.0)
 N_RAND = 3

@@ -356,13 +356,14 @@ class Nemotron(OmniBase):
 class Qwen3Omni(OmniBase):
     name = 'qwen'
 
-    def __init__(self):
+    def __init__(self, device=None):
         from transformers import Qwen3OmniMoeProcessor, Qwen3OmniMoeThinkerForConditionalGeneration
         path = snapshot('qwen')
         self.processor = Qwen3OmniMoeProcessor.from_pretrained(path)
         self.tok = self.processor.tokenizer
+        self.device = device or ('cuda:0' if torch.cuda.is_available() else 'cpu')
         self.model, self.load_info = Qwen3OmniMoeThinkerForConditionalGeneration.from_pretrained(
-            path, dtype=torch.bfloat16, device_map='auto', attn_implementation='sdpa', output_loading_info=True)
+            path, dtype=torch.bfloat16, device_map=self.device, attn_implementation='sdpa', output_loading_info=True)
         self.model.eval()
         self.lm = self.model.model
         self.block_types = ['attention+moe'] * len(self.lm.layers)
@@ -388,7 +389,7 @@ class Qwen3Omni(OmniBase):
         auds = [load_wav(v) for p in prompts for k, v in p if k == 'audio']
         enc = self.processor(text=[self.chat(p, system) for p in prompts], images=imgs or None, audio=auds or None,
                              padding=True, padding_side='right', return_tensors='pt')
-        return enc.to('cuda:0')
+        return enc.to(self.device)
 
     def n_tokens(self, parts, system=None):
         n = sum(len(self.tok(v)['input_ids']) for k, v in parts if k == 'text') + 40

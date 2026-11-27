@@ -8,7 +8,7 @@ STATE, ROOT, CODE, VENV = DRIVE / 'results', Path('/content/gs'), Path('/content
 PY, HF, P777 = VENV / 'bin/python', Path('/content/hf'), Path('/content/gs/p777')
 BUNDLE = 'gemma_speech_bundle.tar.gz'
 SCRIPT, SUB = 'src/gemma_speech.py', 'results/gemma'   # stage script and its results folder (the pilot runner changes both)
-REV = '43c9d014b231474fa7212dbb48a762566c2b255d'   # google/gemma-4-12B-it
+MODEL_ID, REV = 'google/gemma-4-12B-it', '43c9d014b231474fa7212dbb48a762566c2b255d'   # a runner may switch the model (qwen_run.py)
 
 
 def sh(cmd, **k):
@@ -73,10 +73,11 @@ def setup():
         # One Million Impressions faces (public, CC BY-NC-SA 4.0), the midterm's pinned commit; used by the exploratory face arm
         sh(f"git clone -q https://github.com/jcpeterson/omi.git {P777 / 'data/omi'} && cd {P777 / 'data/omi'} && git checkout -q 53bb3c13113afc3ae67aa6ede4ac9dfe33f306af && ls images | wc -l")
         (P777 / 'data/omi/.ok').touch()
-    if not (HF / '.weights_ok').exists():
+    wmark = HF / ('.weights_ok' if MODEL_ID == 'google/gemma-4-12B-it' else f'.weights_ok_{REV[:8]}')
+    if not wmark.exists():
         e2 = dict(env(), HF_HUB_OFFLINE='0', TRANSFORMERS_OFFLINE='0')
         print('Downloading the model (about 24 GB)', flush=True)
-        sh([str(PY), '-c', f"from huggingface_hub import snapshot_download as s; print(s('google/gemma-4-12B-it', revision='{REV}', max_workers=16))"], env=e2); (HF / '.weights_ok').touch()
+        sh([str(PY), '-c', f"from huggingface_hub import snapshot_download as s; print(s('{MODEL_ID}', revision='{REV}', max_workers=16))"], env=e2); wmark.touch()
     out = subprocess.run([str(PY), '-c', 'import torch, transformers, PIL; print(torch.__version__, transformers.__version__, PIL.__version__, torch.cuda.get_device_name(0), torch.cuda.is_bf16_supported())'], env=env(), capture_output=True, text=True)
     print('environment:', out.stdout.strip() or out.stderr[-600:])
     (CODE / SUB).mkdir(parents=True, exist_ok=True)
