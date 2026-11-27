@@ -126,3 +126,4 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-27 07:33 CT | JOB 24672808 drv: batch wait est A100x4 357.1 h, H200 1068.5 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 52.0, reserved 7.6
 - 11-27 09:24 CT | JOB 24677872 drv: batch wait est A100x4 355.2 h, H200 1049.2 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 55.7, reserved 7.6
 - 11-27 09:51 CT | Keepalive end extended from Fri Nov 27 17:00 to Sun Nov 29 17:00 CT (Yash, so Nemotron DPO-text can finish). SU used about 40 of the 150 pause.
+- 11-27 11:13 CT | Nemotron DPO-text finished: 459/459 steps, epochs 1-3 saved (adapters/nemotron_text). Validation of the epochs (val_dpo_text_e*) is next in the driver queue.
