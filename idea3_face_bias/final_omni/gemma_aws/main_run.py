@@ -31,6 +31,7 @@ def sub_for(model, job):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--model', choices=MODELS, required=True); ap.add_argument('--job', choices=JOBS, required=True)
+    ap.add_argument('--dpo-zip', default='', help='fixeval: a DPO results zip (e.g. dpo_results_*.zip) to unpack if this machine lacks the adapters')
     a = ap.parse_args()
     os.environ['GS_MODEL'] = a.model
     BASE = HOME / 'idea3_gemma_speech'
@@ -60,6 +61,12 @@ def main():
     mark.write_text(sha)
     if a.job in ('dpo', 'fixeval') and subprocess.run([str(q.PY), '-c', 'import peft'], capture_output=True).returncode:
         q.sh(f'uv pip install -q --python {q.PY} {PEFT}')
+    if a.job == 'fixeval':
+        dd = q.CODE / ('results/gemma_dpo' if a.model == 'gemma' else f'results/{a.model}_dpo')
+        if a.dpo_zip and not (dd / 'report.json').exists():
+            zipfile.ZipFile(a.dpo_zip).extractall(dd); print('unpacked DPO results from', a.dpo_zip, 'into', dd, flush=True)
+        have = sorted(str(p.parent.relative_to(dd)) for p in dd.glob('adapters/*/epoch*/adapter_model.safetensors'))
+        print('DPO adapters found:', have or 'NONE (DPO rows will be skipped; pass --dpo-zip <the dpo_results zip>)', flush=True)
     print(f'=== {a.model} {a.job}: {q.SCRIPT} {stages}, results in {q.SUB}', flush=True)
     q.run(stages, hours=hours)
     q.sync()

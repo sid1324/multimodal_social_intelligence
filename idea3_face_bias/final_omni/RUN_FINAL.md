@@ -15,7 +15,7 @@ First run on a machine: about 15 to 30 minutes of setup (packages, images, model
 ## The three jobs
 | Who | Command (inside gemma_aws/) | GPU | Time |
 |---|---|---|---|
-| Atharv | `python3 main_run.py --model gemma --job fixeval` | his Gemma machine (it already holds the Gemma DPO adapters in ~/idea3_gemma_speech/gs/final_omni/results/gemma_dpo) | 3 to 4 h |
+| Atharv | `python3 main_run.py --model gemma --job fixeval --dpo-zip <path to dpo_results_1127_1426.zip>` | any GPU with 40 GB or more; the zip from his DPO run supplies the adapters (not needed if the machine still has ~/idea3_gemma_speech/gs/final_omni/results/gemma_dpo) | 3 to 4 h |
 | Shiv | `python3 main_run.py --model qwen --job dpo` | 96 GB (g7e / G4) | 8 to 12 h |
 | Yash | `python3 main_run.py --model qwen --job steering` | 96 GB (the Qwen pilot instance) | 8 to 10 h |
 
@@ -31,7 +31,7 @@ Each run ends with `RESULTS ZIP: ~/idea3_gemma_speech/<model>_<job>_results_*.zi
 
 ## Afterwards
 Qwen fixeval needs the Qwen steering and DPO results on one machine; Claude will combine them. Then the freeze (Yash approves) and the
-test-split run. If Atharv's machine no longer has the Gemma adapters, copy `results/gemma_dpo/adapters/` there from Delta first.
+test-split run. The fixeval log prints which DPO adapters it found; if it says NONE, rerun with --dpo-zip.
 
 ## Please do not
 Change settings, cues or rules without telling Yash. Do not run anything on the test split.
