@@ -30,7 +30,7 @@ from analyze import boot, index, item_stats, summarize, choose, pct
 MODEL = os.environ.get('GS_MODEL', 'gemma')     # 'gemma' (main) or 'qwen' (Qwen3-Omni, the hearing test of Nov 27)
 R = Path(os.environ.get('GS_OUT', str(HERE / ('results/gemma' if MODEL == 'gemma' else f'results/{MODEL}_speech'))))   # GS_OUT only for tests
 R.mkdir(parents=True, exist_ok=True)
-LEVELS = ('L1', 'L2')                       # L1 main (decided before any Gemma result)
+LEVELS = tuple(os.environ.get('GS_LEVELS', 'L1,L2').split(','))   # L1 main (decided before any Gemma result); both levels by default
 ALPHAS = (0.5, 1.0)
 N_RAND = 3
 END = float(os.environ.get('STOP_AT', '1e12'))   # epoch seconds; stages stop cleanly before it
@@ -416,7 +416,7 @@ def directions():
 def select(lv):
     ix = index(read_rows(R / f'val_{lv}.jsonl'))
     T = {m: summarize({c: item_stats(d, lv, 'text') for c, d in it.items()}) for m, it in ix.items() if m == 'base' or m.startswith('naive_')}
-    ls = layer_sets(48)
+    ls = layer_sets(np.load(R / 'directions_gemma.npz')[f'app_text_{lv}'].shape[0])   # the model's own layer count
     parse = lambda m: (lambda x: (float(x[1]), len(ls[x[0]])))(m[len('naive_'):].rsplit('_a', 1))
     cands = sorted(m for m in T if m.startswith('naive_'))
     assert len(cands) == len(ls) * len(ALPHAS), cands

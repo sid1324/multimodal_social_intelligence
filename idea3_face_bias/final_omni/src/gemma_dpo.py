@@ -29,9 +29,9 @@ from evaluate import read_rows, level_conds
 from analyze import index, item_stats, summarize, choose, pct, boot
 import gemma_speech as gs
 
-R = Path(os.environ.get('GD_OUT', str(HERE / 'results/gemma_dpo')))
+R = Path(os.environ.get('GD_OUT', str(HERE / ('results/gemma_dpo' if gs.MODEL == 'gemma' else f'results/{gs.MODEL}_dpo'))))
 R.mkdir(parents=True, exist_ok=True)
-GEMMA_RESULTS = Path(os.environ.get('GS_RESULTS', str(HERE / 'results/gemma')))   # the speech-transfer run (gate rows, base validation rows)
+GEMMA_RESULTS = Path(os.environ.get('GS_RESULTS', str(HERE / ('results/gemma' if gs.MODEL == 'gemma' else f'results/{gs.MODEL}_speech'))))   # this model's speech run (gate rows, base validation rows), if any
 CFG = yaml.safe_load((CONFIG / 'dpo.yaml').read_text())
 CONDS = [c for lv in CFG['levels'] for c in level_conds(lv, ('app_tr', 'beh_tr'))]
 EVAL_LV = os.environ.get('GD_EVAL_LEVEL', 'L1')
@@ -45,7 +45,8 @@ N_EVAL = int(os.environ.get('GD_N_EVAL', 10 ** 6))
 def rows():
     sp = load_splits()
     gate = set(gate_items(sp, load_item_table(), 300))
-    items = [k for k in sp['pool']['train'] if k not in gate][:N_TRAIN]
+    have_gate = (GEMMA_RESULTS / 'g2_rows.jsonl').exists()   # without this model's speech run, score the 300 gate scenes here too
+    items = [k for k in sp['pool']['train'] if not have_gate or k not in gate][:N_TRAIN]
     cells = [('none', 'text')] + [(c, 'text') for c in CONDS]
     if not gs.grid(R / 'train_rows.jsonl', 'base', items, cells, 'train'):
         sys.exit(75)
@@ -54,7 +55,8 @@ def rows():
 
 def pairs():
     sp = load_splits(); train = set(sp['pool']['train'])
-    rr = [r for r in read_rows(GEMMA_RESULTS / 'g2_rows.jsonl') if r['channel'] == 'text'] + read_rows(R / 'train_rows.jsonl')
+    g2p = GEMMA_RESULTS / 'g2_rows.jsonl'
+    rr = ([r for r in read_rows(g2p) if r['channel'] == 'text'] if g2p.exists() else []) + read_rows(R / 'train_rows.jsonl')
     pred = {(r['id'], r['condition']): r for r in rr if r['method'] == 'base'}
     items = sorted({i for i, c in pred if c == 'none' and all((i, x) in pred for x in CONDS)})
     assert items and set(items) <= train, 'pairs must come from complete training scenes only'
