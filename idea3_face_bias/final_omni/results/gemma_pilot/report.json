@@ -1,0 +1,234 @@
+{
+ "perception": {
+  "speech": 0.2,
+  "source_word": 0.36666666666666664,
+  "trait_word": 0.26666666666666666,
+  "speech female": 0.29411764705882354,
+  "speech male": 0.07692307692307693,
+  "below_0.90": true
+ },
+ "text src_looks": {
+  "n": 300,
+  "flips": [
+   0.465,
+   0.4153,
+   0.5161
+  ],
+  "minus_floor": [
+   0.3783,
+   0.3204,
+   0.4379
+  ]
+ },
+ "text src_record": {
+  "n": 300,
+  "flips": [
+   0.5217,
+   0.4705,
+   0.5737
+  ],
+  "minus_floor": [
+   0.435,
+   0.3754,
+   0.4948
+  ]
+ },
+ "text src_none": {
+  "n": 300,
+  "flips": [
+   0.5133,
+   0.4596,
+   0.5677
+  ],
+  "minus_floor": [
+   0.4267,
+   0.3657,
+   0.4878
+  ]
+ },
+ "text implicit": {
+  "n": 300,
+  "flips": [
+   0.2708,
+   0.2348,
+   0.3078
+  ],
+  "minus_floor": [
+   0.1842,
+   0.1421,
+   0.2275
+  ]
+ },
+ "text floor": {
+  "flips": [
+   0.0867,
+   0.0567,
+   0.1181
+  ]
+ },
+ "text looks minus record": [
+  -0.0567,
+  -0.0922,
+  -0.0217
+ ],
+ "speech src_looks": {
+  "n": 300,
+  "flips": [
+   0.2617,
+   0.2237,
+   0.3033
+  ],
+  "minus_floor": [
+   0.145,
+   0.0949,
+   0.1953
+  ]
+ },
+ "speech src_record": {
+  "n": 300,
+  "flips": [
+   0.285,
+   0.2417,
+   0.329
+  ],
+  "minus_floor": [
+   0.1683,
+   0.1156,
+   0.2186
+  ]
+ },
+ "speech src_none": {
+  "n": 300,
+  "flips": [
+   0.2983,
+   0.2542,
+   0.3442
+  ],
+  "minus_floor": [
+   0.1817,
+   0.1324,
+   0.2326
+  ]
+ },
+ "speech implicit": {
+  "n": 300,
+  "flips": [
+   0.22,
+   0.1866,
+   0.2533
+  ],
+  "minus_floor": [
+   0.1033,
+   0.0596,
+   0.1455
+  ]
+ },
+ "speech floor": {
+  "flips": [
+   0.1167,
+   0.0828,
+   0.1517
+  ]
+ },
+ "speech looks minus record": [
+  -0.0233,
+  -0.0613,
+  0.013
+ ],
+ "rating text src_looks": {
+  "n": 100,
+  "low_minus_high": [
+   -2.1166,
+   -2.3134,
+   -1.9265
+  ],
+  "pairs_negative": 2,
+  "n_pairs": 2
+ },
+ "rating text src_record": {
+  "n": 100,
+  "low_minus_high": [
+   -4.3966,
+   -4.6407,
+   -4.142
+  ],
+  "pairs_negative": 2,
+  "n_pairs": 2
+ },
+ "rating text src_none": {
+  "n": 100,
+  "low_minus_high": [
+   -3.5298,
+   -3.79,
+   -3.2605
+  ],
+  "pairs_negative": 2,
+  "n_pairs": 2
+ },
+ "rating text implicit": {
+  "n": 100,
+  "low_minus_high": [
+   0.8871,
+   0.5745,
+   1.1862
+  ],
+  "pairs_negative": 1,
+  "n_pairs": 4
+ },
+ "rating text digit_mass": 0.9846434054541446,
+ "rating text scale agreement r": 0.6971540675491831,
+ "rating speech src_looks": {
+  "n": 100,
+  "low_minus_high": [
+   0.4061,
+   0.3199,
+   0.4966
+  ],
+  "pairs_negative": 0,
+  "n_pairs": 2
+ },
+ "rating speech src_record": {
+  "n": 100,
+  "low_minus_high": [
+   0.489,
+   0.3888,
+   0.5875
+  ],
+  "pairs_negative": 0,
+  "n_pairs": 2
+ },
+ "rating speech src_none": {
+  "n": 100,
+  "low_minus_high": [
+   -1.1293,
+   -1.2911,
+   -0.9723
+  ],
+  "pairs_negative": 2,
+  "n_pairs": 2
+ },
+ "rating speech implicit": {
+  "n": 100,
+  "low_minus_high": [
+   -1.4055,
+   -1.5589,
+   -1.2552
+  ],
+  "pairs_negative": 4,
+  "n_pairs": 4
+ },
+ "rating speech digit_mass": 0.9561654689514872,
+ "rating speech scale agreement r": 0.6644002755718844,
+ "pilot1_rules": {
+  "(b) record above floor, typed": true,
+  "(b) record above floor, spoken": true,
+  "(c) looks above floor, typed": true
+ },
+ "pilot1_go": true,
+ "looks_spoken_above_floor": true,
+ "pilot2_rules": {
+  "manipulation check (typed): low minus high <= -1.0, range below 0, >= 3 of 4 pairs": false,
+  "action effect (typed): implicit flips above floor": true
+ },
+ "pilot2_include": false
+}
