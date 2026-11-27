@@ -7,6 +7,7 @@ D=$(mktemp -d "${TMPDIR:-/tmp}/gsb.XXXX")
 mkdir -p $D/final_omni/results $D/p777/data $D/p777/cache
 cp -r src config $D/final_omni/ && rm -rf $D/final_omni/src/__pycache__
 cp results/splits.json results/omi_pairs.json $D/final_omni/results/
+mkdir -p $D/final_omni/results/gemma && cp results/gemma/g2_rows.jsonl results/gemma/val_L1.jsonl results/gemma/val_L2.jsonl results/gemma/gate.json results/gemma/select_L1.json results/gemma/select_L2.json results/gemma/directions_gemma.npz $D/final_omni/results/gemma/   # speech-run answers: DPO pairs and baselines
 cp -r $W/data/ref $D/p777/data/ref
 cp -r $W/cache/tts $D/p777/cache/tts
 tar czf gemma_colab/gemma_speech_bundle.tar.gz -C $D final_omni p777

@@ -100,9 +100,9 @@ def gate():
     print('gate finished', flush=True)
 
 
-def rating_prompt(v, img, cond, channel):
+def rating_prompt(v, img, cond, channel, reversed_scale=False):
     parts = build(v, img, cond, channel)
-    q, out = CP['rating_question'], []
+    q, out = CP['rating_question_reversed' if reversed_scale else 'rating_question'], []
     for k, x in parts:
         if k == 'text' and 'What should the camera wearer do next?' in x:
             x = x[:x.index('What should the camera wearer do next?')] + q
@@ -130,13 +130,16 @@ def rating():
             v, img = ann[cid], scene(cid)
             buf = ''
             for c, ch in todo:
-                with torch.no_grad():
-                    hid, _ = m.last_hidden([rating_prompt(v, img, c, ch)])
-                    lg = m.logits32(hid[0])
-                full = torch.log_softmax(lg, -1)
-                p = torch.softmax(lg[ids], -1)
-                ev = float((p * torch.arange(1, 8, device=p.device, dtype=p.dtype)).sum())
-                buf += json.dumps({'id': cid, 'condition': c, 'channel': ch, 'rating': ev, 'digit_mass': float(full[ids].exp().sum())}) + '\n'
+                ev, mass = [], []
+                for rev in (False, True):   # counterbalanced scale (cues_pilot.yaml)
+                    with torch.no_grad():
+                        hid, _ = m.last_hidden([rating_prompt(v, img, c, ch, rev)])
+                        lg = m.logits32(hid[0])
+                    full = torch.log_softmax(lg, -1)
+                    p = torch.softmax(lg[ids], -1)
+                    ev.append(float((p * torch.arange(1, 8, device=p.device, dtype=p.dtype)).sum())); mass.append(float(full[ids].exp().sum()))
+                buf += json.dumps({'id': cid, 'condition': c, 'channel': ch, 'rating': (ev[0] + 8 - ev[1]) / 2, 'rating_forward': ev[0],
+                                   'rating_reversed_flipped': 8 - ev[1], 'digit_mass': float(np.mean(mass))}) + '\n'
             fh.write(buf); fh.flush()
             if (i + 1) % 10 == 0:
                 print(f'rating: {i + 1}/{len(items)} scenes', flush=True)
@@ -202,7 +205,10 @@ def report():
                 lm = o['low_minus_high']
                 md.append(f"| {ch} | {f} | {lm[0]:.2f} [{lm[1]:.2f}, {lm[2]:.2f}] | {o['pairs_negative']} of {o['n_pairs']} |")
             S[f'rating {ch} digit_mass'] = float(np.mean([r['digit_mass'] for r in rr if r['channel'] == ch]))
-        md += ['', f"Mean probability on the digits 1 to 7: typed {S.get('rating text digit_mass', float('nan')):.3f}, spoken {S.get('rating speech digit_mass', float('nan')):.3f}."]
+            fw = [r['rating_forward'] for r in rr if r['channel'] == ch]; rv = [r['rating_reversed_flipped'] for r in rr if r['channel'] == ch]
+            S[f'rating {ch} scale agreement r'] = float(np.corrcoef(fw, rv)[0, 1]) if len(fw) > 2 and np.std(fw) > 0 and np.std(rv) > 0 else None
+        md += ['', f"Mean probability on the digits 1 to 7: typed {S.get('rating text digit_mass', float('nan')):.3f}, spoken {S.get('rating speech digit_mass', float('nan')):.3f}.",
+               f"Agreement between the two scale directions (correlation): typed {S.get('rating text scale agreement r')}, spoken {S.get('rating speech scale agreement r')}. Low agreement means the ratings are not trustworthy."]
     # frozen rules (PILOT_PLAN.md)
     above = lambda k: bool(S[k]['minus_floor'][1] > 0)
     p1 = {'(b) record above floor, typed': above('text src_record'), '(b) record above floor, spoken': above('speech src_record'),

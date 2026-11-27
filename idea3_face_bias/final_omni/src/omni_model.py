@@ -503,6 +503,12 @@ class Gemma4(OmniBase):
 
     LORA_REGEX = r'.*language_model\.layers\.\d+\.self_attn\.(q_proj|k_proj|v_proj|o_proj)'
 
+    def add_lora(self, lcfg):
+        """LoRA on the language model's attention projections; injected in place, so self.model runs with the adapter."""
+        from peft import get_peft_model
+        self.peft = get_peft_model(self.model, lcfg)
+        return self.peft
+
 
 def load(name):
     return {'nemotron': Nemotron, 'qwen': Qwen3Omni, 'gemma': Gemma4}[name]()

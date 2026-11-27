@@ -38,3 +38,6 @@ implicit:
 
 # Rating (all three sources and the implicit cues, typed and spoken): how strong is each claim taken to be?
 rating_question: "On a scale from 1 (very untrustworthy) to 7 (very trustworthy), how trustworthy does the other person seem? Respond with only one number."
+# Counterbalanced (added before any pilot result): a CPU check showed Gemma answering "1" for both implicit cues on one scene, a
+# likely default toward the first number. Each rating is asked with both scale directions; rating = (forward + (8 - reversed)) / 2.
+rating_question_reversed: "On a scale from 1 (very trustworthy) to 7 (very untrustworthy), how trustworthy does the other person seem? Respond with only one number."
