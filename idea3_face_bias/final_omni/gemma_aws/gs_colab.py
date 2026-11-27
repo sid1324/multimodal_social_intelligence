@@ -7,6 +7,7 @@ DRIVE = Path('/content/drive/MyDrive/idea3_gemma_speech') if Path('/content/driv
 STATE, ROOT, CODE, VENV = DRIVE / 'results', Path('/content/gs'), Path('/content/gs/final_omni'), Path('/content/gsenv')
 PY, HF, P777 = VENV / 'bin/python', Path('/content/hf'), Path('/content/gs/p777')
 BUNDLE = 'gemma_speech_bundle.tar.gz'
+SCRIPT, SUB = 'src/gemma_speech.py', 'results/gemma'   # stage script and its results folder (the pilot runner changes both)
 REV = '43c9d014b231474fa7212dbb48a762566c2b255d'   # google/gemma-4-12B-it
 
 
@@ -42,7 +43,7 @@ def copy_new(src, dst):
 
 
 def sync():
-    return copy_new(CODE / 'results/gemma', STATE)
+    return copy_new(CODE / SUB, STATE)
 
 
 def setup():
@@ -56,7 +57,7 @@ def setup():
         if not (DRIVE / BUNDLE).exists():
             shutil.copy(found[0], DRIVE / BUNDLE)
         if STATE.exists():
-            print('restored from Drive:', copy_new(STATE, CODE / 'results/gemma'), 'files')
+            print('restored from Drive:', copy_new(STATE, CODE / SUB), 'files')
         (ROOT / '.unpacked').touch()
     if not (VENV / '.ok').exists():
         sh('pip -q install uv'); sh(f'uv venv -q --clear --python 3.12 {VENV}')
@@ -78,14 +79,14 @@ def setup():
         sh([str(PY), '-c', f"from huggingface_hub import snapshot_download as s; print(s('google/gemma-4-12B-it', revision='{REV}', max_workers=16))"], env=e2); (HF / '.weights_ok').touch()
     out = subprocess.run([str(PY), '-c', 'import torch, transformers, PIL; print(torch.__version__, transformers.__version__, PIL.__version__, torch.cuda.get_device_name(0), torch.cuda.is_bf16_supported())'], env=env(), capture_output=True, text=True)
     print('environment:', out.stdout.strip() or out.stderr[-600:])
-    (CODE / 'results/gemma').mkdir(parents=True, exist_ok=True)
-    (CODE / 'results/gemma/environment.txt').write_text(out.stdout + out.stderr[-2000:] + subprocess.run([str(PY), '-m', 'pip', 'freeze'], capture_output=True, text=True).stdout)
+    (CODE / SUB).mkdir(parents=True, exist_ok=True)
+    (CODE / SUB / 'environment.txt').write_text(out.stdout + out.stderr[-2000:] + subprocess.run([str(PY), '-m', 'pip', 'freeze'], capture_output=True, text=True).stdout)
     assert out.returncode == 0; print('SETUP DONE')
 
 
 def stage(name, end):
-    log = CODE / 'results/gemma/colab_log.txt'; log.parent.mkdir(parents=True, exist_ok=True); print(f'=== {name}', time.strftime('%H:%M'), flush=True)
-    p = subprocess.Popen([str(PY), 'src/gemma_speech.py', *name.split()], cwd=CODE, env=env(end), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace')
+    log = CODE / SUB / 'colab_log.txt'; log.parent.mkdir(parents=True, exist_ok=True); print(f'=== {name}', time.strftime('%H:%M'), flush=True)
+    p = subprocess.Popen([str(PY), SCRIPT, *name.split()], cwd=CODE, env=env(end), stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, errors='replace')
     with open(log, 'a') as fh:
         for line in p.stdout:
             fh.write(line); fh.flush()
@@ -105,8 +106,8 @@ def run(stages, hours=8.0):
     try:
         for s in stages:
             code = stage(s, end)
-            if (CODE / 'results/gemma/STOP.md').exists():
-                print('STOPPED BY A GATE:', (CODE / 'results/gemma/STOP.md').read_text()); break
+            if (CODE / SUB / 'STOP.md').exists():
+                print('STOPPED BY A GATE:', (CODE / SUB / 'STOP.md').read_text()); break
             if code == 75 or time.time() > end - 120:
                 print('time limit reached: Runtime > Run all again to continue (it resumes)'); break
             if code:

@@ -149,6 +149,16 @@ def load_cues_all():
         for side in ('neg', 'pos'):
             for i, s in enumerate(c['state'][side]):
                 out[f'{lv}_state_{side}{i}'] = s
+    pp = CONFIG / 'cues_pilot.yaml'      # pilots, Nov 26 (PILOT_PLAN.md): P_src_{looks,record,none}_{low,high}{i}, P_imp_{low,high}{i}
+    if pp.exists():
+        cp = yaml.safe_load(pp.read_text())
+        for src, d in cp['source'].items():
+            for side in ('low', 'high'):
+                for i, s in enumerate(d[side]):
+                    out[f'P_src_{src}_{side}{i}'] = s
+        for side in ('low', 'high'):
+            for i, s in enumerate(cp['implicit'][side]):
+                out[f'P_imp_{side}{i}'] = s
     ch = yaml.safe_load((CONFIG / 'channels.yaml').read_text())
     for side in ('neg', 'pos'):
         for i, s in enumerate(ch['valence_control'][side]):

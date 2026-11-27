@@ -64,6 +64,21 @@ class Fake:
             res.append(self.rng.standard_normal((48, 64)).astype(np.float32) + (0.5 if low else 0))
         return outs, (res if capture else None)
 
+    class tok:   # digits 1 to 7 map to token ids 1 to 7 (rating stage of the pilot)
+        @staticmethod
+        def encode(t, add_special_tokens=False):
+            return [int(t)] if t.isdigit() else [ord(c) for c in t]
+
+    def last_hidden(self, prompts, system=None):
+        import torch
+        t = ' '.join(x for k, x in prompts[0] if k == 'text').split('On a scale')[0]   # ignore the rating question's own words
+        low = any(w in t for w in ('untrustworthy', 'cannot be trusted', 'tattoos', 'torn'))
+        h = torch.zeros(1, 8); h[0, 1 if low else 6] = 3.0
+        return h, [100]
+
+    def logits32(self, hid):
+        return hid
+
     def generate(self, parts, system=None, max_new_tokens=4):
         if max_new_tokens > 10:
             return ' '.join(x for k, x in parts if k == 'text')[:0] + 'The other person in the scene appears untrustworthy.'
