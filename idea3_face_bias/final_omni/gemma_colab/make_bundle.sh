@@ -6,6 +6,7 @@ W=/work/hdd/bjuv/ylothe/idea3_final
 D=$(mktemp -d "${TMPDIR:-/tmp}/gsb.XXXX")
 mkdir -p $D/final_omni/results $D/p777/data $D/p777/cache
 cp -r src config $D/final_omni/ && rm -rf $D/final_omni/src/__pycache__
+mkdir -p $D/final_omni/colab && cp colab/requirements.lock $D/final_omni/colab/   # Nemotron environment (nemotron_run.py)
 cp results/splits.json results/omi_pairs.json $D/final_omni/results/
 mkdir -p $D/final_omni/results/gemma && cp results/gemma/g2_rows.jsonl results/gemma/val_L1.jsonl results/gemma/val_L2.jsonl results/gemma/gate.json results/gemma/select_L1.json results/gemma/select_L2.json results/gemma/directions_gemma.npz $D/final_omni/results/gemma/   # speech-run answers: DPO pairs and baselines
 cp -r $W/data/ref $D/p777/data/ref

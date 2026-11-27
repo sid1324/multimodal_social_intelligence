@@ -163,8 +163,10 @@ def check():
     ratio = max(abs(float(r1[0][L] @ (r0[0][L] / np.linalg.norm(r0[0][L])))) / abs(float(r0[0][L] @ (r0[0][L] / np.linalg.norm(r0[0][L])))) for L in Ls)
     L = Ls[1]; u = r0[0][L] / np.linalg.norm(r0[0][L])
     first = lambda g: re.sub(r'<[^>]*>', '', g).strip()[:1]
+    known = {'vision_model.radio_model.summary_idxs'}   # Nemotron: a buffer not in its checkpoint, set by Nemotron.fix_buffers()
+    missing = sorted(set(m.load_info['missing_keys']) - known)
     S = {'gpu': torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'cpu', 'n_layers': m.n_layers,
-         'n_missing_keys': len(m.load_info['missing_keys']), 'n_unexpected_keys': len(m.load_info['unexpected_keys']),
+         'n_missing_keys': len(missing), 'missing_keys': missing[:20], 'n_unexpected_keys': len(m.load_info['unexpected_keys']),
          'mean_letter_mass': float(np.mean([r['mass'] for r in rows])), 'greedy_agree': float(np.mean([first(r['gen']) == r['argmax'] for r in rows])),
          'acc_no_remark_20': float(np.mean([r['correct'] for r in rows])), 'finite': all(r['finite'] for r in rows),
          'mean_tokens': float(np.mean([r['n_tokens'] for r in rows])),

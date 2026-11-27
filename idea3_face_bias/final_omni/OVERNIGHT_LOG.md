@@ -118,3 +118,11 @@ sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (
 - 11-26 01:16 CT | Cancelled job 24550622 (Qwen caption backup, never started): Yash dropped the caption experiment on Nov 25. No SU used.
 - 11-26 01:31 CT | JOB 24561687 drv: batch wait est A100x4 320.4 h, H200 1319.1 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 39.1, reserved 15.6
 - 11-26 06:49 CT | JOB 24592218 drv: batch wait est A100x4 420.6 h, H200 1304.3 h -> gpuA100x8-interactive, 0.95 h at 6.0 SU/h (max 5.7); SU used 40.7, reserved 13.7
+- 11-26 15:32 CT | JOB 24618127 drv: batch wait est A100x4 393.3 h, H200 1167.4 h -> gpuA40x4-interactive, 0.95 h at 2.0 SU/h (max 1.9); SU used 41.2, reserved 17.5
+- 11-26 18:17 CT | JOB 24634213 drv: batch wait est A100x4 393.0 h, H200 1145.6 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 42.2, reserved 15.6
+- 11-27 00:25 CT | JOB 24641986 drv: batch wait est A100x4 404.1 h, H200 1085.2 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 46.3, reserved 7.6
+- 11-27 02:08 CT | JOB 24650922 drv: batch wait est A100x4 389.9 h, H200 1087.8 h -> gpuA40x4-interactive, 0.95 h at 2.0 SU/h (max 1.9); SU used 46.9, reserved 9.5
+- 11-27 03:55 CT | JOB 24660557 drv: batch wait est A100x4 372.5 h, H200 1108.2 h -> gpuA100x8-interactive, 0.95 h at 6.0 SU/h (max 5.7); SU used 48.4, reserved 5.7
+- 11-27 07:33 CT | JOB 24672808 drv: batch wait est A100x4 357.1 h, H200 1068.5 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 52.0, reserved 7.6
+- 11-27 09:24 CT | JOB 24677872 drv: batch wait est A100x4 355.2 h, H200 1049.2 h -> gpuA100x4-interactive, 0.95 h at 4.0 SU/h (max 3.8); SU used 55.7, reserved 7.6
+- 11-27 09:51 CT | Keepalive end extended from Fri Nov 27 17:00 to Sun Nov 29 17:00 CT (Yash, so Nemotron DPO-text can finish). SU used about 40 of the 150 pause.
