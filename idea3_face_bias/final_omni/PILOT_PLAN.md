@@ -49,3 +49,16 @@ Claim wording: "discounting trait claims attributed to looks", not "stereotype i
   "very untrustworthy", tattoos and torn hoodie "very trustworthy"), so ratings depend on the scene; the pilot compares low and high
   cues within each scene. "Based on their looks, ... untrustworthy" was again "4" on both directions (2 of 2 scenes): asked directly,
   Gemma treats a looks-based claim as neutral, while its actions flip on such remarks (41% typed in the speech run).
+
+## After the pilot (Nov 27): independent review and audio check
+- Audio check: Whisper (small.en) transcribes 38 of 40 pilot clips exactly as intended (both "face tattoos" clips come out as
+  "faced tattoos"). The clips are fine; the errors in the hearing check are Gemma's.
+- Hearing re-scored by polarity (review): 0.67 overall (male 0.85, female 0.53); low cues 16/16, high cues 4/14 (Gemma defaults to
+  a negative remark). The earlier speech run: 0.93 by polarity. Spoken action effects are real but about 30% of typed
+  (projection 0.28 to 0.33; same options chosen far more often than opposite). Spoken ratings are not usable.
+- "Says vs does" gap (ratings discount looks more than actions do) is driven by wording 1 ("appearance" / "past actions"); wording 0
+  shows no gap. Reported as a diagnostic by wording, not as the main measure.
+- Implicit cues: ratings go the wrong way, but actions shift toward the "untrustworthy" option (typed 0.20 of the bare-claim shift,
+  spoken 0.24, all 4 pairs positive); confound: the low cues are also negative-sounding. One exploratory panel.
+- Plan kept: the frozen main measure (a fix lowers looks flips more than record flips, typed, held-out wording) plus a signed
+  measure; fixes: written rule, steering, DPO-text, DPO-multi. Speech secondary, hearing reported by voice and by low vs high.
