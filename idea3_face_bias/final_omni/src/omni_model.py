@@ -25,7 +25,7 @@ MAX_BATCH_TOKENS = int(os.environ.get('MAX_BATCH_TOKENS', 16000))
 def snapshot(name):
     mid, rev = REV[name]
     fast = Path('/work/nvme/bjuv/ylothe/idea3_weights') / name
-    if (fast / '.done').exists():      # NVMe copy of the same pinned snapshot (the HDD copy takes 11 min to load)
+    if (fast / '.done').exists() and not os.environ.get('OMNI_NO_NVME'):   # OMNI_NO_NVME=1: use HF_HOME (tests)      # NVMe copy of the same pinned snapshot (the HDD copy takes 11 min to load)
         return str(fast / rev)
     return str(Path(os.environ['HF_HOME']) / 'hub' / ('models--' + mid.replace('/', '--')) / 'snapshots' / rev)
 
@@ -365,7 +365,7 @@ class Qwen3Omni(OmniBase):
         self.model, self.load_info = Qwen3OmniMoeThinkerForConditionalGeneration.from_pretrained(
             path, dtype=torch.bfloat16, device_map=self.device, attn_implementation='sdpa', output_loading_info=True)
         self.model.eval()
-        self.lm = self.model.model
+        self.lm = self.model.model.language_model if hasattr(self.model.model, 'language_model') else self.model.model   # transformers 5.x nests it
         self.block_types = ['attention+moe'] * len(self.lm.layers)
         self._last = None
         self._finish_init(self.lm.layers, self.model.lm_head)
@@ -421,7 +421,7 @@ class Qwen3Omni(OmniBase):
         out = self.model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False)
         return self.tok.decode(out[0, enc['input_ids'].shape[1]:], skip_special_tokens=False)
 
-    LORA_REGEX = r'model\.layers\.\d+\.self_attn\.(q_proj|k_proj|v_proj|o_proj)'
+    LORA_REGEX = r'.*language_model\.layers\.\d+\.self_attn\.(q_proj|k_proj|v_proj|o_proj)'   # text decoder only, not the audio tower
 
     def add_lora(self, lcfg):
         from peft import get_peft_model
