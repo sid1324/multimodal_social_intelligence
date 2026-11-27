@@ -9,13 +9,15 @@ Branch `idea3-final`, folder `idea3_face_bias/final_omni/`.
     cp gemma_colab/gemma_speech_bundle.tar.gz gemma_aws/       # the runner looks for the bundle next to itself
     cd gemma_aws && tmux new -s g                               # keeps running if the connection drops
 
-GPU memory: Gemma needs 40 GB or more (A100 40/80, L40S, G4); Qwen3-Omni needs 80 GB or more (AWS g7e.2xlarge, Colab G4).
+GPU memory: Gemma needs 40 GB or more (A100 40/80, L40S, G4). Qwen3-Omni needs a 96 GB card (AWS g7e.2xlarge, Colab G4); 80 GB cards
+work for scoring but DPO training on 80 GB is untested. Disk: at least 150 GB free (Qwen weights alone are about 66 GB).
 First run on a machine: about 15 to 30 minutes of setup (packages, images, model download).
+Prefer AWS for the long jobs: a Colab session that disconnects loses its disk. On AWS the message "Drive is not mounted" is expected; ignore it.
 
 ## The three jobs
 | Who | Command (inside gemma_aws/) | GPU | Time |
 |---|---|---|---|
-| Atharv | `python3 main_run.py --model gemma --job fixeval --dpo-zip <path to dpo_results_1127_1426.zip>` | any GPU with 40 GB or more; the zip from his DPO run supplies the adapters (not needed if the machine still has ~/idea3_gemma_speech/gs/final_omni/results/gemma_dpo) | 3 to 4 h |
+| Atharv | `python3 main_run.py --model gemma --job fixeval --dpo-zip <path to dpo_results_1127_1426.zip>` | any GPU with 40 GB or more. The zip is the one his DPO run produced (477 MB; also on Delta at idea3_face_bias/final_omni/gemma_aws/dpo_results_1127_1426.zip); copy it to the machine first, e.g. with scp. Not needed if the machine still has ~/idea3_gemma_speech/gs/final_omni/results/gemma_dpo | 3 to 4 h |
 | Shiv | `python3 main_run.py --model qwen --job dpo` | 96 GB (g7e / G4) | 8 to 12 h |
 | Yash | `python3 main_run.py --model qwen --job steering` | 96 GB (the Qwen pilot instance) | 8 to 10 h |
 
@@ -32,6 +34,8 @@ Each run ends with `RESULTS ZIP: ~/idea3_gemma_speech/<model>_<job>_results_*.zi
 ## Afterwards
 Qwen fixeval needs the Qwen steering and DPO results on one machine; Claude will combine them. Then the freeze (Yash approves) and the
 test-split run. The fixeval log prints which DPO adapters it found; if it says NONE, rerun with --dpo-zip.
+
+If a run prints "STOPPED BY A GATE" or "stage failed", send the last 50 lines of the log to Yash; rerunning the same command resumes after a fix.
 
 ## Please do not
 Change settings, cues or rules without telling Yash. Do not run anything on the test split.

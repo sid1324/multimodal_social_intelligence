@@ -258,7 +258,7 @@ def report():
         if cands:
             best, flag = choose({m: T[m][ch] for m in T}, T['base'][ch], cands, lambda m: (int(m.rsplit('e', 1)[1]),))
             sel[v] = {'chosen': best, 'selected_on': ch, 'fallback_used': flag}
-    md = [f'# DPO on Gemma 4 12B, validation, {lv}', '', 'Epoch chosen per variant by the midterm rule (DPO-text on typed remarks, DPO-multi on the mean of typed and spoken).', '',
+    md = [f'# DPO on {gs.MODEL}, validation, {lv}', '', 'Epoch chosen per variant by the midterm rule (DPO-text on typed remarks, DPO-multi on the mean of typed and spoken).', '',
           '| Format | Method | Acc, no remark | Appearance flips | Floor | Behavior flips | Change in appearance flips vs base |', '|---|---|---|---|---|---|---|']
     S = {'selection': sel, 'table': T}
     for ch in ('text', 'speech'):

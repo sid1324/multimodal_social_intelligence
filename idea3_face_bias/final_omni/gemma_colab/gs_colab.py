@@ -26,8 +26,9 @@ def env(stop_at=None):
 
 def gpu_check(min_gb=38):
     out = subprocess.run('nvidia-smi --query-gpu=name,memory.total --format=csv,noheader,nounits', shell=True, capture_output=True, text=True).stdout.strip()
-    print('GPU:', out or 'NONE'); assert out, 'No GPU. Choose A100 and connect again.'
-    assert int(out.splitlines()[0].split(',')[1]) > min_gb * 1000, 'GPU is smaller than expected (need about 40 GB: A100, H100 or G4); disconnect so it does not use units.'
+    print('GPU:', out or 'NONE')
+    assert out and ',' in out, 'No GPU found. Choose a GPU machine (A100, L40S, G4 or g7e) and connect again.'
+    assert int(out.splitlines()[0].split(',')[1]) > min_gb * 1000, f'GPU is smaller than this model needs (about {min_gb + 2} GB or more); disconnect so it does not cost money.'
 
 
 def copy_new(src, dst):
@@ -76,7 +77,7 @@ def setup():
     wmark = HF / ('.weights_ok' if MODEL_ID == 'google/gemma-4-12B-it' else f'.weights_ok_{REV[:8]}')
     if not wmark.exists():
         e2 = dict(env(), HF_HUB_OFFLINE='0', TRANSFORMERS_OFFLINE='0')
-        print('Downloading the model (about 24 GB)', flush=True)
+        print(f'Downloading {MODEL_ID} (Gemma about 24 GB, Qwen3-Omni about 66 GB)', flush=True)
         sh([str(PY), '-c', f"from huggingface_hub import snapshot_download as s; print(s('{MODEL_ID}', revision='{REV}', max_workers=16))"], env=e2); wmark.touch()
     out = subprocess.run([str(PY), '-c', 'import torch, transformers, PIL; print(torch.__version__, transformers.__version__, PIL.__version__, torch.cuda.get_device_name(0), torch.cuda.is_bf16_supported())'], env=env(), capture_output=True, text=True)
     print('environment:', out.stdout.strip() or out.stderr[-600:])
